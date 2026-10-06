@@ -26,6 +26,7 @@ Le Blob Principle a été développé seul, de façon indépendante, depuis le d
 
 Ce dépôt ouvre donc le programme à tous — chercheurs, étudiants, ingénieurs, curieux — avec une seule boussole : **mener ces recherches à bien et ouvrir une voie scientifique nouvelle**. L'ambition est que le Blob Principle devienne une candidate TOE développée en laboratoire ouvert, **portée à la fois par le public et par les scientifiques**.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23188586.svg)](https://doi.org/10.5281/zenodo.23188586)
 [![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BlobPrinciple/The-blob-Principle/blob/main/Cassez_le_Blob_Colab.ipynb)
 
 ▶️ **Essayez en un clic : [carnet Colab « Cassez le Blob »](https://colab.research.google.com/github/BlobPrinciple/The-blob-Principle/blob/main/Cassez_le_Blob_Colab.ipynb)** (auto-test du moteur, attendu 4/4)
@@ -68,7 +69,12 @@ L'archive intégrale (toutes les versions depuis V67, 3 156 contenus distincts, 
 
 ## Citer ce travail
 
-Mirante, R. (2026). *The Blob Principle — la théorie de la viabilité. Corpus de recherche ouvert, version 1.0.* GitHub : https://github.com/BlobPrinciple/The-blob-Principle. Zenodo. DOI attribué à la publication (voir le badge Zenodo et [CITATION.cff](CITATION.cff)).
+Mirante, R. (2026). *The Blob Principle — la théorie de la viabilité. Corpus de recherche ouvert, version 1.0.1.* GitHub : https://github.com/BlobPrinciple/The-blob-Principle. Zenodo. https://doi.org/10.5281/zenodo.23188586
+
+- **DOI de toutes les versions (à citer par défaut)** : [10.5281/zenodo.23188586](https://doi.org/10.5281/zenodo.23188586) — pointe toujours vers la dernière version.
+- **DOI de la version 1.0.1** : [10.5281/zenodo.23188587](https://doi.org/10.5281/zenodo.23188587).
+
+Voir aussi [CITATION.cff](CITATION.cff).
 
 ---
 

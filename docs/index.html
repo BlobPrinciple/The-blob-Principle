@@ -374,8 +374,8 @@ html[lang="en"] [data-l="en"]{display:revert}
 
   <footer>
     <span>© 2026 Rudolphe Mirante · The Blob Principle</span>
-    <span id="repo-line" data-l="fr">Dépôt GitHub et DOI Zenodo : mise en ligne en cours</span>
-    <span id="repo-line-en" data-l="en">GitHub repository and Zenodo DOI: going live</span>
+    <span id="repo-line" data-l="fr">DOI 10.5281/zenodo.23188586</span>
+    <span id="repo-line-en" data-l="en">DOI 10.5281/zenodo.23188586</span>
   </footer>
 </div>
 
@@ -386,7 +386,7 @@ html[lang="en"] [data-l="en"]{display:revert}
   if (REPO) {
     document.querySelectorAll(".js-repo").forEach(function(a){ a.href = REPO + a.dataset.path; });
     var fr = document.getElementById("repo-line"), en = document.getElementById("repo-line-en");
-    fr.innerHTML = '<a href="'+REPO+'">Dépôt GitHub</a>'; en.innerHTML = '<a href="'+REPO+'">GitHub repository</a>';
+    fr.innerHTML = '<a href="'+REPO+'">Dépôt GitHub</a> · DOI <a href="https://doi.org/10.5281/zenodo.23188586">10.5281/zenodo.23188586</a>'; en.innerHTML = '<a href="'+REPO+'">GitHub repository</a> · DOI <a href="https://doi.org/10.5281/zenodo.23188586">10.5281/zenodo.23188586</a>';
   }
 
   // Langue
