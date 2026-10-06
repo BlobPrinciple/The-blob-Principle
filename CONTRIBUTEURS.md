@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/CONTRIBUTORS.md)
+
 # Contributeurs
 
 ## Auteur

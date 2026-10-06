@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](../en/LICENSE_BOOKS_ALL-RIGHTS-RESERVED.md)
+
 # Conditions d'utilisation des livres
 
 **Œuvres concernées** — tous les fichiers du dossier `livres/` :

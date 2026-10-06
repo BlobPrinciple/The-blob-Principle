@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/AUTHORSHIP.md)
+
 # Déclaration de paternité et d'antériorité
 
 Je soussigné **Rudolphe Mirante** (ORCID [0009-0001-0990-7122](https://orcid.org/0009-0001-0990-7122)), chercheur indépendant (Hâpy-Com SASU, Serris, France), déclare être l'**auteur unique** et le **concepteur original** du programme de recherche intitulé **The Blob Principle**, également désigné **théorie de la viabilité** ou **principe de viabilité**, ainsi que de l'ensemble des œuvres publiées dans ce dépôt : versions maîtresses, armature canonique, scripts, données, campagnes, audits et livres.

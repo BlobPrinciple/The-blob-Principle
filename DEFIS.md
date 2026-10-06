@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/CHALLENGES.md)
+
 # Les défis du Blob — « Cassez le Blob »
 
 > **TOE démontrée : NON.** Le Blob Principle ne demande pas à être cru. Il demande à être **éprouvé**.

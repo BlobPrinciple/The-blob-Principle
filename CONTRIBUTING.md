@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/CONTRIBUTING.md)
+
 # Contribuer au laboratoire du Blob Principle
 
 Merci de vouloir éprouver le Blob Principle. Ce document fixe les règles, reprises de l'armature canonique V347.1 (Livre III, § III.2).

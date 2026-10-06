@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/CLA.md)
+
 # Accord de contribution au Blob Principle (CLA) — version 1.0
 
 Le présent accord est conclu entre **toute personne qui soumet une contribution** au dépôt « The Blob Principle » (ci-après « le Contributeur ») et **Rudolphe Mirante**, auteur du Blob Principle (ci-après « l'Auteur »).

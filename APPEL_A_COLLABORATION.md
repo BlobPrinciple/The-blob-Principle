@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/CALL_FOR_COLLABORATION.md)
+
 # Appel à collaboration — ouverture du laboratoire public du Blob Principle
 
 *Par Rudolphe Mirante, auteur du Blob Principle — 6 octobre 2026*

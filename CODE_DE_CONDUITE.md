@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/CODE_OF_CONDUCT.md)
+
 # Code de conduite
 
 Le laboratoire du Blob Principle est un lieu de travail scientifique ouvert à tous.

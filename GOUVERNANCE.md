@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/GOVERNANCE.md)
+
 # Gouvernance du laboratoire
 
 ## Auteur et direction scientifique

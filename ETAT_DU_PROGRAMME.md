@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/PROGRAMME_STATUS.md)
+
 # État du programme — octobre 2026
 
 *Note d'état rédigée pour l'ouverture du laboratoire public (version 1.0 du dépôt, 6 octobre 2026). Elle s'appuie exclusivement sur l'armature canonique V347.1 (9 septembre 2026) et sur l'audit d'organisation du corpus (24 septembre 2026), tous deux publiés ici. En cas de divergence, l'armature V347.1 fait foi.*

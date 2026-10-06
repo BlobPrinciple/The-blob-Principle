@@ -1,3 +1,5 @@
+🇫🇷 Français · 🇬🇧 [English version](en/LICENSE.md)
+
 # Licences du dépôt « The Blob Principle »
 
 Copyright © 2026 **Rudolphe Mirante**. Tous droits réservés, sous réserve des licences ci-dessous.
