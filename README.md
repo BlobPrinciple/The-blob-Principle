@@ -29,6 +29,8 @@ Ce dépôt ouvre donc le programme à tous — chercheurs, étudiants, ingénieu
 [![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/BlobPrinciple/The-blob-Principle/blob/main/Cassez_le_Blob_Colab.ipynb)
 
 ▶️ **Essayez en un clic : [carnet Colab « Cassez le Blob »](https://colab.research.google.com/github/BlobPrinciple/The-blob-Principle/blob/main/Cassez_le_Blob_Colab.ipynb)** (auto-test du moteur, attendu 4/4)
+🌐 **Site du laboratoire : [blobprinciple.github.io/The-blob-Principle](https://blobprinciple.github.io/The-blob-Principle/)**
+💬 **Discuter, poser une question, proposer une idée : [Discussions](https://github.com/BlobPrinciple/The-blob-Principle/discussions)**
 🎯 **Relevez un défi — « Cassez le Blob » : [DEFIS.md](DEFIS.md)**
 ➡️ **Lire l'appel : [APPEL_A_COLLABORATION.md](APPEL_A_COLLABORATION.md)**
 ➡️ **Où en est la science : [ETAT_DU_PROGRAMME.md](ETAT_DU_PROGRAMME.md)**
