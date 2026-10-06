@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://blobprinciple.github.io/The-blob-Principle/sitemap.xml

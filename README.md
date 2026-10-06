@@ -64,7 +64,7 @@ L'archive intégrale (toutes les versions depuis V67, 3 156 contenus distincts, 
 ## Par où commencer
 
 1. **Grand public** — l'[édition grand public 2026](livres/edition-2026_grand-public/), puis [*Du simplexe au complexe*, livre 3](livres/du-simplexe-au-complexe/livre-3_juillet-2026/).
-2. **Scientifiques** — l'[armature canonique V347.1](corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V347_1_ARMATURE_CANONIQUE.pdf) (29 pages : le récit, son jumeau mathématique, le registre des 27 recherches ouvertes), puis le master V346 pour le détail.
+2. **Scientifiques** — l'[armature canonique V347.1 (page en ligne)](https://blobprinciple.github.io/The-blob-Principle/armature/), [PDF](corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V347_1_ARMATURE_CANONIQUE.pdf) (29 pages : le récit, son jumeau mathématique, le registre des 27 recherches ouvertes), puis le master V346 pour le détail.
 3. **Contributeurs** — choisissez un [défi](DEFIS.md) à votre niveau (du lecteur curieux au spécialiste), ou une recherche ouverte dans [ETAT_DU_PROGRAMME.md](ETAT_DU_PROGRAMME.md), et ouvrez une *issue*.
 
 ## Citer ce travail
