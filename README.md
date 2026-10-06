@@ -69,10 +69,10 @@ L'archive intégrale (toutes les versions depuis V67, 3 156 contenus distincts, 
 
 ## Citer ce travail
 
-Mirante, R. (2026). *The Blob Principle — la théorie de la viabilité. Corpus de recherche ouvert, version 1.0.1.* GitHub : https://github.com/BlobPrinciple/The-blob-Principle. Zenodo. https://doi.org/10.5281/zenodo.23188586
+Mirante, R. (2026). *The Blob Principle — la théorie de la viabilité. Corpus de recherche ouvert, version 1.0.2.* GitHub : https://github.com/BlobPrinciple/The-blob-Principle. Zenodo. https://doi.org/10.5281/zenodo.23188586
 
 - **DOI de toutes les versions (à citer par défaut)** : [10.5281/zenodo.23188586](https://doi.org/10.5281/zenodo.23188586) — pointe toujours vers la dernière version.
-- **DOI de la version 1.0.1** : [10.5281/zenodo.23188587](https://doi.org/10.5281/zenodo.23188587).
+- **DOI de la version 1.0.2** : [10.5281/zenodo.23191836](https://doi.org/10.5281/zenodo.23191836).
 
 Voir aussi [CITATION.cff](CITATION.cff).
 
