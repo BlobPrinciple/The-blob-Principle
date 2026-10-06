@@ -25,7 +25,7 @@ c0af89f350589603fd7dc206650eb1ba7d55dbf3f968ec62a5010aa9f5a4b19c  ./GOUVERNANCE.
 beb2ce2d536fc9be18a2fe51c5aacb2e33c6c89747b356e1d434c6472c47dad0  ./LICENCES/LIVRES_TOUS-DROITS-RESERVES.md
 c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5  ./LICENCES/PolyForm-Noncommercial-1.0.0.md
 71ac7b8d727768636c01b2258f0c0e1a0a4688759989a879d556d7a7f6c012ce  ./PATERNITE.md
-4ebb442206967dd2a5faad5e2e0094df83957f3d35343134cc345a3ded8b42fd  ./README.md
+2484cc3600d330ad9e1d34bdc89c017e9ec9d8f82275ad49ed63c6502ff138dd  ./README.md
 9d1fa419a8332e0e7ad741d38e3efc7e844b4e9a5c50417a52352f9a506ed34c  ./contributions/LISEZ-MOI.md
 e815a2896495026ba5c498f11f9ed046ac876e82a1c9a51242d2cf3baa874131  ./corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V346_complet.pdf
 9fba7d69d2d778ad4753e1133432c878d71e875b6eea8c2213412142761ab405  ./corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V347_1_ARMATURE_CANONIQUE.pdf
@@ -441,7 +441,10 @@ d5566adfc690cab651ef16f17bb72fc1c6f1eb1a22e5c8ad4244ad78be51a6a3  ./livres/le-bl
 b33d6ebe731fc2830e4f9bd9613edeaaf718131044057430fdcf5c468f4e0f0b  ./livres/le-blob-surnaturel/v3_version-finale/Le-Blob-Surnaturel_V3_livre-complet.docx
 ec1be830f3518b081929f684b7b4fa9a8996da555f7221122c00f97485dfbbb9  ./livres/le-blob-surnaturel/v3_version-finale/Le-Blob-Surnaturel_V3_livre-complet.pdf
 40a8881e91a15cba1f3f594b6e2855bf70413e67b09acfc3a7ebeb53ceb33f9d  ./livres/le-blob-surnaturel/v3_version-finale/Sommaire.md
-95c3774daff1f51e874cc5be9d7d81f3ed68a5900c1e71d7e7cb3213b26694f7  ./docs/armature/index.html
+6ea362df074433b7b9113b05d99a40c7da31076c1e600afcc8f706912ece6d9f  ./docs/armature/index.html
 9fba7d69d2d778ad4753e1133432c878d71e875b6eea8c2213412142761ab405  ./docs/armature/blob-principle-armature-V347-1.pdf
-3e83c41364571011dd5515d5bab6a9596bbcd5557cc5005d44d6694dd6daf209  ./docs/sitemap.xml
+a7b2e6b9250b6414595b6c9bdc5248726a9eb7f0e45743aadeb722e91c08fe3b  ./docs/sitemap.xml
 427e93802cc54ce9bc22f69f260162d13024c43b9e2753c824894b1d9a5e1e18  ./docs/robots.txt
+418a414c77b674fa7ea8f40150627646fbbba6cf6a1d96801938bc8bf988e1d5  ./corpus/00_master_courant/EN/armature_V347-1_EN.md
+372b022315aa19db2cda0439fcc732b157016584080661bbecca37a3b402ac4c  ./corpus/00_master_courant/EN/armature_V347-1_EN.pdf
+372b022315aa19db2cda0439fcc732b157016584080661bbecca37a3b402ac4c  ./docs/armature/blob-principle-armature-V347-1_EN.pdf
