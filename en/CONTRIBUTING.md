@@ -43,6 +43,7 @@ Rules: failures are shown first; nothing retracted is resurrected; no identifica
 - A claim without reproducibility, or the promotion of an analogy to an identity.
 - Code submitted under an incompatible licence, or of which you are not the author.
 - Any presentation of a contribution as a distinct theory claiming authorship of the Blob Principle.
+- **Unverifiable work.** Every contribution must be checkable by a third party: files actually present in the PR, quoted values traceable in the corpus (file and line), and a command that reproduces the result. Batch-generated submissions lacking these elements are closed without review on the merits. Using an AI is welcome, provided you declare it and have checked what you submit yourself.
 
 ## 6. Conduct
 

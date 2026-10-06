@@ -43,6 +43,7 @@ Règles : les échecs sont montrés en premier ; rien de rétracté n'est ressus
 - Une revendication sans reproductibilité, ou une promotion d'analogie en identité.
 - Un code soumis à une licence incompatible, ou dont vous n'êtes pas l'auteur.
 - Toute présentation d'une contribution comme une théorie distincte revendiquant la paternité du Blob Principle.
+- **Un travail non vérifiable.** Toute contribution doit pouvoir être contrôlée par un tiers : fichiers réellement présents dans la PR, valeurs citées retrouvables dans le corpus (fichier et ligne), commande permettant de reproduire le résultat. Les envois générés automatiquement en série, sans ces éléments, sont fermés sans examen sur le fond. L'usage d'une IA est bienvenu, à condition de le déclarer et d'avoir vous-même vérifié ce que vous soumettez.
 
 ## 6. Conduite
 
