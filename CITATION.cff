@@ -6,6 +6,7 @@ authors:
   - family-names: Mirante
     given-names: Rudolphe
     affiliation: "Chercheur indépendant — Hâpy-Com SASU, Serris, France"
+    orcid: "https://orcid.org/0009-0001-0990-7122"
 type: dataset
 version: "1.0.1"
 doi: "10.5281/zenodo.23188586"

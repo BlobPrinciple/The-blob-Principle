@@ -1,6 +1,6 @@
 # The Blob Principle — la théorie de la viabilité
 
-**Laboratoire public de recherche ouvert par Rudolphe Mirante, auteur et père unique du Blob Principle.**
+**Laboratoire public de recherche ouvert par Rudolphe Mirante, auteur et père unique du Blob Principle.** ORCID : [0009-0001-0990-7122](https://orcid.org/0009-0001-0990-7122)
 
 > **Bloc de statut obligatoire**
 > TOE démontrée : **NON**. Statut scientifique : **programme de recherche spéculatif formalisé, candidat à évaluation externe**.
