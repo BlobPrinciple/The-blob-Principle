@@ -1,0 +1,87 @@
+{
+  "N": 200,
+  "kappa_0": 8,
+  "beta": 0.3,
+  "tau": 0.5,
+  "blob_results": [
+    {
+      "seed": 0,
+      "n_tri": 1112,
+      "n_deconf": 150,
+      "n_in_K4": 962,
+      "f_deconf": 0.13489208633093525
+    },
+    {
+      "seed": 1,
+      "n_tri": 1655,
+      "n_deconf": 134,
+      "n_in_K4": 1521,
+      "f_deconf": 0.0809667673716012
+    },
+    {
+      "seed": 2,
+      "n_tri": 1218,
+      "n_deconf": 139,
+      "n_in_K4": 1079,
+      "f_deconf": 0.11412151067323481
+    },
+    {
+      "seed": 3,
+      "n_tri": 1231,
+      "n_deconf": 114,
+      "n_in_K4": 1117,
+      "f_deconf": 0.0926076360682372
+    },
+    {
+      "seed": 4,
+      "n_tri": 1200,
+      "n_deconf": 150,
+      "n_in_K4": 1050,
+      "f_deconf": 0.125
+    }
+  ],
+  "er_results": [
+    {
+      "seed": 0,
+      "n_tri": 87,
+      "n_deconf": 87,
+      "n_in_K4": 0,
+      "f_deconf": 1.0
+    },
+    {
+      "seed": 1,
+      "n_tri": 77,
+      "n_deconf": 77,
+      "n_in_K4": 0,
+      "f_deconf": 1.0
+    },
+    {
+      "seed": 2,
+      "n_tri": 73,
+      "n_deconf": 73,
+      "n_in_K4": 0,
+      "f_deconf": 1.0
+    },
+    {
+      "seed": 3,
+      "n_tri": 85,
+      "n_deconf": 85,
+      "n_in_K4": 0,
+      "f_deconf": 1.0
+    },
+    {
+      "seed": 4,
+      "n_tri": 75,
+      "n_deconf": 75,
+      "n_in_K4": 0,
+      "f_deconf": 1.0
+    }
+  ],
+  "blob_f_deconf_mean": 0.1095176000888017,
+  "blob_f_deconf_std": 0.02002928947194236,
+  "er_f_deconf_mean": 1.0,
+  "er_f_deconf_std": 0.0,
+  "suppression_pct": null,
+  "dS_per_K4_addition": 0.0023333603182255098,
+  "boltzmann_factor_log": 186.66882545804077
+}

@@ -1,0 +1,82 @@
+{
+  "session_date": "2026-05-17",
+  "description": "Calibration de la m\u00e9thode d_s eigenvalue-counting sur r\u00e9seaux \u00e0 dimension spectrale connue, et mesure du Blob",
+  "lattices_calibration": {
+    "1D_chain": {
+      "N": 1000,
+      "d_s_theoretical": 1.0,
+      "d_s_eigvals": 1.006,
+      "d_s_heat": 0.97,
+      "R2_eig": 1.0,
+      "R2_heat": 0.999
+    },
+    "2D_lattice_30x30": {
+      "N": 900,
+      "d_s_theoretical": 2.0,
+      "d_s_eigvals": 1.84,
+      "d_s_heat": 1.925,
+      "R2_eig": 0.994,
+      "R2_heat": 0.996
+    },
+    "3D_cubic_10x10x10": {
+      "N": 1000,
+      "d_s_theoretical": 3.0,
+      "d_s_eigvals": 2.523,
+      "d_s_heat": 2.854,
+      "R2_eig": 0.981,
+      "R2_heat": 0.999
+    }
+  },
+  "bias_factors_at_d_eq_3": {
+    "eigvals": 1.189,
+    "heat_kernel": 1.051,
+    "note": "facteur multiplicatif pour ramener mesure brute vers v\u00e9rit\u00e9"
+  },
+  "blob_measurements_N500_PhaseA": {
+    "n_seeds": 3,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "n_tri_per_seed": [
+      3216,
+      3251,
+      3029
+    ],
+    "d_s_eigvals_raw": {
+      "mean": 2.545,
+      "std": 0.081,
+      "per_seed": [
+        2.436,
+        2.632,
+        2.566
+      ]
+    },
+    "d_s_heat_raw": {
+      "mean": 1.728,
+      "std": 0.036,
+      "per_seed": [
+        1.682,
+        1.731,
+        1.77
+      ]
+    },
+    "d_s_eigvals_corrected": {
+      "mean": 3.03,
+      "std": 0.1,
+      "method": "raw * 3.00 / 2.523"
+    },
+    "d_s_heat_corrected": {
+      "mean": 1.82,
+      "std": 0.04,
+      "method": "raw * 3.00 / 2.854"
+    }
+  },
+  "interpretation": "Running de la dimension spectrale entre d_s^IR \u2248 3.0 (grandes \u00e9chelles, basses fr\u00e9quences) et d_s^UV \u2248 1.8 (\u00e9chelles interm\u00e9diaires). Pattern qualitativement comparable \u00e0 la r\u00e9duction dimensionnelle observ\u00e9e en CDT (Ambjorn et al., PRL 95, 171301, 2005).",
+  "caveats": [
+    "Calibration \u00e0 d=3 sur r\u00e9seau cubique 10x10x10 ; biais r\u00e9siduel possible \u00e0 plus grand N \u00e0 v\u00e9rifier (15x15x15, 20x20x20).",
+    "La comparaison \u00e0 CDT est qualitative (m\u00eame direction du running) et non quantitative (m\u00e9canismes diff\u00e9rents).",
+    "Seulement 3 seeds Blob : \u00e0 reproduire avec 20 seeds pour barres d'erreur publication."
+  ]
+}

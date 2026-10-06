@@ -1,0 +1,1408 @@
+{
+  "config": {
+    "N_target": 5000,
+    "paliers_N": [
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      5000
+    ],
+    "n_seeds": 3,
+    "run_null": true,
+    "total_time_s": 30.443801164627075
+  },
+  "blob_aggregated": {
+    "100": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "200": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "500": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "1000": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "2000": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "5000": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "null_aggregated": {
+    "100": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "200": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "500": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "1000": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "2000": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "5000": {
+      "PHI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "PSI": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "Q1": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "D": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "r3": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "log_ntetra_over_log_N": [
+        NaN,
+        NaN,
+        NaN
+      ],
+      "PHI_over_ntetra": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "n_tri": [
+        0,
+        0,
+        0
+      ],
+      "n_tetra": [
+        0,
+        0,
+        0
+      ],
+      "Q3": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "all_results_blob": [
+    {
+      "seed": 0,
+      "mode": "blob",
+      "final_step": 4960213,
+      "final_state": {
+        "N": 5000,
+        "E": 0,
+        "n_tri": 0,
+        "n_tetra": 0,
+        "D": 0.0,
+        "PHI": 0.0,
+        "Q1": 0.0,
+        "PSI": 0.0,
+        "Q3": 0.0
+      },
+      "first_edge_step": null,
+      "first_triangle_step": null,
+      "first_tetrahedron_step": null,
+      "tri_recount": 0,
+      "coherent": true,
+      "snapshots": [
+        {
+          "step": 110340,
+          "N": 100,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.09415793418884277,
+          "palier_N": 100
+        },
+        {
+          "step": 197310,
+          "N": 200,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.17129182815551758,
+          "palier_N": 200
+        },
+        {
+          "step": 480572,
+          "N": 500,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.4325103759765625,
+          "palier_N": 500
+        },
+        {
+          "step": 982087,
+          "N": 1000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.8929965496063232,
+          "palier_N": 1000
+        },
+        {
+          "step": 1993036,
+          "N": 2000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 1.8197431564331055,
+          "palier_N": 2000
+        },
+        {
+          "step": 4960213,
+          "N": 5000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 4.547176361083984,
+          "palier_N": 5000
+        }
+      ],
+      "total_time_s": 4.551110744476318
+    },
+    {
+      "seed": 1,
+      "mode": "blob",
+      "final_step": 4879836,
+      "final_state": {
+        "N": 5000,
+        "E": 0,
+        "n_tri": 0,
+        "n_tetra": 0,
+        "D": 0.0,
+        "PHI": 0.0,
+        "Q1": 0.0,
+        "PSI": 0.0,
+        "Q3": 0.0
+      },
+      "first_edge_step": null,
+      "first_triangle_step": null,
+      "first_tetrahedron_step": null,
+      "tri_recount": 0,
+      "coherent": true,
+      "snapshots": [
+        {
+          "step": 104178,
+          "N": 100,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.08831524848937988,
+          "palier_N": 100
+        },
+        {
+          "step": 212583,
+          "N": 200,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.18622946739196777,
+          "palier_N": 200
+        },
+        {
+          "step": 511216,
+          "N": 500,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.47722578048706055,
+          "palier_N": 500
+        },
+        {
+          "step": 1004162,
+          "N": 1000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 1.1290826797485352,
+          "palier_N": 1000
+        },
+        {
+          "step": 1979184,
+          "N": 2000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 2.865739107131958,
+          "palier_N": 2000
+        },
+        {
+          "step": 4879836,
+          "N": 5000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 5.939868211746216,
+          "palier_N": 5000
+        }
+      ],
+      "total_time_s": 5.9437103271484375
+    },
+    {
+      "seed": 2,
+      "mode": "blob",
+      "final_step": 5098233,
+      "final_state": {
+        "N": 5000,
+        "E": 0,
+        "n_tri": 0,
+        "n_tetra": 0,
+        "D": 0.0,
+        "PHI": 0.0,
+        "Q1": 0.0,
+        "PSI": 0.0,
+        "Q3": 0.0
+      },
+      "first_edge_step": null,
+      "first_triangle_step": null,
+      "first_tetrahedron_step": null,
+      "tri_recount": 0,
+      "coherent": true,
+      "snapshots": [
+        {
+          "step": 97866,
+          "N": 100,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.08652639389038086,
+          "palier_N": 100
+        },
+        {
+          "step": 185281,
+          "N": 200,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.1663224697113037,
+          "palier_N": 200
+        },
+        {
+          "step": 499102,
+          "N": 500,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.4523904323577881,
+          "palier_N": 500
+        },
+        {
+          "step": 1009721,
+          "N": 1000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.918428897857666,
+          "palier_N": 1000
+        },
+        {
+          "step": 2057046,
+          "N": 2000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 1.870999813079834,
+          "palier_N": 2000
+        },
+        {
+          "step": 5098233,
+          "N": 5000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 4.639813423156738,
+          "palier_N": 5000
+        }
+      ],
+      "total_time_s": 4.6428306102752686
+    }
+  ],
+  "all_results_null": [
+    {
+      "seed": 0,
+      "mode": "null",
+      "final_step": 4960213,
+      "final_state": {
+        "N": 5000,
+        "E": 0,
+        "n_tri": 0,
+        "n_tetra": 0,
+        "D": 0.0,
+        "PHI": 0.0,
+        "Q1": 0.0,
+        "PSI": 0.0,
+        "Q3": 0.0
+      },
+      "first_edge_step": null,
+      "first_triangle_step": null,
+      "first_tetrahedron_step": null,
+      "tri_recount": 0,
+      "coherent": true,
+      "snapshots": [
+        {
+          "step": 110340,
+          "N": 100,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.09701919555664062,
+          "palier_N": 100
+        },
+        {
+          "step": 197310,
+          "N": 200,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.17535638809204102,
+          "palier_N": 200
+        },
+        {
+          "step": 480572,
+          "N": 500,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.4462594985961914,
+          "palier_N": 500
+        },
+        {
+          "step": 982087,
+          "N": 1000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.9006223678588867,
+          "palier_N": 1000
+        },
+        {
+          "step": 1993036,
+          "N": 2000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 1.7996103763580322,
+          "palier_N": 2000
+        },
+        {
+          "step": 4960213,
+          "N": 5000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 5.751242399215698,
+          "palier_N": 5000
+        }
+      ],
+      "total_time_s": 5.75531005859375
+    },
+    {
+      "seed": 1,
+      "mode": "null",
+      "final_step": 4879836,
+      "final_state": {
+        "N": 5000,
+        "E": 0,
+        "n_tri": 0,
+        "n_tetra": 0,
+        "D": 0.0,
+        "PHI": 0.0,
+        "Q1": 0.0,
+        "PSI": 0.0,
+        "Q3": 0.0
+      },
+      "first_edge_step": null,
+      "first_triangle_step": null,
+      "first_tetrahedron_step": null,
+      "tri_recount": 0,
+      "coherent": true,
+      "snapshots": [
+        {
+          "step": 104178,
+          "N": 100,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.18238449096679688,
+          "palier_N": 100
+        },
+        {
+          "step": 212583,
+          "N": 200,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.27782368659973145,
+          "palier_N": 200
+        },
+        {
+          "step": 511216,
+          "N": 500,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.53977370262146,
+          "palier_N": 500
+        },
+        {
+          "step": 1004162,
+          "N": 1000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.9957013130187988,
+          "palier_N": 1000
+        },
+        {
+          "step": 1979184,
+          "N": 2000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 1.8581156730651855,
+          "palier_N": 2000
+        },
+        {
+          "step": 4879836,
+          "N": 5000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 4.4382405281066895,
+          "palier_N": 5000
+        }
+      ],
+      "total_time_s": 4.441474199295044
+    },
+    {
+      "seed": 2,
+      "mode": "null",
+      "final_step": 5098233,
+      "final_state": {
+        "N": 5000,
+        "E": 0,
+        "n_tri": 0,
+        "n_tetra": 0,
+        "D": 0.0,
+        "PHI": 0.0,
+        "Q1": 0.0,
+        "PSI": 0.0,
+        "Q3": 0.0
+      },
+      "first_edge_step": null,
+      "first_triangle_step": null,
+      "first_tetrahedron_step": null,
+      "tri_recount": 0,
+      "coherent": true,
+      "snapshots": [
+        {
+          "step": 97866,
+          "N": 100,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.08602142333984375,
+          "palier_N": 100
+        },
+        {
+          "step": 185281,
+          "N": 200,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.1623835563659668,
+          "palier_N": 200
+        },
+        {
+          "step": 499102,
+          "N": 500,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.4576559066772461,
+          "palier_N": 500
+        },
+        {
+          "step": 1009721,
+          "N": 1000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 0.9014890193939209,
+          "palier_N": 1000
+        },
+        {
+          "step": 2057046,
+          "N": 2000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 1.838221788406372,
+          "palier_N": 2000
+        },
+        {
+          "step": 5098233,
+          "N": 5000,
+          "E": 0,
+          "n_tri": 0,
+          "n_tetra": 0,
+          "D": 0.0,
+          "Q1": 0.0,
+          "PHI": 0.0,
+          "PSI": 0.0,
+          "Q3": 0.0,
+          "r3": 0.0,
+          "log_ntetra_over_log_N": NaN,
+          "PHI_over_ntetra": 0.0,
+          "time_total_s": 4.537752866744995,
+          "palier_N": 5000
+        }
+      ],
+      "total_time_s": 4.540876150131226
+    }
+  ],
+  "fits": {
+    "PHI_alpha": [],
+    "n_tetra_beta": []
+  }
+}

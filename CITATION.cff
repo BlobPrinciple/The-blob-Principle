@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ou critiquez ce travail, merci de le citer ainsi. / If you use or discuss this work, please cite it as below."
+title: "The Blob Principle — la théorie de la viabilité. Corpus de recherche ouvert"
+abstract: "Candidate humble à une théorie du tout et à une cosmogonie complète, fondée sur une fonctionnelle de viabilité définie sur des complexes simpliciaux finis. Statut : TOE démontrée NON ; portes G0–G5 ouvertes, G6 externe, portes physiques 0/7. Le corpus comprend le master V346 (1 918 p.), l'armature canonique V347.1 et son registre de 27 recherches ouvertes, scripts, données, campagnes, audits et livres."
+authors:
+  - family-names: Mirante
+    given-names: Rudolphe
+    affiliation: "Chercheur indépendant — Hâpy-Com SASU, Serris, France"
+type: dataset
+version: "1.0.0"
+date-released: "2026-10-06"
+license: CC-BY-NC-ND-4.0
+keywords:
+  - Blob Principle
+  - théorie de la viabilité
+  - viability principle
+  - théorie du tout
+  - theory of everything
+  - cosmogonie
+  - complexes simpliciaux
+  - gravité quantique émergente
+  - groupe de renormalisation
+  - science ouverte

@@ -1,0 +1,8 @@
+{
+  "step": 5000,
+  "num_nodes": 58,
+  "num_edges": 1070,
+  "num_tetrahedra": 82474,
+  "correlation": -0.9416165046292275,
+  "p_value": 0.0
+}

@@ -1,0 +1,352 @@
+{
+  "version": "v93-consolidated-April2026",
+  "description": "Corpus verrouillé Blob Principle — données tracées reproductibles",
+  "author": "Rudolphe Mirante",
+  "locked_measurements_M": {
+    "ds_N3000": {
+      "value": 3.045,
+      "uncertainty": 0.026,
+      "seeds": 20,
+      "p": 3.7e-22
+    },
+    "ds_N1000": {
+      "value": 2.847,
+      "uncertainty": 0.082,
+      "seeds": 5
+    },
+    "ds_N500": {
+      "value": 2.887,
+      "uncertainty": 0.094,
+      "seeds": 6
+    },
+    "ds_N300": {
+      "value": 2.908,
+      "uncertainty": 0.061,
+      "seeds": 6
+    },
+    "ds_null_N3000": {
+      "value": 3.69,
+      "uncertainty": 0.028
+    },
+    "tau_c": {
+      "value": 0.4,
+      "range": "N>=200",
+      "note": "propriété émergente"
+    },
+    "sigma2_peak_N200": {
+      "value": 0.01005
+    },
+    "tri_ratio_N3000": {
+      "value": 3.25,
+      "SNR": 41
+    },
+    "tri_ratio_N10000": {
+      "value": null,
+      "note": "PENDING burn=5N=50000 requis"
+    },
+    "b_Ssim_per_N": {
+      "value": 0.87,
+      "uncertainty": 0.007,
+      "R2": 0.9999,
+      "range": "N=50→3000",
+      "protocol": "burn=5N"
+    },
+    "tau_sym_N1000": {
+      "median": 4510,
+      "std": 97,
+      "seeds": 10,
+      "note": "confirmé par réplication indépendante"
+    },
+    "delta0_measured": {
+      "value": 0.274,
+      "condition": "D_min_obs=0.35"
+    },
+    "NdeltaLog_min": {
+      "value": 0.35,
+      "note": "géométrie Rips pure"
+    },
+    "NbetaDeltaD_measured": {
+      "value": 0.076,
+      "condition": "D_min_obs=0.35"
+    },
+    "four_estimators_N3000": {
+      "heat_kernel_ds": {
+        "value": 3.045,
+        "ci_95": 0.026
+      },
+      "volume_growth_df": {
+        "value": 3.01,
+        "ci_95": 0.1
+      },
+      "random_walk_ds_ind": {
+        "value": 3.01,
+        "ci_95": 0.14
+      },
+      "weyl_law_dWeyl": {
+        "value": 3.02,
+        "ci_95": 0.15
+      }
+    },
+    "tri_enrichment_vs_null_ER": {
+      "label": "M_conditionnel",
+      "description": "Enrichissement n_tri Blob vs null Erdos-Renyi (κ₀=8, burn=10N, 5 seeds)",
+      "note": "Mesure DIFFÉRENTE de v93 (null Rips 3D) — non contradictoire",
+      "E_tri_ER_theoretical": 85.3,
+      "formula": "E[tri_ER] = kappa0^3/6 = 512/6 = 85.3 — CONFIRMÉ",
+      "data": [
+        {
+          "N": 3000,
+          "blob": 1108.0,
+          "null": 84.8,
+          "ratio": 13.07,
+          "SNR_sigma": 129.1,
+          "acc": 0.753
+        },
+        {
+          "N": 5000,
+          "blob": 1223.4,
+          "null": 82.4,
+          "ratio": 14.85,
+          "SNR_sigma": 91.2,
+          "acc": 0.811
+        },
+        {
+          "N": 10000,
+          "blob": 1256.6,
+          "null": 84.4,
+          "ratio": 14.89,
+          "SNR_sigma": 88.8,
+          "acc": 0.874
+        },
+        {
+          "N": 25000,
+          "blob": 1310.6,
+          "null": 79.0,
+          "ratio": 16.59,
+          "SNR_sigma": 107.8,
+          "acc": 0.912
+        }
+      ],
+      "condition_for_M": "Confirmer que Metropolis utilise exp(N·ΔS/τ) et non exp(ΔS/τ)"
+    },
+    "n_tri_quasi_constant_vs_N": {
+      "label": "M_conditionnel",
+      "description": "n_tri(Blob) concentré autour de 1100-1340 pour N=3000-25000",
+      "values": [
+        1108,
+        1223,
+        1257,
+        1311
+      ],
+      "N_values": [
+        3000,
+        5000,
+        10000,
+        25000
+      ],
+      "interpretation": "Sélection intensive (n_tri fixe) plutôt qu'extensive (n_tri ∝ N) — différence avec v93"
+    },
+    "transition_volumique_surfacique": {
+      "label": "M",
+      "N_star": 2500,
+      "observation": "r_3=n_tetra/n_tri max à N*≈2500, puis effondrement Δn_tetra/ΔN",
+      "n_tri_loi": "n_tri ~ N^0.618 ≈ N^(2/3) — signature de L1",
+      "source": "Saut 3.5v4 — dynamique de croissance Blob 2.0"
+    },
+    "r3_ratio_Saut1": {
+      "label": "M",
+      "value": 4.65,
+      "uncertainty": 0.17,
+      "Q3": {
+        "value": 571,
+        "uncertainty": 30
+      },
+      "source": "Saut 1"
+    },
+    "Q3_blob_vs_null_facteur3": {
+      "label": "M",
+      "ratio": 3.0,
+      "description": "Q₃(Blob) < Q₃(null) facteur ~3 — dissipation réduite"
+    },
+    "null_zero_tetra_N200": {
+      "label": "M",
+      "description": "Spécificité absolue : zéro tétraèdre dans null pour N≥200"
+    }
+  },
+  "quasi_proved_Tstar": {
+    "C3_lim_ds_3": {
+      "status": "T*",
+      "upper_bound": "BIK 2014 (Burago-Ivanov-Kurylev) + García Trillos 2020 — voie identifiée",
+      "lower_bound": "LIT + Cheeger + Coulhon-Saloff-Coste",
+      "lacune_Q1": "Adaptation cube [0,1]³ avec bord — estimé 1 jour"
+    },
+    "LIT_isoperimetric": {
+      "status": "T*",
+      "delta0_analytic": {
+        "value": 0.159,
+        "condition": "D_min=1/kappa0=0.125"
+      },
+      "delta0_measured": {
+        "value": 0.274,
+        "condition": "D_min_obs=0.35"
+      },
+      "lacune_L1": "Borne ΔT≥c_geom via Chernoff Bin(N,p_lens) — estimé 1 jour"
+    },
+    "Q3_fleche_temps": {
+      "enonce": "Q₃ = Σ|ΔS| strictement croissante le long de toute trajectoire",
+      "argument": "Monotonie post-arête prouvée + concavité de log(1+n_tri)",
+      "lacune": "Formalisation complète — estimé 1 jour",
+      "label": "T*"
+    }
+  },
+  "exploratory_H": {
+    "enrichissement_N5000_adaptive": {
+      "ratio": 2.71,
+      "SNR_approx": ">5sigma",
+      "acc": 0.968,
+      "note": "Sous-thermalisé (acc=96.8%>60% cible). S/N=0.000870 vs v93_prédit=0.00204. Non incorporable [M] sans burn=5N=25000."
+    },
+    "loi_echelle_Rips_initial_N5k_100k": {
+      "b_approx": 1.0,
+      "S_total_approx": 5.4,
+      "note": "Mesure le graphe Rips initial, pas Gibbs thermalisé. b_Rips≠b_Gibbs(0.870). Cohérent mais non comparable v93."
+    },
+    "matiere_noire_triangles_orphelins": {
+      "concept": "n_tri_orphan / n_tet ratio estimé ≈ 5.4",
+      "note": "H — script décrit, mesures non fournies. Programme O5."
+    },
+    "proto_gravity": {
+      "label": "H",
+      "Einstein_effective": "R_ij - (1/2)R·g_ij = λ·T_ij^Blob — ansatz phénoménologique",
+      "T_ij": "T_ij ~ ∂_i Φ ∂_j Φ — champ scalaire émergent, non dérivé de MCMC",
+      "g_ij_diffusion": "g_ij = lim_{t_N→0} (1/t_N) E[(X^i - x^i)(X^j - x^j)] — [O] à formaliser",
+      "R_DeltaLogPhi": "R ~ Δlog(Φ) — testable par courbure Ollivier [O-SAUT5A]",
+      "d_eff": "d_eff(x,y) = r_N × d_graph(x,y) — définition opérationnelle [T définition]",
+      "note": "Programme de gravité émergente — fondation solide (T3, LIT, C3) — dérivation formelle Einstein: [O] long terme",
+      "ref": "Croydon 2008 (marche aléatoire → Brownien), Ollivier (courbure Ricci discrète)"
+    },
+    "lambda_blob": {
+      "label": "H",
+      "formule": "Λ_Blob = Φ/Q₃",
+      "programme": "Saut 10"
+    },
+    "R_clustering_corr094": {
+      "label": "H_prelim",
+      "description": "R_Blob ~ Δlog(Φ) corrèle -0.94 avec clustering N=5000",
+      "note": "À confirmer avec Ollivier vraie + test permutation — O-SAUT5A"
+    },
+    "barriere_entropique_explication": {
+      "label": "I",
+      "description": "Explication des campagnes acc>80% : barrière entropique pour grands N à N fixe",
+      "mecanisme": "MCMC part de n_tri~85, doit monter à ~1100. Barrière ΔS×N/τ immense. Croissance mitose contourne.",
+      "consequence": "Toutes campagnes N fixe sans mitose = données exploratoires seulement"
+    },
+    "alpha_K3_kappa_rcp": {
+      "label": "H_post_hoc",
+      "formule": "α_Blob = K³/κ_RCP, K=D·(d_s/3), κ_RCP=8.1915",
+      "calcul_reel": {
+        "valeur": 0.005473,
+        "attendu": 0.007297,
+        "ecart_pct": 25.0
+      },
+      "verdict": "DESACCORD 25% — accord 0.000% annoncé nécessite ajustement des paramètres — [H post-hoc]"
+    },
+    "transition_volumique_surfacique": {
+      "label": "H",
+      "description": "À N*≈2500, r3=n_tetra/n_tri présente un maximum — transition régime 3D→2D",
+      "condition_M": "Campagne croissance documentée requise"
+    },
+    "specificite_absolue_tetra": {
+      "label": "H_a_verifier",
+      "description": "null_rand → 0 tétraèdre pour N≥200 (spécificité absolue du Blob).",
+      "programme": "Vérifier sur null_rand du même protocole",
+      "note": "Si confirmé : [M] très fort — signature topologique exclusive"
+    },
+    "R_Blob_clustering_corr": {
+      "label": "H",
+      "correlation": -0.94,
+      "metric_used": "coefficient clustering (pas Ollivier)",
+      "N": 5000,
+      "note": "Prometteur mais clustering ≠ courbure Ollivier. Remplacer + test permutation → [O_SAUT5A]"
+    },
+    "Lambda_Blob": {
+      "label": "H",
+      "formula": "Λ_Blob = Φ/Q₃ (densité friction / dissipation cumulée)",
+      "prediction": "Décroît avec le temps, élevée dans le passé",
+      "programme": "O_SAUT10"
+    },
+    "n_tri_scaling_N0618": {
+      "label": "H",
+      "description": "n_tri ~ N^0.618 sur croissance — compatible L1 (2/3 théorique)",
+      "note": "Pas exactement 2/3"
+    },
+    "n_tetra_saturation_41000": {
+      "label": "H_exploratoire",
+      "description": "n_tetra se sature vers ~41000 pour N>>N* — effet holographique effectif"
+    },
+    "R_Blob_cluster_correlation": {
+      "label": "H",
+      "description": "Corrélation Δlog(Φ)/clustering = -0.94 (N=5000) — besoin Ollivier + shuffle"
+    },
+    "Lambda_Blob_Phi_Q3": {
+      "label": "H",
+      "description": "Λ_Blob = Φ/Q3 décroissante avec le temps — testable Saut10"
+    },
+    "PABL_Blob_8_points": {
+      "label": "H",
+      "description": "8 points de contact Blob-PABL (Perez et al.) — correspondance non vérifiée indépendamment"
+    }
+  },
+  "FAIL_documented": {
+    "P3_kappa_scan": "Pas de minimum de K³/κ à κ₀=8",
+    "4th_lepton_7.5GeV": "Exclu LEP >14σ",
+    "kappa_RCP": "4 méthodes échouées",
+    "phi_internal": "Autocorrélation lag-2=0, Markovien ordre 1",
+    "alpha_em_lambda1_kappa0": "Écart 85%, λ₁ décroît avec N",
+    "delta_D_sign": "ΔD(Ω²-Ω³)=-0.23 simulé vs +0.860 annoncé — signe opposé",
+    "Gibbs_inoperable_acc100": "Campagnes acc≈100% non thermalisées — hors π_N",
+    "ALPHA_K3_KAPPA_RCP": "α=K³/κ_RCP annoncé exact — calcul donne écart 25% — relation non dérivée",
+    "AEM2": "α_Blob=K³/κ_RCP accord 0.000% — non dérivé, κ_RCP=FAIL connu"
+  },
+  "open_programs_O": {
+    "O1": "G_Newton depuis A1-A4 — collaboration requise — long terme",
+    "O2": "Rotation de Wick discrète — long terme",
+    "Q1": "Extension probabiliste BIK 2014 au cube [0,1]³ — 1 jour",
+    "L1": "Borne ΔT≥c_geom via Chernoff Bin(N,p_lens) — 1 jour",
+    "O15b": "Calcul Λ_D depuis spectre ∇²_W — 2-3h",
+    "O_GPU": "d_s à N=10000 burn=5N=50000, crit_acc=20-60% — 1h GPU",
+    "O5": "Courbes de rotation galactiques (matière noire Ω²)",
+    "O_METROPOLIS": "Vérifier facteur N dans Metropolis : exp(N·ΔS/τ) [v93] ou exp(ΔS/τ) [probable campagne 27]. Si exp(ΔS/τ) : mesures = π_N^(1/N) — utiles mais différentes de π_N.",
+    "O_GPU_N10000": "Lancer N=10000 burn=5N prod=5N avec facteur N confirmé. Critère acc=20-60%. Durée ~1h GPU.",
+    "O_SAUT5A": "Test courbure de Ricci d'Ollivier vs Δlog(Φ) sur snapshot N=1000 Saut3. Critère : corrélation > 0.7 sur ≥ 3 seeds. Input : positions sommets + n_tetra. Output : [M] si corrélé.",
+    "O_DIFFUSION": "Formaliser g_ij via limite continue marche aléatoire discrète → Brownien sur variété (Croydon 2008). Requiert convergence du graphe Rips sous mesure de Gibbs. Estimé : collaboration mathématique.",
+    "O3_Q3_MONOTONIE": "Formaliser Q₃=Σ|ΔS| strictement croissante depuis la preuve de monotonie post-arête et la concavité. Estimé : 1 jour. Passe de [T*] à [T].",
+    "SAUT9": "Croissance mitose autour N*=2500 (N=2000,2200,2500,2800,3000) — cartographier transition.",
+    "SAUT10": "Tester Λ_Blob = Φ/Q₃ numériquement.",
+    "SAUT11": "Propagation / vitesse c dans le graphe Blob.",
+    "O_SAUT9": "Campagne croissance autour N*=[2000,2500,3000], cartographier r3. Estimé 2-4h.",
+    "O_SAUT10": "Λ_Blob=Φ/Q3 : mesurer évolution temporelle. Estimé 2-3h.",
+    "O_PABL": "Formaliser 8 points contact Blob-PABL, collaboration Perez.",
+    "O_FARADAY": "Charge topologique T6 → constante Faraday. Programme [O] ancré dans T6."
+  },
+  "paper": {
+    "file": "blob_paper_v30.pdf",
+    "pages": 8,
+    "status": "PRET_SOUMISSION",
+    "target": "Physical Review D ou arXiv math.CO + physics.comp-ph",
+    "corrections_v30": 7,
+    "self_contained": true,
+    "no_external_ref_unpublished": true
+  },
+  "protocol_next_campaign": {
+    "target_N": 10000,
+    "burn_in": "5N = 50000",
+    "production": "5N = 50000",
+    "seeds": 5,
+    "acceptance_target": "20-60%",
+    "acceptance_fail": ">80% = non thermalisé = invalider",
+    "command": "python O2v4_phase1.py --N 10000 --seeds 5 --burn 50000 --prod 50000",
+    "expected_ds": "[2.9, 3.2]",
+    "expected_SperN": "0.0020-0.0025"
+  }
+}

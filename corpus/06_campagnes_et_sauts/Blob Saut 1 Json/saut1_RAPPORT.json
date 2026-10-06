@@ -1,0 +1,37 @@
+{
+  "config": {
+    "steps": 5000000,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "analysis": {
+    "tests": {
+      "T1_tetra_fast": {
+        "description": "4/5 tetra < 10k",
+        "pass": true
+      },
+      "T2_r3_median": {
+        "description": "r3 in [4.0, 5.5]",
+        "pass": true
+      },
+      "T3_Q3_cv": {
+        "description": "CV(Q3) < 30%",
+        "pass": true
+      },
+      "T4_coherence": {
+        "description": "Perfect coherence",
+        "pass": true
+      },
+      "T5_Q3_monotonic": {
+        "description": "Strict Q3 growth",
+        "pass": true
+      }
+    },
+    "verdict": true
+  }
+}

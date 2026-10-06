@@ -1,0 +1,74 @@
+[
+  {
+    "N": 1048,
+    "seed": 1,
+    "n_points": 759,
+    "corr_info_Kmetrique": -0.719744872434973,
+    "corr_info_Kollivier": -0.012215982307087103,
+    "corr_Kmetrique_Kollivier": 0.5098726019731898,
+    "info_moy": 1.7507781198285597,
+    "Kmetrique_moy": -2.7287466284300312,
+    "Kollivier_moy": 0.3021207704051754,
+    "elapsed_s": 25.1
+  },
+  {
+    "N": 2588,
+    "seed": 1,
+    "n_points": 753,
+    "corr_info_Kmetrique": -0.726732483203794,
+    "corr_info_Kollivier": -0.023302526397338593,
+    "corr_Kmetrique_Kollivier": 0.5118717057124988,
+    "info_moy": 1.6807266056043864,
+    "Kmetrique_moy": -2.356574321266811,
+    "Kollivier_moy": 0.30518690681738425,
+    "elapsed_s": 110.8
+  },
+  {
+    "N": 5104,
+    "seed": 1,
+    "n_points": 747,
+    "corr_info_Kmetrique": -0.7000577879954798,
+    "corr_info_Kollivier": 0.03717925221247571,
+    "corr_Kmetrique_Kollivier": 0.486653707133628,
+    "info_moy": 1.651167426697281,
+    "Kmetrique_moy": -2.412390565032183,
+    "Kollivier_moy": 0.2972777000610392,
+    "elapsed_s": 383.9
+  },
+  {
+    "N": 10071,
+    "seed": 1,
+    "n_points": 762,
+    "corr_info_Kmetrique": -0.6718848677143213,
+    "corr_info_Kollivier": 0.08038207983662118,
+    "corr_Kmetrique_Kollivier": 0.4814600973881648,
+    "info_moy": 1.7231502634270952,
+    "Kmetrique_moy": -2.637823134846573,
+    "Kollivier_moy": 0.2982240113435528,
+    "elapsed_s": 1425.2
+  },
+  {
+    "N": 15844,
+    "seed": 1,
+    "n_points": 760,
+    "corr_info_Kmetrique": -0.7039356329096309,
+    "corr_info_Kollivier": -0.019256288571054648,
+    "corr_Kmetrique_Kollivier": 0.5075512899672621,
+    "info_moy": 1.6923205532048997,
+    "Kmetrique_moy": -2.395956979299836,
+    "Kollivier_moy": 0.30634555682029513,
+    "elapsed_s": 3544.8
+  },
+  {
+    "N": 27919,
+    "seed": 1,
+    "n_points": 755,
+    "corr_info_Kmetrique": -0.6877127420661575,
+    "corr_info_Kollivier": -0.025415663255907682,
+    "corr_Kmetrique_Kollivier": 0.5282707673825918,
+    "info_moy": 1.733932569100679,
+    "Kmetrique_moy": -2.665803991310321,
+    "Kollivier_moy": 0.306512572957991,
+    "elapsed_s": 11874.7
+  }
+]

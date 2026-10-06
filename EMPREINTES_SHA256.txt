@@ -1,0 +1,443 @@
+# Empreintes SHA-256 de chaque fichier du dépôt « The Blob Principle » v1.0 — 6 octobre 2026
+# Vérification : grep -v "^#" EMPREINTES_SHA256.txt | sha256sum -c
+ababb056080a6aa38ec074ff593f3b68bf0aed9e3a40de84aaf40b182386c8be  ./.gitattributes
+9338a9d0b2bf79526294b03da4f1c3c41916264ac7cb0dd4026a1c22e1d4c698  ./.github/ISSUE_TEMPLATE/0_defi.md
+7a99b9783c8aef10084f8e7b63224fc9a11178072d919147ebf47e9665c9e8d1  ./.github/ISSUE_TEMPLATE/1_attaque-recherche-ouverte.md
+b2d1ab72b2aa3288fe938cb8d8ad56f3ddbd8b6ff33e45b7d60b592a176fe2f9  ./.github/ISSUE_TEMPLATE/2_critique-refutation.md
+26ef1720489a99980c612dd5f91f31cc1e2831977023726acf7fff25172280c0  ./.github/ISSUE_TEMPLATE/3_replication.md
+cd4694964bc8544f5959afabe2bf6fea34a70bca883f2a921ba82b377c49b0f0  ./.github/ISSUE_TEMPLATE/4_question.md
+1f103c6a9dd07cd13a9a6f17ace6b813f47747eb9cb7e00488cb2073caaf91bb  ./.github/ISSUE_TEMPLATE/config.yml
+ea214820195b2a9da7cec6b2c9ec95e646a7936c86d65b2ff058b7dc88caa9f3  ./.github/pull_request_template.md
+2979a8051c5d4b414718835ef90e1c791d755a19b9a18b40d076b806e6eed735  ./.github/social-preview.png
+b1aa007d9c64307c24e04c384cd071bb303532c660f0f8d264cba66d269b17be  ./.zenodo.json
+5f67dedb0957d044516519a3d8e1d0a9f751934183345d939fa782ca1a02fd47  ./APPEL_A_COLLABORATION.md
+bbc2e3fb6967c7bdd5081260e2fcd0cf1a0708a5b74bbbda6ad6e7369315965d  ./CITATION.cff
+b1556ceb1111588cabb421286013dd012bebeeae8d5b228c4732af22c5d11d0a  ./CLA.md
+cd474fb18c44d7acdaa7ebbbcaf24d54b9ad5500a7417a2d5a5dd2a2a129846e  ./CODE_DE_CONDUITE.md
+f50708207c9216eb4a84a7c4cce7bd710a1fac2b181e0af56bc700a9b4847cff  ./CONTRIBUTEURS.md
+ce6b160380ed44ecc0b7a2654690f6ca9ab550445196907262a57b187e1e8291  ./CONTRIBUTING.md
+958691b1aba0698db758cca48ec9d826dcdfae99d62ff4c5e536ca18843c838c  ./Cassez_le_Blob_Colab.ipynb
+4939aaff56a6e1491d5b9fad9b61223819d29088989e00c9eff8c66031abc7e4  ./DEFIS.md
+d0b0e3a88a02efb9a629c00614d2506c4e0db635016de4f5f351fc1033352928  ./ETAT_DU_PROGRAMME.md
+c0af89f350589603fd7dc206650eb1ba7d55dbf3f968ec62a5010aa9f5a4b19c  ./GOUVERNANCE.md
+9fc6b2d95c498dcc2c491236bc44ce31a6db3bb92f99a1b47c1639a088ca8c1b  ./LICENCE.md
+38762e3777f4ec00a6f769062a7c3f704fb78ce08303ecff88558da4c49cf9ea  ./LICENCES/CC-BY-NC-ND-4.0.txt
+beb2ce2d536fc9be18a2fe51c5aacb2e33c6c89747b356e1d434c6472c47dad0  ./LICENCES/LIVRES_TOUS-DROITS-RESERVES.md
+c0ea4a896d2c8c394b29f9427589996db826cd501c512279ff0ed3ef48fabbe5  ./LICENCES/PolyForm-Noncommercial-1.0.0.md
+46a1768b4ac9a5566235d1c73edad929b13ce035785e49aeac935ca119f989d5  ./PATERNITE.md
+f2e94909720965ce4c7cdf6343f8ff1ab510f00efd15060c7e46dce53fd66d54  ./README.md
+9d1fa419a8332e0e7ad741d38e3efc7e844b4e9a5c50417a52352f9a506ed34c  ./contributions/LISEZ-MOI.md
+e815a2896495026ba5c498f11f9ed046ac876e82a1c9a51242d2cf3baa874131  ./corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V346_complet.pdf
+9fba7d69d2d778ad4753e1133432c878d71e875b6eea8c2213412142761ab405  ./corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V347_1_ARMATURE_CANONIQUE.pdf
+4a7937491bd7625aae5b911c476ed31ec9ccba26121e5e848021b8431c68818c  ./corpus/00_master_courant/V345_section.pdf
+0b243fa22ece5063b6564b4e573ea8f5045907bf54702527549ab128c8ccc5db  ./corpus/01_masters_jalons/master_V311_complet.pdf
+5442668db25391afad7e6c13c6551a92ea88708537bb663ca0c23f31d911723f  ./corpus/01_masters_jalons/master_V315_complet.pdf
+27599df9d2c74aa73c11268497b40ce2484d6f447301f3ec6bde44b6b6f0f995  ./corpus/01_masters_jalons/master_V316_complet.pdf
+e751465a04d6d84a35d3d7a20c1d6f49b10df8b62bed9f3cf5a18299681282c3  ./corpus/01_masters_jalons/master_V319_complet.pdf
+205dfef8e4dd5f930acaeb50c8170d3528abdacaaded012645b517d3e37f3f2d  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_CORPUS_MAITRE_UNIQUE_100_PERCENT_AVEC_SOURCES_2026-08-03.pdf
+5f41bf48c7e290edbf83c0840d3423c31ec81e9483ae3b40ff0cef0ab0091a76  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_TOE_Candidate_beta1_attaque_7_portes.docx
+be7a6172d4864fd9003831c950596a08d38317ae8242e42ff73cb54fcd54d01f  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_TOE_D1_4_OBS_SCALE_calibration_U19.pdf
+94f85d518870ddac082aeba008bad67c4b65d7a52f54cffbe97e7b05ecb3df5e  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_TOE_D1_FESHBACH_ATLAS_certificat_entree.pdf
+4ddb073b5df951037dc2d3a2c39af9084a1a21b8c16aa01c27b05951195b69c0  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_TOE_V317_RIGOR_renforcement_mathematique.docx
+f45087c0aaa9599a4e63ff36aaa460371809d943038ab5aaa4accc0c4d5d9ac2  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D110 CLOCK 2.pdf
+f45087c0aaa9599a4e63ff36aaa460371809d943038ab5aaa4accc0c4d5d9ac2  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D110 CLOCK.pdf
+166b7c03dd930add097b7479a5f7f904953b268a6e1db698dc8d091c59fd0eeb  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D12 U19.pdf
+35aa77e11726b6bd08d707570957f9ee68ae1179df9d257aa94d002ae3e19e2b  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D15 GEO0.pdf
+bd572064a311fcf4e53c0bd7111c770fda235a81cf2e211582843b44def5cedf  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D16 GEO0F.pdf
+672855c9d0d98edb9ec83c9c6a0fc20764023fa898f035f0696c957ee0cf592b  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D18 TRI0.pdf
+e4a0d69e2451603ff42866da25e95d3edc1c3199080a33a5b0e04b3a18cbafc2  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D20 G0FIX.pdf
+98529a23547b2138dadcf8f70e324dc655c3e8a7bab3041700729aa2df1ea728  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D22 A.pdf
+b23e4038ea3253d90d222a6a361c72246ef6a5df9ae32963916bf6126f5553bd  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D25.pdf
+fe05c145cb73ff3d2ab1f324ed232f854a87f5318041ac15072ed4c7c44f2412  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_GEN-WELLPOSED_exist_selfadjoint_v1.docx
+0654811f912bf6f2bc5889657e901ad1f2c6840b06ad1606525741c8a90cd1e9  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_H-LOCAL_limites_et_quasi-localite_v1.docx
+49f55103b9736b81fc633972e0cabee390b62cd72fb92e532b9977426abecb06  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_Q-TIME_non-unicite_dynamique_v1.docx
+44e6f399109db2b65ad5affc3d865a9e0f53baa50c1d0b0df5050d7b29f31ffb  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_RG-RAY_non-invariance_v1.docx
+acd35cd347d93af2955695b77b2e74a47cecb9602113472ab2911febb31d538b  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_VOL-COVER_confinement_doux_v1.docx
+ba3ec4c85c70e7c6c601ba7be3664d7f4c037185618f28df83005b19c1bfc878  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_VOL-COVER_confinement_doux_v1.pdf
+dc6fecfe38a82e8644f87f830f913ababb6bc9ccb278fb6eedd11b5761aff656  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_VOL-RATIO_flux_groupoide_v1.docx
+453643ccb63fc3a2dd2ed4141b22c443e33e853a3b4cf2c2485689da2a8e2c6a  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/audit_chart_block6_true.py
+0c51e3ed937019e771fe3f3f1454c2aeb1170623daa41de971a30a1ae9708326  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/certify_bipartite_chart_interval.py
+d013f226199f4583c6562e5ef153a46b4503315e33d856aa51583a158591583a  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/d23_chit_true_projector.py
+4ddee0927295739929358b3ca06952295840e32013dfc0cb1e10c7263ba8a017  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/diagnose_block_ldl.py
+cbda197816ab507def806b08c5361e89f0c10db964b3239cf15fb9e09f67e2d9  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/independent_interval_block0.py
+0ef435c65ca01175b4a87a9dd4b53cc1af9e8710d2e0398379bc0d4f6c94d77c  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/verify_m2w_gen_wellposed.py
+87c63f314dc9478cf68eab5fdc6d97aa089b7de9f9470c79aaf44205e471d75d  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/verify_m2w_hlocal.py
+76609f3897c77dd2b87f953f210883c461ffd770f0254f1b4a33cfe10c5d549c  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/verify_m2w_qtime.py
+22c270c56304f9362b55fe5767aff9dbf4e318e52c72c04cbf53d09837f153ae  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/verify_m2w_rg_ray_drift.py
+eef6f66e02dbdc57a404214719b7162d364d040c8e64ac88498adad7809d90b9  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/verify_m2w_vol_cover.py
+aeebba72aa6a2bceffb1389640f316df9fb57a816e41301499b0070d350fb32c  ./corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/verify_m2w_vol_ratio.py
+2ddd1ba5736d5acafb2ebeb213f4f978a7e6eb877cbc11f6b89b9584b494f194  ./corpus/02_portes_et_audits/audits_18-09-2026/Audit_INF-1_Delmotte_V2_18-09-2026.md
+2a8d6f6a028d4fca045689daae5c32cf7d3d3748a71535393aed846b88e42ede  ./corpus/02_portes_et_audits/audits_18-09-2026/Etat_des_lieux_V2_18-09-2026.md
+ed9ed3bcdd316b66129bcdd5a4aca51fcb3ef0f33ef52067425101851acaccec  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob coin run colab.py
+7ad517df9a8d748e9a874c3c875b5336ba9ed88d9070fd6142bac1b69f1b21da  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob cycle2 pareto L2 colab.py
+9d968bef79530f0893779d009783f59259824d4d972dabe1f98646c565562ff1  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob etage2 colab.py
+b46dd01102b131416b1c74f57827a05d832d90ebf950de53dd024c989006d6cc  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob frontiere V280 colab.py
+f78a1ec2aaeb7f3bacc2b290d017f3eaa6be43fccda79a0870166a7f2862d50e  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob g2 profile colab.py
+cf28a4d4f6a86cbc01c3b8c67a7ba2f3c0542fd3c129ffefa99e0db8b330d345  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob gravite Dv2 colab.py
+c6eeb1b0c09cf6ff24c74797dcb5ccc7c9f173646ca6df4f89ea0cafde538820  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob gravite Dv2 confirm colab.py
+dfbd28369af15c60bbaef14625194d42a87b12d89d48d818a13d1aed77005e3a  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob multiN colab.py
+1e68b1af8b79f6c83da5721d23676ea312bffe4d691cda4104fd04f63dde2975  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob passe complete V277bis colab.py
+559e6bc59966aad8d3a224e04beafd6b4763cf46169b8bb7f0b03a89d4f353a6  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob phase scan colab.py
+3f208548b6e1c66652d1cb87c7876fdece7400631dfcf9626ee65a2cf5d8390d  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/blob v277bis consolidation colab.py
+27b609faec74f3480987830a4a8f35ef71a001e80508a34012f2aae061b80111  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/coin_results.json
+4bd136d724ba63909cf0d57774b2d8201b04ff1201d1e496239a8f3cd3d51fee  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/cycle2_results.json
+bfa6bdd137358924cc19e85d7f0e72c7e8a463a285a8c1264226c75200944567  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/frontiere_V280_results.json
+d038e6f36d11b381825552655ba93a279033ec3a5c551177965c56b40a993cf0  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/g2_profile_results.json
+b18a31bd1d551cdbee431c99a6a87f8a4dc58680ca485c142ad2ac40bee4488e  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/gravite_Dv2_confirm_results.json
+f55f3a2e4eae0693b67696301e48fccf04453b9037e08c79c1e4200957b232fb  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/gravite_Dv2_results.json
+6200b882d0e071f7fc56d549addbedd31e71e837e95a0e8356a774927f13d6f6  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/limite_continue_results.json
+ef545e1d9cf343de8b9d46ec94aded2510529f63012c710fede194d8eac381ed  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/multiN_results.json
+60cad4c63fac85581130fcd29ea20f245fa2eaacbcff5201f667e0d9f141c685  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/passe_complete_results.json
+e565eff310f83fbe45a1828ad0703b00dddb132d70682b4e3d085a2a545ec198  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/phase_scan_results.json
+f05f11f2703dafcb60a706327dbf5414337b0d50b890421c6a19e94ad7324363  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/rp_lourd_results.json
+f5ac9b5b1223d28db8f1e0169cdc45c56fca0a01f5d345beea566277ece7a555  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB SIMULATIONS/Scripts Colab — frontiere V280 et gravite/v277bis_results.json
+4411eea7ee06ff9b19254b067fcfb8ba8e4b88a7ba4730a2633b437bf4bd0d41  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/Blob Colab Simulations Lourdes.py
+1da5cdab83ed83a907095f4f9422ef6de7ba5feed03fc97c3f0252b81330d8e7  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/Blob MASTER PROPRE LIVRE.pdf
+9469d14d397c07c313c71da4fc04c4e83fc396c3b82ea29818f08dd3b041932d  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/blob clef de voute COLAB N1M.py
+613fa0f0919c1974c657c5ae0764faf1b58ad1a954303a87cc0993517ea0f3e5  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/blob clef de voute simulation autonome.py
+55838aa9cc114c5df7edc183626ab87cd59b7b1a653ba17f07b4ee12f19dc9d3  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/blob germe colab.py
+47aba1e8bef9b7680f009e3c7d50715bfa17983616ebb998c97bbf015c6533f4  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/blob gravite grandN colab.py
+df39cf1c4c981ee406791bede340f363f832d7de954419c9fcc162bdf300c254  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/blob reflection positivity colab.py
+3d4af05b25c69c96eaccf42f89c226d9bc2522838bc34346091fc2e0eb05b8fa  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/blob refutation ciblee COLAB.py
+5ae6ed4bb04ecd817d54c9f4e6851941c907eb15edc1eabd115f26b88b8e6c5c  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/gravite_grandN_results.json
+d8f38a979a45dd29706693adad5c63abe175c0cf55b2414bc9bb1a0a893a9960  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/verifier scelles.py
+4894dc639ac731e48d763c926b4b4f8ab1ed4a9def483d834b0dc8367b8ae441  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Blob Kit Brainstorm MultiIA 11juillet.pdf
+c4de67a4fc9303e1c1c9a41315adfcc0ff45444f707aed9afbccd844776d52db  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Blob Master V223.pdf
+3f2c9b41e731b74a26098fb3654aab3575034c1e0abcbc6bd95446dd19c98f21  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Blob Master V230 complet.pdf
+c0190d96758d5b5af1c5e532daf6dad1239123f5113943ffd25401f64db34ca1  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BlobPrinciple Master V139 22mai2026.pdf
+197a721db057c71e21df2a2baa9405d3e88a0629409cb023bea0507b597cbe3d  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/BlobPrinciple Master V152 25mai2026.pdf
+75bb1792cfdf9cd814787154438e0b01a4f9ddc6f74772d733b9ce5da44f74db  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/COURBURES/courbures_KL.json
+225588534551e7a779d2f9804c2ddf5962c8b81049e4c36195df158357bd2d52  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/COURBURES/courbures_meso.json
+72432911ae7694202de7cbb49319aa45dd42ff9fa5e605c0afadb0ce1413abfa  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/D114E1C6-8174-4D84-B40B-2E3A48AC2BC1.PNG
+045581735cc9d479fb00c9776526edbadd3b611996a8c8a9bbb9735a71cb3fb4  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/D4FA375F-FC8C-4A2A-BB53-B96AECE41829.png
+1211d0f366d91ea4b9a5f1cff1bdd23e35c13c538cb47e1d2ece72238a6f9e0f  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/blob coexistence g1 colab.py
+372f11ba1818dc8837e4e5ef63add223ddc7308f3d14e169fe484ca1fa581177  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/blob memoire consol colab.py
+fbb74130e4bb90b61016629ef584f962b7aa73ec84fb9fed8ae108209f8f8b7e  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/blob rp lourd colab.py
+4554cbe2ad9ce5ee1cb9076e68a0c374ff3b77faf87e40d0542702a81c90b1ff  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/blob scan2d colab.py
+3d0f753513ffc793f2e946fb2278f2a6d0a542ab6de850009cfc14c469cb88fd  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/coexistence_g1_results.json
+57f25e09c0f59534850eba1dbf52ac4e0542367a88e7a9719ec30f835c1cbd5b  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/etage2_results.json
+4d5fb75b328b3395ab1b210dad57215afc69d07b502057a10de1eb079a3dde91  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/memoire_consol_results copie.json
+4d5fb75b328b3395ab1b210dad57215afc69d07b502057a10de1eb079a3dde91  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/memoire_consol_results.json
+9c001bf9e523f229214be9d9cd2bbbc33906375e1b91b8402b835f2bd8229137  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Coexistence g1 et memoire consolidee/scan2d_results.json
+27544d54d4544d0fe6f4516109451e945b9f6ceef86fc01408678ec30b7bba5c  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/GRAND N/blob_dims_N10000.json
+4f0d82b2a6001b04c33c41ffcdb62f6f490e0e3692d3ec9e18eb90ffd5e772bd  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/GRAND N/blob_dims_N100000.json
+21d514c2235aa612bbdacaabe37ea874c8808be5cf3025c0ceb1983825a3d986  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/GRAND N/blob_dims_N1000000.json
+cf0ba7e7d74d73b79e9a94b003fc418cb3608ac8aced1b7b9ed9c661d3054ac9  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/GRAND N/blob_dims_N25000.json
+a329dea1696673643c5ae14648745707a23c7c213c9bf471a81dfcf99050c590  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/GRAND N/blob_dims_N250000.json
+94bab852e9025a9c4c5a5e9cab0beda17dd2bb532c13e8ddbc81d67ea722e2aa  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/GRAND N/blob_dims_N5000.json
+5d89a325d5f2a7edeaaf706cf4362f0793f2e5342982148b4badbeba5788de92  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/GRAND N/blob_dims_N50000.json
+6837a40f86295e52929fb6626a32ffdbc0c8c12ad96953cccfaad3d26b3a01d0  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/GRAND N/blob_dims_N500000.json
+569fb65bbb8ae5b110f91b4eb4a997c85f4ba93c290f8aa3d6aa51d631828a8a  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/GRAND N/blob_sweep_summary.json
+bed9085ad0c3b6f63b5456db55fd2cb3e38b0dbb07bb66df168f640a1d6cacc5  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Grand N — paliers 32000/blob suite GRANDN colab.py
+cef617fef634116ccaec91125aa29e796776d334dafb8fcade84200c4d8d6b0e  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Grand N — paliers 32000/blob_germe_results.json
+c843db2a9370fbe24a25b2bef1a96cea1c4549899193201d2e75ccef1b7122f6  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Grand N — paliers 32000/env-2.json
+ce63c2c370ff0ebc1a38ae3631988475575c831e6cacdf735b6ac0b39aad4cd0  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Grand N — paliers 32000/master-2.json
+288f05883d8794d4ac9c87723d0f33252db3a1a4de8dee50c570314f0c343f43  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Grand N — paliers 32000/palier_32000.json
+34e4eb61a7c0298b23c9018cfd0b01dc29017923ab22a195dc71097ff3dcf2da  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Grand N — paliers 32000/palier_32000_partial.json
+e3b7b9abd7993e0a1b134138f44b52a1b2ff18f30ed5336a336b8d8bb1094a3a  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Mort, queue et rondeur v2/blob mort queue et rondeur v2.py
+0f9046790e02c351cb437c4bb49c12c1c5046e0555b9b781922ba7ba3e6b8281  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Mort, queue et rondeur v2/queue_mort.json
+998c8a30c5afc9778a7631f55b7b5bb46d5829f7733289586f9aa362949a7900  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Mort, queue et rondeur v2/rondeur_v2.json
+3419726dd79141fd14a3cc09bdf58e119d36d190a3519b1f09a3af22fa541bfe  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Programme Omega Blob.md
+151c788c2d27811aaa59a89eb4f333481ff649899aa51af4dc5b37da0b7954a5  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/BlobPrinciple Master V152 29mai2026.pdf
+8730f569013fabb8c29a4d7cc16d9daa9befbc6f3ac07c540773651765300c02  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/BlobPrinciple Master V155 2juin2026.pdf
+d2bf481e629fbe0df0d0fc821c087ccad627a4827801d53276328c3cd9da2fb9  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/FICHE RELANCE IA suite.pdf
+1a42db308c448c1d524f74f97c0fbc7272af19104fb97ab8cfaa48c8df249fa2  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/SYNTHESE session 30mai verrou B.md
+3528b204488df3a4c5e00341ea7e3035409d35f2a0c4363d5156646d2ea70610  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/VERROUILLAGE session30mai diagramme CDT.md
+ba34df24773c80107a54754bf2348d79e616f2bc6c7c7cf93bf5ba331713f555  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob 4forces vraies colab.py
+9d36fc7a847f7ed92500b7e06a910f49ed12e2b769312e7fad28f2ce13416003  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob ablation labo colab.py
+4a4cc00846d3161bb49524ac98884c39b074efb6c1a0db42870aea56afced3b2  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob ablation panel allege colab.py
+d64111cefc17d67d8294f71b83bd8619085c53083283191fb2199e6dedac8185  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob confinement bord colab.py
+b83aab0e60d5bef1c7b81d64034fa75bf2cde7c155ba059e0b016cc5adf289d5  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob dw campagne grandN.py
+5248da819af06c6f4e47a4b3f695d1fff8cca036569fef66dda01f9b491fe036  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob hierarchie 100k colab.py
+82dfc06bc7f51431ed71e6779f2e6b7a2176b29b9211b7a352e179c6759a05cf  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob scaling colab.py
+b3be622bc2bf25284a83a7430a202edcdef381c338baac9cb957007b788a5491  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob unification spatiale colab.py
+2118854dee1e49ede12517f114c5f8bccca3847ee06f652a933791b2cd502973  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob_4forces_vraies_seed1.json
+5b65deb25701577dc1ddef8674b5e2d35d85c6c30a05122fe68d237253a42700  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob_ablation_labo.json
+fd72a7692f7c24d09af6ecbda125731109ba83fdde634696aeb35906b5bb4d83  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob_ablation_panel_allege.json
+98be0b778e3a551393a8df27ef625480858a7f42092d7f8fa059507be22a9237  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob_confinement_bord_seed1.json
+885129030bbec3a51aac893781e04bf277b41ee2988e7ef05bac1850527050a5  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob_gap_palier_N10351.json
+f10a41c324c15365189afa213f7c3cb215d9e0b98592bef67b042c2de56b1680  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob_gap_palier_N16700.json
+23401e1786ea6229ef7f833354d4dff1eb14c1ac6d620960cf64c969b18fa701  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob_gap_palier_N4274.json
+385562521f1cbf29d0c1e9ba199d72a71684cd5cc58ecb3c41a946068371e8c2  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob_hierarchie_seed1.json
+448f09a3422aaa63b093f3a4b9f59b8c8537b7adfe394abb0c60d6d2b8c86a29  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/blob_unification_spatiale_seed1.json
+cdd8be5fd377b1500971220972178ac6031321af472d393e76ed0e3a0f7764db  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/fentes schrodinger propre colab.py
+e54f4c95d6b7520cc5faf857b43c27a616635185e3e04c6989008f53fc209f74  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/gap curl colab.py
+e44ce2aa7195959382a091a53662a73ac9609683c6bfc076df114e944965c719  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/gap_curl_results.json
+1242a8e399a316abb3adcc2024b47901f54f833a598b87b20f209e0c91facd62  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/gap_curl_scaling.png
+c6d5c681c38bc4a76b46d1fa13ac352d2f57de7bb0415aa99d105f33dc178fc1  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/resultats_dw.json
+13115f631d78cac12cfb07f953eafc760e7fe8f74c574b104778ea7ba8cd3cb2  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/UnificationArchimedesconstantgoldenratioEulersnumbereandimaginarynumberi.pdf
+9abdd663da461dfb042890477e90d228842c0203172b87f1263e923aeb14083a  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob banc invariants 100k.py
+487b6df8a52410ffc378a9c072fa27532df3bb5ad1a993f78a3fe23f6d2f369b  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob colab allinone.py
+d25948dcaf6cec2ccb773ea36f6705baf5af98b0cdf73145d020e6799d743fc1  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob colab scan.py
+b20fbceddbdec3ee26ba10aeba773848ce629558e6983361005b168b13053130  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob colab verrouillage.py
+085ec84306283f44cb0cdd597c9bdea571fba0f98b2fc0de9325630d088e4f5b  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob courbures KL meso.py
+1fc4aa628dab3e473eeff1ba89eabc95bd6020a6233a5d6031144c67fcb45ef7  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob dimensions grandN.py
+7461f8476359e9f11a948f0d88eb47efb285c6ec0fe9614721d1530fa0cfca4c  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob engine.py
+5b5a5a4a2ea3fe0f69532f578755573e839ac46e2c3a8d1cba19265fa01a75ab  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob errorbars autonome.py
+7e6d0044a87cfaf2240051e41764c58e7fd382e522960154842a70dd843b0881  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob errorbars.py
+58c33bb99dc84dbad1d2bd01a5df5752086846130034bf98a56c7b8acf078b6c  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob gravite grandN colab.py
+d937b84329d19d4d64fcf81925c000bd0c80f4b6060235d48dfb9f017e2b4e71  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob invariants 500k.py
+19980e76d34d6f58b9b9f9fa1b13866cda8370494876b931f0217c4904a7e305  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob limite continue colab.py
+cb4b7ad70d4a9ffd082ab94713ebff5a08a5f44af53e2b43654c0a58ec09a965  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob monitor highN.py
+b67fc273c41af9d89da4e37d8a24ae4c1cbc910b5f083f53d9d78be66826ec1d  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob reanalyse.py
+dff05eb18d3ac110f7bb8e71cca96f433ed33b5654d97b22e7abe7b7cb33f6f2  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob suite AUTONOME colab.py
+bc9506d48426da5ad20237340fc2a0c6f83516277dacf20dbe2dd9bafc900bee  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob universalite alpha v2.py
+4a92f1b4f6402ac0b72e48af50c1c1427a60f775674157897d397d7f38267149  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob universalite alpha.py
+b341b6dc2459c9847cb6a82a3d6e7f57f42419a46fef9a9b51d3da8d09b89925  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/blob_sectionB_sorkin.json
+5ae362a1b37c3841a9c35a5977357bbb32533f620bad4a04888fd5b80e926e10  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/cdt deSitter effective.py
+b2f13848716d830e186481dee81a819a354c6326abd138e9eb2385aade6786bb  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/reflection_positivity_results.json
+a2d901adc92bf4c06b58d1959a413659a4db4de27ae529f332641786926f5016  ./corpus/03_scripts/SCRIPTS DIVERS BLOB/verrou_C_parite.json
+44b6a0798dfbc0f7c86179fa67d176bdd80493f666f4745d26517c66b1479a32  ./corpus/03_scripts/simulations/BLOB COLAB gravite haute precision.py
+af865139a132a8e062d72ca114cbddf7509ad7ceaf540ffb8f71afc3d60eabcc  ./corpus/03_scripts/simulations/BLOB COLAB v2 gravite.py
+68fa49e40344aa254da70da0d0af344c6a28e5abfae3352cd5a064eb2dd56fb7  ./corpus/03_scripts/simulations/BLOB COLAB v3 dimension spectrale.py
+e6a0e95b9b128462a2bed4e9615c098719a09a8eef13e168971fb9323bcd2866  ./corpus/03_scripts/simulations/M2-W_Theoreme_RG-1CELL_non-fermeture_v1.docx
+980e63d7656a3cf5f582e7f058066e998cd89a5252115dcfdf62c4c7cabed4e1  ./corpus/03_scripts/simulations/M2-W_Theoreme_RP_cutoff_v1.docx
+d59354d399cd7d579b00c6541d07980c5bfb21a4ff9d4429f4ef002997643b4d  ./corpus/03_scripts/simulations/M2-W_Theoreme_TOP-KIN_f-vecteur_v1.docx
+f22cbb8e70997d4590682d953fcd42fe99d4c114c43380d95b75ce33a94d7baf  ./corpus/03_scripts/simulations/TROIS COUPS EN THEOREMES.md
+dad87b1bbc6f6b009803815ae1740f522cf721dfc4d5694552d81980d93eaf68  ./corpus/03_scripts/simulations/blob total V286 colab.py
+8800159267810d3ded4e811569e93fbfc529a0802afbcfdbf23cd08690ebdb5e  ./corpus/03_scripts/simulations/blob_ds_v3.json
+549138d01a86727ee607d2d47ab60dc7c872301e986d5a96b2d8ba7cee26d40c  ./corpus/03_scripts/simulations/blob_total_V286_results.json
+27b18416b1d54132bde8432937c6fa1a2260565a067383988ae6e0298a09e945  ./corpus/03_scripts/simulations/verify_m2w_rg_ray.py
+347963952bfeac8ff11894dcf5a32fdce7963804647375397fa5f6348d627bd4  ./corpus/04_donnees/DERNIER JSON/env-2.json
+e473fda6cda5fe0ff5ac394c0447cc49578d1571f73a3d5d9f7c48a100ce43ed  ./corpus/04_donnees/DERNIER JSON/master-2.json
+13d32f51fe298a7a47cb355eb15e70e53ded33aa9657d8272317535c8a21cd7f  ./corpus/04_donnees/DERNIER JSON/palier_1000-2.json
+9d50663f9549b125377230aa1dda51d4aa291973981e32b8277cf4c720c893a1  ./corpus/04_donnees/DERNIER JSON/palier_2000-2.json
+45d90dd38f01d9c27e3fda2ebe3d254bd2a22bd3475aaf69c30c772f1cc01428  ./corpus/04_donnees/DERNIER JSON/palier_4000.json
+00666f2d359537e8f5c057c2d0950811a571c0fe424e4e8aa5a126b7be125133  ./corpus/04_donnees/DERNIER JSON/palier_8000.json
+78aabcb525f0a109ad03e20115e25e80dd9cda62c78ebf068bfb76942544ae67  ./corpus/04_donnees/INVARIANTS/invariants_500k.json
+f387d091f79d608f25fa38616d9726c35e58a9ff06d1d1af4ae7b5a5b372fa91  ./corpus/04_donnees/UNIVERSALITE/alpha_v2_C0_ref.json
+f78e908925a93e072e9c72a6c2d3efe7e2bb76a5b54b86f16e9683dc1f316ca8  ./corpus/04_donnees/UNIVERSALITE/alpha_v2_C2_kappa9.json
+5a60fbbedadc02eb9ac4cd64bd07a603f19e2afd7192dceb5fd9c942418b0fc4  ./corpus/04_donnees/UNIVERSALITE/alpha_v2_C3_tau025_tf390.json
+75f29dbbd113f9fc256f365828ce411987b3ced75cf119cb1ede4801691e9cde  ./corpus/04_donnees/UNIVERSALITE/alpha_v2_synthese.json
+ab9fb1ad927e79e5dc28ab1a1c38206c56f7dcbe88d7eeb96661716cc0191453  ./corpus/05_paradigmes_technologiques/Les Paradigmes technologiques du Blob/Campagne D87 — germe extremal/Banques D87 sys1 a sys4 et generations/blob c2r autonome.py
+5e8ddccf24b402b48209c3e3d9909a3bf75c924a44c1e33b40b89fc10920d329  ./corpus/05_paradigmes_technologiques/Les Paradigmes technologiques du Blob/Campagne D87 — germe extremal/S4 GERME EXTREMAL.py
+448207de499ca9f58d2256d95083b454496aa42e1f91fba58e643b747719b3d2  ./corpus/05_paradigmes_technologiques/Les Paradigmes technologiques du Blob/dossier HYDROSCOPE-IT.pdf
+edb9734ba5d3879a01d0caabe901c1afd74609cb182dbb08006973a8cdb15382  ./corpus/05_paradigmes_technologiques/Les Paradigmes technologiques du Blob/dossier SILENTIA-PS.pdf
+124a1d12c801d74f2604da5c0a13e7379c2dec8751974fe76f15e367a7f4f74b  ./corpus/05_paradigmes_technologiques/Les Paradigmes technologiques du Blob/dossier VIATRON-S.pdf
+712e080aa51997ea73bbbc800533f7ba245afabcae8c29381bc075f1ae586305  ./corpus/06_campagnes_et_sauts/ALPHA/alpha_C0_ref.json
+9e4ef7845deb07cff875fd0979acf1d65e6e3f428fbed82a1b8c2a08e67f169f  ./corpus/06_campagnes_et_sauts/ALPHA/alpha_C1_beta060.json
+9ff4ec126f31894674073ff25fde8aa4b85b67ef959f2fb036e35a803adb457c  ./corpus/06_campagnes_et_sauts/ALPHA/alpha_C2_kappa9.json
+fea10a8faca89176e19ef35f84df3fbf6f27dc8996f65ad303b33e45a5e06f49  ./corpus/06_campagnes_et_sauts/ALPHA/alpha_C3_tau025.json
+90dceb8dd4d8dc545fb6af28c91bf1e3b51e1b00dcc232fe235a39c850ed076e  ./corpus/06_campagnes_et_sauts/ALPHA/alpha_C4_null_rgg.json
+e1fa18e1df090293e736641e59e5b49c4e643f065f2e32d00fc564c6bfe2a611  ./corpus/06_campagnes_et_sauts/ALPHA/alpha_universalite_synthese.json
+ce2ae1b121da06dd8313d813894421128deb64ed4c9a58828cde249b801d8f2f  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/AUDIT 4fichiers satellites 25mai2026.pdf
+c00043b68af1515a2b4c66033c9a68a1db96d11834ac5f7c8fb66ada2c75be3e  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/Bilan et tests multi IA/appel gravite multiIA.md
+a4ca83cc0e6f0d08fd5c1db9ce4bff3f07001fa8eba2db9adcb3eb04c26e123c  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/Bilan et tests multi IA/appel gravite multiIA.pdf
+a45eb2849db7c200e3473996a47bf4b580f6a66b867510c9f25dba0962765cee  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/Bilan et tests multi IA/bilan gravite.md
+77fa52be28e8c2da62b6c1b43ce7b9d5d5a72c3fc8c14e5542e003c60e6582d3  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/Bilan et tests multi IA/bilan gravite.pdf
+71576b6186058565fc30efd62a19b214e6d221a756001077549de16b358fbf94  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/appel final multiIA.pdf
+06e3982b46b6c4a99c856c68156f5abc41c1aeaf8b3e2b9541451107e7f700e2  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/blob gravite colab.py
+4b27bcbfb1e4fc143499aecc9e72e3be46811461a4d6986805b195703226c75e  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/blob_paliers_GLOBAL.json
+92474eb091d51174ae30f0321c7b7754353dae064e6f61c42413056399fa6c36  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/blob_paliers_N1000.json
+30ff771a1c00a2fead9e0f150fdc3f191d3940266fd534300916d66d5e91894c  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/blob_paliers_N10000.json
+ceb24ce26b64b0e199657e5572b93e637f331f66480bf2cafa26d2783ec68541  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/blob_paliers_N2500.json
+c5c75599858fb231a9b7441726e1b55dd958ae293e7ae36bd2cd41c8ba820935  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/blob_paliers_N5000.json
+660a3ef3b5bfedcf9c5c3b7d897038c6c621c87e8550781943d7ec8fe418fb78  ./corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/blob_toile_results.json
+7327ffe7a5c1c3c55e199a66435ca1adaf54d33750ed01a7baa656fa9423b5c4  ./corpus/06_campagnes_et_sauts/BANC/banc_exposants.json
+f2f220d5f41d6ee5631be983d46333f4325deaf15d8ad47eefa2fc120a009213  ./corpus/06_campagnes_et_sauts/BANC/banc_invariants.json
+03229b00e76dc611e395d9eb54fbf918b13a8966faa29dba1b200c2655ff8b15  ./corpus/06_campagnes_et_sauts/BANC/banc_kappa.json
+4f661eb391e930250cd9d852888db912a9a3f7c289e7ba87c0ff824c14a1fa0c  ./corpus/06_campagnes_et_sauts/BLOB SCALING V30 DU 23 AVRIL 2026/EXPECTED_OUTPUT_v93_updated.json
+b9492ee9a2c31c7871338b3dde72e1c263aa6397e7b4f4dc913ca853b41bb1f0  ./corpus/06_campagnes_et_sauts/BLOB SCALING V30 DU 23 AVRIL 2026/blob_corpus_consolidation.docx
+0901d20f40bf32d2da38613c11ca8397ff70ca92946d05cf8d69f741cdcbfc62  ./corpus/06_campagnes_et_sauts/BLOB SCALING V30 DU 23 AVRIL 2026/blob_paper_v30.pdf
+5eadf6f3fd93d4aaaaa83dad6cef28b4f3457a949c9e8131cc9ae082c2bb5b07  ./corpus/06_campagnes_et_sauts/BLOB SCALING V30 DU 23 AVRIL 2026/blob_paper_v30.tex
+9f17cdb332ca3a55059aa5a00c27c5598c8a0f2b1d8f3314b547f8c2e78b85ad  ./corpus/06_campagnes_et_sauts/BLOB SCALING V30 DU 23 AVRIL 2026/blob_scaling_results.csv
+580e445ef0ccec521684a7653e127e0f2f7fe9bb8181493fece27d8f53a2f887  ./corpus/06_campagnes_et_sauts/Blob Defi ER/README er blob challenge.pdf
+25e6eea88568bfbe8832a4815913448a3002c8282c365c3084d4a542f09e1139  ./corpus/06_campagnes_et_sauts/Blob Defi ER/er blob replication 2.pdf
+e5a3faca61fcfc56469f0ac423fda5ed1c34cd14c6725ce85e720f79ab2b3f4a  ./corpus/06_campagnes_et_sauts/Blob Defi ER/er blob replication.pdf
+c95de3fd094c62ea56b69f4b064d030951226917e200087a01d3a9f7b74ac784  ./corpus/06_campagnes_et_sauts/Blob Defi ER/er scaling palier.pdf
+c4d363c656d5ee43823e6f3d1677987c023cf2af7bd7563aa6cb240019d8742d  ./corpus/06_campagnes_et_sauts/Blob Defi ER/thread x er blob.pdf
+704ac440b5c5878598047ff3172e5ddf7f3a96dbbd83d4f256fa2391dce19442  ./corpus/06_campagnes_et_sauts/Blob Saut 1 Json/saut1_RAPPORT.json
+49129c7f259eeb54695d40224800ea54b3ec64fe64ae9026a785f3e9d33f44e4  ./corpus/06_campagnes_et_sauts/Blob Saut 1 Json/saut1_seed0.json
+ba3b3d380841ad98492f80a9d429aeedb716688b25be21610243a9c6c829ba79  ./corpus/06_campagnes_et_sauts/Blob Saut 1 Json/saut1_seed1.json
+87474a31a7643fa708835ed766324bd7e5282320b372d0786435e3bc5dd3c5d7  ./corpus/06_campagnes_et_sauts/Blob Saut 1 Json/saut1_seed2.json
+258570d6fadea0a2979a173c8e2d23672155591841fb355389f4125b052b45c7  ./corpus/06_campagnes_et_sauts/Blob Saut 1 Json/saut1_seed3.json
+1e6a2da885f2f6b1ac23a223fc3982807a35f73d5496338b652b7fd653c0020a  ./corpus/06_campagnes_et_sauts/Blob Saut 1 Json/saut1_seed4.json
+5666d8ce74886d25ed6639461d5f3244c108d15922e9eaca48559a452a096996  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/Unknown-1.png
+c3adfb2b14a004d67b91e60974c7bd1ee27b9f1b303f164faa4d31e50c6ee509  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/Unknown.png
+9eb4346fd1e204491e4a6bb5f5b0ef4bbfed783bb7be219fbe0fcd629f5bb8e9  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/V2_seed0.json
+f91239e3a6bfc995d037e740ae2921a3c351ba5d02f645f456e1fb41124dc2ea  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob campaign v2.pdf
+efeb8383811a2482183e5b934e8185c8d3c072f903e6b5344e945c97a50deea4  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob caracterisation transition.pdf
+2d14c6aa8786683c48675248d240145f65081a7a74c9b4b524fe14e08f37f690  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob colab v4.pdf
+09cc5ec7c1f77b341af3cf3f9847b26bca4fd84094071060cff15ab7fcc6045f  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob manifeste v93 5.docx
+0c4d321ac7e03b22e85042af0f5ed5372df21b821662157163bd76e799321d8b  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob paper enrichment.docx
+a01cb060f53f55bd19fd4270dd15ae61e8f2c28a19119c5789b8abea35737dd1  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob protocole D.pdf
+cd22118272c79b512395ee02cf67a27f5fcbfa20dd7abe3d4bdcaf8b338b561c  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob protocole E.pdf
+d7da7f88658519a82fc5e67ea390340af31115a89470bb303c9e1e55f0ad76d7  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob protocole F v2.pdf
+c543a0aad5f8db6c63c1b8faf68621ccc912833fdd1a80d88f168d1d359c719c  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob protocole F.pdf
+e0b6c8a6bb9f6f2d98ebb4d51f7d90d5595d16e6b0f1174a8f4718e52ea0215d  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob v2 mitose.pdf
+32547c32bc3e113c9a49a8caf3030554cb43714f6bcc656f0fa57bd983ce0841  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob_final_audit_database.csv
+973ab8e9480950f02ef2783d72e585246425e04c7aa08de8f582437dba74dcb1  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/35v4 Starting scaling to N=100000.textClipping
+1410cf3b3c8bf9ffdf2136ada74e052419b4416ca0df1e3369ebfe946f193f9b  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob manifeste v96 COMPLET.docx
+b3b0662e771c71ee966975467b9843bd246297d002e38aa97dc849d27c906401  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut2 Q3 fleche temps.pdf
+501556bf870df0d48afe561a4044b41706f84aa39b9a6224421cfe0212ab72d2  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut3 chaleur reformulee.pdf
+ddeb3b9f32e5f4b54bc9ace0672090e8d1255f8affed8e28b58d5d0af8494844  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut35 invariants grande echelle.pdf
+1d90286e8a04750756b0a14a822a5fd24832bb76db2fe41145a6abba8f0f574b  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut35v2 asymptotes propres.pdf
+9954e6934a0a2f87e51b1cac18efe0e3ae956755ee1088081ea8266153c529be  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut35v3 extension 5000.pdf
+645fd7e0bf22fa6593f6966a893a6210e9f42a51bc033384dbb0e2d4b0a23924  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut36 exposants critiques.pdf
+b5852b8b608b9bc13f05db38abf520f9fe2cecfa5af8f45afb27544062af52dd  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut36b scan etendu.pdf
+2ee2c75522d60638f65b0fc86be3a408fde9cffa279492967e8f964f2e8028c5  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut36c etendu FSS.pdf
+6f7d52c8381f7e8f50af7dfdc1ba26fc419dc54cb3203d894d052db561f6f309  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut36c scaling N exposants.pdf
+7c796b4a0c210ca5aa2bf8cf6d4c55f00e1b929d198ce4841d027adb6f8a2b32  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut37 thermodynamique NE.pdf
+2ecb0ef6b6a6b1f1be44849e6bf9d2c9f65d525039a749f108087f5a2f90ce1a  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut4 sens depassement.pdf
+0b8ca06987d8f313e616d9429f8c4b4cc94df09e32a459fb5aa6dafee0ee47ee  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob v96 LIGHT.pdf
+d45834720ad78861e792a7a8d28f0c095eeda3c071d5ffe9c879f0295e48e202  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/checkpoint_1000.json
+6a43a14ded70b91a87818aac6b542e35a7f4622632dfdad8eab5b6bff0e023cf  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/checkpoint_5000.json
+36971dac053ee0ec3e5e36c928bcf08cee1749194835af7d1dbdaecb4f21788c  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N1000.json
+128bf2de56f4808e31d3f720b9da2e02b8c2b99a9b6537dfcd6d289bda84732f  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N10000.json
+9cf841c19e2021157c3e9c8f130ca18318ac2d832acf478843bb5a2bde81e3bc  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N1000_modeblob_seed1.json
+2bb3716d95e8df5d87bfd61c4366ad5fead5cc5f3f40957de7cf05f216d8f7cf  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N100_modeblob_seed1-2.json
+fcaaa5b1e35a4ff7995234172383a944fd3c03b8bc1af775e8fa6d48f47e0f0b  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N100_modeblob_seed1.json
+5d4bf276ebf4b779043d68ff33bbde5c54e7380d162950317ab6b5fb166709e8  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N200_modeblob_seed1.json
+6bccf8f71f4b12c0acc45041fd4d87aad361beaed53cc88b81e3af5435c86d29  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N2500.json
+15a19586b8c3938b1ff07634e468bb7c1ba9751ea03e5e1a39f213a132f55706  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N25000.json
+9e5dffb37fa1a5ea0318e931c5cdadd9d9abc1b128d51e0b424a401ea3309d95  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N5000.json
+edf9502a7bb787aa8a56b8a4408f1a40536364e35020ca62ad03c00e6d307820  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/palier_N50000.json
+1a8bdcf105b251021d691395982a8b39f33bd5776df8180fb634085ebb6d986a  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut2_RAPPORT.json
+0da1618d0c6f706cb8a1c0e6bfa09c16402f9bfba0e7e872cf2cc48451b94f0f  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut35_RAPPORT.json
+7ea7d820002005c634daa4b552b608a2ecdb028d0c46a35ca7870a3332c72034  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut35v2_RAPPORT.json
+b9b83714e18a007aea8ceff90b063908e6f99c69b92466e3b6f6ac73729f7bbf  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut35v3_RAPPORT.json
+c87ed9f569a1940c459f8773ceb2fd97aff92c4976004dc381c007a50ec94c11  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut35v4_FULL_EVOLUTION.json
+7e93028fb7a7c9d2449793622b6e6ae768938f845262c2628e18dd51627c0f60  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut35v4_summary.json
+15aeff3bff49e071f2ba745210148450d34d805211e7c0e8cdf8c6ccec205b59  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut36_RAPPORT.json
+1808cc697473f6026d6ecb9472684044bf84c06db5ff694ca1e6434ab921c804  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut36b_RAPPORT.json
+d4742eff28a18189aa6563e6d70b80011048b35a1c7cd799c3b262b2e559ae96  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut36c_N1000_RAPPORT.json
+48c25b8a98925e55d3510181ad8dbfd5a8859eead25fe4fc656402b5ab4a42de  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut36c_RAPPORT.json
+e212a1a8e810dd2853157956c6f2a8e30a06569841c52aff3204ebbc85722d57  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut36c_ext_RAPPORT.json
+a402ca8463462281fd43d60fd8d99d9c5b98ac367a2d121ae816864d23ba3e27  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut37_RAPPORT.json
+bb7d22a7db1d91e04335eaa3ed0a6de975b08251495bcb860193b9df8031c13d  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut3_RAPPORT.json
+6002ffdfe3c212511a7f1472b2f10144445219291533632c712e74ca3a6512c4  ./corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/saut4_RAPPORT.json
+bf5c4716244521aceca1715c6b7635fda1f06d9d1dca8ce75588472de69cbe6e  ./corpus/06_campagnes_et_sauts/SAUT 35/saut35_RAPPORT.json
+75e7b05772386f31b37e8225b0ff657bc5184ffe4ca0b7af6843f04cc3477d27  ./corpus/06_campagnes_et_sauts/SAUT 35V3/interim_blob_seed0.json
+3c379114b6ad012c848e2531a7874ea18f87369b5ca93f136e519db3339de87f  ./corpus/06_campagnes_et_sauts/SAUT 35V3/interim_blob_seed1.json
+11f4a749223bd1e95540f5368f8d1dabfa5e53efc6e35ba23cbba90a5efcbf34  ./corpus/06_campagnes_et_sauts/SAUT 35V3/interim_blob_seed2.json
+263553cdcaecfb6817e44ac1e2a352e6e8c6457cc36a153eafa7099a2260c8f2  ./corpus/06_campagnes_et_sauts/SAUT 35V3/interim_null_seed0.json
+e9f8767dbbda3ea3314b72dc8d191fb13d280375b470fd948237572628e37542  ./corpus/06_campagnes_et_sauts/SAUT 35V3/interim_null_seed1.json
+3b15ac539821090812f29b3356a5d27642c94a51c69e2f68dc5a91b686415597  ./corpus/06_campagnes_et_sauts/SAUT 35V3/interim_null_seed2.json
+1c4fc9b5f1f6aa8ec8b2ebb208579c80fdd5996e9a870a424e77a59440b13e8d  ./corpus/06_campagnes_et_sauts/SAUT 35V3/saut35v3_RAPPORT.json
+f59bfd7b2ba3e1d77bb58273460477d958752a3c81341547338b5e366e4d7e93  ./corpus/06_campagnes_et_sauts/SAUT 35V3/saut35v3_RAPPORT_partiel.json
+5d50c3b458c979b0e57e8ba8166be17df562416cbd88aee710de81d032a71e35  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/EXPECTED_OUTPUT_v93_updated 2.json
+4033386f15a206d4218076b9647ec4276d486876ac677d7be5c33e5132b5200a  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/Unknown-1.png
+417162ea64d80e5673668a01cc3ccbb2443f5112cffe6c6fd49a23c0c0f98371  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/Unknown.png
+1d9bad5014dc33c3a4323230ecab755c4bbf4d72e856102ec926af78d6868362  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob Q1 L1 closed.pdf
+b5b83090fde6d5283be8253c71db284bec5272591f3052ab3012b8aec7e09612  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob addendum v102.docx
+b2367354fcf5565149305aae74ba2aa7e00fb1005b44cb38d0c79763c68d2e21  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob manifeste v99 1 COMPLET.docx
+e3b552a7334504b98c3c6770e20649de28778be836fd845264f1abf1d303c838  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob manifeste v99 1 LIGHT.docx
+020bd5d7c7864b688ae6c37d084041e47ee6f8f68074b3f121acd94b52392ba5  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob_corpus_consolidation.docx
+0901d20f40bf32d2da38613c11ca8397ff70ca92946d05cf8d69f741cdcbfc62  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob_paper_v30 3.pdf
+44443300d503670ed871f951151bc5d5f947568c920ab3c32479647f23c7f6d3  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/palier_N100_modeblob_seed1.json
+0b273b7afcdcbc2adce67920b9c10ef74bcd7e7e6c4ca8a287eed9295e3afdb4  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/palier_N200_modeblob_seed1.json
+55a8a1c2e68e22362ff83965b77ad6e4170176e734dc8d56d9c2061f0e61ffd8  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/saut11_master.json
+36543e1a55b170346efd99d092a27b6b5db7e2bb2f148ed2fb478d6998d8c64e  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/saut9_N2000.json
+ef30546662ed4dbace6fb4f3345342e1f5e019f5d5b921f2c5d50848765c544e  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/saut9_N2200.json
+5aa84f626fa8888309f9e7c1c8669a48aa058af8daba846a338e8987d3f38a67  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/saut9_N2500.json
+12c71eb3eb1c24a8885ce0cfa416f4df9251446008d31becf9ee99049cc19a6f  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/saut9_N2800.json
+7efb71d1e542285df4ef38b0a807eaa3a5f392a1ab66ff85aa51fa366d5a69ad  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/saut9_N3000.json
+ab3da88875b27262e92c8092d1d1c3e8a48bcd05568ab788964cb8350ec2ecc7  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/SAUT 9.2/saut9_2_N2000_seed1.json
+8738b3afecc4ea9b6b4eb62c6e18cba2e1f9ad94eb233a7c7802f99d92656530  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/SAUT 9.2/saut9_2_N2200_seed1.json
+38c65d990d64984312753bc04f3d8869fa6d769c272f4f1fd7d4427725952bd3  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/SAUT 9.2/saut9_2_N2500_seed1.json
+ce5789e377f9a0265e7c07b2f4a5c7cd17f4f2faba400834b4d8be0c3b1d17aa  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/SAUT 9.2/saut9_2_N2800_seed1.json
+a3fbfcc71606c87f276e518898e7d4a9be91820ad1050bd9c054f959763bfe78  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/SAUT 9.2/saut9_2_N3000_seed1.json
+f9f243e48236529832b93e15e53acb4d82aa7dba10ae77a1a4ad507cd8a52f20  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut10_lambda.py
+3d24655f07956fed547e8162019a1915eb24993045022bb2e324b941fbe4e298  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut11_V2.json
+37ca371338c9fa1dbddb29eb9460eb3b59f3e11c7bc1673002d6a64733072c98  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut11_final_results.json
+5c078a0d992f6752c7cbefd22c44058559960e56e600d484b595faf21bf03201  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut9_N2000.json
+5be56ac2873c53aa6ec88b86d04a23f2a2dfc7205edc756e4c819dc97b373152  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut9_N2000_seed1.json
+f7e8dc5670213d5f3e903cf60c20c6081c876d658f3bb9af2c2ee68ab7e8b067  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut9_N2200.json
+43eb9a510b8584237f75649425d98139e5cd807edf263bed2909265eb385b054  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut9_N2500.json
+23a85ef4b5db95a08d2851557a5c937276c862152818b3a6f091600393390366  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut9_N2800.json
+99825f38d03eacf4c6ce5e700f75f76c2485082127a059615203d1503b0dc286  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut9_N3000.json
+cb52f5d7fd2709e285e49a1cf7b6394207f7897013aa4147d3bd170be31b67c3  ./corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/saut9_growth.py
+7ed25286f83ffd5b6c4d46f1121f9bc1f762bb9a5e16a009bc440e44f50f4cb1  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/BlobPrinciple Master V111 18mai2026 2.docx
+7ed25286f83ffd5b6c4d46f1121f9bc1f762bb9a5e16a009bc440e44f50f4cb1  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/BlobPrinciple Master V111 18mai2026.docx
+fcd484e803e4355eb6119834a192b52027c86943dfcf14239b8723361c1eb79e  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/README V111 PhaseMaximalite.pdf
+01f418687a1da3b14831af7109262bdf2cf998b5b88c0904b05b22c071b8a893  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/brique X quartri LOCK N500.json
+7e38697bc9bb46dbeaa91c8b65c739a900e710a2c664ac21e3070eb4ead6eee6  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/brique X secondaires v2.json
+529f1ad1a9a324b387b5b97d4193112c82b7eb23045fa16c9f7ca9cad76d1230  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/brique X tri AxeA N500.json
+cd615c2eff74490b02eceb71607755f024093df66459885d0ec8f37446c89dec  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/brique X tri AxeB sweep.json
+f0ba7b9bd256b22c6f23a6fd2ce32a9b1d57621889ce3b47652ca28b2bd95cfa  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/brique Z extended.json
+d4aaa3991a1cd253150fb6ba581d83ce0a55f0053411fc4cdfb19660a636cf76  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/master VII 5 addendum.docx
+58f6e3306096d714868cc8da37d37f1f2d8c2104f47432ca7a77446393155e30  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/master VII 5 addendum.pdf
+ebd8059c7a4698f241bd44f720e42eeacb7d90cb1cf572bab466375765b887dc  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/master VII 4 addendum 2.pdf
+064fc08e7689934fde438a061f679e5614e1066cd9a8ae955186e823989318fa  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/master VII 4 addendum.pdf
+50ca14b85149d9f8fe584b67bc77303c079b08f84ed62cb3de31a37de772c65e  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/sweep beta tau results.json
+6790d77aa4a92eecd9204700234a540180b0376ba0fad1f431239fb60a9e0151  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 1 sweep.pdf
+ed9a99588a3d444d8c57998286ab28058f0b91e33ea5379bc36459742691547b  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 2.pdf
+497a66aba9ff53b576a2d78231948f43ea72c2b6f458d92ed933e507ffc977dd  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 3 dobrushin.pdf
+05dd200fe52c08635018b618cdb211f5ec884ce953e66366a3e276974b2cd32b  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 3 results.json
+9b66e71bde3a1817d2137ef5f6ebfb43cad6e6210112f01e1486eaa26467170d  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 3 v2 autocorrelation.pdf
+be3ee0b064c48e1c97813558800c2ee401dc821652b2efe2004ce4c7f7edcd99  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 3 v2 results.json
+3618aeeca9f028309a51633a7438b9301d8afcfff8952777c49f77c157b4af3d  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 4 heisenberg.pdf
+1381627a8674ca4e8de0cf555b49956fa7bb5fbd4e0c985ae2168c7d7ba47333  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 5 lyapunov.pdf
+108be2d4346f60e59af9e8ec7c15955cd0bafa3ae567c61abbf13886c0842d58  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 5 v2 results.json
+bb2fbfb00e040cfb33980abb561841e6f5de7345ebcd2a8a901de2d22fd0d036  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 5 v2 strict.pdf
+11d59d17c2a2e40a866618138ffd82e4524c413ceb16aa1e74ce0527dc476d9d  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 3 3 confinement.pdf
+542fcb295ee70a56b78b2b8a356967d795f4d6511d2d1eb96e18f689a57cf414  ./corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 3 3 results.json
+cd060d8a7d1017bca4eaf3ca9aa94b63fefc0b9316298949636c7f89b4c048b2  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/calibration ds results.json
+647a3abce965b67b85bd09d17b90c6bb6026e14ad68f23faf5dc1059a4c7392d  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/calibration ds.pdf
+f4b6e2ffe9c378c26aa143562a6a61f4c603c2dadab79c88e3c44634e8990a7c  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/d3 singularites catalogue.pdf
+0e9711ecff4b8f7fe56fbc7bc1c87d7ad2531eb62f26731f6279ea166e958feb  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/dh ds convergence.json
+a6ccc887b0105c4d43b70ff542665172e86fbebdc5258c624b5f8a1373d45ac7  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/local collapse results.json
+85f60e75fda4a54189094198e8440ac8ce6cd38e2ee666f99e3a5516425668ca  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/loi aire results.json
+228f9ccd1bf32edb4fd20b707a3fc18370ac31cd5bb395ec167f4ef0577a726f  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/rapport complet 17mai2026.pdf
+a594b24be2da16baa23f6051baa4cf58332e27938df5ee070b8d250bca830309  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/rapport unifie 17mai2026.pdf
+bfa385ff3436b758124b2f4cba14f2c7958620db75d9f94f1a9e172d6fab716d  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/scout results.json
+d94aed32188fa9946328efcac5dde23d37d2dc2f1d0e719ab14d321f1994f359  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test blob scout.pdf
+ed9c75e73cac663aa1fcac8d0299712bfd3d691c2fd7c431a53b9b930a66259e  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test dh ds convergence.pdf
+4c8a66e8d8e027b2f485173daa7a0a3aa890733e998c4ed752780b0043b987cf  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test local collapse.pdf
+d203336aa9ec99b32857f4c385afb1251e313366c4a8ca458c61d63bdd31deb1  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test loi aire.pdf
+c202868247c7d641185b28e9e5c047b65e48ca440072f9e1ea667c2cf0c13d3c  ./corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test o2v4 replication.pdf
+ab1f8d42e36f7c668fc8f95ca4246f3847a0a7081bbae21604c73d12b3156b86  ./corpus/06_campagnes_et_sauts/Thermodynamique exploratoire V94/blob_annexe_origines_complet.docx
+26adf1a65c140e36e78aa9e7fcc291c0581df8d03ba54561ff15ed025360ec55  ./corpus/06_campagnes_et_sauts/Thermodynamique exploratoire V94/tau_c_cartographie.json
+044c9ae7cfa4e88cd3db482aa44de558ee0076169775ee623befcc96b3dd3f92  ./corpus/06_campagnes_et_sauts/Thermodynamique exploratoire V94/thermo_inversee_complet.json
+a8d470660e90b3853a258b5030929f26990f1137153c17d57dc1bae4277d7720  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N1000.json
+67b41166b7fa76f8faade2776d46f25620f47fb57bf2433a31fbfe63a38ca495  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N10000.json
+5936f813254e2da3f8d6a8f5ef57a13e13d86e989a04737a4cd409ea82852296  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N15000.json
+f3eaae1d2dfbd3f2f01dd51c34b5550b0a622bc025e90caffbb76b7b515b8dc8  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N20000.json
+6030f71429444cb529f2e1872bc7f05cb1294fc86a9a355e048750ecdced9eaa  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N2500.json
+2fde14172ad6c56ed0d0d6000d15bc3b081e0a84d4f0ba15520098afe63e1507  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N25000.json
+e85375be22505570bb5cf0ff59ea170e5c2545f1ee715abb1b782e4133603318  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N30000.json
+59b10be46bb8a20d1378d11d6a7f8e09943343f56b11b2caf4c97a59519a369f  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N35000.json
+0ed268f8f10329908162fcef496899812f424aca1f0b952edf515e94d8e20b51  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N40000.json
+b73284d8dc86bcf6221f2e0f0aef92c8884c2cf5c4ec2825a5cd3bab232340e3  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N45000.json
+7e5b2bfac939001879cc76619492ab27db62f0fcf146d18c1b18a67fd010a95a  ./corpus/06_campagnes_et_sauts/json blob gravite/blob_gravite_N5000.json
+d7da7f88658519a82fc5e67ea390340af31115a89470bb303c9e1e55f0ad76d7  ./corpus/07_complements/blob protocole F v2.pdf
+caafc44fe487f5ddccf0e6ecb4fc3ad4bf5cd84d422c9543133ee686adeb9579  ./corpus/07_complements/blob validation gpu.pdf
+5a05f2b1782ce28f2c579fff7682122cb3c985911037f9f70f2a44c1513aca0b  ./corpus/07_complements/blob_c2r_autonome-2.py
+582a822a24d52aff83f879ec4fc8a1394b51cce1b7a1ac6a1391ead59605a8e1  ./corpus/07_complements/blob_c2r_autonome.py
+0722f6452d99915706b2f200d02e018a5bc11ba97ef1e6fae47e2e1b0f21c802  ./corpus/07_complements/campagne_blob_ir.json
+a3b4839372fb0539a91d273f07e0e23c714fd01c3b040880928f3dd1a25fde5f  ./corpus/07_complements/master.json
+94a7b9a3523465331d62964ff3cb110900cd5647006b87283e71ed0b86327caa  ./corpus/07_complements/saut9_3_Cosmogonie_Blob_N10000.json
+833f85ac0b95b31f6d0111da40be378b735ea7860510b6a093b2efc21ec21b7d  ./corpus/07_complements/saut9_3_Cosmogonie_Blob_N2500.json
+355b4b2db2999bb118ac77509ba2de1517ed71d18e9570b379091d7dbcaf5d8a  ./corpus/07_complements/saut9_3_Cosmogonie_Blob_N500.json
+1a9b9ca7f6b6d525cc4171f0391a0064181b9746bbc350d7d5158e3caf0197ad  ./corpus/LISEZ-MOI.md
+8db6d4fcbf77762db2fd2499aa6d869e0ae852d797109d932f756588ea1fcc51  ./docs/index.html
+2979a8051c5d4b414718835ef90e1c791d755a19b9a18b40d076b806e6eed735  ./docs/social-preview.png
+5ae07975ae325206ca4d8befa032101f5f5e9524348015643f1faf9df2dfcdf8  ./index/INDEX.md
+d125a9e7597b35f5c398540694f98647f370105fd0df1a8feeff568ddb70cced  ./index/INDEX_CORPUS.csv
+bddb99d8bbec93bb8f85eabf75b0416838c8ebd766d0c62d1b9818209738e45f  ./index/LEXIQUE.md
+03438a3b1a771766c8d5061db73c42f72421357695fd6705606cc56ec223f96c  ./index/LEXIQUE_FR-EN.md
+588cd614ba9f0925b353860436a7c049c2025fdfc6465fa9dddbd7ea8524f14b  ./index/ORGANISATION_DU_CORPUS.md
+355e57f91252e9da18c68b9af32325ed315124def30c3c79a36ec0bf2fa8ae82  ./livres/LISEZ-MOI.md
+c35eef9378d5b870037f2b1af5c2a254f7a8b125805be83bc76bb5d1dc345daa  ./livres/du-simplexe-au-complexe/livre-1_mai-2026/Du-simplexe-au-complexe_Livre-1.docx
+dd6d68a23ca25470e3de20bcb070acbd7ea49e7541be3970711ce7413ff20571  ./livres/du-simplexe-au-complexe/livre-1_mai-2026/Du-simplexe-au-complexe_Livre-1.pdf
+432fbcb8b14e2e5dc85e2b1906ab3fdfb75820b4820dd3005572faca1229cbb3  ./livres/du-simplexe-au-complexe/livre-1_mai-2026/Du-simplexe-au-complexe_Livre-1_revision-17-mai.pdf
+982dc3a78640ffbdb10b48e22c35003b7c7b2d6cb3a0743f4e25eaef8608c32f  ./livres/du-simplexe-au-complexe/livre-2_juin-2026/Du-simplexe-au-complexe_Livre-2.docx
+e6bd10deeeaaeecf4823c7bc7e58ee9472be2f92c821301236ea38c010a5cac9  ./livres/du-simplexe-au-complexe/livre-2_juin-2026/Du-simplexe-au-complexe_Livre-2.md
+dc515c82eecba92ef99990bab56847d643479a62e676a330d975d5970fcf52f0  ./livres/du-simplexe-au-complexe/livre-2_juin-2026/Du-simplexe-au-complexe_Livre-2.pdf
+2f1f329254d41e939d299b1724d39ac538efedc274ea6145501a751601b66c27  ./livres/du-simplexe-au-complexe/livre-3_juillet-2026/Carte-des-revisions_V2-vers-V3.md
+e30606bad15c33c74d168714527cf45cb805302dfbb51b094b4602513294b60a  ./livres/du-simplexe-au-complexe/livre-3_juillet-2026/Du-simplexe-au-complexe_Livre-3.docx
+792e00ca2a4086ba8d9ea076b24a9927aeeaf26421d3dcb64e2b7abb60e4d1b3  ./livres/du-simplexe-au-complexe/livre-3_juillet-2026/Du-simplexe-au-complexe_Livre-3.pdf
+4cd15e50591efdde0f4ccbd291e7188c4d6a9848be1be3a79b6167a22942265d  ./livres/du-simplexe-au-complexe/version-mathematique_livre-annexe/Chapitre-annexe_Le-pourquoi-du-Blob.pdf
+05f3ea5686b49c7826eecff043d02f3773485085745c5c2fdb005f677685826f  ./livres/du-simplexe-au-complexe/version-mathematique_livre-annexe/Livre-annexe_demonstrations.docx
+a416f7c28ba303911e59c505233e744499b1e18b04bd18ad23ff992ce9c3d74a  ./livres/du-simplexe-au-complexe/version-mathematique_livre-annexe/Livre-annexe_demonstrations.pdf
+3e025cc06e8662aad705ff434253050c68765924ab0e65347ef834aa10adb461  ./livres/edition-2026_grand-public/Le-Blob-Principle_edition-2026.md
+ee61c149bfa9e8471cd6e8162b018b78c802109ebfb4af8e4a9329577083064b  ./livres/edition-2026_grand-public/Le-Blob-Principle_edition-2026_FINALE.pdf
+acd7a5480637429483e94f605165273378341a4929f8b2db9df1e713a0c576d8  ./livres/le-blob-surnaturel/v1_chapitres/Livre-du-Surnaturel_V1.docx
+d48b513f84bcc60a1b7a9759428f2f23a0ac69eb12e133334d45354775a920bf  ./livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_1.pdf
+d5566adfc690cab651ef16f17bb72fc1c6f1eb1a22e5c8ad4244ad78be51a6a3  ./livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_2.pdf
+21c3db1bdf610be31f7777de7bd693f98d6282d935962ee2c0b93f8c590f51dd  ./livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_3.pdf
+17d1f9c51b4b614bffb1159ba90e778a1938f21c96a3a24d5c5f06dbc73f50c8  ./livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_4.pdf
+590682ad66fa8b78a31a4cfbf0ee140c2628848c1c22272c8275b3b0d09a577d  ./livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_5.pdf
+b33d6ebe731fc2830e4f9bd9613edeaaf718131044057430fdcf5c468f4e0f0b  ./livres/le-blob-surnaturel/v3_version-finale/Le-Blob-Surnaturel_V3_livre-complet.docx
+ec1be830f3518b081929f684b7b4fa9a8996da555f7221122c00f97485dfbbb9  ./livres/le-blob-surnaturel/v3_version-finale/Le-Blob-Surnaturel_V3_livre-complet.pdf
+40a8881e91a15cba1f3f594b6e2855bf70413e67b09acfc3a7ebeb53ceb33f9d  ./livres/le-blob-surnaturel/v3_version-finale/Sommaire.md

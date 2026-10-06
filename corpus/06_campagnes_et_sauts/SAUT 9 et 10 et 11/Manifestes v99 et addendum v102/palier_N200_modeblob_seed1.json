@@ -1,0 +1,16 @@
+{
+  "config": {
+    "N": 200,
+    "mode": "blob",
+    "seed": 1,
+    "kappa0": 8,
+    "beta": 0.3,
+    "tau_final": 0.5,
+    "burnin_steps": 2001000,
+    "production_steps": 2000,
+    "walltime_seconds": 233.90584325790405,
+    "r_initial": 0.37422129292015327
+  },
+  "global": {
+    "N": 200,
+    "edges": 

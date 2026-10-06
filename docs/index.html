@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="The Blob Principle, la théorie de la viabilité : laboratoire public de recherche ouvert par Rudolphe Mirante. Candidate humble à la théorie du tout. TOE démontrée : NON. Relevez un défi.">
+<meta property="og:title" content="The Blob Principle — Cassez le Blob">
+<meta property="og:description" content="Une candidate humble à la théorie du tout, ouverte à tous. 27 recherches ouvertes, des défis à chaque niveau. TOE démontrée : NON.">
+<meta property="og:image" content="social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>html{color-scheme:light}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>The Blob Principle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,800;1,400&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: carnet de laboratoire ouvert — papier millimétré, une colonne de lecture, un canevas vivant en tête où les simplexes naissent et ne persistent pas tous. */
+:root{
+  --paper:#F2F4F1; --paper-2:#E7EBE6; --ink:#15212B; --muted:#56626B; --rule:#C9D0CA;
+  --accent:#2742B0; --accent-soft:#DCE2F7; --open:#9A5B00; --open-soft:#F6E7CC; --fail:#A3271F; --fail-soft:#F5DAD7; --ok:#21684A;
+  --grid:rgba(21,33,43,.055);
+  --f-display:"Spectral",Georgia,"Times New Roman",serif;
+  --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --s1:.25rem; --s2:.5rem; --s3:.75rem; --s4:1rem; --s5:1.5rem; --s6:2.25rem; --s7:3.5rem; --s8:5rem;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F151B; --paper-2:#17202A; --ink:#E4EAEE; --muted:#9AA6AF; --rule:#2A3540;
+  --accent:#93A6FF; --accent-soft:#1E2A55; --open:#E8B45C; --open-soft:#3A2C12; --fail:#F08A80; --fail-soft:#3D1814; --ok:#6FD3A4;
+  --grid:rgba(228,234,238,.05); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0F151B; --paper-2:#17202A; --ink:#E4EAEE; --muted:#9AA6AF; --rule:#2A3540;
+  --accent:#93A6FF; --accent-soft:#1E2A55; --open:#E8B45C; --open-soft:#3A2C12; --fail:#F08A80; --fail-soft:#3D1814; --ok:#6FD3A4;
+  --grid:rgba(228,234,238,.05); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6;
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:24px 24px}
+.wrap{max-width:68rem;margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.15;margin:0}
+h2{font-size:clamp(1.6rem,3.2vw,2.3rem);font-weight:600}
+h3{font-size:1.2rem;font-weight:600}
+p{margin:0}
+.mono{font-family:var(--f-mono);font-size:.8rem;letter-spacing:.04em}
+.eyebrow{font-family:var(--f-mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+
+/* barre */
+.bar{display:flex;justify-content:space-between;align-items:center;gap:var(--s4);padding-block:var(--s4);flex-wrap:wrap}
+.brand{font-family:var(--f-mono);font-size:.8rem;letter-spacing:.1em;text-transform:uppercase}
+.lang{display:flex;gap:2px;border:1px solid var(--rule);border-radius:999px;padding:2px;background:var(--paper)}
+.lang button{font:600 .75rem var(--f-mono);border:0;background:transparent;color:var(--muted);padding:.3rem .7rem;border-radius:999px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:var(--s6);align-items:center;padding-block:var(--s6) var(--s7)}
+.hero h1{font-size:clamp(2.6rem,6.5vw,4.6rem);font-weight:800;letter-spacing:-.02em}
+.hero .sub{font-family:var(--f-display);font-style:italic;font-size:clamp(1.15rem,2.2vw,1.45rem);color:var(--muted);margin-top:var(--s2)}
+.thesis{font-family:var(--f-display);font-size:clamp(1.4rem,2.8vw,1.9rem);margin-top:var(--s5);line-height:1.3}
+.thesis b{font-weight:800}
+.lede{margin-top:var(--s4);max-width:36rem;color:var(--ink)}
+.status{margin-top:var(--s5);border:1.5px solid var(--ink);padding:var(--s3) var(--s4);max-width:36rem;background:var(--paper)}
+.status .mono{display:block;color:var(--muted);margin-bottom:var(--s1)}
+.status strong{font-family:var(--f-mono);font-size:.9rem}
+.status .row{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s2)}
+.pill{font:600 .72rem var(--f-mono);padding:.2rem .55rem;border-radius:999px;letter-spacing:.03em}
+.pill.open{background:var(--open-soft);color:var(--open)}
+.pill.fail{background:var(--fail-soft);color:var(--fail)}
+.pill.no{background:var(--ink);color:var(--paper)}
+.cta{display:flex;flex-wrap:wrap;gap:var(--s3);margin-top:var(--s5)}
+.btn{display:inline-flex;align-items:center;gap:.5rem;font:600 .95rem var(--f-body);padding:.75rem 1.15rem;border-radius:6px;text-decoration:none;border:1.5px solid var(--ink)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+:root[data-theme="dark"] .btn.primary{color:#0F151B}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn.primary{color:#0F151B}}
+.btn.ghost{color:var(--ink);background:transparent}
+.btn[aria-disabled="true"]{opacity:.55;pointer-events:none}
+.canvas-box{position:relative;aspect-ratio:1/1;max-width:100%;border:1px solid var(--rule);background:var(--paper)}
+.canvas-box canvas{width:100%;height:100%;display:block}
+.legend{position:absolute;left:var(--s3);bottom:var(--s3);right:var(--s3);display:flex;justify-content:space-between;gap:var(--s2);flex-wrap:wrap}
+.legend span{font-family:var(--f-mono);font-size:.7rem;color:var(--muted);background:var(--paper);padding:.1rem .35rem}
+
+section{padding-block:var(--s7);border-top:1px solid var(--rule)}
+.head{display:grid;gap:var(--s3);margin-bottom:var(--s6);max-width:44rem}
+.head p{color:var(--muted)}
+
+/* miroir */
+.mirror{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s5)}
+.mirror article{display:grid;gap:var(--s2);align-content:start}
+.mirror .tag{font-family:var(--f-mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.mirror p{color:var(--ink)}
+.formula{font-family:var(--f-mono);font-size:.85rem;background:var(--paper-2);padding:.5rem .7rem;overflow-x:auto;white-space:nowrap}
+
+/* cascade */
+.cascade{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--s4);margin-top:var(--s6)}
+.step{display:grid;gap:var(--s2);align-content:start}
+.step svg{width:72px;height:72px}
+.step .mono{color:var(--muted)}
+
+/* portes */
+.gates{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:var(--s2)}
+.gate{border:1.5px dashed var(--open);padding:var(--s3) var(--s2);text-align:center;display:grid;gap:var(--s1)}
+.gate b{font-family:var(--f-mono);font-size:1rem}
+.gate span{font-family:var(--f-mono);font-size:.68rem;color:var(--open)}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--s6);margin-top:var(--s6)}
+.cols h3{margin-bottom:var(--s3)}
+.list{list-style:none;padding:0;margin:0;display:grid;gap:var(--s2)}
+.list li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:var(--s3);align-items:baseline;padding-bottom:var(--s2);border-bottom:1px solid var(--rule)}
+.list .pill{white-space:nowrap}
+
+/* défis */
+.levels{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--s4)}
+.level{border:1px solid var(--rule);background:var(--paper);padding:var(--s4);display:grid;gap:var(--s3);align-content:start}
+.level h3{font-size:1.05rem}
+.level ul{list-style:none;margin:0;padding:0;display:grid;gap:var(--s2)}
+.level li{display:grid;gap:2px}
+.level li code{font-family:var(--f-mono);font-size:.72rem;color:var(--accent)}
+.level li span{font-size:.92rem}
+.t0{margin-top:var(--s5);border:2px solid var(--ink);padding:var(--s5);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--s5);align-items:center}
+.t0 h3{font-size:1.5rem}
+.t0 p{margin-top:var(--s2);color:var(--muted)}
+.verified{margin-top:var(--s4);font-size:.92rem;color:var(--muted)}
+.verified b{color:var(--ok);font-family:var(--f-mono);font-size:.85rem}
+
+/* livres */
+.books{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--s4)}
+.book{display:grid;grid-template-rows:auto 1fr auto;gap:var(--s3);padding:var(--s4);background:var(--paper);border:1px solid var(--rule)}
+.spine{height:6px;background:var(--ink)}
+.book:nth-child(2) .spine{background:var(--accent)}
+.book:nth-child(3) .spine{background:var(--open)}
+.book p{font-size:.95rem;color:var(--muted)}
+.book .mono{color:var(--ink)}
+
+/* paternité */
+.rights{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:var(--s6)}
+.lic{display:grid;gap:var(--s3)}
+.lic div{display:grid;grid-template-columns:9rem minmax(0,1fr);gap:var(--s3);padding-bottom:var(--s2);border-bottom:1px solid var(--rule)}
+.lic b{font-family:var(--f-mono);font-size:.8rem}
+.hash{font-family:var(--f-mono);font-size:.72rem;word-break:break-all;color:var(--muted)}
+
+footer{padding-block:var(--s6);border-top:1px solid var(--rule);color:var(--muted);font-size:.9rem;display:flex;justify-content:space-between;gap:var(--s4);flex-wrap:wrap}
+
+[data-l="en"]{display:none}
+html[lang="en"] [data-l="fr"]{display:none}
+html[lang="en"] [data-l="en"]{display:revert}
+
+@media (max-width:900px){
+  .hero{grid-template-columns:minmax(0,1fr)}
+  .mirror,.books{grid-template-columns:minmax(0,1fr)}
+  .levels{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cascade{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .gates{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .cols,.rights{grid-template-columns:minmax(0,1fr)}
+}
+@media (max-width:520px){
+  .levels{grid-template-columns:minmax(0,1fr)}
+  .t0{grid-template-columns:minmax(0,1fr)}
+  .lic div{grid-template-columns:minmax(0,1fr)}
+}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="bar">
+    <span class="brand">Laboratoire public · Blob Principle</span>
+    <div class="lang" role="group" aria-label="Langue / Language">
+      <button id="btn-fr" type="button" aria-pressed="true">FR</button>
+      <button id="btn-en" type="button" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div>
+      <p class="eyebrow" data-l="fr">Rudolphe Mirante · ouverture le 6 octobre 2026</p>
+      <p class="eyebrow" data-l="en">Rudolphe Mirante · opened 6 October 2026</p>
+      <h1>The Blob Principle</h1>
+      <p class="sub" data-l="fr">La théorie de la viabilité</p>
+      <p class="sub" data-l="en">The viability principle</p>
+      <p class="thesis" data-l="fr">Tout apparaît. <b>Tout ne persiste pas.</b></p>
+      <p class="thesis" data-l="en">Everything appears. <b>Not everything persists.</b></p>
+      <p class="lede" data-l="fr">Une candidate humble à la théorie du tout et à une cosmogonie complète : reconstruire l'espace, le temps et la matière à partir d'un seul point et d'une règle, la viabilité. Neuf mois de travail en solitaire, 1 918 pages, 27 recherches ouvertes. Le laboratoire est désormais ouvert à tous.</p>
+      <p class="lede" data-l="en">A humble candidate for a theory of everything and a complete cosmogony: rebuilding space, time and matter from a single point and one rule, viability. Nine months of solo work, 1,918 pages, 27 open research problems. The lab is now open to everyone.</p>
+      <div class="status" role="note">
+        <span class="mono" data-l="fr">Bloc de statut obligatoire</span>
+        <span class="mono" data-l="en">Mandatory status block</span>
+        <strong data-l="fr">TOE démontrée : NON</strong>
+        <strong data-l="en">TOE demonstrated: NO</strong>
+        <div class="row">
+          <span class="pill open" data-l="fr">G0–G5 ouvertes</span><span class="pill open" data-l="en">G0–G5 open</span>
+          <span class="pill open" data-l="fr">G6 externe</span><span class="pill open" data-l="en">G6 external</span>
+          <span class="pill no" data-l="fr">portes physiques 0/7</span><span class="pill no" data-l="en">physical gates 0/7</span>
+        </div>
+      </div>
+      <div class="cta">
+        <a class="btn primary js-repo" data-path="/blob/main/DEFIS.md" href="#defis"><span data-l="fr">Cassez le Blob</span><span data-l="en">Break the Blob</span></a>
+        <a class="btn ghost js-repo" data-path="/blob/main/corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V347_1_ARMATURE_CANONIQUE.pdf" href="#miroir"><span data-l="fr">Lire l'armature (29 p.)</span><span data-l="en">Read the 29-page core</span></a>
+      </div>
+    </div>
+    <div class="canvas-box">
+      <canvas id="blob" aria-label="Simulation : des sommets naissent par mitose, se ferment en triangles ; seuls les plus liés persistent." role="img"></canvas>
+      <div class="legend"><span id="lg-t">t₁ = 0</span><span id="lg-n">Ω⁰</span></div>
+    </div>
+  </div>
+
+  <section id="miroir">
+    <div class="head">
+      <p class="eyebrow" data-l="fr">Le programme</p><p class="eyebrow" data-l="en">The programme</p>
+      <h2 data-l="fr">Une même histoire, racontée deux fois</h2>
+      <h2 data-l="en">One story, told twice</h2>
+      <p data-l="fr">Le Blob se lit en miroir. L'écart entre le récit et les mathématiques n'est pas caché : il est numéroté et mis au travail.</p>
+      <p data-l="en">The Blob is read as a mirror. The gap between narrative and mathematics is not hidden: it is numbered and put to work.</p>
+    </div>
+    <div class="mirror">
+      <article>
+        <span class="tag">Livre I</span>
+        <h3 data-l="fr">Le récit</h3><h3 data-l="en">The narrative</h3>
+        <p data-l="fr">Un substrat froid, une scission en deux lignées jumelles, la mitose, trois temps, la naissance de la matière au premier tétraèdre, le bain, la viabilité qui trie ce qui tient.</p>
+        <p data-l="en">A cold substrate, a split into twin lineages, mitosis, three times, matter born at the first tetrahedron, the bath, and viability sorting what holds.</p>
+      </article>
+      <article>
+        <span class="tag">Livre II</span>
+        <h3 data-l="fr">Le miroir mathématique</h3><h3 data-l="en">The mathematical mirror</h3>
+        <p data-l="fr">Les seuls objets effectivement construits : complexes simpliciaux finis, triangulations de T³, une fonctionnelle de viabilité.</p>
+        <p data-l="en">Only the objects actually built: finite simplicial complexes, triangulations of T³, a viability functional.</p>
+        <div class="formula">S_sim(C) = log(1 + n_tri(C)) − β·D(C)</div>
+      </article>
+      <article>
+        <span class="tag">Livre III</span>
+        <h3 data-l="fr">Le résidu : 27 recherches ouvertes</h3><h3 data-l="en">The residue: 27 open problems</h3>
+        <p data-l="fr">Chaque écart reçoit un critère de clôture ou un falsificateur. Six bloquent la porte G0, quinze éprouvent le miroir, six bornent les fondations.</p>
+        <p data-l="en">Each gap gets a closure criterion or a falsifier. Six block gate G0, fifteen test the mirror, six bound the foundations.</p>
+      </article>
+    </div>
+    <div class="cascade" aria-label="Cascade simpliciale">
+      <div class="step"><svg viewBox="0 0 72 72" aria-hidden="true"><circle cx="36" cy="36" r="5" fill="currentColor"/></svg><b>Ω⁰</b><span class="mono" data-l="fr">le point · exister</span><span class="mono" data-l="en">the point · to exist</span></div>
+      <div class="step"><svg viewBox="0 0 72 72" aria-hidden="true"><line x1="16" y1="50" x2="56" y2="22" stroke="currentColor" stroke-width="2.5"/><circle cx="16" cy="50" r="5" fill="currentColor"/><circle cx="56" cy="22" r="5" fill="currentColor"/></svg><b>Ω¹</b><span class="mono" data-l="fr">l'arête · relier</span><span class="mono" data-l="en">the edge · to relate</span></div>
+      <div class="step"><svg viewBox="0 0 72 72" aria-hidden="true"><polygon points="14,56 58,56 36,16" fill="var(--accent-soft)" stroke="currentColor" stroke-width="2.5"/><circle cx="14" cy="56" r="5" fill="currentColor"/><circle cx="58" cy="56" r="5" fill="currentColor"/><circle cx="36" cy="16" r="5" fill="currentColor"/></svg><b>Ω²</b><span class="mono" data-l="fr">le triangle · fermer</span><span class="mono" data-l="en">the triangle · to close</span></div>
+      <div class="step"><svg viewBox="0 0 72 72" aria-hidden="true"><polygon points="12,54 44,62 36,12" fill="var(--accent-soft)" stroke="currentColor" stroke-width="2"/><polygon points="44,62 62,40 36,12" fill="var(--accent-soft)" stroke="currentColor" stroke-width="2" opacity=".75"/><line x1="12" y1="54" x2="62" y2="40" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/><circle cx="12" cy="54" r="4.5" fill="currentColor"/><circle cx="44" cy="62" r="4.5" fill="currentColor"/><circle cx="62" cy="40" r="4.5" fill="currentColor"/><circle cx="36" cy="12" r="4.5" fill="currentColor"/></svg><b>Ω³</b><span class="mono" data-l="fr">le tétraèdre · un dedans</span><span class="mono" data-l="en">the tetrahedron · an inside</span></div>
+    </div>
+  </section>
+
+  <section id="statut">
+    <div class="head">
+      <p class="eyebrow" data-l="fr">Honnêteté d'abord</p><p class="eyebrow" data-l="en">Honesty first</p>
+      <h2 data-l="fr">Les sept portes sont encore fermées</h2>
+      <h2 data-l="en">All seven gates are still closed</h2>
+      <p data-l="fr">Selon ses propres critères, le Blob est au niveau 1 : un modèle mathématique reproductible. Les échecs sont montrés en premier.</p>
+      <p data-l="en">By its own criteria, the Blob is at level 1: a reproducible mathematical model. Failures are shown first.</p>
+    </div>
+    <div class="gates">
+      <div class="gate"><b>G0</b><span data-l="fr">ouverte</span><span data-l="en">open</span></div>
+      <div class="gate"><b>G1</b><span data-l="fr">ouverte</span><span data-l="en">open</span></div>
+      <div class="gate"><b>G2</b><span data-l="fr">ouverte</span><span data-l="en">open</span></div>
+      <div class="gate"><b>G3</b><span data-l="fr">ouverte</span><span data-l="en">open</span></div>
+      <div class="gate"><b>G4</b><span data-l="fr">ouverte</span><span data-l="en">open</span></div>
+      <div class="gate"><b>G5</b><span data-l="fr">ouverte</span><span data-l="en">open</span></div>
+      <div class="gate"><b>G6</b><span data-l="fr">externe</span><span data-l="en">external</span></div>
+    </div>
+    <div class="cols">
+      <div>
+        <h3 data-l="fr">Corrigé, rétracté ou en échec</h3><h3 data-l="en">Corrected, retracted or failed</h3>
+        <ul class="list">
+          <li><span class="pill fail">[FAIL]</span><span data-l="fr">Q-TIME : la mesure stationnaire ne fixe pas l'horloge physique.</span><span data-l="en">Q-TIME: the stationary measure does not fix a physical clock.</span></li>
+          <li><span class="pill fail">[T] no-go</span><span data-l="fr">La mitose seule ne forme jamais de triangle : il manque un mécanisme de fermeture.</span><span data-l="en">Mitosis alone never forms a triangle: a closure mechanism is missing.</span></li>
+          <li><span class="pill fail">[R]</span><span data-l="fr">Seuil dissipatif universel au tétraèdre : non démontré.</span><span data-l="en">Universal dissipation threshold at the tetrahedron: not proved.</span></li>
+          <li><span class="pill fail">[R-ALG]</span><span data-l="fr">Signe de l'énergie libre hérité : corrigé.</span><span data-l="en">Inherited free-energy sign: corrected.</span></li>
+          <li><span class="pill fail">[R]/[FAIL]</span><span data-l="fr">Anciennes correspondances cosmologiques : exclues.</span><span data-l="en">Earlier cosmological matches: excluded.</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3 data-l="fr">Ce qui tient, et ce qui reste ouvert</h3><h3 data-l="en">What holds, and what is still open</h3>
+        <ul class="list">
+          <li><span class="pill open">[T]</span><span data-l="fr">Objet initial, mitose simpliciale, unicité de la première mitose.</span><span data-l="en">Initial object, simplicial mitosis, uniqueness of the first mitosis.</span></li>
+          <li><span class="pill open">[T]</span><span data-l="fr">La sélection par viabilité ne crée ni n'efface la lignée.</span><span data-l="en">Viability selection neither creates nor erases lineage.</span></li>
+          <li><span class="pill open">[T]</span><span data-l="fr">Lyapunov KL du sampler ; no-go d'uniformité ponctuelle.</span><span data-l="en">KL Lyapunov of the sampler; pointwise-uniformity no-go.</span></li>
+          <li><span class="pill open">[M]</span><span data-l="fr">C2-R validé à L = 4 et L = 5 ; L = 6 non concluant faute de calcul.</span><span data-l="en">C2-R validated at L = 4 and L = 5; L = 6 inconclusive for lack of compute.</span></li>
+          <li><span class="pill open">[Q]</span><span data-l="fr">Pince spectrale INF-1 / SUP-1 : ne se referme pas en l'état.</span><span data-l="en">INF-1 / SUP-1 spectral squeeze: does not close as it stands.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="defis">
+    <div class="head">
+      <p class="eyebrow" data-l="fr">Contribuer</p><p class="eyebrow" data-l="en">Contribute</p>
+      <h2 data-l="fr">Choisissez un défi à votre niveau</h2>
+      <h2 data-l="en">Pick a challenge at your level</h2>
+      <p data-l="fr">Une réfutation propre vaut autant qu'une preuve. Chaque contribution retenue est créditée nominativement et reçoit une trace citable (DOI).</p>
+      <p data-l="en">A clean refutation is worth as much as a proof. Every accepted contribution is credited by name and gets a citable record (DOI).</p>
+    </div>
+    <div class="levels">
+      <div class="level"><p class="eyebrow" data-l="fr">Niveau 0 · curieux</p><p class="eyebrow" data-l="en">Level 0 · curious</p>
+        <ul>
+          <li><code>DEFI-L1</code><span data-l="fr">Lire l'armature et pointer le passage le moins clair</span><span data-l="en">Read the core and flag the least clear passage</span></li>
+          <li><code>DEFI-L2</code><span data-l="fr">Traduire un chapitre</span><span data-l="en">Translate a chapter</span></li>
+          <li><code>DEFI-L3</code><span data-l="fr">Illustrer la cascade simpliciale</span><span data-l="en">Illustrate the simplicial cascade</span></li>
+        </ul></div>
+      <div class="level"><p class="eyebrow" data-l="fr">Niveau 1 · codeur</p><p class="eyebrow" data-l="en">Level 1 · coder</p>
+        <ul>
+          <li><code>DEFI-R1</code><span data-l="fr">Lancer l'auto-test du moteur C2-R</span><span data-l="en">Run the C2-R engine self-test</span></li>
+          <li><code>DEFI-R2</code><span data-l="fr">Faire aboutir L = 6</span><span data-l="en">Finish the L = 6 run</span></li>
+          <li><code>DEFI-R3</code><span data-l="fr">Écrire un second moteur indépendant</span><span data-l="en">Write an independent second engine</span></li>
+          <li><code>DEFI-R4</code><span data-l="fr">Faire naître le Blob du vide strict</span><span data-l="en">Nucleate the Blob from strict void</span></li>
+        </ul></div>
+      <div class="level"><p class="eyebrow" data-l="fr">Niveau 2 · mathématicien</p><p class="eyebrow" data-l="en">Level 2 · mathematician</p>
+        <ul>
+          <li><code>DEFI-M1</code><span data-l="fr">Trancher les quatre points de SUP-1</span><span data-l="en">Settle the four SUP-1 audit points</span></li>
+          <li><code>DEFI-M2</code><span data-l="fr">Refermer la pince spectrale, ou l'interdire</span><span data-l="en">Close the spectral squeeze, or rule it out</span></li>
+          <li><code>DEFI-M3</code><span data-l="fr">Trouver un générateur de fermeture local</span><span data-l="en">Find a local closure generator</span></li>
+        </ul></div>
+      <div class="level"><p class="eyebrow" data-l="fr">Niveau 3 · spécialiste</p><p class="eyebrow" data-l="en">Level 3 · specialist</p>
+        <ul>
+          <li><code>DEFI-G1</code><span data-l="fr">Marge typique GEN-4</span><span data-l="en">GEN-4 typical-set margin</span></li>
+          <li><code>DEFI-G2</code><span>MARKED ↔ CONNECTED</span></li>
+          <li><code>DEFI-G4</code><span data-l="fr">Point fixe non trivial</span><span data-l="en">Non-trivial fixed point</span></li>
+        </ul></div>
+    </div>
+    <div class="t0">
+      <div>
+        <p class="eyebrow">DEFI-T0</p>
+        <h3 data-l="fr">Le Tribunal ouvert : trouvez la faille fatale</h3>
+        <h3 data-l="en">The open tribunal: find the fatal flaw</h3>
+        <p data-l="fr">Contradiction interne, hypothèse cachée, résultat central non reproductible. Les réfutations retenues entrent au Mur des réfutateurs, avec votre nom.</p>
+        <p data-l="en">Internal contradiction, hidden assumption, a central result that does not reproduce. Accepted refutations go on the Wall of Refuters, with your name.</p>
+      </div>
+      <a class="btn primary js-repo" data-path="/issues/new/choose" href="#defis"><span data-l="fr">Ouvrir une issue</span><span data-l="en">Open an issue</span></a>
+    </div>
+    <p class="verified" data-l="fr"><b>Vérifié le 6 octobre 2026</b> · l'auto-test du moteur C2-R passe 4/4 sur une machine tierce (numpy 2.5.3) : germe certifié, banque conforme à l'empreinte gelée, reprise identique, logique de décision.</p>
+    <p class="verified" data-l="en"><b>Verified 6 October 2026</b> · the C2-R engine self-test passes 4/4 on a third-party machine (numpy 2.5.3): certified seed, bank matching its frozen hash, identical resume, decision logic.</p>
+  </section>
+
+  <section id="livres">
+    <div class="head">
+      <p class="eyebrow" data-l="fr">Lecture libre</p><p class="eyebrow" data-l="en">Free to read</p>
+      <h2 data-l="fr">Les livres</h2><h2 data-l="en">The books</h2>
+      <p data-l="fr">En français, en lecture et téléchargement libres pour usage personnel. Tous droits réservés.</p>
+      <p data-l="en">In French, free to read and download for personal use. All rights reserved.</p>
+    </div>
+    <div class="books">
+      <article class="book"><div class="spine"></div>
+        <div><h3>Du simplexe au complexe</h3><p data-l="fr">La grande histoire du tout, en trois livres (mai, juin, juillet 2026) et une version mathématique de 89 pages.</p><p data-l="en">The great story of everything, in three volumes (May, June, July 2026) and an 89-page mathematical companion.</p></div>
+        <span class="mono" data-l="fr">Livre 3 · 223 p. · version de référence</span><span class="mono" data-l="en">Volume 3 · 223 pp. · reference edition</span></article>
+      <article class="book"><div class="spine"></div>
+        <div><h3 data-l="fr">Le Blob Principle, édition 2026</h3><h3 data-l="en">The Blob Principle, 2026 edition</h3><p data-l="fr">L'entrée grand public, illustrée.</p><p data-l="en">The illustrated general-audience entry point.</p></div>
+        <span class="mono">106 p.</span></article>
+      <article class="book"><div class="spine"></div>
+        <div><h3>Le Blob Surnaturel</h3><p data-l="fr">Une grammaire pour le mystère : apparitions, prémonitions, synchronicités, lues par la viabilité.</p><p data-l="en">A grammar for mystery: apparitions, premonitions, synchronicities, read through viability.</p></div>
+        <span class="mono" data-l="fr">V3 · 23 chapitres · 269 p.</span><span class="mono" data-l="en">V3 · 23 chapters · 269 pp.</span></article>
+    </div>
+  </section>
+
+  <section id="droits">
+    <div class="rights">
+      <div class="head" style="margin-bottom:0">
+        <p class="eyebrow" data-l="fr">Paternité</p><p class="eyebrow" data-l="en">Authorship</p>
+        <h2 data-l="fr">Une création, un auteur, un laboratoire ouvert</h2>
+        <h2 data-l="en">One creation, one author, an open lab</h2>
+        <p data-l="fr">Le Blob Principle est une création originale de Rudolphe Mirante, son père unique et seul titulaire des droits. Ce choix protège le programme contre toute appropriation privée ; chaque contributeur est crédité nommément.</p>
+        <p data-l="en">The Blob Principle is an original creation of Rudolphe Mirante, its sole author and rights holder. This protects the programme from private capture; every contributor is credited by name.</p>
+        <p class="mono" data-l="fr">Empreinte SHA-256 du master V346 (1 918 p.)</p><p class="mono" data-l="en">SHA-256 of master V346 (1,918 pp.)</p>
+        <p class="hash">e815a2896495026ba5c498f11f9ed046ac876e82a1c9a51242d2cf3baa874131</p>
+      </div>
+      <div class="lic">
+        <div><b data-l="fr">Corpus</b><b data-l="en">Corpus</b><span>CC BY-NC-ND 4.0</span></div>
+        <div><b>Code</b><span>PolyForm Noncommercial 1.0.0</span></div>
+        <div><b data-l="fr">Livres</b><b data-l="en">Books</b><span data-l="fr">Tous droits réservés, lecture libre</span><span data-l="en">All rights reserved, free reading</span></div>
+        <div><b data-l="fr">Contributions</b><b data-l="en">Contributions</b><span data-l="fr">Accord de contribution, crédit nominatif</span><span data-l="en">Contributor agreement, named credit</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Rudolphe Mirante · The Blob Principle</span>
+    <span id="repo-line" data-l="fr">Dépôt GitHub et DOI Zenodo : mise en ligne en cours</span>
+    <span id="repo-line-en" data-l="en">GitHub repository and Zenodo DOI: going live</span>
+  </footer>
+</div>
+
+<script>
+(function(){
+  // Lien du dépôt : renseigné à la mise en ligne. Vide = les boutons pointent vers les sections de la page.
+  var REPO = "https://github.com/BlobPrinciple/The-blob-Principle";
+  if (REPO) {
+    document.querySelectorAll(".js-repo").forEach(function(a){ a.href = REPO + a.dataset.path; });
+    var fr = document.getElementById("repo-line"), en = document.getElementById("repo-line-en");
+    fr.innerHTML = '<a href="'+REPO+'">Dépôt GitHub</a>'; en.innerHTML = '<a href="'+REPO+'">GitHub repository</a>';
+  }
+
+  // Langue
+  var html = document.documentElement, bfr = document.getElementById("btn-fr"), ben = document.getElementById("btn-en");
+  function setLang(l){ html.lang = l; bfr.setAttribute("aria-pressed", l==="fr"); ben.setAttribute("aria-pressed", l==="en");
+    try{ localStorage.setItem("blob-lang", l); }catch(e){} }
+  bfr.addEventListener("click", function(){ setLang("fr"); });
+  ben.addEventListener("click", function(){ setLang("en"); });
+  var saved = null; try{ saved = localStorage.getItem("blob-lang"); }catch(e){}
+  setLang(saved || ((navigator.language||"fr").slice(0,2)==="fr" ? "fr" : "en"));
+
+  // Canevas : mitose, fermeture, viabilité
+  var cv = document.getElementById("blob"), ctx = cv.getContext("2d");
+  var lgT = document.getElementById("lg-t"), lgN = document.getElementById("lg-n");
+  var W=0, H=0, dpr = Math.min(window.devicePixelRatio||1, 2);
+  function css(v){ return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+  function resize(){ var r = cv.getBoundingClientRect(); W=r.width; H=r.height; cv.width=W*dpr; cv.height=H*dpr; ctx.setTransform(dpr,0,0,dpr,0,0); }
+  window.addEventListener("resize", resize); resize();
+
+  var nodes=[], edges=[], tris=[], t1=0, seed=7;
+  function rnd(){ seed=(seed*16807)%2147483647; return seed/2147483647; }
+  function key(a,b){ return a<b ? a+"-"+b : b+"-"+a; }
+  var edgeSet = new Set();
+  function addEdge(a,b){ var k=key(a,b); if(a===b||edgeSet.has(k)) return false; edgeSet.add(k); edges.push([a,b]); nodes[a].deg++; nodes[b].deg++; return true; }
+  function reset(){ nodes=[{x:.5,y:.5,deg:0,life:1,born:0,alive:true}]; edges=[]; tris=[]; edgeSet=new Set(); t1=0; }
+  reset();
+
+  function step(){
+    // mitose : un sommet engendre un enfant relié par une arête
+    var alive = nodes.map(function(n,i){return i;}).filter(function(i){return nodes[i].alive;});
+    if (alive.length < 90) {
+      var p = alive[Math.floor(rnd()*alive.length)], P = nodes[p], ang = rnd()*6.283, r = .07 + rnd()*.07;
+      var x = Math.min(.95, Math.max(.05, P.x + Math.cos(ang)*r)), y = Math.min(.92, Math.max(.05, P.y + Math.sin(ang)*r));
+      nodes.push({x:x,y:y,deg:0,life:1,born:t1,alive:true}); addEdge(p, nodes.length-1); t1++;
+    }
+    // fermeture : relier des voisins proches, ce qui ferme des triangles
+    for (var k=0;k<3;k++){
+      var a = alive[Math.floor(rnd()*alive.length)], best=-1, bd=1;
+      for (var j=0;j<nodes.length;j++){ if(j===a||!nodes[j].alive) continue; var dx=nodes[j].x-nodes[a].x, dy=nodes[j].y-nodes[a].y, d=dx*dx+dy*dy; if(d<bd && d<.0075 && !edgeSet.has(key(a,j))){bd=d;best=j;} }
+      if (best>=0 && rnd()<.6) addEdge(a,best);
+    }
+    // triangles
+    var nb = {}; edges.forEach(function(e){ (nb[e[0]]=nb[e[0]]||new Set()).add(e[1]); (nb[e[1]]=nb[e[1]]||new Set()).add(e[0]); });
+    tris=[]; edges.forEach(function(e){ var A=nb[e[0]], B=nb[e[1]]; if(!A||!B) return; A.forEach(function(c){ if(c>e[1] && e[1]>e[0] && B.has(c)) tris.push([e[0],e[1],c]); }); });
+    var triCount = new Array(nodes.length).fill(0); tris.forEach(function(t){ t.forEach(function(i){ triCount[i]++; }); });
+    // viabilité : ce qui n'est pas pris dans des triangles s'use et disparaît
+    nodes.forEach(function(n,i){ if(!n.alive) return; var v = triCount[i]; n.life += v>=2 ? .02 : (v===1 ? -.004 : -.012); n.life=Math.min(1.4,n.life); if(n.life<=0 && i!==0){ n.alive=false; } });
+    edges = edges.filter(function(e){ var ok = nodes[e[0]].alive && nodes[e[1]].alive; if(!ok) edgeSet.delete(key(e[0],e[1])); return ok; });
+    if (t1 > 900) reset();
+    var lvl = tris.length ? "Ω²" : (edges.length ? "Ω¹" : "Ω⁰");
+    lgT.textContent = "t₁ = " + t1; lgN.textContent = lvl + " · " + tris.length + " △";
+  }
+
+  function draw(){
+    var ink = css("--ink"), acc = css("--accent"), soft = css("--accent-soft"), muted = css("--muted");
+    ctx.clearRect(0,0,W,H);
+    ctx.fillStyle = soft; ctx.globalAlpha=.85;
+    tris.forEach(function(t){ var a=nodes[t[0]],b=nodes[t[1]],c=nodes[t[2]]; ctx.beginPath(); ctx.moveTo(a.x*W,a.y*H); ctx.lineTo(b.x*W,b.y*H); ctx.lineTo(c.x*W,c.y*H); ctx.closePath(); ctx.fill(); });
+    ctx.globalAlpha=1; ctx.lineWidth=1.1;
+    edges.forEach(function(e){ var a=nodes[e[0]], b=nodes[e[1]]; ctx.strokeStyle = ink; ctx.globalAlpha = Math.max(.15, Math.min(a.life,b.life,1)*.75); ctx.beginPath(); ctx.moveTo(a.x*W,a.y*H); ctx.lineTo(b.x*W,b.y*H); ctx.stroke(); });
+    nodes.forEach(function(n,i){ if(!n.alive) return; ctx.globalAlpha = Math.max(.2, Math.min(1,n.life)); ctx.fillStyle = i===0 ? acc : (n.life>1 ? acc : ink); ctx.beginPath(); ctx.arc(n.x*W,n.y*H, i===0?4.5:2.6, 0, 6.283); ctx.fill(); });
+    ctx.globalAlpha=1;
+  }
+
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  for (var i=0;i<260;i++) step();
+  draw();
+  if (!reduce) { var last=0; (function loop(ts){ if(ts-last>90){ step(); draw(); last=ts; } requestAnimationFrame(loop); })(0); }
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", draw);
+})();
+</script>
+</body>
+</html>

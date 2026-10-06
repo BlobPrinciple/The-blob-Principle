@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "saut9_N2000.json",
+    "N": "?",
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.2184923897557035,
+    "correlation_R_clustering": 0.58676737635002
+  },
+  {
+    "filename": "saut9_N2200.json",
+    "N": "?",
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.20633102990629876,
+    "correlation_R_clustering": 0.6670352876806875
+  },
+  {
+    "filename": "saut9_N2500.json",
+    "N": "?",
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.18702898821606495,
+    "correlation_R_clustering": 0.5815581533724988
+  },
+  {
+    "filename": "saut9_N2800.json",
+    "N": "?",
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.2091352000021252,
+    "correlation_R_clustering": 0.5818216528426401
+  },
+  {
+    "filename": "saut9_N3000.json",
+    "N": "?",
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.2134100386047063,
+    "correlation_R_clustering": 0.6615304226163858
+  }
+]

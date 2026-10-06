@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-07-03 04:26:47",
+  "python": "3.12.13",
+  "numpy": "2.0.2",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "have_ot": true,
+  "gpu": false,
+  "gpu_name": "cpu",
+  "kappa": 6.6,
+  "paliers": [
+    32000
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "burn_f": 24,
+  "prod_f": 4
+}

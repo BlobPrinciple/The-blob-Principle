@@ -1,0 +1,38 @@
+[
+  {
+    "N": 5000,
+    "gc": 5000,
+    "diam": 24,
+    "pic_df": 2.8522556901109284,
+    "d_s": 2.2985459772262105,
+    "d_w": 2.9926794224420457,
+    "d_f": 2.7917201916212413,
+    "closure": 1.2320022737642409,
+    "verdict": "ANOMALIE PERSISTANTE (d_w>2, d_s<d_f) : non-variete CXVIII dynamique",
+    "runtime_s": 14.9
+  },
+  {
+    "N": 10000,
+    "gc": 10000,
+    "diam": 30,
+    "pic_df": 2.954018062713896,
+    "d_s": 2.688268233814365,
+    "d_w": 2.3828952565992,
+    "d_f": 2.954018062713896,
+    "closure": 1.0842624328670165,
+    "verdict": "ANOMALIE PERSISTANTE (d_w>2, d_s<d_f) : non-variete CXVIII dynamique",
+    "runtime_s": 18.4
+  },
+  {
+    "N": 25000,
+    "gc": 25000,
+    "diam": 36,
+    "pic_df": 3.020033198866505,
+    "d_s": 2.2482358477005144,
+    "d_w": 2.7722385403230607,
+    "d_f": 3.0168313000244575,
+    "closure": 1.0329788849447308,
+    "verdict": "ANOMALIE PERSISTANTE (d_w>2, d_s<d_f) : non-variete CXVIII dynamique",
+    "runtime_s": 63.7
+  }
+]

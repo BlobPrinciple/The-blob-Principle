@@ -1,0 +1,134 @@
+{
+  "version": "v93-consolidated-April2026",
+  "locked_measurements": {
+    "ds_N3000": {
+      "value": 3.045,
+      "uncertainty": 0.026,
+      "seeds": 20,
+      "p": 3.7e-22,
+      "label": "M"
+    },
+    "ds_null_N3000": {
+      "value": 3.69,
+      "uncertainty": 0.028,
+      "label": "M"
+    },
+    "tau_c": {
+      "value": 0.4,
+      "range": "N>=200",
+      "label": "M"
+    },
+    "sigma2_peak": {
+      "value": 0.01005,
+      "N": 200,
+      "label": "M"
+    },
+    "tri_ratio_N3000": {
+      "value": 3.25,
+      "SNR": 41,
+      "label": "M"
+    },
+    "tri_ratio_N10000": {
+      "value": null,
+      "note": "PENDING — burn 5N requis",
+      "label": "PENDING"
+    },
+    "b_Ssim_per_N": {
+      "value": 0.87,
+      "uncertainty": 0.007,
+      "R2": 0.9999,
+      "label": "M"
+    },
+    "tau_sym_N1000": {
+      "median": 4510,
+      "std": 97,
+      "seeds": 10,
+      "label": "M",
+      "source": "campagne_independante_confirmee"
+    },
+    "delta0_analytic": {
+      "value": 0.159,
+      "label": "T*",
+      "condition": "D_min=1/kappa0=0.125"
+    },
+    "delta0_measured": {
+      "value": 0.274,
+      "label": "M",
+      "condition": "D_min_obs=0.35"
+    },
+    "four_estimators_N3000": {
+      "heat_kernel": {
+        "value": 3.045,
+        "ci": 0.026
+      },
+      "volume_growth": {
+        "value": 3.01,
+        "ci": 0.1
+      },
+      "random_walk": {
+        "value": 3.01,
+        "ci": 0.14
+      },
+      "weyl": {
+        "value": 3.02,
+        "ci": 0.15
+      },
+      "label": "M"
+    }
+  },
+  "exploratory_not_corpus": {
+    "N5000_S_per_N": {
+      "value": 0.001086,
+      "acc": 0.998,
+      "label": "H_EXPLORATORY",
+      "reason": "Acceptation 99.8% = chaîne non thermalisée, S=5.43 << v93_pred=10.24"
+    },
+    "N25000_S_per_N": {
+      "value": 0.000215,
+      "acc": 0.999,
+      "label": "H_EXPLORATORY",
+      "reason": "Même problème, S=5.38 << v93_pred=12.62"
+    },
+    "N100000_S_per_N": {
+      "value": 5.3e-05,
+      "acc": 1.0,
+      "label": "H_EXPLORATORY",
+      "reason": "100% acceptation = Gibbs inopérant. Scalabilité code prouvée, physique non."
+    },
+    "campagne_externe_N10000": {
+      "tri_ratio": 1.353,
+      "SNR": 19.4,
+      "lambda1": 0.3346,
+      "label": "H_EXPLORATORY",
+      "reason": "Burn 300-10000 pas << 5N=50000 requis"
+    },
+    "ds_0317_N10000": {
+      "value": 0.317,
+      "label": "FAIL_METHOD",
+      "reason": "Méthode heat kernel incorrecte (200 valeurs propres insuffisant)"
+    }
+  },
+  "FAIL_documented": [
+    "P3_kappa_scan",
+    "4th_lepton_7.5GeV",
+    "kappa_RCP",
+    "phi_internal_autocorr",
+    "alpha_em_lambda1_kappa0_85pct_ecart",
+    "delta_D_Omega2_Omega3_signe_incorrect",
+    "ScalableBlob_Gibbs_non_operationnel_acc_100pct"
+  ],
+  "open_programs": {
+    "O1": "G_Newton depuis A1-A4 — collaboration requise",
+    "O2": "Rotation de Wick discrète",
+    "Q1": "Extension probabiliste BIK 2014 — estimé 1 jour",
+    "L1": "Borne delta_T >= c_geom via Chernoff Rips — estimé 1 jour",
+    "O15b": "Calcul Lambda_D depuis spectre nabla²_W — estimé 2-3h",
+    "O_GPU": "d_s à N=10000 avec burn=5N, crit. acc 20-60%"
+  },
+  "paper_status": {
+    "file": "blob_paper_v30.pdf",
+    "pages": 8,
+    "corrections_applied": 7,
+    "status": "PRET_SOUMISSION_PRD"
+  }
+}

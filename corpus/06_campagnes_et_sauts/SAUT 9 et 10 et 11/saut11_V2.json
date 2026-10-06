@@ -1,0 +1,72 @@
+[
+  {
+    "N": "?",
+    "triangles": 0,
+    "tetrahedra": 0,
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.2027896918588183,
+    "R_Blob_mean": -0.0018300880190190104,
+    "correlation_R_clustering": 0.6302986062598113,
+    "correlation_before_shuffle": 0.764251451141978,
+    "correlation_after_shuffle": -0.029094360861329816,
+    "Lambda_proxy": 0.0,
+    "SE_over_N": 0.0
+  },
+  {
+    "N": "?",
+    "triangles": 0,
+    "tetrahedra": 0,
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.20311184233394414,
+    "R_Blob_mean": 0.0031622356986399725,
+    "correlation_R_clustering": 0.636707592336728,
+    "correlation_before_shuffle": 0.6385810872345113,
+    "correlation_after_shuffle": -0.002098651737462709,
+    "Lambda_proxy": 0.0,
+    "SE_over_N": 0.0
+  },
+  {
+    "N": "?",
+    "triangles": 0,
+    "tetrahedra": 0,
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.2005522943814917,
+    "R_Blob_mean": -0.003203583046933184,
+    "correlation_R_clustering": 0.5583993865704044,
+    "correlation_before_shuffle": 0.6880324678473781,
+    "correlation_after_shuffle": -0.025258438222629454,
+    "Lambda_proxy": 0.0,
+    "SE_over_N": 0.0
+  },
+  {
+    "N": "?",
+    "triangles": 0,
+    "tetrahedra": 0,
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.20751423447386863,
+    "R_Blob_mean": -0.0008035519869892538,
+    "correlation_R_clustering": 0.7080943449422563,
+    "correlation_before_shuffle": 0.6912872860185402,
+    "correlation_after_shuffle": -0.011866634153538988,
+    "Lambda_proxy": 0.0,
+    "SE_over_N": 0.0
+  },
+  {
+    "N": "?",
+    "triangles": 0,
+    "tetrahedra": 0,
+    "r3": 0.0,
+    "D": 0.0,
+    "kappa_ollivier_mean": 0.23173160895594136,
+    "R_Blob_mean": 0.001481695822580763,
+    "correlation_R_clustering": 0.6823767593747908,
+    "correlation_before_shuffle": 0.7547089680288136,
+    "correlation_after_shuffle": -0.0013581135607147882,
+    "Lambda_proxy": 0.0,
+    "SE_over_N": 0.0
+  }
+]
