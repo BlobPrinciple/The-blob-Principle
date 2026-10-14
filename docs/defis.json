@@ -1,0 +1,211 @@
+{
+ "name": "Blob Principle — open challenges (machine-readable)",
+ "author": "Rudolphe Mirante",
+ "orcid": "0009-0001-0990-7122",
+ "doi": "10.5281/zenodo.23188586",
+ "status": {
+  "toe_demonstrated": false,
+  "physical_gates_passed": "0/7",
+  "open_research_problems": 27,
+  "level": "1 — reproducible mathematical model"
+ },
+ "rules": [
+  "State the model and version you used, and the prompt.",
+  "A human must check and sign every submission.",
+  "Every claim must be checkable: files present, values traceable to file and line, a command that reproduces the result.",
+  "A clean refutation counts as much as a proof.",
+  "Batch-generated submissions without these elements are closed without review."
+ ],
+ "how_to_submit": "https://github.com/BlobPrinciple/The-blob-Principle/issues/new?template=5_contribution-ia.md",
+ "guide_en": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/AI_CONTRIBUTING.md",
+ "guide_fr": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/IA_CONTRIBUER.md",
+ "core_documents": {
+  "armature_fr_pdf": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V347_1_ARMATURE_CANONIQUE.pdf",
+  "armature_en_md": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/corpus/00_master_courant/EN/armature_V347-1_EN.md",
+  "programme_status_en": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/PROGRAMME_STATUS.md",
+  "challenges_en": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/CHALLENGES.md",
+  "selftest": "python3 corpus/07_complements/blob_c2r_autonome-2.py --selftest"
+ },
+ "challenges": [
+  {
+   "code": "DEFI-L1",
+   "level": 0,
+   "statement_fr": "Le lecteur. Lisez l'armature V347.1 (29 p.) et signalez le passage le moins clair.",
+   "deliverable_fr": "Une *issue* « Question » : page, phrase, ce qui bloque.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/4"
+  },
+  {
+   "code": "DEFI-L2",
+   "level": 0,
+   "statement_fr": "Le passeur. Traduisez un chapitre du Livre I de l'armature (anglais, espagnol, arabe, chinois…) en respectant le lexique verrouillé — viabilité se dit viability, jamais sustainability.",
+   "deliverable_fr": "La traduction dans `contributions/traduction_<langue>_<nom>/`.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/5"
+  },
+  {
+   "code": "DEFI-L3",
+   "level": 0,
+   "statement_fr": "L'illustrateur. Dessinez la cascade point → arête → triangle → tétraèdre, ou les trois temps du Blob, de façon fidèle au récit (I.1 à I.6).",
+   "deliverable_fr": "Une image (PNG/SVG) et une phrase d'explication.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/6"
+  },
+  {
+   "code": "DEFI-L4",
+   "level": 0,
+   "statement_fr": "Le vulgarisateur. Expliquez le Blob en 60 secondes (texte, vidéo, BD), avec le bloc de statut : TOE démontrée : NON.",
+   "deliverable_fr": "Le lien ou le fichier.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/7"
+  },
+  {
+   "code": "DEFI-R1",
+   "level": 1,
+   "statement_fr": "Le réplicateur. Exécutez l'auto-test du moteur C2-R sur votre machine.",
+   "deliverable_fr": "Rapport « Réplication » : machine, versions, sortie complète. Attendu : `SELFTEST : 4/4`. *Vérifié le 6 octobre 2026 sur une machine tierce (numpy 2.5.3) : 4/4.*",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/3"
+  },
+  {
+   "code": "DEFI-R2",
+   "level": 1,
+   "statement_fr": "L = 6. Faites aboutir la campagne C2-R à L = 6, non concluante faute de calcul (environ 17 % du budget requis).",
+   "deliverable_fr": "Rapport avec R̂, ESS, MCSE et décision du contrat gelé. Relève RO-12.",
+   "open_research": [
+    "RO-12"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/9"
+  },
+  {
+   "code": "DEFI-R3",
+   "level": 1,
+   "statement_fr": "Le second moteur. Réécrivez indépendamment, sans lire le code existant, l'échantillonneur de la fonctionnelle S_sim(C) = log(1 + n_tri(C)) − βD(C) et comparez vos invariants à ceux publiés.",
+   "deliverable_fr": "Écarts chiffrés avec barres d'erreur. Toute divergence est un résultat.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/10"
+  },
+  {
+   "code": "DEFI-R4",
+   "level": 1,
+   "statement_fr": "La nucléation. Le Blob peut-il naître du vide strict ? Aujourd'hui : 0/40 graines sous les deux moteurs canoniques.",
+   "deliverable_fr": "Protocole préenregistré (publié avant exécution) sur ≥ 30 graines : P(Ω¹ \\| Ω⁰) ≥ 0,9 depuis le vide strict, ou une borne négative propre.",
+   "open_research": [
+    "RO-02"
+   ],
+   "issue": null
+  },
+  {
+   "code": "DEFI-R5",
+   "level": 1,
+   "statement_fr": "Le chasseur d'erreurs. Trouvez une incohérence numérique entre un résultat publié (JSON) et le texte du master qui le cite.",
+   "deliverable_fr": "Fichier, page, valeur citée, valeur réelle.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/8"
+  },
+  {
+   "code": "DEFI-M1",
+   "level": 2,
+   "statement_fr": "Les quatre points de SUP-1. Degré borné contre O(log N), ordre des limites, 3-tore contre cube à bord, étiquettes (H1)–(H3) incohérentes.",
+   "deliverable_fr": "Note de supersession qui tranche chacun des quatre points.",
+   "open_research": [],
+   "issue": null
+  },
+  {
+   "code": "DEFI-M2",
+   "level": 2,
+   "statement_fr": "La pince spectrale. Le même objet peut-il satisfaire l'ellipticité uniforme exigée par Delmotte (INF-1) et le cadre non elliptique de SUP-1 ?",
+   "deliverable_fr": "Preuve que la pince se referme sur une classe explicite, ou obstruction démontrée.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/12"
+  },
+  {
+   "code": "DEFI-M3",
+   "level": 2,
+   "statement_fr": "La fermeture. La mitose seule ne produit jamais de triangle (no-go démontré). Proposez un générateur de fermeture local compatible avec la viabilité.",
+   "deliverable_fr": "Générateur explicite, ou preuve qu'aucun générateur local compatible n'existe (ce qui tuerait la cascade causale).",
+   "open_research": [
+    "RO-24"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/11"
+  },
+  {
+   "code": "DEFI-M4",
+   "level": 2,
+   "statement_fr": "Le bit σ₀. Montrez que le choix de polarité à la première scission ne peut pas être dérivé de Ω⁰ et doit rester un axiome — ou dérivez-le.",
+   "deliverable_fr": "Théorème d'obstruction, ou mécanisme interne.",
+   "open_research": [
+    "RO-03"
+   ],
+   "issue": null
+  },
+  {
+   "code": "DEFI-M5",
+   "level": 2,
+   "statement_fr": "La scission double. Toute « scission en deux simplexes opposés » se réduit-elle à deux mitoses successives ?",
+   "deliverable_fr": "Réduction démontrée, ou nouvelle opération explicitée.",
+   "open_research": [
+    "RO-04"
+   ],
+   "issue": null
+  },
+  {
+   "code": "DEFI-M6",
+   "level": 2,
+   "statement_fr": "Persister. Donnez une définition de « persister » indépendante du simple fait que π > 0.",
+   "deliverable_fr": "Critère robuste, non arbitraire, calculable.",
+   "open_research": [
+    "RO-20"
+   ],
+   "issue": null
+  },
+  {
+   "code": "DEFI-G1",
+   "level": 3,
+   "statement_fr": "Marge locale uniforme sur le secteur typique de Gibbs (GEN-4 typical-set)",
+   "deliverable_fr": "RO-13",
+   "open_research": [
+    "RO-13"
+   ],
+   "issue": null
+  },
+  {
+   "code": "DEFI-G2",
+   "level": 3,
+   "statement_fr": "Intertwiner MARKED ↔ CONNECTED dans une norme de Banach déclarée",
+   "deliverable_fr": "RO-14",
+   "open_research": [
+    "RO-14"
+   ],
+   "issue": null
+  },
+  {
+   "code": "DEFI-G3",
+   "level": 3,
+   "statement_fr": "Convergence sous retrait du régulateur, limite projective",
+   "deliverable_fr": "RO-15",
+   "open_research": [
+    "RO-15"
+   ],
+   "issue": null
+  },
+  {
+   "code": "DEFI-G4",
+   "level": 3,
+   "statement_fr": "Point fixe non trivial et universalité (C4, C5, C7)",
+   "deliverable_fr": "RO-16",
+   "open_research": [
+    "RO-16"
+   ],
+   "issue": null
+  },
+  {
+   "code": "DEFI-T0",
+   "level": 4,
+   "statement_fr": "Cassez le Blob : trouvez une faille fatale (contradiction interne, hypothèse cachée, résultat central non reproductible).",
+   "deliverable_fr": "Une critique argumentée avec la rigueur d'un relecteur de revue.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/13"
+  }
+ ]
+}

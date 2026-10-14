@@ -34,7 +34,7 @@ This repository therefore opens the programme to everyone — researchers, stude
 ▶️ **Try it in one click: [“Break the Blob” Colab notebook](https://colab.research.google.com/github/BlobPrinciple/The-blob-Principle/blob/main/Cassez_le_Blob_Colab.ipynb)** (engine self-test, expected 4/4)
 🌐 **Laboratory website: [blobprinciple.github.io/The-blob-Principle](https://blobprinciple.github.io/The-blob-Principle/)**
 💬 **Discuss, ask a question, propose an idea: [Discussions](https://github.com/BlobPrinciple/The-blob-Principle/discussions)**
-🎯 **Take up a challenge — “Break the Blob”: [CHALLENGES.md](CHALLENGES.md)**
+🎯 **Take up a challenge — “Break the Blob”: [CHALLENGES.md](CHALLENGES.md)** · 🤖 with an AI: [AI_CONTRIBUTING.md](AI_CONTRIBUTING.md)
 ➡️ **Read the call: [CALL_FOR_COLLABORATION.md](CALL_FOR_COLLABORATION.md)**
 ➡️ **Where the science stands: [PROGRAMME_STATUS.md](PROGRAMME_STATUS.md)**
 ➡️ **How to contribute: [CONTRIBUTING.md](CONTRIBUTING.md)**
