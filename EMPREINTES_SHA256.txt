@@ -481,5 +481,5 @@ d5566adfc690cab651ef16f17bb72fc1c6f1eb1a22e5c8ad4244ad78be51a6a3  ./livres/le-bl
 b33d6ebe731fc2830e4f9bd9613edeaaf718131044057430fdcf5c468f4e0f0b  ./livres/le-blob-surnaturel/v3_version-finale/Le-Blob-Surnaturel_V3_livre-complet.docx
 ec1be830f3518b081929f684b7b4fa9a8996da555f7221122c00f97485dfbbb9  ./livres/le-blob-surnaturel/v3_version-finale/Le-Blob-Surnaturel_V3_livre-complet.pdf
 40a8881e91a15cba1f3f594b6e2855bf70413e67b09acfc3a7ebeb53ceb33f9d  ./livres/le-blob-surnaturel/v3_version-finale/Sommaire.md
-8099327272529a40348dc03d5dc85567ba86c75ea1f88916bd32377dc5670309  ./notes_de_version/v1.1.0.md
+b202a768499d59a90b8ef50ecf61a244c15cf3954571c5302b5d892504596da4  ./notes_de_version/v1.1.0.md
 424be1a6578bef30196ce290972a3d00c37943602ac4a26e11831fe1232ba541  ./outils/defis.py
