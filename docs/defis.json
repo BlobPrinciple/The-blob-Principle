@@ -3,7 +3,7 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.2",
+ "version": "1.3",
  "updated": "2026-10-15",
  "status": {
   "toe_demonstrated": false,
@@ -191,7 +191,17 @@
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/10",
    "path_step": "T",
    "state": "ouvert",
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-15",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/18",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[T]+[M] le moteur archivé V109 (V346 p. 291–292) surcompte les triangles de +1,4 % à +2,7 % quand l'arête ajoutée touche l'arête retirée ; le moteur canonique actuel n'est pas concerné",
+     "effect": "correction d'un script archivé [ARCH] ; DEFI-R3 reste ouvert (réécriture humaine indépendante attendue) ; aucun changement de statut",
+     "result_en": "[T]+[M] the archived V109 engine (V346 pp. 291–292) overcounts triangles by +1.4% to +2.7% when the added edge touches the removed one; the current canonical engine is not affected",
+     "effect_en": "correction of an archived [ARCH] script; DEFI-R3 stays open (independent human rewrite expected); no status change"
+    }
+   ],
    "derived": []
   },
   {
@@ -324,8 +334,20 @@
    "issue": null,
    "path_step": "P1",
    "state": "ouvert",
-   "history": [],
-   "derived": []
+   "history": [
+    {
+     "date": "2026-10-15",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/17",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[M] moteur canonique : degré du nouveau-né relaxé en 8 à 16 balayages, sans croissance de N = 250 à 4 000 ; coût d'une naissance proportionnel à N ; [OPEN] masse triangulaire du nouveau-né non tranchée (−3,0 ± 2,0 à 512 balayages)",
+     "effect": "résultat partiel ; DEFI-M7 reste ouvert ; défi dérivé DEFI-M9 ; aucun changement de statut",
+     "result_en": "[M] canonical engine: newborn degree relaxes in 8 to 16 sweeps, no growth from N = 250 to 4,000; cost of a birth proportional to N; [OPEN] newborn triangle mass unresolved (−3.0 ± 2.0 at 512 sweeps)",
+     "effect_en": "partial result; DEFI-M7 stays open; derived challenge DEFI-M9; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-M9"
+   ]
   },
   {
    "code": "DEFI-M8",
@@ -335,6 +357,21 @@
    "open_research": [
     "RO-24",
     "RO-25"
+   ],
+   "issue": null,
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-M9",
+   "level": 2,
+   "statement_fr": "L'aristocratie des sommets massifs. Sur le moteur canonique, le degré d'un sommet nouveau-né rejoint la moyenne en 8 à 16 balayages, mais sa masse triangulaire reste en déficit (−3,0 ± 2,0 à 512 balayages, contributions/RO-25_pilote-ia/DEFI-M7_RAPPORT.md). Le nouveau-né atteint-il un jour la masse triangulaire typique, ou la viabilité fige-t-elle une aristocratie de sommets massifs ?",
+   "deliverable_fr": "Loi des triangles incidents du nouveau-né contre loi de la population, en variation totale, avec au moins 200 naissances par taille et au moins trois tailles ; ou argument démontré.",
+   "open_research": [
+    "RO-25",
+    "RO-20"
    ],
    "issue": null,
    "path_step": "P1",

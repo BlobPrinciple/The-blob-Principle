@@ -16,6 +16,8 @@ Chaque inscription met à jour l'historique du défi dans [docs/defis.json](docs
 |---|---|---|---|---|---|---|---|
 | 1 | 06/10/2026 | DEFI-R1 | Réplication | vérification d'ouverture | `SELFTEST : 4/4` sur machine tierce, numpy 2.5.3 | Reproductibilité de l'auto-test confirmée ; statut inchangé | [DEFIS.md](DEFIS.md#tableau-dhonneur) |
 | 2 | 15/10/2026 | DEFI-M3 (RO-24), RO-25 | Réfutation + théorèmes | pilote IA du laboratoire (Claude, Anthropic) ; non relu par une personne | [T] M − N conservé par mitose et échanges à \|E\| fixé ; [CERT] fragmentation à M = N − 1 (P(connexe) = 4,5·10⁻⁷ à N = 7) ; [T] aucune croissance généalogique ne reproduit π (TV ≥ 0,31) ; [CERT] croissance avec fermeture puis relaxation : TV ≤ 0,01 après 2,5 à 4,7 échanges par arête | « Option la plus économique » de RO-24 réfutée pour le moteur à \|E\| fixé ; RO-24 et RO-25 restent ouverts ; défis DEFI-M7 et DEFI-M8 ouverts ; statut inchangé | [rapport](contributions/RO-25_pilote-ia/RAPPORT.md), [#16](https://github.com/BlobPrinciple/The-blob-Principle/issues/16) |
+| 3 | 15/10/2026 | DEFI-M7 (RO-25) | Mesure | pilote IA du laboratoire (Claude, Anthropic) ; non relu par une personne | [M] moteur canonique : observables globales stationnaires sur 21 fois la thermalisation ; degré du nouveau-né relaxé en 8 à 16 balayages, sans croissance de N = 250 à 4 000 ; [OPEN] masse triangulaire non tranchée | Coût du pont : proportionnel à N par naissance ; DEFI-M9 ouvert ; statut inchangé | [rapport](contributions/RO-25_pilote-ia/DEFI-M7_RAPPORT.md), [#17](https://github.com/BlobPrinciple/The-blob-Principle/issues/17) |
+| 4 | 15/10/2026 | DEFI-R3 | Erreur trouvée dans le corpus | pilote IA du laboratoire (Claude, Anthropic) ; non relu par une personne | [T]+[M] le moteur archivé V109 (V346 p. 291–292) surcompte les triangles de +1,4 % à +2,7 % ; le moteur canonique n'est pas concerné | Correction d'un script [ARCH] ; statut inchangé | [note](contributions/R3_pilote-ia/NOTE.md), [#18](https://github.com/BlobPrinciple/The-blob-Principle/issues/18) |
 
 ## Évolution des défis
 
@@ -23,4 +25,5 @@ Chaque inscription met à jour l'historique du défi dans [docs/defis.json](docs
 |---|---|---|
 | 06/10/2026 | 1.0 | Ouverture : 20 défis |
 | 15/10/2026 | 1.1 | Ajout du fil conducteur, du chemin de preuve (P1 à P4, T), de l'état et de l'historique de chaque défi, et des règles d'évolution ; aucun changement de statut |
+| 15/10/2026 | 1.3 | Historique de DEFI-M7 et DEFI-R3 ; ouverture de DEFI-M9 (aristocratie des sommets massifs) ; aucun changement de statut |
 | 15/10/2026 | 1.2 | Délégation au pilote ; historique de DEFI-M3 ; ouverture de DEFI-M7 (coût du pont RO-25) et DEFI-M8 (fermeture dérivée de S_sim) ; aucun changement de statut |

@@ -24,7 +24,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 ### État des défis
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*État au 2026-10-15 — défis v1.2.*
+*État au 2026-10-15 — défis v1.3.*
 
 | Défi | Étape du chemin de preuve | État | Dernier événement |
 |---|---|---|---|
@@ -34,7 +34,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-L4 | T | ouvert | — |
 | DEFI-R1 | T | réplication obtenue | 2026-10-06 : SELFTEST : 4/4 sur machine tierce, numpy 2.5.3 |
 | DEFI-R2 | P2 | ouvert | — |
-| DEFI-R3 | T | ouvert | — |
+| DEFI-R3 | T | ouvert | 2026-10-15 : [T]+[M] le moteur archivé V109 (V346 p. 291–292) surcompte les triangles de +1,4 % à +2,7 % quand l'arête ajoutée touche l'arête retirée ; le moteur canonique actuel n'est pas concerné |
 | DEFI-R4 | P1 | ouvert | — |
 | DEFI-R5 | T | ouvert | — |
 | DEFI-M1 | P2 | ouvert | — |
@@ -43,8 +43,9 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-M4 | P1 | ouvert | — |
 | DEFI-M5 | P1 | ouvert | — |
 | DEFI-M6 | P1 | ouvert | — |
-| DEFI-M7 | P1 | ouvert | — |
+| DEFI-M7 | P1 | ouvert | 2026-10-15 : [M] moteur canonique : degré du nouveau-né relaxé en 8 à 16 balayages, sans croissance de N = 250 à 4 000 ; coût d'une naissance proportionnel à N ; [OPEN] masse triangulaire du nouveau-né non tranchée (−3,0 ± 2,0 à 512 balayages) |
 | DEFI-M8 | P1 | ouvert | — |
+| DEFI-M9 | P1 | ouvert | — |
 | DEFI-G1 | P2 | ouvert | — |
 | DEFI-G2 | P2 | ouvert | — |
 | DEFI-G3 | P2 | ouvert | — |
@@ -87,6 +88,7 @@ Source : [docs/defis.json](docs/defis.json), version lisible par machine.
 | **DEFI-M6** | **Persister.** Donnez une définition de « persister » indépendante du simple fait que π > 0. | **RO-20** | Critère robuste, non arbitraire, calculable. |
 | **DEFI-M7** | **Le coût du pont.** Après la naissance d'un sommet avec ses arêtes de fermeture, combien d'échanges de Metropolis par arête faut-il pour revenir à π_N ? Sur graphes abstraits : 2,5 à 4,7 par arête (ε = 0,01, N = 5 à 7, [rapport](contributions/RO-25_pilote-ia/RAPPORT.md)). Ce coût reste-t-il borné quand N grandit, sur le moteur Rips ? | **RO-25** | Borne démontrée, ou mesure multi-graines avec barres d'erreur jusqu'à N ≥ 500, montrant un coût borné ou divergent. |
 | **DEFI-M8** | **Une fermeture non arbitraire.** La mitose seule ne peut pas porter la cascade : il faut ≈ κ̄/2 − 1 arêtes de fermeture par naissance ([rapport](contributions/RO-25_pilote-ia/RAPPORT.md)). Dérivez de S_sim, sans la poser, la loi d'attachement du nouveau sommet qui minimise l'écart à π dès la naissance. | **RO-24**, **RO-25** | Loi dérivée et écart à la naissance comparé à l'attachement uniforme, ou preuve qu'aucune loi locale ne fait mieux. |
+| **DEFI-M9** | **L'aristocratie des sommets massifs.** Sur le moteur canonique, le degré d'un nouveau-né rejoint la moyenne en 8 à 16 balayages, mais sa masse triangulaire reste en déficit ([rapport](contributions/RO-25_pilote-ia/DEFI-M7_RAPPORT.md)). Le nouveau-né atteint-il un jour la masse typique, ou la viabilité fige-t-elle une aristocratie de sommets massifs ? | **RO-25**, **RO-20** | Loi des triangles incidents du nouveau-né contre celle de la population, en variation totale, avec au moins 200 naissances par taille sur au moins trois tailles ; ou argument démontré. |
 
 ## Niveau 3 — Spécialiste (porte G0)
 
@@ -116,6 +118,7 @@ Les réfutations retenues sont inscrites au **Mur des réfutateurs**, avec le no
 | Date | Réfutateur | Défi | Ce qui est réfuté | Effet sur le programme |
 |---|---|---|---|---|
 | 15/10/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-M3 (RO-24) | L'« option la plus économique » proposée pour RO-24 : mitose et échanges à \|E\| fixé conservent M − N, et la sélection fragmente alors le graphe en îlots triangulaires disjoints ([rapport](contributions/RO-25_pilote-ia/RAPPORT.md)) | RO-24 reste ouvert ; toute fermeture doit créer des arêtes ; défis dérivés DEFI-M7 et DEFI-M8 ; aucun changement de statut |
+| 15/10/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-R3 | Le comptage incrémental des triangles du moteur archivé V109 (V346 p. 291–292) : surcompte de +1,4 % à +2,7 % ([note](contributions/R3_pilote-ia/NOTE.md)) | Script [ARCH] corrigé ; le moteur canonique n'est pas concerné ; statut inchangé |
 
 *La place suivante vous attend.*
 

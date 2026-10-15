@@ -24,7 +24,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 ### Challenge status
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*Status as of 2026-10-15 — challenges v1.2.*
+*Status as of 2026-10-15 — challenges v1.3.*
 
 | Challenge | Proof-path step | State | Latest event |
 |---|---|---|---|
@@ -34,7 +34,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-L4 | T | open | — |
 | DEFI-R1 | T | replicated | 2026-10-06: SELFTEST: 4/4 on a third-party machine, numpy 2.5.3 |
 | DEFI-R2 | P2 | open | — |
-| DEFI-R3 | T | open | — |
+| DEFI-R3 | T | open | 2026-10-15: [T]+[M] the archived V109 engine (V346 pp. 291–292) overcounts triangles by +1.4% to +2.7% when the added edge touches the removed one; the current canonical engine is not affected |
 | DEFI-R4 | P1 | open | — |
 | DEFI-R5 | T | open | — |
 | DEFI-M1 | P2 | open | — |
@@ -43,8 +43,9 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-M4 | P1 | open | — |
 | DEFI-M5 | P1 | open | — |
 | DEFI-M6 | P1 | open | — |
-| DEFI-M7 | P1 | open | — |
+| DEFI-M7 | P1 | open | 2026-10-15: [M] canonical engine: newborn degree relaxes in 8 to 16 sweeps, no growth from N = 250 to 4,000; cost of a birth proportional to N; [OPEN] newborn triangle mass unresolved (−3.0 ± 2.0 at 512 sweeps) |
 | DEFI-M8 | P1 | open | — |
+| DEFI-M9 | P1 | open | — |
 | DEFI-G1 | P2 | open | — |
 | DEFI-G2 | P2 | open | — |
 | DEFI-G3 | P2 | open | — |
@@ -87,6 +88,7 @@ Source: [docs/defis.json](../docs/defis.json), machine-readable version.
 | **DEFI-M6** | **Persisting.** Give a definition of “persisting” independent of the mere fact that π > 0. | **RO-20** | A robust, non-arbitrary, computable criterion. |
 | **DEFI-M7** | **The cost of the bridge.** After the birth of a vertex with its closure edges, how many Metropolis exchanges per edge are needed to return to π_N? On abstract graphs: 2.5 to 4.7 per edge (ε = 0.01, N = 5 to 7, [report](../contributions/RO-25_pilote-ia/REPORT_EN.md)). Does this cost stay bounded as N grows, on the Rips engine? | **RO-25** | A proven bound, or a multi-seed measurement with error bars up to N ≥ 500, showing a bounded or divergent cost. |
 | **DEFI-M8** | **A non-arbitrary closure.** Mitosis alone cannot carry the cascade: ≈ κ̄/2 − 1 closure edges are needed per birth ([report](../contributions/RO-25_pilote-ia/REPORT_EN.md)). Derive from S_sim, without positing it, the attachment law of the new vertex that minimises the distance to π from birth. | **RO-24**, **RO-25** | The derived law and its distance at birth compared with uniform attachment, or a proof that no local law does better. |
+| **DEFI-M9** | **The aristocracy of massive vertices.** On the canonical engine, a newborn's degree reaches the mean in 8 to 16 sweeps, but its triangle mass stays in deficit ([report](../contributions/RO-25_pilote-ia/DEFI-M7_REPORT_EN.md)). Does the newborn ever reach the typical mass, or does viability freeze an aristocracy of massive vertices? | **RO-25**, **RO-20** | The law of the newborn's incident triangles versus the population's, in total variation, with at least 200 births per size over at least three sizes; or a proven argument. |
 
 ## Level 3 — Specialist (gate G0)
 
@@ -116,6 +118,7 @@ Accepted refutations are entered on the **Wall of Refuters**, with the name of t
 | Date | Refuter | Challenge | What is refuted | Effect on the programme |
 |---|---|---|---|---|
 | 2026-10-15 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-M3 (RO-24) | The "most economical option" proposed for RO-24: mitosis and fixed-\|E\| exchanges conserve M − N, and selection then fragments the graph into disjoint triangle islands ([report](../contributions/RO-25_pilote-ia/REPORT_EN.md)) | RO-24 stays open; any closure must create edges; derived challenges DEFI-M7 and DEFI-M8; no status change |
+| 2026-10-15 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-R3 | The incremental triangle count of the archived V109 engine (V346 pp. 291–292): +1.4% to +2.7% overcount ([note](../contributions/R3_pilote-ia/NOTE_EN.md)) | [ARCH] script corrected; the canonical engine is not affected; status unchanged |
 
 *The next place is waiting for you.*
 
