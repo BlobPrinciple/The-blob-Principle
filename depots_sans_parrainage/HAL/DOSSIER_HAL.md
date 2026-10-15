@@ -6,6 +6,8 @@
 
 > **TOE démontrée : NON** · portes physiques 0/7 · niveau 1.
 
+> **Dépôt effectué le 15 octobre 2026 à 15 h 50 : `hal-05801545v1`, en modération.** Type « Pré-publication, document de travail » ; auteur Rudolphe Mirante, affiliation AuréHAL « Chercheur indépendant » ; domaine principal Physique mathématique [math-ph], domaines secondaires math.CO et math.PR ; titres et résumés FR et EN ; mots-clés FR et EN ; langue : français ; date de production 2026-09-09 ; licence CC BY-NC-ND 4.0 ; fichier récupéré par URL depuis le dépôt GitHub (558,66 Ko, identique à Zenodo) ; liens « Voir aussi » vers le DOI Zenodo et le dépôt GitHub. Le DOI Zenodo n'a pas été saisi comme identifiant du document : il désigne le corpus entier, pas ce seul PDF.
+
 ## 0. À lire avant de déposer (décision de l'auteur)
 
 1. **Un dépôt HAL est définitif.** La documentation de HAL l'écrit : « nous ne supprimons pas les documents déposés sur l'archive » ([FAQ HAL](http://doc.hal.science/faq/#puis-je-retirer-un-document-sur-hal)). On peut déposer une nouvelle version, pas retirer la première.
