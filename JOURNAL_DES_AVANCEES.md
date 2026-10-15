@@ -4,9 +4,9 @@
 
 > **TOE démontrée : NON** · portes physiques 0/7 · niveau 1 (modèle mathématique reproductible).
 
-Ce journal inscrit, dans l'ordre, chaque contribution **retenue** : vérifiée, rejouée quand elle contient du calcul, et validée par l'auteur. Une avancée peut être une preuve, une réfutation, une réplication indépendante ou une erreur trouvée dans le corpus. Une réfutation y a la même place qu'une preuve.
+Ce journal inscrit, dans l'ordre, chaque contribution **retenue** : vérifiée, rejouée quand elle contient du calcul, et validée par le [pilote](PILOTE_IA.md), qui en a reçu délégation de l'auteur le 15 octobre 2026. Une avancée peut être une preuve, une réfutation, une réplication indépendante ou une erreur trouvée dans le corpus. Une réfutation y a la même place qu'une preuve.
 
-Les contributions faites avec une IA, y compris celles de l'auteur, suivent le même chemin : une *issue* au modèle « Contribution assistée par IA », la vérification du [pilote](PILOTE_IA.md), puis la validation de l'auteur ([GOUVERNANCE.md](GOUVERNANCE.md)).
+Les contributions faites avec une IA, y compris celles de l'auteur, suivent le même chemin : une *issue* au modèle « Contribution assistée par IA », puis la vérification et la décision du [pilote](PILOTE_IA.md), par délégation de l'auteur ([GOUVERNANCE.md](GOUVERNANCE.md)). Un changement de statut épistémique reste soumis aux seuils de Core 1.0 et l'auteur en est prévenu avant toute publication.
 
 Chaque inscription met à jour l'historique du défi dans [docs/defis.json](docs/defis.json). Une avancée qui change un statut est publiée dans une nouvelle version du dépôt, archivée sur Zenodo.
 

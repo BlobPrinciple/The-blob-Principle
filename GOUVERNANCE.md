@@ -26,7 +26,7 @@
 | Auteur, directeur scientifique | Rudolphe Mirante | Décisions finales, gel des versions, licences |
 | Contributeurs | Toute personne ayant accepté le CLA | Preuves, réfutations, réplications, critiques, traductions |
 | Relecteurs | Contributeurs invités par l'auteur | Revue contradictoire des contributions |
-| Pilote IA | IA désignée par l'auteur ([PILOTE_IA.md](PILOTE_IA.md)) | Vérifie, rejoue, classe et aiguille les contributions ; propose l'évolution des défis ; ne décide rien et ne publie rien sans validation de l'auteur |
+| Pilote IA | IA désignée par l'auteur ([PILOTE_IA.md](PILOTE_IA.md)) | Conduite opérationnelle déléguée par l'auteur le 15 octobre 2026 : vérifie, rejoue, classe, répond, inscrit, publie et pousse ; fait évoluer les défis. Ne change aucun statut épistémique sans avoir prévenu l'auteur, et ne touche ni aux versions maîtresses, ni aux licences, ni à rien d'irréversible |
 
 ## Reconnaissance
 

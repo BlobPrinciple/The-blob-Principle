@@ -1,0 +1,88 @@
+# Recopie chaque discussion GitHub, et chaque commentaire de discussion,
+# dans une issue étiquetée « discussion », avec un lien vers l'original.
+# Copies every GitHub discussion, and every discussion comment, into an
+# issue labelled "discussion", with a link to the original.
+#
+# Une discussion crée une issue ; ses commentaires sont ajoutés à cette issue
+# (retrouvée par un marqueur caché). À défaut, le commentaire ouvre une issue.
+# Le texte des utilisateurs n'est jamais interpolé dans le script (lu depuis
+# context.payload), pour éviter toute injection.
+name: Discussions vers issues
+
+on:
+  discussion:
+    types: [created]
+  discussion_comment:
+    types: [created]
+
+permissions:
+  issues: write
+  discussions: read
+
+concurrency:
+  group: discussion-${{ github.event.discussion.number }}
+  cancel-in-progress: false
+
+jobs:
+  recopier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const d = context.payload.discussion;
+            const LABEL = 'discussion';
+            const marker = `<!-- discussion-source:${d.node_id} -->`;
+            const cut = (s, n = 60000) => (s || '').length > n ? s.slice(0, n) + '\n\n…' : (s || '');
+            const quote = (s) => cut(s).split('\n').map(l => '> ' + l).join('\n');
+
+            try {
+              await github.rest.issues.getLabel({ owner, repo, name: LABEL });
+            } catch (e) {
+              if (e.status !== 404) throw e;
+              await github.rest.issues.createLabel({ owner, repo, name: LABEL, color: '8957e5',
+                description: 'Recopie d’une discussion GitHub / Copy of a GitHub discussion' });
+            }
+
+            async function findIssue() {
+              const q = `repo:${owner}/${repo} is:issue label:${LABEL} in:body "discussion-source:${d.node_id}"`;
+              const r = await github.rest.search.issuesAndPullRequests({ q, per_page: 5 });
+              let hit = r.data.items.find(i => (i.body || '').includes(marker));
+              if (hit) return hit.number;
+              // repli : parcours direct des issues étiquetées (l'index de recherche peut avoir du retard)
+              const all = await github.paginate(github.rest.issues.listForRepo,
+                { owner, repo, labels: LABEL, state: 'all', per_page: 100 });
+              hit = all.find(i => (i.body || '').includes(marker));
+              return hit ? hit.number : null;
+            }
+
+            const head = (who, url, when) =>
+              `**@${who}** — ${when}\n🔗 Original : ${url}\n\n`;
+
+            if (context.eventName === 'discussion') {
+              const body = marker + '\n' +
+                head(d.user.login, d.html_url, d.created_at) +
+                `**Catégorie / Category** : ${d.category ? d.category.name : '—'}\n\n` +
+                quote(d.body) +
+                '\n\n---\n*Recopie automatique d’une discussion. Répondez de préférence dans la discussion d’origine. / Automatic copy of a discussion; please reply in the original discussion.*';
+              const r = await github.rest.issues.create({ owner, repo,
+                title: `[Discussion #${d.number}] ${d.title}`.slice(0, 250),
+                body, labels: [LABEL] });
+              core.info(`Issue #${r.data.number} créée pour la discussion #${d.number}`);
+            } else {
+              const c = context.payload.comment;
+              const text = head(c.user.login, c.html_url, c.created_at) + quote(c.body);
+              const n = await findIssue();
+              if (n) {
+                await github.rest.issues.createComment({ owner, repo, issue_number: n, body: text });
+                core.info(`Commentaire recopié sur l'issue #${n}`);
+              } else {
+                const body = marker + '\n' +
+                  `Discussion d’origine / Original discussion : ${d.html_url} — « ${d.title} »\n\n` + text;
+                const r = await github.rest.issues.create({ owner, repo,
+                  title: `[Discussion #${d.number}] ${d.title}`.slice(0, 250),
+                  body, labels: [LABEL] });
+                core.info(`Issue #${r.data.number} créée (commentaire sans issue préalable)`);
+              }
+            }
