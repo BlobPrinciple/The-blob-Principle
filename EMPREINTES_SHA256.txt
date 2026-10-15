@@ -18,7 +18,7 @@ bc6d542c2bcf3ae5692feea249097c9f0878d80181c0e995f91720c351bb3eb0  ./.gitignore
 5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae  ./.ruff_cache/CACHEDIR.TAG
 bd0e57a3445b607cc487106fc7d0bfbb72e07bb833b413329afb674f6e86a527  ./.zenodo.json
 7ddee76e4e53cec5f77d67a06e38dcdc89a15805ab25cc39ee2d8a5f7d3cf185  ./APPEL_A_COLLABORATION.md
-0dc78b10713b0ae2cf6a8f57940980ff2fa169e2dc677452d67fb0d1d3f5a42a  ./CITATION.cff
+91f565136ae3b26fb39940373a9999a9b9d4475a915eeeacc315fc68e8e732f0  ./CITATION.cff
 e1d0f8352557a4b17bcc89de559f99fd0abd399e887b89a1d991ed1a5bdb99a2  ./CLA.md
 fa723e25043aaca922acf44a8df9189d03326525200f21d2ce538a4076dd354f  ./CODE_DE_CONDUITE.md
 e7c3f898d3b705e370443660baa52070eea4749d532b4528a4f4859a10b70f97  ./CONTRIBUTEURS.md
@@ -492,4 +492,5 @@ b33d6ebe731fc2830e4f9bd9613edeaaf718131044057430fdcf5c468f4e0f0b  ./livres/le-bl
 ec1be830f3518b081929f684b7b4fa9a8996da555f7221122c00f97485dfbbb9  ./livres/le-blob-surnaturel/v3_version-finale/Le-Blob-Surnaturel_V3_livre-complet.pdf
 40a8881e91a15cba1f3f594b6e2855bf70413e67b09acfc3a7ebeb53ceb33f9d  ./livres/le-blob-surnaturel/v3_version-finale/Sommaire.md
 b202a768499d59a90b8ef50ecf61a244c15cf3954571c5302b5d892504596da4  ./notes_de_version/v1.1.0.md
+53d613a73ac0c60db1d5a5fd9d028b0cd91505c2d6b1bf33deb57f113c656d4c  ./notes_de_version/v1.2.0.md
 424be1a6578bef30196ce290972a3d00c37943602ac4a26e11831fe1232ba541  ./outils/defis.py
