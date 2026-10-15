@@ -11,7 +11,7 @@ ba28301172048e0793c785c38ffd2e3aabed7098589ea75868949e1095ae98c6  ./.github/ISSU
 bb8eb5576e93cd6e6cd8eea5bbf021a64a20008b03f51e2738cf42e037728ec0  ./.github/pull_request_template.md
 2979a8051c5d4b414718835ef90e1c791d755a19b9a18b40d076b806e6eed735  ./.github/social-preview.png
 041741272f8f886b2838ed13d2c5fc27341a8c82014a31095461717bf8f6cd75  ./.github/workflows/discussions-vers-issues.yml
-4b90af66a54a6f81980874da712f49db79d70162704cc3bc4ae9a0ad14de7509  ./.github/workflows/release-sur-etiquette.yml
+c5127379d8c1b81b45449fb419d33168faab1ede35c5cf0bb110d335113606bc  ./.github/workflows/release-depuis-notes.yml
 bc6d542c2bcf3ae5692feea249097c9f0878d80181c0e995f91720c351bb3eb0  ./.gitignore
 9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316  ./.ruff_cache/.gitignore
 4135e1f2a64ddbf86f6d507747832b838ddf2bbb780ef0a3358f906453eb96f4  ./.ruff_cache/0.16.8/4031085331766616374

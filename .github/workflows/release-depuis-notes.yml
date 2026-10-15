@@ -1,0 +1,40 @@
+# Crée la release GitHub — donc la nouvelle version DOI sur Zenodo — dès qu'un
+# fichier de notes notes_de_version/vX.Y.Z.md arrive sur main et que la release
+# vX.Y.Z n'existe pas encore. Titre : première ligne « # » du fichier ; notes : le reste.
+# Creates the GitHub release (hence the new Zenodo DOI version) as soon as a
+# notes file notes_de_version/vX.Y.Z.md lands on main and release vX.Y.Z does not exist yet.
+name: Release depuis les notes de version
+
+on:
+  push:
+    branches: [main]
+    paths: ['notes_de_version/v*.md']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Créer les releases manquantes / Create missing releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for NOTES in notes_de_version/v*.md; do
+            TAG=$(basename "$NOTES" .md)
+            [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]] || { echo "Ignoré : $NOTES"; continue; }
+            if gh release view "$TAG" >/dev/null 2>&1; then
+              echo "$TAG : release déjà publiée."
+              continue
+            fi
+            TITRE=$(grep -m1 '^# ' "$NOTES" | sed 's/^# //')
+            tail -n +2 "$NOTES" > /tmp/notes.md
+            gh release create "$TAG" --target "$GITHUB_SHA" \
+              --title "${TITRE:-The Blob Principle $TAG}" --notes-file /tmp/notes.md
+            echo "$TAG : release créée."
+          done
