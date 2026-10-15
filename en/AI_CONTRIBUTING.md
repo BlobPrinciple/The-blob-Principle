@@ -24,6 +24,8 @@ Authoritative sources:
 - Programme status: https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/PROGRAMME_STATUS.md
 - Challenges: https://blobprinciple.github.io/The-blob-Principle/defis.json
 
+Guiding thread of the laboratory: the Blob cosmogony, and how to prove it.
+
 Challenge addressed: DEFI-__ (copy its statement).
 
 Rules:
@@ -36,7 +38,21 @@ Rules:
    look for what is true.
 5. End with: what is established, what remains to be checked, and the weakest point
    of your own answer.
+6. Then write the full text of an "AI-assisted contribution" issue, ready to paste,
+   with these fields: challenge code, model used, prompt given, labelled result,
+   verifiable elements, weakest point, "Checked by" (left blank: the person fills it
+   in after checking). Give the link to file it:
+   https://github.com/BlobPrinciple/The-blob-Principle/issues/new?template=5_contribution-ia.md
+7. Finally, name the next useful step on the proof path (proof_path field of defis.json).
 ```
+
+## Every session counts, including yours
+
+A conversation with an AI leaves no trace in the laboratory: the AI reads the repository, it does not write to it. What it finds exists for the programme only once it is filed in an issue. Rules 6 and 7 of the prompt are there for that: every session ends with a contribution ready to file and with the direction to follow next.
+
+This applies to everyone, **the author included**: Rudolphe Mirante's own sessions go through the same issue template and the same checking as any contributor's. That is what gives its value to an advance entered in the [advances log](ADVANCES_LOG.md).
+
+Do not stop at one answer. If your session closed a question, it opened another: write it down in your issue. The Blob moves forward through that chain.
 
 ## What a contribution must contain
 
@@ -49,4 +65,4 @@ Batch-generated submissions lacking these elements are closed without review on 
 
 ## What happens next
 
-Each contribution is reviewed, re-run when it contains computation, then classified: **accepted** (listed on the honour roll or the Wall of Refuters, under the name of the person who signed it), **to be completed**, or **not accepted**, with the reason. Only the author of the programme decides what enters the corpus and any change of status ([GOVERNANCE.md](GOVERNANCE.md)). A contribution transfers no rights over the Blob Principle ([AUTHORSHIP.md](AUTHORSHIP.md), [CLA.md](CLA.md)).
+Each contribution is reviewed, re-run when it contains computation, then classified: **accepted** (entered in the [advances log](ADVANCES_LOG.md) and on the honour roll or the Wall of Refuters, under the name of the person who signed it), **to be completed**, or **not accepted**, with the reason. This checking and guidance work is entrusted to the [laboratory's AI pilot](AI_PILOT.md). An accepted contribution makes the challenges evolve: the challenge addressed changes state, and a derived challenge, closer to the guiding thread, is opened. Only the author of the programme decides what enters the corpus and any change of status ([GOVERNANCE.md](GOVERNANCE.md)). A contribution transfers no rights over the Blob Principle ([AUTHORSHIP.md](AUTHORSHIP.md), [CLA.md](CLA.md)).

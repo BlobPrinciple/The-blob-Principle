@@ -9,6 +9,49 @@
 
 Pour relever un défi : ouvrez une *issue* avec le modèle adapté, citez le code du défi (ex. `DEFI-R1`), puis déposez votre travail dans `contributions/`. Voir [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Le fil conducteur : la cosmogonie du Blob, et comment la prouver
+
+Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une candidate TOE forte, puis une TOE. Aujourd'hui, il est au niveau 1 (modèle mathématique reproductible) ; la distance à parcourir est connue et découpée en quatre étapes, détaillées dans [PILOTE_IA.md](PILOTE_IA.md#le-chemin-de-preuve) :
+
+- **P1** — unifier la cosmogonie : une seule dynamique dérivée de Ω⁰ jusqu'au secteur G0 ;
+- **P2** — fermer la porte G0 / continuum ;
+- **P3** — franchir les portes physiques (0/7) par la confrontation au réel ;
+- **P4** — validation externe (G6) ;
+- **T** — transversal : lire, traduire, expliquer, répliquer, chasser les erreurs, tenter de casser le Blob.
+
+**Les défis évoluent.** Chaque contribution retenue est inscrite au [journal des avancées](JOURNAL_DES_AVANCEES.md) ; un défi clos en ouvre au moins un autre, plus proche du fil conducteur ; une réfutation ouvre le défi « réparer ou abandonner » la branche touchée. Laissez le Blob plus éprouvé que vous ne l'avez trouvé.
+
+### État des défis
+
+<!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
+*État au 2026-10-15 — défis v1.1.*
+
+| Défi | Étape du chemin de preuve | État | Dernier événement |
+|---|---|---|---|
+| DEFI-L1 | T | ouvert | — |
+| DEFI-L2 | T | ouvert | — |
+| DEFI-L3 | T | ouvert | — |
+| DEFI-L4 | T | ouvert | — |
+| DEFI-R1 | T | réplication obtenue | 2026-10-06 : SELFTEST : 4/4 sur machine tierce, numpy 2.5.3 |
+| DEFI-R2 | P2 | ouvert | — |
+| DEFI-R3 | T | ouvert | — |
+| DEFI-R4 | P1 | ouvert | — |
+| DEFI-R5 | T | ouvert | — |
+| DEFI-M1 | P2 | ouvert | — |
+| DEFI-M2 | P2 | ouvert | — |
+| DEFI-M3 | P1 | ouvert | — |
+| DEFI-M4 | P1 | ouvert | — |
+| DEFI-M5 | P1 | ouvert | — |
+| DEFI-M6 | P1 | ouvert | — |
+| DEFI-G1 | P2 | ouvert | — |
+| DEFI-G2 | P2 | ouvert | — |
+| DEFI-G3 | P2 | ouvert | — |
+| DEFI-G4 | P2 | ouvert | — |
+| DEFI-T0 | T | ouvert | — |
+<!-- ETAT-DEFIS:FIN -->
+
+Source : [docs/defis.json](docs/defis.json), version lisible par machine.
+
 ---
 
 ## Niveau 0 — Curieux (aucune compétence technique requise)

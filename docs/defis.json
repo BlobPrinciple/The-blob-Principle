@@ -3,22 +3,93 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
+ "version": "1.1",
+ "updated": "2026-10-15",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
   "open_research_problems": 27,
   "level": "1 — reproducible mathematical model"
  },
+ "north_star": {
+  "fr": "Fil conducteur unique du laboratoire : la cosmogonie du Blob, et comment la prouver.",
+  "en": "Single guiding thread of the laboratory: the Blob cosmogony, and how to prove it."
+ },
+ "goal": {
+  "fr": "Objectif déclaré par l'auteur : faire du Blob une candidate TOE forte, puis une TOE. Aujourd'hui : niveau 1, TOE démontrée NON, portes physiques 0/7. Aucune étiquette « candidate TOE crédible » avant les seuils de Core 1.0 §7–§8 et §10.",
+  "en": "Goal stated by the author: make the Blob a strong TOE candidate, then a TOE. Today: level 1, TOE demonstrated NO, physical gates 0/7. No 'credible TOE candidate' label before the thresholds of Core 1.0 §7–§8 and §10."
+ },
+ "proof_path": [
+  {
+   "step": "P1",
+   "fr": "Unifier la cosmogonie : une seule dynamique dérivée de Ω⁰ jusqu'au secteur G0 (RO-02, RO-03, RO-04, RO-20, RO-24, RO-25, RO-08, RO-26, RO-06).",
+   "en": "Unify the cosmogony: a single dynamics derived from Ω⁰ up to the G0 sector (RO-02, RO-03, RO-04, RO-20, RO-24, RO-25, RO-08, RO-26, RO-06)."
+  },
+  {
+   "step": "P2",
+   "fr": "Fermer la porte G0 / continuum (RO-12 à RO-16, RO-18 ; audit SUP-1 et pince spectrale).",
+   "en": "Close gate G0 / continuum (RO-12 to RO-16, RO-18; SUP-1 audit and spectral squeeze)."
+  },
+  {
+   "step": "P3",
+   "fr": "Franchir les portes physiques (0/7) par la confrontation au réel, après le gel du MASTER V347, sous les quatre verdicts : identité, compatibilité, analogie, échec.",
+   "en": "Pass the physical gates (0/7) through confrontation with reality, after the MASTER V347 freeze, under the four verdicts: identity, compatibility, analogy, failure."
+  },
+  {
+   "step": "P4",
+   "fr": "Validation externe (G6) : réplications indépendantes, relecture publique, publication.",
+   "en": "External validation (G6): independent replications, public review, publication."
+  },
+  {
+   "step": "T",
+   "fr": "Transversal, à chaque étape : lire, traduire, expliquer, répliquer, chasser les erreurs, tenter de casser le Blob.",
+   "en": "Cross-cutting, at every step: read, translate, explain, replicate, hunt errors, try to break the Blob."
+  }
+ ],
+ "states": {
+  "ouvert": "open — no accepted result yet",
+  "en cours": "in progress — a contribution is under review",
+  "réplication obtenue": "replicated — at least one checked replication; stays open to further replications",
+  "clos par une preuve": "closed by a proof",
+  "clos par une réfutation": "closed by a refutation",
+  "reformulé": "reformulated — superseded by a derived challenge"
+ },
+ "evolution_rules": {
+  "fr": [
+   "Une contribution retenue est inscrite au journal des avancées et dans l'historique du défi.",
+   "Un défi clos ouvre au moins un défi dérivé, plus proche du fil conducteur.",
+   "Une réfutation ouvre le défi « réparer ou abandonner » la branche touchée.",
+   "Un défi mal posé est reformulé, jamais supprimé ; l'ancien énoncé reste dans l'historique.",
+   "Seul l'auteur valide un changement d'état ou de statut."
+  ],
+  "en": [
+   "An accepted contribution is entered in the advances log and in the challenge history.",
+   "A closed challenge opens at least one derived challenge, closer to the guiding thread.",
+   "A refutation opens the challenge 'repair or abandon' the affected branch.",
+   "An ill-posed challenge is reformulated, never deleted; the former statement stays in the history.",
+   "Only the author approves a change of state or of status."
+  ]
+ },
+ "invitation": {
+  "fr": "Laissez le Blob plus éprouvé que vous ne l'avez trouvé. Chaque défi réussi doit en ouvrir un plus difficile.",
+  "en": "Leave the Blob more tested than you found it. Every challenge met must open a harder one."
+ },
  "rules": [
   "State the model and version you used, and the prompt.",
   "A human must check and sign every submission.",
   "Every claim must be checkable: files present, values traceable to file and line, a command that reproduces the result.",
   "A clean refutation counts as much as a proof.",
-  "Batch-generated submissions without these elements are closed without review."
+  "Batch-generated submissions without these elements are closed without review.",
+  "End your answer with a ready-to-paste issue in the 'AI-assisted contribution' format, and the link to file it (how_to_submit).",
+  "Then name the next useful step on the proof path (proof_path)."
  ],
  "how_to_submit": "https://github.com/BlobPrinciple/The-blob-Principle/issues/new?template=5_contribution-ia.md",
  "guide_en": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/AI_CONTRIBUTING.md",
  "guide_fr": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/IA_CONTRIBUER.md",
+ "pilot_fr": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/PILOTE_IA.md",
+ "pilot_en": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/AI_PILOT.md",
+ "advances_log_fr": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/JOURNAL_DES_AVANCEES.md",
+ "advances_log_en": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/ADVANCES_LOG.md",
  "core_documents": {
   "armature_fr_pdf": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V347_1_ARMATURE_CANONIQUE.pdf",
   "armature_en_md": "https://github.com/BlobPrinciple/The-blob-Principle/blob/main/corpus/00_master_courant/EN/armature_V347-1_EN.md",
@@ -33,7 +104,11 @@
    "statement_fr": "Le lecteur. Lisez l'armature V347.1 (29 p.) et signalez le passage le moins clair.",
    "deliverable_fr": "Une *issue* « Question » : page, phrase, ce qui bloque.",
    "open_research": [],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/4"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/4",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-L2",
@@ -41,7 +116,11 @@
    "statement_fr": "Le passeur. Traduisez un chapitre du Livre I de l'armature (anglais, espagnol, arabe, chinois…) en respectant le lexique verrouillé — viabilité se dit viability, jamais sustainability.",
    "deliverable_fr": "La traduction dans `contributions/traduction_<langue>_<nom>/`.",
    "open_research": [],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/5"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/5",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-L3",
@@ -49,7 +128,11 @@
    "statement_fr": "L'illustrateur. Dessinez la cascade point → arête → triangle → tétraèdre, ou les trois temps du Blob, de façon fidèle au récit (I.1 à I.6).",
    "deliverable_fr": "Une image (PNG/SVG) et une phrase d'explication.",
    "open_research": [],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/6"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/6",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-L4",
@@ -57,7 +140,11 @@
    "statement_fr": "Le vulgarisateur. Expliquez le Blob en 60 secondes (texte, vidéo, BD), avec le bloc de statut : TOE démontrée : NON.",
    "deliverable_fr": "Le lien ou le fichier.",
    "open_research": [],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/7"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/7",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-R1",
@@ -65,7 +152,21 @@
    "statement_fr": "Le réplicateur. Exécutez l'auto-test du moteur C2-R sur votre machine.",
    "deliverable_fr": "Rapport « Réplication » : machine, versions, sortie complète. Attendu : `SELFTEST : 4/4`. *Vérifié le 6 octobre 2026 sur une machine tierce (numpy 2.5.3) : 4/4.*",
    "open_research": [],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/3"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/3",
+   "path_step": "T",
+   "state": "réplication obtenue",
+   "history": [
+    {
+     "date": "2026-10-06",
+     "issue": null,
+     "by": "vérification d'ouverture",
+     "result": "SELFTEST : 4/4 sur machine tierce, numpy 2.5.3",
+     "effect": "reproductibilité de l'auto-test confirmée ; statut du programme inchangé",
+     "result_en": "SELFTEST: 4/4 on a third-party machine, numpy 2.5.3",
+     "effect_en": "self-test reproducibility confirmed; programme status unchanged"
+    }
+   ],
+   "derived": []
   },
   {
    "code": "DEFI-R2",
@@ -75,7 +176,11 @@
    "open_research": [
     "RO-12"
    ],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/9"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/9",
+   "path_step": "P2",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-R3",
@@ -83,7 +188,11 @@
    "statement_fr": "Le second moteur. Réécrivez indépendamment, sans lire le code existant, l'échantillonneur de la fonctionnelle S_sim(C) = log(1 + n_tri(C)) − βD(C) et comparez vos invariants à ceux publiés.",
    "deliverable_fr": "Écarts chiffrés avec barres d'erreur. Toute divergence est un résultat.",
    "open_research": [],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/10"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/10",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-R4",
@@ -93,7 +202,11 @@
    "open_research": [
     "RO-02"
    ],
-   "issue": null
+   "issue": null,
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-R5",
@@ -101,7 +214,11 @@
    "statement_fr": "Le chasseur d'erreurs. Trouvez une incohérence numérique entre un résultat publié (JSON) et le texte du master qui le cite.",
    "deliverable_fr": "Fichier, page, valeur citée, valeur réelle.",
    "open_research": [],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/8"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/8",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-M1",
@@ -109,7 +226,11 @@
    "statement_fr": "Les quatre points de SUP-1. Degré borné contre O(log N), ordre des limites, 3-tore contre cube à bord, étiquettes (H1)–(H3) incohérentes.",
    "deliverable_fr": "Note de supersession qui tranche chacun des quatre points.",
    "open_research": [],
-   "issue": null
+   "issue": null,
+   "path_step": "P2",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-M2",
@@ -117,7 +238,11 @@
    "statement_fr": "La pince spectrale. Le même objet peut-il satisfaire l'ellipticité uniforme exigée par Delmotte (INF-1) et le cadre non elliptique de SUP-1 ?",
    "deliverable_fr": "Preuve que la pince se referme sur une classe explicite, ou obstruction démontrée.",
    "open_research": [],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/12"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/12",
+   "path_step": "P2",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-M3",
@@ -127,7 +252,11 @@
    "open_research": [
     "RO-24"
    ],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/11"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/11",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-M4",
@@ -137,7 +266,11 @@
    "open_research": [
     "RO-03"
    ],
-   "issue": null
+   "issue": null,
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-M5",
@@ -147,7 +280,11 @@
    "open_research": [
     "RO-04"
    ],
-   "issue": null
+   "issue": null,
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-M6",
@@ -157,7 +294,11 @@
    "open_research": [
     "RO-20"
    ],
-   "issue": null
+   "issue": null,
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-G1",
@@ -167,7 +308,11 @@
    "open_research": [
     "RO-13"
    ],
-   "issue": null
+   "issue": null,
+   "path_step": "P2",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-G2",
@@ -177,7 +322,11 @@
    "open_research": [
     "RO-14"
    ],
-   "issue": null
+   "issue": null,
+   "path_step": "P2",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-G3",
@@ -187,7 +336,11 @@
    "open_research": [
     "RO-15"
    ],
-   "issue": null
+   "issue": null,
+   "path_step": "P2",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-G4",
@@ -197,7 +350,11 @@
    "open_research": [
     "RO-16"
    ],
-   "issue": null
+   "issue": null,
+   "path_step": "P2",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   },
   {
    "code": "DEFI-T0",
@@ -205,7 +362,11 @@
    "statement_fr": "Cassez le Blob : trouvez une faille fatale (contradiction interne, hypothèse cachée, résultat central non reproductible).",
    "deliverable_fr": "Une critique argumentée avec la rigueur d'un relecteur de revue.",
    "open_research": [],
-   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/13"
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/13",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
   }
  ]
 }

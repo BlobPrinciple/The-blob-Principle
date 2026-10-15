@@ -35,6 +35,7 @@ This repository therefore opens the programme to everyone — researchers, stude
 🌐 **Laboratory website: [blobprinciple.github.io/The-blob-Principle](https://blobprinciple.github.io/The-blob-Principle/)**
 💬 **Discuss, ask a question, propose an idea: [Discussions](https://github.com/BlobPrinciple/The-blob-Principle/discussions)**
 🎯 **Take up a challenge — “Break the Blob”: [CHALLENGES.md](CHALLENGES.md)** · 🤖 with an AI: [AI_CONTRIBUTING.md](AI_CONTRIBUTING.md)
+🧭 **Guiding thread: the Blob cosmogony, and how to prove it** — [the laboratory's AI pilot](AI_PILOT.md) · [advances log](ADVANCES_LOG.md)
 ➡️ **Read the call: [CALL_FOR_COLLABORATION.md](CALL_FOR_COLLABORATION.md)**
 ➡️ **Where the science stands: [PROGRAMME_STATUS.md](PROGRAMME_STATUS.md)**
 ➡️ **How to contribute: [CONTRIBUTING.md](CONTRIBUTING.md)**

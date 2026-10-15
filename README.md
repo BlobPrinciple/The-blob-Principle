@@ -35,6 +35,7 @@ Ce dépôt ouvre donc le programme à tous — chercheurs, étudiants, ingénieu
 🌐 **Site du laboratoire : [blobprinciple.github.io/The-blob-Principle](https://blobprinciple.github.io/The-blob-Principle/)**
 💬 **Discuter, poser une question, proposer une idée : [Discussions](https://github.com/BlobPrinciple/The-blob-Principle/discussions)**
 🎯 **Relevez un défi — « Cassez le Blob » : [DEFIS.md](DEFIS.md)** · 🤖 avec une IA : [IA_CONTRIBUER.md](IA_CONTRIBUER.md)
+🧭 **Fil conducteur : la cosmogonie du Blob, et comment la prouver** — [pilote IA du laboratoire](PILOTE_IA.md) · [journal des avancées](JOURNAL_DES_AVANCEES.md)
 ➡️ **Lire l'appel : [APPEL_A_COLLABORATION.md](APPEL_A_COLLABORATION.md)**
 ➡️ **Où en est la science : [ETAT_DU_PROGRAMME.md](ETAT_DU_PROGRAMME.md)**
 ➡️ **Comment contribuer : [CONTRIBUTING.md](CONTRIBUTING.md)**

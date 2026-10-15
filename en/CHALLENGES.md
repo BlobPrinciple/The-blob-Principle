@@ -9,6 +9,49 @@
 
 To take up a challenge: open an *issue* with the appropriate template, cite the challenge code (e.g. `DEFI-R1`), then deposit your work in `contributions/`. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## The guiding thread: the Blob cosmogony, and how to prove it
+
+Every challenge serves a single goal, stated by the author: make the Blob a strong TOE candidate, then a TOE. Today it stands at level 1 (reproducible mathematical model); the distance to cover is known and divided into four steps, detailed in [AI_PILOT.md](AI_PILOT.md#the-proof-path):
+
+- **P1** — unify the cosmogony: a single dynamics derived from Ω⁰ up to the G0 sector;
+- **P2** — close gate G0 / continuum;
+- **P3** — pass the physical gates (0/7) through confrontation with reality;
+- **P4** — external validation (G6);
+- **T** — cross-cutting: read, translate, explain, replicate, hunt errors, try to break the Blob.
+
+**The challenges evolve.** Every accepted contribution is entered in the [advances log](ADVANCES_LOG.md); a closed challenge opens at least one other, closer to the guiding thread; a refutation opens the challenge “repair or abandon” the affected branch. Leave the Blob more tested than you found it.
+
+### Challenge status
+
+<!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
+*Status as of 2026-10-15 — challenges v1.1.*
+
+| Challenge | Proof-path step | State | Latest event |
+|---|---|---|---|
+| DEFI-L1 | T | open | — |
+| DEFI-L2 | T | open | — |
+| DEFI-L3 | T | open | — |
+| DEFI-L4 | T | open | — |
+| DEFI-R1 | T | replicated | 2026-10-06: SELFTEST: 4/4 on a third-party machine, numpy 2.5.3 |
+| DEFI-R2 | P2 | open | — |
+| DEFI-R3 | T | open | — |
+| DEFI-R4 | P1 | open | — |
+| DEFI-R5 | T | open | — |
+| DEFI-M1 | P2 | open | — |
+| DEFI-M2 | P2 | open | — |
+| DEFI-M3 | P1 | open | — |
+| DEFI-M4 | P1 | open | — |
+| DEFI-M5 | P1 | open | — |
+| DEFI-M6 | P1 | open | — |
+| DEFI-G1 | P2 | open | — |
+| DEFI-G2 | P2 | open | — |
+| DEFI-G3 | P2 | open | — |
+| DEFI-G4 | P2 | open | — |
+| DEFI-T0 | T | open | — |
+<!-- ETAT-DEFIS:FIN -->
+
+Source: [docs/defis.json](../docs/defis.json), machine-readable version.
+
 ---
 
 ## Level 0 — Curious (no technical skills required)

@@ -28,6 +28,7 @@
 | Author, scientific director | Rudolphe Mirante | Final decisions, freezing of versions, licences |
 | Contributors | Any person who has accepted the CLA | Proofs, refutations, replications, critiques, translations |
 | Reviewers | Contributors invited by the author | Adversarial review of contributions |
+| AI pilot | AI designated by the author ([AI_PILOT.md](AI_PILOT.md)) | Checks, re-runs, classifies and guides contributions; proposes how the challenges evolve; decides nothing and publishes nothing without the author's approval |
 
 ## Recognition
 
