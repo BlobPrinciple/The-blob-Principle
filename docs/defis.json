@@ -258,7 +258,7 @@
    "history": [
     {
      "date": "2026-10-15",
-     "issue": null,
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/16",
      "by": "pilote IA du laboratoire (Claude, Anthropic)",
      "result": "[T] mitose + échanges à |E| fixé conservent M − N (degré moyen < 2 depuis Ω⁰) ; [CERT] à M = N − 1, π concentre sa masse sur des îlots triangulaires disjoints : l'« option la plus économique » de RO-24 est réfutée pour le moteur à |E| fixé",
      "effect": "RO-24 reste ouvert ; toute fermeture doit créer ≈ κ̄/2 − 1 arêtes par naissance ; défis dérivés DEFI-M7 et DEFI-M8 ; aucun changement de statut",
