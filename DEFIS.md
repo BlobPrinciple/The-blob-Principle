@@ -24,7 +24,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 ### État des défis
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*État au 2026-10-15 — défis v1.1.*
+*État au 2026-10-15 — défis v1.2.*
 
 | Défi | Étape du chemin de preuve | État | Dernier événement |
 |---|---|---|---|
@@ -39,10 +39,12 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-R5 | T | ouvert | — |
 | DEFI-M1 | P2 | ouvert | — |
 | DEFI-M2 | P2 | ouvert | — |
-| DEFI-M3 | P1 | ouvert | — |
+| DEFI-M3 | P1 | ouvert | 2026-10-15 : [T] mitose + échanges à |E| fixé conservent M − N (degré moyen < 2 depuis Ω⁰) ; [CERT] à M = N − 1, π concentre sa masse sur des îlots triangulaires disjoints : l'« option la plus économique » de RO-24 est réfutée pour le moteur à |E| fixé |
 | DEFI-M4 | P1 | ouvert | — |
 | DEFI-M5 | P1 | ouvert | — |
 | DEFI-M6 | P1 | ouvert | — |
+| DEFI-M7 | P1 | ouvert | — |
+| DEFI-M8 | P1 | ouvert | — |
 | DEFI-G1 | P2 | ouvert | — |
 | DEFI-G2 | P2 | ouvert | — |
 | DEFI-G3 | P2 | ouvert | — |
@@ -83,6 +85,8 @@ Source : [docs/defis.json](docs/defis.json), version lisible par machine.
 | **DEFI-M4** | **Le bit σ₀.** Montrez que le choix de polarité à la première scission ne peut pas être dérivé de Ω⁰ et doit rester un axiome — ou dérivez-le. | **RO-03** | Théorème d'obstruction, ou mécanisme interne. |
 | **DEFI-M5** | **La scission double.** Toute « scission en deux simplexes opposés » se réduit-elle à deux mitoses successives ? | **RO-04** | Réduction démontrée, ou nouvelle opération explicitée. |
 | **DEFI-M6** | **Persister.** Donnez une définition de « persister » indépendante du simple fait que π > 0. | **RO-20** | Critère robuste, non arbitraire, calculable. |
+| **DEFI-M7** | **Le coût du pont.** Après la naissance d'un sommet avec ses arêtes de fermeture, combien d'échanges de Metropolis par arête faut-il pour revenir à π_N ? Sur graphes abstraits : 2,5 à 4,7 par arête (ε = 0,01, N = 5 à 7, [rapport](contributions/RO-25_pilote-ia/RAPPORT.md)). Ce coût reste-t-il borné quand N grandit, sur le moteur Rips ? | **RO-25** | Borne démontrée, ou mesure multi-graines avec barres d'erreur jusqu'à N ≥ 500, montrant un coût borné ou divergent. |
+| **DEFI-M8** | **Une fermeture non arbitraire.** La mitose seule ne peut pas porter la cascade : il faut ≈ κ̄/2 − 1 arêtes de fermeture par naissance ([rapport](contributions/RO-25_pilote-ia/RAPPORT.md)). Dérivez de S_sim, sans la poser, la loi d'attachement du nouveau sommet qui minimise l'écart à π dès la naissance. | **RO-24**, **RO-25** | Loi dérivée et écart à la naissance comparé à l'attachement uniforme, ou preuve qu'aucune loi locale ne fait mieux. |
 
 ## Niveau 3 — Spécialiste (porte G0)
 
@@ -109,7 +113,11 @@ Les réfutations retenues sont inscrites au **Mur des réfutateurs**, avec le no
 
 ## Mur des réfutateurs
 
-*Vide à ce jour. Il n'attend que vous.*
+| Date | Réfutateur | Défi | Ce qui est réfuté | Effet sur le programme |
+|---|---|---|---|---|
+| 15/10/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-M3 (RO-24) | L'« option la plus économique » proposée pour RO-24 : mitose et échanges à \|E\| fixé conservent M − N, et la sélection fragmente alors le graphe en îlots triangulaires disjoints ([rapport](contributions/RO-25_pilote-ia/RAPPORT.md)) | RO-24 reste ouvert ; toute fermeture doit créer des arêtes ; défis dérivés DEFI-M7 et DEFI-M8 ; aucun changement de statut |
+
+*La place suivante vous attend.*
 
 ---
 

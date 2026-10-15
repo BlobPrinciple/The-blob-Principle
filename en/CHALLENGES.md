@@ -24,7 +24,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 ### Challenge status
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*Status as of 2026-10-15 — challenges v1.1.*
+*Status as of 2026-10-15 — challenges v1.2.*
 
 | Challenge | Proof-path step | State | Latest event |
 |---|---|---|---|
@@ -39,10 +39,12 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-R5 | T | open | — |
 | DEFI-M1 | P2 | open | — |
 | DEFI-M2 | P2 | open | — |
-| DEFI-M3 | P1 | open | — |
+| DEFI-M3 | P1 | open | 2026-10-15: [T] mitosis + fixed-|E| exchanges conserve M − N (mean degree < 2 from Ω⁰); [CERT] at M = N − 1, π concentrates on disjoint triangle islands: the 'most economical option' for RO-24 is refuted for the fixed-|E| engine |
 | DEFI-M4 | P1 | open | — |
 | DEFI-M5 | P1 | open | — |
 | DEFI-M6 | P1 | open | — |
+| DEFI-M7 | P1 | open | — |
+| DEFI-M8 | P1 | open | — |
 | DEFI-G1 | P2 | open | — |
 | DEFI-G2 | P2 | open | — |
 | DEFI-G3 | P2 | open | — |
@@ -83,6 +85,8 @@ Source: [docs/defis.json](../docs/defis.json), machine-readable version.
 | **DEFI-M4** | **The σ₀ bit.** Show that the choice of polarity at the first scission cannot be derived from Ω⁰ and must remain an axiom — or derive it. | **RO-03** | An obstruction theorem, or an internal mechanism. |
 | **DEFI-M5** | **The double scission.** Does every “scission into two opposite simplices” reduce to two successive mitoses? | **RO-04** | A demonstrated reduction, or a new operation made explicit. |
 | **DEFI-M6** | **Persisting.** Give a definition of “persisting” independent of the mere fact that π > 0. | **RO-20** | A robust, non-arbitrary, computable criterion. |
+| **DEFI-M7** | **The cost of the bridge.** After the birth of a vertex with its closure edges, how many Metropolis exchanges per edge are needed to return to π_N? On abstract graphs: 2.5 to 4.7 per edge (ε = 0.01, N = 5 to 7, [report](../contributions/RO-25_pilote-ia/REPORT_EN.md)). Does this cost stay bounded as N grows, on the Rips engine? | **RO-25** | A proven bound, or a multi-seed measurement with error bars up to N ≥ 500, showing a bounded or divergent cost. |
+| **DEFI-M8** | **A non-arbitrary closure.** Mitosis alone cannot carry the cascade: ≈ κ̄/2 − 1 closure edges are needed per birth ([report](../contributions/RO-25_pilote-ia/REPORT_EN.md)). Derive from S_sim, without positing it, the attachment law of the new vertex that minimises the distance to π from birth. | **RO-24**, **RO-25** | The derived law and its distance at birth compared with uniform attachment, or a proof that no local law does better. |
 
 ## Level 3 — Specialist (gate G0)
 
@@ -109,7 +113,11 @@ Accepted refutations are entered on the **Wall of Refuters**, with the name of t
 
 ## Wall of Refuters
 
-*Empty to date. It is waiting only for you.*
+| Date | Refuter | Challenge | What is refuted | Effect on the programme |
+|---|---|---|---|---|
+| 2026-10-15 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-M3 (RO-24) | The "most economical option" proposed for RO-24: mitosis and fixed-\|E\| exchanges conserve M − N, and selection then fragments the graph into disjoint triangle islands ([report](../contributions/RO-25_pilote-ia/REPORT_EN.md)) | RO-24 stays open; any closure must create edges; derived challenges DEFI-M7 and DEFI-M8; no status change |
+
+*The next place is waiting for you.*
 
 ---
 

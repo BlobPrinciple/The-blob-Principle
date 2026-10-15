@@ -1,0 +1,178 @@
+{
+ "cadre": {
+  "beta": 0.3,
+  "tau": 0.5,
+  "poids": "exp(N*S_sim/tau)",
+  "hypothese": "H-abs : graphes abstraits, sans contrainte Rips"
+ },
+ "A_invariant": {
+  "trajets": 200,
+  "pas_par_trajet": 400,
+  "graine": 20261015,
+  "N_max_atteint": 172,
+  "violations_de_M_moins_N_egal_moins_1": 0
+ },
+ "B_secteur_arbre": [
+  {
+   "N": 4,
+   "M": 3,
+   "graphes": 20,
+   "graphes_avec_triangle_et_connexes": 0,
+   "graphes_avec_K4_et_moins_de_4_composantes": 0,
+   "pi_P_connexe": 0.024347201863448745,
+   "pi_P_au_moins_un_triangle": 0.9756527981365511,
+   "pi_E_n_tri": 0.9756527981365511
+  },
+  {
+   "N": 5,
+   "M": 4,
+   "graphes": 210,
+   "graphes_avec_triangle_et_connexes": 0,
+   "graphes_avec_K4_et_moins_de_4_composantes": 0,
+   "pi_P_connexe": 0.002866779779890887,
+   "pi_P_au_moins_un_triangle": 0.9968797900920239,
+   "pi_E_n_tri": 0.9968797900920239
+  },
+  {
+   "N": 6,
+   "M": 5,
+   "graphes": 3003,
+   "graphes_avec_triangle_et_connexes": 0,
+   "graphes_avec_K4_et_moins_de_4_composantes": 0,
+   "pi_P_connexe": 7.717559874103623e-05,
+   "pi_P_au_moins_un_triangle": 0.9999026517038,
+   "pi_E_n_tri": 1.8402913890714618
+  },
+  {
+   "N": 7,
+   "M": 6,
+   "graphes": 54264,
+   "graphes_avec_triangle_et_connexes": 0,
+   "graphes_avec_K4_et_moins_de_4_composantes": 0,
+   "pi_P_connexe": 4.4834059479867646e-07,
+   "pi_P_au_moins_un_triangle": 0.999999326504259,
+   "pi_E_n_tri": 3.7279933825326457
+  }
+ ],
+ "C_obstruction": [
+  {
+   "N": 4,
+   "M": 3,
+   "meilleur_k": {
+    "k_aretes_du_nouveau_sommet": 3,
+    "M_prime": 6,
+    "borne_inf_TV": 0.31305863487401175,
+    "P_deg_nouveau_sommet_egal_k": 0.716678480003808
+   }
+  },
+  {
+   "N": 4,
+   "M": 4,
+   "meilleur_k": {
+    "k_aretes_du_nouveau_sommet": 3,
+    "M_prime": 7,
+    "borne_inf_TV": 0.4773713751861152,
+    "P_deg_nouveau_sommet_egal_k": 0.5249044165828625
+   }
+  },
+  {
+   "N": 5,
+   "M": 5,
+   "meilleur_k": {
+    "k_aretes_du_nouveau_sommet": 4,
+    "M_prime": 9,
+    "borne_inf_TV": 0.6129912013730532,
+    "P_deg_nouveau_sommet_egal_k": 0.4059680706631582
+   }
+  },
+  {
+   "N": 5,
+   "M": 7,
+   "meilleur_k": {
+    "k_aretes_du_nouveau_sommet": 4,
+    "M_prime": 11,
+    "borne_inf_TV": 0.5510134912260867,
+    "P_deg_nouveau_sommet_egal_k": 0.45668130063112033
+   }
+  },
+  {
+   "N": 6,
+   "M": 9,
+   "meilleur_k": {
+    "k_aretes_du_nouveau_sommet": 4,
+    "M_prime": 13,
+    "borne_inf_TV": 0.6747490345634388,
+    "P_deg_nouveau_sommet_egal_k": 0.3294197375062604
+   }
+  }
+ ],
+ "D_relaxation": [
+  {
+   "N_avant": 4,
+   "M_avant": 5,
+   "k": 2,
+   "N": 5,
+   "M": 7,
+   "etats": 120,
+   "controle_stochastique": 5.551115123125783e-16,
+   "controle_invariance_pi": 2.7755575615628914e-17,
+   "TV_apres_t_echanges": {
+    "0": 0.864696583292295,
+    "1": 0.5538047262349703,
+    "10": 0.07446812282070714,
+    "61": 0.0009211888115653398
+   },
+   "echanges_pour_TV_inf_eps": {
+    "0.1": 9,
+    "0.01": 33,
+    "0.001": 61
+   },
+   "echanges_par_arete_pour_TV_0_01": 4.714285714285714
+  },
+  {
+   "N_avant": 5,
+   "M_avant": 8,
+   "k": 3,
+   "N": 6,
+   "M": 11,
+   "etats": 1365,
+   "controle_stochastique": 6.661338147750939e-16,
+   "controle_invariance_pi": 1.9081958235744878e-17,
+   "TV_apres_t_echanges": {
+    "0": 0.7871777044158641,
+    "1": 0.46741495388537574,
+    "10": 0.08269379824210173,
+    "50": 0.0009872858554676243
+   },
+   "echanges_pour_TV_inf_eps": {
+    "0.1": 9,
+    "0.01": 27,
+    "0.001": 50
+   },
+   "echanges_par_arete_pour_TV_0_01": 2.4545454545454546
+  },
+  {
+   "N_avant": 6,
+   "M_avant": 11,
+   "k": 3,
+   "N": 7,
+   "M": 14,
+   "etats": 116280,
+   "controle_stochastique": 2.6645352591003757e-15,
+   "controle_invariance_pi": 5.204170427930421e-18,
+   "TV_apres_t_echanges": {
+    "0": 0.8528346733622585,
+    "1": 0.616636795076875,
+    "10": 0.2076384668394099,
+    "100": 0.0019027679419495913,
+    "117": 0.0009993629116017578
+   },
+   "echanges_pour_TV_inf_eps": {
+    "0.1": 19,
+    "0.01": 61,
+    "0.001": 117
+   },
+   "echanges_par_arete_pour_TV_0_01": 4.357142857142857
+  }
+ ]
+}

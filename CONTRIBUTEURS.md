@@ -12,7 +12,7 @@
 
 | Contributeur | RO / sujet | Apport | Version intégrant l'apport |
 |---|---|---|---|
-| — | — | — | — |
+| Pilote IA du laboratoire (Claude, Anthropic), par délégation de l'auteur ; ni auteur ni titulaire de droits | RO-24, RO-25 | Réfutation de l'« option la plus économique » de RO-24 ; théorèmes et certificats sur le pont croissance → Gibbs ([rapport](contributions/RO-25_pilote-ia/RAPPORT.md)) | non intégré au corpus (journal des avancées, n° 2) |
 
 ## Méthode et outils
 

@@ -12,7 +12,7 @@
 
 | Contributor | RO / topic | Contribution | Version integrating the contribution |
 |---|---|---|---|
-| — | — | — | — |
+| The laboratory's AI pilot (Claude, Anthropic), by delegation of the author; neither an author nor a rights holder | RO-24, RO-25 | Refutation of RO-24's "most economical option"; theorems and certificates on the growth → Gibbs bridge ([report](../contributions/RO-25_pilote-ia/REPORT_EN.md)) | not integrated into the corpus (advances log, no. 2) |
 
 ## Method and tools
 
