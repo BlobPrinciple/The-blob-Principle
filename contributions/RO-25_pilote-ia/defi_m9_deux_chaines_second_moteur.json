@@ -1,0 +1,26 @@
+[
+ {
+  "N": 500,
+  "persistance_A": 0.82,
+  "recouvrement_A_B": 0.96,
+  "graine_positions": 55000
+ },
+ {
+  "N": 500,
+  "persistance_A": 0.84,
+  "recouvrement_A_B": 0.8654,
+  "graine_positions": 55001
+ },
+ {
+  "N": 500,
+  "persistance_A": 0.72,
+  "recouvrement_A_B": 0.88,
+  "graine_positions": 55002
+ },
+ {
+  "N": 500,
+  "persistance_A": 0.96,
+  "recouvrement_A_B": 0.9412,
+  "graine_positions": 55003
+ }
+]

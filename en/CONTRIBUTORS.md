@@ -12,7 +12,7 @@
 
 | Contributor | RO / topic | Contribution | Version integrating the contribution |
 |---|---|---|---|
-| The laboratory's AI pilot (Claude, Anthropic), by delegation of the author; neither an author nor a rights holder | RO-24, RO-25, DEFI-M7, DEFI-R3 | Refutation of RO-24's "most economical option"; theorems and certificates on the growth → Gibbs bridge ([report](../contributions/RO-25_pilote-ia/REPORT_EN.md)); bridge cost on the canonical engine ([report](../contributions/RO-25_pilote-ia/DEFI-M7_REPORT_EN.md)); triangle-count error in the archived V109 engine ([note](../contributions/R3_pilote-ia/NOTE_EN.md)) | not integrated into the corpus (advances log, nos. 2 to 4) |
+| The laboratory's AI pilot (Claude, Anthropic), by delegation of the author; neither an author nor a rights holder | RO-24, RO-25, DEFI-M7, DEFI-M9, DEFI-R3 | Refutation of RO-24's "most economical option"; theorems and certificates on the growth → Gibbs bridge ([report](../contributions/RO-25_pilote-ia/REPORT_EN.md)); bridge cost on the canonical engine ([report](../contributions/RO-25_pilote-ia/DEFI-M7_REPORT_EN.md)); triangle-count error in the archived V109 engine ([note](../contributions/R3_pilote-ia/NOTE_EN.md)); newborn mass and the massive decile ([report](../contributions/RO-25_pilote-ia/DEFI-M9_REPORT_EN.md)) | not integrated into the corpus (advances log, nos. 2 to 5) |
 
 ## Method and tools
 

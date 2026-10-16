@@ -24,7 +24,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 ### État des défis
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*État au 2026-10-15 — défis v1.3.*
+*État au 2026-10-16 — défis v1.4.*
 
 | Défi | Étape du chemin de preuve | État | Dernier événement |
 |---|---|---|---|
@@ -45,7 +45,8 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-M6 | P1 | ouvert | — |
 | DEFI-M7 | P1 | ouvert | 2026-10-15 : [M] moteur canonique : degré du nouveau-né relaxé en 8 à 16 balayages, sans croissance de N = 250 à 4 000 ; coût d'une naissance proportionnel à N ; [OPEN] masse triangulaire du nouveau-né non tranchée (−3,0 ± 2,0 à 512 balayages) |
 | DEFI-M8 | P1 | ouvert | — |
-| DEFI-M9 | P1 | ouvert | — |
+| DEFI-M9 | P1 | ouvert | 2026-10-16 : [M] corps de la loi des masses du nouveau-né indiscernable de la population après 16 à 256 balayages (N = 250 à 2 000, 200 naissances par taille) ; [M] queue lente : 6 à 7 % des nouveau-nés dans le décile massif jusqu'à 1 024 balayages (10 % attendus), 8,5 % à 2 048 ; [M, partiel] décile massif largement partagé entre chaînes sur 9 nuages sur 10, et évitant les bords du cube ; [OPEN] rôle de l'âge |
+| DEFI-M10 | P1 | ouvert | — |
 | DEFI-G1 | P2 | ouvert | — |
 | DEFI-G2 | P2 | ouvert | — |
 | DEFI-G3 | P2 | ouvert | — |
@@ -89,6 +90,7 @@ Source : [docs/defis.json](docs/defis.json), version lisible par machine.
 | **DEFI-M7** | **Le coût du pont.** Après la naissance d'un sommet avec ses arêtes de fermeture, combien d'échanges de Metropolis par arête faut-il pour revenir à π_N ? Sur graphes abstraits : 2,5 à 4,7 par arête (ε = 0,01, N = 5 à 7, [rapport](contributions/RO-25_pilote-ia/RAPPORT.md)). Ce coût reste-t-il borné quand N grandit, sur le moteur Rips ? | **RO-25** | Borne démontrée, ou mesure multi-graines avec barres d'erreur jusqu'à N ≥ 500, montrant un coût borné ou divergent. |
 | **DEFI-M8** | **Une fermeture non arbitraire.** La mitose seule ne peut pas porter la cascade : il faut ≈ κ̄/2 − 1 arêtes de fermeture par naissance ([rapport](contributions/RO-25_pilote-ia/RAPPORT.md)). Dérivez de S_sim, sans la poser, la loi d'attachement du nouveau sommet qui minimise l'écart à π dès la naissance. | **RO-24**, **RO-25** | Loi dérivée et écart à la naissance comparé à l'attachement uniforme, ou preuve qu'aucune loi locale ne fait mieux. |
 | **DEFI-M9** | **L'aristocratie des sommets massifs.** Sur le moteur canonique, le degré d'un nouveau-né rejoint la moyenne en 8 à 16 balayages, mais sa masse triangulaire reste en déficit ([rapport](contributions/RO-25_pilote-ia/DEFI-M7_RAPPORT.md)). Le nouveau-né atteint-il un jour la masse typique, ou la viabilité fige-t-elle une aristocratie de sommets massifs ? | **RO-25**, **RO-20** | Loi des triangles incidents du nouveau-né contre celle de la population, en variation totale, avec au moins 200 naissances par taille sur au moins trois tailles ; ou argument démontré. |
+| **DEFI-M10** | **La lente accession au décile massif.** La loi des masses d'un nouveau-né rejoint celle de la population en 16 à 256 balayages, sauf la queue : 6 à 7 % des nouveau-nés sont dans le décile massif jusqu'à 1 024 balayages, contre 10 % attendus ([rapport](contributions/RO-25_pilote-ia/DEFI-M9_RAPPORT.md)). Combien de balayages pour atteindre 10 %, ce temps croît-il avec N, et le nouveau-né rejoint-il la masse d'équilibre de sa position ? | **RO-25**, **RO-20** | Part mesurée à ± 1 point (au moins 1 000 naissances par taille, deux tailles) jusqu'à au moins 16 384 balayages, comparée à la masse d'équilibre de la position (chaîne indépendante, de préférence en boîte périodique) ; ou borne démontrée. |
 
 ## Niveau 3 — Spécialiste (porte G0)
 
@@ -112,6 +114,7 @@ Les réfutations retenues sont inscrites au **Mur des réfutateurs**, avec le no
 | Date | Contributeur | Défi | Résultat | Effet sur le programme |
 |---|---|---|---|---|
 | 06/10/2026 | (vérification d'ouverture) | DEFI-R1 | `SELFTEST : 4/4` sur machine tierce, numpy 2.5.3 | Reproductibilité de l'auto-test confirmée |
+| 16/10/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-M9 (RO-25) | [M] Le déficit de masse du nouveau-né se concentre dans la queue massive, rejointe lentement ; le décile massif est largement partagé entre chaînes indépendantes ([rapport](contributions/RO-25_pilote-ia/DEFI-M9_RAPPORT.md), [#19](https://github.com/BlobPrinciple/The-blob-Principle/issues/19)) | Résultat partiel ; défi dérivé DEFI-M10 ; statut inchangé |
 
 ## Mur des réfutateurs
 

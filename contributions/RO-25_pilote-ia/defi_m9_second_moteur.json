@@ -1,0 +1,185 @@
+{
+ "lags_balayages": [
+  0,
+  256,
+  2048
+ ],
+ "N": {
+  "250": {
+   "n_naissances": 120,
+   "secondes": 94.0,
+   "par_lag": [
+    {
+     "t": 0,
+     "nouveau_ne_moy_u": 0.384,
+     "nouveau_ne_et": 0.0174,
+     "nouveau_ne_part_u_sup_0.9": 0.0,
+     "temoin_moy_u": 0.4967,
+     "temoin_part_u_sup_0.9": 0.1,
+     "KS_p_nouveau_ne": 1.35e-10,
+     "ecart_tri_moy": -13.763,
+     "ecart_tri_et": 0.175
+    },
+    {
+     "t": 256,
+     "nouveau_ne_moy_u": 0.485,
+     "nouveau_ne_et": 0.027,
+     "nouveau_ne_part_u_sup_0.9": 0.0583,
+     "temoin_moy_u": 0.5013,
+     "temoin_part_u_sup_0.9": 0.1167,
+     "KS_p_nouveau_ne": 0.585,
+     "ecart_tri_moy": -2.912,
+     "ecart_tri_et": 3.363
+    },
+    {
+     "t": 2048,
+     "nouveau_ne_moy_u": 0.4849,
+     "nouveau_ne_et": 0.0275,
+     "nouveau_ne_part_u_sup_0.9": 0.0833,
+     "temoin_moy_u": 0.4613,
+     "temoin_part_u_sup_0.9": 0.1167,
+     "KS_p_nouveau_ne": 0.533,
+     "ecart_tri_moy": -1.574,
+     "ecart_tri_et": 3.277
+    }
+   ]
+  },
+  "500": {
+   "n_naissances": 72,
+   "secondes": 145.3,
+   "par_lag": [
+    {
+     "t": 0,
+     "nouveau_ne_moy_u": 0.3478,
+     "nouveau_ne_et": 0.0247,
+     "nouveau_ne_part_u_sup_0.9": 0.0,
+     "temoin_moy_u": 0.5005,
+     "temoin_part_u_sup_0.9": 0.1111,
+     "KS_p_nouveau_ne": 5.61e-06,
+     "ecart_tri_moy": -15.038,
+     "ecart_tri_et": 0.253
+    },
+    {
+     "t": 256,
+     "nouveau_ne_moy_u": 0.528,
+     "nouveau_ne_et": 0.0331,
+     "nouveau_ne_part_u_sup_0.9": 0.0972,
+     "temoin_moy_u": 0.4998,
+     "temoin_part_u_sup_0.9": 0.125,
+     "KS_p_nouveau_ne": 0.309,
+     "ecart_tri_moy": 1.735,
+     "ecart_tri_et": 6.671
+    },
+    {
+     "t": 2048,
+     "nouveau_ne_moy_u": 0.4548,
+     "nouveau_ne_et": 0.033,
+     "nouveau_ne_part_u_sup_0.9": 0.0972,
+     "temoin_moy_u": 0.4994,
+     "temoin_part_u_sup_0.9": 0.0972,
+     "KS_p_nouveau_ne": 0.0625,
+     "ecart_tri_moy": 0.799,
+     "ecart_tri_et": 6.259
+    }
+   ]
+  }
+ },
+ "point_de_travail": [
+  {
+   "N": 250,
+   "graine": 0,
+   "n_tri_par_N": 4.764,
+   "Gini_masse": 0.83
+  },
+  {
+   "N": 250,
+   "graine": 1,
+   "n_tri_par_N": 4.952,
+   "Gini_masse": 0.805
+  },
+  {
+   "N": 250,
+   "graine": 2,
+   "n_tri_par_N": 5.924,
+   "Gini_masse": 0.859
+  },
+  {
+   "N": 250,
+   "graine": 3,
+   "n_tri_par_N": 4.564,
+   "Gini_masse": 0.799
+  },
+  {
+   "N": 250,
+   "graine": 4,
+   "n_tri_par_N": 5.168,
+   "Gini_masse": 0.846
+  },
+  {
+   "N": 250,
+   "graine": 5,
+   "n_tri_par_N": 4.828,
+   "Gini_masse": 0.795
+  },
+  {
+   "N": 250,
+   "graine": 6,
+   "n_tri_par_N": 4.828,
+   "Gini_masse": 0.81
+  },
+  {
+   "N": 250,
+   "graine": 7,
+   "n_tri_par_N": 5.772,
+   "Gini_masse": 0.841
+  },
+  {
+   "N": 250,
+   "graine": 8,
+   "n_tri_par_N": 4.812,
+   "Gini_masse": 0.816
+  },
+  {
+   "N": 250,
+   "graine": 9,
+   "n_tri_par_N": 4.62,
+   "Gini_masse": 0.808
+  },
+  {
+   "N": 500,
+   "graine": 0,
+   "n_tri_par_N": 5.18,
+   "Gini_masse": 0.852
+  },
+  {
+   "N": 500,
+   "graine": 1,
+   "n_tri_par_N": 5.656,
+   "Gini_masse": 0.864
+  },
+  {
+   "N": 500,
+   "graine": 2,
+   "n_tri_par_N": 4.958,
+   "Gini_masse": 0.829
+  },
+  {
+   "N": 500,
+   "graine": 3,
+   "n_tri_par_N": 5.116,
+   "Gini_masse": 0.855
+  },
+  {
+   "N": 500,
+   "graine": 4,
+   "n_tri_par_N": 6.456,
+   "Gini_masse": 0.902
+  },
+  {
+   "N": 500,
+   "graine": 5,
+   "n_tri_par_N": 4.886,
+   "Gini_masse": 0.815
+  }
+ ]
+}

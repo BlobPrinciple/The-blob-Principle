@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.3",
- "updated": "2026-10-15",
+ "version": "1.4",
+ "updated": "2026-10-16",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -369,6 +369,33 @@
    "level": 2,
    "statement_fr": "L'aristocratie des sommets massifs. Sur le moteur canonique, le degré d'un sommet nouveau-né rejoint la moyenne en 8 à 16 balayages, mais sa masse triangulaire reste en déficit (−3,0 ± 2,0 à 512 balayages, contributions/RO-25_pilote-ia/DEFI-M7_RAPPORT.md). Le nouveau-né atteint-il un jour la masse triangulaire typique, ou la viabilité fige-t-elle une aristocratie de sommets massifs ?",
    "deliverable_fr": "Loi des triangles incidents du nouveau-né contre loi de la population, en variation totale, avec au moins 200 naissances par taille et au moins trois tailles ; ou argument démontré.",
+   "open_research": [
+    "RO-25",
+    "RO-20"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/19",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-10-16",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/19",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[M] corps de la loi des masses du nouveau-né indiscernable de la population après 16 à 256 balayages (N = 250 à 2 000, 200 naissances par taille) ; [M] queue lente : 6 à 7 % des nouveau-nés dans le décile massif jusqu'à 1 024 balayages (10 % attendus), 8,5 % à 2 048 ; [M, partiel] décile massif largement partagé entre chaînes sur 9 nuages sur 10, et évitant les bords du cube ; [OPEN] rôle de l'âge",
+     "effect": "résultat partiel ; DEFI-M9 reste ouvert ; défi dérivé DEFI-M10 ; aucun changement de statut",
+     "result_en": "[M] body of the newborn's mass law indistinguishable from the population's after 16 to 256 sweeps (N = 250 to 2,000, 200 births per size); [M] slow tail: 6 to 7% of newborns in the massive decile up to 1,024 sweeps (10% expected), 8.5% at 2,048; [M, partial] massive decile largely shared between chains on 9 clouds out of 10, and avoiding the cube's boundaries; [OPEN] role of age",
+     "effect_en": "partial result; DEFI-M9 stays open; derived challenge DEFI-M10; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-M10"
+   ]
+  },
+  {
+   "code": "DEFI-M10",
+   "level": 2,
+   "statement_fr": "La lente accession au décile massif (RO-25, RO-20). Sur le moteur canonique, la loi des masses d'un nouveau-né rejoint celle de la population en 16 à 256 balayages, sauf la queue : 6 à 7 % des nouveau-nés sont dans le décile massif jusqu'à 1 024 balayages, contre 10 % attendus (contributions/RO-25_pilote-ia/DEFI-M9_RAPPORT.md). Combien de balayages faut-il pour atteindre 10 %, ce temps croît-il avec N, et le nouveau-né rejoint-il la masse d'équilibre de sa position ?",
+   "deliverable_fr": "Part des nouveau-nés dans le décile supérieur mesurée à ± 1 point (au moins 1 000 naissances par taille, au moins deux tailles) jusqu'à au moins 16 384 balayages, comparée nouveau-né par nouveau-né à la masse d'équilibre de sa position (chaîne indépendante sur le même nuage), de préférence en boîte périodique ; ou borne démontrée. Un temps divergent avec N rend le pont RO-25 intenable pour les sommets massifs.",
    "open_research": [
     "RO-25",
     "RO-20"
