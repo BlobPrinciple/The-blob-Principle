@@ -11,6 +11,22 @@
 
 ---
 
+## ⚡ Happening now in the laboratory
+
+**⚖️ The trial of the 22 paradoxes is open.** The books *Du simplexe au complexe* give a place to twenty-two great paradoxes (why something rather than nothing, the arrow of time, dark matter, quantum measurement…). Provisional verdict against the mathematics: **class A = 0**, B = 3, C = 14, D = 5. Too harsh? Too generous? **[Contest the verdict (#32)](https://github.com/BlobPrinciple/The-blob-Principle/issues/32)** · [case files](debates/TRIAL_OF_PARADOXES.md)
+
+**Pick your way in, depending on the time you have:**
+
+| Time | Challenge | What you do |
+|---|---|---|
+| 5 minutes | [DEFI-D1 — The juror](https://github.com/BlobPrinciple/The-blob-Principle/issues/32) | Contest the classification of a paradox, in one comment |
+| 15 minutes | [DEFI-R1 — The replicator](https://github.com/BlobPrinciple/The-blob-Principle/issues/3) | Run the self-test in Colab and post your result |
+| a weekend | [DEFI-R4 — Nucleation](https://github.com/BlobPrinciple/The-blob-Principle/issues/20) | Can the Blob be born from the strict void? Today: 0/40 |
+| a week | [DEFI-M8 — A non-arbitrary closure](https://github.com/BlobPrinciple/The-blob-Principle/issues/26) | Derive from viability the attachment law of a newborn vertex |
+| a research project | [DEFI-G4 — Fixed point and universality](https://github.com/BlobPrinciple/The-blob-Principle/issues/31) | Where the "one mechanism at every scale" thesis is decided |
+
+All 26 challenges: [CHALLENGES.md](CHALLENGES.md) · [all open challenge issues](https://github.com/BlobPrinciple/The-blob-Principle/issues?q=is%3Aopen+label%3Adefi). A clean refutation is worth as much as a proof, and every accepted contribution is credited by name.
+
 ## What the Blob Principle is
 
 The Blob Principle is a **humble candidate for a theory of everything and a complete cosmogony**. Its central idea fits in one sentence: *everything appears, not everything persists — and what decides what persists is viability.*

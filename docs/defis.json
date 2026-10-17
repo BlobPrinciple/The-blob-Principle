@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.4",
- "updated": "2026-10-16",
+ "version": "1.5",
+ "updated": "2026-10-17",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -212,7 +212,7 @@
    "open_research": [
     "RO-02"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/20",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
@@ -236,7 +236,7 @@
    "statement_fr": "Les quatre points de SUP-1. Degré borné contre O(log N), ordre des limites, 3-tore contre cube à bord, étiquettes (H1)–(H3) incohérentes.",
    "deliverable_fr": "Note de supersession qui tranche chacun des quatre points.",
    "open_research": [],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/21",
    "path_step": "P2",
    "state": "ouvert",
    "history": [],
@@ -289,7 +289,7 @@
    "open_research": [
     "RO-03"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/22",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
@@ -303,7 +303,7 @@
    "open_research": [
     "RO-04"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/23",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
@@ -317,7 +317,7 @@
    "open_research": [
     "RO-20"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/24",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
@@ -331,7 +331,7 @@
    "open_research": [
     "RO-25"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/25",
    "path_step": "P1",
    "state": "ouvert",
    "history": [
@@ -358,7 +358,7 @@
     "RO-24",
     "RO-25"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/26",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
@@ -400,7 +400,7 @@
     "RO-25",
     "RO-20"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/27",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
@@ -414,7 +414,7 @@
    "open_research": [
     "RO-13"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/28",
    "path_step": "P2",
    "state": "ouvert",
    "history": [],
@@ -428,7 +428,7 @@
    "open_research": [
     "RO-14"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/29",
    "path_step": "P2",
    "state": "ouvert",
    "history": [],
@@ -442,7 +442,7 @@
    "open_research": [
     "RO-15"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/30",
    "path_step": "P2",
    "state": "ouvert",
    "history": [],
@@ -456,7 +456,7 @@
    "open_research": [
     "RO-16"
    ],
-   "issue": null,
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/31",
    "path_step": "P2",
    "state": "ouvert",
    "history": [],
@@ -469,6 +469,34 @@
    "deliverable_fr": "Une critique argumentée avec la rigueur d'un relecteur de revue.",
    "open_research": [],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/13",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-D1",
+   "level": 0,
+   "statement_fr": "Le juré. Contestez le classement d'un des 22 paradoxes du procès (debats/PROCES_DES_PARADOXES.md) : trop sévère ou trop généreux.",
+   "deliverable_fr": "Un commentaire dans l'issue du procès : numéro du paradoxe, classe proposée, argument, page citée (livre ou armature).",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/32",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-D2",
+   "level": 2,
+   "statement_fr": "L'avocat. Faites monter un paradoxe d'une classe (D → C : mécanisme explicite ; C → B : objet formel défini dans l'armature ; B → A : énoncé [T] dans le secteur canonique, sans [ARCH] ni [T] historique non recalculé), ou démontrez qu'il doit descendre.",
+   "deliverable_fr": "Une note dans contributions/ et une issue qui cite DEFI-D2 et le numéro du paradoxe ; candidats les plus proches de la classe A : n° 5, 8 et 9.",
+   "open_research": [
+    "RO-03",
+    "RO-10",
+    "RO-26"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/32",
    "path_step": "T",
    "state": "ouvert",
    "history": [],

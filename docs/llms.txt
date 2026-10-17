@@ -8,8 +8,9 @@ Guiding thread: the Blob cosmogony, and how to prove it. Rules for AI agents and
 
 - [AI contribution guide (EN)](https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/AI_CONTRIBUTING.md): protocol, ready-to-use prompt, what a submission must contain
 - [Guide de contribution avec une IA (FR)](https://github.com/BlobPrinciple/The-blob-Principle/blob/main/IA_CONTRIBUER.md)
-- [Challenges, machine-readable (JSON)](https://blobprinciple.github.io/The-blob-Principle/defis.json): 24 challenges with level, deliverable, open problems and issue links
+- [Challenges, machine-readable (JSON)](https://blobprinciple.github.io/The-blob-Principle/defis.json): 26 challenges with level, deliverable, open problems and issue links
 - [Submit an AI-assisted contribution](https://github.com/BlobPrinciple/The-blob-Principle/issues/new?template=5_contribution-ia.md)
+- [Trial of the 22 paradoxes (EN)](https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/debates/TRIAL_OF_PARADOXES.md): how far each answer of the books stands against the armature (class A = 0, B = 3, C = 14, D = 5); contest a class in issue #32 (DEFI-D1) or move a paradox up a class with a proof (DEFI-D2)
 - [AI pilot of the laboratory (EN)](https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/AI_PILOT.md): single guiding thread (the Blob cosmogony, and how to prove it), proof path P1 to P4, the author's delegation of 15 October 2026 and the pilot's limits
 - [Advances log (EN)](https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/ADVANCES_LOG.md): every accepted contribution, in order
 

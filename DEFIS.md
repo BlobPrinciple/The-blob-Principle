@@ -24,7 +24,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 ### État des défis
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*État au 2026-10-16 — défis v1.4.*
+*État au 2026-10-17 — défis v1.5.*
 
 | Défi | Étape du chemin de preuve | État | Dernier événement |
 |---|---|---|---|
@@ -52,6 +52,8 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-G3 | P2 | ouvert | — |
 | DEFI-G4 | P2 | ouvert | — |
 | DEFI-T0 | T | ouvert | — |
+| DEFI-D1 | T | ouvert | — |
+| DEFI-D2 | T | ouvert | — |
 <!-- ETAT-DEFIS:FIN -->
 
 Source : [docs/defis.json](docs/defis.json), version lisible par machine.
@@ -100,6 +102,15 @@ Source : [docs/defis.json](docs/defis.json), version lisible par machine.
 | **DEFI-G2** | Intertwiner MARKED ↔ CONNECTED dans une norme de Banach déclarée | **RO-14** |
 | **DEFI-G3** | Convergence sous retrait du régulateur, limite projective | **RO-15** |
 | **DEFI-G4** | Point fixe non trivial et universalité (C4, C5, C7) | **RO-16** |
+
+## Le procès des 22 paradoxes — le débat est ouvert
+
+Le récit des livres *Du simplexe au complexe* donne une place à vingt-deux grands paradoxes. Combien tiennent face aux mathématiques ? Verdict provisoire : **classe A = 0**, B = 3, C = 14, D = 5. Dossier complet : [debats/PROCES_DES_PARADOXES.md](debats/PROCES_DES_PARADOXES.md) · [#32](https://github.com/BlobPrinciple/The-blob-Principle/issues/32).
+
+| Code | Défi | Ce qu'il faut rendre |
+|---|---|---|
+| **DEFI-D1** | **Le juré** (niveau 0). Contestez le classement d'un paradoxe : trop sévère ou trop généreux. | Un commentaire dans [#32](https://github.com/BlobPrinciple/The-blob-Principle/issues/32) : numéro, classe proposée, argument, page citée. |
+| **DEFI-D2** | **L'avocat** (niveau 2). Faites monter un paradoxe d'une classe — D → C : un mécanisme explicite ; C → B : un objet formel défini dans l'armature ; B → A : un énoncé [T] dans le secteur canonique — ou démontrez qu'il doit descendre. | Une note dans `contributions/` ; candidats les plus proches de la classe A : n° 5, 8 et 9 (**RO-03**, **RO-10**, **RO-26**). |
 
 ## Le grand défi — le Tribunal ouvert
 

@@ -24,7 +24,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 ### Challenge status
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*Status as of 2026-10-16 — challenges v1.4.*
+*Status as of 2026-10-17 — challenges v1.5.*
 
 | Challenge | Proof-path step | State | Latest event |
 |---|---|---|---|
@@ -52,6 +52,8 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-G3 | P2 | open | — |
 | DEFI-G4 | P2 | open | — |
 | DEFI-T0 | T | open | — |
+| DEFI-D1 | T | open | — |
+| DEFI-D2 | T | open | — |
 <!-- ETAT-DEFIS:FIN -->
 
 Source: [docs/defis.json](../docs/defis.json), machine-readable version.
@@ -100,6 +102,15 @@ Source: [docs/defis.json](../docs/defis.json), machine-readable version.
 | **DEFI-G2** | MARKED ↔ CONNECTED intertwiner in a declared Banach norm | **RO-14** |
 | **DEFI-G3** | Convergence under removal of the regulator, projective limit | **RO-15** |
 | **DEFI-G4** | Non-trivial fixed point and universality (C4, C5, C7) | **RO-16** |
+
+## The trial of the 22 paradoxes — the debate is open
+
+The narrative of the books *Du simplexe au complexe* gives a place to twenty-two great paradoxes. How many stand up to mathematics? Provisional verdict: **class A = 0**, B = 3, C = 14, D = 5. Case files: [debates/TRIAL_OF_PARADOXES.md](debates/TRIAL_OF_PARADOXES.md) · [#32](https://github.com/BlobPrinciple/The-blob-Principle/issues/32).
+
+| Code | Challenge | Deliverable |
+|---|---|---|
+| **DEFI-D1** | **The juror** (level 0). Contest the classification of a paradox: too harsh or too generous. | A comment in [#32](https://github.com/BlobPrinciple/The-blob-Principle/issues/32): number, proposed class, argument, page cited. |
+| **DEFI-D2** | **The advocate** (level 2). Move a paradox up one class — D → C: an explicit mechanism; C → B: a formal object defined in the armature; B → A: a [T] statement in the canonical sector — or prove it must move down. | A note in `contributions/`; candidates closest to class A: no. 5, 8 and 9 (**RO-03**, **RO-10**, **RO-26**). |
 
 ## The grand challenge — the open Tribunal
 
