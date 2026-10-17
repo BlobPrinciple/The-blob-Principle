@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fais naître ton univers</title>
+<meta name="description" content="Fais naître un univers à partir d'un seul point, avec la vraie règle de viabilité du Blob Principle. Partage ta graine, relève le défi du Bâtisseur. TOE démontrée : NON.">
+<meta property="og:title" content="Fais naître ton univers — The Blob Principle">
+<meta property="og:description" content="Un point, une règle : la viabilité. Fais naître ton univers, partage ta graine. Candidate à la théorie du tout, ouverte à tous, pas encore démontrée.">
+<meta property="og:image" content="social-preview.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;0,800;1,400&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Un banc d'essai : le canevas où l'univers naît occupe le centre ; tout le reste sert à le lire, le régler et le partager. */
+:root{
+  --paper:#F2F4F1; --paper-2:#E7EBE6; --ink:#15212B; --muted:#56626B; --rule:#C9D0CA;
+  --accent:#2742B0; --accent-soft:#DCE2F7; --open:#9A5B00; --open-soft:#F6E7CC; --fail:#A3271F; --fail-soft:#F5DAD7; --ok:#21684A;
+  --grid:rgba(21,33,43,.055);
+  --f-display:"Spectral",Georgia,"Times New Roman",serif;
+  --f-body:"Public Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0F151B; --paper-2:#17202A; --ink:#E4EAEE; --muted:#9AA6AF; --rule:#2A3540;
+  --accent:#93A6FF; --accent-soft:#1E2A55; --open:#E8B45C; --open-soft:#3A2C12; --fail:#F08A80; --fail-soft:#3D1814; --ok:#6FD3A4;
+  --grid:rgba(228,234,238,.05); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0F151B; --paper-2:#17202A; --ink:#E4EAEE; --muted:#9AA6AF; --rule:#2A3540;
+  --accent:#93A6FF; --accent-soft:#1E2A55; --open:#E8B45C; --open-soft:#3A2C12; --fail:#F08A80; --fail-soft:#3D1814; --ok:#6FD3A4;
+  --grid:rgba(228,234,238,.05); color-scheme:dark}
+*{box-sizing:border-box}
+html[lang="en"] [data-l="fr"],html[lang="fr"] [data-l="en"]{display:none}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:1.0625rem;line-height:1.6;
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:24px 24px}
+a{color:var(--accent)}
+.wrap{max-width:72rem;margin:0 auto;padding-inline:clamp(16px,4vw,40px)}
+header.top{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding-block:1rem;border-bottom:1px solid var(--rule)}
+.brand{font-family:var(--f-mono);font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-decoration:none}
+.lang{font-family:var(--f-mono);font-size:.8rem;background:none;border:1px solid var(--rule);color:var(--ink);border-radius:999px;padding:.25rem .7rem;cursor:pointer}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(2rem,5vw,3.4rem);line-height:1.05;margin:1.6rem 0 .4rem;letter-spacing:-.01em}
+.lede{max-width:44rem;color:var(--muted);margin:0 0 1rem}
+.status{display:inline-flex;flex-wrap:wrap;gap:.4rem;align-items:center;font-family:var(--f-mono);font-size:.75rem;margin-bottom:1.4rem}
+.pill{border-radius:999px;padding:.15rem .6rem;border:1px solid var(--rule)}
+.pill.no{background:var(--fail-soft);color:var(--fail);border-color:transparent}
+.pill.open{background:var(--open-soft);color:var(--open);border-color:transparent}
+.lab{display:grid;grid-template-columns:minmax(0,1fr) 20rem;gap:1.25rem;align-items:start}
+@media (max-width:860px){.lab{grid-template-columns:1fr}}
+.stage{position:relative;background:var(--paper-2);border:1px solid var(--rule);border-radius:14px;overflow:hidden;aspect-ratio:4/3}
+#cv{display:block;width:100%;height:100%;touch-action:none}
+.hud{position:absolute;left:.75rem;top:.6rem;font-family:var(--f-mono);font-size:.75rem;color:var(--muted);pointer-events:none}
+.hud b{color:var(--ink);font-weight:600}
+.panel{display:flex;flex-direction:column;gap:1rem}
+.card{background:var(--paper);border:1px solid var(--rule);border-radius:12px;padding:1rem}
+.card h2{font-family:var(--f-display);font-size:1.15rem;margin:0 0 .5rem}
+.row{display:flex;gap:.5rem;flex-wrap:wrap}
+button.b,a.b{font:inherit;font-size:.92rem;font-weight:600;border-radius:10px;padding:.55rem .9rem;cursor:pointer;border:1px solid var(--rule);background:var(--paper);color:var(--ink);text-decoration:none;display:inline-flex;align-items:center;gap:.35rem;min-height:44px}
+button.b.primary,a.b.primary{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+button.b:focus-visible,a.b:focus-visible,input:focus-visible,.lang:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+label.ctl{display:grid;grid-template-columns:1fr auto;gap:.1rem .5rem;font-size:.88rem;margin-top:.6rem}
+label.ctl output{font-family:var(--f-mono);font-size:.82rem}
+label.ctl input{grid-column:1/-1;width:100%;accent-color:var(--accent)}
+.hint{font-size:.78rem;color:var(--muted);grid-column:1/-1;line-height:1.4}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:.35rem .8rem;font-family:var(--f-mono);font-size:.82rem;margin:0}
+.stats dt{color:var(--muted)} .stats dd{margin:0;text-align:right;font-weight:600}
+.verdict{border-left:3px solid var(--open);padding:.6rem .8rem;background:var(--open-soft);border-radius:0 10px 10px 0;font-size:.95rem;margin:0}
+.verdict.win{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 14%,transparent)}
+.verdict.fail{border-color:var(--fail);background:var(--fail-soft)}
+.seed{font-family:var(--f-mono);font-size:.82rem;color:var(--muted)}
+section.more{margin-block:2.5rem;display:grid;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:1.25rem}
+section.more h2,section.jury h2{font-family:var(--f-display);font-size:1.5rem;margin:0 0 .5rem}
+section.jury{margin-block:2.5rem}
+.plist{list-style:none;padding:0;margin:1rem 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:.5rem}
+.plist li{display:flex;align-items:center;justify-content:space-between;gap:.5rem;border:1px solid var(--rule);border-radius:10px;padding:.45rem .6rem;background:var(--paper)}
+.plist .nm{font-size:.88rem}
+.cls{font-family:var(--f-mono);font-size:.75rem;font-weight:600;border-radius:6px;padding:.05rem .45rem}
+.cls.B{background:var(--accent-soft);color:var(--accent)} .cls.C{background:var(--open-soft);color:var(--open)} .cls.D{background:var(--fail-soft);color:var(--fail)}
+.plist .act{display:flex;gap:.25rem;flex-shrink:0}
+.plist .act a{font-family:var(--f-mono);font-size:.72rem;text-decoration:none;border:1px solid var(--rule);border-radius:6px;padding:.25rem .4rem;color:var(--ink);min-height:32px;display:inline-flex;align-items:center}
+.plist .act a:hover{border-color:var(--accent);color:var(--accent)}
+footer{border-top:1px solid var(--rule);padding-block:1.5rem 2.5rem;font-size:.85rem;color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:1.2rem;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:.5rem .9rem;border-radius:10px;font-size:.9rem;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.toast{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <a class="brand" href="./">The Blob Principle · <span data-l="fr">laboratoire ouvert</span><span data-l="en">open laboratory</span></a>
+    <button class="lang" id="lang" type="button" aria-label="Changer de langue / Switch language">EN</button>
+  </header>
+
+  <h1><span data-l="fr">Fais naître ton univers</span><span data-l="en">Grow your own universe</span></h1>
+  <p class="lede" data-l="fr">Un seul point. Une seule règle : <b>la viabilité</b>. Des sommets naissent, se lient, se ferment en triangles — et tout ne persiste pas. Chaque univers a sa graine : partage-la, n'importe qui pourra le refaire naître à l'identique.</p>
+  <p class="lede" data-l="en">One point. One rule: <b>viability</b>. Vertices are born, link up, close into triangles — and not everything persists. Every universe has a seed: share it and anyone can grow the exact same one.</p>
+  <div class="status" role="note">
+    <span class="pill no" data-l="fr">TOE démontrée : NON</span><span class="pill no" data-l="en">TOE demonstrated: NO</span>
+    <span class="pill open" data-l="fr">jouet pédagogique, pas une preuve</span><span class="pill open" data-l="en">teaching toy, not a proof</span>
+    <span class="pill" data-l="fr">portes physiques 0/7</span><span class="pill" data-l="en">physical gates 0/7</span>
+  </div>
+
+  <div class="lab">
+    <div>
+      <div class="stage">
+        <canvas id="cv" role="img" aria-label="Univers en croissance : sommets, arêtes et triangles"></canvas>
+        <div class="hud" aria-hidden="true">t₁ = <b id="h-t">0</b> · N = <b id="h-n">1</b> · S_sim = <b id="h-s">—</b></div>
+      </div>
+      <p class="verdict" id="verdict" aria-live="polite"></p>
+    </div>
+
+    <div class="panel">
+      <div class="card">
+        <div class="row">
+          <button class="b primary" id="play" type="button"></button>
+          <button class="b" id="stepb" type="button"><span data-l="fr">Une naissance</span><span data-l="en">One birth</span></button>
+          <button class="b" id="newseed" type="button"><span data-l="fr">Autre graine</span><span data-l="en">New seed</span></button>
+        </div>
+        <p class="seed"><span data-l="fr">Graine</span><span data-l="en">Seed</span> n° <b id="seedv"></b></p>
+        <label class="ctl"><span data-l="fr">Arêtes de fermeture par naissance</span><span data-l="en">Closure edges per birth</span> <output id="ko"></output>
+          <input type="range" id="k" min="0" max="5" step="1">
+          <span class="hint" data-l="fr">0 = mitose seule. Le laboratoire a démontré qu'elle ne ferme jamais un triangle.</span><span class="hint" data-l="en">0 = mitosis alone. The lab proved it never closes a triangle.</span></label>
+        <label class="ctl"><span data-l="fr">Relaxation (balayages)</span><span data-l="en">Relaxation (sweeps)</span> <output id="so"></output>
+          <input type="range" id="sw" min="0" max="4" step="0.5">
+          <span class="hint" data-l="fr">Échanges d'arêtes acceptés selon la viabilité, après chaque naissance.</span><span class="hint" data-l="en">Edge exchanges accepted by viability, after each birth.</span></label>
+        <label class="ctl"><span data-l="fr">Taille finale</span><span data-l="en">Final size</span> <output id="no"></output>
+          <input type="range" id="nmax" min="20" max="150" step="10"></label>
+      </div>
+
+      <div class="card">
+        <h2><span data-l="fr">Ton univers</span><span data-l="en">Your universe</span></h2>
+        <dl class="stats">
+          <dt><span data-l="fr">sommets</span><span data-l="en">vertices</span></dt><dd id="s-n">1</dd>
+          <dt><span data-l="fr">arêtes</span><span data-l="en">edges</span></dt><dd id="s-e">0</dd>
+          <dt>triangles</dt><dd id="s-t">0</dd>
+          <dt><span data-l="fr">tétraèdres</span><span data-l="en">tetrahedra</span></dt><dd id="s-q">0</dd>
+          <dt><span data-l="fr">morceaux</span><span data-l="en">pieces</span></dt><dd id="s-c">1</dd>
+          <dt>D (<span data-l="fr">dispersion</span><span data-l="en">dispersion</span>)</dt><dd id="s-d">—</dd>
+        </dl>
+      </div>
+
+      <div class="card">
+        <h2><span data-l="fr">Partager</span><span data-l="en">Share</span></h2>
+        <div class="row">
+          <a class="b primary" id="sharex" href="#" target="_blank" rel="noopener"><span data-l="fr">Publier sur X</span><span data-l="en">Post on X</span></a>
+          <button class="b" id="copy" type="button"><span data-l="fr">Copier le lien</span><span data-l="en">Copy link</span></button>
+          <button class="b" id="png" type="button"><span data-l="fr">Image</span><span data-l="en">Image</span></button>
+        </div>
+        <p class="hint" style="margin:.6rem 0 0"><a id="gallery" href="https://github.com/BlobPrinciple/The-blob-Principle/issues/33"><span data-l="fr">Déposer ta graine dans la galerie des univers →</span><span data-l="en">Post your seed in the gallery of universes →</span></a></p>
+      </div>
+    </div>
+  </div>
+
+  <section class="more">
+    <div>
+      <h2><span data-l="fr">Le défi du Bâtisseur</span><span data-l="en">The Builder's challenge</span></h2>
+      <p data-l="fr">Fais naître, à 80 sommets, un univers <b>d'un seul tenant</b> et <b>régulier</b> (D &lt; 0,50) avec <b>3 arêtes de fermeture seulement</b>. Avec 5 arêtes, presque tout réussit ; avec 4, environ un univers sur cinq. Avec 3, <b>personne n'y est encore arrivé</b> : 0 réussite sur 2 400 univers simulés par le laboratoire.</p>
+      <p data-l="en">At 80 vertices, grow a universe that is <b>in one piece</b> and <b>regular</b> (D &lt; 0.50) with <b>only 3 closure edges</b>. With 5 edges, almost everything succeeds; with 4, about one universe in five. With 3, <b>nobody has done it yet</b>: 0 successes out of 2,400 universes simulated by the lab.</p>
+      <p data-l="fr"><b>Record à battre : D = 0,542</b> (graine n° 5215, relaxation 1 — <a href="?g=5215&amp;f=3&amp;r=1&amp;n=80">le voir naître</a>). Si tu fais mieux, dépose ta graine dans la <a href="https://github.com/BlobPrinciple/The-blob-Principle/issues/33">galerie des univers</a> : ton nom entre au tableau d'honneur.</p>
+      <p data-l="en"><b>Record to beat: D = 0.542</b> (seed no. 5215, relaxation 1 — <a href="?g=5215&amp;f=3&amp;r=1&amp;n=80">watch it grow</a>). If you do better, post your seed in the <a href="https://github.com/BlobPrinciple/The-blob-Principle/issues/33">gallery of universes</a>: your name joins the honour roll.</p>
+      <p data-l="fr">Puis la vraie question, ouverte : <b>pourquoi ce nombre d'arêtes de fermeture ?</b> Aujourd'hui, c'est un réglage à la main. Le dériver de la viabilité elle-même, c'est le <a href="https://github.com/BlobPrinciple/The-blob-Principle/issues/26">défi DEFI-M8</a>.</p>
+      <p data-l="en">Then the real, open question: <b>why that number of closure edges?</b> Today it is set by hand. Deriving it from viability itself is <a href="https://github.com/BlobPrinciple/The-blob-Principle/issues/26">challenge DEFI-M8</a>.</p>
+    </div>
+    <div>
+      <h2><span data-l="fr">Ce que tu vois vraiment</span><span data-l="en">What you are really seeing</span></h2>
+      <p data-l="fr">Chaque naissance relie un nouveau sommet à un sommet existant (la mitose), plus les arêtes de fermeture vers ses voisins. Puis des arêtes s'échangent, acceptées selon la loi de Gibbs π ∝ exp(N·S_sim/τ), avec <span style="font-family:var(--f-mono)">S_sim = log(1 + triangles) − 0,30·D</span> et τ = 0,50 : la fonctionnelle de l'armature V347.1.</p>
+      <p data-l="en">Each birth links a new vertex to an existing one (mitosis), plus closure edges to its neighbours. Then edges are exchanged, accepted by the Gibbs law π ∝ exp(N·S_sim/τ), with <span style="font-family:var(--f-mono)">S_sim = log(1 + triangles) − 0.30·D</span> and τ = 0.50: the functional of the V347.1 armature.</p>
+      <p data-l="fr"><b>Limite honnête :</b> ce jouet tourne sur des graphes abstraits ; le moteur canonique travaille sur un nuage de points géométrique. Les îlots (mitose seule) et les amas denses que tu verras sont des résultats réels du laboratoire, pas des effets du jouet — voir <a href="https://github.com/BlobPrinciple/The-blob-Principle/issues/16">#16</a>.</p>
+      <p data-l="en"><b>Honest limit:</b> this toy runs on abstract graphs; the canonical engine works on a geometric point cloud. The islands (mitosis alone) and dense clumps you will see are real lab results, not artefacts of the toy — see <a href="https://github.com/BlobPrinciple/The-blob-Principle/issues/16">#16</a>.</p>
+    </div>
+  </section>
+
+  <section class="jury" id="jury">
+    <h2><span data-l="fr">Le procès des 22 paradoxes — sois juré</span><span data-l="en">The trial of the 22 paradoxes — be a juror</span></h2>
+    <p data-l="fr" style="max-width:46rem">Notre propre verdict : <b>aucun</b> paradoxe n'est résolu par le Blob (classe A = 0). B : lecture cohérente mais conjecturale · C : problème reformulé, sans preuve · D : non traité ou corrigé. Trop sévère ? Trop généreux ? Un clic ouvre ta contestation, déjà remplie. <a href="https://github.com/BlobPrinciple/The-blob-Principle/blob/main/debats/PROCES_DES_PARADOXES.md">Dossier complet</a>.</p>
+    <p data-l="en" style="max-width:46rem">Our own verdict: <b>no</b> paradox is solved by the Blob (class A = 0). B: coherent but conjectural reading · C: problem reframed, without proof · D: not addressed or corrected. Too harsh? Too generous? One click opens your objection, pre-filled. <a href="https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/debates/TRIAL_OF_PARADOXES.md">Case files</a>.</p>
+    <ul class="plist" id="plist"></ul>
+  </section>
+
+  <footer>
+    <p data-l="fr">The Blob Principle — création originale de Rudolphe Mirante (ORCID 0009-0001-0990-7122). <a href="./">Laboratoire</a> · <a href="https://github.com/BlobPrinciple/The-blob-Principle/blob/main/DEFIS.md">les 27 défis</a> · <a href="https://doi.org/10.5281/zenodo.23188586">DOI 10.5281/zenodo.23188586</a>. TOE démontrée : NON · portes physiques 0/7.</p>
+    <p data-l="en">The Blob Principle — original creation of Rudolphe Mirante (ORCID 0009-0001-0990-7122). <a href="./">Laboratory</a> · <a href="https://github.com/BlobPrinciple/The-blob-Principle/blob/main/en/CHALLENGES.md">the 27 challenges</a> · <a href="https://doi.org/10.5281/zenodo.23188586">DOI 10.5281/zenodo.23188586</a>. TOE demonstrated: NO · physical gates 0/7.</p>
+  </footer>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(function(){
+"use strict";
+// ---------- moteur ----------
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;var t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function Blob(seed,k,sweeps){this.rng=mulberry32(seed>>>0);this.k=k;this.sweeps=sweeps;this.beta=0.30;this.tau=0.50;this.adj=[new Set()];this.edges=[];this.ntri=0;this.t1=0}
+Blob.prototype.N=function(){return this.adj.length};
+Blob.prototype.common=function(a,b){var A=this.adj[a],B=this.adj[b];if(A.size>B.size){var t=A;A=B;B=t}var c=0;A.forEach(function(x){if(B.has(x))c++});return c};
+Blob.prototype.addEdge=function(a,b){this.ntri+=this.common(a,b);this.adj[a].add(b);this.adj[b].add(a);this.edges.push(a<b?[a,b]:[b,a])};
+Blob.prototype.removeEdgeAt=function(i){var e=this.edges[i];this.adj[e[0]].delete(e[1]);this.adj[e[1]].delete(e[0]);this.ntri-=this.common(e[0],e[1]);var last=this.edges.pop();if(i<this.edges.length)this.edges[i]=last};
+Blob.prototype.D=function(){var n=this.adj.length,s=0,s2=0;for(var i=0;i<n;i++){var d=this.adj[i].size;s+=d;s2+=d*d}var m=s/n;if(m===0)return NaN;return Math.sqrt(Math.max(0,s2/n-m*m))/m};
+Blob.prototype.S=function(){var d=this.D();return Math.log(1+this.ntri)-this.beta*(isNaN(d)?0:d)};
+Blob.prototype.birth=function(){var n=this.adj.length;this.adj.push(new Set());this.t1++;var u=Math.floor(this.rng()*n);this.addEdge(n,u);var nb=[];this.adj[u].forEach(function(x){if(x!==n)nb.push(x)});for(var j=0;j<this.k&&nb.length;j++){var i=Math.floor(this.rng()*nb.length);var w=nb.splice(i,1)[0];this.addEdge(n,w)}return u};
+Blob.prototype.swap=function(){var n=this.adj.length;if(n<3||!this.edges.length||this.edges.length>=n*(n-1)/2)return;var i=Math.floor(this.rng()*this.edges.length),a=this.edges[i][0],b=this.edges[i][1],c,d,tr=0;
+  do{c=Math.floor(this.rng()*n);d=Math.floor(this.rng()*n);tr++}while((c===d||this.adj[c].has(d)||(c===a&&d===b)||(c===b&&d===a))&&tr<200);if(tr>=200)return;
+  var S0=this.S();this.removeEdgeAt(i);this.addEdge(c,d);var dS=this.S()-S0;if(dS>=0||this.rng()<Math.exp(n*dS/this.tau))return;this.removeEdgeAt(this.edges.length-1);this.addEdge(a,b)};
+Blob.prototype.relax=function(){var m=Math.round(this.sweeps*this.edges.length);for(var i=0;i<m;i++)this.swap()};
+Blob.prototype.components=function(){var n=this.adj.length,lab=new Int32Array(n).fill(-1),c=0,iso=0,adj=this.adj;for(var s=0;s<n;s++){if(lab[s]>=0)continue;if(!adj[s].size)iso++;var st=[s];lab[s]=c;while(st.length){var x=st.pop();adj[x].forEach(function(y){if(lab[y]<0){lab[y]=c;st.push(y)}})}c++}return{c:c,iso:iso,lab:lab}};
+Blob.prototype.tetra=function(){var t=0,adj=this.adj;for(var e=0;e<this.edges.length;e++){var a=this.edges[e][0],b=this.edges[e][1],cm=[];adj[a].forEach(function(x){if(x>b&&adj[b].has(x))cm.push(x)});for(var i=0;i<cm.length;i++)for(var j=i+1;j<cm.length;j++)if(adj[cm[i]].has(cm[j]))t++}return t};
+Blob.prototype.triangles=function(){var out=[],adj=this.adj;for(var e=0;e<this.edges.length;e++){var a=this.edges[e][0],b=this.edges[e][1];adj[a].forEach(function(x){if(x>b&&adj[b].has(x))out.push([a,b,x])})}return out};
+
+// ---------- état, URL ----------
+var q=new URLSearchParams(location.search);
+function clampInt(v,lo,hi,def){v=parseInt(v,10);return isNaN(v)?def:Math.min(hi,Math.max(lo,v))}
+function clampNum(v,lo,hi,def){v=parseFloat(v);return isNaN(v)?def:Math.min(hi,Math.max(lo,v))}
+var st={seed:clampInt(q.get("g"),1,999999,Math.floor(Math.random()*999998)+1),k:clampInt(q.get("f"),0,5,2),sw:clampNum(q.get("r"),0,4,1),nmax:clampInt(q.get("n"),20,150,80)};
+var lang=(q.get("lang")||(navigator.language||"fr")).slice(0,2)==="en"?"en":"fr";
+try{var sl=localStorage.getItem("blob-lang");if(!q.get("lang")&&sl)lang=sl}catch(e){}
+var $=function(id){return document.getElementById(id)};
+var blob,pos,vel,running=false,timer=null,lastBirth=0,cache={tri:[],tet:0,comp:{c:1,iso:0,lab:[0]}};
+
+function T(fr,en){return lang==="en"?en:fr}
+function setLang(l){lang=l;document.documentElement.lang=l;$("lang").textContent=l==="fr"?"EN":"FR";try{localStorage.setItem("blob-lang",l)}catch(e){}history.replaceState(null,"",shareURL());renderPlay();renderJury();refresh()}
+function shareURL(){var u=new URL(location.href);u.search="";u.hash="";u.searchParams.set("g",st.seed);u.searchParams.set("f",st.k);u.searchParams.set("r",st.sw);u.searchParams.set("n",st.nmax);if(lang==="en")u.searchParams.set("lang","en");return u.toString()}
+
+function reset(){blob=new Blob(st.seed,st.k,st.sw);pos=[[0,0]];vel=[[0,0]];cache={tri:[],tet:0,comp:{c:1,iso:0,lab:[0]}};$("seedv").textContent=st.seed;$("k").value=st.k;$("sw").value=st.sw;$("nmax").value=st.nmax;$("ko").textContent=st.k;$("so").textContent=st.sw;$("no").textContent=st.nmax;history.replaceState(null,"",shareURL());refresh()}
+function grow(){if(blob.N()>=st.nmax){stop();return false}var u=blob.birth();var p=pos[u],r=mulberry32(st.seed+blob.t1)();pos.push([p[0]+Math.cos(r*6.283)*.04,p[1]+Math.sin(r*6.283)*.04]);vel.push([0,0]);blob.relax();cache.tri=blob.triangles();cache.tet=blob.tetra();cache.comp=blob.components();refresh();return true}
+function play(){if(blob.N()>=st.nmax)reset();running=true;renderPlay()}
+function stop(){running=false;renderPlay()}
+function renderPlay(){$("play").textContent=running?T("Pause","Pause"):(blob&&blob.N()>=st.nmax?T("Refaire naître","Grow again"):T("Faire naître","Grow"))}
+
+function fmt(x,d){return isNaN(x)?"—":x.toLocaleString(lang==="en"?"en-GB":"fr-FR",{minimumFractionDigits:d,maximumFractionDigits:d})}
+function refresh(){
+  var n=blob.N(),D=blob.D(),c=cache.comp;
+  $("h-t").textContent=blob.t1;$("h-n").textContent=n;$("h-s").textContent=n>1?fmt(blob.S(),2):"—";
+  $("s-n").textContent=n;$("s-e").textContent=blob.edges.length;$("s-t").textContent=blob.ntri;$("s-q").textContent=cache.tet;
+  $("s-c").textContent=c.c+(c.iso?T(" ("+c.iso+" isolés)"," ("+c.iso+" isolated)"):"");$("s-d").textContent=fmt(D,2);
+  var v=$("verdict"),cls="",msg;
+  if(n<=1)msg=T("Ω⁰ : un seul point, sans structure. Appuie sur « Faire naître ».","Ω⁰: a single point, with no structure. Press “Grow”.");
+  else if(blob.ntri===0)msg=T("Aucun triangle : ton univers est encore un arbre. Sans fermeture et sans échange, la mitose seule ne ferme jamais — c'est un théorème du laboratoire.","No triangle: your universe is still a tree. Without closure or exchanges, mitosis alone never closes — a theorem of the lab.");
+  else if(n>=80&&st.nmax===80&&c.c===1&&st.k<=3&&D<0.5418){cls="win";msg=T("Nouveau record du Bâtisseur : un seul tenant avec "+st.k+" arêtes de fermeture et D = "+fmt(D,3)+" (record précédent 0,542). Dépose vite la graine n° "+st.seed+" dans la galerie !","New Builder's record: one piece with "+st.k+" closure edges and D = "+fmt(D,3)+" (previous record 0.542). Post seed no. "+st.seed+" in the gallery!")}
+  else if(n>=st.nmax&&c.c===1&&D<0.5){cls="win";msg=st.k>=5?T("Un seul tenant, D = "+fmt(D,2)+". Avec 5 arêtes de fermeture, c'est presque automatique : le vrai défi se joue à 3.","One piece, D = "+fmt(D,2)+". With 5 closure edges this is almost automatic: the real challenge is at 3."):T("Un seul tenant, D = "+fmt(D,2)+", avec 4 arêtes de fermeture : environ un univers sur cinq y arrive. Le record ouvert se joue à 3.","One piece, D = "+fmt(D,2)+", with 4 closure edges: about one universe in five gets there. The open record is at 3.")}
+  else if(c.c>1){cls=st.k===0?"fail":"";msg=T("Ton univers s'est brisé en "+c.c+" morceaux"+(c.iso?" ("+c.iso+" sommets isolés)":"")+". ","Your universe has broken into "+c.c+" pieces"+(c.iso?" ("+c.iso+" isolated vertices)":"")+". ")+(st.k===0?T("Mitose seule : la viabilité regroupe les triangles en îlots disjoints. C'est la réfutation du 15 octobre (#16) : la « fermeture la plus économique » ne tient pas.","Mitosis alone: viability gathers triangles into disjoint islands. This is the refutation of 15 October (#16): the “most economical closure” does not hold."):T("La viabilité préfère des amas denses à un tissu continu. Combien d'arêtes de fermeture faut-il, et pourquoi ? C'est DEFI-M8.","Viability prefers dense clumps to a continuous fabric. How many closure edges are needed, and why? That is DEFI-M8."))}
+  else if(cache.tet>blob.ntri){msg=T("D'un seul tenant, mais contracté en amas denses (plus de tétraèdres que de triangles). La viabilité récompense-t-elle trop les triangles ?","In one piece, but contracted into dense clumps (more tetrahedra than triangles). Does viability reward triangles too much?")}
+  else msg=T("D'un seul tenant. D = "+fmt(D,st.k===3?3:2)+(n>=st.nmax?(st.k===3?(st.seed===5215&&st.sw===1?" — c'est le record actuel du laboratoire. À toi de le battre.":" — record à battre : 0,542."):" : vise D < 0,50 pour le défi du Bâtisseur."):"."),"In one piece. D = "+fmt(D,st.k===3?3:2)+(n>=st.nmax?(st.k===3?(st.seed===5215&&st.sw===1?" — this is the lab's current record. Your turn to beat it.":" — record to beat: 0.542."):": aim for D < 0.50 for the Builder's challenge."):"."));
+  v.className="verdict "+cls;v.textContent=msg;
+  var txt=T("J'ai fait naître l'univers Blob n° "+st.seed+" : "+n+" sommets, "+blob.ntri+" triangles, "+c.c+" morceau"+(c.c>1?"x":"")+". Une candidate à la théorie du tout, ouverte à tous, pas encore démontrée. Fais naître le tien :","I grew Blob universe no. "+st.seed+": "+n+" vertices, "+blob.ntri+" triangles, "+c.c+" piece"+(c.c>1?"s":"")+". A candidate theory of everything, open to all, not yet demonstrated. Grow yours:");
+  $("sharex").href="https://x.com/intent/post?text="+encodeURIComponent(txt)+"&url="+encodeURIComponent(shareURL());
+}
+
+// ---------- rendu ----------
+var cv=$("cv"),ctx=cv.getContext("2d"),dpr=1,W=0,H=0;
+function css(n){return getComputedStyle(document.documentElement).getPropertyValue(n).trim()}
+function size(){var r=cv.getBoundingClientRect();dpr=Math.min(2,window.devicePixelRatio||1);W=r.width;H=r.height;cv.width=Math.round(W*dpr);cv.height=Math.round(H*dpr)}
+var PAL=["--accent","--ok","--open","--fail"];
+function layout(){
+  var n=pos.length;if(n<2)return;var adj=blob.adj,k=0.9/Math.sqrt(n),i,j;
+  for(i=0;i<n;i++){var fx=-pos[i][0]*0.02,fy=-pos[i][1]*0.02;
+    for(j=0;j<n;j++){if(i===j)continue;var dx=pos[i][0]-pos[j][0],dy=pos[i][1]-pos[j][1],d2=dx*dx+dy*dy+1e-4;var rep=k*k/d2*0.02;fx+=dx*rep;fy+=dy*rep}
+    adj[i].forEach(function(j){var dx=pos[j][0]-pos[i][0],dy=pos[j][1]-pos[i][1],d=Math.sqrt(dx*dx+dy*dy)+1e-6;var a=(d-k)*0.08;fx+=dx/d*a;fy+=dy/d*a});
+    vel[i][0]=(vel[i][0]+fx)*0.6;vel[i][1]=(vel[i][1]+fy)*0.6}
+  for(i=0;i<n;i++){pos[i][0]+=Math.max(-.05,Math.min(.05,vel[i][0]));pos[i][1]+=Math.max(-.05,Math.min(.05,vel[i][1]))}
+}
+function draw(out,w,h,scaleDpr){
+  var c=out||ctx,ww=w||W,hh=h||H,s=scaleDpr||dpr;c.setTransform(s,0,0,s,0,0);c.clearRect(0,0,ww,hh);
+  var n=pos.length,minx=1e9,maxx=-1e9,miny=1e9,maxy=-1e9,i;
+  for(i=0;i<n;i++){minx=Math.min(minx,pos[i][0]);maxx=Math.max(maxx,pos[i][0]);miny=Math.min(miny,pos[i][1]);maxy=Math.max(maxy,pos[i][1])}
+  var span=Math.max(maxx-minx,maxy-miny,0.3),sc=Math.min(ww,hh)*0.82/span,cx=(minx+maxx)/2,cy=(miny+maxy)/2;
+  var X=function(p){return ww/2+(p[0]-cx)*sc},Y=function(p){return hh/2+(p[1]-cy)*sc};
+  var acc=css("--accent"),ink=css("--ink"),lab=cache.comp.lab;
+  c.globalAlpha=0.16;c.fillStyle=acc;
+  cache.tri.forEach(function(t){c.beginPath();c.moveTo(X(pos[t[0]]),Y(pos[t[0]]));c.lineTo(X(pos[t[1]]),Y(pos[t[1]]));c.lineTo(X(pos[t[2]]),Y(pos[t[2]]));c.closePath();c.fill()});
+  c.globalAlpha=0.45;c.strokeStyle=ink;c.lineWidth=0.8;c.beginPath();
+  blob.edges.forEach(function(e){c.moveTo(X(pos[e[0]]),Y(pos[e[0]]));c.lineTo(X(pos[e[1]]),Y(pos[e[1]]))});c.stroke();
+  c.globalAlpha=1;var r=n>100?2.6:n>50?3.2:4;
+  for(i=0;i<n;i++){c.fillStyle=css(PAL[(lab[i]||0)%PAL.length]);c.beginPath();c.arc(X(pos[i]),Y(pos[i]),i===0?r+2:r,0,6.2832);c.fill()}
+}
+function frame(t){
+  if(running&&t-lastBirth>110){lastBirth=t;grow()}
+  for(var i=0;i<3;i++)layout();draw();requestAnimationFrame(frame);
+}
+
+// ---------- partage ----------
+function toast(m){var e=$("toast");e.textContent=m;e.classList.add("on");setTimeout(function(){e.classList.remove("on")},1800)}
+$("copy").onclick=function(){var u=shareURL();(navigator.clipboard?navigator.clipboard.writeText(u):Promise.reject()).then(function(){toast(T("Lien copié","Link copied"))},function(){prompt(T("Copie ce lien :","Copy this link:"),u)})};
+$("png").onclick=function(){
+  var w=1200,h=675,o=document.createElement("canvas");o.width=w;o.height=h;var c=o.getContext("2d");
+  c.fillStyle=css("--paper");c.fillRect(0,0,w,h);var sv=[W,H];draw(c,w,h-120,1);
+  c.setTransform(1,0,0,1,0,0);c.fillStyle=css("--ink");c.font="600 30px Spectral, Georgia, serif";
+  c.fillText(T("Univers Blob n° ","Blob universe no. ")+st.seed,40,h-80);
+  c.font="20px 'JetBrains Mono', monospace";c.fillStyle=css("--muted");
+  c.fillText(blob.N()+T(" sommets · "," vertices · ")+blob.ntri+" triangles · "+cache.comp.c+T(" morceau(x) · D = "," piece(s) · D = ")+fmt(blob.D(),2),40,h-48);
+  c.fillText(T("TOE démontrée : NON · blobprinciple.github.io/The-blob-Principle/univers","TOE demonstrated: NO · blobprinciple.github.io/The-blob-Principle/univers"),40,h-20);
+  var a=document.createElement("a");a.download="univers-blob-"+st.seed+".png";a.href=o.toDataURL("image/png");a.click();
+};
+
+// ---------- contrôles ----------
+$("play").onclick=function(){running?stop():play()};
+$("stepb").onclick=function(){stop();if(blob.N()>=st.nmax)reset();grow()};
+$("newseed").onclick=function(){st.seed=Math.floor(Math.random()*999998)+1;stop();reset();play()};
+$("k").oninput=function(){st.k=+this.value;stop();reset()};
+$("sw").oninput=function(){st.sw=+this.value;stop();reset()};
+$("nmax").oninput=function(){st.nmax=+this.value;$("no").textContent=st.nmax;history.replaceState(null,"",shareURL());refresh()};
+$("lang").onclick=function(){setLang(lang==="fr"?"en":"fr")};
+window.addEventListener("resize",size);
+
+// ---------- jury ----------
+var P=[["Pourquoi quelque chose plutôt que rien","Why something rather than nothing","D"],["De l'Un au multiple (Plotin)","From the One to the many (Plotinus)","C"],["Origine, singularité initiale","Origin, initial singularity","C"],["Flèche du temps","Arrow of time","C"],["Asymétrie matière-antimatière","Matter-antimatter asymmetry","B"],["Pourquoi trois dimensions","Why three dimensions","D"],["Ajustement fin","Fine-tuning","C"],["Constante cosmologique","Cosmological constant","B"],["Matière noire","Dark matter","B"],["Tension de Hubble","Hubble tension","D"],["Problème de la mesure","Measurement problem","C"],["Intrication, EPR","Entanglement, EPR","C"],["Information des trous noirs","Black-hole information","C"],["Problème de l'horizon","Horizon problem","D"],["Problème difficile de la conscience","Hard problem of consciousness","C"],["Chiralité, violation de parité","Chirality, parity violation","D"],["Mort thermique","Heat death","C"],["Unification quantique-gravité","Quantum-gravity unification","C"],["Débat Einstein-Bohr","Einstein-Bohr debate","C"],["Hiérarchie des abondances","Hierarchy of abundances","C"],["Qu'est-ce que la vie","What is life","C"],["Être et devenir","Being and becoming","C"]];
+var ORD="ABCD";
+function juryLink(i,dir){var p=P[i],cur=p[2],idx=ORD.indexOf(cur),prop=ORD[Math.max(0,Math.min(3,idx+(dir<0?-1:1)))];
+  var title=T("[Juré] Paradoxe n° "+(i+1)+" ("+p[0]+") : classe "+cur+" → "+prop,"[Juror] Paradox no. "+(i+1)+" ("+p[1]+"): class "+cur+" → "+prop);
+  var body=T("**DEFI-D1 — Le juré.** Contestation du classement du procès des 22 paradoxes (#32).\n\n- Paradoxe : n° "+(i+1)+" — "+p[0]+"\n- Classe actuelle : "+cur+"\n- Classe proposée : "+prop+" ("+(dir<0?"le verdict est trop sévère":"le verdict est trop généreux")+")\n\n**Mon argument :**\n\n(écrivez ici)\n\n**Page citée (livre ou armature V347.1) :**\n\n",
+    "**DEFI-D1 — The juror.** Objection to a classification in the trial of the 22 paradoxes (#32).\n\n- Paradox: no. "+(i+1)+" — "+p[1]+"\n- Current class: "+cur+"\n- Proposed class: "+prop+" ("+(dir<0?"the verdict is too harsh":"the verdict is too generous")+")\n\n**My argument:**\n\n(write here)\n\n**Page cited (book or V347.1 armature):**\n\n");
+  return "https://github.com/BlobPrinciple/The-blob-Principle/issues/new?labels=paradoxe,debat&title="+encodeURIComponent(title)+"&body="+encodeURIComponent(body)}
+function renderJury(){var ul=$("plist");ul.innerHTML="";P.forEach(function(p,i){var li=document.createElement("li");
+  var up=p[2]!=="A",down=p[2]!=="D";
+  li.innerHTML='<span class="nm"><span class="cls '+p[2]+'">'+p[2]+'</span> '+(i+1)+'. <span data-l="fr"></span><span data-l="en"></span></span><span class="act"></span>';
+  li.querySelector('[data-l="fr"]').textContent=p[0];li.querySelector('[data-l="en"]').textContent=p[1];
+  var act=li.querySelector(".act");
+  if(up){var a=document.createElement("a");a.href=juryLink(i,-1);a.target="_blank";a.rel="noopener";a.textContent="↑";a.title=T("Trop sévère : faire monter","Too harsh: move up");a.setAttribute("aria-label",a.title+" — "+(i+1));act.appendChild(a)}
+  if(down){var b=document.createElement("a");b.href=juryLink(i,1);b.target="_blank";b.rel="noopener";b.textContent="↓";b.title=T("Trop généreux : faire descendre","Too generous: move down");b.setAttribute("aria-label",b.title+" — "+(i+1));act.appendChild(b)}
+  ul.appendChild(li)})}
+
+document.documentElement.lang=lang;$("lang").textContent=lang==="fr"?"EN":"FR";
+size();reset();renderJury();renderPlay();
+var autoplay=!q.get("g")||q.get("auto")!=="0";if(autoplay&&!window.matchMedia("(prefers-reduced-motion: reduce)").matches)play();
+requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

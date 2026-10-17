@@ -24,7 +24,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 ### Challenge status
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*Status as of 2026-10-17 — challenges v1.5.*
+*Status as of 2026-10-17 — challenges v1.6.*
 
 | Challenge | Proof-path step | State | Latest event |
 |---|---|---|---|
@@ -32,6 +32,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-L2 | T | open | — |
 | DEFI-L3 | T | open | — |
 | DEFI-L4 | T | open | — |
+| DEFI-L5 | T | open | — |
 | DEFI-R1 | T | replicated | 2026-10-06: SELFTEST: 4/4 on a third-party machine, numpy 2.5.3 |
 | DEFI-R2 | P2 | open | — |
 | DEFI-R3 | T | open | 2026-10-15: [T]+[M] the archived V109 engine (V346 pp. 291–292) overcounts triangles by +1.4% to +2.7% when the added edge touches the removed one; the current canonical engine is not affected |
@@ -68,6 +69,7 @@ Source: [docs/defis.json](../docs/defis.json), machine-readable version.
 | **DEFI-L2** | **The translator.** Translate a chapter of Book I of the armature (English, Spanish, Arabic, Chinese…) respecting the [locked lexicon](../index/LEXIQUE_FR-EN.md) — *viabilité* is *viability*, never *sustainability*. | The translation in `contributions/traduction_<langue>_<nom>/`. |
 | **DEFI-L3** | **The illustrator.** Draw the cascade point → edge → triangle → tetrahedron, or the three times of the Blob, faithfully to the narrative (I.1 to I.6). | An image (PNG/SVG) and one sentence of explanation. |
 | **DEFI-L4** | **The populariser.** Explain the Blob in 60 seconds (text, video, comic), **with the status block**: TOE demonstrated: NO. | The link or the file. |
+| **DEFI-L5** | **The Builder.** On the [Grow your own universe](https://blobprinciple.github.io/The-blob-Principle/univers.html?lang=en) page, get a universe in one piece and regular (D < 0.50) at 80 vertices with **only 3 closure edges**. None of the 2,400 universes simulated by the lab achieves it; record to beat: D = 0.542 (seed 5215). | A comment in the [gallery of universes (#33)](https://github.com/BlobPrinciple/The-blob-Principle/issues/33): link, D, number of pieces. Checkable with `node outils/univers_batisseur.js`. |
 
 ## Level 1 — Coder, student, engineer
 

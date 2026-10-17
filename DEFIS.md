@@ -24,7 +24,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 ### État des défis
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*État au 2026-10-17 — défis v1.5.*
+*État au 2026-10-17 — défis v1.6.*
 
 | Défi | Étape du chemin de preuve | État | Dernier événement |
 |---|---|---|---|
@@ -32,6 +32,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-L2 | T | ouvert | — |
 | DEFI-L3 | T | ouvert | — |
 | DEFI-L4 | T | ouvert | — |
+| DEFI-L5 | T | ouvert | — |
 | DEFI-R1 | T | réplication obtenue | 2026-10-06 : SELFTEST : 4/4 sur machine tierce, numpy 2.5.3 |
 | DEFI-R2 | P2 | ouvert | — |
 | DEFI-R3 | T | ouvert | 2026-10-15 : [T]+[M] le moteur archivé V109 (V346 p. 291–292) surcompte les triangles de +1,4 % à +2,7 % quand l'arête ajoutée touche l'arête retirée ; le moteur canonique actuel n'est pas concerné |
@@ -68,6 +69,7 @@ Source : [docs/defis.json](docs/defis.json), version lisible par machine.
 | **DEFI-L2** | **Le passeur.** Traduisez un chapitre du Livre I de l'armature (anglais, espagnol, arabe, chinois…) en respectant le [lexique verrouillé](index/LEXIQUE_FR-EN.md) — *viabilité* se dit *viability*, jamais *sustainability*. | La traduction dans `contributions/traduction_<langue>_<nom>/`. |
 | **DEFI-L3** | **L'illustrateur.** Dessinez la cascade point → arête → triangle → tétraèdre, ou les trois temps du Blob, de façon fidèle au récit (I.1 à I.6). | Une image (PNG/SVG) et une phrase d'explication. |
 | **DEFI-L4** | **Le vulgarisateur.** Expliquez le Blob en 60 secondes (texte, vidéo, BD), **avec le bloc de statut** : TOE démontrée : NON. | Le lien ou le fichier. |
+| **DEFI-L5** | **Le Bâtisseur.** Sur la page [Fais naître ton univers](https://blobprinciple.github.io/The-blob-Principle/univers.html), obtenez à 80 sommets un univers d'un seul tenant et régulier (D < 0,50) avec **3 arêtes de fermeture seulement**. Aucun des 2 400 univers simulés par le laboratoire n'y parvient ; record à battre : D = 0,542 (graine 5215). | Un commentaire dans la [galerie des univers (#33)](https://github.com/BlobPrinciple/The-blob-Principle/issues/33) : lien, D, nombre de morceaux. Vérifiable avec `node outils/univers_batisseur.js`. |
 
 ## Niveau 1 — Codeur, étudiant, ingénieur
 

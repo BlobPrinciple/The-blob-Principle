@@ -19,13 +19,14 @@
 
 | Time | Challenge | What you do |
 |---|---|---|
+| 1 minute | [Grow your own universe](https://blobprinciple.github.io/The-blob-Principle/univers.html?lang=en) | Grow a universe from a single point, share it, try the Builder's record ([DEFI-L5](https://github.com/BlobPrinciple/The-blob-Principle/issues/33)) |
 | 5 minutes | [DEFI-D1 — The juror](https://github.com/BlobPrinciple/The-blob-Principle/issues/32) | Contest the classification of a paradox, in one comment |
 | 15 minutes | [DEFI-R1 — The replicator](https://github.com/BlobPrinciple/The-blob-Principle/issues/3) | Run the self-test in Colab and post your result |
 | a weekend | [DEFI-R4 — Nucleation](https://github.com/BlobPrinciple/The-blob-Principle/issues/20) | Can the Blob be born from the strict void? Today: 0/40 |
 | a week | [DEFI-M8 — A non-arbitrary closure](https://github.com/BlobPrinciple/The-blob-Principle/issues/26) | Derive from viability the attachment law of a newborn vertex |
 | a research project | [DEFI-G4 — Fixed point and universality](https://github.com/BlobPrinciple/The-blob-Principle/issues/31) | Where the "one mechanism at every scale" thesis is decided |
 
-All 26 challenges: [CHALLENGES.md](CHALLENGES.md) · [all open challenge issues](https://github.com/BlobPrinciple/The-blob-Principle/issues?q=is%3Aopen+label%3Adefi). A clean refutation is worth as much as a proof, and every accepted contribution is credited by name.
+All 27 challenges: [CHALLENGES.md](CHALLENGES.md) · [all open challenge issues](https://github.com/BlobPrinciple/The-blob-Principle/issues?q=is%3Aopen+label%3Adefi). A clean refutation is worth as much as a proof, and every accepted contribution is credited by name.
 
 ## What the Blob Principle is
 

@@ -3,7 +3,7 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.5",
+ "version": "1.6",
  "updated": "2026-10-17",
  "status": {
   "toe_demonstrated": false,
@@ -141,6 +141,21 @@
    "deliverable_fr": "Le lien ou le fichier.",
    "open_research": [],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/7",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-L5",
+   "level": 0,
+   "statement_fr": "Le Bâtisseur. Sur la page « Fais naître ton univers », obtenez à 80 sommets un univers d'un seul tenant et régulier (D < 0,50) avec 3 arêtes de fermeture seulement. Record à battre : D = 0,542 (graine 5215) ; 0 réussite sur 2 400 univers simulés par le laboratoire.",
+   "deliverable_fr": "Un commentaire dans la galerie des univers (#33) : lien de l'univers, valeur de D, nombre de morceaux. Vérifiable avec outils/univers_batisseur.js.",
+   "open_research": [
+    "RO-24",
+    "RO-25"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/33",
    "path_step": "T",
    "state": "ouvert",
    "history": [],
