@@ -1,0 +1,75 @@
+# Ouvre une discussion GitHub pour chaque fichier de discussions_a_ouvrir/
+# qui n'en a pas encore (repérée par son titre). Format du fichier :
+#   ligne 1 : « # Titre »
+#   ligne 2 (facultative) : « <!-- categorie: General --> »
+#   ensuite : le corps en Markdown.
+# Opens a GitHub discussion for each file in discussions_a_ouvrir/ that has
+# none yet (matched by title). Idempotent: rerunning it creates nothing twice.
+name: Ouvrir les discussions
+
+on:
+  push:
+    branches: [main]
+    paths: ['discussions_a_ouvrir/**.md']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  discussions: write
+
+concurrency:
+  group: ouvrir-discussions
+  cancel-in-progress: false
+
+jobs:
+  ouvrir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            const { owner, repo } = context.repo;
+            const dir = 'discussions_a_ouvrir';
+            const files = fs.existsSync(dir)
+              ? fs.readdirSync(dir).filter(f => f.endsWith('.md') && !f.startsWith('LISEZMOI')).sort()
+              : [];
+            if (!files.length) { core.info('Aucun fichier.'); return; }
+
+            const q = await github.graphql(`
+              query($owner:String!, $repo:String!) {
+                repository(owner:$owner, name:$repo) {
+                  id
+                  discussionCategories(first:25) { nodes { id name slug } }
+                  discussions(first:100) { nodes { title url } }
+                }
+              }`, { owner, repo });
+            const r = q.repository;
+            const cats = r.discussionCategories.nodes;
+            const existing = new Map(r.discussions.nodes.map(d => [d.title.trim(), d.url]));
+            core.info('Catégories : ' + cats.map(c => c.name).join(', '));
+
+            for (const f of files) {
+              const raw = fs.readFileSync(path.join(dir, f), 'utf8').replace(/\r\n/g, '\n');
+              const lines = raw.split('\n');
+              if (!lines[0].startsWith('# ')) { core.warning(`${f} : la première ligne doit être « # Titre ».`); continue; }
+              const title = lines[0].slice(2).trim();
+              let rest = lines.slice(1);
+              let wanted = 'General';
+              const m = (rest[0] || '').match(/<!--\s*categorie:\s*(.+?)\s*-->/i);
+              if (m) { wanted = m[1]; rest = rest.slice(1); }
+              const body = rest.join('\n').trim();
+              if (existing.has(title)) { core.info(`Déjà ouverte : ${title} → ${existing.get(title)}`); continue; }
+              const cat = cats.find(c => c.name.toLowerCase() === wanted.toLowerCase() || c.slug === wanted.toLowerCase())
+                       || cats.find(c => c.slug === 'general') || cats[0];
+              if (!cat) { core.setFailed('Aucune catégorie de discussion disponible.'); return; }
+              const res = await github.graphql(`
+                mutation($rid:ID!, $cid:ID!, $t:String!, $b:String!) {
+                  createDiscussion(input:{repositoryId:$rid, categoryId:$cid, title:$t, body:$b}) {
+                    discussion { url number }
+                  }
+                }`, { rid: r.id, cid: cat.id, t: title, b: body });
+              core.notice(`Ouverte : ${title} → ${res.createDiscussion.discussion.url} (catégorie ${cat.name})`);
+            }

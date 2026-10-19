@@ -11,6 +11,7 @@ ba28301172048e0793c785c38ffd2e3aabed7098589ea75868949e1095ae98c6  ./.github/ISSU
 bb8eb5576e93cd6e6cd8eea5bbf021a64a20008b03f51e2738cf42e037728ec0  ./.github/pull_request_template.md
 2979a8051c5d4b414718835ef90e1c791d755a19b9a18b40d076b806e6eed735  ./.github/social-preview.png
 041741272f8f886b2838ed13d2c5fc27341a8c82014a31095461717bf8f6cd75  ./.github/workflows/discussions-vers-issues.yml
+9dbdc38ddc97500a4c10043bc01807cbfb7b3da3387d875781e636c98c6927f8  ./.github/workflows/ouvrir-discussions.yml
 c5127379d8c1b81b45449fb419d33168faab1ede35c5cf0bb110d335113606bc  ./.github/workflows/release-depuis-notes.yml
 6ed6615b113eba679a11f0e5df4ccc152d135e7185914cb4705bbba1a58efaed  ./.gitignore
 bd0e57a3445b607cc487106fc7d0bfbb72e07bb833b413329afb674f6e86a527  ./.zenodo.json
@@ -451,6 +452,8 @@ a3b4839372fb0539a91d273f07e0e23c714fd01c3b040880928f3dd1a25fde5f  ./corpus/07_co
 1a9b9ca7f6b6d525cc4171f0391a0064181b9746bbc350d7d5158e3caf0197ad  ./corpus/LISEZ-MOI.md
 16a74263e6948e8655b26fdba405840b83f5b36f2cea9699d4343953c0596a50  ./debats/PROCES_DES_PARADOXES.md
 61a62bade74ded42502bec173b292ac27277371c23e86d3edab34a501c7d5305  ./depots_sans_parrainage/HAL/DOSSIER_HAL.md
+11a468542cd40184fe6e002a4c6f8fd6bd70fdb8603f5f1df6bddb65bed39128  ./discussions_a_ouvrir/01-proces-des-22-paradoxes.md
+9d570b275e2784341e548c9698adbf5d0c49edd2241a9ae5358af08e36435d89  ./discussions_a_ouvrir/LISEZMOI.md
 9fba7d69d2d778ad4753e1133432c878d71e875b6eea8c2213412142761ab405  ./docs/armature/blob-principle-armature-V347-1.pdf
 372b022315aa19db2cda0439fcc732b157016584080661bbecca37a3b402ac4c  ./docs/armature/blob-principle-armature-V347-1_EN.pdf
 6ea362df074433b7b9113b05d99a40c7da31076c1e600afcc8f706912ece6d9f  ./docs/armature/index.html
