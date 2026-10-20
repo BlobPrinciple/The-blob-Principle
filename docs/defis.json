@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.6",
- "updated": "2026-10-17",
+ "version": "1.7",
+ "updated": "2026-10-20",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -376,8 +376,20 @@
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/26",
    "path_step": "P1",
    "state": "ouvert",
-   "history": [],
-   "derived": []
+   "history": [
+    {
+     "date": "2026-10-20",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/35",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[T] à k fixé, l'attachement de Gibbs G*(A | C) ∝ π_{N+1,M+k}(C + v_A), dérivé de S_sim sans paramètre nouveau, atteint la borne de la proposition C et minimise de façon unique la KL à la naissance ; ses poids ne varient qu'avec les arêtes entre cibles et la somme de leurs degrés (fermeture triadique anti-préférentielle) ; [CERT] graphes abstraits, N + 1 ≤ 7, 39 passages : aucun gain sur l'uniforme dans 25 cas, gain au meilleur k de 0 à 0,41 ; dans les 5 cas où G* gagne, relaxation ralentie de 25 à 44 % ; l'attachement anti-Gibbs relaxe le plus vite dans 5 cas sur 6 ; k non dérivé",
+     "effect": "résultat partiel ; DEFI-M8 reste ouvert ; défi dérivé DEFI-M11 ; aucun changement de statut",
+     "result_en": "[T] at fixed k, the Gibbs attachment G*(A | C) ∝ π_{N+1,M+k}(C + v_A), derived from S_sim with no new parameter, attains the bound of proposition C and uniquely minimises KL at birth; its weights vary only with the edges among targets and the sum of their degrees (anti-preferential triadic closure); [CERT] abstract graphs, N + 1 ≤ 7, 39 transitions: no gain over uniform in 25 cases, gain at the best k from 0 to 0.41; in the 5 cases where G* gains, relaxation slowed by 25 to 44%; anti-Gibbs attachment relaxes fastest in 5 cases out of 6; k not derived",
+     "effect_en": "partial result; DEFI-M8 stays open; derived challenge DEFI-M11; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-M11"
+   ]
   },
   {
    "code": "DEFI-M9",
@@ -416,6 +428,21 @@
     "RO-20"
    ],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/27",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-M11",
+   "level": 2,
+   "statement_fr": "Naître juste ou relaxer vite (RO-25, RO-24). Sur graphes abstraits (N ≤ 6 avant naissance), l'attachement de Gibbs G*, dérivé de S_sim, minimise exactement l'écart à π à la naissance, mais ralentit de 25 à 44 % la relaxation par échanges de Metropolis dans les cinq cas où il gagne ; l'attachement anti-Gibbs relaxe le plus vite dans cinq cas sur six (contributions/RO-25_pilote-ia/DEFI-M8_RAPPORT.md). Quelle loi d'attachement minimise le coût total du pont, est-elle dérivable de S_sim, et l'ordre anti-Gibbs < uniforme < Gibbs survit-il quand N grandit ?",
+   "deliverable_fr": "La loi d'attachement qui minimise le temps de relaxation après naissance (borne démontrée, ou mesure exacte jusqu'à N + 1 ≥ 8 et mesure multi-graines sur le moteur canonique à N ≥ 250), comparée à U, G* et G_θ ; ou la preuve que les critères « écart minimal à la naissance » et « relaxation la plus rapide » coïncident asymptotiquement.",
+   "open_research": [
+    "RO-25",
+    "RO-24"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/36",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],

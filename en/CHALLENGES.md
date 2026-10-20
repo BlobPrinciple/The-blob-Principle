@@ -24,7 +24,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 ### Challenge status
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*Status as of 2026-10-17 — challenges v1.6.*
+*Status as of 2026-10-20 — challenges v1.7.*
 
 | Challenge | Proof-path step | State | Latest event |
 |---|---|---|---|
@@ -45,9 +45,10 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-M5 | P1 | open | — |
 | DEFI-M6 | P1 | open | — |
 | DEFI-M7 | P1 | open | 2026-10-15: [M] canonical engine: newborn degree relaxes in 8 to 16 sweeps, no growth from N = 250 to 4,000; cost of a birth proportional to N; [OPEN] newborn triangle mass unresolved (−3.0 ± 2.0 at 512 sweeps) |
-| DEFI-M8 | P1 | open | — |
+| DEFI-M8 | P1 | open | 2026-10-20: [T] at fixed k, the Gibbs attachment G*(A | C) ∝ π_{N+1,M+k}(C + v_A), derived from S_sim with no new parameter, attains the bound of proposition C and uniquely minimises KL at birth; its weights vary only with the edges among targets and the sum of their degrees (anti-preferential triadic closure); [CERT] abstract graphs, N + 1 ≤ 7, 39 transitions: no gain over uniform in 25 cases, gain at the best k from 0 to 0.41; in the 5 cases where G* gains, relaxation slowed by 25 to 44%; anti-Gibbs attachment relaxes fastest in 5 cases out of 6; k not derived |
 | DEFI-M9 | P1 | open | 2026-10-16: [M] body of the newborn's mass law indistinguishable from the population's after 16 to 256 sweeps (N = 250 to 2,000, 200 births per size); [M] slow tail: 6 to 7% of newborns in the massive decile up to 1,024 sweeps (10% expected), 8.5% at 2,048; [M, partial] massive decile largely shared between chains on 9 clouds out of 10, and avoiding the cube's boundaries; [OPEN] role of age |
 | DEFI-M10 | P1 | open | — |
+| DEFI-M11 | P1 | open | — |
 | DEFI-G1 | P2 | open | — |
 | DEFI-G2 | P2 | open | — |
 | DEFI-G3 | P2 | open | — |
@@ -95,6 +96,7 @@ Source: [docs/defis.json](../docs/defis.json), machine-readable version.
 | **DEFI-M8** | **A non-arbitrary closure.** Mitosis alone cannot carry the cascade: ≈ κ̄/2 − 1 closure edges are needed per birth ([report](../contributions/RO-25_pilote-ia/REPORT_EN.md)). Derive from S_sim, without positing it, the attachment law of the new vertex that minimises the distance to π from birth. | **RO-24**, **RO-25** | The derived law and its distance at birth compared with uniform attachment, or a proof that no local law does better. |
 | **DEFI-M9** | **The aristocracy of massive vertices.** On the canonical engine, a newborn's degree reaches the mean in 8 to 16 sweeps, but its triangle mass stays in deficit ([report](../contributions/RO-25_pilote-ia/DEFI-M7_REPORT_EN.md)). Does the newborn ever reach the typical mass, or does viability freeze an aristocracy of massive vertices? | **RO-25**, **RO-20** | The law of the newborn's incident triangles versus the population's, in total variation, with at least 200 births per size over at least three sizes; or a proven argument. |
 | **DEFI-M10** | **The slow accession to the massive decile.** A newborn's mass law reaches the population's in 16 to 256 sweeps, except the tail: 6 to 7% of newborns are in the massive decile up to 1,024 sweeps, against 10% expected ([report](../contributions/RO-25_pilote-ia/DEFI-M9_REPORT_EN.md)). How many sweeps to reach 10%, does this time grow with N, and does the newborn reach the equilibrium mass of its position? | **RO-25**, **RO-20** | Share measured to ± 1 point (at least 1,000 births per size, two sizes) up to at least 16,384 sweeps, compared with the equilibrium mass of the position (independent chain, preferably in a periodic box); or a proven bound. |
+| **DEFI-M11** | **Born right or relaxed fast.** The Gibbs attachment, derived from S_sim, exactly minimises the gap to π at birth, but slows relaxation by 25 to 44% in the five cases where it gains; anti-Gibbs attachment relaxes fastest in five cases out of six (abstract graphs, N ≤ 6; [report](../contributions/RO-25_pilote-ia/DEFI-M8_REPORT_EN.md)). Which attachment law minimises the bridge's total cost, and is it derivable from S_sim? | **RO-25**, **RO-24** | The law minimising relaxation time after birth (proven bound, or exact measurement up to N + 1 ≥ 8 and multi-seed on the canonical engine at N ≥ 250), compared with U, G\* and G_θ; or a proof that both criteria coincide asymptotically. |
 
 ## Level 3 — Specialist (gate G0)
 
@@ -128,6 +130,7 @@ Accepted refutations are entered on the **Wall of Refuters**, with the name of t
 |---|---|---|---|---|
 | 06/10/2026 | (opening verification) | DEFI-R1 | `SELFTEST : 4/4` on a third-party machine, numpy 2.5.3 | Reproducibility of the self-test confirmed |
 | 16/10/2026 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-M9 (RO-25) | [M] The newborn's mass deficit is concentrated in the massive tail, which is joined slowly; the massive decile is largely shared between independent chains ([report](../contributions/RO-25_pilote-ia/DEFI-M9_REPORT_EN.md), [#19](https://github.com/BlobPrinciple/The-blob-Principle/issues/19)) | Partial result; derived challenge DEFI-M10; status unchanged |
+| 20/10/2026 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-M8 (RO-24, RO-25) | [T] The Gibbs attachment derived from S_sim is the best genealogical law at birth (at fixed k); [CERT] yet it slows relaxation in the five cases where it gains ([report](../contributions/RO-25_pilote-ia/DEFI-M8_REPORT_EN.md), [#35](https://github.com/BlobPrinciple/The-blob-Principle/issues/35)) | Partial result; derived challenge DEFI-M11; status unchanged |
 
 ## Wall of Refuters
 
