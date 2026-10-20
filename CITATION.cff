@@ -8,7 +8,7 @@ authors:
     affiliation: "Chercheur indépendant — Hâpy-Com SASU, Serris, France"
     orcid: "https://orcid.org/0009-0001-0990-7122"
 type: dataset
-version: "1.2.0"
+version: "1.3.0"
 doi: "10.5281/zenodo.23188586"
 identifiers:
   - type: doi
@@ -19,7 +19,7 @@ identifiers:
     description: "DOI de la version 1.2.0"
 repository-code: "https://github.com/BlobPrinciple/The-blob-Principle"
 url: "https://blobprinciple.github.io/The-blob-Principle/"
-date-released: "2026-10-15"
+date-released: "2026-10-20"
 license: CC-BY-NC-ND-4.0
 keywords:
   - Blob Principle
