@@ -1,0 +1,287 @@
+{
+ "lignes": [
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 8,
+   "theta": -1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -1.0482389459204353,
+   "t_demi_balayages": 0.6177974655696162
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 8,
+   "theta": -0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.8680895752576625,
+   "t_demi_balayages": 0.5751940039891932
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 8,
+   "theta": 0.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.6311751101410574,
+   "t_demi_balayages": 0.5168416575127935
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 8,
+   "theta": 0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.34457383863210045,
+   "t_demi_balayages": 0.46124378407214056
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 8,
+   "theta": 1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.10835332332544458,
+   "t_demi_balayages": 0.29067265335211023
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 12,
+   "theta": -1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.9402257124067189,
+   "t_demi_balayages": 3.1874385264833336
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 12,
+   "theta": -0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.8471163859969669,
+   "t_demi_balayages": 2.848618497011359
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 12,
+   "theta": 0.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.6955038619495646,
+   "t_demi_balayages": 2.7226797825433247
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 12,
+   "theta": 0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.4934199351944268,
+   "t_demi_balayages": 1.8912318531556822
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 12,
+   "theta": 1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.2666456758769584,
+   "t_demi_balayages": 1.2630742521086362
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 16,
+   "theta": -1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.8337466237750446,
+   "t_demi_balayages": 6.778153354000414
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 16,
+   "theta": -0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.7780434981609406,
+   "t_demi_balayages": 7.341422554696059
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 16,
+   "theta": 0.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.688757038843261,
+   "t_demi_balayages": 7.478436724012487
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 16,
+   "theta": 0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.5421528705603441,
+   "t_demi_balayages": 5.895868678934974
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 16,
+   "theta": 1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.33451745160458296,
+   "t_demi_balayages": 4.688777068104564
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 24,
+   "theta": -1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.7010744383262211,
+   "t_demi_balayages": 23.804429972244012
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 24,
+   "theta": -0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.6768352281472608,
+   "t_demi_balayages": 22.808182341627976
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 24,
+   "theta": 0.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.6285418399281111,
+   "t_demi_balayages": 22.9012106109292
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 24,
+   "theta": 0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.5526786630321288,
+   "t_demi_balayages": 23.601999019761266
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 24,
+   "theta": 1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.4209357802273985,
+   "t_demi_balayages": 22.872256533964915
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 32,
+   "theta": -1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.6190594453637984,
+   "t_demi_balayages": 42.296608457586686
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 32,
+   "theta": -0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.6032792798384848,
+   "t_demi_balayages": 39.16002614220517
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 32,
+   "theta": 0.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.579482181345327,
+   "t_demi_balayages": 46.84688387273413
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 32,
+   "theta": 0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.5342727682165346,
+   "t_demi_balayages": 50.98314914717157
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 32,
+   "theta": 1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.45253049599376854,
+   "t_demi_balayages": 58.2103488571938
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 48,
+   "theta": -1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.524813258852989,
+   "t_demi_balayages": 148.55229975960458
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 48,
+   "theta": -0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.5187192192219108,
+   "t_demi_balayages": 152.1069690581953
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 48,
+   "theta": 0.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.5057936447177768,
+   "t_demi_balayages": 138.58874672147397
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 48,
+   "theta": 0.5,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.48770560351979936,
+   "t_demi_balayages": 158.7046785654853
+  },
+  {
+   "campagne": "defi_m11_monte_carlo.json",
+   "N": 48,
+   "theta": 1.0,
+   "R": 2000,
+   "ecart_reduit_naissance": -0.4511025501942786,
+   "t_demi_balayages": 149.80647157344475
+  },
+  {
+   "campagne": "defi_m11_monte_carlo_long.json",
+   "N": 48,
+   "theta": 0.0,
+   "R": 600,
+   "ecart_reduit_naissance": -0.5076630507274192,
+   "t_demi_balayages": 147.25146410690562
+  },
+  {
+   "campagne": "defi_m11_monte_carlo_long.json",
+   "N": 48,
+   "theta": 1.0,
+   "R": 600,
+   "ecart_reduit_naissance": -0.4492723695403884,
+   "t_demi_balayages": 167.77531183471373
+  },
+  {
+   "campagne": "defi_m11_monte_carlo_long.json",
+   "N": 64,
+   "theta": 0.0,
+   "R": 600,
+   "ecart_reduit_naissance": -0.45472037084918443,
+   "t_demi_balayages": 442.0045158754117
+  },
+  {
+   "campagne": "defi_m11_monte_carlo_long.json",
+   "N": 64,
+   "theta": 1.0,
+   "R": 600,
+   "ecart_reduit_naissance": -0.42817162135238457,
+   "t_demi_balayages": 448.38450299785455
+  }
+ ],
+ "ajustement_N_ge_12": {
+  "exposant": 3.0236797108791387,
+  "prefacteur": 0.001361353361897129
+ },
+ "exposant_par_theta_campagne_principale": {
+  "-1.0": 2.7522722673198006,
+  "-0.5": 2.782740866792645,
+  "0.0": 2.7930188691667794,
+  "0.5": 3.1738221523548495,
+  "1.0": 3.469977048520708
+ }
+}

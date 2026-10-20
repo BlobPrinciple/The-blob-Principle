@@ -53,6 +53,7 @@ This repository therefore opens the programme to everyone — researchers, stude
 💬 **Discuss, ask a question, propose an idea: [Discussions](https://github.com/BlobPrinciple/The-blob-Principle/discussions)**
 🎯 **Take up a challenge — “Break the Blob”: [CHALLENGES.md](CHALLENGES.md)** · 🤖 with an AI: [AI_CONTRIBUTING.md](AI_CONTRIBUTING.md)
 🧭 **Guiding thread: the Blob cosmogony, and how to prove it** — [the laboratory's AI pilot](AI_PILOT.md) · [advances log](ADVANCES_LOG.md)
+🔬 **Latest advances (nos. 6 and 7, 20 October 2026)**: the attachment law derived from S_sim is the best at birth, yet slows the bridge; at large N, a newborn's accession to the aristocracy of massive vertices dominates the cost — [what the laboratory has established](PROGRAMME_STATUS.md#4-bis-what-the-public-laboratory-has-established-since-opening)
 ➡️ **Read the call: [CALL_FOR_COLLABORATION.md](CALL_FOR_COLLABORATION.md)**
 ➡️ **Where the science stands: [PROGRAMME_STATUS.md](PROGRAMME_STATUS.md)**
 ➡️ **How to contribute: [CONTRIBUTING.md](CONTRIBUTING.md)**

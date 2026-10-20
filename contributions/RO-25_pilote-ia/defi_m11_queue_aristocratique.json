@@ -1,0 +1,38 @@
+[
+ {
+  "N_plus_1": 9,
+  "moyenne_T_v": 5.250333333333334,
+  "part_de_la_moyenne_portee_par_T_v_sup_6": 0.688950966076228,
+  "fraction_de_sommets_T_v_sup_6": 0.40655555555555556
+ },
+ {
+  "N_plus_1": 17,
+  "moyenne_T_v": 5.693823529411764,
+  "part_de_la_moyenne_portee_par_T_v_sup_6": 0.8684281212872565,
+  "fraction_de_sommets_T_v_sup_6": 0.3931764705882353
+ },
+ {
+  "N_plus_1": 25,
+  "moyenne_T_v": 6.12192,
+  "part_de_la_moyenne_portee_par_T_v_sup_6": 0.9146934295123099,
+  "fraction_de_sommets_T_v_sup_6": 0.34166
+ },
+ {
+  "N_plus_1": 33,
+  "moyenne_T_v": 6.523181818181818,
+  "part_de_la_moyenne_portee_par_T_v_sup_6": 0.9368870926532413,
+  "fraction_de_sommets_T_v_sup_6": 0.29678787878787877
+ },
+ {
+  "N_plus_1": 49,
+  "moyenne_T_v": 7.036928571428572,
+  "part_de_la_moyenne_portee_par_T_v_sup_6": 0.9552637035812528,
+  "fraction_de_sommets_T_v_sup_6": 0.2308265306122449
+ },
+ {
+  "N_plus_1": 65,
+  "moyenne_T_v": 7.479807692307692,
+  "part_de_la_moyenne_portee_par_T_v_sup_6": 0.9654228049877877,
+  "fraction_de_sommets_T_v_sup_6": 0.18963846153846153
+ }
+]

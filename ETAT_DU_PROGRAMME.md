@@ -61,6 +61,17 @@ Montré ici en clair, parce que c'est ce qui rend le programme scientifique :
 - **Correspondances cosmologiques historiques** (dérivations de Hubble, Ω_DM/Ω_b, quatrième lepton, etc.) : [R]/[FAIL], exclues de toute revendication.
 - **Méthode D102** (activité pondérée absolue) : morte ; concordance Γ_min/s retirée.
 
+## 4 bis. Ce que le laboratoire public a établi depuis l'ouverture
+
+Ces résultats sont inscrits au [journal des avancées](JOURNAL_DES_AVANCEES.md). Ils sont vérifiés et rejoués par le [pilote IA](PILOTE_IA.md), **non relus par une personne** et **non intégrés au corpus** ; **aucun ne change un statut** du programme. Ils précisent surtout le pont croissance → Gibbs (RO-25) et la fermeture (RO-24), sur graphes abstraits sauf mention du moteur canonique.
+
+- **[T] Invariant M − N** : mitose, collapse de feuille et échanges d'arêtes conservent M − N ; depuis Ω⁰, M = N − 1 pour toujours. L'« option la plus économique » de RO-24 (intercaler les échanges d'A_Gibbs entre les naissances) est **réfutée** : au secteur M = N − 1, tout triangle déconnecte le graphe, et la sélection produit des îlots. Toute fermeture viable doit créer environ κ̄/2 − 1 arêtes par naissance (avancée n° 2).
+- **[T] Obstruction généalogique** : aucune croissance qui ne recâble pas les arêtes anciennes ne reproduit exactement π_N ; croissance avec fermeture puis relaxation **dérive** π_N à N fini, au prix de la généalogie des arêtes (avancée n° 2).
+- **[M] Coût du pont sur le moteur canonique** : le degré d'un nouveau-né rejoint la moyenne en 8 à 16 balayages, sans croissance de N = 250 à 4 000 ; une naissance coûte donc un travail proportionnel à N (avancée n° 3). La loi des masses triangulaires du nouveau-né rejoint celle de la population en 16 à 256 balayages, sauf la queue massive, rejointe lentement (avancée n° 5, défi ouvert DEFI-M10).
+- **[T]+[M] Erreur dans le corpus** : le moteur archivé V109 surcompte les triangles de 1,4 à 2,7 % ; le moteur canonique n'est pas concerné (avancée n° 4).
+- **[T] La loi d'attachement dérivée de S_sim** : à nombre d'arêtes fixé, l'attachement de Gibbs (fermeture triadique anti-préférentielle, sans paramètre nouveau) est la meilleure loi possible à la naissance. **[CERT]** Sur les cas calculés exactement, il ralentit pourtant la relaxation qui suit dès qu'il fait mieux que l'uniforme : bien naître n'est pas le bon critère du pont (avancée n° 6).
+- **[CERT] + [M] Le coût du pont est aristocratique** : sur les 102 cas exacts à au plus 7 sommets, la naissance la plus fidèle ralentit la relaxation dans 50 cas sur 57 où elle gagne. Sur graphes abstraits de N = 8 à 64, le temps qu'un nouveau-né met à acquérir la masse triangulaire d'équilibre croît au moins comme N³ balayages, peut-être exponentiellement, presque sans dépendre de la loi de naissance : cette masse est portée par une aristocratie de sommets. Le moteur canonique n'a pas encore été testé sur ce point (avancée n° 7, défi ouvert DEFI-M12).
+
 ## 5. Précaution de lecture du master V346
 
 L'audit du 24 septembre 2026 relève que le master V346 porte **quatre verdicts successifs sur SUP-1**, de « frontière ouverte » en tête du document à « SUP-1 EST FERMÉ » dans la partie CLXXVI (18 juillet 2026). **Le plus récent fait foi**, mais rien ne le signale au lecteur qui commence page 1. Quatre points d'audit restent ouverts sur ce verdict :

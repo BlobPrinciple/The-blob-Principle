@@ -3,7 +3,7 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.7",
+ "version": "1.8",
  "updated": "2026-10-20",
  "status": {
   "toe_demonstrated": false,
@@ -443,6 +443,33 @@
     "RO-24"
    ],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/36",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-10-20",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/37",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[CERT] carte exacte, 102 cas à N + 1 ≤ 7 : là où G* gagne à la naissance, il ralentit la relaxation dans 50 cas sur 57 (45 sur 47 pour un gain ≥ 10⁻³), l'anti-Gibbs accélère dans 44 cas sur 57 ; [M] Monte-Carlo N = 8 à 64, M + k = 2(N + 1), k = 4 : observables globales indifférentes à la loi de naissance après quelques balayages ; demi-temps d'accession des triangles du nouveau-né au moins de l'ordre de N³ balayages (0,5 à N = 8, 442 à N = 64), peu sensible à la loi de naissance de la famille G_θ : 87 à 97 % de la masse triangulaire est portée par une aristocratie de sommets",
+     "effect": "résultat partiel ; DEFI-M11 reste ouvert ; défi dérivé DEFI-M12 ; aucun changement de statut",
+     "result_en": "[CERT] exact map, 102 cases with N + 1 ≤ 7: where G* gains at birth it slows relaxation in 50 cases out of 57 (45 out of 47 for a gain ≥ 10⁻³), anti-Gibbs speeds it up in 44 out of 57; [M] Monte Carlo N = 8 to 64, M + k = 2(N + 1), k = 4: global observables indifferent to the birth law after a few sweeps; half-time for the newborn's triangles at least of order N³ sweeps (0.5 at N = 8, 442 at N = 64), barely sensitive to the birth law of the family G_θ: 87 to 97% of the triangle mass is carried by an aristocracy of vertices",
+     "effect_en": "partial result; DEFI-M11 stays open; derived challenge DEFI-M12; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-M12"
+   ]
+  },
+  {
+   "code": "DEFI-M12",
+   "level": 2,
+   "statement_fr": "La lenteur aristocratique (RO-25, RO-20). Sur graphes abstraits à degré moyen 4, le demi-temps d'accession des triangles d'un nouveau-né à leur valeur d'équilibre passe de 0,5 balayage à N = 8 à 442 à N = 64 : au moins de l'ordre de N³, peut-être exponentiel ; 87 à 97 % de la masse triangulaire est portée par une aristocratie de sommets, et aucune loi de naissance testée n'y change grand-chose (contributions/RO-25_pilote-ia/DEFI-M11_RAPPORT.md). Ce temps croît-il comme une puissance de N ou exponentiellement ?",
+   "deliverable_fr": "Une borne démontrée (trou spectral du processus d'un sommet, goulot d'étranglement, argument d'énergie libre), ou une mesure jusqu'à N ≥ 128 sur graphes abstraits à au moins deux densités, avec intervalles d'erreur, et sur le moteur canonique à N ≥ 250 ; trancher entre croissance polynomiale, exponentielle ou saturation.",
+   "open_research": [
+    "RO-25",
+    "RO-20"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/38",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],

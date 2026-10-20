@@ -61,6 +61,17 @@ Shown here in plain view, because this is what makes the programme scientific:
 - **Historical cosmological correspondences** (derivations of Hubble, Ω_DM/Ω_b, fourth lepton, etc.): [R]/[FAIL], excluded from any claim.
 - **Method D102** (absolute weighted activity): dead; Γ_min/s concordance withdrawn.
 
+## 4 bis. What the public laboratory has established since opening
+
+These results are entered in the [advances log](ADVANCES_LOG.md). They are checked and replayed by the [AI pilot](AI_PILOT.md), **not reviewed by a person** and **not integrated into the corpus**; **none changes a status** of the programme. They mostly sharpen the growth → Gibbs bridge (RO-25) and closure (RO-24), on abstract graphs unless the canonical engine is mentioned.
+
+- **[T] M − N invariant**: mitosis, leaf collapse and edge swaps conserve M − N; from Ω⁰, M = N − 1 forever. RO-24's "most economical option" (interleaving A_Gibbs swaps between births) is **refuted**: in the M = N − 1 sector every triangle disconnects the graph, and selection produces islands. Any viable closure must create about κ̄/2 − 1 edges per birth (advance no. 2).
+- **[T] Genealogical obstruction**: no growth that leaves old edges unrewired reproduces π_N exactly; growth with closure followed by relaxation **derives** π_N at finite N, at the price of the edges' genealogy (advance no. 2).
+- **[M] Bridge cost on the canonical engine**: a newborn's degree reaches the mean in 8 to 16 sweeps, with no growth from N = 250 to 4,000; a birth therefore costs work proportional to N (advance no. 3). The newborn's triangle-mass law reaches the population's in 16 to 256 sweeps, except the massive tail, joined slowly (advance no. 5, open challenge DEFI-M10).
+- **[T]+[M] Error in the corpus**: the archived V109 engine overcounts triangles by 1.4 to 2.7%; the canonical engine is not affected (advance no. 4).
+- **[T] The attachment law derived from S_sim**: at a fixed number of edges, Gibbs attachment (anti-preferential triadic closure, no new parameter) is the best possible law at birth. **[CERT]** In the cases computed exactly, it nevertheless slows the subsequent relaxation whenever it beats uniform: being born right is not the right criterion for the bridge (advance no. 6).
+- **[CERT] + [M] The bridge's cost is aristocratic**: in the 102 exact cases with at most 7 vertices, the most faithful birth slows relaxation in 50 of the 57 cases where it gains. On abstract graphs from N = 8 to 64, the time a newborn takes to acquire the equilibrium triangle mass grows at least like N³ sweeps, possibly exponentially, almost independently of the birth law: that mass is carried by an aristocracy of vertices. The canonical engine has not yet been tested on this point (advance no. 7, open challenge DEFI-M12).
+
 ## 5. Reading caution for the master V346
 
 The audit of 24 September 2026 notes that the master V346 carries **four successive verdicts on SUP-1**, from "open frontier" at the head of the document to "SUP-1 IS CLOSED" in part CLXXVI (18 July 2026). **The most recent is authoritative**, but nothing signals this to the reader who starts on page 1. Four audit points remain open on this verdict:
