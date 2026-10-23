@@ -578,3 +578,7 @@ cd95761831a33f64ef0c0fdf4b594b6f2a36458bf42a1c828d98dace58bf6d0f  ./docs/fb/simp
 0a4aa69c785d2eb52ecdd1000df9a0b9dd9efb4c3177670f1b6a5897a524de39  ./docs/fb/surnaturel-02.jpg
 867f617d6ef0daadb838681f0cdfacbe4ae8d2bb9e85a2d2ff44bba30852c85f  ./docs/fb/calendrier-facebook.json
 614de7fa7bb759bc8a07680affca14f9f7f754e8ced1614bae7ec4e3832e5ab4  ./docs/fb/pont.html
+6ab4e0daf8100ababae71c98f06cfaec3f6af64361facbb63aa67b89e45d5adb  ./docs/fb/surnaturel-03.jpg
+8f53cd1db9dee0f99598ae80823ae3b26d4b6b234e4ec68de373390ed97fafa1  ./docs/fb/surnaturel-04.jpg
+c440d8442c60705a26cc0c10fcb52f60ff5789e447f50e166cf884f9092e2504  ./docs/fb/surnaturel-07.jpg
+c26c52240e7ccfb8a023c236b2bef5b715a65fd8662760c7b3deb9da2c5a167a  ./docs/fb/surnaturel-08.jpg
