@@ -1,0 +1,47 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Pont médias</title>
+<style>body{font:14px system-ui;background:#111;color:#ddd;padding:16px}</style>
+<p>Pont technique du laboratoire Blob : stocke localement, dans ce navigateur, des images à publier sur la page Facebook, puis les remet à la fenêtre qui l'a ouverte.</p>
+<pre id="log"></pre>
+<script>
+// ?mode=store : reçoit {__store:true, name, blob} de la fenêtre parente et les range dans IndexedDB.
+// ?mode=send&names=a.png,b.png : renvoie ces fichiers à la fenêtre parente ({__blobfile:true, name, blob}).
+// ?mode=list : renvoie la liste des noms stockés ({__list:[...]}).
+const log = t => (document.getElementById('log').textContent += t + '\n');
+const q = new URLSearchParams(location.search);
+const mode = q.get('mode');
+const db = new Promise((ok, ko) => {
+  const r = indexedDB.open('pont-blob', 1);
+  r.onupgradeneeded = () => r.result.createObjectStore('f');
+  r.onsuccess = () => ok(r.result); r.onerror = () => ko(r.error);
+});
+const tx = async (m, fn) => { const d = await db; return new Promise((ok, ko) => { const t = d.transaction('f', m); const s = t.objectStore('f'); const r = fn(s); t.oncomplete = () => ok(r && r.result); t.onerror = () => ko(t.error); }); };
+const target = window.opener || window.parent;
+(async () => {
+  if (mode === 'store') {
+    window.addEventListener('message', async e => {
+      const d = e.data;
+      if (d && d.__store) {
+        await tx('readwrite', s => s.put(d.blob, d.name));
+        log('rangé : ' + d.name + ' (' + d.blob.size + ' o)');
+        e.source.postMessage({ __stored: d.name, size: d.blob.size }, '*');
+      }
+    });
+    target && target.postMessage({ __pontready: true }, '*');
+    log('prêt à recevoir');
+  } else if (mode === 'send') {
+    for (const name of (q.get('names') || '').split(',').filter(Boolean)) {
+      const blob = await tx('readonly', s => s.get(name));
+      target.postMessage(blob ? { __blobfile: true, name, blob } : { __blobfile: false, name }, '*');
+      log((blob ? 'envoyé : ' : 'absent : ') + name);
+    }
+    target.postMessage({ __blobdone: true }, '*');
+  } else if (mode === 'list') {
+    const keys = await tx('readonly', s => s.getAllKeys());
+    target && target.postMessage({ __list: keys }, '*');
+    log(keys.join('\n'));
+  }
+})();
+</script>
