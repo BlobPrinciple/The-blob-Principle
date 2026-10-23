@@ -576,3 +576,4 @@ a80a338198abd6f73af5f2cb66fd9c8425ab8e2bd97bd5d2189022a0fda05a39  ./docs/fb/simp
 cd95761831a33f64ef0c0fdf4b594b6f2a36458bf42a1c828d98dace58bf6d0f  ./docs/fb/simplexe-cloture.jpg
 6360e1a994b40a6bcaf05ed92f4c4452b3ce5355ced26b3a87ea954e5707e3c4  ./docs/fb/surnaturel-01.jpg
 0a4aa69c785d2eb52ecdd1000df9a0b9dd9efb4c3177670f1b6a5897a524de39  ./docs/fb/surnaturel-02.jpg
+867f617d6ef0daadb838681f0cdfacbe4ae8d2bb9e85a2d2ff44bba30852c85f  ./docs/fb/calendrier-facebook.json
