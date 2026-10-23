@@ -1,0 +1,23 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Relais médias</title>
+<!-- Relais technique du laboratoire : transmet à la page parente (Meta Business Suite)
+     les médias du dossier docs/fb/, pour la programmation des publications Facebook.
+     Usage : relais.html#fichier1.jpg,fichier2.mp4 -->
+<script>
+(async () => {
+  const names = decodeURIComponent(location.hash.slice(1)).split(',').filter(Boolean);
+  for (const name of names) {
+    try {
+      const r = await fetch('./' + name, { cache: 'no-store' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const blob = await r.blob();
+      parent.postMessage({ __blobfile: true, name: name.split('/').pop(), blob }, '*');
+    } catch (e) {
+      parent.postMessage({ __blobfile: false, name, error: String(e) }, '*');
+    }
+  }
+  parent.postMessage({ __blobdone: true, count: names.length }, '*');
+})();
+</script>

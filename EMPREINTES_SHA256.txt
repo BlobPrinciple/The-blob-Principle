@@ -555,3 +555,5 @@ b202a768499d59a90b8ef50ecf61a244c15cf3954571c5302b5d892504596da4  ./notes_de_ver
 f24cd8239729cca3154fd0a16736cfb712aef24132b2a4147f5e5b5243b4b2f9  ./notes_de_version/v1.3.0.md
 424be1a6578bef30196ce290972a3d00c37943602ac4a26e11831fe1232ba541  ./outils/defis.py
 0f2fe804da797c83e091ebaa2c6629ed610a3586d56bced14382a1ecb3f42084  ./outils/univers_batisseur.js
+00bcd5813591f8fefe06bff69fa436c8d89277f3b19bb74ee4a0ec6ec46bb84b  ./docs/fb/relais.html
+9d1a5452272ec68d2d88b5361622fb0bd077686803d4edd27787cd5ff88629de  ./docs/fb/film-blob-du-simplexe-au-complexe.mp4
