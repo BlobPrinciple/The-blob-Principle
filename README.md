@@ -53,7 +53,7 @@ Ce dépôt ouvre donc le programme à tous — chercheurs, étudiants, ingénieu
 💬 **Discuter, poser une question, proposer une idée : [Discussions](https://github.com/BlobPrinciple/The-blob-Principle/discussions)**
 🎯 **Relevez un défi — « Cassez le Blob » : [DEFIS.md](DEFIS.md)** · 🤖 avec une IA : [IA_CONTRIBUER.md](IA_CONTRIBUER.md)
 🧭 **Fil conducteur : la cosmogonie du Blob, et comment la prouver** — [pilote IA du laboratoire](PILOTE_IA.md) · [journal des avancées](JOURNAL_DES_AVANCEES.md)
-🔬 **Dernières avancées (n° 6 et 7, 20 octobre 2026)** : la loi d'attachement dérivée de S_sim est la meilleure à la naissance, mais ralentit le pont ; à grand N, l'accession d'un nouveau-né à l'aristocratie des sommets massifs domine le coût — [ce que le laboratoire a établi](ETAT_DU_PROGRAMME.md#4-bis-ce-que-le-laboratoire-public-a-établi-depuis-louverture)
+🔬 **Dernières avancées (n° 6 à 8, 20 au 23 octobre 2026)** : la loi d'attachement dérivée de S_sim est la meilleure à la naissance, mais ralentit le pont ; à grand N, l'accession d'un nouveau-né à l'aristocratie des sommets massifs domine le coût ; six incohérences trouvées entre le master V346 et ses propres JSON ([note](contributions/R5_pilote-ia/NOTE.md)) — [ce que le laboratoire a établi](ETAT_DU_PROGRAMME.md#4-bis-ce-que-le-laboratoire-public-a-établi-depuis-louverture)
 ➡️ **Lire l'appel : [APPEL_A_COLLABORATION.md](APPEL_A_COLLABORATION.md)**
 ➡️ **Où en est la science : [ETAT_DU_PROGRAMME.md](ETAT_DU_PROGRAMME.md)**
 ➡️ **Comment contribuer : [CONTRIBUTING.md](CONTRIBUTING.md)**

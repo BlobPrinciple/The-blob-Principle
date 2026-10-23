@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.8",
- "updated": "2026-10-20",
+ "version": "1.9",
+ "updated": "2026-10-23",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -240,6 +240,30 @@
    "deliverable_fr": "Fichier, page, valeur citée, valeur réelle.",
    "open_research": [],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/8",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-10-23",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/39",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[M] six incohérences JSON ↔ master V346 : tableau M-7.1 (p. 173), ligne N = 1000 recopiée de N = 3000 (JSON : 2,847 ± 0,082, 5 graines) ; loi d'aire (p. 259–260) : « σ² ∝ V^≈1 » contre 3,23 au JSON, verdict dépendant de la fenêtre ; A1.5 (p. 560) : expression évaluée à 0,0982 au lieu de 0,00981, δ₀ = 0,252 [T] contre 0,159 [T*] au JSON ; toile cosmique (p. 644–645) : le témoin sans viabilité reproduit l'essentiel de l'effet « propre à la viabilité » ; ρ* « 4,8–5,0 stable » (p. 1203) contre 4,630 à N = 8 000 ; III.3.6 (p. 255) : écart-type et erreur-type mêlés ; quatre écarts mineurs",
+     "effect": "erreurs trouvées dans le corpus ; aucune valeur reprise par l'armature V347.1 ; DEFI-R5 reste ouvert ; défi dérivé DEFI-R6 ; aucun changement de statut",
+     "result_en": "[M] six JSON ↔ V346 master inconsistencies: table M-7.1 (p. 173), N = 1000 row copied from N = 3000 (JSON: 2.847 ± 0.082, 5 seeds); area law (pp. 259–260): \"σ² ∝ V^≈1\" against 3.23 in the JSON, verdict depending on the window; A1.5 (p. 560): expression evaluated as 0.0982 instead of 0.00981, δ₀ = 0.252 [T] against 0.159 [T*] in the JSON; cosmic web (pp. 644–645): the control without viability reproduces most of the effect called \"specific to viability\"; ρ* \"4.8–5.0 stable\" (p. 1203) against 4.630 at N = 8,000; III.3.6 (p. 255): standard deviation and standard error mixed; four minor discrepancies",
+     "effect_en": "errors found in the corpus; no value carried over into the V347.1 framework; DEFI-R5 stays open; derived challenge DEFI-R6; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-R6"
+   ]
+  },
+  {
+   "code": "DEFI-R6",
+   "level": 1,
+   "statement_fr": "La toile sans viabilité. Le master V346 (XXV.2, p. 644–645) dit la structuration « nœuds + vides » de la toile cosmique simulée « propre à la viabilité » ; dans blob_toile_results.json, le témoin « mobilité sans viabilité » reproduit l'essentiel de l'effet (P_max/médiane 2 277 contre 1 879 au Blob à N = 20 000), la viabilité n'ajoutant qu'un petit excès de vides, +0,015 à +0,027 (contributions/R5_pilote-ia/NOTE.md, E4). Qu'est-ce qui, dans la toile, revient à la nucléation multi-sites, à la mobilité et à la viabilité ?",
+   "deliverable_fr": "Campagne à quatre bras au moins (multi-sites avec viabilité, multi-sites mobile sans viabilité, multi-sites figé, Poisson), N ≥ 5 000 à deux tailles au moins, au moins 8 graines par bras, statistiques par graine pour P_max/médiane et la fraction de vides, code et JSON publiés ; ou argument démontré qui attribue l'effet.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/40",
    "path_step": "T",
    "state": "ouvert",
    "history": [],

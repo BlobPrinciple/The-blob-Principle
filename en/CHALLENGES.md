@@ -24,7 +24,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 ### Challenge status
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*Status as of 2026-10-20 — challenges v1.8.*
+*Status as of 2026-10-23 — challenges v1.9.*
 
 | Challenge | Proof-path step | State | Latest event |
 |---|---|---|---|
@@ -37,7 +37,8 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-R2 | P2 | open | — |
 | DEFI-R3 | T | open | 2026-10-15: [T]+[M] the archived V109 engine (V346 pp. 291–292) overcounts triangles by +1.4% to +2.7% when the added edge touches the removed one; the current canonical engine is not affected |
 | DEFI-R4 | P1 | open | — |
-| DEFI-R5 | T | open | — |
+| DEFI-R5 | T | open | 2026-10-23: [M] six JSON ↔ V346 master inconsistencies: table M-7.1 (p. 173), N = 1000 row copied from N = 3000 (JSON: 2.847 ± 0.082, 5 seeds); area law (pp. 259–260): "σ² ∝ V^≈1" against 3.23 in the JSON, verdict depending on the window; A1.5 (p. 560): expression evaluated as 0.0982 instead of 0.00981, δ₀ = 0.252 [T] against 0.159 [T*] in the JSON; cosmic web (pp. 644–645): the control without viability reproduces most of the effect called "specific to viability"; ρ* "4.8–5.0 stable" (p. 1203) against 4.630 at N = 8,000; III.3.6 (p. 255): standard deviation and standard error mixed; four minor discrepancies |
+| DEFI-R6 | T | open | — |
 | DEFI-M1 | P2 | open | — |
 | DEFI-M2 | P2 | open | — |
 | DEFI-M3 | P1 | open | 2026-10-15: [T] mitosis + fixed-|E| exchanges conserve M − N (mean degree < 2 from Ω⁰); [CERT] at M = N − 1, π concentrates on disjoint triangle islands: the 'most economical option' for RO-24 is refuted for the fixed-|E| engine |
@@ -82,6 +83,7 @@ Source: [docs/defis.json](../docs/defis.json), machine-readable version.
 | **DEFI-R3** | **The second engine.** Rewrite **independently**, without reading the existing code, the sampler of the functional *S_sim(C) = log(1 + n_tri(C)) − βD(C)* and compare your invariants with the published ones. | Definitions in armature V347.1, II.0 and II.4; data in `corpus/04_donnees/` | Quantified deviations with error bars. Any divergence is a result. |
 | **DEFI-R4** | **Nucleation.** Can the Blob be born from the strict void? Today: 0/40 seeds under both canonical engines. | Armature II.3, **RO-02** | A **preregistered** protocol (published before execution) on ≥ 30 seeds: P(Ω¹ \| Ω⁰) ≥ 0.9 from the strict void, **or** a clean negative bound. |
 | **DEFI-R5** | **The error hunter.** Find a numerical inconsistency between a published result (JSON) and the master text that cites it. | `corpus/03_scripts/`, `corpus/06_campagnes_et_sauts/`, master V346 | File, page, cited value, actual value. |
+| **DEFI-R6** | **The web without viability.** The V346 master (XXV.2) calls the "nodes + voids" structuring of the simulated cosmic web "specific to viability"; the "mobility without viability" control in the same file reproduces most of the effect, viability adding only a small void excess ([note](../contributions/R5_pilote-ia/NOTE_EN.md), E4). What sculpts the nodes and voids: multi-site nucleation, mobility or viability? | `corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/blob_toile_results.json`, V346 master pp. 644–646 | A campaign with at least four arms (with viability, mobile without viability, frozen multi-site, Poisson), N ≥ 5,000 at two sizes, 8 seeds per arm, per-seed statistics, code and JSON published; or a proven argument. |
 
 ## Level 2 — Mathematician, physicist
 
@@ -141,6 +143,7 @@ Accepted refutations are entered on the **Wall of Refuters**, with the name of t
 |---|---|---|---|---|
 | 2026-10-15 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-M3 (RO-24) | The "most economical option" proposed for RO-24: mitosis and fixed-\|E\| exchanges conserve M − N, and selection then fragments the graph into disjoint triangle islands ([report](../contributions/RO-25_pilote-ia/REPORT_EN.md)) | RO-24 stays open; any closure must create edges; derived challenges DEFI-M7 and DEFI-M8; no status change |
 | 2026-10-15 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-R3 | The incremental triangle count of the archived V109 engine (V346 pp. 291–292): +1.4% to +2.7% overcount ([note](../contributions/R3_pilote-ia/NOTE_EN.md)) | [ARCH] script corrected; the canonical engine is not affected; status unchanged |
+| 2026-10-23 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-R5 | Six passages of the V346 master contradicted by the JSON files they report: N = 1000 row of table M-7.1 copied from N = 3000; "σ² ∝ V^≈1" (recorded fit: 3.23); A1.5 bound evaluated ten times too high; web "specific to viability" although the control without viability reproduces most of the effect; "stable" ρ*; two error metrics mixed ([note](../contributions/R5_pilote-ia/NOTE_EN.md), [#39](https://github.com/BlobPrinciple/The-blob-Principle/issues/39)) | Corrections to be made to the master if re-issued; V347.1 framework untouched; derived challenge DEFI-R6; status unchanged |
 
 *The next place is waiting for you.*
 

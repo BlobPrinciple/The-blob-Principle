@@ -1,0 +1,37 @@
+Seconde implémentation — contrôle des valeurs de la note :
+  E1 ds_N1000              calculé 2.847        annoncé 2.847      accord
+  E1 écart %               calculé 5.1          annoncé 5.1        accord
+  E2 σ² ∝ V                calculé 3.22995      annoncé 3.23       accord
+  E2 R² V                  calculé 0.789079     annoncé 0.789      accord
+  E2 σ² ∝ A                calculé 7.4622       annoncé 7.462      accord
+  E2 R² A                  calculé 0.928635     annoncé 0.929      accord
+  E2 fenêtre 3-6           calculé 0.980097     annoncé 0.98       accord
+  E2 fenêtre 4-6           calculé 0.773848     annoncé 0.774      accord
+  E3 expression            calculé 0.00981333   annoncé 0.00981    accord
+  E3 D_min 0,35            calculé 0.00350476   annoncé 0.0035     accord
+  E3 JSON analytique       calculé 0.159        annoncé 0.159      accord
+  E3 JSON mesuré           calculé 0.274        annoncé 0.274      accord
+  E4 P Blob 5000           calculé 634.511      annoncé 635        accord
+  E4 P témoin 5000         calculé 619.113      annoncé 619        accord
+  E4 P Blob 20000          calculé 1879.29      annoncé 1879       accord
+  E4 P témoin 20000        calculé 2276.91      annoncé 2277       accord
+  E4 vides Blob 20000      calculé 0.762625     annoncé 0.763      accord
+  E4 vides témoin 20000    calculé 0.742958     annoncé 0.743      accord
+  E4 Δvides 1000           calculé 0.0151875    annoncé 0.015      accord
+  E4 Δvides 5000           calculé 0.0267917    annoncé 0.027      accord
+  E4 P Blob/témoin 1000    calculé 1.12823      annoncé 1.13       accord
+  E4 P Blob/témoin 2500    calculé 1.05425      annoncé 1.05       accord
+  E4 P témoin/Blob 15000   calculé 1.03542      annoncé 1.04       accord
+  E4 P témoin/Blob 20000   calculé 1.21158      annoncé 1.21       accord
+  E4 Δvides 20000          calculé 0.0196667    annoncé 0.02       accord
+  E5 ρ* 1000               calculé 4.9935       annoncé 4.993      accord
+  E5 ρ* 2000               calculé 4.79988      annoncé 4.8        accord
+  E5 ρ* 4000               calculé 4.80275      annoncé 4.803      accord
+  E5 ρ* 8000               calculé 4.63009      annoncé 4.63       accord
+  E5 ρ* 32000              calculé 4.42091      annoncé 4.421      accord
+  E6 erreurs-types         calculé 12.3362      annoncé 12.3       accord
+  m1 rapport min           calculé 2.51351      annoncé 2.51       accord
+  m1 rapport max           calculé 3.25189      annoncé 3.25       accord
+  m4 écart final           calculé 0.0140766    annoncé 0.0141     accord
+  E2 σ²–A, fenêtre ≥ 3 classes la plus proche de 1 : pente 1.736 (aucune ≈ 1)
+ACCORD COMPLET

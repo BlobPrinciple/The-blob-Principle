@@ -24,7 +24,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 ### État des défis
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*État au 2026-10-20 — défis v1.8.*
+*État au 2026-10-23 — défis v1.9.*
 
 | Défi | Étape du chemin de preuve | État | Dernier événement |
 |---|---|---|---|
@@ -37,7 +37,8 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-R2 | P2 | ouvert | — |
 | DEFI-R3 | T | ouvert | 2026-10-15 : [T]+[M] le moteur archivé V109 (V346 p. 291–292) surcompte les triangles de +1,4 % à +2,7 % quand l'arête ajoutée touche l'arête retirée ; le moteur canonique actuel n'est pas concerné |
 | DEFI-R4 | P1 | ouvert | — |
-| DEFI-R5 | T | ouvert | — |
+| DEFI-R5 | T | ouvert | 2026-10-23 : [M] six incohérences JSON ↔ master V346 : tableau M-7.1 (p. 173), ligne N = 1000 recopiée de N = 3000 (JSON : 2,847 ± 0,082, 5 graines) ; loi d'aire (p. 259–260) : « σ² ∝ V^≈1 » contre 3,23 au JSON, verdict dépendant de la fenêtre ; A1.5 (p. 560) : expression évaluée à 0,0982 au lieu de 0,00981, δ₀ = 0,252 [T] contre 0,159 [T*] au JSON ; toile cosmique (p. 644–645) : le témoin sans viabilité reproduit l'essentiel de l'effet « propre à la viabilité » ; ρ* « 4,8–5,0 stable » (p. 1203) contre 4,630 à N = 8 000 ; III.3.6 (p. 255) : écart-type et erreur-type mêlés ; quatre écarts mineurs |
+| DEFI-R6 | T | ouvert | — |
 | DEFI-M1 | P2 | ouvert | — |
 | DEFI-M2 | P2 | ouvert | — |
 | DEFI-M3 | P1 | ouvert | 2026-10-15 : [T] mitose + échanges à |E| fixé conservent M − N (degré moyen < 2 depuis Ω⁰) ; [CERT] à M = N − 1, π concentre sa masse sur des îlots triangulaires disjoints : l'« option la plus économique » de RO-24 est réfutée pour le moteur à |E| fixé |
@@ -82,6 +83,7 @@ Source : [docs/defis.json](docs/defis.json), version lisible par machine.
 | **DEFI-R3** | **Le second moteur.** Réécrivez **indépendamment**, sans lire le code existant, l'échantillonneur de la fonctionnelle *S_sim(C) = log(1 + n_tri(C)) − βD(C)* et comparez vos invariants à ceux publiés. | Définitions de l'armature V347.1, II.0 et II.4 ; données `corpus/04_donnees/` | Écarts chiffrés avec barres d'erreur. Toute divergence est un résultat. |
 | **DEFI-R4** | **La nucléation.** Le Blob peut-il naître du vide strict ? Aujourd'hui : 0/40 graines sous les deux moteurs canoniques. | Armature II.3, **RO-02** | Protocole **préenregistré** (publié avant exécution) sur ≥ 30 graines : P(Ω¹ \| Ω⁰) ≥ 0,9 depuis le vide strict, **ou** une borne négative propre. |
 | **DEFI-R5** | **Le chasseur d'erreurs.** Trouvez une incohérence numérique entre un résultat publié (JSON) et le texte du master qui le cite. | `corpus/03_scripts/`, `corpus/06_campagnes_et_sauts/`, master V346 | Fichier, page, valeur citée, valeur réelle. |
+| **DEFI-R6** | **La toile sans viabilité.** Le master V346 (XXV.2) dit la structuration « nœuds + vides » de la toile cosmique simulée « propre à la viabilité » ; le témoin « mobilité sans viabilité » du même fichier reproduit l'essentiel de l'effet, la viabilité n'ajoutant qu'un petit excès de vides ([note](contributions/R5_pilote-ia/NOTE.md), E4). Qu'est-ce qui sculpte les nœuds et les vides : la nucléation multi-sites, la mobilité ou la viabilité ? | `corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/blob_toile_results.json`, master V346 p. 644–646 | Campagne à quatre bras au moins (avec viabilité, mobile sans viabilité, multi-sites figé, Poisson), N ≥ 5 000 à deux tailles, 8 graines par bras, statistiques par graine, code et JSON publiés ; ou argument démontré. |
 
 ## Niveau 2 — Mathématicien, physicien
 
@@ -141,6 +143,7 @@ Les réfutations retenues sont inscrites au **Mur des réfutateurs**, avec le no
 |---|---|---|---|---|
 | 15/10/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-M3 (RO-24) | L'« option la plus économique » proposée pour RO-24 : mitose et échanges à \|E\| fixé conservent M − N, et la sélection fragmente alors le graphe en îlots triangulaires disjoints ([rapport](contributions/RO-25_pilote-ia/RAPPORT.md)) | RO-24 reste ouvert ; toute fermeture doit créer des arêtes ; défis dérivés DEFI-M7 et DEFI-M8 ; aucun changement de statut |
 | 15/10/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-R3 | Le comptage incrémental des triangles du moteur archivé V109 (V346 p. 291–292) : surcompte de +1,4 % à +2,7 % ([note](contributions/R3_pilote-ia/NOTE.md)) | Script [ARCH] corrigé ; le moteur canonique n'est pas concerné ; statut inchangé |
+| 23/10/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-R5 | Six passages du master V346 contredits par les JSON qu'ils rapportent : ligne N = 1000 du tableau M-7.1 recopiée de N = 3000 ; « σ² ∝ V^≈1 » (fit enregistré : 3,23) ; borne de A1.5 évaluée dix fois trop haut ; toile « propre à la viabilité » alors que le témoin sans viabilité reproduit l'essentiel de l'effet ; ρ* « stable » ; deux métriques d'erreur mêlées ([note](contributions/R5_pilote-ia/NOTE.md), [#39](https://github.com/BlobPrinciple/The-blob-Principle/issues/39)) | Corrections à porter au master s'il est réédité ; armature V347.1 non touchée ; défi dérivé DEFI-R6 ; statut inchangé |
 
 *La place suivante vous attend.*
 
