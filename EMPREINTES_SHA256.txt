@@ -504,7 +504,6 @@ a3b4839372fb0539a91d273f07e0e23c714fd01c3b040880928f3dd1a25fde5f  ./corpus/07_co
 372b022315aa19db2cda0439fcc732b157016584080661bbecca37a3b402ac4c  ./docs/armature/blob-principle-armature-V347-1_EN.pdf
 6ea362df074433b7b9113b05d99a40c7da31076c1e600afcc8f706912ece6d9f  ./docs/armature/index.html
 aee5f418ad1940d7873df2448519fd6d734fe59048abe6055e2e45941c4fe0f1  ./docs/defis.json
-867f617d6ef0daadb838681f0cdfacbe4ae8d2bb9e85a2d2ff44bba30852c85f  ./docs/fb/calendrier-facebook.json
 9d1a5452272ec68d2d88b5361622fb0bd077686803d4edd27787cd5ff88629de  ./docs/fb/film-blob-du-simplexe-au-complexe.mp4
 614de7fa7bb759bc8a07680affca14f9f7f754e8ced1614bae7ec4e3832e5ab4  ./docs/fb/pont.html
 00bcd5813591f8fefe06bff69fa436c8d89277f3b19bb74ee4a0ec6ec46bb84b  ./docs/fb/relais.html
@@ -613,5 +612,6 @@ f24cd8239729cca3154fd0a16736cfb712aef24132b2a4147f5e5b5243b4b2f9  ./notes_de_ver
 424be1a6578bef30196ce290972a3d00c37943602ac4a26e11831fe1232ba541  ./outils/defis.py
 0f2fe804da797c83e091ebaa2c6629ed610a3586d56bced14382a1ecb3f42084  ./outils/univers_batisseur.js
 875dc0858148c27e83d9411b60fcacb736518e3c60109a1b01dbb1e7f6b6253c  ./docs/fb/teaser-brique.mp4
-d564ccb6fe056607c256171d52d79e92e8bd09418bba93b902158133684be03d  ./docs/fb/calendrier-instagram.json
 65b27a99b5da4a19aa613dfa81cfa7e58beee0d25fd65d128e2dba50714d2c6a  ./docs/fb/textes_surnaturel.json
+fb106cacb0a13aabf2fa37a6120cc50dec654666f3975c2367fd2b9d35cd48ef  ./docs/fb/calendrier-facebook.json
+78831de0e3ef8eac792849eaf026c94d8bb88f66dd1c039e3417e715997cdf00  ./docs/fb/calendrier-instagram.json
