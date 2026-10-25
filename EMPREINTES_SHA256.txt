@@ -504,8 +504,11 @@ a3b4839372fb0539a91d273f07e0e23c714fd01c3b040880928f3dd1a25fde5f  ./corpus/07_co
 372b022315aa19db2cda0439fcc732b157016584080661bbecca37a3b402ac4c  ./docs/armature/blob-principle-armature-V347-1_EN.pdf
 6ea362df074433b7b9113b05d99a40c7da31076c1e600afcc8f706912ece6d9f  ./docs/armature/index.html
 aee5f418ad1940d7873df2448519fd6d734fe59048abe6055e2e45941c4fe0f1  ./docs/defis.json
+2798c0837fc960d6bf350f777d67247a2aaa3c860e328ea24b0fa43187b30297  ./docs/fb/calendrier-facebook.json
+2465108640c57affb2f72906debf71bbc21c53f75fc89d2551fde9b02edf3583  ./docs/fb/calendrier-instagram.json
 9d1a5452272ec68d2d88b5361622fb0bd077686803d4edd27787cd5ff88629de  ./docs/fb/film-blob-du-simplexe-au-complexe.mp4
 614de7fa7bb759bc8a07680affca14f9f7f754e8ced1614bae7ec4e3832e5ab4  ./docs/fb/pont.html
+0ce508048ea33e3b61a67e90b53c7473d07d0b02b4b725a86914978a8c7c1c8d  ./docs/fb/profil-instagram.jpg
 00bcd5813591f8fefe06bff69fa436c8d89277f3b19bb74ee4a0ec6ec46bb84b  ./docs/fb/relais.html
 9190c9384d0832ccc4166ff0a734d68173bba877d884dec32a3b475892b0d3bf  ./docs/fb/simplexe-00.jpg
 898538cbf432ae98bed52447eebdc8b8d862385b866c195b250a1ab97494f418  ./docs/fb/simplexe-01.jpg
@@ -551,6 +554,8 @@ e463bf04bfd954f6337c5a32fdb67240497b39c0633ab2c4a8fd7f03bbf92c70  ./docs/fb/surn
 932caf77636486d1c1d33b2b6e622582faa4c348371f5382b703bb759ce34135  ./docs/fb/surnaturel-21.jpg
 0a72caa79de6e552321c0195d1040872dbf80752c81a2c3f9adda015fa514e03  ./docs/fb/surnaturel-22.jpg
 406ca0c606635c8d04181a278e15f00129ed1f2bcb5741e35f296992aea6b57b  ./docs/fb/surnaturel-23.jpg
+875dc0858148c27e83d9411b60fcacb736518e3c60109a1b01dbb1e7f6b6253c  ./docs/fb/teaser-brique.mp4
+8485e7dfd4e9dd28f41dbadcf20dc35eb57531193573f68d9a24276781ed5833  ./docs/fb/textes_surnaturel.json
 82d5ecf43b56309b7270e2ba2a18300519a9e5803c60f474ad23ea501877ba8f  ./docs/index.html
 946ce77441ef1479a66e155d6b60643ab392dc6670d79ed21438a82bc168bd0e  ./docs/llms.txt
 08682fb5d557a37f8a53103c49f743d051a5134b1cfa3c5869015af9743bee99  ./docs/media/univers-blob-ilots.mp4
@@ -611,8 +616,3 @@ f24cd8239729cca3154fd0a16736cfb712aef24132b2a4147f5e5b5243b4b2f9  ./notes_de_ver
 1974d3e618d00d449e795e7c7054cacc865406b12826ee28a228c36556a5060f  ./notes_de_version/v1.4.0.md
 424be1a6578bef30196ce290972a3d00c37943602ac4a26e11831fe1232ba541  ./outils/defis.py
 0f2fe804da797c83e091ebaa2c6629ed610a3586d56bced14382a1ecb3f42084  ./outils/univers_batisseur.js
-875dc0858148c27e83d9411b60fcacb736518e3c60109a1b01dbb1e7f6b6253c  ./docs/fb/teaser-brique.mp4
-0ce508048ea33e3b61a67e90b53c7473d07d0b02b4b725a86914978a8c7c1c8d  ./docs/fb/profil-instagram.jpg
-8485e7dfd4e9dd28f41dbadcf20dc35eb57531193573f68d9a24276781ed5833  ./docs/fb/textes_surnaturel.json
-2798c0837fc960d6bf350f777d67247a2aaa3c860e328ea24b0fa43187b30297  ./docs/fb/calendrier-facebook.json
-5a55f42a46273aad4f28314c7d237e52510895ecc6a9e19bb9dea42d4dfc1fe1  ./docs/fb/calendrier-instagram.json
