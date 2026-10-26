@@ -1,0 +1,32 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Relais médias (fenêtre)</title>
+<style>body{font:14px system-ui;background:#111;color:#ddd;padding:16px}</style>
+<p>Relais technique du laboratoire Blob : transmet à la fenêtre qui l'a ouverte les médias du dossier docs/fb/.</p>
+<pre id="log"></pre>
+<script>
+// Usage : relais-popup.html?names=fichier1.mp4,fichier2.jpg
+// Ouvert par window.open() depuis la fenêtre destinataire, qui reçoit chaque fichier
+// sous la forme {__blobfile:true, name, blob} via postMessage.
+const log = t => (document.getElementById('log').textContent += t + '\n');
+const target = window.opener;
+(async () => {
+  if (!target) { log('aucune fenêtre appelante'); return; }
+  const names = (new URLSearchParams(location.search).get('names') || '').split(',').filter(Boolean);
+  for (const name of names) {
+    try {
+      const r = await fetch('./' + name, { cache: 'no-store' });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const blob = await r.blob();
+      target.postMessage({ __blobfile: true, name, blob }, '*');
+      log('envoyé : ' + name + ' (' + blob.size + ' o)');
+    } catch (e) {
+      target.postMessage({ __blobfile: false, name, error: String(e) }, '*');
+      log('échec : ' + name + ' — ' + e);
+    }
+  }
+  target.postMessage({ __blobdone: true, count: names.length }, '*');
+  log('terminé');
+})();
+</script>
