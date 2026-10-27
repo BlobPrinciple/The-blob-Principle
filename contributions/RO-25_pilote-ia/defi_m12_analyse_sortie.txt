@@ -1,0 +1,171 @@
+  [c2] exposant libre (n ≥ 25) : log t½ = 0.922·n^0.507 (± 0.010) -1.66
+  [c2] exposant libre (n ≥ 49) : log t½ = 0.983·n^0.497 (± 0.027) -1.85
+== c2
+  n =  17  t½ =       9.2 ±    0.1  t½/Δ   9.2  durée/t½   326  rodage/t½  43.5  ΔT(planté−aléat.) +0.56 (sd T 5.3)  part T_v>6 0.87
+  n =  25  t½ =      21.5 ±    0.4  t½/Δ  10.7  durée/t½   280  rodage/t½  18.6  ΔT(planté−aléat.) +0.78 (sd T 7.6)  part T_v>6 0.92
+  n =  33  t½ =      43.3 ±    0.7  t½/Δ   8.7  durée/t½   347  rodage/t½  23.1  ΔT(planté−aléat.) -0.18 (sd T 9.5)  part T_v>6 0.93
+  n =  49  t½ =     146.3 ±    2.1  t½/Δ   8.6  durée/t½   349  rodage/t½  23.2  ΔT(planté−aléat.) +0.62 (sd T 13.3)  part T_v>6 0.95
+  n =  65  t½ =     389.2 ±    4.2  t½/Δ   9.7  durée/t½   308  rodage/t½  20.6  ΔT(planté−aléat.) -0.16 (sd T 16.5)  part T_v>6 0.96
+  n =  97  t½ =    2297.1 ±   64.2  t½/Δ  17.1  durée/t½   175  rodage/t½  11.7  ΔT(planté−aléat.) +0.05 (sd T 21.7)  part T_v>6 0.98
+  n = 129  t½ =    9760.4 ±  173.1  t½/Δ  31.1  durée/t½    97  rodage/t½   6.4  ΔT(planté−aléat.) -0.77 (sd T 27.3)  part T_v>6 0.98
+  n = 193  t½ =  111872.8 ± 1230.3  t½/Δ 106.2  durée/t½    28  rodage/t½   1.9  ΔT(planté−aléat.) -1.21 (sd T 43.3)  part T_v>6 0.99
+  pentes log-log : [2.19, 2.53, 3.08, 3.46, 4.43, 5.07, 6.05]
+  pentes log t / sqrt n : [0.965, 0.943, 0.97, 0.921, 0.994, 0.959, 0.962]
+  puissance      a = 4.1278  RSS = 1.2568  résidu max = 0.666
+  exponentielle  a = 0.0506  RSS = 1.0626  résidu max = 0.545
+  etiree_racine  a = 0.9641  RSS = 0.0020  résidu max = 0.039
+  prédiction (n ≤ 97) puissance      {'129': (4838, 2.02), '193': (19178, 5.83)}
+  prédiction (n ≤ 97) exponentielle  {'129': (20667, 0.47), '193': (1262231, 0.09)}
+  prédiction (n ≤ 97) etiree_racine  {'129': (9611, 1.02), '193': (110086, 1.02)}
+  [c3] exposant libre (n ≥ 25) : log t½ = 0.397·n^0.626 (± 0.009) -1.45
+  [c3] exposant libre (n ≥ 49) : log t½ = 0.452·n^0.606 (± 0.007) -1.71
+== c3
+  n =  17  t½ =       2.2 ±    0.0  t½/Δ   2.2  durée/t½  1363  rodage/t½ 181.7  ΔT(planté−aléat.) +0.36 (sd T 7.1)  part T_v>6 0.90
+  n =  25  t½ =       4.6 ±    0.0  t½/Δ   4.6  durée/t½   656  rodage/t½  87.5  ΔT(planté−aléat.) -0.41 (sd T 9.9)  part T_v>6 0.89
+  n =  33  t½ =       8.3 ±    0.1  t½/Δ   8.3  durée/t½   363  rodage/t½  48.5  ΔT(planté−aléat.) +0.60 (sd T 12.6)  part T_v>6 0.90
+  n =  49  t½ =      21.4 ±    0.2  t½/Δ   5.4  durée/t½   561  rodage/t½  37.4  ΔT(planté−aléat.) -0.14 (sd T 16.9)  part T_v>6 0.91
+  n =  65  t½ =      52.7 ±    0.4  t½/Δ   5.3  durée/t½   569  rodage/t½  37.9  ΔT(planté−aléat.) -1.27 (sd T 21.9)  part T_v>6 0.92
+  n =  97  t½ =     247.0 ±    1.7  t½/Δ   7.5  durée/t½   401  rodage/t½  26.7  ΔT(planté−aléat.) -0.37 (sd T 29.1)  part T_v>6 0.93
+  n = 129  t½ =     974.5 ±   14.2  t½/Δ  12.3  durée/t½   243  rodage/t½  16.2  ΔT(planté−aléat.) +0.49 (sd T 35.0)  part T_v>6 0.95
+  n = 193  t½ =   10446.9 ±  213.8  t½/Δ  39.7  durée/t½    76  rodage/t½   5.0  ΔT(planté−aléat.) +0.33 (sd T 45.4)  part T_v>6 0.96
+  pentes log-log : [1.89, 2.13, 2.41, 3.19, 3.86, 4.81, 5.89]
+  pentes log t / sqrt n : [0.833, 0.794, 0.759, 0.848, 0.864, 0.91, 0.936]
+  puissance      a = 3.7006  RSS = 1.5334  résidu max = 0.748
+  exponentielle  a = 0.0458  RSS = 0.4878  résidu max = 0.372
+  etiree_racine  a = 0.8687  RSS = 0.0619  résidu max = 0.129
+  prédiction (n ≤ 97) puissance      {'129': (451, 2.16), '193': (1459, 7.16)}
+  prédiction (n ≤ 97) exponentielle  {'129': (1580, 0.62), '193': (53188, 0.2)}
+  prédiction (n ≤ 97) etiree_racine  {'129': (816, 1.19), '193': (6535, 1.6)}
+== c2T
+  n =  17  t½ =     116.9 ±    4.1  t½/Δ 116.9  durée/t½    51  rodage/t½   3.4  ΔT(planté−aléat.) +0.31 (sd T 5.5)  part T_v>6 0.98
+  n =  25  t½ =      56.3 ±    0.9  t½/Δ  56.3  durée/t½   107  rodage/t½   7.1  ΔT(planté−aléat.) +0.01 (sd T 8.6)  part T_v>6 0.96
+  n =  33  t½ =      43.8 ±    1.2  t½/Δ  43.8  durée/t½   137  rodage/t½   9.1  ΔT(planté−aléat.) -0.71 (sd T 9.8)  part T_v>6 0.94
+  n =  49  t½ =      37.1 ±    0.9  t½/Δ  37.1  durée/t½   162  rodage/t½  10.8  ΔT(planté−aléat.) -0.70 (sd T 10.4)  part T_v>6 0.87
+  n =  65  t½ =      34.0 ±    1.0  t½/Δ  34.0  durée/t½   176  rodage/t½  11.8  ΔT(planté−aléat.) +0.49 (sd T 10.3)  part T_v>6 0.79
+  n =  97  t½ =      17.7 ±    0.8  t½/Δ  17.7  durée/t½   338  rodage/t½  22.6  ΔT(planté−aléat.) +0.20 (sd T 8.6)  part T_v>6 0.54
+  n = 129  t½ =       6.5 ±    0.3  t½/Δ   6.5  durée/t½   924  rodage/t½  61.6  ΔT(planté−aléat.) +0.68 (sd T 6.5)  part T_v>6 0.27
+  n = 193  t½ =       2.7 ±    0.1  t½/Δ   2.7  durée/t½  2198  rodage/t½ 146.6  ΔT(planté−aléat.) -0.09 (sd T 4.9)  part T_v>6 0.07
+  pentes log-log : [-1.9, -0.9, -0.42, -0.31, -1.63, -3.53, -2.15]
+  pentes log t / sqrt n : [-0.834, -0.337, -0.132, -0.082, -0.364, -0.666, -0.342]
+  puissance      a = -1.4340  RSS = 0.8857  résidu max = 0.517
+  exponentielle  a = -0.0185  RSS = 0.1560  résidu max = 0.263
+  etiree_racine  a = -0.3439  RSS = 0.3612  résidu max = 0.350
+  prédiction (n ≤ 97) puissance      {'129': (17, 0.39), '193': (12, 0.22)}
+  prédiction (n ≤ 97) exponentielle  {'129': (12, 0.56), '193': (5, 0.6)}
+  prédiction (n ≤ 97) etiree_racine  {'129': (14, 0.46), '193': (8, 0.34)}
+log t½ (c2) = 0.944 · clique_max -2.344, résidu max 0.133 (n ≥ 33)
+{
+ "naissance_IC90": {
+  "97": [
+   1860.0159141084885,
+   3141.226570388959
+  ],
+  "129": [
+   7718.555141930863,
+   26437.291491683573
+  ]
+ },
+ "naissance_vs_stationnaire_c2": {
+  "9": {
+   "naissance": [
+    0.5168416575127935
+   ],
+   "stationnaire": null
+  },
+  "13": {
+   "naissance": [
+    2.7226797825433247
+   ],
+   "stationnaire": null
+  },
+  "17": {
+   "naissance": [
+    7.478436724012487
+   ],
+   "stationnaire": 9.203765414337276
+  },
+  "25": {
+   "naissance": [
+    22.9012106109292
+   ],
+   "stationnaire": 21.455005491816607
+  },
+  "33": {
+   "naissance": [
+    46.84688387273413
+   ],
+   "stationnaire": 43.281091181276174
+  },
+  "49": {
+   "naissance": [
+    138.58874672147397,
+    147.25146410690562
+   ],
+   "stationnaire": 146.29663886632727
+  },
+  "65": {
+   "naissance": [
+    442.0045158754117
+   ],
+   "stationnaire": 389.19020758714805
+  },
+  "97": {
+   "naissance": [
+    2382.8993953240592
+   ],
+   "stationnaire": 2297.067074691674
+  },
+  "129": {
+   "naissance": [
+    11317.339973404429
+   ],
+   "stationnaire": 9760.418962059033
+  }
+ },
+ "second_moteur": {
+  "c2": {
+   "17": {
+    "second": 8.932422193944,
+    "premier": 9.203765414337276,
+    "ecart_relatif": -0.029481761885259306
+   },
+   "33": {
+    "second": 43.976601392171496,
+    "premier": 43.281091181276174,
+    "ecart_relatif": 0.016069608965778803
+   },
+   "65": {
+    "second": 387.3522348320927,
+    "premier": 389.19020758714805,
+    "ecart_relatif": -0.004722556526923438
+   },
+   "129": {
+    "second": 10074.395832160702,
+    "premier": 9760.418962059033,
+    "ecart_relatif": 0.032168380406842
+   }
+  },
+  "c3": {
+   "17": {
+    "second": 2.1583578471739338,
+    "premier": 2.201043753181855,
+    "ecart_relatif": -0.019393483635304354
+   },
+   "33": {
+    "second": 8.437392592982498,
+    "premier": 8.254769538528402,
+    "ecart_relatif": 0.02212333773846975
+   },
+   "65": {
+    "second": 54.70817616794987,
+    "premier": 52.714951590487445,
+    "ecart_relatif": 0.037811370727353744
+   },
+   "129": {
+    "second": 978.1088460563275,
+    "premier": 974.4987402818898,
+    "ecart_relatif": 0.003704577158707645
+   }
+  }
+ }
+}

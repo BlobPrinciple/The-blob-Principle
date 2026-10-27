@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.9",
- "updated": "2026-10-23",
+ "version": "1.10",
+ "updated": "2026-10-27",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -494,6 +494,33 @@
     "RO-20"
    ],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/38",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-10-27",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/41",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[M] graphes abstraits, degré moyen 4, mesure de l'armature (λ = n/τ), n = 17 à 193 : demi-temps d'autocorrélation poolée de T_v de 9,2 à 111 873 balayages, ni loi de puissance ni exponentielle en n : log t½ = 0,964·√n − 1,77 (exposant libre 0,507 ± 0,010), prédiction faite sur n ≤ 97 vérifiée à 2 % près à n = 129 et 193 ; méthode naissance de DEFI-M11 concordante à N = 96 et 128 ; [M] degré moyen 6 : sur-polynomial, plus rapide (exp(a·n^0,6) environ) ; [M] la lenteur suit λ : à λ fixé, t½ décroît avec n et l'aristocratie se dissout ; à n = 65, log t½ affine en λ ; [M] l'aristocratie est une clique dominante de taille ≈ n^0,47 portant 69 à 90 % des triangles ; [H] conséquence pour le pont : ≈ 0,17·exp(0,96·√n) balayages entre naissances si la loi se prolongeait",
+     "effect": "résultat partiel (graphes abstraits ; moteur canonique non traité, aucune borne démontrée) ; DEFI-M12 reste ouvert ; défi dérivé DEFI-M13 ; aucun changement de statut",
+     "result_en": "[M] abstract graphs, mean degree 4, armature measure (λ = n/τ), n = 17 to 193: pooled autocorrelation half-time of T_v from 9.2 to 111,873 sweeps, neither a power law nor an exponential in n: log t½ = 0.964·√n − 1.77 (free exponent 0.507 ± 0.010), prediction made on n ≤ 97 verified within 2% at n = 129 and 193; DEFI-M11 birth method consistent at N = 96 and 128; [M] mean degree 6: super-polynomial, faster (about exp(a·n^0.6)); [M] the slowness follows λ: at fixed λ, t½ decreases with n and the aristocracy dissolves; at n = 65, log t½ affine in λ; [M] the aristocracy is a dominant clique of size ≈ n^0.47 carrying 69 to 90% of the triangles; [H] consequence for the bridge: ≈ 0.17·exp(0.96·√n) sweeps between births if the law continued",
+     "effect_en": "partial result (abstract graphs; canonical engine not addressed, no proven bound); DEFI-M12 stays open; derived challenge DEFI-M13; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-M13"
+   ]
+  },
+  {
+   "code": "DEFI-M13",
+   "level": 2,
+   "statement_fr": "La barrière de la clique dominante (RO-25, RO-20). Sur graphes abstraits à degré moyen 4, sous π ∝ exp(n·S_sim/τ), le demi-temps que met un sommet à changer de rang triangulaire croît comme exp(0,96·√n) de n = 17 à 193 ; la lenteur suit l'échelle λ = n/τ, et l'aristocratie est une clique dominante de taille ≈ n^0,47 portant 69 à 90 % des triangles ; à degré moyen 6, la croissance est plus rapide (exp(a·n^0,6) environ) (contributions/RO-25_pilote-ia/DEFI-M12_RAPPORT.md). Pourquoi √n, et pourquoi pas à degré moyen 6 ?",
+   "deliverable_fr": "Preuve ou réfutation que la plus grande clique a une taille Θ(√n) et que le temps d'échange de ses membres par échanges d'arêtes croît comme exp(Θ(√n)) à degré moyen 4 (goulot d'étranglement, borne de conductance, argument d'énergie libre) ; explication de l'exposant ≈ 0,6 à degré moyen 6 (structure mesurée, avec barres) ; ou la même signature cherchée sur le moteur canonique à N ≥ 250 (lien avec DEFI-M10).",
+   "open_research": [
+    "RO-25",
+    "RO-20"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/42",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
