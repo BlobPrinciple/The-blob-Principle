@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.10",
- "updated": "2026-10-27",
+ "version": "1.11",
+ "updated": "2026-10-30",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -521,6 +521,33 @@
     "RO-20"
    ],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/42",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-10-30",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/43",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[M] graphes abstraits, degré moyen 4, mesure de l'armature : la loi d'équilibre de T_v, mesurée par échantillonnage multicanonique (deux implémentations indépendantes, troisième moteur du relecteur jusqu'à n = 97), est bimodale ; la barrière de sortie de l'aristocratie passe de 0,55 (n = 17) à 11,0 (n = 193) ; [M] le t½ de DEFI-M12 suit le temps de séjour dans l'aristocratie mesuré sans biais (rapport 1,5 à 1,9 de n = 25 à 193) ; [M] relation ln t½ ↔ barrière concave, pente 0,75 à 1,24 selon l'estimateur : T_v n'est qu'une coordonnée de réaction approchée ; plus de col à λ = 66 (n = 65) ; [M] degré moyen 6 : pas de col jusqu'à n = 49, apparition vers n = 65 ; [H] exposant ≈ 0,6 = croisement tardif ; [H] sur n = 65 à 193 la barrière est compatible avec √n ; à n = 257 la prédiction de ln t½ va de 13,6 à 15,9 selon la calibration, contre 13,68 pour exp(0,96·√n) : asymptotique ouverte",
+     "effect": "résultat partiel (aucune borne démontrée, moteur canonique non traité) ; DEFI-M13 reste ouvert ; défi dérivé DEFI-M14 ; aucun changement de statut",
+     "result_en": "[M] abstract graphs, mean degree 4, armature measure: the equilibrium law of T_v, measured by multicanonical sampling (two independent implementations, reviewer's third engine up to n = 97), is bimodal; the exit barrier from the aristocracy goes from 0.55 (n = 17) to 11.0 (n = 193); [M] DEFI-M12's t½ follows the residence time in the aristocracy measured without bias (ratio 1.5 to 1.9 from n = 25 to 193); [M] concave ln t½ ↔ barrier relation, slope 0.75 to 1.24 depending on the estimator: T_v is only an approximate reaction coordinate; no saddle left at λ = 66 (n = 65); [M] mean degree 6: no saddle up to n = 49, onset around n = 65; [H] exponent ≈ 0.6 = late crossover; [H] over n = 65 to 193 the barrier is compatible with √n; at n = 257 the predicted ln t½ ranges from 13.6 to 15.9 depending on the calibration, against 13.68 for exp(0.96·√n): asymptotics open",
+     "effect_en": "partial result (no proven bound, canonical engine not addressed); DEFI-M13 stays open; derived challenge DEFI-M14; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-M14"
+   ]
+  },
+  {
+   "code": "DEFI-M14",
+   "level": 2,
+   "statement_fr": "La loi en √n survit-elle à n = 257 ? (RO-25, RO-20). Sur graphes abstraits à degré moyen 4, sous π ∝ exp(n·S_sim/τ), la loi d'équilibre de T_v est bimodale et la barrière de sortie de l'aristocratie, compatible avec √n sur n = 65 à 193, se mesure encore à n = 257, où la dynamique est hors de portée ; selon la calibration de la relation ln t½ ↔ barrière, elle prédit ln t½(257) entre 13,6 et 15,9, contre 13,68 pour la loi exp(0,96·√n) de DEFI-M12 (contributions/RO-25_pilote-ia/DEFI-M13_RAPPORT.md). La loi en √n est-elle asymptotique, ou un effet de croisement ?",
+   "deliverable_fr": "Temps de séjour dans l'aristocratie (ou t½) mesuré à n = 257, et si possible au-delà, avec barres d'erreur, tranchant entre ln t½ ≈ 13,7 et ≈ 15 à 16 ; ou borne démontrée de la barrière d'appartenance à la clique dominante ; ou coordonnée de réaction meilleure que T_v, dont la barrière suive ln t½ avec une pente 1.",
+   "open_research": [
+    "RO-25",
+    "RO-20"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/44",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
