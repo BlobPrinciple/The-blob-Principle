@@ -1,0 +1,14 @@
+c3 25 λ 50.0 B_sortie -0.07 B_entree 2.50 T rot/col/ari 0 24 25 WL 1008 1 s
+c3 25 λ 50.0 B_sortie -0.09 B_entree 2.62 T rot/col/ari 0 25 26 WL 1014 1 s
+c3 33 λ 66.0 B_sortie -0.06 B_entree 3.18 T rot/col/ari 0 29 30 WL 1255 1 s
+c3 33 λ 66.0 B_sortie -0.09 B_entree 3.35 T rot/col/ari 0 30 31 WL 992 1 s
+c3 49 λ 98.0 B_sortie -0.01 B_entree 3.90 T rot/col/ari 0 27 37 WL 2071 2 s
+c3 49 λ 98.0 B_sortie 0.07 B_entree 4.00 T rot/col/ari 0 24 37 WL 2136 2 s
+c3 65 λ 130.0 B_sortie 0.36 B_entree 4.50 T rot/col/ari 0 20 47 WL 2938 4 s
+c3 65 λ 130.0 B_sortie 0.30 B_entree 4.46 T rot/col/ari 0 23 46 WL 3201 4 s
+c3 97 λ 194.0 B_sortie 1.70 B_entree 6.42 T rot/col/ari 0 24 70 WL 4633 7 s
+c3 97 λ 194.0 B_sortie 1.76 B_entree 6.41 T rot/col/ari 0 23 71 WL 3920 8 s
+c3 129 λ 258.0 B_sortie 3.23 B_entree 7.75 T rot/col/ari 0 32 87 WL 6945 17 s
+c3 129 λ 258.0 B_sortie 3.19 B_entree 8.58 T rot/col/ari 0 32 90 WL 6139 15 s
+c3 193 λ 386.0 B_sortie 6.23 B_entree 11.12 T rot/col/ari 0 41 132 WL 11148 36 s
+c3 193 λ 386.0 B_sortie 6.41 B_entree 11.01 T rot/col/ari 0 41 118 WL 13468 43 s

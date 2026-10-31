@@ -1,0 +1,14 @@
+25 sorties 1971 entrées 1972 aristocrates 9.04 séjour 39.4 0 s
+25 sorties 1919 entrées 1922 aristocrates 8.99 séjour 40.3 0 s
+33 sorties 2294 entrées 2296 aristocrates 9.67 séjour 73.0 0 s
+33 sorties 2391 entrées 2393 aristocrates 9.69 séjour 70.2 0 s
+49 sorties 2235 entrées 2235 aristocrates 10.8 séjour 211.6 1 s
+49 sorties 2145 entrées 2145 aristocrates 10.79 séjour 220.3 1 s
+65 sorties 2345 entrées 2346 aristocrates 11.62 séjour 578.4 3 s
+65 sorties 2315 entrées 2317 aristocrates 11.62 séjour 585.7 3 s
+97 sorties 1213 entrées 1214 aristocrates 13.12 séjour 3726.2 11 s
+97 sorties 1232 entrées 1232 aristocrates 13.12 séjour 3668.8 11 s
+129 sorties 516 entrées 517 aristocrates 14.35 séjour 16283.7 34 s
+129 sorties 515 entrées 515 aristocrates 14.35 séjour 16319.1 32 s
+193 sorties 160 entrées 160 aristocrates 16.53 séjour 184637.0 159 s
+193 sorties 164 entrées 164 aristocrates 16.43 séjour 179059.2 167 s

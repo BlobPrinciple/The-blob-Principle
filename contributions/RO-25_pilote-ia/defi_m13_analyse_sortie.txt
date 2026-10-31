@@ -1,0 +1,86 @@
+A. Degré moyen 4, mesure de l'armature (lam = 2n) : barrières (moyenne ± écart-type entre répétitions)
+   n  rép  ln t½   brut         k            lissé        mfpt         | second : brut   k     lissé  mfpt | k_ari | séjour  séjour/t½
+  17  3    2.22   0.55 ± 0.09   0.66 ± 0.07   0.24 ± 0.02   4.94 ± 0.03 |  0.57  0.68  0.26  4.98 |   5.0 | —  —
+  25  3    3.07   0.70 ± 0.10   0.81 ± 0.11   0.43 ± 0.09   5.62 ± 0.07 |  0.59  0.73  0.38  5.55 |   6.0 | 40  1.86
+  33  3    3.77   0.86 ± 0.07   1.04 ± 0.03   0.62 ± 0.03   6.14 ± 0.04 |  0.79  1.05  0.66  6.15 |   7.0 | 72  1.65
+  49  3    4.99   1.73 ± 0.10   1.72 ± 0.08   1.38 ± 0.07   7.23 ± 0.06 |  1.89  1.92  1.58  7.39 |   8.0 | 216  1.48
+  65  3    5.96   2.65 ± 0.06   2.40 ± 0.08   2.17 ± 0.01   8.17 ± 0.04 |  2.69  2.50  2.22  8.23 |   9.0 | 582  1.50
+  97  3    7.74   5.07 ± 0.36   4.14 ± 0.34   4.24 ± 0.33  10.21 ± 0.22 |  5.14  4.24  4.34 10.32 |  11.0 | 3698  1.61
+ 129  3    9.19   7.37 ± 0.29   5.19 ± 0.35   6.13 ± 0.34  12.03 ± 0.25 |  7.50  5.01  5.97 11.96 |  12.0 | 16301  1.67
+ 193  3   11.63  11.01 ± 0.29   7.21 ± 0.22   9.18 ± 0.15  15.41 ± 0.14 | 11.68  7.49  9.52 15.78 |  14.7 | 181848  1.63
+ 257  2     —    16.37 ± 0.48  10.26 ± 0.09  13.72 ± 0.35  19.91 ± 0.07 | 16.14  9.97 13.72 19.50 |  16.5 | —  —
+
+B. Écart entre les deux implémentations (profil F, après recentrage, cases à moins de 16 du minimum)
+   n = 17 : rms 0.06 à 0.09, écart maximal 0.36
+   n = 25 : rms 0.06 à 0.10, écart maximal 0.21
+   n = 33 : rms 0.11 à 0.16, écart maximal 0.35
+   n = 49 : rms 0.10 à 0.16, écart maximal 0.44
+   n = 65 : rms 0.08 à 0.14, écart maximal 0.34
+   n = 97 : rms 0.15 à 0.26, écart maximal 0.66
+   n = 129 : rms 0.25 à 0.44, écart maximal 1.36
+   n = 193 : rms 0.31 à 0.37, écart maximal 1.21
+   n = 257 : rms 1.16 à 1.43, écart maximal 7.63
+
+B bis. Contrôle par histogramme direct non biaisé (premier moteur, n ≤ 65 ; cases à moins de 8 du minimum)
+   n = 25, graine 20286080 : rms 0.08, max 0.29
+   n = 25, graine 20386083 : rms 0.10, max 0.32
+   n = 25, graine 20486086 : rms 0.11, max 0.55
+   n = 33, graine 20294096 : rms 0.15, max 0.80
+   n = 33, graine 20394099 : rms 0.09, max 0.31
+   n = 33, graine 20494102 : rms 0.15, max 0.45
+   n = 49, graine 20310128 : rms 0.15, max 0.59
+   n = 49, graine 20410131 : rms 0.10, max 0.24
+   n = 49, graine 20510134 : rms 0.11, max 0.41
+   n = 65, graine 20326160 : rms 0.13, max 0.34
+   n = 65, graine 20426163 : rms 0.19, max 0.65
+   n = 65, graine 20526166 : rms 0.11, max 0.31
+   n = 17, graine 20278064 : rms 0.09, max 0.31
+   n = 17, graine 20378067 : rms 0.11, max 0.42
+   n = 17, graine 20478070 : rms 0.09, max 0.21
+
+C. log t½ (DEFI-M12) contre B, n = 33 à 193 : ln t½ = a·B + b ; prédiction à n = 257
+   brut   pente 0.745, résidu max 0.52 ; ln t½(257) prédit 15.84 (premier moteur), 15.67 (second)
+   k      pente 1.237, résidu max 0.26 ; ln t½(257) prédit 15.43 (premier moteur), 15.08 (second)
+   lisse  pente 0.885, résidu max 0.50 ; ln t½(257) prédit 15.85 (premier moteur), 15.85 (second)
+   mfpt   pente 0.840, résidu max 0.32 ; ln t½(257) prédit 15.65 (premier moteur), 15.30 (second)
+   loi de DEFI-M12, log t½ = 0,964·√n − 1,77, extrapolée : 13.68
+   sensibilité au modèle de calibration (premier moteur) :
+   brut   pentes locales 1.39 1.07 0.73 0.63 0.67 ; pente locale -> 15.21 ; quadratique -> 13.58
+   k      pentes locales 1.79 1.44 1.02 1.37 1.21 ; pente locale -> 15.32 ; quadratique -> 14.94
+   lisse  pentes locales 1.62 1.24 0.86 0.77 0.80 ; pente locale -> 15.26 ; quadratique -> 13.72
+   mfpt   pentes locales 1.13 1.04 0.87 0.80 0.72 ; pente locale -> 14.87 ; quadratique -> 13.88
+
+D. Croissance de B avec n (n = 33 à 257, premier moteur)
+   brut   SCR √n 5.14 ; SCR n 0.60 ; exposant libre 1.10 ; ΔB/Δ√n : 0.70 0.86 1.36 1.52 1.44 2.51
+   k      SCR √n 1.06 ; SCR n 0.37 ; exposant libre 0.90 ; ΔB/Δ√n : 0.54 0.64 0.97 0.70 0.80 1.43
+   lisse  SCR √n 3.59 ; SCR n 0.45 ; exposant libre 1.10 ; ΔB/Δ√n : 0.60 0.74 1.16 1.25 1.20 2.12
+   mfpt   SCR √n 3.01 ; SCR n 0.26 ; exposant libre 1.03 ; ΔB/Δ√n : 0.86 0.89 1.14 1.20 1.33 2.10
+   n = 65 à 193, brut   SCR √n 0.01 ; SCR n 0.21 ; exposant libre 0.56
+   n = 65 à 193, k      SCR √n 0.04 ; SCR n 0.21 ; exposant libre 0.30
+   n = 65 à 193, lisse  SCR √n 0.00 ; SCR n 0.16 ; exposant libre 0.54
+   n = 65 à 193, mfpt   SCR √n 0.04 ; SCR n 0.05 ; exposant libre 0.73
+   n = 33 à 193, brut   SCR √n 0.99 ; SCR n 0.22 ; exposant libre 0.91
+   n = 33 à 193, k      SCR √n 0.12 ; SCR n 0.35 ; exposant libre 0.62
+   n = 33 à 193, lisse  SCR √n 0.63 ; SCR n 0.17 ; exposant libre 0.88
+   n = 33 à 193, mfpt   SCR √n 0.40 ; SCR n 0.12 ; exposant libre 0.82
+
+E. n = 65, lam variable (DEFI-M12, test à n fixé) : B contre ln t½
+   λ =  66  ln t½ 3.53  brut -0.07  k -0.17  lissé -0.08  mfpt 5.32  k_ari 6.7
+   λ =  98  ln t½ 4.95  brut 1.29  k 1.47  lissé 1.09  mfpt 7.00  k_ari 8.0
+   λ = 130  ln t½ 5.96  brut 2.65  k 2.40  lissé 2.17  mfpt 8.17  k_ari 9.0
+   λ = 162  ln t½ 6.94  brut 4.31  k 3.39  lissé 3.51  mfpt 9.37  k_ari 10.0
+   λ = 194  ln t½ 7.96  brut 6.19  k 4.66  lissé 5.05  mfpt 10.83  k_ari 11.0
+   pente dB/dλ (λ ≥ 98) brut   0.0511
+   pente dB/dλ (λ ≥ 98) k      0.0330
+   pente dB/dλ (λ ≥ 98) lisse  0.0414
+   pente dB/dλ (λ ≥ 98) mfpt   0.0397
+   pente d ln t½/dλ (λ ≥ 98)      0.0313
+
+F. Degré moyen 6 (M = 3n, lam = 2n)
+   n =  25  ln t½ 1.52  brut -0.08  k 0.01  lissé -0.08  mfpt 5.64  k_ari 7.0
+   n =  33  ln t½ 2.11  brut -0.07  k -0.15  lissé -0.06  mfpt 5.94  k_ari 8.0
+   n =  49  ln t½ 3.06  brut 0.03  k 0.20  lissé 0.00  mfpt 6.58  k_ari 9.0
+   n =  65  ln t½ 3.96  brut 0.33  k 0.63  lissé 0.30  mfpt 7.22  k_ari 10.0
+   n =  97  ln t½ 5.51  brut 1.73  k 2.06  lissé 1.64  mfpt 8.67  k_ari 12.0
+   n = 129  ln t½ 6.88  brut 3.21  k 3.20  lissé 3.03  mfpt 9.95  k_ari 13.0
+   n = 193  ln t½ 9.25  brut 6.32  k 5.40  lissé 5.78  mfpt 12.45  k_ari 15.5

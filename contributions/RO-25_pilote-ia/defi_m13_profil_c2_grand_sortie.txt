@@ -1,0 +1,4 @@
+c2 257 λ 514.0 B_sortie 16.71 B_entree 17.11 T rot/col/ari 0 50 136 WL 36898 222 s
+c2 257 λ 514.0 B_sortie 16.02 B_entree 14.29 T rot/col/ari 1 40 135 WL 41351 245 s
+c2 385 λ 770.0 B_sortie nan B_entree nan T rot/col/ari None None None WL 88057 790 s
+c2 385 λ 770.0 B_sortie 20.79 B_entree 22.26 T rot/col/ari 0 60 188 WL 100168 875 s
