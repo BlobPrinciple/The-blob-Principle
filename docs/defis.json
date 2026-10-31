@@ -573,7 +573,7 @@
     "RO-25",
     "RO-20"
    ],
-   "issue": "",
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/45",
    "path_step": "P1",
    "state": "ouvert",
    "history": [
@@ -583,7 +583,8 @@
      "result": "[H] algébriquement correcte (facteur 6/q²) mais barrière = max, pas somme ; t½ suit N³ (puissance), pas Arrhenius ; δ(clique max) ≈ 0,40",
      "effect": "défi ouvert ; hypothèse contredite sous sa forme actuelle",
      "result_en": "[H] algebraically correct (factor 6/q²) but barrier = max not sum; t½ follows N³ (power law), not Arrhenius; δ(max clique) ≈ 0.40",
-     "effect_en": "challenge opened; hypothesis contradicted in its current form"
+     "effect_en": "challenge opened; hypothesis contradicted in its current form",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/45"
     }
    ],
    "derived": []

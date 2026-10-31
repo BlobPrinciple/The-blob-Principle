@@ -24,7 +24,7 @@ d87101ee0ac8e22df9b30ef1fbbec1d2a7b9345b82cd700275488524e4e8d7c0  ./CONTRIBUTEUR
 7819d253419a0b4f68b5e5020998c640398e8d6308b51e88d5ea7be24e19d237  ./CONTRIBUTING.md
 958691b1aba0698db758cca48ec9d826dcdfae99d62ff4c5e536ca18843c838c  ./Cassez_le_Blob_Colab.ipynb
 3c40c3d359dccc52c4043b6e63f85336fd30f1758ba10faef07a49dede78fc05  ./DEFIS.md
-8c49e6a3b5e17c5654af14f38bc9fee50ddd585e8e311a062e8c9babf1971dd6  ./EMPREINTES_SHA256.txt
+c833c79c06e64316c620b74622cc883630cceed25f8632dbca22bed1b4ada200  ./EMPREINTES_SHA256.txt
 7102da0dab44fcc9e9ecc6cddd7c464d12d414600d79484b75f53c4e9b9bd055  ./ETAT_DU_PROGRAMME.md
 f729ce0041ff1cf4f92685a7c7e4c62ca4b9ea38aa02707ac9ea4a61ff8d1237  ./GOUVERNANCE.md
 38abbfabe1793c08c90d7c26091c905b41291711705a68dba7e041c889e14c15  ./IA_CONTRIBUER.md
@@ -561,7 +561,7 @@ a3b4839372fb0539a91d273f07e0e23c714fd01c3b040880928f3dd1a25fde5f  ./corpus/07_co
 9fba7d69d2d778ad4753e1133432c878d71e875b6eea8c2213412142761ab405  ./docs/armature/blob-principle-armature-V347-1.pdf
 372b022315aa19db2cda0439fcc732b157016584080661bbecca37a3b402ac4c  ./docs/armature/blob-principle-armature-V347-1_EN.pdf
 6ea362df074433b7b9113b05d99a40c7da31076c1e600afcc8f706912ece6d9f  ./docs/armature/index.html
-f5679244649d4ef8e27648e59af008216ddf824febff6122df66e6ba56d5b29d  ./docs/defis.json
+f54dd6d02feaea66769fb1c0db6538ab8a9dcaf734a1f59015d437e4ba9aefe7  ./docs/defis.json
 2798c0837fc960d6bf350f777d67247a2aaa3c860e328ea24b0fa43187b30297  ./docs/fb/calendrier-facebook.json
 906df4ed8ba87dde8d412950cbb25444c51688acf0c492f9794cdcf4261af350  ./docs/fb/calendrier-instagram.json
 9d1a5452272ec68d2d88b5361622fb0bd077686803d4edd27787cd5ff88629de  ./docs/fb/film-blob-du-simplexe-au-complexe.mp4
