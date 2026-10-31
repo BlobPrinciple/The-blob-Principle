@@ -24,7 +24,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 ### Challenge status
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*Status as of 2026-10-23 — challenges v1.9.*
+*Status as of 2026-10-31 — challenges v2.0.*
 
 | Challenge | Proof-path step | State | Latest event |
 |---|---|---|---|
@@ -50,7 +50,8 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-M9 | P1 | open | 2026-10-16: [M] body of the newborn's mass law indistinguishable from the population's after 16 to 256 sweeps (N = 250 to 2,000, 200 births per size); [M] slow tail: 6 to 7% of newborns in the massive decile up to 1,024 sweeps (10% expected), 8.5% at 2,048; [M, partial] massive decile largely shared between chains on 9 clouds out of 10, and avoiding the cube's boundaries; [OPEN] role of age |
 | DEFI-M10 | P1 | open | — |
 | DEFI-M11 | P1 | open | 2026-10-20: [CERT] exact map, 102 cases with N + 1 ≤ 7: where G* gains at birth it slows relaxation in 50 cases out of 57 (45 out of 47 for a gain ≥ 10⁻³), anti-Gibbs speeds it up in 44 out of 57; [M] Monte Carlo N = 8 to 64, M + k = 2(N + 1), k = 4: global observables indifferent to the birth law after a few sweeps; half-time for the newborn's triangles at least of order N³ sweeps (0.5 at N = 8, 442 at N = 64), barely sensitive to the birth law of the family G_θ: 87 to 97% of the triangle mass is carried by an aristocracy of vertices |
-| DEFI-M12 | P1 | open | — |
+| DEFI-M12 | P1 | open | 2026-10-31: [M] maximum clique measured directly: q_max ~ N^0.40 (N = 17 to 129); q_eff underestimates by factor 1.3 to 2.5 |
+| DEFI-M15 | P1 | open | 2026-10-31: [H] algebraically correct (factor 6/q²) but barrier = max not sum; t½ follows N³ (power law), not Arrhenius; δ(max clique) ≈ 0.40 |
 | DEFI-G1 | P2 | open | — |
 | DEFI-G2 | P2 | open | — |
 | DEFI-G3 | P2 | open | — |

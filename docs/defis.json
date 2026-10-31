@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.9",
- "updated": "2026-10-23",
+ "version": "2.0",
+ "updated": "2026-10-31",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -496,7 +496,44 @@
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/38",
    "path_step": "P1",
    "state": "ouvert",
-   "history": [],
+   "history": [
+    {
+     "date": "2026-10-31",
+     "by": "Codex (OpenAI), vérifié par le pilote IA (Claude, Anthropic)",
+     "result": "[M] clique maximale mesurée directement : q_max ~ N^0,40 (N = 17 à 129) ; q_eff sous-estime d’un facteur 1,3 à 2,5",
+     "effect": "défi dérivé DEFI-M15 ouvert ; DEFI-M12 reste ouvert",
+     "result_en": "[M] maximum clique measured directly: q_max ~ N^0.40 (N = 17 to 129); q_eff underestimates by factor 1.3 to 2.5",
+     "effect_en": "derived challenge DEFI-M15 opened; DEFI-M12 stays open"
+    }
+   ],
+   "derived": [
+    "DEFI-M15"
+   ]
+  },
+  {
+   "code": "DEFI-M15",
+   "level": 2,
+   "statement_fr": "Loi structure–lenteur (RO-25, RO-20). L’hypothèse γ = α − δ survit-elle à un test correct ? Trois questions : la barrière est-elle le max ou la somme ? le temps de séjour suit-il Arrhenius ou une loi de puissance ? la clique maximale est-elle le goulot ?",
+   "statement_en": "Structure–slowness law (RO-25, RO-20). Does the hypothesis γ = α − δ survive a correct test? Three questions: is the barrier the max or the sum? does the sojourn time follow Arrhenius or a power law? is the maximum clique the bottleneck?",
+   "deliverable_fr": "Mesurer le temps de séjour dans un puits aristocratique, le max de |ΔS_sim| le long d’une transition, et la nature de la structure dominante, à deux densités et N ≥ 129 ; ou réfuter.",
+   "deliverable_en": "Measure the sojourn time in an aristocratic well, the max along a transition, and the dominant structure’s nature, at two densities and N ≥ 129; or refute.",
+   "open_research": [
+    "RO-25",
+    "RO-20"
+   ],
+   "issue": "",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-10-31",
+     "by": "Codex (OpenAI), vérifié par le pilote IA (Claude, Anthropic)",
+     "result": "[H] algébriquement correcte (facteur 6/q²) mais barrière = max, pas somme ; t½ suit N³ (puissance), pas Arrhenius ; δ(clique max) ≈ 0,40",
+     "effect": "défi ouvert ; hypothèse contredite sous sa forme actuelle",
+     "result_en": "[H] algebraically correct (factor 6/q²) but barrier = max not sum; t½ follows N³ (power law), not Arrhenius; δ(max clique) ≈ 0.40",
+     "effect_en": "challenge opened; hypothesis contradicted in its current form"
+    }
+   ],
    "derived": []
   },
   {

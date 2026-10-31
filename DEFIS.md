@@ -24,7 +24,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 ### État des défis
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*État au 2026-10-23 — défis v1.9.*
+*État au 2026-10-31 — défis v2.0.*
 
 | Défi | Étape du chemin de preuve | État | Dernier événement |
 |---|---|---|---|
@@ -50,7 +50,8 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-M9 | P1 | ouvert | 2026-10-16 : [M] corps de la loi des masses du nouveau-né indiscernable de la population après 16 à 256 balayages (N = 250 à 2 000, 200 naissances par taille) ; [M] queue lente : 6 à 7 % des nouveau-nés dans le décile massif jusqu'à 1 024 balayages (10 % attendus), 8,5 % à 2 048 ; [M, partiel] décile massif largement partagé entre chaînes sur 9 nuages sur 10, et évitant les bords du cube ; [OPEN] rôle de l'âge |
 | DEFI-M10 | P1 | ouvert | — |
 | DEFI-M11 | P1 | ouvert | 2026-10-20 : [CERT] carte exacte, 102 cas à N + 1 ≤ 7 : là où G* gagne à la naissance, il ralentit la relaxation dans 50 cas sur 57 (45 sur 47 pour un gain ≥ 10⁻³), l'anti-Gibbs accélère dans 44 cas sur 57 ; [M] Monte-Carlo N = 8 à 64, M + k = 2(N + 1), k = 4 : observables globales indifférentes à la loi de naissance après quelques balayages ; demi-temps d'accession des triangles du nouveau-né au moins de l'ordre de N³ balayages (0,5 à N = 8, 442 à N = 64), peu sensible à la loi de naissance de la famille G_θ : 87 à 97 % de la masse triangulaire est portée par une aristocratie de sommets |
-| DEFI-M12 | P1 | ouvert | — |
+| DEFI-M12 | P1 | ouvert | 2026-10-31 : [M] clique maximale mesurée directement : q_max ~ N^0,40 (N = 17 à 129) ; q_eff sous-estime d’un facteur 1,3 à 2,5 |
+| DEFI-M15 | P1 | ouvert | 2026-10-31 : [H] algébriquement correcte (facteur 6/q²) mais barrière = max, pas somme ; t½ suit N³ (puissance), pas Arrhenius ; δ(clique max) ≈ 0,40 |
 | DEFI-G1 | P2 | ouvert | — |
 | DEFI-G2 | P2 | ouvert | — |
 | DEFI-G3 | P2 | ouvert | — |
