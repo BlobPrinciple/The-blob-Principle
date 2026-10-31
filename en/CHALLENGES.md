@@ -24,7 +24,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 ### Challenge status
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*Status as of 2026-10-30 — challenges v1.11.*
+*Status as of 2026-10-31 — challenges v1.12.*
 
 | Challenge | Proof-path step | State | Latest event |
 |---|---|---|---|
@@ -50,9 +50,10 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-M9 | P1 | open | 2026-10-16: [M] body of the newborn's mass law indistinguishable from the population's after 16 to 256 sweeps (N = 250 to 2,000, 200 births per size); [M] slow tail: 6 to 7% of newborns in the massive decile up to 1,024 sweeps (10% expected), 8.5% at 2,048; [M, partial] massive decile largely shared between chains on 9 clouds out of 10, and avoiding the cube's boundaries; [OPEN] role of age |
 | DEFI-M10 | P1 | open | — |
 | DEFI-M11 | P1 | open | 2026-10-20: [CERT] exact map, 102 cases with N + 1 ≤ 7: where G* gains at birth it slows relaxation in 50 cases out of 57 (45 out of 47 for a gain ≥ 10⁻³), anti-Gibbs speeds it up in 44 out of 57; [M] Monte Carlo N = 8 to 64, M + k = 2(N + 1), k = 4: global observables indifferent to the birth law after a few sweeps; half-time for the newborn's triangles at least of order N³ sweeps (0.5 at N = 8, 442 at N = 64), barely sensitive to the birth law of the family G_θ: 87 to 97% of the triangle mass is carried by an aristocracy of vertices |
-| DEFI-M12 | P1 | open | 2026-10-27: [M] abstract graphs, mean degree 4, armature measure (λ = n/τ), n = 17 to 193: pooled autocorrelation half-time of T_v from 9.2 to 111,873 sweeps, neither a power law nor an exponential in n: log t½ = 0.964·√n − 1.77 (free exponent 0.507 ± 0.010), prediction made on n ≤ 97 verified within 2% at n = 129 and 193; DEFI-M11 birth method consistent at N = 96 and 128; [M] mean degree 6: super-polynomial, faster (about exp(a·n^0.6)); [M] the slowness follows λ: at fixed λ, t½ decreases with n and the aristocracy dissolves; at n = 65, log t½ affine in λ; [M] the aristocracy is a dominant clique of size ≈ n^0.47 carrying 69 to 90% of the triangles; [H] consequence for the bridge: ≈ 0.17·exp(0.96·√n) sweeps between births if the law continued |
+| DEFI-M12 | P1 | open | 2026-10-31: [M] maximum clique measured: q_max ~ N^0.40 (mean degree 4, N = 17 to 129); q_eff underestimates by factor 1.3 to 2.5 |
 | DEFI-M13 | P1 | open | 2026-10-30: [M] abstract graphs, mean degree 4, armature measure: the equilibrium law of T_v, measured by multicanonical sampling (two independent implementations, reviewer's third engine up to n = 97), is bimodal; the exit barrier from the aristocracy goes from 0.55 (n = 17) to 11.0 (n = 193); [M] DEFI-M12's t½ follows the residence time in the aristocracy measured without bias (ratio 1.5 to 1.9 from n = 25 to 193); [M] concave ln t½ ↔ barrier relation, slope 0.75 to 1.24 depending on the estimator: T_v is only an approximate reaction coordinate; no saddle left at λ = 66 (n = 65); [M] mean degree 6: no saddle up to n = 49, onset around n = 65; [H] exponent ≈ 0.6 = late crossover; [H] over n = 65 to 193 the barrier is compatible with √n; at n = 257 the predicted ln t½ ranges from 13.6 to 15.9 depending on the calibration, against 13.68 for exp(0.96·√n): asymptotics open |
 | DEFI-M14 | P1 | open | — |
+| DEFI-M15 | P1 | open | 2026-10-31: [H] algebraically correct (factor 6/q²) but barrier = max not sum; t½ follows N³ (power law), not Arrhenius; δ(max clique) ≈ 0.40 |
 | DEFI-G1 | P2 | open | — |
 | DEFI-G2 | P2 | open | — |
 | DEFI-G3 | P2 | open | — |

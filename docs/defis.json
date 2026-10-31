@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.11",
- "updated": "2026-10-30",
+ "version": "1.12",
+ "updated": "2026-10-31",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -505,10 +505,19 @@
      "effect": "résultat partiel (graphes abstraits ; moteur canonique non traité, aucune borne démontrée) ; DEFI-M12 reste ouvert ; défi dérivé DEFI-M13 ; aucun changement de statut",
      "result_en": "[M] abstract graphs, mean degree 4, armature measure (λ = n/τ), n = 17 to 193: pooled autocorrelation half-time of T_v from 9.2 to 111,873 sweeps, neither a power law nor an exponential in n: log t½ = 0.964·√n − 1.77 (free exponent 0.507 ± 0.010), prediction made on n ≤ 97 verified within 2% at n = 129 and 193; DEFI-M11 birth method consistent at N = 96 and 128; [M] mean degree 6: super-polynomial, faster (about exp(a·n^0.6)); [M] the slowness follows λ: at fixed λ, t½ decreases with n and the aristocracy dissolves; at n = 65, log t½ affine in λ; [M] the aristocracy is a dominant clique of size ≈ n^0.47 carrying 69 to 90% of the triangles; [H] consequence for the bridge: ≈ 0.17·exp(0.96·√n) sweeps between births if the law continued",
      "effect_en": "partial result (abstract graphs; canonical engine not addressed, no proven bound); DEFI-M12 stays open; derived challenge DEFI-M13; no status change"
+    },
+    {
+     "date": "2026-10-31",
+     "by": "Codex (OpenAI), vérifié par le pilote IA (Claude, Anthropic)",
+     "result": "[M] clique maximale mesurée : q_max ~ N^0,40 (degré moyen 4, N = 17 à 129) ; q_eff sous-estime d’un facteur 1,3 à 2,5",
+     "effect": "défi dérivé DEFI-M15 ouvert ; DEFI-M12 reste ouvert",
+     "result_en": "[M] maximum clique measured: q_max ~ N^0.40 (mean degree 4, N = 17 to 129); q_eff underestimates by factor 1.3 to 2.5",
+     "effect_en": "derived challenge DEFI-M15 opened; DEFI-M12 stays open"
     }
    ],
    "derived": [
-    "DEFI-M13"
+    "DEFI-M13",
+    "DEFI-M15"
    ]
   },
   {
@@ -551,6 +560,32 @@
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-M15",
+   "level": 2,
+   "statement_fr": "Loi structure–lenteur (RO-25, RO-20). L’hypothèse γ = α − δ survit-elle à un test correct ? Trois questions : la barrière est-elle le max ou la somme ? le temps de séjour suit-il Arrhenius ou une loi de puissance ? la clique maximale est-elle le goulot ?",
+   "statement_en": "Structure–slowness law (RO-25, RO-20). Does the hypothesis γ = α − δ survive a correct test? Three questions: is the barrier the max or the sum? does the sojourn time follow Arrhenius or a power law? is the maximum clique the bottleneck?",
+   "deliverable_fr": "Mesurer le temps de séjour dans un puits aristocratique, le max de |ΔS_sim| le long d’une transition, et la nature de la structure dominante, à deux densités et N ≥ 129 ; ou réfuter.",
+   "deliverable_en": "Measure the sojourn time in an aristocratic well, the max along a transition, and the dominant structure’s nature, at two densities and N ≥ 129; or refute.",
+   "open_research": [
+    "RO-25",
+    "RO-20"
+   ],
+   "issue": "",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-10-31",
+     "by": "Codex (OpenAI), vérifié par le pilote IA (Claude, Anthropic)",
+     "result": "[H] algébriquement correcte (facteur 6/q²) mais barrière = max, pas somme ; t½ suit N³ (puissance), pas Arrhenius ; δ(clique max) ≈ 0,40",
+     "effect": "défi ouvert ; hypothèse contredite sous sa forme actuelle",
+     "result_en": "[H] algebraically correct (factor 6/q²) but barrier = max not sum; t½ follows N³ (power law), not Arrhenius; δ(max clique) ≈ 0.40",
+     "effect_en": "challenge opened; hypothesis contradicted in its current form"
+    }
+   ],
    "derived": []
   },
   {

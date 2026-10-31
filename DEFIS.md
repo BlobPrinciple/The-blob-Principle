@@ -24,7 +24,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 ### État des défis
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*État au 2026-10-30 — défis v1.11.*
+*État au 2026-10-31 — défis v1.12.*
 
 | Défi | Étape du chemin de preuve | État | Dernier événement |
 |---|---|---|---|
@@ -50,9 +50,10 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-M9 | P1 | ouvert | 2026-10-16 : [M] corps de la loi des masses du nouveau-né indiscernable de la population après 16 à 256 balayages (N = 250 à 2 000, 200 naissances par taille) ; [M] queue lente : 6 à 7 % des nouveau-nés dans le décile massif jusqu'à 1 024 balayages (10 % attendus), 8,5 % à 2 048 ; [M, partiel] décile massif largement partagé entre chaînes sur 9 nuages sur 10, et évitant les bords du cube ; [OPEN] rôle de l'âge |
 | DEFI-M10 | P1 | ouvert | — |
 | DEFI-M11 | P1 | ouvert | 2026-10-20 : [CERT] carte exacte, 102 cas à N + 1 ≤ 7 : là où G* gagne à la naissance, il ralentit la relaxation dans 50 cas sur 57 (45 sur 47 pour un gain ≥ 10⁻³), l'anti-Gibbs accélère dans 44 cas sur 57 ; [M] Monte-Carlo N = 8 à 64, M + k = 2(N + 1), k = 4 : observables globales indifférentes à la loi de naissance après quelques balayages ; demi-temps d'accession des triangles du nouveau-né au moins de l'ordre de N³ balayages (0,5 à N = 8, 442 à N = 64), peu sensible à la loi de naissance de la famille G_θ : 87 à 97 % de la masse triangulaire est portée par une aristocratie de sommets |
-| DEFI-M12 | P1 | ouvert | 2026-10-27 : [M] graphes abstraits, degré moyen 4, mesure de l'armature (λ = n/τ), n = 17 à 193 : demi-temps d'autocorrélation poolée de T_v de 9,2 à 111 873 balayages, ni loi de puissance ni exponentielle en n : log t½ = 0,964·√n − 1,77 (exposant libre 0,507 ± 0,010), prédiction faite sur n ≤ 97 vérifiée à 2 % près à n = 129 et 193 ; méthode naissance de DEFI-M11 concordante à N = 96 et 128 ; [M] degré moyen 6 : sur-polynomial, plus rapide (exp(a·n^0,6) environ) ; [M] la lenteur suit λ : à λ fixé, t½ décroît avec n et l'aristocratie se dissout ; à n = 65, log t½ affine en λ ; [M] l'aristocratie est une clique dominante de taille ≈ n^0,47 portant 69 à 90 % des triangles ; [H] conséquence pour le pont : ≈ 0,17·exp(0,96·√n) balayages entre naissances si la loi se prolongeait |
+| DEFI-M12 | P1 | ouvert | 2026-10-31 : [M] clique maximale mesurée : q_max ~ N^0,40 (degré moyen 4, N = 17 à 129) ; q_eff sous-estime d’un facteur 1,3 à 2,5 |
 | DEFI-M13 | P1 | ouvert | 2026-10-30 : [M] graphes abstraits, degré moyen 4, mesure de l'armature : la loi d'équilibre de T_v, mesurée par échantillonnage multicanonique (deux implémentations indépendantes, troisième moteur du relecteur jusqu'à n = 97), est bimodale ; la barrière de sortie de l'aristocratie passe de 0,55 (n = 17) à 11,0 (n = 193) ; [M] le t½ de DEFI-M12 suit le temps de séjour dans l'aristocratie mesuré sans biais (rapport 1,5 à 1,9 de n = 25 à 193) ; [M] relation ln t½ ↔ barrière concave, pente 0,75 à 1,24 selon l'estimateur : T_v n'est qu'une coordonnée de réaction approchée ; plus de col à λ = 66 (n = 65) ; [M] degré moyen 6 : pas de col jusqu'à n = 49, apparition vers n = 65 ; [H] exposant ≈ 0,6 = croisement tardif ; [H] sur n = 65 à 193 la barrière est compatible avec √n ; à n = 257 la prédiction de ln t½ va de 13,6 à 15,9 selon la calibration, contre 13,68 pour exp(0,96·√n) : asymptotique ouverte |
 | DEFI-M14 | P1 | ouvert | — |
+| DEFI-M15 | P1 | ouvert | 2026-10-31 : [H] algébriquement correcte (facteur 6/q²) mais barrière = max, pas somme ; t½ suit N³ (puissance), pas Arrhenius ; δ(clique max) ≈ 0,40 |
 | DEFI-G1 | P2 | ouvert | — |
 | DEFI-G2 | P2 | ouvert | — |
 | DEFI-G3 | P2 | ouvert | — |
