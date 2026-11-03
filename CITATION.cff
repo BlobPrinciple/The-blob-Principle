@@ -8,12 +8,15 @@ authors:
     affiliation: "Chercheur indépendant — Hâpy-Com SASU, Serris, France"
     orcid: "https://orcid.org/0009-0001-0990-7122"
 type: dataset
-version: "1.4.0"
+version: "1.5.0"
 doi: "10.5281/zenodo.23188586"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23188586"
     description: "DOI de toutes les versions (concept DOI)"
+  - type: doi
+    value: "10.5281/zenodo.23914038"
+    description: "DOI de la version 1.5.0"
   - type: doi
     value: "10.5281/zenodo.23590825"
     description: "DOI de la version 1.4.0"
@@ -28,7 +31,7 @@ identifiers:
     description: "Archive Software Heritage du dépôt (19 octobre 2026)"
 repository-code: "https://github.com/BlobPrinciple/The-blob-Principle"
 url: "https://blobprinciple.github.io/The-blob-Principle/"
-date-released: "2026-10-23"
+date-released: "2026-11-03"
 license: CC-BY-NC-ND-4.0
 keywords:
   - Blob Principle
