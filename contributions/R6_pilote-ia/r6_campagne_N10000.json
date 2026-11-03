@@ -1,0 +1,296 @@
+{
+ "N": 10000,
+ "balayages": 5,
+ "s": 0.12,
+ "K": 8,
+ "graines": {
+  "0": {
+   "fige": {
+    "Pmax_sur_mediane": 483.99899548087956,
+    "Pmax_sur_N2": 0.09443964197982915,
+    "kmax": 1,
+    "mediane_sur_N": 1.9512363220092672,
+    "vides": 0.811875
+   },
+   "degre_moyen_initial": 68.9858,
+   "mobile": {
+    "Pmax_sur_mediane": 508.31814881067186,
+    "Pmax_sur_N2": 0.09376188306196097,
+    "kmax": 1,
+    "mediane_sur_N": 1.8445511591773505,
+    "vides": 0.8083750000000001,
+    "deplacement_moyen": 0.01314962534631279,
+    "fraction_deplaces": 0.4598
+   },
+   "viab": {
+    "Pmax_sur_mediane": 539.9405008735755,
+    "Pmax_sur_N2": 0.09596307429410672,
+    "kmax": 1,
+    "mediane_sur_N": 1.7772897965395638,
+    "vides": 0.8186249999999999,
+    "deplacement_moyen": 0.01715871475823027,
+    "fraction_deplaces": 0.5882
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.2236464472997084,
+    "Pmax_sur_N2": 0.00012275854823594912,
+    "kmax": 3,
+    "mediane_sur_N": 1.0032190957351081,
+    "vides": 0.28900000000000003
+   },
+   "secondes": 33.161070585250854
+  },
+  "1": {
+   "fige": {
+    "Pmax_sur_mediane": 718.074982830049,
+    "Pmax_sur_N2": 0.25897823463680014,
+    "kmax": 1,
+    "mediane_sur_N": 3.6065625572433295,
+    "vides": 0.851375
+   },
+   "degre_moyen_initial": 84.6104,
+   "mobile": {
+    "Pmax_sur_mediane": 826.1089467307725,
+    "Pmax_sur_N2": 0.2578237218978652,
+    "kmax": 1,
+    "mediane_sur_N": 3.1209409233270233,
+    "vides": 0.848875,
+    "deplacement_moyen": 0.012891939384990229,
+    "fraction_deplaces": 0.4646
+   },
+   "viab": {
+    "Pmax_sur_mediane": 881.115263738691,
+    "Pmax_sur_N2": 0.26260021694433794,
+    "kmax": 1,
+    "mediane_sur_N": 2.9803162849556113,
+    "vides": 0.8552500000000001,
+    "deplacement_moyen": 0.01734453380393963,
+    "fraction_deplaces": 0.6098
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.2109842639375072,
+    "Pmax_sur_N2": 0.00012125002063591166,
+    "kmax": 1,
+    "mediane_sur_N": 1.001251826689044,
+    "vides": 0.28312499999999996
+   },
+   "secondes": 50.111796140670776
+  },
+  "2": {
+   "fige": {
+    "Pmax_sur_mediane": 103.85460396723454,
+    "Pmax_sur_N2": 0.12536154561159477,
+    "kmax": 1,
+    "mediane_sur_N": 12.07087031511338,
+    "vides": 0.865625
+   },
+   "degre_moyen_initial": 143.456,
+   "mobile": {
+    "Pmax_sur_mediane": 123.1930747913279,
+    "Pmax_sur_N2": 0.12562769622036074,
+    "kmax": 1,
+    "mediane_sur_N": 10.19762648453712,
+    "vides": 0.860625,
+    "deplacement_moyen": 0.012828415456337863,
+    "fraction_deplaces": 0.461
+   },
+   "viab": {
+    "Pmax_sur_mediane": 131.44374417201178,
+    "Pmax_sur_N2": 0.12660349076796323,
+    "kmax": 1,
+    "mediane_sur_N": 9.631762360807798,
+    "vides": 0.870125,
+    "deplacement_moyen": 0.015857787742457184,
+    "fraction_deplaces": 0.5854
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.0430225465795635,
+    "Pmax_sur_N2": 0.00010371167658120096,
+    "kmax": 3,
+    "mediane_sur_N": 0.9943378206090356,
+    "vides": 0.27975000000000005
+   },
+   "secondes": 158.36753368377686
+  },
+  "3": {
+   "fige": {
+    "Pmax_sur_mediane": 401.7243048769862,
+    "Pmax_sur_N2": 0.10335553791698232,
+    "kmax": 1,
+    "mediane_sur_N": 2.572797728746616,
+    "vides": 0.75975
+   },
+   "degre_moyen_initial": 53.1494,
+   "mobile": {
+    "Pmax_sur_mediane": 446.55838937450926,
+    "Pmax_sur_N2": 0.10301864961073537,
+    "kmax": 1,
+    "mediane_sur_N": 2.306946909116023,
+    "vides": 0.75675,
+    "deplacement_moyen": 0.013175183972744213,
+    "fraction_deplaces": 0.4609
+   },
+   "viab": {
+    "Pmax_sur_mediane": 504.25787155575034,
+    "Pmax_sur_N2": 0.10497290164741227,
+    "kmax": 1,
+    "mediane_sur_N": 2.081730550354067,
+    "vides": 0.767375,
+    "deplacement_moyen": 0.017189667820476883,
+    "fraction_deplaces": 0.5934
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.3608832216025437,
+    "Pmax_sur_N2": 0.00013654403326702325,
+    "kmax": 1,
+    "mediane_sur_N": 1.0033486422606654,
+    "vides": 0.2855
+   },
+   "secondes": 44.96980595588684
+  },
+  "4": {
+   "fige": {
+    "Pmax_sur_mediane": 446.6115925657264,
+    "Pmax_sur_N2": 0.2145985970046131,
+    "kmax": 1,
+    "mediane_sur_N": 4.80503866394895,
+    "vides": 0.84175
+   },
+   "degre_moyen_initial": 94.5876,
+   "mobile": {
+    "Pmax_sur_mediane": 519.3611664883003,
+    "Pmax_sur_N2": 0.2132899729227349,
+    "kmax": 1,
+    "mediane_sur_N": 4.106775528962073,
+    "vides": 0.835375,
+    "deplacement_moyen": 0.012920994498265842,
+    "fraction_deplaces": 0.4586
+   },
+   "viab": {
+    "Pmax_sur_mediane": 544.1116917982143,
+    "Pmax_sur_N2": 0.2182972805143039,
+    "kmax": 1,
+    "mediane_sur_N": 4.011993930747222,
+    "vides": 0.84625,
+    "deplacement_moyen": 0.016694591331674134,
+    "fraction_deplaces": 0.5934
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.0844915500099332,
+    "Pmax_sur_N2": 0.00010865849417132336,
+    "kmax": 4,
+    "mediane_sur_N": 1.0019302978462867,
+    "vides": 0.2855
+   },
+   "secondes": 139.16829752922058
+  },
+  "5": {
+   "fige": {
+    "Pmax_sur_mediane": 644.4209838560404,
+    "Pmax_sur_N2": 0.14924162463684135,
+    "kmax": 1,
+    "mediane_sur_N": 2.3159026222861323,
+    "vides": 0.7641249999999999
+   },
+   "degre_moyen_initial": 48.3822,
+   "mobile": {
+    "Pmax_sur_mediane": 676.0372104658511,
+    "Pmax_sur_N2": 0.1485570639730401,
+    "kmax": 1,
+    "mediane_sur_N": 2.1974687439271396,
+    "vides": 0.76125,
+    "deplacement_moyen": 0.013076252548591192,
+    "fraction_deplaces": 0.4609
+   },
+   "viab": {
+    "Pmax_sur_mediane": 754.4728859359512,
+    "Pmax_sur_N2": 0.15133837146192147,
+    "kmax": 1,
+    "mediane_sur_N": 2.0058821765898274,
+    "vides": 0.770875,
+    "deplacement_moyen": 0.017558022743051998,
+    "fraction_deplaces": 0.602
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.2772603122988242,
+    "Pmax_sur_N2": 0.00012672585335666084,
+    "kmax": 2,
+    "mediane_sur_N": 0.9921693497904005,
+    "vides": 0.28412499999999996
+   },
+   "secondes": 50.36665391921997
+  },
+  "6": {
+   "fige": {
+    "Pmax_sur_mediane": 763.4245368785798,
+    "Pmax_sur_N2": 0.11270605033929398,
+    "kmax": 1,
+    "mediane_sur_N": 1.4763220841724074,
+    "vides": 0.81975
+   },
+   "degre_moyen_initial": 67.3678,
+   "mobile": {
+    "Pmax_sur_mediane": 782.0554443427214,
+    "Pmax_sur_N2": 0.11201287616260955,
+    "kmax": 1,
+    "mediane_sur_N": 1.43228817052416,
+    "vides": 0.815,
+    "deplacement_moyen": 0.013097670556974894,
+    "fraction_deplaces": 0.4591
+   },
+   "viab": {
+    "Pmax_sur_mediane": 816.0996179725212,
+    "Pmax_sur_N2": 0.11467939536501746,
+    "kmax": 1,
+    "mediane_sur_N": 1.4052131975005877,
+    "vides": 0.82425,
+    "deplacement_moyen": 0.01684805540388601,
+    "fraction_deplaces": 0.5868
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.2487711604036054,
+    "Pmax_sur_N2": 0.00012481429838084496,
+    "kmax": 2,
+    "mediane_sur_N": 0.9994969642036317,
+    "vides": 0.2845
+   },
+   "secondes": 71.76203083992004
+  },
+  "7": {
+   "fige": {
+    "Pmax_sur_mediane": 1192.70726773859,
+    "Pmax_sur_N2": 0.1458078473691038,
+    "kmax": 1,
+    "mediane_sur_N": 1.2224948343407012,
+    "vides": 0.760875
+   },
+   "degre_moyen_initial": 45.2462,
+   "mobile": {
+    "Pmax_sur_mediane": 1177.2942089236642,
+    "Pmax_sur_N2": 0.1449829125179314,
+    "kmax": 1,
+    "mediane_sur_N": 1.2314926160257034,
+    "vides": 0.75625,
+    "deplacement_moyen": 0.013588344740726413,
+    "fraction_deplaces": 0.4666
+   },
+   "viab": {
+    "Pmax_sur_mediane": 1218.6957954731347,
+    "Pmax_sur_N2": 0.14876910959851722,
+    "kmax": 1,
+    "mediane_sur_N": 1.2207239095361002,
+    "vides": 0.769375,
+    "deplacement_moyen": 0.017719661412949186,
+    "fraction_deplaces": 0.5989
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.1454354606582478,
+    "Pmax_sur_N2": 0.00011491946262121867,
+    "kmax": 2,
+    "mediane_sur_N": 1.003281865878134,
+    "vides": 0.28600000000000003
+   },
+   "secondes": 45.32486963272095
+  }
+ }
+}

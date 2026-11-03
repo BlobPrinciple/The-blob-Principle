@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.12",
- "updated": "2026-10-31",
+ "version": "1.13",
+ "updated": "2026-11-03",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -264,6 +264,32 @@
    "deliverable_fr": "Campagne à quatre bras au moins (multi-sites avec viabilité, multi-sites mobile sans viabilité, multi-sites figé, Poisson), N ≥ 5 000 à deux tailles au moins, au moins 8 graines par bras, statistiques par graine pour P_max/médiane et la fraction de vides, code et JSON publiés ; ou argument démontré qui attribue l'effet.",
    "open_research": [],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/40",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-11-03",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/46",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[T]+[M] fichier archivé : P_max/N² constant de N = 1 000 à 20 000 (pente 0,01 ± 0,04), la croissance de P_max/médiane est cinématique ; signal de viabilité à k intermédiaire ; [M] campagne reconstruite à quatre bras appariés (moteur archivé) : à 5–20 balayages la nucléation porte 89 à 99 % de l'amplitude, la mobilité seule l'érode, la viabilité l'accroît et creuse les vides (8/8), part croissante avec la durée ; viabilité seule depuis l'uniforme : vides +0,025 → +0,128, pic à k = 3–5 ≈ 1/(2,9·r_N)",
+     "effect": "« propre à la viabilité » et « croît avec N » (V346 XXV.2–XXV.3) ne tiennent pas pour P_max/médiane ; action propre de la viabilité à petite échelle ; DEFI-R6 reste ouvert (script producteur manquant) ; DEFI-R7 ouvert ; aucun changement de statut",
+     "result_en": "[T]+[M] archived file: P_max/N² constant from N = 1,000 to 20,000 (slope 0.01 ± 0.04), the growth of P_max/median is kinematic; viability signal at intermediate k; [M] reconstructed four-arm paired campaign (archived engine): at 5–20 sweeps nucleation carries 89 to 99% of the amplitude, mobility alone erodes it, viability increases it and deepens voids (8/8), share growing with duration; viability alone from uniform: voids +0.025 → +0.128, peak at k = 3–5 ≈ 1/(2.9·r_N)",
+     "effect_en": "\"specific to viability\" and \"grows with N\" (V346 XXV.2–XXV.3) do not hold for P_max/median; viability has its own small-scale action; DEFI-R6 stays open (producing script missing); DEFI-R7 opened; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-R7"
+   ]
+  },
+  {
+   "code": "DEFI-R7",
+   "level": 1,
+   "statement_fr": "La condensation viable : échelle du modèle ou mûrissement sans fin ? Sous le moteur de mobilité archivé (relax_positions, V346 XXV.1 p. 642), la viabilité seule, depuis un départ uniforme, creuse des vides (+0,025 à 20 balayages, +0,128 à 320, N = 2 500) et fait naître un pic de P(k) à k = 3–5, environ 2,9 fois le rayon de connexion r_N ; la mobilité sans viabilité ne fait rien de tel (contributions/R6_pilote-ia/NOTE.md, partie C). Cette condensation s'arrête-t-elle à une échelle fixée par r_N, β et τ, ou mûrit-elle sans fin ? Survit-elle à une boîte périodique ?",
+   "statement_en": "Viable condensation: a model scale or endless coarsening? Under the archived mobility engine, viability alone, from a uniform start, deepens voids and produces a P(k) peak at k = 3–5 (≈ 2.9 r_N); mobility without viability does not (contributions/R6_pilote-ia/NOTE_EN.md, part C). Does this condensation stop at a scale set by r_N, β and τ, or coarsen without end? Does it survive a periodic box?",
+   "deliverable_fr": "Campagne en boîte périodique, départ uniforme, au moins 3 tailles N et 8 graines par point, jusqu'à au moins 1 280 balayages : longueur caractéristique L(t, N) avec barres d'erreur, comparée à r_N ; ou argument démontré qui la fixe.",
+   "deliverable_en": "Periodic-box campaign, uniform start, at least 3 sizes N and 8 seeds per point, up to at least 1,280 sweeps: characteristic length L(t, N) with error bars, compared with r_N; or a proven argument that fixes it.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/47",
    "path_step": "T",
    "state": "ouvert",
    "history": [],

@@ -1,0 +1,297 @@
+{
+ "N": 2500,
+ "balayages": 20,
+ "s": 0.12,
+ "K": 8,
+ "init": "poisson",
+ "graines": {
+  "0": {
+   "fige": {
+    "Pmax_sur_mediane": 1.1130554993860635,
+    "Pmax_sur_N2": 0.0004394840487281002,
+    "kmax": 10,
+    "mediane_sur_N": 0.9871117140396631,
+    "vides": 0.730125
+   },
+   "degre_moyen_initial": 5.7392,
+   "mobile": {
+    "Pmax_sur_mediane": 1.1348792226048288,
+    "Pmax_sur_N2": 0.00045770941028169533,
+    "kmax": 3,
+    "mediane_sur_N": 1.0082777998859185,
+    "vides": 0.730375,
+    "deplacement_moyen": 0.05788809309755095,
+    "fraction_deplaces": 0.92
+   },
+   "viab": {
+    "Pmax_sur_mediane": 2.5977914190236886,
+    "Pmax_sur_N2": 0.0010559721754005629,
+    "kmax": 5,
+    "mediane_sur_N": 1.0162210942607377,
+    "vides": 0.75625,
+    "deplacement_moyen": 0.06593191016760418,
+    "fraction_deplaces": 0.9612
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.547043500237576,
+    "Pmax_sur_N2": 0.000617683816377651,
+    "kmax": 1,
+    "mediane_sur_N": 0.9981681450502113,
+    "vides": 0.7308749999999999
+   },
+   "secondes": 5.7907633781433105
+  },
+  "1": {
+   "fige": {
+    "Pmax_sur_mediane": 1.0735736564012917,
+    "Pmax_sur_N2": 0.00042757705772261814,
+    "kmax": 6,
+    "mediane_sur_N": 0.9956863582976971,
+    "vides": 0.734875
+   },
+   "degre_moyen_initial": 5.976,
+   "mobile": {
+    "Pmax_sur_mediane": 1.3322622490271772,
+    "Pmax_sur_N2": 0.000537973040224247,
+    "kmax": 3,
+    "mediane_sur_N": 1.0095104034830171,
+    "vides": 0.73075,
+    "deplacement_moyen": 0.05848970702714769,
+    "fraction_deplaces": 0.9176
+   },
+   "viab": {
+    "Pmax_sur_mediane": 3.10962321525012,
+    "Pmax_sur_N2": 0.0012667543465373562,
+    "kmax": 4,
+    "mediane_sur_N": 1.0184146589890521,
+    "vides": 0.758875,
+    "deplacement_moyen": 0.06559924379406722,
+    "fraction_deplaces": 0.9544
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.192287081125009,
+    "Pmax_sur_N2": 0.0004798058577922183,
+    "kmax": 1,
+    "mediane_sur_N": 1.0060619321218487,
+    "vides": 0.73175
+   },
+   "secondes": 5.36428165435791
+  },
+  "2": {
+   "fige": {
+    "Pmax_sur_mediane": 1.4731304092019597,
+    "Pmax_sur_N2": 0.0005956858055660393,
+    "kmax": 1,
+    "mediane_sur_N": 1.01091831694782,
+    "vides": 0.7344999999999999
+   },
+   "degre_moyen_initial": 6.0504,
+   "mobile": {
+    "Pmax_sur_mediane": 1.3541065658961662,
+    "Pmax_sur_N2": 0.0005405185440916224,
+    "kmax": 1,
+    "mediane_sur_N": 0.997924679092557,
+    "vides": 0.72975,
+    "deplacement_moyen": 0.05857784411201033,
+    "fraction_deplaces": 0.9164
+   },
+   "viab": {
+    "Pmax_sur_mediane": 3.094946914706389,
+    "Pmax_sur_N2": 0.0012403639837906722,
+    "kmax": 5,
+    "mediane_sur_N": 1.0019267034086938,
+    "vides": 0.75675,
+    "deplacement_moyen": 0.06497871328816222,
+    "fraction_deplaces": 0.9568
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.3985518978837344,
+    "Pmax_sur_N2": 0.0005631948342315236,
+    "kmax": 1,
+    "mediane_sur_N": 1.0067463979773308,
+    "vides": 0.7304999999999999
+   },
+   "secondes": 5.3651440143585205
+  },
+  "3": {
+   "fige": {
+    "Pmax_sur_mediane": 1.1167150654286675,
+    "Pmax_sur_N2": 0.00044185703041348047,
+    "kmax": 6,
+    "mediane_sur_N": 0.989189284027137,
+    "vides": 0.72975
+   },
+   "degre_moyen_initial": 5.9552,
+   "mobile": {
+    "Pmax_sur_mediane": 1.0779823403969613,
+    "Pmax_sur_N2": 0.0004280414047122546,
+    "kmax": 19,
+    "mediane_sur_N": 0.9926911338701305,
+    "vides": 0.731875,
+    "deplacement_moyen": 0.05750769214019381,
+    "fraction_deplaces": 0.9188
+   },
+   "viab": {
+    "Pmax_sur_mediane": 3.2373130352687616,
+    "Pmax_sur_N2": 0.0013133468297133021,
+    "kmax": 4,
+    "mediane_sur_N": 1.0142260073439795,
+    "vides": 0.757375,
+    "deplacement_moyen": 0.06528158544661483,
+    "fraction_deplaces": 0.9564
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.0795707483542445,
+    "Pmax_sur_N2": 0.0004347958838554826,
+    "kmax": 8,
+    "mediane_sur_N": 1.0068721399646776,
+    "vides": 0.731
+   },
+   "secondes": 5.60344123840332
+  },
+  "4": {
+   "fige": {
+    "Pmax_sur_mediane": 1.130928165118242,
+    "Pmax_sur_N2": 0.0004524815869737147,
+    "kmax": 5,
+    "mediane_sur_N": 1.0002438725328024,
+    "vides": 0.7335
+   },
+   "degre_moyen_initial": 6.0512,
+   "mobile": {
+    "Pmax_sur_mediane": 1.0830205424952182,
+    "Pmax_sur_N2": 0.0004344165704673351,
+    "kmax": 5,
+    "mediane_sur_N": 1.0027893133644166,
+    "vides": 0.733375,
+    "deplacement_moyen": 0.058458369784022024,
+    "fraction_deplaces": 0.9148
+   },
+   "viab": {
+    "Pmax_sur_mediane": 3.7546202745921473,
+    "Pmax_sur_N2": 0.001516608249486063,
+    "kmax": 4,
+    "mediane_sur_N": 1.009827984303158,
+    "vides": 0.759,
+    "deplacement_moyen": 0.06596882269250812,
+    "fraction_deplaces": 0.9608
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.0645040483675416,
+    "Pmax_sur_N2": 0.0004215884201910447,
+    "kmax": 13,
+    "mediane_sur_N": 0.9901052533279863,
+    "vides": 0.7315
+   },
+   "secondes": 5.395748615264893
+  },
+  "5": {
+   "fige": {
+    "Pmax_sur_mediane": 1.1279566501184026,
+    "Pmax_sur_N2": 0.0004442451675625318,
+    "kmax": 2,
+    "mediane_sur_N": 0.9846237608420035,
+    "vides": 0.735
+   },
+   "degre_moyen_initial": 5.9408,
+   "mobile": {
+    "Pmax_sur_mediane": 1.191709173182675,
+    "Pmax_sur_N2": 0.00047945120270107857,
+    "kmax": 2,
+    "mediane_sur_N": 1.0058058070926343,
+    "vides": 0.736625,
+    "deplacement_moyen": 0.05742973293926784,
+    "fraction_deplaces": 0.9148
+   },
+   "viab": {
+    "Pmax_sur_mediane": 3.17304057188674,
+    "Pmax_sur_N2": 0.001277625441116333,
+    "kmax": 4,
+    "mediane_sur_N": 1.0066255159452915,
+    "vides": 0.754625,
+    "deplacement_moyen": 0.06564232020685852,
+    "fraction_deplaces": 0.9532
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.0596555851432896,
+    "Pmax_sur_N2": 0.00042060806839517206,
+    "kmax": 8,
+    "mediane_sur_N": 0.9923225864427834,
+    "vides": 0.733
+   },
+   "secondes": 5.4509241580963135
+  },
+  "6": {
+   "fige": {
+    "Pmax_sur_mediane": 1.0992997711447299,
+    "Pmax_sur_N2": 0.0004425346680983283,
+    "kmax": 7,
+    "mediane_sur_N": 1.0064012558592306,
+    "vides": 0.7324999999999999
+   },
+   "degre_moyen_initial": 6.0176,
+   "mobile": {
+    "Pmax_sur_mediane": 1.190517097898639,
+    "Pmax_sur_N2": 0.00047529849556467786,
+    "kmax": 7,
+    "mediane_sur_N": 0.9980925439954179,
+    "vides": 0.731625,
+    "deplacement_moyen": 0.05719965010600099,
+    "fraction_deplaces": 0.9128
+   },
+   "viab": {
+    "Pmax_sur_mediane": 3.0732005287185795,
+    "Pmax_sur_N2": 0.0012360672932704552,
+    "kmax": 5,
+    "mediane_sur_N": 1.005521183632177,
+    "vides": 0.75975,
+    "deplacement_moyen": 0.0652832086142407,
+    "fraction_deplaces": 0.9592
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.4446938054285627,
+    "Pmax_sur_N2": 0.0005809412581141656,
+    "kmax": 1,
+    "mediane_sur_N": 1.0053017046436212,
+    "vides": 0.735625
+   },
+   "secondes": 5.439179182052612
+  },
+  "7": {
+   "fige": {
+    "Pmax_sur_mediane": 1.0942782445978494,
+    "Pmax_sur_N2": 0.0004344439451173657,
+    "kmax": 8,
+    "mediane_sur_N": 0.9925353703733394,
+    "vides": 0.73075
+   },
+   "degre_moyen_initial": 5.9432,
+   "mobile": {
+    "Pmax_sur_mediane": 1.0985058487551453,
+    "Pmax_sur_N2": 0.00044044479384445026,
+    "kmax": 8,
+    "mediane_sur_N": 1.0023724369414453,
+    "vides": 0.73,
+    "deplacement_moyen": 0.059413080181509134,
+    "fraction_deplaces": 0.9152
+   },
+   "viab": {
+    "Pmax_sur_mediane": 3.5909218251871766,
+    "Pmax_sur_N2": 0.001442947479794107,
+    "kmax": 4,
+    "mediane_sur_N": 1.004580125967302,
+    "vides": 0.75525,
+    "deplacement_moyen": 0.0665201779209951,
+    "fraction_deplaces": 0.9564
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.5031605626554039,
+    "Pmax_sur_N2": 0.0006013645032648359,
+    "kmax": 1,
+    "mediane_sur_N": 1.0001667789276238,
+    "vides": 0.733625
+   },
+   "secondes": 5.146854639053345
+  }
+ }
+}

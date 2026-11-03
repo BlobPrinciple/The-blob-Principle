@@ -1,0 +1,152 @@
+{
+ "N": 20000,
+ "balayages": 5,
+ "s": 0.12,
+ "K": 8,
+ "graines": {
+  "4": {
+   "fige": {
+    "Pmax_sur_mediane": 479.2795240729258,
+    "Pmax_sur_N2": 0.21672959709466016,
+    "kmax": 1,
+    "mediane_sur_N": 9.043974808391072,
+    "vides": 0.8103750000000001
+   },
+   "degre_moyen_initial": 107.8437,
+   "mobile": {
+    "Pmax_sur_mediane": 545.5320142217244,
+    "Pmax_sur_N2": 0.21602461669924639,
+    "kmax": 1,
+    "mediane_sur_N": 7.919777797364831,
+    "vides": 0.80675,
+    "deplacement_moyen": 0.010297929572801104,
+    "fraction_deplaces": 0.4581
+   },
+   "viab": {
+    "Pmax_sur_mediane": 507.07789517497247,
+    "Pmax_sur_N2": 0.21903894443453897,
+    "kmax": 1,
+    "mediane_sur_N": 8.639262192999256,
+    "vides": 0.8126249999999999,
+    "deplacement_moyen": 0.013786300030460335,
+    "fraction_deplaces": 0.6074
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.1569222879912298,
+    "Pmax_sur_N2": 5.770139726773138e-05,
+    "kmax": 3,
+    "mediane_sur_N": 0.9974982393660792,
+    "vides": 0.08137499999999998
+   },
+   "secondes": 570.8598384857178
+  },
+  "5": {
+   "fige": {
+    "Pmax_sur_mediane": 844.1333677070262,
+    "Pmax_sur_N2": 0.14944107423431652,
+    "kmax": 1,
+    "mediane_sur_N": 3.540698187070911,
+    "vides": 0.7224999999999999
+   },
+   "degre_moyen_initial": 52.4063,
+   "mobile": {
+    "Pmax_sur_mediane": 920.8254392656995,
+    "Pmax_sur_N2": 0.14899996079225716,
+    "kmax": 1,
+    "mediane_sur_N": 3.23622598678584,
+    "vides": 0.719625,
+    "deplacement_moyen": 0.010407065630549255,
+    "fraction_deplaces": 0.46105
+   },
+   "viab": {
+    "Pmax_sur_mediane": 840.3939145642726,
+    "Pmax_sur_N2": 0.15090248495049574,
+    "kmax": 1,
+    "mediane_sur_N": 3.5912322146867437,
+    "vides": 0.72325,
+    "deplacement_moyen": 0.014372102393502251,
+    "fraction_deplaces": 0.61835
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.3338032765256789,
+    "Pmax_sur_N2": 6.612195837492318e-05,
+    "kmax": 2,
+    "mediane_sur_N": 0.9914799211943633,
+    "vides": 0.083125
+   },
+   "secondes": 220.01449823379517
+  },
+  "6": {
+   "fige": {
+    "Pmax_sur_mediane": 1044.7786298461904,
+    "Pmax_sur_N2": 0.11419456412107203,
+    "kmax": 1,
+    "mediane_sur_N": 2.186004974812386,
+    "vides": 0.78525
+   },
+   "degre_moyen_initial": 72.2024,
+   "mobile": {
+    "Pmax_sur_mediane": 1077.1815324510007,
+    "Pmax_sur_N2": 0.11373173732523982,
+    "kmax": 1,
+    "mediane_sur_N": 2.1116540508535557,
+    "vides": 0.77875,
+    "deplacement_moyen": 0.010496071245803455,
+    "fraction_deplaces": 0.4597
+   },
+   "viab": {
+    "Pmax_sur_mediane": 922.9588376515985,
+    "Pmax_sur_N2": 0.1154743922419114,
+    "kmax": 1,
+    "mediane_sur_N": 2.502265269721618,
+    "vides": 0.786375,
+    "deplacement_moyen": 0.014112264324207757,
+    "fraction_deplaces": 0.60695
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.48679321491467,
+    "Pmax_sur_N2": 7.409691467555648e-05,
+    "kmax": 2,
+    "mediane_sur_N": 0.9967346357551012,
+    "vides": 0.08274999999999999
+   },
+   "secondes": 303.45346879959106
+  },
+  "7": {
+   "fige": {
+    "Pmax_sur_mediane": 1725.9442747605362,
+    "Pmax_sur_N2": 0.14609085295380816,
+    "kmax": 1,
+    "mediane_sur_N": 1.6928802985145897,
+    "vides": 0.71425
+   },
+   "degre_moyen_initial": 47.016,
+   "mobile": {
+    "Pmax_sur_mediane": 1776.9370539845397,
+    "Pmax_sur_N2": 0.14532655808012507,
+    "kmax": 1,
+    "mediane_sur_N": 1.6356973113285025,
+    "vides": 0.711875,
+    "deplacement_moyen": 0.01068162000154399,
+    "fraction_deplaces": 0.4586
+   },
+   "viab": {
+    "Pmax_sur_mediane": 1741.8556793392518,
+    "Pmax_sur_N2": 0.14775301031992563,
+    "kmax": 1,
+    "mediane_sur_N": 1.6965011748387056,
+    "vides": 0.71875,
+    "deplacement_moyen": 0.014397270880099677,
+    "fraction_deplaces": 0.60235
+   },
+   "poisson": {
+    "Pmax_sur_mediane": 1.7054229733950441,
+    "Pmax_sur_N2": 8.627085524037415e-05,
+    "kmax": 1,
+    "mediane_sur_N": 1.0117238548585024,
+    "vides": 0.08225000000000005
+   },
+   "secondes": 194.86759281158447
+  }
+ }
+}

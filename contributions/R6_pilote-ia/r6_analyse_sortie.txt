@@ -1,0 +1,139 @@
+[A] N=1000 balayages=5 graines=8
+   amplitude Pmax/N^2 : poisson 0.0013 figé 0.1500 mobile 0.1459 viab 0.1556 ; part nucléation 0.962
+   mobilite         Δamp -0.00414 ± 0.00074 (0/8) | Δvides -0.00281 ± 0.00030 (0/8)
+   viabilite        Δamp +0.00975 ± 0.00132 (8/8) | Δvides +0.00497 ± 0.00065 (8/8)
+   viab_moins_fige  Δamp +0.00561 ± 0.00072 (8/8) | Δvides +0.00216 ± 0.00062 (7/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 133.5 figé 124.9
+   vides : poisson 0.8828 figé 0.9287 mobile 0.9259 viab 0.9309
+[A] N=10000 balayages=5 graines=8
+   amplitude Pmax/N^2 : poisson 0.0001 figé 0.1506 mobile 0.1499 viab 0.1529 ; part nucléation 0.985
+   mobilite         Δamp -0.00068 ± 0.00017 (1/8) | Δvides -0.00408 ± 0.00047 (0/8)
+   viabilite        Δamp +0.00302 ± 0.00050 (8/8) | Δvides +0.00995 ± 0.00067 (8/8)
+   viab_moins_fige  Δamp +0.00234 ± 0.00034 (8/8) | Δvides +0.00588 ± 0.00061 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 673.8 figé 594.4
+   vides : poisson 0.2847 figé 0.8094 mobile 0.8053 viab 0.8153
+[A] N=20000 balayages=5 graines=8
+   amplitude Pmax/N^2 : poisson 0.0001 figé 0.1508 mobile 0.1503 viab 0.1524 ; part nucléation 0.989
+   mobilite         Δamp -0.00049 ± 0.00009 (1/8) | Δvides -0.00367 ± 0.00050 (0/8)
+   viabilite        Δamp +0.00208 ± 0.00029 (8/8) | Δvides +0.00628 ± 0.00072 (8/8)
+   viab_moins_fige  Δamp +0.00159 ± 0.00022 (8/8) | Δvides +0.00261 ± 0.00059 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 782.4 figé 788.1
+   vides : poisson 0.0811 figé 0.7706 mobile 0.7670 viab 0.7732
+[A] N=2500 balayages=20 graines=8
+   amplitude Pmax/N^2 : poisson 0.0005 figé 0.1488 mobile 0.1403 viab 0.1668 ; part nucléation 0.894
+   mobilite         Δamp -0.00848 ± 0.00128 (0/8) | Δvides -0.01655 ± 0.00141 (0/8)
+   viabilite        Δamp +0.02645 ± 0.00400 (8/8) | Δvides +0.03612 ± 0.00172 (8/8)
+   viab_moins_fige  Δamp +0.01798 ± 0.00290 (8/8) | Δvides +0.01958 ± 0.00135 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 349.4 figé 248.7
+   vides : poisson 0.7322 figé 0.8841 mobile 0.8676 viab 0.9037
+[A] N=2500 balayages=20_init_poisson graines=8
+   amplitude Pmax/N^2 : poisson 0.0005 figé 0.0005 mobile 0.0005 viab 0.0013 ; part nucléation -0.096
+   mobilite         Δamp +0.00001 ± 0.00002 (5/8) | Δvides -0.00083 ± 0.00087 (3/8)
+   viabilite        Δamp +0.00082 ± 0.00006 (8/8) | Δvides +0.02544 ± 0.00114 (8/8)
+   viab_moins_fige  Δamp +0.00083 ± 0.00006 (8/8) | Δvides +0.02461 ± 0.00094 (8/8)
+   kmax viab [5, 4, 5, 4, 4, 4, 5, 4] ; Pmax/médiane viab 3.2 figé 1.2
+   vides : poisson 0.7322 figé 0.7326 mobile 0.7318 viab 0.7572
+[A] N=2500 balayages=320_init_poisson graines=8
+   amplitude Pmax/N^2 : poisson 0.0005 figé 0.0005 mobile 0.0006 viab 0.0106 ; part nucléation -0.006
+   mobilite         Δamp +0.00012 ± 0.00004 (7/8) | Δvides -0.00072 ± 0.00082 (2/8)
+   viabilite        Δamp +0.01003 ± 0.00028 (8/8) | Δvides +0.12772 ± 0.00163 (8/8)
+   viab_moins_fige  Δamp +0.01014 ± 0.00028 (8/8) | Δvides +0.12700 ± 0.00211 (8/8)
+   kmax viab [3, 3, 4, 4, 4, 4, 3, 4] ; Pmax/médiane viab 25.6 figé 1.2
+   vides : poisson 0.7322 figé 0.7326 mobile 0.7319 viab 0.8596
+[A] N=2500 balayages=5 graines=8
+   amplitude Pmax/N^2 : poisson 0.0005 figé 0.1488 mobile 0.1466 viab 0.1531 ; part nucléation 0.973
+   mobilite         Δamp -0.00223 ± 0.00033 (0/8) | Δvides -0.00487 ± 0.00050 (0/8)
+   viabilite        Δamp +0.00647 ± 0.00100 (8/8) | Δvides +0.01008 ± 0.00074 (8/8)
+   viab_moins_fige  Δamp +0.00425 ± 0.00070 (8/8) | Δvides +0.00520 ± 0.00077 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 279.5 figé 248.7
+   vides : poisson 0.7322 figé 0.8841 mobile 0.8793 viab 0.8893
+[A] N=2500 balayages=80 graines=8
+   amplitude Pmax/N^2 : poisson 0.0005 figé 0.1488 mobile 0.1179 viab 0.2096 ; part nucléation 0.703
+   mobilite         Δamp -0.03090 ± 0.00453 (0/8) | Δvides -0.04702 ± 0.00407 (0/8)
+   viabilite        Δamp +0.09168 ± 0.00992 (8/8) | Δvides +0.10595 ± 0.00459 (8/8)
+   viab_moins_fige  Δamp +0.06078 ± 0.00630 (8/8) | Δvides +0.05894 ± 0.00424 (8/8)
+   kmax viab [2, 1, 2, 1, 1, 1, 1, 1] ; Pmax/médiane viab 439.8 figé 248.7
+   vides : poisson 0.7322 figé 0.8841 mobile 0.8371 viab 0.9431
+[A] N=2500 balayages=80_init_poisson graines=8
+   amplitude Pmax/N^2 : poisson 0.0005 figé 0.0005 mobile 0.0005 viab 0.0044 ; part nucléation -0.017
+   mobilite         Δamp +0.00002 ± 0.00002 (5/8) | Δvides -0.00102 ± 0.00104 (3/8)
+   viabilite        Δamp +0.00389 ± 0.00023 (8/8) | Δvides +0.07375 ± 0.00078 (8/8)
+   viab_moins_fige  Δamp +0.00391 ± 0.00023 (8/8) | Δvides +0.07273 ± 0.00113 (8/8)
+   kmax viab [4, 4, 4, 4, 4, 4, 4, 4] ; Pmax/médiane viab 10.7 figé 1.2
+   vides : poisson 0.7322 figé 0.7326 mobile 0.7316 viab 0.8054
+[A] N=5000 balayages=20 graines=8
+   amplitude Pmax/N^2 : poisson 0.0002 figé 0.1503 mobile 0.1444 viab 0.1633 ; part nucléation 0.920
+   mobilite         Δamp -0.00589 ± 0.00113 (0/8) | Δvides -0.01691 ± 0.00073 (0/8)
+   viabilite        Δamp +0.01888 ± 0.00281 (8/8) | Δvides +0.04048 ± 0.00208 (8/8)
+   viab_moins_fige  Δamp +0.01299 ± 0.00174 (8/8) | Δvides +0.02358 ± 0.00170 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 631.7 figé 402.8
+   vides : poisson 0.5356 figé 0.8456 mobile 0.8287 viab 0.8692
+[A] N=5000 balayages=5 graines=8
+   amplitude Pmax/N^2 : poisson 0.0002 figé 0.1503 mobile 0.1487 viab 0.1538 ; part nucléation 0.977
+   mobilite         Δamp -0.00164 ± 0.00032 (0/8) | Δvides -0.00503 ± 0.00089 (0/8)
+   viabilite        Δamp +0.00513 ± 0.00079 (8/8) | Δvides +0.01117 ± 0.00127 (8/8)
+   viab_moins_fige  Δamp +0.00348 ± 0.00051 (8/8) | Δvides +0.00614 ± 0.00060 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 498.1 figé 402.8
+   vides : poisson 0.5356 figé 0.8456 mobile 0.8406 viab 0.8518
+[A] N=5000 balayages=80_init_poisson graines=8
+   amplitude Pmax/N^2 : poisson 0.0002 figé 0.0002 mobile 0.0002 viab 0.0022 ; part nucléation -0.005
+   mobilite         Δamp +0.00001 ± 0.00001 (5/8) | Δvides +0.00023 ± 0.00066 (4/8)
+   viabilite        Δamp +0.00197 ± 0.00005 (8/8) | Δvides +0.15550 ± 0.00183 (8/8)
+   viab_moins_fige  Δamp +0.00198 ± 0.00005 (8/8) | Δvides +0.15573 ± 0.00172 (8/8)
+   kmax viab [5, 5, 5, 5, 5, 5, 5, 5] ; Pmax/médiane viab 10.7 figé 1.2
+   vides : poisson 0.5356 figé 0.5352 mobile 0.5355 viab 0.6910
+[B] N=1000 balayages=5 graines=8
+   amplitude Pmax/N^2 : poisson 0.0012 figé 0.1150 mobile 0.1111 viab 0.1199 ; part nucléation 0.959
+   mobilite         Δamp -0.00390 ± 0.00082 (0/8) | Δvides -0.00295 ± 0.00037 (0/8)
+   viabilite        Δamp +0.00882 ± 0.00151 (8/8) | Δvides +0.00561 ± 0.00031 (8/8)
+   viab_moins_fige  Δamp +0.00492 ± 0.00084 (8/8) | Δvides +0.00266 ± 0.00035 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 108.8 figé 98.1
+   vides : poisson 0.8830 figé 0.9206 mobile 0.9176 viab 0.9232
+[B] N=10000 balayages=5 graines=8
+   amplitude Pmax/N^2 : poisson 0.0001 figé 0.1152 mobile 0.1143 viab 0.1170 ; part nucléation 0.984
+   mobilite         Δamp -0.00087 ± 0.00006 (0/8) | Δvides -0.00547 ± 0.00047 (0/8)
+   viabilite        Δamp +0.00273 ± 0.00028 (8/8) | Δvides +0.01261 ± 0.00089 (8/8)
+   viab_moins_fige  Δamp +0.00186 ± 0.00025 (8/8) | Δvides +0.00714 ± 0.00072 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 583.7 figé 489.8
+   vides : poisson 0.2879 figé 0.7592 mobile 0.7537 viab 0.7663
+[B] N=2500 balayages=20 graines=8
+   amplitude Pmax/N^2 : poisson 0.0005 figé 0.1142 mobile 0.1058 viab 0.1267 ; part nucléation 0.901
+   mobilite         Δamp -0.00845 ± 0.00106 (0/8) | Δvides -0.01506 ± 0.00132 (0/8)
+   viabilite        Δamp +0.02095 ± 0.00268 (8/8) | Δvides +0.03739 ± 0.00103 (8/8)
+   viab_moins_fige  Δamp +0.01249 ± 0.00169 (8/8) | Δvides +0.02233 ± 0.00095 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 275.7 figé 212.8
+   vides : poisson 0.7310 figé 0.8618 mobile 0.8468 viab 0.8842
+[B] N=2500 balayages=80_init_poisson graines=8
+   amplitude Pmax/N^2 : poisson 0.0004 figé 0.0005 mobile 0.0005 viab 0.0045 ; part nucléation 0.022
+   mobilite         Δamp -0.00007 ± 0.00003 (2/8) | Δvides -0.00127 ± 0.00091 (3/8)
+   viabilite        Δamp +0.00401 ± 0.00013 (8/8) | Δvides +0.07550 ± 0.00110 (8/8)
+   viab_moins_fige  Δamp +0.00394 ± 0.00015 (8/8) | Δvides +0.07423 ± 0.00137 (8/8)
+   kmax viab [4, 3, 4, 4, 4, 3, 4, 4] ; Pmax/médiane viab 10.9 figé 1.3
+   vides : poisson 0.7322 figé 0.7328 mobile 0.7316 viab 0.8071
+[B] N=5000 balayages=5 graines=8
+   amplitude Pmax/N^2 : poisson 0.0002 figé 0.1152 mobile 0.1139 viab 0.1179 ; part nucléation 0.977
+   mobilite         Δamp -0.00130 ± 0.00020 (0/8) | Δvides -0.00439 ± 0.00095 (0/8)
+   viabilite        Δamp +0.00406 ± 0.00058 (8/8) | Δvides +0.01233 ± 0.00055 (8/8)
+   viab_moins_fige  Δamp +0.00276 ± 0.00041 (8/8) | Δvides +0.00794 ± 0.00060 (8/8)
+   kmax viab [1, 1, 1, 1, 1, 1, 1, 1] ; Pmax/médiane viab 406.4 figé 335.9
+   vides : poisson 0.5345 figé 0.8114 mobile 0.8070 viab 0.8193
+[A/B] N1000_b5 Pmax_sur_N2  mobilite   A -0.00414 B -0.00390 z = -0.21
+[A/B] N1000_b5 Pmax_sur_N2  viabilite  A +0.00975 B +0.00882 z = +0.46
+[A/B] N1000_b5 vides        mobilite   A -0.00281 B -0.00295 z = +0.30
+[A/B] N1000_b5 vides        viabilite  A +0.00497 B +0.00561 z = -0.88
+[A/B] N10000_b5 Pmax_sur_N2  mobilite   A -0.00068 B -0.00087 z = +1.08
+[A/B] N10000_b5 Pmax_sur_N2  viabilite  A +0.00302 B +0.00273 z = +0.50
+[A/B] N10000_b5 vides        mobilite   A -0.00408 B -0.00547 z = +2.10
+[A/B] N10000_b5 vides        viabilite  A +0.00995 B +0.01261 z = -2.38
+[A/B] N2500_b20 Pmax_sur_N2  mobilite   A -0.00848 B -0.00845 z = -0.01
+[A/B] N2500_b20 Pmax_sur_N2  viabilite  A +0.02645 B +0.02095 z = +1.14
+[A/B] N2500_b20 vides        mobilite   A -0.01655 B -0.01506 z = -0.77
+[A/B] N2500_b20 vides        viabilite  A +0.03612 B +0.03739 z = -0.63
+[A/B] N2500_b80_init_poisson Pmax_sur_N2  mobilite   A +0.00002 B -0.00007 z = +2.57
+[A/B] N2500_b80_init_poisson Pmax_sur_N2  viabilite  A +0.00389 B +0.00401 z = -0.46
+[A/B] N2500_b80_init_poisson vides        mobilite   A -0.00102 B -0.00127 z = +0.18
+[A/B] N2500_b80_init_poisson vides        viabilite  A +0.07375 B +0.07550 z = -1.29
+[A/B] N5000_b5 Pmax_sur_N2  mobilite   A -0.00164 B -0.00130 z = -0.91
+[A/B] N5000_b5 Pmax_sur_N2  viabilite  A +0.00513 B +0.00406 z = +1.08
+[A/B] N5000_b5 vides        mobilite   A -0.00503 B -0.00439 z = -0.49
+[A/B] N5000_b5 vides        viabilite  A +0.01117 B +0.01233 z = -0.84
