@@ -1,0 +1,37 @@
+{
+ "cadre": "DEFI-M14 — prédictions écrites AVANT toute mesure à n = 225 et 257 (préenregistrement).\n\nPilote IA du laboratoire (Claude, Anthropic), 6 novembre 2026.\nSources : séjours de defi_m13_sorties.json (n = 25 à 193), loi t½ de DEFI-M12\n(ln t½ = 0,964·√n − 1,77), rapport séjour/t½ de DEFI-M13 § 3.2 (1,48 à 1,86 ; 1,63 à n = 193),\ncalibrations linéaires ln t½ ↔ B de DEFI-M13 § 3.4 (ln t½(257) = 15,1 à 15,9).\nCritère de décision fixé ici : la loi en √n « survit » à n = 257 si le séjour mesuré\n(deux moteurs) tombe dans [0,6 ; 1,7]·10⁶ balayages ; elle est « contredite par une\ncroissance plus rapide » s'il dépasse 3·10⁶ ; entre les deux, non tranché.\n",
+ "sejours_m13": {
+  "25": 39.866191485767175,
+  "33": 71.59779316289617,
+  "49": 215.95422474617106,
+  "65": 582.0106655859855,
+  "97": 3697.529853133264,
+  "129": 16301.394475803416,
+  "193": 181848.06356707317
+ },
+ "predictions": {
+  "sejour_racine_n_depuis_65_n225": 561098.7534992236,
+  "sejour_lineaire_n_depuis_65_n225": 884747.7917543076,
+  "sejour_racine_n_depuis_65_n257": 1546852.7575313952,
+  "sejour_lineaire_n_depuis_65_n257": 3637961.4561697505,
+  "sejour_racine_n_depuis_97_n225": 531706.5324535863,
+  "sejour_lineaire_n_depuis_97_n225": 684106.9047398054,
+  "sejour_racine_n_depuis_97_n257": 1434089.3053741634,
+  "sejour_lineaire_n_depuis_97_n257": 2473516.564876177,
+  "t_demi_loi_M12_n225": 324486.75576180586,
+  "sejour_loi_M12_x1.63_n225": 528913.4118917435,
+  "t_demi_loi_M12_n257": 876853.875050924,
+  "sejour_loi_M12_x1.63_n257": 1429271.8163330061,
+  "sejour_calibration_lineaire_M13_n257": [
+   5888901.377106595,
+   13105991.03860639
+  ]
+ },
+ "critere": {
+  "survit_si_dans": [
+   600000.0,
+   1700000.0
+  ],
+  "contredite_si_au_dessus_de": 3000000.0
+ }
+}

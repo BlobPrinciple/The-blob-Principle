@@ -1,0 +1,64 @@
+1. Séjour moyen (balayages) : chaînes, poolé, barre par blocs (moteur B)
+  A n= 25 chaînes [39, 40] poolé 39.86 sorties 3890
+  A n= 33 chaînes [73, 70] poolé 71.57 sorties 4685
+  A n= 49 chaînes [212, 220] poolé 215.9 sorties 4380
+  A n= 65 chaînes [578, 586] poolé 582 sorties 4660
+  A n= 97 chaînes [3726, 3669] poolé 3697 sorties 2445
+  A n=129 chaînes [16284, 16319] poolé 1.63e+04 sorties 1031
+  A n=193 chaînes [184637, 179059] poolé 1.818e+05 sorties 324
+  B n=193 chaînes [192149, 172039] poolé 1.815e+05 sorties 728 ± 5.26e+03 (blocs) t½ [117873, 107827] séjour/t½ 1.61
+  B n=225 chaînes [551894, 564332] poolé 5.58e+05 sorties 809 ± 1.22e+04 (blocs) t½ [350927, 340169] séjour/t½ 1.61
+  A n=257 chaînes [2070971, 1971460] poolé 2.02e+06 sorties 359 t½ [1272835, 1239095] séjour/t½ 1.61
+  B n=257 chaînes [2047446, 1981036] poolé 2.014e+06 sorties 360 ± 7.2e+04 (blocs) t½ [1345007, 1310941] séjour/t½ 1.52
+  B n=289 chaînes [8919962, 8919962] poolé 8.92e+06 sorties 128 ± 7.62e+05 (blocs) t½ [5569473, 5589086] séjour/t½ 1.60
+
+   contrôle départ aléatoire n = 257 : chaînes [1814328, 1891687] poolé 1.852e+06 sorties 235 aristocrates [18.16, 18.14] rapport au planté 0.92
+
+2. Série retenue (ln séjour) : {25: 3.685, 33: 4.271, 49: 5.375, 65: 6.366, 97: 8.215, 129: 9.699, 193: 12.111, 225: 13.232, 257: 14.517, 289: 16.004}
+
+3. n = 257 : mesuré 2.02e+06 (A 2.02e+06, B 2.01e+06)
+  sejour_racine_n_depuis_65_n257       prévu 1.55e+06  mesuré/prévu 1.30
+  sejour_racine_n_depuis_97_n257       prévu 1.43e+06  mesuré/prévu 1.41
+  sejour_loi_M12_x1.63_n257            prévu 1.43e+06  mesuré/prévu 1.41
+  sejour_lineaire_n_depuis_65_n257     prévu 3.64e+06  mesuré/prévu 0.55
+  sejour_lineaire_n_depuis_97_n257     prévu 2.47e+06  mesuré/prévu 0.82
+  calibration linéaire DEFI-M13         prévu 5.89e+06–1.31e+07  mesuré/prévu 0.15–0.34
+  critère fixé d'avance : non tranché
+  n = 225 sejour_racine_n_depuis_65_n225     prévu 5.61e+05 mesuré/prévu 0.99
+  n = 225 sejour_lineaire_n_depuis_65_n225   prévu 8.85e+05 mesuré/prévu 0.63
+  n = 225 sejour_loi_M12_x1.63_n225          prévu 5.29e+05 mesuré/prévu 1.06
+
+4. Ajustements de ln séjour sur n = [65, 97, 129, 193, 225, 257, 289]
+  racine    pente 1.0425 (main 1.0425)  SCE 0.3224 (main 0.3224)
+  lineaire  pente 0.0413 (main 0.0413)  SCE 0.3061 (main 0.3061)
+  exposant libre : γ = 0.753 ± 0.129 (curve_fit) ; grille 0.753 ; SCE ≤ 2·min pour γ ∈ [0.49, 1.03]
+  pondéré (σ = 1/√sorties) :
+    n = 65 à 193 : γ = 0.373 ± 0.040 ; χ² = 0.1 pour 1 ddl
+    n = 65 à 225 : γ = 0.414 ± 0.025 ; χ² = 1.7 pour 2 ddl
+    n = 65 à 257 : γ = 0.495 ± 0.020 ; χ² = 33.6 pour 3 ddl
+    n = 65 à 289 : γ = 0.538 ± 0.019 ; χ² = 77.4 pour 4 ddl
+    n = 129 à 289 : γ = 1.277 ± 0.091 ; χ² = 6.0 pour 2 ddl
+  exposant libre sans (289,) : γ = 0.562 ± 0.096
+  exposant libre sans (257, 289) : γ = 0.429 ± 0.040
+  exposant libre sans (225, 257, 289) : γ = 0.379 ± 0.010
+
+5. Pentes locales Δ ln séjour / Δ √n
+   49 →  65 : 0.934
+   65 →  97 : 1.035
+   97 → 129 : 0.983
+  129 → 193 : 0.952
+  193 → 225 : 1.013
+  225 → 257 : 1.246
+  257 → 289 : 1.535
+
+4 bis. exposant libre non pondéré sur n ≥ 129 : γ = 1.324 ± 0.161 (grille 1.324)
+
+   contrôle moteur A, n = 289 : séjour 1.019e+07 (28 sorties, 1.5e+07 balayages), aristocrates 19.02, t½ 5633036.033321778, rapport au moteur B 1.14
+
+6. ln t½ par chaîne (autocorrélation poolée) contre la loi de DEFI-M12, ln t½ = 0,964·√n − 1,77
+  B193 : [11.677, 11.588] ; loi M12 : 11.62
+  B225 : [12.768, 12.737] ; loi M12 : 12.69
+  A257 : [14.057, 14.03] ; loi M12 : 13.68
+  B257 : [14.112, 14.086] ; loi M12 : 13.68
+  B289 : [15.533, 15.536] ; loi M12 : 14.62
+  calibration linéaire DEFI-M13 à n = 257 : 15,1–15,9

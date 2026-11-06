@@ -1,0 +1,13 @@
+sejour_racine_n_depuis_65_n225 5.611e+05
+sejour_lineaire_n_depuis_65_n225 8.847e+05
+sejour_racine_n_depuis_65_n257 1.547e+06
+sejour_lineaire_n_depuis_65_n257 3.638e+06
+sejour_racine_n_depuis_97_n225 5.317e+05
+sejour_lineaire_n_depuis_97_n225 6.841e+05
+sejour_racine_n_depuis_97_n257 1.434e+06
+sejour_lineaire_n_depuis_97_n257 2.474e+06
+t_demi_loi_M12_n225 3.245e+05
+sejour_loi_M12_x1.63_n225 5.289e+05
+t_demi_loi_M12_n257 8.769e+05
+sejour_loi_M12_x1.63_n257 1.429e+06
+sejour_calibration_lineaire_M13_n257 [5888901.377106595, 13105991.03860639]

@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.13",
- "updated": "2026-11-03",
+ "version": "1.14",
+ "updated": "2026-11-06",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -585,8 +585,20 @@
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/44",
    "path_step": "P1",
    "state": "ouvert",
-   "history": [],
-   "derived": []
+   "history": [
+    {
+     "date": "2026-11-06",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/48",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[M] graphes abstraits, degré moyen 4, mesure de l'armature ; prédictions et critère écrits avant la mesure (horodatage local) : à n = 257, deux moteurs sans code commun pour le noyau (quatre chaînes de 2·10⁷ balayages) donnent un séjour dans l'aristocratie de 2,02·10⁶ balayages et ln t½ = 14,03 à 14,11 ; verdict selon le critère : non tranché ; la calibration linéaire de DEFI-M13 (ln t½ = 15 à 16) est exclue, la loi exp(0,96·√n) est dépassée de 30 à 41 % ; [M] à n = 225 la loi en √n est vérifiée (0,99) ; [H] un point exploratoire à n = 289 (8,9·10⁶) prolonge la montée de la pente locale (1,0 → 1,25 → 1,53) : la loi en √n serait une loi de plage",
+     "effect": "résultat partiel (aucune borne démontrée, asymptotique ouverte, moteur canonique non traité) ; DEFI-M14 reste ouvert ; défi dérivé DEFI-M16 ; aucun changement de statut",
+     "result_en": "[M] abstract graphs, mean degree 4, armature measure; predictions and criterion written before the measurement (local timestamp): at n = 257, two engines sharing no kernel code (four chains of 2·10⁷ sweeps) give an aristocracy sojourn of 2.02·10⁶ sweeps and ln t½ = 14.03 to 14.11; verdict under the criterion: undecided; the DEFI-M13 linear calibration (ln t½ = 15 to 16) is excluded, the exp(0.96·√n) law is exceeded by 30 to 41 %; [M] at n = 225 the √n law is verified (0.99); [H] an exploratory point at n = 289 (8.9·10⁶) continues the rise of the local slope (1.0 → 1.25 → 1.53): the √n law would be a law of the range",
+     "effect_en": "partial result (no proven bound, asymptotics open, canonical engine not addressed); DEFI-M14 stays open; derived challenge DEFI-M16; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-M16"
+   ]
   },
   {
    "code": "DEFI-M15",
@@ -613,6 +625,23 @@
      "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/45"
     }
    ],
+   "derived": []
+  },
+  {
+   "code": "DEFI-M16",
+   "level": 2,
+   "statement_fr": "Après √n : la loi de la lenteur aristocratique (RO-25, RO-20). Sur graphes abstraits à degré moyen 4, sous π ∝ exp(n·S_sim/τ), le séjour dans l'aristocratie suit exp(0,96·√n) jusqu'à n ≈ 225, la dépasse de 30 % à n = 257, et un point exploratoire à n = 289 indique une accélération (pente locale en √n de 1,0 à 1,5 entre n = 193 et 289 ; contributions/RO-25_pilote-ia/DEFI-M14_RAPPORT.md). Quelle est la loi au-delà, et quel mécanisme change vers n ≈ 225 ?",
+   "statement_en": "After √n: the law of aristocratic slowness (RO-25, RO-20). On abstract graphs of mean degree 4, under π ∝ exp(n·S_sim/τ), the sojourn in the aristocracy follows exp(0.96·√n) up to n ≈ 225, exceeds it by 30 % at n = 257, and an exploratory point at n = 289 indicates an acceleration (local slope in √n from 1.0 to 1.5 between n = 193 and 289; contributions/RO-25_pilote-ia/DEFI-M14_REPORT_EN.md). What is the law beyond, and what mechanism changes around n ≈ 225?",
+   "deliverable_fr": "Séjour à n ≥ 321 (deux moteurs, profil d'équilibre à la même taille) et forme de la croissance ; ou mécanisme de sortie (chemin le plus probable, échantillonnage de chemins de transition) qui explique le changement de pente ; ou borne démontrée. Critère de décision déposé publiquement avant la mesure.",
+   "deliverable_en": "Sojourn at n ≥ 321 (two engines, equilibrium profile at the same size) and the form of the growth; or the exit mechanism (most probable path, transition path sampling) explaining the change of slope; or a proven bound. Decision criterion deposited publicly before the measurement.",
+   "open_research": [
+    "RO-25",
+    "RO-20"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/49",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
    "derived": []
   },
   {

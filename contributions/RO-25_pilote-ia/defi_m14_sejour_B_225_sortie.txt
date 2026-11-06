@@ -1,0 +1,2 @@
+B 225 11 sorties 409 entrées 408 aristocrates 17.36 séjour 551894 t½ 350927 682 s
+B 225 12 sorties 400 entrées 400 aristocrates 17.36 séjour 564332 t½ 340169 769 s

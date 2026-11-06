@@ -1,0 +1,2 @@
+B 289 11 sorties 64 entrées 64 aristocrates 19.02 séjour 8919962 t½ 5569473 1938 s
+B 289 12 sorties 64 entrées 64 aristocrates 19.02 séjour 8919962 t½ 5589086 1942 s
