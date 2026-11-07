@@ -15,6 +15,8 @@
 
 **⚖️ The trial of the 22 paradoxes is open.** The books *Du simplexe au complexe* give a place to twenty-two great paradoxes (why something rather than nothing, the arrow of time, dark matter, quantum measurement…). Provisional verdict against the mathematics: **class A = 0**, B = 3, C = 14, D = 5. Too harsh? Too generous? **[Contest the verdict (#32)](https://github.com/BlobPrinciple/The-blob-Principle/issues/32)** · [case files](debates/TRIAL_OF_PARADOXES.md)
 
+**🦠 Kleiber versus √n: is the Blob really scale-invariant?** The author holds that one and the same mechanics acts at every scale, at speeds set by how far the binders have calcified. Yet the living follows power laws (Kleiber: M^(3/4)) and the laboratory's engine an exponential in √n: five orders of magnitude apart. Three ways out, only one measurable right now. **[The author's clarifications of 26 October](debates/AUTHOR_CLARIFICATIONS_2026-10-26.md)** · open challenges [DEFI-M17, M18, M19](CHALLENGES.md)
+
 **Pick your way in, depending on the time you have:**
 
 | Time | Challenge | What you do |

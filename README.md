@@ -15,6 +15,8 @@
 
 **⚖️ Le procès des 22 paradoxes est ouvert.** Les livres *Du simplexe au complexe* donnent une place à vingt-deux grands paradoxes (pourquoi quelque chose plutôt que rien, flèche du temps, matière noire, mesure quantique…). Verdict provisoire face aux mathématiques : **classe A = 0**, B = 3, C = 14, D = 5. Trop sévère ? Trop généreux ? **[Contestez le verdict (#32)](https://github.com/BlobPrinciple/The-blob-Principle/issues/32)** · [dossier complet](debats/PROCES_DES_PARADOXES.md)
 
+**🦠 Kleiber contre √n : le Blob est-il vraiment invariant d'échelle ?** L'auteur soutient qu'une même mécanique agit à toutes les échelles, à des vitesses qui dépendent de la calcification des liants. Or le vivant suit des lois de puissance (Kleiber : M^(3/4)) et le moteur du laboratoire une exponentielle en √n : cinq ordres de grandeur d'écart. Trois issues, dont une seule se mesure tout de suite. **[Les précisions de l'auteur du 26 octobre](debats/PRECISIONS_AUTEUR_2026-10-26.md)** · défis ouverts [DEFI-M17, M18, M19](DEFIS.md)
+
 **Choisissez votre porte d'entrée selon le temps dont vous disposez :**
 
 | Temps | Défi | Ce que vous faites |

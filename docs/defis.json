@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.14",
- "updated": "2026-11-06",
+ "version": "1.15",
+ "updated": "2026-11-07",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -639,6 +639,58 @@
     "RO-20"
    ],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/49",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-M17",
+   "level": 2,
+   "statement_fr": "La régénération des liants (RO-20, RO-25). L'auteur propose que renouveler les liants avant la rupture prolonge la viabilité d'une structure (debats/PRECISIONS_AUTEUR_2026-10-26.md, P2). Sur graphes abstraits à degré moyen 4, sous π ∝ exp(n·S_sim/τ), comparez deux populations appariées : l'une laissée à la dynamique canonique, l'autre où une fraction r des liens les plus anciens est remplacée tous les k balayages, à |E| constant. Première difficulté, à traiter explicitement : la dynamique canonique échange déjà des arêtes, la régénération doit donc être définie comme une règle distincte, ciblée par l'âge du lien et non par la viabilité, et cette distinction doit être montrée mesurable. La régénération prolonge-t-elle la persistance, ou déplace-t-elle seulement le moment de la rupture ?",
+   "statement_en": "Regeneration of the binders (RO-20, RO-25). The author proposes that renewing the binders before rupture extends a structure's viability (en/debates/AUTHOR_CLARIFICATIONS_2026-10-26.md, P2). On abstract graphs of mean degree 4, under π ∝ exp(n·S_sim/τ), compare two paired populations: one left to the canonical dynamics, one in which a fraction r of the oldest links is replaced every k sweeps, at constant |E|. First difficulty, to be handled explicitly: the canonical dynamics already swaps edges, so regeneration must be defined as a distinct rule, targeted by link age and not by viability, and that distinction must be shown to be measurable. Does regeneration extend persistence, or does it merely postpone the moment of rupture?",
+   "deliverable_fr": "Campagne appariée, au moins 3 tailles n et 8 graines par point, balayage de r et de k, critère de décision déposé publiquement avant la mesure : séjour dans l'aristocratie, nombre de morceaux et D avec barres d'erreur, et verdict — prolongation, déplacement, ou aucun effet. Un résultat négatif compte autant qu'un résultat positif.",
+   "deliverable_en": "Paired campaign, at least 3 sizes n and 8 seeds per point, scan over r and k, decision criterion deposited publicly before the measurement: sojourn in the aristocracy, number of pieces and D with error bars, and a verdict — extension, postponement, or no effect. A negative result counts as much as a positive one.",
+   "open_research": [
+    "RO-20",
+    "RO-25"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/50",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-M18",
+   "level": 2,
+   "statement_fr": "Kleiber contre √n : une loi de puissance à λ fixé ? (RO-25, RO-20 ; touche DEFI-G4). Le vivant suit des lois de puissance : Kleiber (1932) donne B ∝ M^(3/4), et le modèle de West, Brown et Enquist (1997) des temps internes en M^(1/4). Le moteur, lui, donne un séjour aristocratique en exp(0,96·√n) sous le refroidissement λ = n/τ de l'axiome A4, et DEFI-M12 a montré qu'à λ fixé la lenteur disparaît. Si la même mécanique vaut à toutes les échelles (PRECISIONS, P5), il faut expliquer cet écart de cinq ordres de grandeur. À λ fixé, le temps caractéristique suit-il une loi de puissance en n, et de quel exposant ? Toute comparaison avec le vivant exige d'écrire d'abord la correspondance entre n et la masse ; les exposants n^0,47 et M^(3/4) portent sur des objets différents et ne se comparent pas sans elle.",
+   "statement_en": "Kleiber versus √n: a power law at fixed λ? (RO-25, RO-20; touches DEFI-G4). The living follows power laws: Kleiber (1932) gives B ∝ M^(3/4), and the West–Brown–Enquist model (1997) internal times in M^(1/4). The engine gives an aristocratic sojourn in exp(0.96·√n) under the cooling λ = n/τ of axiom A4, and DEFI-M12 showed that at fixed λ the slowness disappears. If the same mechanics holds at every scale (CLARIFICATIONS, P5), this five-order-of-magnitude gap must be explained. At fixed λ, does the characteristic time follow a power law in n, and with what exponent? Any comparison with the living requires first writing down the correspondence between n and mass; the exponents n^0.47 and M^(3/4) bear on different objects and are not comparable without it.",
+   "deliverable_fr": "Mesure à λ fixé sur au moins cinq tailles n couvrant un facteur 10, deux moteurs sans code commun pour le noyau : forme de t(n) avec barres d'erreur, test explicite puissance contre exponentielle, critère déposé avant la mesure ; si une puissance ressort, son exposant et sa dépendance en λ et en degré moyen. Ou la démonstration que la question est mal posée, avec la correspondance n ↔ masse écrite et défendue.",
+   "deliverable_en": "Measurement at fixed λ over at least five sizes n spanning a factor of 10, two engines with no shared code for the kernel: the form of t(n) with error bars, an explicit power-versus-exponential test, criterion deposited before the measurement; if a power law emerges, its exponent and its dependence on λ and mean degree. Or a demonstration that the question is ill-posed, with the n ↔ mass correspondence written down and defended.",
+   "open_research": [
+    "RO-25",
+    "RO-20"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/51",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-M19",
+   "level": 2,
+   "statement_fr": "Le filtre avant la matière (RO-20, RO-21, RO-23). L'auteur propose que la viabilité trie les possibles explorés en t₁, et que seules les configurations viables entrent dans le temps de la matière et de la dissipation t₂ (PRECISIONS, P3). Écrivez ce filtre comme un objet du modèle : une application de l'ensemble des configurations accessibles en t₁ vers celles qui entrent en t₂, définie sans présupposer ce qu'elle doit trier et qui ne se réduise pas à « π > 0 » (RO-20). Montrez ensuite qu'elle change quelque chose de mesurable : un couple de configurations de même S_sim que le filtre sépare.",
+   "statement_en": "The filter before matter (RO-20, RO-21, RO-23). The author proposes that viability sorts the possibles explored in t₁, and that only viable configurations enter the time of matter and dissipation t₂ (CLARIFICATIONS, P3). Write this filter as an object of the model: a map from the set of configurations accessible in t₁ to those that enter t₂, defined without presupposing what it must sort and not reducible to \"π > 0\" (RO-20). Then show that it changes something measurable: a pair of configurations with the same S_sim that the filter separates.",
+   "deliverable_fr": "Une définition écrite, un exemple explicite de couple séparé par le filtre et non par π, et soit un théorème de cohérence avec l'axiome A4, soit la démonstration qu'un tel filtre non circulaire n'existe pas dans le cadre actuel. Une impossibilité démontrée clôt le défi au même titre qu'une construction.",
+   "deliverable_en": "A written definition, an explicit example of a pair separated by the filter and not by π, and either a consistency theorem with axiom A4, or a demonstration that no such non-circular filter exists in the present framework. A proven impossibility closes the challenge just as a construction would.",
+   "open_research": [
+    "RO-20",
+    "RO-21",
+    "RO-23"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/52",
    "path_step": "P1",
    "state": "ouvert",
    "history": [],

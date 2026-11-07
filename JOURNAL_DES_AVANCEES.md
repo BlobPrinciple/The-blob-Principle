@@ -44,3 +44,4 @@ Chaque inscription met à jour l'historique du défi dans [docs/defis.json](docs
 | 31/10/2026 | 1.12 | Ouverture de DEFI-M15 (loi structure–lenteur, hypothèse Codex) ; aucun changement de statut |
 | 03/11/2026 | 1.13 | Historique de DEFI-R6 ; ouverture de DEFI-R7 (la condensation viable : échelle du modèle ou mûrissement sans fin ?) ; aucun changement de statut |
 | 06/11/2026 | 1.14 | Historique de DEFI-M14 ; ouverture de DEFI-M16 (après √n : la loi de la lenteur aristocratique) ; aucun changement de statut |
+| 07/11/2026 | 1.15 | Précisions de l'auteur du 26 octobre ([debats/PRECISIONS_AUTEUR_2026-10-26.md](debats/PRECISIONS_AUTEUR_2026-10-26.md)) ; ouverture de DEFI-M17 (la régénération des liants), DEFI-M18 (Kleiber contre √n) et DEFI-M19 (le filtre avant la matière) ; aucun changement de statut |

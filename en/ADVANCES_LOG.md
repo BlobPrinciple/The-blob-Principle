@@ -44,3 +44,4 @@ Each entry updates the challenge history in [docs/defis.json](../docs/defis.json
 | 2026-10-31 | 1.12 | DEFI-M15 opened (structure–slowness law, Codex hypothesis); no status change |
 | 2026-11-03 | 1.13 | DEFI-R6 history; DEFI-R7 opened (viable condensation: a model scale or endless coarsening?); no status change |
 | 2026-11-06 | 1.14 | DEFI-M14 history; DEFI-M16 opened (after √n: the law of aristocratic slowness); no status change |
+| 2026-11-07 | 1.15 | Author's clarifications of 26 October ([en/debates/AUTHOR_CLARIFICATIONS_2026-10-26.md](debates/AUTHOR_CLARIFICATIONS_2026-10-26.md)); DEFI-M17 (regeneration of the binders), DEFI-M18 (Kleiber versus √n) and DEFI-M19 (the filter before matter) opened; no status change |
