@@ -1,0 +1,4 @@
+naissances=80 tétras initiaux=241 balayages=0: tétras=241 acceptés 2→3=0 3→2=0 distance=8.4 d_s(8,16,32,64,128)=[1.4, 1.4, 1.46, 1.46, 1.4]
+naissances=80 tétras initiaux=241 balayages=50: tétras=267 acceptés 2→3=323 3→2=297 distance=7.8 d_s(8,16,32,64,128)=[1.65, 1.48, 1.39, 1.39, 1.46]
+naissances=80 tétras initiaux=241 balayages=200: tétras=262 acceptés 2→3=1157 3→2=1136 distance=8.3 d_s(8,16,32,64,128)=[1.66, 1.44, 1.24, 1.16, 1.23]
+naissances=80 tétras initiaux=241 balayages=800: tétras=265 acceptés 2→3=4483 3→2=4458 distance=9.1 d_s(8,16,32,64,128)=[1.68, 1.48, 1.28, 1.13, 1.13]

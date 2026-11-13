@@ -1,0 +1,19 @@
+PRÉDICTION ENREGISTRÉE AVANT TOUT CALCUL — C-143 / PR-1 (protocole figé par ChatGPT ; texte lu sur le fil, empreinte SHA-256 recalculée sur le texte
+collé : 8f5964854d3b4f007e840614f878c2e68aa7f5d5d68f3b71dce2c82918b954ab, 12 211 octets, identique à l'empreinte annoncée).
+Horodatage : date du fichier (12 novembre 2026, vers 21 h 27 UTC). Aucun scénario de C-143 n'a été simulé avant ce fichier.
+
+Remarque d'audit, avant calcul : les bras E et I ont les mêmes équations et le même critère (U_e >= D) ; la chaleur n'y agit sur rien. Ils ne peuvent donc
+pas différer de verdict : seule la colonne du registre change. Les 144 scénarios n'en contiennent que 96 dynamiquement distincts, et à gamma = 0 les trois bras coïncident.
+
+Raisonnement : la chaleur d'un lien croît sans retour ; dans R le lien se dissout quand il a reçu sa dose. Dans C-142B, chaque lien du porteur frappé recevait
+environ 19 % de la chaleur totale. Dans E et I il faut étirer mécaniquement un lien harmonique jusqu'à U = D, contre l'amortissement.
+
+P1. P = 0 : aucune dissociation (36 scénarios).
+P2. gamma = 0 : R, E, I identiques ; dissociation dans les 12 cas alimentés (P > 0), par accumulation d'énergie sans perte.
+P3. Bras E et I, gamma > 0 : verdicts identiques entre E et I partout ; aucune dissociation à gamma = 0,12 ; à gamma = 0,04, aucune pour P <= 1/2 ; P = 1 incertain (je penche pour aucune).
+P4. Bras R, gamma > 0, P > 0 : dissociation dans au moins 20 des 24 scénarios ; c'est le groupe des trois liens du porteur 0 qui cède, ensemble (éjection du porteur bloqué).
+P5. Loi de dose dans R : l'instant de dissociation multiplié par la puissance P est à peu près constant (à 25 % près) d'une cadence à l'autre et entre gamma = 0,04 et 0,12 ;
+    ordre de grandeur attendu : t x P entre 4 et 7 T0 (énergie dissipée de l'ordre de 5).
+P6. Critère « candidat » du protocole (R rompt, E et I non) : satisfait dans au moins 16 triplets sur les 24 à gamma > 0 et P > 0.
+P7. Aucun effet de cadence au-delà de la loi de dose ; les solveurs s'accordent partout sauf, peut-être, dans les cas E / I proches du seuil à gamma = 0,04, P = 1.
+Si P4 ou P5 sont fausses, je le dirai.

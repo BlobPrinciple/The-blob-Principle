@@ -1,0 +1,234 @@
+{
+ "BP-R1_fermeture": {
+  "2": {
+   "graphes": 2,
+   "connexes": 1,
+   "connexes_devenus_complets": 1,
+   "toute_composante_devient_complete": 2
+  },
+  "3": {
+   "graphes": 8,
+   "connexes": 4,
+   "connexes_devenus_complets": 4,
+   "toute_composante_devient_complete": 8
+  },
+  "4": {
+   "graphes": 64,
+   "connexes": 38,
+   "connexes_devenus_complets": 38,
+   "toute_composante_devient_complete": 64
+  },
+  "5": {
+   "graphes": 1024,
+   "connexes": 728,
+   "connexes_devenus_complets": 728,
+   "toute_composante_devient_complete": 1024
+  },
+  "6": {
+   "graphes": 32768,
+   "connexes": 26704,
+   "connexes_devenus_complets": 26704,
+   "toute_composante_devient_complete": 32768
+  }
+ },
+ "BP-R1_deux_tetraedres": {
+  "sommets": 5,
+  "aretes": 9,
+  "faces": 7,
+  "cellules": 2,
+  "euler": 1
+ },
+ "BP-R1_complements": {
+  "5": {
+   "connexes": 728,
+   "P1_formule_verifiee": 728,
+   "degre_max_3": 472,
+   "degre_max_3_avec_K4": 0,
+   "K4_avant_K5": 360,
+   "K4_avec_K5": 368
+  },
+  "6": {
+   "connexes": 26704,
+   "P1_formule_verifiee": 26704,
+   "degre_max_3": 7540,
+   "degre_max_3_avec_K4": 0,
+   "K4_avant_K5": 0,
+   "K4_avec_K5": 0
+  }
+ },
+ "BP-R1_assemblage_en_arbre": {
+  "1": {
+   "V": 4,
+   "E": 6,
+   "F": 4,
+   "T": 1,
+   "euler": 1,
+   "faces_frontiere": 4,
+   "conforme": true
+  },
+  "2": {
+   "V": 5,
+   "E": 9,
+   "F": 7,
+   "T": 2,
+   "euler": 1,
+   "faces_frontiere": 6,
+   "conforme": true
+  },
+  "3": {
+   "V": 6,
+   "E": 12,
+   "F": 10,
+   "T": 3,
+   "euler": 1,
+   "faces_frontiere": 8,
+   "conforme": true
+  },
+  "4": {
+   "V": 7,
+   "E": 15,
+   "F": 13,
+   "T": 4,
+   "euler": 1,
+   "faces_frontiere": 10,
+   "conforme": true
+  },
+  "5": {
+   "V": 8,
+   "E": 18,
+   "F": 16,
+   "T": 5,
+   "euler": 1,
+   "faces_frontiere": 12,
+   "conforme": true
+  },
+  "6": {
+   "V": 9,
+   "E": 21,
+   "F": 19,
+   "T": 6,
+   "euler": 1,
+   "faces_frontiere": 14,
+   "conforme": true
+  },
+  "7": {
+   "V": 10,
+   "E": 24,
+   "F": 22,
+   "T": 7,
+   "euler": 1,
+   "faces_frontiere": 16,
+   "conforme": true
+  }
+ },
+ "BP-EQ1_Kn": {
+  "2": {
+   "desequilibre": 1,
+   "circulation": 0
+  },
+  "3": {
+   "desequilibre": 2,
+   "circulation": 1
+  },
+  "4": {
+   "desequilibre": 3,
+   "circulation": 3
+  },
+  "5": {
+   "desequilibre": 4,
+   "circulation": 6
+  },
+  "6": {
+   "desequilibre": 5,
+   "circulation": 10
+  },
+  "7": {
+   "desequilibre": 6,
+   "circulation": 15
+  }
+ },
+ "BP-EQ1_egalite_pour_n": [
+  4
+ ],
+ "BP-EQ1_spectre_K4": [
+  0.0,
+  4.0,
+  4.0,
+  4.0
+ ],
+ "BP-EQ1_roues": {
+  "W3": {
+   "V": 4,
+   "E": 6,
+   "desequilibre": 3,
+   "circulation": 3,
+   "egalite": true
+  },
+  "W4": {
+   "V": 5,
+   "E": 8,
+   "desequilibre": 4,
+   "circulation": 4,
+   "egalite": true
+  },
+  "W5": {
+   "V": 6,
+   "E": 10,
+   "desequilibre": 5,
+   "circulation": 5,
+   "egalite": true
+  },
+  "W6": {
+   "V": 7,
+   "E": 12,
+   "desequilibre": 6,
+   "circulation": 6,
+   "egalite": true
+  },
+  "W7": {
+   "V": 8,
+   "E": 14,
+   "desequilibre": 7,
+   "circulation": 7,
+   "egalite": true
+  },
+  "W8": {
+   "V": 9,
+   "E": 16,
+   "desequilibre": 8,
+   "circulation": 8,
+   "egalite": true
+  }
+ },
+ "BP-EQ1_contre_exemples_a_isomorphisme_pres": {
+  "4": 1,
+  "5": 2,
+  "6": 14
+ },
+ "BP-IM1_aretes_exposees": {
+  "1": [
+   3
+  ],
+  "2": [
+   4
+  ],
+  "3": [
+   3
+  ],
+  "4": [
+   0
+  ]
+ },
+ "BP-IM1_identite_ecart": 0.0,
+ "BP-IM1_minimum_numerique_R2": {
+  "min": 1.4999999999999962,
+  "attendu": 1.5,
+  "essais_reussis": 40
+ },
+ "BP-IM1_minimum_dans_le_plan": 1.9999999999999822,
+ "BP-IM1_diedre": {
+  "theta": 70.52877936550931,
+  "cinq": 352.64389682754654,
+  "defaut": 7.356103172453459
+ }
+}

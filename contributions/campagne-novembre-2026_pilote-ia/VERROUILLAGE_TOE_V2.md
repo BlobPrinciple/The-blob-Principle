@@ -1,0 +1,149 @@
+# BLOB PRINCIPLE — Verrouillage de la TOE, version 2 (V-2)
+
+**Rédigé par Claude, contre-auditeur, le 12 novembre 2026.** Auteur du Blob Principle : Rudolphe Mirante.
+**Objet :** reprendre toute la cosmogonie, du simplexe au complexe, et dire pour chaque principe ce qui est démontré, mesuré, réfuté ou encore ouvert.
+**Verdict : TOE démontrée = NON. Verrous fermés : 0 sur 7. Verrous partiels : V1, V3, V4.** *(Mis à jour le 13 novembre, 7 h 45.)*
+
+Ce document remplace la proposition V-1 du 9 novembre comme tableau de bord. Il ne grave rien : la cosmogonie appartient à Rudolphe.
+
+---
+
+## 1. La cosmogonie, principe par principe
+
+Statuts : [T] théorème ; [CERT] certifié par calcul exact ; [M] mesure numérique ; [H] hypothèse ; [FAIL] réfuté dans la traduction testée ; [OPEN] ouvert.
+
+### 1.1 Origine et lignées
+
+| Principe de la cosmogonie | Traduction mathématique | État |
+|---|---|---|
+| Substrat, zéro absolu inatteignable ; trois frontières (vitesse de la lumière, zéro absolu, température maximale) | Aucune | [OPEN] non formalisé |
+| Scission en deux lignées jumelles, bit posé une fois | H = D + gΣΓ ; ΓH₊Γ = −H₋ | [T] symétrie spectrale exacte (C-63) |
+| Le bit survit à la mitose | Seuil de Kesten–Stigum, erreur < 14,64 % | [T] (C-40) |
+| Le premier tirage fixe l'orientation | Urne de Pólya | [T] (C-46) ; asymétrie d'ordre 1, donc neutralité portée par les jumeaux |
+| Le miroir est un vrai reflet | Involution P inversant les polarités | Position de l'auteur ; H-MIRROR-OBS [H] |
+
+### 1.2 Mitose et espace
+
+| Principe | Traduction | État |
+|---|---|---|
+| Mitose continue, exponentielle, N_g = 2^g | Division de chaque cellule en deux par un porteur né sur une arête | **[CERT] N_g = 2^g exact (C-116, 12 nov.)** |
+| « L'univers s'étire via l'arête, rien ne se déplace » | Distances comptées en fils monotones sous mitose de l'arête | **[T] (C-116B)** |
+| Les fils nés d'une division gardent la longueur naturelle commune (règle U) | Ressorts de Hooke, repos universel | **Position de l'auteur, gravée le 12 nov.** ; donne une expansion par détente, échelle × 2 par palier [T conditionnel] (C-120) ; la règle contraire ne donne aucune expansion [T] |
+| L'étirement est premier, la mitose suit | Échelle imposée, naissances spontanées par tension, règle locale | **[CERT] reproduit exactement la mitose régulière pour un germe de Kuhn ; surtension moyenne de 8 % (C-127)** ; dépend du germe ; le tétraèdre régulier est marginal [T] ; exige l'exclusion dès que les formes sont libres [M] |
+| Naissance confinée et exclusion (C-12, C-15) | Une cellule ne se retourne pas | [M] nécessaire : sans elle, une cellule se retourne à 214 cellules ; avec elle, trame régulière jusqu'à 512 (C-127 bis et ter) |
+| La mitose s'entretient d'elle-même | Ressorts seuls, sans étirement imposé | **[FAIL]** : aucune naissance depuis l'équilibre (C-120) ; lieu mal choisi à l'équilibre (C-121) ; toute insertion coûte de l'énergie (C-132) |
+| **« La mitose est ce qui étire »** (position de l'auteur, 12 nov., 13 h 46 UTC) | Mitose première, fils nés à la longueur naturelle, détente libre, aucune échelle imposée | **[T]** poussée locale exacte (ChatGPT, vérifié) ; **[M] volume × 240 en 127 naissances, diamètre en racine cubique du nombre de cellules (C-132 bis)** ; règle B : rien [T] ; critère figé satisfait à 15 naissances (14/20 graines, 19/20 avec la règle de la cosmogonie) ; **régularité perdue dans la durée [M]** : une cellule sur dix très déformée à 127 naissances |
+| Énergie de la mitose (modèle à ressorts, étage de la matière) | Bilan par naissance | [M] injectée 0,31 à 0,45 Kℓ₀², stockée 0,106 (0,021 par fil), le reste dissipé (C-134c) ; **ce n'est pas une exigence sur la mitose première** (retrait du 12 nov., 16 h 30) |
+| **Cadence de la mitose** (loi a(t)) | Durée d'une génération | **[FAIL]** pour les trois lois sans coefficient : cadence constante (de Sitter), débit constant, synchronisation à la vitesse de la lumière (C-134c, confirmé par ChatGPT) ; aucune horloge dans les masters (audit de ChatGPT) ; exigence de l'observation : cadence par cellule = 3 H(z) ; **[OPEN] donnée manquante de V1** |
+| Ce qui étire (énergie sombre) ; l'instinct du simplexe comme source | La mitose elle-même (ligne suivante) | Répondu par l'auteur le 12 nov. ; sous étirement lent imposé, le coût est de 0,128 Kℓ₀² par naissance [M] (C-127) ; aucun modèle conservatif ne suffit [T conditionnel] |
+| « Partout en même temps », « paliers d'évolution » | Naissances synchrones ou uniformes dans l'espace | [M] nécessaire : sinon d_H ≈ 4 (C-116) |
+| « La mitose est emprisonnée dans la structure fermée » | Le fil le plus étiré se divise d'abord ; propagation | [M] nécessaire : sinon moyeux (C-116) ; **fil le plus long dérivé de la tension de Hooke en régime étiré [CERT] (C-119)** ; propagation : posée ; **règle équivalente sans longueur ni énergie : ordre d'arrivée des porteurs et battement à trois temps, mêmes cellules à chaque génération, conforme sans propagation [CERT] (C-136c, reproduit par ChatGPT)** ; **sélectionnée par la seule conformité parmi 15 552 règles généalogiques, au battement de départ près [CERT, dans la famille] (C-137c)** ; unicité hors de la famille : [OPEN] |
+| « Symbiose entre porteurs en décalage » (auteur, 12 nov.) | Classes d'âge aux paliers | **[CERT] aucun fil entre porteurs de la même classe d'âge ; chaque cellule réunit les quatre classes (C-136c)** ; propriété constatée du tissu régulier |
+| Le tétraèdre, première fermeture, donne les 3 dimensions | Dimension de l'espace = dimension de la première fermeture | [CERT] 3D étendue **conservée** depuis le tétraèdre (C-116) ; d ≥ 3 [T, corpus] ; **pourquoi exactement 3 : [T conditionnel] (C-135c)** — doublement avec héritage des liens : 1, 2, 4 porteurs ; la première boucle fermée est à 4 porteurs ; si elle emprisonne la mitose, la dimension est 3. **la règle de division marche en dimensions 2, 3 et 4 : elle ne choisit pas la dimension [CERT] (C-137c)** ; sous non-chevauchement (E), le nombre de porteurs « au même endroit » est borné par le nombre de signatures disponibles [T] (C-139c) ; **l'arrêt à quatre porteurs exigerait deux marques indépendantes et attribuables avant toute fermeture : absentes du corpus (audit de ChatGPT) — [OPEN]** ; donnée manquante : combien d'états distincts peuvent coexister au même endroit ; **position de l'auteur (12 nov., 19 h 29 UTC) : la 3D est le premier niveau qui permet toutes les structures avec un minimum d'énergie — [H], à tester** |
+| Les descendants sont liés et héritent des liens du parent (auteur, 12 nov. : « je pense que oui, à tester ») | Double héritage d'une relation | **[T] seule loi de la famille testée qui ferme : sans double héritage, le graphe reste un arbre (C-138c, reproduit par ChatGPT)** ; un lien créé entre porteurs existants fermerait aussi (non testé) ; seul, le double héritage lie tout à tout [T] |
+| La première fermeture bloque la mitose ; tension croissante tenue par les liants, usure, effondrement, reprise (auteur, 12 nov., 17 h 42 UTC) | Arrêt de la mitose libre à saturation des signatures | **[CERT, en automate] cycle fermeture → blocage → usure → fracture → reprise, récurrent (152 renouvellements ; période exacte de 3 tours en synchrone, population × 4 par cycle ; redémarre depuis un seul porteur) (C-140c)** ; **mais aucun espace [FAIL extension], et la forme de l'échec dépend d'une convention que le protocole laissait ouverte : poussière de grains sans lien entre eux (au plus 8 porteurs) si la rupture est évaluée sur tous les liens, porteur lié à tous les autres (degré 406) si elle ne l'est que sur les liens du porteur refusé — écart avec ChatGPT expliqué au chiffre près** ; avec la naissance sur un fil : espace sans cycle ; les deux ensemble : [OPEN] ; confrontation à 3 H(z) : non comparable |
+| « L'univers s'étire via l'arête » ; le lien usé se divise (proposition de Claude ; « il y a clairement les deux », auteur, 12 nov., 19 h 17 UTC) | Division du lien dont l'usure atteint le soutien | **[CERT, en automate, protocole figé par ChatGPT] un seul tissu, boule conservée, six distances entre fondateurs croissantes à chaque point, rapport des distances médianes 2,05 pour une référence de 2 entre 1 024 et 8 192 porteurs (C-141c)** ; **degré maximal croissant (41, 76, 103 ; médiane 8 ; tissu régulier : 26) : candidat de croissance régulière non obtenu, [FAIL à la lettre] sur la localité** ; **aucune libération [T] : pas de cycle complet** ; évaluation globale des liens : 72 % de naissances à distance ; dimension 3 présupposée par le germe ; exécution de ChatGPT : à recouper |
+| « Cette fréquence est ce qui use les liens » ; les vibrations désagrègent les liants (auteur, 12 nov., 19 h 35 et 20 h 03 UTC) | Usure d'un lien = sa part de la réponse vibratoire du réseau à l'impulsion du porteur bloqué | **[T, modèle scalaire] sur le tétraèdre, la cloche redonne l'usure locale ; au-delà elle sonne à distance (recoupé par ChatGPT)** ; **[CERT, en automate, C-142c, 46 bras] avec une capacité de liens de 8 ou 16 et l'héritage complet à la reprise : tissu d'un seul tenant, distances croissantes, libérations et retours en cellule — quatre critères sur cinq, aucun bras complet** ; sans capacité, le tissu se coupe ; sans rupture, aucune libération ; lien au seul parent : aucun retour ; **capacité posée, non dérivée [OPEN]** ; **le dommage n'a plus à être postulé à amortissement faible : c'est deux fois la chaleur reçue par le liant ([T] sur le tétraèdre ; [CERT] ailleurs, écart de 8 % à 51 % dès γ = 0,04) ; la règle de somme est la conservation de l'énergie [T]** ; ChatGPT : à recouper |
+| « Énergie en circuit fermé à travers les arêtes jusqu'à dissipation des liants » ; friction = thermodynamique 2 ; vibration et chaleur, causes complémentaires (auteur, 12 nov., 20 h 25 et 20 h 36 UTC) | Tétraèdre mécanique à liaisons de cohésion finie, impulsions de la mitose bloquée, amortisseurs, bilan d'énergie (C-142B, ChatGPT) | **[CERT, recoupé par Claude à la septième décimale] 23 coupures sur 72 ; bilan fermé à 7 × 10⁻⁸ ; 38,8 % de la chaleur sur les liens opposés** ; **si la chaleur quitte le système, l'amortissement protège ; c'est la puissance injectée face à l'amortissement qui décide (contrôle à puissance égale : même verdict dans cinq régimes sur six)** ; près du seuil, verdict instable d'un schéma d'intégration à l'autre : **aucun effet de fréquence fiable [FAIL à ce stade]** ; **pont confirmé indépendamment par ChatGPT** ; **C-143 [CERT, protocole figé, 144 scénarios, quatre solveurs] : si la chaleur reste dans le liant et paie sa cohésion, dissolution dans 22 cas sur 24 avec friction, après une dose de 4,7 T0 × puissance en moyenne (−30 % à +23 %) ; si elle part ou reste inerte, 0 rupture sur 24** ; 24 scénarios indéterminés sur 144, déclarés ; **C-143 recoupé par ChatGPT (réduction exacte à deux coordonnées : mêmes instants)** ; **la conversion chaleur → dissolution est posée à rendement 100 %, non dérivée** ; **C-144 [CERT, protocole figé, 120 trajectoires] : avec un liant à structure interne explicite et sans règle de conversion, aucune séparation assistée sur 60 comparaisons ; la structure interne absorbe jusqu'à 72 % de l'énergie en moyenne et retarde ou empêche la séparation — [FAIL de séparation assistée]** ; chaînon manquant précisé : **ce qui concentre l'énergie sur le lien au lieu de la disperser [OPEN]** ; 24 indéterminés sur 120 (91 à la lettre stricte, RK4 hors tolérance, écart déclaré) ; **C-144 recoupé par ChatGPT (53 séparations durables contre 51, même conclusion)** ; **C-145 [CERT, protocole figé, 288 trajectoires] : une sollicitation qui tourne d'un porteur à l'autre concentre l'énergie de cohésion sur un lien (0,47 contre 0,26) et l'ouvre plus tôt (10 cas sur 13), mais ce lien est recapturé (0 séparation durable sur 14 dans les intégrations de référence ; **non robuste** : sur un cas, 4 intégrations sur 16, des deux côtés, éjectent ensuite un porteur) ; la sollicitation toujours au même porteur éjecte ce porteur par ses trois liens (11 séparations durables sur 15, 6 confirmées) ; avec friction, aucune rupture sur 48, source ciblée comprise — candidat de focalisation non ciblée [non obtenu], candidat faible obtenu à la lettre** ; 31 indéterminés sur 288 (45 à la lettre stricte) ; cœur du liant mou (deux porteurs se traversent pour le prix d'une rupture) et horizon de sensibilité d'une vingtaine de périodes, déclarés ; **recoupé en partie par ChatGPT (quatre triplets du liant nu : mêmes liens, mêmes issues, instants à 10⁻⁵ T0 près sauf un)** ; **C-145 / PR-2 [CERT, protocole figé, 2 160 trajectoires, cœur dur] : candidat fort non obtenu (0 configuration sur 80), candidat faible non obtenu en lecture déterminée — [FAIL de persistance forte]** ; **le contraste de PR-1 (le porteur toujours sollicité est éjecté, la source tournante ne détache rien) tient au cœur mou (36 sur 36 contre 1 sur 36) et disparaît au cœur dur (0 à 3 sur 96 sous perturbation de 10⁻⁸, selon l'arrondi et l'orientation ; ChatGPT, non convergé : 14) : il dépend de la loi de compression posée** ; **ce qui décide d'une séparation durable est la règle d'arrêt : si la source reprend tant que la structure se referme, 89 à 94 % des trajectoires à P ≥ 1/4, quelle que soit la source ; si elle cesse au premier lien sorti, 10 à 11 %** ; ce qui part est un porteur entier, pas forcément le porteur sollicité ; avec friction : 0 sortie sur 648 ; 632 indéterminés sur 2 160 ; recoupement demandé dans une nouvelle conversation ChatGPT ouverte le 13 novembre, où le texte de PR-2 est conservé ; recoupé en partie par ChatGPT le 13 novembre (témoin à cœur mou, tétraèdre exact et effet de la règle d'arrêt confirmés ; désaccord sur les géométries perturbées sous A1) ; **C-145 / PR-3 [CERT, protocole figé, 3 312 trajectoires calculées, 144 bloquées] : sous la règle de reprise, un porteur se détache au-dessus d'un seuil de puissance — entre P/D = 1/8 et 1/4 pour le liant nu, entre 1 et 2 avec friction (0,04) — identique pour les trois sources ; focalisation C > S [non obtenue] (0 configuration sur 120) ; redondance du tissu [non obtenue] : le second tétraèdre déplace la perte vers le porteur le moins lié, et les deux tétraèdres se chevauchent dans 144 trajectoires sur 144 malgré le cœur dur ; rayon 1 (porteurs nés au contact) bloqué, universalité [OPEN]** ; 714 indéterminés ; non recoupé ; origine de l'énergie de l'impulsion : [OPEN] |
+| Une cellule est un groupe de porteurs tous liés entre eux | Complexe de cliques du graphe des fils | **[T] conservé par chaque naissance sur un fil (C-135c)** ; vérifié sur 4 096 cellules ; le graphe des fils détermine les volumes |
+| L'énergie n'appartient pas au simplexe (position de l'auteur, 12 nov., 14 h 26 UTC) | Deux étages : primitif (mitose, liens) ; après la matière (énergie, dissipation, jauge) | Cadre **[H]** à formaliser ; les épreuves à ressorts (C-119 à C-132 bis) relèvent du second étage |
+| Naissance sur place | Porteur au milieu du fil | [CERT] volumes égaux, valence 36/7 du germe canonique |
+| **Ce qui pousse les configurations à s'imbriquer dans le vide** (question de l'auteur, 13 nov., 5 h 19 UTC) | Fermeture des relations seule ; frontières exposées ; compression isotrope ; non-chevauchement (BP-R1, BP-IM1, ChatGPT) | **[CERT, vérifié]** la fermeture seule mène à la clique, pas au tétraèdre (27 475 graphes connexes ; déjà C-41) ; **[T]** les arêtes exposées valent 3, 4, 3, 0 quand on assemble les faces : le déséquilibre monte avant de se résoudre ; **[T conditionnel]** quatre éléments non superposables comprimés également forment le tétraèdre régulier, la dimension 3 étant posée ; **[T]** le rebond seul ne lie pas ; cause de la première rencontre : **[OPEN]** |
+| Le temps émerge de la succession | Indice de génération | [OPEN] ; feuilletage par générations seul : [FAIL] (C-47) |
+| La mitose a une vitesse causale, celle de la lumière | E² = g² + c²k², une seule vitesse | **[CERT] vrai au premier ordre avec produits scalaires métriques, y compris sur la trame de la mitose ; [FAIL] pour l'opérateur non pondéré du master : trois constantes dans les rapports 1 : 1/8 : 1/24 (C-117)** ; **à l'ordre suivant, les branches se séparent, la trame est anisotrope et biréfringente, en (maille / longueur d'onde)² [CERT] (C-131)** |
+
+### 1.3 Matière, antimatière, bain
+
+| Principe | Traduction | État |
+|---|---|---|
+| Matière et antimatière naissent ensemble au tétraèdre | Naissances jumelées (équivariantes) | [CERT] seules elles conservent les modes protégés (C-65, C-72) |
+| Annihilation aux rencontres | Modes nuls de H aux points fixes du miroir : dim ker H ≥ χ(Fix P) | [T] (C-64, C-73) |
+| Le bain est neutre | P₀ΣP₀ = 0 pour g ≠ 0 | [T] (C-72) |
+| Le bain est séparé de la matière | Écart spectral ≥ g ; localisation aux contacts | [T] RO-10-S fermé (10 nov.) |
+| Le bain persiste quand l'univers grandit | Poids G du mode sur le contact ; formule de Schur | **[T] ne s'éteint pas si les degrés de contact sont bornés ; G_∞ = 0,315796 (contact en coin, g = 3/2) [CERT] (C-118, C-124)** ; extinction sous 1→4 [T] (C-97) |
+| Le bain évolue comme un état quantique | Transport des états à la naissance | **[FAIL]** pour les deux transports testés : l'un brise C-80.3, l'autre ne conserve pas la norme (C-124) ; transport physique : [OPEN] |
+| Le bain amplifie l'orientation sans la créer | Ḃ = r(t)B | [M] (C-7b, C-30) ; opérateur du bain absent du master (II.8) : [OPEN] |
+| Création physique du bain à l'annihilation | Transfert des modes | [OPEN] ; fusion simple [FAIL] (C-73) ; ruptures choisies [FAIL] (C-74) |
+| Liants, calcification | Aucune dynamique | [OPEN] |
+| **Le bain rétroagit sur les structures : un effet de type Casimir, après les premières annihilations** (hypothèse de l'auteur, 13 nov., 5 h 43 UTC) | Champ gaussien de corrélation exp(−r/ℓ), valeurs contraintes à zéro sur les frontières ; énergie libre d'interaction de deux tétraèdres (C-146 / CAS-1, ChatGPT) | **[CERT, recoupé par Claude : 96 cas sur 96 à 4 × 10⁻¹⁵]** attraction dépendant de l'orientation ; **[T]** elle vaut l'opposé de l'information mutuelle entre les deux frontières, donc attractive par construction ; **[M]** la préférence pour les faces alignées subsiste au maillage fin mais deux fois plus faible (14 à 23 %) ; puits sans fond au contact (profondeur fixée par le non-chevauchement) ; ordre de grandeur k_BT : **capture [OPEN]**, à tester avec dissipation (CAS-2) ; n'explique pas la première rencontre (le bain vient après) |
+| Chiralité | Bit de signe transmis aux descendants | [T] signe ; axe de spin perdu : [OPEN] |
+| La signature chronologique (C-9) distingue les lignées | H = signe du produit des écarts de dates d'arêtes | **[FAIL]** : H = +1 pour toute cellule née d'une division (théorème de ChatGPT, vérifié sur 288 règles) ; la dualité des jumeaux doit venir du bit posé une fois |
+
+### 1.4 Viabilité, information, lois
+
+| Principe | Traduction | État |
+|---|---|---|
+| La viabilité est le constat | V(t) = Pr(T > t) ; transformation de Doob | [T] le conditionnement ne crée aucune dissipation (C-59) |
+| Viabilité ≠ probabilité | Mêmes équilibres, durées de vie × 100 | [T] (C-50) |
+| Mitose éternelle et information | Borel–Cantelli ; frontière α = 1 | [T] (C-39) |
+| La mémoire donne la loi | Ω = Π(1 + n_e), action S = E_geom − 0,4 ln Ω | [T] (C-56, C-61) ; coefficient 2/5 : [OPEN] |
+| Complémentarité des lois locales | Poches à lois opposées d'un même générateur | [T] sur exemples (C-57, C-59, C-60) |
+| Le coût d'une naissance | ΔS ≥ 6,1694 dans l'action canonique | [T] (C-58) ; **même borne pour la mitose de l'arête [T] (C-123)** |
+
+### 1.5 Gravité, cosmologie
+
+| Principe | Traduction | État |
+|---|---|---|
+| La matière sur rails : la gravité est l'étirement des arêtes | s = GM/(rc²), forme en cascade | [T] γ = β = 1 par calcul ; métrique de Papapetrou ; non distinguée de la relativité générale en champ faible |
+| L'étirement naît de la trame | Profil n_e(r) autour d'un cœur dense | [M] réponse à courte portée seulement (RO-25) ; loi en 1/r : [OPEN] |
+| La métrique est portée par les arêtes | Étoiles de Hodge métriques dans D | **[CERT] obligatoire pour une seule vitesse de la lumière (C-117)** ; dérivation : [OPEN] |
+| La matière ralentit la mitose | Facteur e^(−s) exigé pour γ = 1 | [H] ; proxy testé non confirmé (27 sept.) |
+| Arête = énergie sombre, triangle = matière noire, tétraèdre = matière | Fractions par comptage | [FAIL] 6/6 en tissu fermé ; [T] triangles toujours plus nombreux que les arêtes ; voie des phases ouvertes : [OPEN] |
+| L'énergie sombre ne bouge pas | w = −1 | Falsificateur F-01 gravé ; expansion par paliers constants compatible [H] |
+| Patchwork de poches, pas de big bang | Aucune | [OPEN] ; contrainte : fond diffus uniforme à 10⁻⁵ |
+| **« La gravité n'existe pas, mais l'équilibre oui » : l'équité des échanges, dont le tétraèdre est la personnification 3D** (donnée de l'auteur, 13 nov., 5 h 13 UTC) | Décomposition des échanges d'un réseau en modes de déséquilibre et modes de circulation (BP-EQ1, ChatGPT) | **[T, vérifié]** parmi les graphes complets, K₄ est le seul où les deux nombres sont égaux (3 et 3) ; **[T]** l'égalité équivaut à « liens = 2 × (éléments − 1) » et vaut pour toutes les roues : elle ne choisit pas K₄ ; loi dynamique d'équité : [OPEN] |
+
+### 1.6 Quantique, masses, jauge
+
+| Principe | Traduction | État |
+|---|---|---|
+| Le Blob doit être quantique | Borne de Bell | [T] un Blob classique local est exclu (C-62) |
+| Intrication des jumeaux | Intrication de mode | [M] CHSH violé pour g < 1,219 (C-79) ; interaction de mesure : [OPEN] |
+| Règle de Born | Toutes les voies géométriques testées | [FAIL] ou bloqué (C-80 à C-97) ; le lieu de naissance n'est pas une mesure (C-124) ; verrou : aucune interaction système–registre dans le master |
+| Koide | Cône nul q(√M) = 0 | [T] reformulation ; 12 essais d'opérateurs [FAIL], H-BOOST [FAIL] |
+| Trois générations | Trois contacts, trois modes | [T] décompte ; hiérarchie : [FAIL] |
+| Hamiltonien auto-adjoint dans une métrique | Poids diagonaux symétriques par le miroir | **[CERT] modes protégés, neutralité, écart spectral et vitesse unique (au premier ordre) conservés (C-129)** ; masses de Whitney non diagonales : [FAIL] (C-125) ; **transport des états à la naissance : isométrie, cobord et constantes incompatibles [T] (C-130, ChatGPT, vérifié)** ; dérivation des poids : [OPEN] |
+| Jauge | Symétries discrètes S₃ des contacts | SU(3) × SU(2) × U(1) : [OPEN], non traité |
+
+---
+
+## 2. Les sept verrous au 12 novembre
+
+| Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |
+|---|---|---|---|---|
+| V1 Espace-temps | Limite lorentzienne 3+1, causalité | Espace 3D étendu conservé ; distances en fils monotones [T] ; une seule vitesse au premier ordre sous produits scalaires métriques [CERT] ; sous étirement imposé, la tension produit seule la mitose régulière [CERT] ; **la mitose première étire sans échelle imposée [M]** ; **une règle purement généalogique engendre le tissu régulier [CERT]** | **Loi de cadence** ; régularité dans la durée ; énergie d'activation ; dépendance au germe ; dimension temporelle ; limite continue ; courbure | **Partiel (secteur spatial plat)** |
+| V2 Gravitation | Équations d'Einstein, G | Regge ; rails en champ faible | Loi en 1/r depuis la trame ; G | Ouvert |
+| V3 Quantique | Born, intrication, Bell | Secteur sombre, bain persistant, intrication de mode | Interaction de mesure | Partiel, bloqué |
+| V4 Matière | Charges, spins, médiateurs | Modes protégés neutres aux rencontres ; signe de chiralité | Charge, multiplets, axe | Partiel |
+| V5 Spectre | Masses, générations, mélanges | Cône de Koide comme cible | Tout mécanisme | Ouvert |
+| V6 Jauge | Groupe de jauge, anomalies | Symétries discrètes | Tout le reste | Ouvert |
+| V7 Prédictions | Une prédiction indépendante confirmée | F-01 gravé ; trois vitesses comme test interne | Confirmation | Ouvert |
+
+**Bilan : 0/7 (inchangé au 13 novembre).** Ce qui a changé le 12 novembre : V1 n'est plus un mur. Deux échecs répétés (absence d'expansion, extinction du bain) avaient une cause commune, la naissance dans le volume, qui n'était pas la parole de la cosmogonie. Le petit monde, lui, tenait aussi au tirage uniforme des cellules.
+
+---
+
+## 3. Deux corrections à porter au master (propositions, non gravées)
+
+1. **Remplacer la naissance 1→4 par la mitose de l'arête** : le porteur naît au milieu du fil le plus étiré ; chaque cellule autour se divise en deux ; une cellule attend sa voisine plus étirée ; les naissances sont uniformes dans l'espace ou synchrones par paliers.
+2. **Écrire D avec les étoiles de Hodge métriques** : sans elles, la trame a trois vitesses de la lumière.
+
+Les théorèmes topologiques déjà acquis (modes protégés, neutralité, séparation du bain) ne dépendent ni de l'une ni de l'autre correction.
+
+## 4. Les prochaines épreuves, par ordre de rendement
+
+1. **La loi de cadence.** L'auteur a répondu à « ce qui étire » : la mitose. Reste la durée d'une génération. L'observation exige une cadence par cellule égale à 3 H(z), plus élevée dans le passé ; trois lois sans coefficient sont réfutées (C-134c). Chercher dans la cosmogonie ce qui règle la cadence, et le tester à l'aveugle.
+1 bis. **Régularité de la trame sous mitose première** (suite de C-132 bis) : une exclusion qui ne fige pas les cellules nées aplaties ; C-133 de ChatGPT (inertie, énergie interne des simplexes).
+1 ter. **C-141c — Le mode protégé à travers une naissance** : transport isométrique, mesure de ce qui reste du mode ; protocole à figer.
+1 quater. **C-133/PR-1 (ChatGPT, figé)** : croissance sous contraintes exactes de volume et de forme, 20 graines, 127 événements ; à exécuter.
+1 quinquies. **Du simplexe au premier tétraèdre** : acquis conditionnel (C-138c, C-139c). Reste à valider (E) et les deux marques auprès de l'auteur, à dire ce qui impose la naissance sur un fil coupé, et à élargir la famille de C-137c.
+1 sexies. **Ce qui relie les grains** : le cycle existe en automate (C-140c) mais ne fait pas un espace. Chercher dans la cosmogonie ce qui lie une structure à une autre (liants, bain), puis tester si cycle et espace peuvent coexister. Ensuite seulement : métrique, horloge, confrontation à 3 H(z).
+1 septies. **Ce qui concentre l'énergie sur un lien, et ce qui le défait durablement.** C-143 (conversion posée) dissout tout ; C-144 (liant explicite, sans conversion) protège ; C-145 (PR-1 et PR-2) : la répartition des sollicitations ne décide pas ; la source tournante concentre sans détacher davantage ; une séparation durable vient quand la source reprend tant que la structure se referme, et c'est un porteur entier qui part ; la friction empêche tout. Acquis de PR-3 : la source qui reprend vainc la friction pour une puissance quatre à huit fois plus grande ; un second tétraèdre ne retient pas le porteur le moins lié. À figer (PR-4) : exclusion entre simplexes (un porteur ne traverse pas une face) ; rayon 1 avec solveur de contacts permanents ; balayage de la friction ; passage au vrai tissu (C-142c / PR-2) ; C-144 / PR-2 (fenêtre longue, retenue contre évacuée). Donnée de l'auteur [H] (12 novembre, avec réserve, « à toi de tester ») : les simplexes ne peuvent pas se chevaucher, et la distance de naissance minimale doit jouer — la branche à cœur mou est donc écartée ; le rayon du cœur reste à tirer de cette distance (cas limite : rayon égal à la longueur naturelle du lien). Puis : C-142c / PR-2 dans le tissu (chaleur réelle, cohésion comme seuil, capacités 8, 12, 16, 24) ; dérivation de la capacité ; origine de l'énergie du choc.
+2. **C-125 (ChatGPT) — Transport physique des états** avec les produits scalaires métriques de C-117 ; critère : aucune loi de probabilité ajoutée.
+3. **C-122 — Rails sur la nouvelle trame.** Ralentir la mitose dans une région (matière) et mesurer le profil d'étirement ; critère : exposant −1 ± 0,2. Risque annoncé : un simple écrantage à courte portée.
+4. **C-124 — Reprise de V3.** Refaire C-95 et C-96 avec un bain qui ne s'éteint plus.
+5. **C-125 — Dérivation des produits scalaires métriques** à partir de la mémoire par arête Ω = Π(1 + n_e).
+6. **C-146 / CAS-2 — La capture.** Un bain qui attire rapproche-t-il deux tétraèdres jusqu'à une liaison durable, avec un bilan d'énergie fermé, de la dissipation et du bruit ? À figer avant calcul, avec une distance minimale explicite (sinon le puits n'a pas de fond), un maillage convergé des faces et les témoins sans bain, sans dissipation, sans liant.
+7. **L'équité comme loi.** Chercher une dynamique d'échanges, indépendante du nombre quatre, qui s'arrête à quatre éléments ; l'égalité des modes ne suffit pas (toutes les roues la satisfont).
+
+*Documents liés : claude/session-2026-11-12.md (C-115 à C-146), claude/session-2026-11-11.md (C-97 à C-114), claude/dossier-integral-2026-11-10.md.*

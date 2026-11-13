@@ -1,0 +1,12 @@
+C-69 — PREENREGISTREMENT (fige avant calcul, 9 nov. 2026, 21 h 30)
+Facteurs (choix de Rudolphe : « un savant melange de tout ») :
+ 1. Jumeaux / rencontre : tetra ++++ et tetra ---- relies par 3 aretes miroirs (0-4, 1-5, 2-6) -> espace = noyau de H (3 modes).
+ 2. Chronologie : les 3 contacts naissent a des generations successives ; mitose exponentielle -> poids relatifs 4 : 2 : 1
+    (le plus ancien a double deux fois). Rapports invariants d'echelle.
+ 3. Orientation du bit : variante A = poids reels ; variante B = phase i (quart de tour, J^2 = -1) sur les aretes de contact.
+ 4. Bain : evolution continue = noyau de chaleur exp(-D^2), temperature canonique (beta = 1, normalisation de l'action).
+ g = 3/2 (valeur archivee).
+Operateurs sur le noyau (liste fermee) : D^2, exp(-D^2), Gamma, N. Valeurs propres prises en valeur absolue = sqrt(m).
+Nombre de comparaisons : 4 operateurs x 2 variantes = 8.
+Succes : |e1^2/e2 - 6|/6 < 1e-3 pour au moins un cas, rapporte avec ses rapports de masse (cibles 206,77 et 16,82).
+Echec sinon. Aucun ajustement apres coup.

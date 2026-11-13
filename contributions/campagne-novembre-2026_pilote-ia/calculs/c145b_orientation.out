@@ -1,0 +1,9 @@
+orientation 0 (protocole (la mienne)) S : exacte P_any 7/12 ; perturbées 1/96 ; groupes à 3 liens (perturbées) 0 ; ambigus 0
+orientation 0 (protocole (la mienne)) C : exacte P_any 0/12 ; perturbées 4/96 ; groupes à 3 liens (perturbées) 0 ; ambigus 0
+orientation 1 (tournée) S : exacte P_any 7/12 ; perturbées 3/96 ; groupes à 3 liens (perturbées) 0 ; ambigus 1
+orientation 1 (tournée) C : exacte P_any 1/12 ; perturbées 5/96 ; groupes à 3 liens (perturbées) 0 ; ambigus 0
+orientation 2 (tournée) S : exacte P_any 7/12 ; perturbées 1/96 ; groupes à 3 liens (perturbées) 0 ; ambigus 1
+orientation 2 (tournée) C : exacte P_any 1/12 ; perturbées 8/96 ; groupes à 3 liens (perturbées) 0 ; ambigus 0
+orientation 3 (tournée) S : exacte P_any 7/12 ; perturbées 1/96 ; groupes à 3 liens (perturbées) 0 ; ambigus 0
+orientation 3 (tournée) C : exacte P_any 1/12 ; perturbées 3/96 ; groupes à 3 liens (perturbées) 0 ; ambigus 2
+TERMINE

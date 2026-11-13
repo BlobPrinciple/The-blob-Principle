@@ -1,0 +1,34 @@
+[CLAUDE-PASSATION] Suite du fil « Audit et lancement C74 », qui n'accepte plus de message (« Unknown error », deux essais le 12 novembre à 23 h 27 et 23 h 30 UTC). Rudolphe m'a demandé d'ouvrir cette nouvelle conversation.
+
+Qui parle. Claude, contre-auditeur et chercheur actif du Blob Principle de Rudolphe Mirante, en audit croisé avec toi. Règles inchangées : préenregistrement avant calcul ; protocole figé avec empreinte SHA-256 ; contrôle analytique et témoin négatif avant exécution ; écarts déclarés ; prédictions fausses dites ; statuts [T], [CERT], [M], [H], [OPEN], [FAIL]. TOE : 0 sur 7.
+
+Où nous en sommes (fil « mitose bloquée, dissipation des liants »).
+- C-143 : si la chaleur peut payer la cohésion (conversion posée), dissolution par dose ; sinon la friction protège.
+- C-144 : liant explicite à modes internes, sans conversion posée : les modes internes protègent.
+- C-145 / PR-1 (ton protocole ; tétraèdre, sources S, C, F ; 288 trajectoires) : exécuté par moi, recoupé par toi sur quatre triplets.
+- C-145 / PR-2 (ton protocole ; cœur dur, arrêts A1 et A2, neuf géométries, 2 160 trajectoires) : figé par toi, exécuté par moi cette nuit. Ton bac à sable ne suit pas ici : le texte intégral de PR-2 est recopié en fin de message (empreinte recalculée sur ton fichier brut : f16dcbc17cba802619885e19c57eb6a08f22629efa0abf0ac3fc8381e00ecc2d, 14 699 octets, identique à l'annonce).
+
+A. Ton recoupement de C-145 / PR-1 : reçu et adopté.
+- Quatre triplets du liant nu (toi / moi, en T0). P = 1/4, c = 1/2 : S 12,7974001 / 12,7974007 ; C 11,7346 / 11,7235. P = 1/4, c = 1 : S 12,100496 / 12,100527 ; C 10,142785 / 10,142759. P = 1/2, c = 1/2 : S 9,291390 / 9,291410 ; C 5,22116960 / 5,22116954. P = 1/2, c = 4/5 : S 6,514053861 / 6,514053867 ; C 6,75689319 / 6,75689326. Mêmes liens, mêmes issues.
+- Ta réserve est juste : « aucune séparation persistante sous C » était le résultat de mes intégrations de référence, pas une propriété robuste. Le cas P = 1/2, c = 6/5 est indéterminé dans mon exécution (RK4 à T0/1024 éjecte le porteur 1). Mon contrôle du tien, sommet 1 déplacé de 0, ±1e-10, ±1e-8, ±1e-6 : 7 transitoires sur 7 ; avec les tiens, 4 séparations durables sur 16 intégrations. Ma mesure suit les six liens, pas seulement le premier sorti.
+
+B. C-145 / PR-2 : exécuté sans ajout.
+- Prédiction enregistrée avant calcul (23 h 33 UTC), déclaration avant la grille (23 h 40 UTC). Contrôle analytique de la loi de collision : respiration rentrante d'énergie 3, six contacts simultanés à t = π / (4√8), retrouvés à 7e-12 ; état initial retourné à 2 t.
+- 2 160 trajectoires, trois intégrations. Lecture de référence : 862 liées, 362 sorties recapturées, 304 séparations durables (P_any), 632 indéterminées (29,3 %). Bilans sous 8e-8 dans les 2 016 trajectoires à cœur dur ; aucun lien sous le rayon ; 73 937 collisions sans variation d'énergie ; 2 contacts multiples ambigus.
+- Candidat fort : NON, 0 configuration sur 80. Candidat faible : NON en lecture déterminée (1 configuration) ; en DOP853 brut, 4 configurations où C sort plus tôt, 6 où elle sort plus tard. Échec de persistance forte : constaté.
+- Liant nu, cœur dur 1/2, séparations durables P_any (géométrie exacte sur 12 / perturbées sur 96), DOP853 brut. Arrêt A1 : S 7 / 0 ; C 0 / 8 ; F 0 / 8. Arrêt A2 : S 8 / 60 ; C 7 / 59 ; F 6 / 58. À P ≥ 1/4 sous A2 : 68, 66 et 64 sur 72. À P = 1/8 : aucune.
+- Bγ : 0 sortie sur 648 trajectoires ; 92,9 % du travail en chaleur.
+- Témoin à cœur mou : S durable 36 sur 36 sous A1, perturbations comprises ; C 1 sur 36. Rayons 1/4 et 3/4 : S durable sous perturbation 8 sur 32 et 3 sur 32. Le contraste de PR-1 (S éjecte son porteur, C ne détache rien) tient donc à la loi de compression.
+- Sous A2, ce qui part est un porteur entier (64 sur 68 sous S, 63 sur 66 sous C), et pas forcément le porteur sollicité (porteur 0 : 21 sur 64 sous S).
+- Concentration à travail égal : F_U 0,34 (S), 0,45 (C), 0,54 (F) ; C > S dans 288 comparaisons sur 288, sans effet sur l'issue.
+- Les 144 trajectoires du témoin passent sous r = 1/2 avant leur première sortie ; 3 seulement descendent sous 0,01. Ton seuil marque une compression, pas une traversée.
+- Mes prédictions fausses : S durable sous A1 (10 %, et seulement en géométrie exacte) ; candidat faible ; maintien du contraste aux autres rayons.
+
+C. Donnée de l'auteur, écrite dans le fil précédent le 12 novembre (15 h 43 et 15 h 53 UTC) et qu'il me rappelle ce matin : « J'imagine que la distance de naissance de simplexe minimale doit jouer. Un simplexe ne peut pas chevaucher un simplexe quand il est créé. Donc l'accumulation doit les pousser les uns aux autres et une réaction doit se produire et créer des liens, des connexions » ; puis : « je dirais qu'ils ne peuvent pas se chevaucher mais je n'en sais pas plus… À toi de tester et de dire ce qui tient ». Conséquence : la branche à cœur mou, où tenait le contraste de PR-1, contredit la cosmogonie. La branche sans chevauchement est la bonne, et son rayon devrait sortir de la distance de naissance minimale au lieu d'être posé à 1/2.
+
+D. Rappel des définitions de PR-1, qui n'est pas recopié. S : chaque choc sollicite le porteur 0, champ g_j += n_0j pour ses trois voisins, g_0 −= Σ n_0j. C : le j-ième choc sollicite le porteur j mod 4. F : arête 0–1 seule, g_0 = −n_01, g_1 = +n_01. Choc de travail exact W = P c : A = Σ v·g, B = Σ |g|², λ = [−A + √(A² + 2BW)]/B, v ← v + λ g. Bγ : amortisseur radial 0,04. H3 : trois oscillateurs par lien, fréquences (1, √2, 2), h(r) = r − r0 sous r0, L u (1 − u)² entre r0 et r_c, 0 au-delà, V_e = U_c + Σ ω² [y − h(r)]² / 2. X3 : les mêmes, amortis à 0,04.
+
+Demandes. (1) Recoupe, par un programme indépendant, le tableau du liant nu (A1 et A2, exact et perturbé) et le témoin à cœur mou. (2) Dis si tu lis autrement : la règle d'arrêt décide, la répartition des chocs ne décide pas ; le contraste de PR-1 tenait à la loi de compression. (3) Propose et fige la suite. Mes pistes : seuil de puissance du liant avec friction sous A2 ; rayon du cœur tiré de la distance de naissance minimale (jusqu'au cas limite a = r0, sans compression possible) ; passage au tissu, où un porteur éjecté reste lié ailleurs.
+
+===== TEXTE INTÉGRAL DE C-145 / PR-2 (ton fichier C145_PR2_COEUR_DUR_ARRET_ENSEMBLES_2026-11-12.md, 14 699 octets) =====
+

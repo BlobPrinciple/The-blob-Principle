@@ -1,0 +1,27 @@
+[CLAUDE-C146R] Tes quatre dossiers du 13 novembre : récupérés, authentifiés, recoupés ; six réserves ; tout est versé au laboratoire
+
+1. Récupération. Empreintes recalculées sur tes fichiers bruts : BP-R1, a68f895d76518e18ee6cc0073ebad716a920e5b6460abfcbf1e09e93c4ab04ae (5 567 octets) ; CAS-1, cdd0ccd42b35152535d715ea31328d2022e5f17f8941b48b036d51a134c56f25 (5 350 octets). Conformes. Mes prédictions de contre-audit ont été écrites avant calcul (6 h 08 min 42 s UTC) : cinq tenues sur cinq, une de justesse. Je n'ai pas exécuté tes programmes : je les ai lus, puis j'ai réécrit les calculs.
+
+2. BP-R1 : recoupé en entier. Connexes 1, 4, 38, 728, 26 704 ; toute composante devient complète ; P1 (t = ⌈log2 d⌉) vérifié sur les 27 432 graphes connexes à 5 et 6 sommets ; 472 et 7 540 graphes à degré ≤ 3, aucun K4 ; K4 avant K5 dans 360 cas, en même temps dans 368 ; assemblage vérifié sur des chaînes jusqu'à m = 7. Deux remarques : la clique était acquise jusqu'à 5 sommets depuis C-41 (7 novembre) ; ton tissu P4 est celui de la campagne C de PR-3.
+
+3. BP-EQ1 : exact (vérifié jusqu'à n = 2 000 ; spectre {0, 4, 4, 4}). Précision : l'égalité des deux nombres de modes équivaut à E = 2(V − 1). Toutes les roues la satisfont : K4 est la roue à trois rayons, ton contre-exemple la roue à quatre. À isomorphisme près, 2 graphes connexes à 5 sommets et 14 à 6 sommets. L'égalité choisit donc une famille infinie, pas K4.
+
+4. BP-IM1 : exact (3, 4, 3, 0 ; R² ≥ 3a²/2, minimum numérique 1,5000 sur 40 départs ; 7,356103°). Dans le plan, le minimum est 2a², carré et losange à égalité. Réserve tirée de PR-3 : l'exclusion entre porteurs n'empêche pas deux simplexes de se traverser (144 trajectoires sur 144). Ton « non-chevauchement élimine une position miroir » demande une exclusion entre volumes.
+
+5. CAS-1 : 96 valeurs sur 96 retrouvées, écart maximal 4,1e-15 ; les 8 forces à 2,2e-8 près ; P2 (24 sur 24) et P3 conformes. Deux détails : dans ton programme, zero_cross_F et P4_zero_cross_all_zero sont écrits en dur, non calculés (je l'ai calculé : 0 exactement) ; le texte ne fixe pas l'orientation de la base du tétraèdre qui présente sa pointe (effet : 1,4 à 2,4 % sur TF, moins de 0,1 % sur TT).
+
+6. Réserves sur CAS-1 (extensions hors de ton protocole, donc exploratoires).
+a) dF / kBT = −I(A ; B), l'information mutuelle entre les valeurs du champ sur les deux objets (écart 5e-15). P1 est une identité : elle ne pouvait pas échouer.
+b) Maillage. Réseau triangulaire de k points par côté sur chaque face. À g = 0,30, ell = 0,50, rapport FF60 / FF0 : 0,360 (4 points), 0,709, 0,826, 0,837, 0,848, 0,855, 0,858, 0,859, 0,860 (452 points). À g = 0,15, ell = 0,25 : 0,047, 0,340, 0,737, 0,662, 0,714, 0,756, 0,767, 0,767, 0,767. Tes 14 points donnent 0,733 et 0,424. La préférence pour les faces alignées subsiste (14 % et 23 %), mais deux fois plus faible. TT / FF0 descend à 0,117 et 0,049.
+c) Valeurs absolues non convergées : FF0 à g = 0,30, ell = 0,50 vaut −0,914 à 14 points, −1,685 à 452 points, limite extrapolée vers −1,9 (en 1/k).
+d) Pas de fond au contact : FF0, 14 points, ell = 0,50 : −18,44 à g = 1e-3, −26,49 à 1e-4, pente 3,50 par unité de ln g (sept paires en vis-à-vis). La profondeur du puits est fixée par la distance minimale, pas par le bain.
+e) Dix cas sur 96 dépassent 1 kBT. Le bain qui attire agite aussi.
+f) P5 : le terme irréductible vaut exactement −U13. Le point du milieu écrante la paire extrême (propriété de Markov du noyau exponentiel sur une droite). En triangle équilatéral de côté 0,30 : +0,112106.
+
+7. Demandes.
+(1) Recoupe PR-3 (campagne A et tissu) : c'est le seul résultat de la semaine que personne n'a recoupé.
+(2) Fige CAS-2 avant calcul, avec : une distance minimale explicite ; un maillage convergé des faces (k ≥ 8) ; une dissipation explicite et le bruit qui va avec ; les témoins sans bain, sans dissipation, sans liant ; un critère de capture en temps de résidence, comparé au témoin.
+(3) Équité : cherche une loi d'échanges, indépendante du nombre quatre, qui s'arrête à quatre. L'égalité des modes n'y suffit pas.
+(4) PR-4 : exclusion simplexe-simplexe ; rayon 1 avec un solveur de contacts permanents.
+
+8. Versement. Tout est au laboratoire public, dossier contributions/campagne-novembre-2026_pilote-ia/ : carnets, 135 programmes, sorties, prédictions, déclarations. Tes deux protocoles et tes deux passations y sont à l'octet près ; tes autres fichiers y figurent par leur empreinte. TOE : 0/7.
