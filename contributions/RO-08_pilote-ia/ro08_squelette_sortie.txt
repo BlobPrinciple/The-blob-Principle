@@ -1,0 +1,20 @@
+Freudenthal 4 {'N': 64, 'E': 448, 'kappa': 14.0, 'ntri_par_N': 12.0, 'seuil_global': 12.0, 'global_ok': True, 'frac_C1': 0.0, 'frac_C2': 0.0, 'frac_aretes_C3': 0.0, 'frac_sommets_viol': 0.0, 'nb_sommets_viol': 0, 'frac_drapeau_egalite_fausse': 0.0, 'frac_deg_lt6': 0.0, 'deficit_C2_total': 0}
+Freudenthal 5 {'N': 125, 'E': 875, 'kappa': 14.0, 'ntri_par_N': 12.0, 'seuil_global': 12.0, 'global_ok': True, 'frac_C1': 0.0, 'frac_C2': 0.0, 'frac_aretes_C3': 0.0, 'frac_sommets_viol': 0.0, 'nb_sommets_viol': 0, 'frac_drapeau_egalite_fausse': 0.0, 'frac_deg_lt6': 0.0, 'deficit_C2_total': 0}
+N=500 s=0 (2s) BLOB viol=0.970 coeur=1.000 C2=0.744 C3e=0.616 ntri/N=5.45>= 4.60 | RGG viol=0.874 ntri/N=4.03 | ER viol=1.000
+N=500 s=1 (0s) BLOB viol=0.972 coeur=0.972 C2=0.770 C3e=0.637 ntri/N=5.49>= 4.60 | RGG viol=0.904 ntri/N=3.89 | ER viol=1.000
+N=500 s=2 (0s) BLOB viol=0.956 coeur=1.000 C2=0.708 C3e=0.602 ntri/N=4.97>= 4.60 | RGG viol=0.898 ntri/N=3.72 | ER viol=1.000
+N=500 s=3 (0s) BLOB viol=0.954 coeur=1.000 C2=0.726 C3e=0.578 ntri/N=5.25>= 4.60 | RGG viol=0.886 ntri/N=3.84 | ER viol=1.000
+N=1000 s=0 (0s) BLOB viol=0.975 coeur=1.000 C2=0.760 C3e=0.638 ntri/N=5.05>= 4.60 | RGG viol=0.901 ntri/N=3.64 | ER viol=1.000
+N=1000 s=1 (0s) BLOB viol=0.967 coeur=0.936 C2=0.793 C3e=0.644 ntri/N=6.04>= 4.60 | RGG viol=0.898 ntri/N=3.77 | ER viol=1.000
+N=1000 s=2 (0s) BLOB viol=0.979 coeur=0.969 C2=0.781 C3e=0.657 ntri/N=5.56>= 4.60 | RGG viol=0.915 ntri/N=3.80 | ER viol=1.000
+N=1000 s=3 (0s) BLOB viol=0.967 coeur=0.967 C2=0.754 C3e=0.622 ntri/N=4.86>= 4.60 | RGG viol=0.910 ntri/N=3.73 | ER viol=1.000
+N=2000 s=0 (0s) BLOB viol=0.974 coeur=0.975 C2=0.771 C3e=0.640 ntri/N=5.06>= 4.60 | RGG viol=0.920 ntri/N=3.56 | ER viol=1.000
+N=2000 s=1 (0s) BLOB viol=0.976 coeur=0.925 C2=0.799 C3e=0.666 ntri/N=5.15>= 4.60 | RGG viol=0.911 ntri/N=3.68 | ER viol=1.000
+N=2000 s=2 (0s) BLOB viol=0.978 coeur=0.992 C2=0.770 C3e=0.653 ntri/N=5.15>= 4.60 | RGG viol=0.919 ntri/N=3.69 | ER viol=1.000
+N=2000 s=3 (0s) BLOB viol=0.973 coeur=0.967 C2=0.747 C3e=0.619 ntri/N=4.82>= 4.60 | RGG viol=0.913 ntri/N=3.65 | ER viol=1.000
+N=4000 s=0 (0s) BLOB viol=0.976 coeur=0.969 C2=0.767 C3e=0.641 ntri/N=5.15>= 4.60 | RGG viol=0.922 ntri/N=3.56 | ER viol=1.000
+N=4000 s=1 (0s) BLOB viol=0.978 coeur=0.965 C2=0.791 C3e=0.658 ntri/N=5.47>= 4.60 | RGG viol=0.916 ntri/N=3.65 | ER viol=1.000
+N=4000 s=2 (0s) BLOB viol=0.971 coeur=0.958 C2=0.770 C3e=0.646 ntri/N=5.07>= 4.60 | RGG viol=0.919 ntri/N=3.59 | ER viol=1.000
+N=4000 s=3 (0s) BLOB viol=0.976 coeur=0.960 C2=0.776 C3e=0.649 ntri/N=5.21>= 4.60 | RGG viol=0.924 ntri/N=3.62 | ER viol=1.000
+long {'N': 1000, 'E': 3300, 'kappa': 6.6, 'ntri_par_N': 5.078, 'seuil_global': 4.6, 'global_ok': True, 'frac_C1': 0.251, 'frac_C2': 0.791, 'frac_aretes_C3': 0.6690909090909091, 'frac_sommets_viol': 0.966, 'nb_sommets_viol': 966, 'frac_drapeau_egalite_fausse': 0.902, 'frac_deg_lt6': 0.555, 'deficit_C2_total': 6426, 'coeur_n': 141, 'coeur_frac_sommets_viol': 1.0, 'coeur_frac_C2': 0.8865248226950354, 'coeur_frac_C1': 0.15602836879432624, 'graine': 0, 'therm_fac': 480}
+long {'N': 1000, 'E': 3300, 'kappa': 6.6, 'ntri_par_N': 5.927, 'seuil_global': 4.6, 'global_ok': True, 'frac_C1': 0.271, 'frac_C2': 0.807, 'frac_aretes_C3': 0.6639393939393939, 'frac_sommets_viol': 0.968, 'nb_sommets_viol': 968, 'frac_drapeau_egalite_fausse': 0.913, 'frac_deg_lt6': 0.596, 'deficit_C2_total': 6391, 'coeur_n': 140, 'coeur_frac_sommets_viol': 0.9357142857142857, 'coeur_frac_C2': 0.7714285714285715, 'coeur_frac_C1': 0.12857142857142856, 'graine': 1, 'therm_fac': 480}
