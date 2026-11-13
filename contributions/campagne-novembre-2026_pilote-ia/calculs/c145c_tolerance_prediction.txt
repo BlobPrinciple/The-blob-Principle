@@ -1,0 +1,17 @@
+C-145 / PR-3 — DIFFÉREND K4, A1, S : SECONDE HYPOTHÈSE, écrite avant calcul (13 novembre 2026, UTC ; date du fichier)
+
+CONSTAT. Dans mon programme, deux contacts sont traités ensemble (réflexion simultanée) s'ils sont à moins de 1e-9 du rayon au même instant.
+Une perturbation de 1e-8 sépare donc les contacts symétriques : ils sont traités l'un après l'autre, et l'issue d'une collision
+multiple n'est pas la limite de collisions successives. Les trois paquets de premières sorties (4,12 / 4,98 / 5,12 T0) seraient
+les ordres possibles de ces contacts. Le protocole ne fixe pas la tolérance de simultanéité.
+
+HYPOTHÈSE H2. Le programme de ChatGPT regroupe les contacts quasi simultanés ; ses géométries perturbées suivent alors de près
+la géométrie exacte (première sortie vers 7,1 à 7,5 T0 au lieu de 7,5171).
+
+ÉPREUVE. Mon programme inchangé, sauf la tolérance de regroupement des contacts : 1e-9 (référence), 1e-7, 1e-6, 1e-5.
+K4, A1, S, a = 3/4, D = 1, quatre couples (P, c), huit perturbations du protocole. RK4 au pas T0/1024.
+
+PRÉDICTION F1. À la tolérance 1e-6, pour P = 1/2 et c = 1, au moins 6 des 8 premières sorties sont à moins de 0,1 T0 des valeurs
+de ChatGPT (7,1356 ; 7,1040 ; 5,1392 ; 5,7091 ; 7,4639 quatre fois), et le nombre de séparations durables parmi les 32 cas
+perturbés passe de 1 à une valeur comprise entre 5 et 11 (ChatGPT : 8).
+Ce qui me donnerait tort : moins de 6 sur 8, ou un nombre hors de 5–11. Le différend resterait alors ouvert.

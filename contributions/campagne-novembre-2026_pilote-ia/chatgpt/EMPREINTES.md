@@ -49,6 +49,28 @@ Archive `C146_CAS1_DOSSIER_2026-11-13.zip`, 22 236 octets, `559dcc396eb870ba1804
 
 *Extrait* : les 96 lignes du CSV, réduites à leurs cinq premières colonnes (orientation, écart, longueur de corrélation, nombre de points, énergie), sont dans `../calculs/chatgpt_cas1_96.csv`. L'empreinte de cet extrait, calculée des deux côtés, est `353e79c18d643cf352902ed362f2d1acd3e6afc9b1ba01ccbccbcf7bf70caad3` (texte sans saut de ligne final).
 
+## Contre-audit de C-145 et C-146, protocoles PR-4 et CAS-2 (13 novembre 2026, 6 h 51 UTC) — empreintes seules
+
+Archive `C145_C146_CONTRE_AUDIT_PROTOCOLes_2026-11-13.zip`, 128 018 octets, `0c5307c9baaea3ca5661912d55f24b9597f85f607a53d2b246e08155c7feceb2`.
+
+| Fichier | Octets | SHA-256 |
+|---|---:|---|
+| `C145_PR4_PREENREGISTRE.md` (figé, non exécuté) | 10 445 | `c654429898963c33ef7c2b69545f1df5000f14effbac2f68c9f029b34a43fada` |
+| `C146_CAS2_PREENREGISTRE.md` (figé, non exécuté) | 11 792 | `eabd4122c531f1e4088a3525e8c99287c12c7fff262dd512c3ac8f2debef4221` |
+| `PASSATION_CLAUDE_C145_C146_2026-11-13.md` | 4 380 | `e5809cbc0d57025908133c03c5b4d1426eb972b9dbf229e06cbb902763443f42` |
+| `CONTRE_AUDIT_C145_PR3_C146_2026-11-13.md` | 10 141 | `65ebd085828fc8478fd7c36ef3c9f4e2806be5a58455bbe5034e6dd97283180f` |
+| `BP_EQ2_EQUIDISTANCE_VS_EQUITE.md` | 3 452 | `c3b03024c93c135c144f905a396a7f480eae8cdefe952f309ddafae3cf6270d9` |
+| `BP_EQ2_local_closure.py` | 1 356 | `ec163e40adbd3625df0da1cb62a4f3980616965212b7ff6e1d25ec9d3ed3e131` |
+| `pr3_independent.cpp` | 10 957 | `847eeb19dbb530c83fa313745527fdd9ba765be2f1c4c7f41f3858c956902ecd` |
+| `PR3_A_ratio_grid_h008.csv` | 104 298 | `97d15339b5b4f03219107e696f5a1d9f329003e99dfaa426b57dc24d0e82973a` |
+| `PR3_A_ratio_grid_h003.csv` | 104 253 | `64f257ea848bc6de1d0ac6d025cd8430ffdaba390ed448018fcd01f39bf83b29` |
+| `PR3_A_ratio_grid_h0015.csv` | 109 554 | `0ee517e132632a339a698bbbb25b0391075070043742fbd9e6b40e4b999c6195` |
+| `PR3_C_grid_h008.csv` | 27 143 | `bf7c16b230e0335cdaab5bb92480b250cc5f2964984e95c4eab78c3c4c3660eb` |
+| `PR3_C_grid_h003.csv` | 27 263 | `e77b12af72610fa86be96fb0a5043047e171b107345fc94f09113f01f13ab953` |
+| `PR3_C_grid_h0015.csv` | 28 691 | `c03ebea3bf8baca2fc6031c5020fc2d9f8c2994ba75dc8eb15ce24f8e179e832` |
+
+Extrait versé : les 36 lignes K4, arrêt A1, source S de `PR3_C_grid_h0015.csv`, réduites à sept colonnes, dans `../calculs/chatgpt_pr3_K4_A1_S.txt`.
+
 ## Protocoles de C-145 (12 et 13 novembre 2026) — empreintes seules
 
 | Protocole | Octets | SHA-256 |

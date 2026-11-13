@@ -218,6 +218,16 @@ Le détail, principe par principe, est dans [VERROUILLAGE_TOE_V2.md](VERROUILLAG
 
 Premier des pans stratégiques demandés par l'auteur. Sur la vraie trame de palier du tissu régulier, une grandeur conservée transmise de fil en fil suit une loi en 1/r, proportionnelle à la source, isotrope à moins de 1 % dès sept mailles **[CERT, sous condition]**. L'étirement élastique d'un réseau de ressorts échoue : il décroît en 1/r² et plus vite **[FAIL]**. Dès que le médiateur se dissipe, la loi est perdue (profil de Yukawa). La pièce qui manque à la gravité du Blob est donc ramenée à une donnée : **ce que la matière émet et qui se conserve** [OPEN]. Une erreur de trame du protocole (le tissu régulier n'est pas le réseau de Kuhn : un porteur sur quatre a 26 fils, les autres 10) a été trouvée par le contrôle, déclarée et corrigée avant le second calcul. Non recoupé ; V2 reste ouvert. Détail : carnet du 12 et 13 novembre, section 69.
 
+## 8 ter. Ajout du 13 novembre, 8 h 15 : un recoupement, un différend résolu, deux protocoles figés
+
+- **C-145 / PR-3 est recoupé en première passe.** Un programme C++ indépendant de ChatGPT retrouve les deux seuils de puissance (entre 1/8 et 1/4 sans friction, entre 1 et 2 avec) et les 144 croisements de volumes sur 144. Les comptes au seuil ne sont pas certifiés.
+- **Le différend sous l'arrêt A1 est résolu.** Il ne tenait ni à la dynamique ni à la direction de la perturbation, mais à une convention que les protocoles laissaient ouverte : l'écart en deçà duquel deux contacts sont traités comme une seule collision (10⁻⁹ chez le pilote, 2 × 10⁻⁸ chez ChatGPT). Sur 32 cas perturbés, le programme du pilote donne 0 séparation durable à 10⁻⁹, 21 à 10⁻⁷, 30 à 10⁻⁵ ; à tolérance égale, les deux programmes donnent la même issue dans 34 cas sur 36. Une collision à plusieurs contacts n'est pas la limite de collisions successives : le cœur dur idéal est mal posé.
+- **Rétractation.** « Sous A1, la séparation durable est rare en géométrie perturbée » ne vaut qu'en traitement strictement successif. Le contraste entre source fixe et source tournante, dit disparu avec le cœur dur (section 4), est rouvert : il dépend de cette convention.
+- **Équité, seconde formulation (BP-EQ2).** La plus petite coque fermée où chaque arête a deux faces est la surface du tétraèdre **[T]**. La règle admet toutes les sphères triangulées : comme pour les roues, c'est la minimalité qui choisit.
+- **PR-4 et CAS-2 sont figés par ChatGPT, non exécutés.** PR-4 : exclusion des volumes, rayon 1, friction (3 132 trajectoires). CAS-2 : capture par le bain, avec dissipation et bruit (1 024 trajectoires et 256 contrôles). La tolérance de regroupement des contacts reste à déclarer avant l'exécution de PR-4.
+
+Détail : carnet du 12 et 13 novembre, section 70.
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.
@@ -232,7 +242,7 @@ Premier des pans stratégiques demandés par l'auteur. Sur la vraie trame de pal
 ## 10. Limites de ce versement
 
 - **Indéterminés.** 714 trajectoires sur 3 312 pour PR-3, 632 sur 2 160 pour PR-2 : elles sont comptées comme telles, jamais reclassées.
-- **Recoupement partiel.** PR-3 n'est recoupé par personne. PR-2 l'est en partie, avec un désaccord non résolu (14 contre 0 à 3 sur 96).
+- **Recoupement partiel.** PR-3 n'est recoupé qu'en première passe (seuils), par un programme non convergé. PR-2 l'est en partie ; son désaccord (14 contre 0 à 3 sur 96) s'explique par la tolérance de regroupement des contacts (section 8 ter).
 - **Modèles posés.** L'espace à trois dimensions, les masses, le potentiel de cohésion, la réserve d'énergie des chocs et le bain gaussien sont posés, non dérivés du substrat.
 - **Fichiers de ChatGPT.** Les protocoles de BP-R1 et de CAS-1 et les deux passations sont versés à l'octet près. Les autres fichiers (rapports, programmes, résultats) ne sont pas versés : leurs empreintes sont dans [chatgpt/EMPREINTES.md](chatgpt/EMPREINTES.md). Les programmes de ChatGPT ont été lus, non exécutés ici.
 - **Protocoles antérieurs.** Les textes des protocoles figés par ChatGPT avant le 13 novembre (de C-115 à C-145) ne sont pas versés ; leurs empreintes et les notes de lecture du pilote sont dans les carnets.

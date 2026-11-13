@@ -290,19 +290,32 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-145 | `c145c_audit_echelle2.py` | 2 184 |
 | C-145 | `c145c_controle_echelle.py` | 1 554 |
 | C-145 | `c145c_controles.py` | 7 382 |
+| C-145 | `c145c_ensemble.json` | 8 249 |
+| C-145 | `c145c_ensemble.out` | 8 250 |
+| C-145 | `c145c_ensemble.py` | 3 631 |
+| C-145 | `c145c_ensemble_prediction.txt` | 2 825 |
+| C-145 | `c145c_tolerance.json` | 28 319 |
+| C-145 | `c145c_tolerance.out` | 1 906 |
+| C-145 | `c145c_tolerance.py` | 3 330 |
+| C-145 | `c145c_tolerance_2e8.json` | 7 997 |
+| C-145 | `c145c_tolerance_2e8.py` | 2 137 |
+| C-145 | `c145c_tolerance_prediction.txt` | 1 512 |
 | C-145 | `c145pr2_declaration.txt` | 4 421 |
 | C-145 | `c145pr2_prediction.txt` | 2 938 |
 | C-145 | `c145pr3_declaration.txt` | 4 811 |
 | C-145 | `c145pr3_prediction.txt` | 2 592 |
 | C-145 | `c145pr3_spec.txt` | 5 216 |
-| BP-R1 · BP-EQ1 · BP-IM1 | `bp_r1_eq1_im1_contre_audit.json` | 3 584 |
-| BP-R1 · BP-EQ1 · BP-IM1 | `bp_r1_eq1_im1_contre_audit.out` | 3 585 |
-| BP-R1 · BP-EQ1 · BP-IM1 | `bp_r1_eq1_im1_contre_audit.py` | 9 517 |
+| Notes BP | `bp_eq2_contre_audit.json` | 35 |
+| Notes BP | `bp_eq2_contre_audit.py` | 2 026 |
+| Notes BP | `bp_r1_eq1_im1_contre_audit.json` | 3 584 |
+| Notes BP | `bp_r1_eq1_im1_contre_audit.out` | 3 585 |
+| Notes BP | `bp_r1_eq1_im1_contre_audit.py` | 9 517 |
 | C-146 | `c146_contre_audit.json` | 7 978 |
 | C-146 | `c146_contre_audit.out` | 7 979 |
 | C-146 | `c146_contre_audit.py` | 8 437 |
 | C-146 | `c146_contre_audit_prediction.txt` | 2 512 |
 | C-146 | `chatgpt_cas1_96.csv` | 3 429 |
+| C-145 | `chatgpt_pr3_K4_A1_S.txt` | 1 254 |
 | C-147 | `c147c.json` | 4 169 |
 | C-147 | `c147c.out` | 4 170 |
 | C-147 | `c147c.py` | 9 751 |
