@@ -1,0 +1,13 @@
+import sympy as sp
+R=sp.Matrix([[0,0,1],[1,0,0],[0,1,0]]); I3=sp.eye(3)
+P1=(I3+R+R**2)/3; P2=I3-P1; J=(R-R.T)/sp.sqrt(3)
+print("J^2 = -Pi2 :", sp.simplify(J**2+P2)==sp.zeros(3), "| rangs", P1.rank(), P2.rank())
+a,x,y=sp.symbols('a x y',real=True)
+M=a*I3+x*(R+R.T)+sp.I*y*(R-R.T)
+ev=[sp.simplify(e) for e in M.eigenvals()]; print("valeurs propres :",ev)
+Q=sp.simplify(sum(e**2 for e in ev)/sum(ev)**2); print("Q =",Q, "| Q=2/3 <=>", sp.solve(sp.Eq(Q,sp.Rational(2,3)),y))
+# Transcendance : e^{2i/3} (Hermite-Lindemann, 2i/3 algebrique non nul)
+print("Phi = 3*(2/9) =", sp.Rational(2,3))
+# Equipartition : part du singulet pour un vecteur aleatoire de R^3 (par dimension) vs Koide (par representation)
+import numpy as np; v=np.random.default_rng(0).normal(size=(200000,3)); s=(v.sum(1))**2/3/(v**2).sum(1)
+print("part moyenne du singulet, vecteur isotrope :", round(s.mean(),4), "| Koide exige 1/2")

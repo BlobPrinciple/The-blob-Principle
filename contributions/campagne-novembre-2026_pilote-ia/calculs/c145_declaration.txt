@@ -1,0 +1,30 @@
+DÉCLARATION AVANT EXÉCUTION — C-145 / PR-1 (12 novembre 2026, vers 23 h 10 UTC). Aucune trajectoire de la grille n'a été calculée avant ce fichier.
+Les contrôles ci-dessous portent sur des puissances hors grille (0,03 ; 0,3 ; 2) ; ma prédiction (c145_prediction.txt, 22 h 30 UTC) est antérieure et n'est pas modifiée.
+
+CONTRÔLES PASSÉS (c145_controles.py)
+ A. Second membre compilé identique à l'écriture numpy de C-144 sur 1 200 états aléatoires (écart maximal 4e-16).
+ B. Forces = gradient de l'énergie (différences finies, écart 8e-10).
+ C. Théorème T-2 vérifié : au premier choc, l'arête 0-1 s'écarte à sqrt(2W) sous S et à 2 sqrt(W) sous F (rapport 1,414214) ; travail exact à 6e-15 ;
+    quantité de mouvement et moment cinétique conservés par les chocs (1e-15).
+ D. Contrôle analytique 1 : respiration de petite amplitude, période 2 pi / sqrt 8 : retour à l'état initial à 2e-13 (DOP853 et RK4).
+ E. Contrôle analytique 2 : instant de sortie des six liens pour une respiration d'énergie 8, t = 0,7262753910 par quadrature exacte du bilan :
+    DOP853 à 5e-14, RK4 à 1e-10 et 8e-12.
+ G. Témoins négatifs : bilan saboté détecté (résidus 7,1 et 5,5) ; énergie totale 0,72 < D : aucune sortie dans 12 cas sur 12 ; P = 2 sous F : sortie détectée.
+ H. Permutation d'étiquettes (2, 0, 3, 1) : distances identiques à 1e-15 à 1 T0 et à 4 T0, une fois les étiquettes rétablies.
+
+ÉCARTS ET PRÉCISIONS DÉCLARÉS
+ 1. POINT ANGULEUX NON PRÉVU PAR LE PROTOCOLE. Sous r0 le potentiel vaut k (r - r0)^2 / 2 : il reste fini à r = 0 (il y vaut k r0^2 / 2 = 1 = D).
+    Deux porteurs peuvent donc se traverser, et la force y change de sens d'un coup. Constaté hors grille : sous F, r minimal de 2e-7 (liant nu) et de 1e-11 (H3) ;
+    sous S, dans la configuration exactement symétrique, la face opposée peut se refermer sur l'axe (r minimal 4e-5 avec H3).
+    Le protocole ne prescrit de couper les pas qu'à r0 et à r_c ; RK4 perd sa précision à ce passage (résidu jusqu'à 1e-2), DOP853 non (1e-10).
+    J'exécute à la lettre, sans ajout. Deux lectures : « lettre stricte » (bilan sous 1e-6 pour les trois intégrations, accord des trois) et « référence »
+    (bilan sous 1e-6 pour DOP853, accord des trois). Le classement brut de chaque solveur est conservé. La distance minimale de chaque lien est relevée.
+ 2. SENSIBILITÉ. La même permutation d'étiquettes, exacte à 4 T0, donne des distances qui diffèrent de 1e-4 à 16 T0 et de l'ordre de 1 à 20-24 T0
+    (H3 et liant nu sous C, P = 0,3) : l'arrondi de la machine est amplifié d'un facteur 1e16 en une vingtaine de périodes. Dans ces régimes, un événement
+    tardif n'est pas reproductible en double précision, quel que soit le solveur. J'attends donc beaucoup d'INDETERMINE ; ils seront comptés, pas triés.
+ 3. « Statut de première rupture » = existence, groupe des liens sortis ensemble (à moins de 1e-5 T0 du premier), nombre de chocs délivrés avant elle.
+ 4. L'amortisseur radial de Bg agit à toute distance (aucun lien n'est effacé ; le protocole ne le borne pas).
+ 5. Directions des chocs prises aux positions de l'instant du choc ; sous C, le j-ième choc programmé sollicite le porteur j mod 4.
+ 6. F_U posé à 0 quand la somme des énergies de cohésion est inférieure à 1e-20. Mesures de concentration relevées sur DOP853 (grille T0/32).
+ 7. Témoins perturbés (48) et permutations d'étiquettes (8) : DOP853 seul, en supplément, sans effet sur le verdict principal, comme le veut le protocole.
+ 8. Boucles compilées (numba) pour le second membre et RK4 ; DOP853 de scipy piloté pas à pas, repris à chaque passage de r0 ou de r_c.

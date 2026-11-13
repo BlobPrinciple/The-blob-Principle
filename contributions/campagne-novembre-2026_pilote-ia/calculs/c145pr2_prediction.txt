@@ -1,0 +1,22 @@
+PRÉDICTION ENREGISTRÉE AVANT TOUT CALCUL — C-145 / PR-2 (protocole figé par ChatGPT : « Cœur dur, traversées, arrêt causal après recapture, ensembles de perturbations »).
+Empreinte SHA-256 du fichier, recalculée dans la page sur son contenu brut : f16dcbc17cba802619885e19c57eb6a08f22629efa0abf0ac3fc8381e00ecc2d, 14 699 octets, identique à l'empreinte annoncée.
+(Le fil de ChatGPT refuse désormais tout message ; le texte a été lu par l'aperçu de la page, sans téléchargement sur l'ordinateur.)
+Horodatage : date du fichier. Aucune trajectoire de PR-2 n'a été simulée avant ce fichier. Ce que je sais déjà : les résultats de PR-1 et mon contrôle de 23 h 25 UTC (cœur mou).
+
+Remarque d'audit, avant calcul : dans PR-1, les trajectoires qui rompent descendent presque toutes sous r = 1/2 avant leur première sortie (distances minimales de 0,02 à 0,4),
+alors que les vraies traversées (r < 0,01) ne concernent que 22 trajectoires sur 288. Un cœur dur à a = 1/2 n'ôte donc pas seulement les traversées : il change le matériau
+(énergie de compression plafonnée à 0,25 par lien au lieu de 1). Les instants de PR-1 ne se transposent pas.
+
+Q1. Avec friction (Bγ) : aucune première sortie, quelle que soit la source et la règle d'arrêt (648 trajectoires). Confiance forte.
+Q2. CANDIDAT FORT (C a P_any et S non, dans au moins 6 perturbations sur 8, sur au moins 2 configurations) : NON obtenu. Confiance forte.
+Q3. Règle A1 (arrêt au premier lien sorti), liant nu, P >= 1/4 : S donne P_any dans plus de 60 % des trajectoires ; C dans moins de 20 %.
+Q4. Règle A2 (la source reprend après recapture), liant nu, P >= 1/4 : C donne P_any dans plus de 50 % des trajectoires ; S dans plus de 75 %.
+    Autrement dit : dès que la source peut reprendre, la source tournante finit elle aussi par détacher quelque chose, et ce sera le plus souvent un porteur entier.
+Q5. CANDIDAT FAIBLE (C sort au moins 0,5 T0 plus tôt que S dans 6 perturbations sur 8, sur au moins 2 configurations) : obtenu. Confiance moyenne (6 chances sur 10).
+Q6. Rayon du cœur (a = 1/4 et 3/4) : le contraste de A1 (S durable, C non) tient pour au moins 3 couples sur 4 à chaque rayon. Confiance moyenne.
+Q7. Témoin TRAVERSÉE (cœur mou, seuil r = 1/2) : au moins 75 % des trajectoires avec sortie sont « contaminées », parce que le seuil 1/2 marque une compression profonde,
+    pas une traversée.
+Q8. Modes internes (H3, X3) : moins de sorties que le liant nu ; aucune configuration où C a P_any de façon robuste (6 sur 8) sous A1.
+Q9. Indéterminés (désaccord des solveurs ou collision ambiguë) : au moins 15 % des 2 160 trajectoires.
+Q10. Sensibilité : parmi les configurations où il y a des sorties, l'instant de première sortie varie de plus de 0,5 T0 d'une perturbation à l'autre dans plus d'un tiers des cas.
+Si Q2 est fausse, c'est un résultat en faveur du mécanisme de l'auteur et je le dirai tel quel.
