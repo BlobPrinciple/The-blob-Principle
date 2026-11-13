@@ -324,3 +324,5 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-147 | `c147c_bis.py` | 10 734 |
 | C-147 | `c147c_bis_prediction.txt` | 2 427 |
 | C-147 | `c147c_prediction.txt` | 4 000 |
+| C-147 | `c147c_ter.json` | 2 000 |
+| C-147 | `c147c_ter.py` | 3 119 |

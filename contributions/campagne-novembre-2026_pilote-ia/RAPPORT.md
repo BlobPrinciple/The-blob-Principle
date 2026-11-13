@@ -228,6 +228,8 @@ Premier des pans stratégiques demandés par l'auteur. Sur la vraie trame de pal
 
 Détail : carnet du 12 et 13 novembre, section 70.
 
+**Ajout de 8 h 40.** ChatGPT a figé un PR-4 bis : deux branches rigides (regroupement des contacts à 10⁻⁹ et à 10⁻⁶, 6 264 trajectoires) et 144 fenêtres à cœur de raideur finie ; non exécuté. Pour C-147c, les compléments qu'il demandait sont faits : le flux intégré vaut exactement la source à travers toute coquille, et le profil est celui d'un milieu continu isotrope, u = Q / (4πDr) avec D = 4, à 0,2 % près dès huit mailles. Il rappelle, et le pilote en convient, que cette loi est générique en dimension 3 et que la dimension est déjà dans la trame. Détail : section 71.
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

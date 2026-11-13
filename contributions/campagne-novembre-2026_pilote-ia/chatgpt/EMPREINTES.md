@@ -71,6 +71,14 @@ Archive `C145_C146_CONTRE_AUDIT_PROTOCOLes_2026-11-13.zip`, 128 018 octets, `0c5
 
 Extrait versé : les 36 lignes K4, arrêt A1, source S de `PR3_C_grid_h0015.csv`, réduites à sept colonnes, dans `../calculs/chatgpt_pr3_K4_A1_S.txt`.
 
+## C-145 / PR-4 bis (13 novembre 2026, 7 h 18 UTC) — empreintes seules
+
+| Fichier | Octets | SHA-256 |
+|---|---:|---|
+| `C145_PR4_BIS_PREENREGISTRE.md` (figé, non exécuté) | 11 653 | `0d6a6ec56b4dfd685fb62bad4445a1c4a92792921431fc5e965839df5213d5c8` |
+| `PASSATION_CLAUDE_C145A1_C147C.md` | 4 349 | `ce58686b01a9c9181810e94bdb542eaeef7e520ee3c36873b02aa3e14d05e3c3` |
+| `C145_PR4_BIS_2026-11-13.zip` | 8 281 | `e8887b77a2b35655716ad6a45abd63fc1b97457794d38cccafe6442ce115d434` |
+
 ## Protocoles de C-145 (12 et 13 novembre 2026) — empreintes seules
 
 | Protocole | Octets | SHA-256 |

@@ -18,7 +18,7 @@ Ce dossier réunit tout ce que la campagne d'audit croisé a produit entre le 1e
 | Dossier | Contenu |
 |---|---|
 | [`carnets/`](carnets/) | Douze carnets de laboratoire, du 1er au 13 novembre. Chaque laboratoire y a sa section : question, protocole, prédiction, résultat, écarts déclarés. |
-| [`calculs/`](calculs/) | 141 programmes Python, leurs sorties, les prédictions écrites avant calcul et les déclarations d'exécution. [Index](calculs/INDEX.md). |
+| [`calculs/`](calculs/) | 142 programmes Python, leurs sorties, les prédictions écrites avant calcul et les déclarations d'exécution. [Index](calculs/INDEX.md). |
 | [`echanges/`](echanges/) | Les messages du pilote à ChatGPT (résultats et demandes de recoupement). |
 | [`chatgpt/`](chatgpt/) | Deux protocoles figés et deux passations de ChatGPT, à l'octet près, et les [empreintes](chatgpt/EMPREINTES.md) de tous ses fichiers. |
 
@@ -49,7 +49,7 @@ Ce dossier réunit tout ce que la campagne d'audit croisé a produit entre le 1e
 - Dans les carnets, les renvois du type `claude/session-….md` désignent les carnets de ce dossier, sous leur nom d'origine dans l'espace de travail de l'auteur.
 - Les identifiants des conversations privées ont été retirés. Rien d'autre n'a été retouché.
 - Les heures sont celles de Paris, sauf mention « UTC ».
-- Messages du dossier `echanges/` : `msg_c145pr2.txt` n'a jamais été remis (la conversation n'acceptait plus de message) ; `msg_passation_nouveau_fil.txt` est un premier jet ; `msg_passation_v2.txt` est l'en-tête du message de passation remis le 13 novembre, que suivait le texte du protocole PR-2. `msg_c145pr3r.txt` et `msg_c146r.txt` forment un seul envoi, remis le 13 novembre à 6 h 27 UTC ; son texte exact est `msg_envoi_2026-11-13.txt`. `msg_c145a1.txt` a été remis le 13 novembre à 7 h 11 UTC.
+- Messages du dossier `echanges/` : `msg_c145pr2.txt` n'a jamais été remis (la conversation n'acceptait plus de message) ; `msg_passation_nouveau_fil.txt` est un premier jet ; `msg_passation_v2.txt` est l'en-tête du message de passation remis le 13 novembre, que suivait le texte du protocole PR-2. `msg_c145pr3r.txt` et `msg_c146r.txt` forment un seul envoi, remis le 13 novembre à 6 h 27 UTC ; son texte exact est `msg_envoi_2026-11-13.txt`. `msg_c145a1.txt` a été remis le 13 novembre à 7 h 11 UTC, `msg_c147cdef.txt` à 7 h 34 UTC.
 
 ## Environnement
 
