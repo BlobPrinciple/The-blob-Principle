@@ -233,9 +233,9 @@ b5c0a63c2528cec03e305103681a4005366f066a6b174fb1b13cb95d64570a3a  ./contribution
 e53239ed20a5159aa4e8d67afd2fe56d5b64a69b3f498568b5d387268b641c57  ./contributions/RO-25_pilote-ia/pont_croissance_gibbs.py
 b400aa55b87e1ebfffd700b8bf6d3aef820b7a5477c670db289305a02b2c2535  ./contributions/RO-25_pilote-ia/resultats.json
 3488a9915f505569ccee125251e307f425fa1c4c6b61f89df8659636ee7c3928  ./contributions/campagne-novembre-2026_pilote-ia/LISEZ-MOI.md
-5e2f7bc0f19172d4c395a7dee09311304ee03b81d68e4c2937a9a03977ea88b6  ./contributions/campagne-novembre-2026_pilote-ia/RAPPORT.md
+41f02451d8ab7dc93abc445e5dc3d62ffe32adadd4f0243318c8be224d1184ca  ./contributions/campagne-novembre-2026_pilote-ia/RAPPORT.md
 16cad591511d0445d67e97d3e04f2b7aadce6b13c176023689683cafb533e7d0  ./contributions/campagne-novembre-2026_pilote-ia/REPORT_EN.md
-b598cd77629d9e705e791616a83514115c1c5754e6aef2d2d208cdbc522bd801  ./contributions/campagne-novembre-2026_pilote-ia/VERROUILLAGE_TOE_V2.md
+45857ba68bbb505f80b092b4b742ffce5fa6b3591c2ff6afb8d1674298d9c2f0  ./contributions/campagne-novembre-2026_pilote-ia/VERROUILLAGE_TOE_V2.md
 979cc772438fb521e0cb93e04544bc300a9c81fe4a0c8ab1a5e6667bc588c911  ./contributions/campagne-novembre-2026_pilote-ia/calculs/INDEX.md
 623ba063dc0d666abf16b4346168fe69a65e19fadaa98bb73b2a47169fc149e2  ./contributions/campagne-novembre-2026_pilote-ia/calculs/bp_eq2_contre_audit.json
 39319ce75ed54ccd7b669706e9d046c599b8a3ac8ecc3080e93f0ef7352af2ed  ./contributions/campagne-novembre-2026_pilote-ia/calculs/bp_eq2_contre_audit.py
@@ -576,7 +576,7 @@ c1ae8778ac23b2260e685b92d0a96bf2d2476a411f3f7d3e2de5886b605344bc  ./contribution
 6fbdb0cc1abba165b62ab751e9721cc9fa30811d19691d7700e9e0049bbef6e6  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-09_verrouillage_V1_et_C-67_a_C-73.md
 6613859045df209af36fd83409c7c943d0d1222c9f375f434ce33e3a538e9363  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-10_C-74_a_C-96.md
 849ff09ed0ff3f0a7279c0f408a0c15ab1f047d53cc4f0587e1af146424d5880  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-11_C-97_a_C-114.md
-7045eec31d156e0c91cde1b3493b511d9dd00e65958f66c11e5cfcdf37b8dff9  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-12_et_13_C-115_a_C-146.md
+efd763a6715e8047076b87d0119fa9bdc764e788777c41bcca007e3a5f9f0a29  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-12_et_13_C-115_a_C-146.md
 27b7731b26da17ad1fb4a75ed1e33d37325e7b3d78665c88e502c1d207711773  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PASSATION_CLAUDE.md
 a68f895d76518e18ee6cc0073ebad716a920e5b6460abfcbf1e09e93c4ab04ae  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PREENREGISTRE.md
 e15934ae57c613f07b90ee6882ae1909f49df0d79771f9f1ce749ee5e12e74a3  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/C146_CAS1_PASSATION_CLAUDE.md

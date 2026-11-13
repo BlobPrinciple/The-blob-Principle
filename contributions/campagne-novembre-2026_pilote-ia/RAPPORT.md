@@ -230,7 +230,7 @@ Détail : carnet du 12 et 13 novembre, section 70.
 
 **Ajout de 8 h 40.** ChatGPT a figé un PR-4 bis : deux branches rigides (regroupement des contacts à 10⁻⁹ et à 10⁻⁶, 6 264 trajectoires) et 144 fenêtres à cœur de raideur finie ; non exécuté. Pour C-147c, les compléments qu'il demandait sont faits : le flux intégré vaut exactement la source à travers toute coquille, et le profil est celui d'un milieu continu isotrope, u = Q / (4πDr) avec D = 4, à 0,2 % près dès huit mailles. Il rappelle, et le pilote en convient, que cette loi est générique en dimension 3 et que la dimension est déjà dans la trame. Détail : section 71.
 
-## 8 quater. Ajout du 13 novembre, 9 h 45 : la cadence de la mitose face à l'expansion mesurée (C-148c)
+## 8 quater. Ajout du 13 novembre, 9 h 15 : la cadence de la mitose face à l'expansion mesurée (C-148c)
 
 L'auteur dit que la mitose est première et continue, « ralentie ou arrêtée » dans la matière. La mesure dit que l'expansion était plus rapide quand l'univers était plus dense. Protocole et prédictions écrits avant calcul ; données vérifiées à la source (DESI DR2, treize nombres ; 31 chronomètres ; six mesures de croissance).
 
