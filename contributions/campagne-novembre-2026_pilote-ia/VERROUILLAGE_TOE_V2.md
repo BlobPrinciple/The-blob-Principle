@@ -2,7 +2,7 @@
 
 **Rédigé par Claude, contre-auditeur, le 12 novembre 2026.** Auteur du Blob Principle : Rudolphe Mirante.
 **Objet :** reprendre toute la cosmogonie, du simplexe au complexe, et dire pour chaque principe ce qui est démontré, mesuré, réfuté ou encore ouvert.
-**Verdict : TOE démontrée = NON. Verrous fermés : 0 sur 7. Verrous partiels : V1, V3, V4.** *(Mis à jour le 13 novembre, 7 h 45.)*
+**Verdict : TOE démontrée = NON. Verrous fermés : 0 sur 7. Verrous partiels : V1, V3, V4.** *(Mis à jour le 13 novembre, 7 h 55.)*
 
 Ce document remplace la proposition V-1 du 9 novembre comme tableau de bord. Il ne grave rien : la cosmogonie appartient à Rudolphe.
 
@@ -85,7 +85,7 @@ Statuts : [T] théorème ; [CERT] certifié par calcul exact ; [M] mesure numér
 | Principe | Traduction | État |
 |---|---|---|
 | La matière sur rails : la gravité est l'étirement des arêtes | s = GM/(rc²), forme en cascade | [T] γ = β = 1 par calcul ; métrique de Papapetrou ; non distinguée de la relativité générale en champ faible |
-| L'étirement naît de la trame | Profil n_e(r) autour d'un cœur dense | [M] réponse à courte portée seulement (RO-25) ; loi en 1/r : [OPEN] |
+| L'étirement naît de la trame | Profil n_e(r) autour d'un cœur dense | [M] réponse à courte portée seulement (RO-25) ; **[CERT, sous condition] (C-147c, 13 nov.) : sur la vraie trame de palier (un porteur sur quatre à 26 fils, les autres à 10), une grandeur conservée transmise de fil en fil suit une loi en 1/r, isotrope à moins de 1 % dès 7 mailles sans poids métriques, à 3 % près avec** ; **[FAIL] l'étirement élastique d'un réseau de ressorts décroît en 1/r² et plus vite** ; avec perte, profil de Yukawa : la loi est perdue ; **donnée manquante : ce que la matière émet et qui se conserve [OPEN]** ; non recoupé |
 | La métrique est portée par les arêtes | Étoiles de Hodge métriques dans D | **[CERT] obligatoire pour une seule vitesse de la lumière (C-117)** ; dérivation : [OPEN] |
 | La matière ralentit la mitose | Facteur e^(−s) exigé pour γ = 1 | [H] ; proxy testé non confirmé (27 sept.) |
 | Arête = énergie sombre, triangle = matière noire, tétraèdre = matière | Fractions par comptage | [FAIL] 6/6 en tissu fermé ; [T] triangles toujours plus nombreux que les arêtes ; voie des phases ouvertes : [OPEN] |
@@ -112,7 +112,7 @@ Statuts : [T] théorème ; [CERT] certifié par calcul exact ; [M] mesure numér
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |
 |---|---|---|---|---|
 | V1 Espace-temps | Limite lorentzienne 3+1, causalité | Espace 3D étendu conservé ; distances en fils monotones [T] ; une seule vitesse au premier ordre sous produits scalaires métriques [CERT] ; sous étirement imposé, la tension produit seule la mitose régulière [CERT] ; **la mitose première étire sans échelle imposée [M]** ; **une règle purement généalogique engendre le tissu régulier [CERT]** | **Loi de cadence** ; régularité dans la durée ; énergie d'activation ; dépendance au germe ; dimension temporelle ; limite continue ; courbure | **Partiel (secteur spatial plat)** |
-| V2 Gravitation | Équations d'Einstein, G | Regge ; rails en champ faible | Loi en 1/r depuis la trame ; G | Ouvert |
+| V2 Gravitation | Équations d'Einstein, G | Regge ; rails en champ faible ; forme en 1/r acquise sous condition d'un médiateur conservé (C-147c) | La grandeur conservée émise par la matière ; G ; propagation | Ouvert |
 | V3 Quantique | Born, intrication, Bell | Secteur sombre, bain persistant, intrication de mode | Interaction de mesure | Partiel, bloqué |
 | V4 Matière | Charges, spins, médiateurs | Modes protégés neutres aux rencontres ; signe de chiralité | Charge, multiplets, axe | Partiel |
 | V5 Spectre | Masses, générations, mélanges | Cône de Koide comme cible | Tout mécanisme | Ouvert |
@@ -140,10 +140,10 @@ Les théorèmes topologiques déjà acquis (modes protégés, neutralité, sépa
 1 sexies. **Ce qui relie les grains** : le cycle existe en automate (C-140c) mais ne fait pas un espace. Chercher dans la cosmogonie ce qui lie une structure à une autre (liants, bain), puis tester si cycle et espace peuvent coexister. Ensuite seulement : métrique, horloge, confrontation à 3 H(z).
 1 septies. **Ce qui concentre l'énergie sur un lien, et ce qui le défait durablement.** C-143 (conversion posée) dissout tout ; C-144 (liant explicite, sans conversion) protège ; C-145 (PR-1 et PR-2) : la répartition des sollicitations ne décide pas ; la source tournante concentre sans détacher davantage ; une séparation durable vient quand la source reprend tant que la structure se referme, et c'est un porteur entier qui part ; la friction empêche tout. Acquis de PR-3 : la source qui reprend vainc la friction pour une puissance quatre à huit fois plus grande ; un second tétraèdre ne retient pas le porteur le moins lié. À figer (PR-4) : exclusion entre simplexes (un porteur ne traverse pas une face) ; rayon 1 avec solveur de contacts permanents ; balayage de la friction ; passage au vrai tissu (C-142c / PR-2) ; C-144 / PR-2 (fenêtre longue, retenue contre évacuée). Donnée de l'auteur [H] (12 novembre, avec réserve, « à toi de tester ») : les simplexes ne peuvent pas se chevaucher, et la distance de naissance minimale doit jouer — la branche à cœur mou est donc écartée ; le rayon du cœur reste à tirer de cette distance (cas limite : rayon égal à la longueur naturelle du lien). Puis : C-142c / PR-2 dans le tissu (chaleur réelle, cohésion comme seuil, capacités 8, 12, 16, 24) ; dérivation de la capacité ; origine de l'énergie du choc.
 2. **C-125 (ChatGPT) — Transport physique des états** avec les produits scalaires métriques de C-117 ; critère : aucune loi de probabilité ajoutée.
-3. **C-122 — Rails sur la nouvelle trame.** Ralentir la mitose dans une région (matière) et mesurer le profil d'étirement ; critère : exposant −1 ± 0,2. Risque annoncé : un simple écrantage à courte portée.
+3. **C-122 — Rails sur la nouvelle trame.** Exécuté le 13 novembre sous le nom C-147c : la forme en 1/r sort de la trame si une grandeur conservée circule sur les fils ; l'élasticité seule échoue ; une perte écrante. **Suite : éprouver les trois candidats du Blob pour cette grandeur** (quanta en transit, impulsions de la mitose bloquée, étirement transmis sans rappel), puis la trame irrégulière et la trame en cours de mitose.
 4. **C-124 — Reprise de V3.** Refaire C-95 et C-96 avec un bain qui ne s'éteint plus.
 5. **C-125 — Dérivation des produits scalaires métriques** à partir de la mémoire par arête Ω = Π(1 + n_e).
 6. **C-146 / CAS-2 — La capture.** Un bain qui attire rapproche-t-il deux tétraèdres jusqu'à une liaison durable, avec un bilan d'énergie fermé, de la dissipation et du bruit ? À figer avant calcul, avec une distance minimale explicite (sinon le puits n'a pas de fond), un maillage convergé des faces et les témoins sans bain, sans dissipation, sans liant.
 7. **L'équité comme loi.** Chercher une dynamique d'échanges, indépendante du nombre quatre, qui s'arrête à quatre éléments ; l'égalité des modes ne suffit pas (toutes les roues la satisfont).
 
-*Documents liés : claude/session-2026-11-12.md (C-115 à C-146), claude/session-2026-11-11.md (C-97 à C-114), claude/dossier-integral-2026-11-10.md.*
+*Documents liés : claude/session-2026-11-12.md (C-115 à C-147c), claude/session-2026-11-11.md (C-97 à C-114), claude/dossier-integral-2026-11-10.md.*

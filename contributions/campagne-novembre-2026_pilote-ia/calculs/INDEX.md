@@ -303,3 +303,11 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-146 | `c146_contre_audit.py` | 8 437 |
 | C-146 | `c146_contre_audit_prediction.txt` | 2 512 |
 | C-146 | `chatgpt_cas1_96.csv` | 3 429 |
+| C-147 | `c147c.json` | 4 169 |
+| C-147 | `c147c.out` | 4 170 |
+| C-147 | `c147c.py` | 9 751 |
+| C-147 | `c147c_bis.json` | 7 985 |
+| C-147 | `c147c_bis.out` | 7 986 |
+| C-147 | `c147c_bis.py` | 10 734 |
+| C-147 | `c147c_bis_prediction.txt` | 2 427 |
+| C-147 | `c147c_prediction.txt` | 4 000 |

@@ -9,7 +9,7 @@
 **Auteur du Blob Principle :** Rudolphe Mirante, seul auteur de la cosmogonie et des positions citées.
 **Rédaction, exécution et contre-audit :** pilote IA du laboratoire (Claude, Anthropic).
 **Protocoles figés et recomptes :** ChatGPT (OpenAI), en audit croisé.
-**Période :** du 1er au 13 novembre 2026. **Laboratoires :** numérotés de C-1 à C-146, plus trois notes exactes (BP-R1, BP-EQ1, BP-IM1).
+**Période :** du 1er au 13 novembre 2026. **Laboratoires :** numérotés de C-1 à C-147, plus trois notes exactes (BP-R1, BP-EQ1, BP-IM1).
 
 ---
 
@@ -213,6 +213,10 @@ Elles sont citées avec leur date dans les carnets, orthographe normalisée. Ell
 Le détail, principe par principe, est dans [VERROUILLAGE_TOE_V2.md](VERROUILLAGE_TOE_V2.md).
 
 ---
+
+## 8 bis. Ajout du 13 novembre, 7 h 55 : la loi en 1/r (C-147c)
+
+Premier des pans stratégiques demandés par l'auteur. Sur la vraie trame de palier du tissu régulier, une grandeur conservée transmise de fil en fil suit une loi en 1/r, proportionnelle à la source, isotrope à moins de 1 % dès sept mailles **[CERT, sous condition]**. L'étirement élastique d'un réseau de ressorts échoue : il décroît en 1/r² et plus vite **[FAIL]**. Dès que le médiateur se dissipe, la loi est perdue (profil de Yukawa). La pièce qui manque à la gravité du Blob est donc ramenée à une donnée : **ce que la matière émet et qui se conserve** [OPEN]. Une erreur de trame du protocole (le tissu régulier n'est pas le réseau de Kuhn : un porteur sur quatre a 26 fils, les autres 10) a été trouvée par le contrôle, déclarée et corrigée avant le second calcul. Non recoupé ; V2 reste ouvert. Détail : carnet du 12 et 13 novembre, section 69.
 
 ## 9. Les prochaines épreuves
 

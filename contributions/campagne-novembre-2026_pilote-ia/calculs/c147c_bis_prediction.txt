@@ -1,0 +1,26 @@
+C-147c bis — CORRECTION DE TRAME, ÉCRITE AVANT TOUT NOUVEAU CALCUL
+Horodatage : date du fichier (13 novembre 2026, UTC).
+
+CE QUI S'EST PASSÉ. Le contrôle C0 de C-147c a échoué : à la génération 9, la règle généalogique de C-136c produit 224 fils sur 804
+hors des sept directions de Kuhn. Ma prédiction « exact » était FAUSSE. La trame de palier du tissu régulier n'est donc PAS le réseau
+de Kuhn à quatorze fils par porteur que le protocole supposait : les cubes voisins portent des triangulations retournées l'une par
+rapport à l'autre (c'est le degré 26 déjà relevé au carnet). Les résultats P1 à P4 de C-147c valent pour le réseau de Kuhn, pas pour
+le tissu du Blob. Ils sont conservés tels quels, comme résultats sur une trame voisine.
+
+CORRECTION. Refaire D et E sur la vraie trame : je relève, sur les cellules produites par la règle (génération 12, 4 096 cellules),
+les fils de chaque porteur intérieur selon la parité de ses coordonnées, je vérifie que cette règle de parité est cohérente
+(mêmes fils pour tous les porteurs intérieurs d'une même classe, réciprocité), puis je l'étends à un cube de 65^3 porteurs (D)
+et de 41^3 (E). Critère inchangé : exposant -1 à 0,2 près.
+
+PRÉDICTIONS (vraie trame).
+  B0. La règle de parité est cohérente ; le nombre de fils par porteur prend plusieurs valeurs, 26 au plus.
+  B1 (D, transmission égale sur tous les fils, sans métrique). Exposant entre 0,9 et 1,1 dans les cinq directions, et profil ISOTROPE :
+      amplitudes rapportées à (1,-1,0) entre 0,95 et 1,05. Raison annoncée : les retournements rendent à la trame la symétrie du cube,
+      et un tenseur de diffusion de symétrie cubique est isotrope. Si c'est vrai, l'anisotropie trouvée sur le réseau de Kuhn
+      ne concerne pas le tissu du Blob.
+  B2 (D, poids métriques). Poids nuls sur tous les fils qui ne suivent pas un axe (à 1e-12), égaux sur les autres : réseau cubique simple.
+  B4 (E, ressorts égaux sur tous les fils). Déplacement radial en r^(-q), q entre 1,7 et 2,5 ; allongement des fils radiaux en r^(-s),
+      s entre 2,5 et 3,6 : critère en 1/r en ÉCHEC pour la transmission élastique.
+  (P3, la perte, porte sur le réseau cubique simple : elle reste valable si B2 tient.)
+
+Ce qui me donnerait tort : règle de parité incohérente ; exposant ou rapport hors tolérance ; poids diagonaux non nuls ; q ou s hors intervalle.
