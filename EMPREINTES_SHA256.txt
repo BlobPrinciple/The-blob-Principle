@@ -576,7 +576,7 @@ c1ae8778ac23b2260e685b92d0a96bf2d2476a411f3f7d3e2de5886b605344bc  ./contribution
 6fbdb0cc1abba165b62ab751e9721cc9fa30811d19691d7700e9e0049bbef6e6  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-09_verrouillage_V1_et_C-67_a_C-73.md
 6613859045df209af36fd83409c7c943d0d1222c9f375f434ce33e3a538e9363  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-10_C-74_a_C-96.md
 849ff09ed0ff3f0a7279c0f408a0c15ab1f047d53cc4f0587e1af146424d5880  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-11_C-97_a_C-114.md
-efd763a6715e8047076b87d0119fa9bdc764e788777c41bcca007e3a5f9f0a29  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-12_et_13_C-115_a_C-146.md
+0cda3356dd3ef5f278fcead1196d97569eb1ce428235ae13b1a4ba8a20f9e625  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-12_et_13_C-115_a_C-146.md
 27b7731b26da17ad1fb4a75ed1e33d37325e7b3d78665c88e502c1d207711773  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PASSATION_CLAUDE.md
 a68f895d76518e18ee6cc0073ebad716a920e5b6460abfcbf1e09e93c4ab04ae  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PREENREGISTRE.md
 e15934ae57c613f07b90ee6882ae1909f49df0d79771f9f1ce749ee5e12e74a3  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/C146_CAS1_PASSATION_CLAUDE.md
@@ -590,6 +590,7 @@ ac2147cbeb06e9317ee7a87c97338f4527ae4297bb7b5efeda91c7237b745fbf  ./contribution
 473b3c3a6c9668a3bc5338d53b2f37aa53ae4f877daed6bb448d7f697283af77  ./contributions/campagne-novembre-2026_pilote-ia/echanges/msg_c145r.txt
 9cf43d633800362e39df37366dc0deeda51d762e532f2a138a5ab87f3470e877  ./contributions/campagne-novembre-2026_pilote-ia/echanges/msg_c146r.txt
 733fceec044755e492966d42cc3648f6f8c2b48f6170a60430ce0fc0a073d306  ./contributions/campagne-novembre-2026_pilote-ia/echanges/msg_c147cdef.txt
+9ec67f480c52f2bea30a79d2e209d51223f1f4bf7f992dc8f88c6790cb766bc2  ./contributions/campagne-novembre-2026_pilote-ia/echanges/msg_c148c.txt
 15b11d4da96c13145a52aae5b6c106900e29fe55d765f9344186474a82b128b1  ./contributions/campagne-novembre-2026_pilote-ia/echanges/msg_envoi_2026-11-13.txt
 35c72957e5469fa4f37fe847b54c0f2ce53f7e8fcf65859fc62f1ce0a0388e1b  ./contributions/campagne-novembre-2026_pilote-ia/echanges/msg_passation_nouveau_fil.txt
 c00e511bd489024e61872625190389b6199b4d4a4a2fa371206278086dc85631  ./contributions/campagne-novembre-2026_pilote-ia/echanges/msg_passation_v2.txt
