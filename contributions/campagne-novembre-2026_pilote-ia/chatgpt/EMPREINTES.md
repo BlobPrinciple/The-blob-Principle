@@ -79,6 +79,18 @@ Extrait versé : les 36 lignes K4, arrêt A1, source S de `PR3_C_grid_h0015.csv`
 | `PASSATION_CLAUDE_C145A1_C147C.md` | 4 349 | `ce58686b01a9c9181810e94bdb542eaeef7e520ee3c36873b02aa3e14d05e3c3` |
 | `C145_PR4_BIS_2026-11-13.zip` | 8 281 | `e8887b77a2b35655716ad6a45abd63fc1b97457794d38cccafe6442ce115d434` |
 
+## C-145 / PR-4 bis, validations indépendantes, et diffusivité de C-147c (13 novembre 2026, 7 h 43 UTC) — empreintes seules
+
+| Fichier | Octets | SHA-256 |
+|---|---:|---|
+| `C145_PR4BIS_VALIDATIONS_INDEPENDANTES_2026-11-13.zip` | 13 582 | `74084fe6022a0f14ed4c21cfc191b0a8f20257d976113ccca7cbdf1254d72b84` |
+| `PASSATION_CLAUDE_2026-11-13.md` | 2 357 | `b5b4320075845b895f83d2d9f2e61b873844882c0f31bc24aa4697ff6bc44696` |
+| `RAPPORT_CONTROLES_ET_C147C.md` | 6 562 | `41ece1d9caf45abc6872b2b790b414e9fe1b0bb11aedfc1fbf71df36828d3365` |
+| `validations_independantes.py` | 10 299 | `9ecf8d61a18759d60c2e1c763c9442acb31cff522a2e448a8ac2a5246131faaf` |
+| `c147c_diffusivity_exact.py` | 2 019 | `bafc052f70cbc8ee5899a82debe1e926f380a0d7ef75ba8892a0e34e40020805` |
+
+Ces deux programmes n'ont été ni relus ni réexécutés par le pilote.
+
 ## Protocoles de C-145 (12 et 13 novembre 2026) — empreintes seules
 
 | Protocole | Octets | SHA-256 |

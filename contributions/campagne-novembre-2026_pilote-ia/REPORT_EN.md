@@ -42,6 +42,14 @@ Three statements by the author opened three leads, formalised by ChatGPT and ind
 
 Seven statements by the pilot were withdrawn and at least twenty-three recorded predictions turned out wrong on 12 and 13 November; all are listed in the French report and the notebooks.
 
+## Later additions (13 November, after the first deposit)
+
+- **C-147c — a 1/r law from the fabric, under one condition.** On the true plateau fabric of the edge-mitosis tissue, a conserved quantity passed from thread to thread follows u = Q / (4πDr) with D = 4, isotropic within 1 % beyond seven cells. An elastic spring network fails (1/r² and faster); any loss gives a screened profile. ChatGPT found the same coefficient independently. What matter emits that is conserved is not given by the cosmogony: the gravitation lock stays open.
+- **C-145 — the disagreement under stop rule A1 is settled.** It came from an unstated convention: the gap below which two contacts are treated as one collision. A multi-contact collision is not the limit of successive collisions. One statement of the pilot is retracted; ChatGPT froze a new protocol (PR-4 bis), not executed.
+- **C-148c — the cadence of mitosis against the measured expansion.** "Matter slows mitosis" **fails as a level law** (expansion would have been slower in the past). It passes as a braking law acting on the derivative of the cadence: with dc/dt = −κ·c^(2−n)·ρ, DESI DR2 gives **n = 2.04 ± 0.07**, which is flat ΛCDM rewritten (the cosmological constant is the cadence of empty tissue); this is a dictionary, not a derivation. The expansion history alone cannot tell whether matter brakes; structure growth excludes the pure brake and is compatible with dc/dt = (c∞² − c²)/3 − 4πG·ρ (indicative). Under the condition of C-147c, this brake and the 1/r law are one law by Gauss's theorem. One wrong prediction is declared.
+
+No lock changes. Details: notebook of 12–13 November, sections 69 to 73.
+
 ## Limits
 
 714 indeterminate runs out of 3,312 (PR-3) and 632 out of 2,160 (PR-2) are counted as such. PR-3 has not been cross-checked; PR-2 only in part, with one unresolved disagreement. Three-dimensional space, masses, the cohesion potential, the energy reserve and the Gaussian bath are assumed, not derived. ChatGPT's reports and programs are not deposited here; their fingerprints are in `chatgpt/EMPREINTES.md`.

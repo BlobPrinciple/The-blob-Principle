@@ -176,7 +176,7 @@ Le bain vient après les premières annihilations, comme l'auteur l'a rappelé :
 - le porteur toujours sollicité resterait éjecté avec un cœur dur : non ;
 - moins de 200 règles généalogiques survivraient : 288.
 
-Pour le contre-audit du 13 novembre, cinq prédictions sur cinq ont tenu, dont une de justesse.
+Pour le contre-audit du 13 novembre, cinq prédictions sur cinq ont tenu, dont une de justesse. Pour C-147c, C-148c et le différend sous A1, les prédictions fausses sont dites dans les sections 8 bis à 8 quater et dans le carnet (sections 69 à 73).
 
 ---
 
@@ -230,13 +230,28 @@ Détail : carnet du 12 et 13 novembre, section 70.
 
 **Ajout de 8 h 40.** ChatGPT a figé un PR-4 bis : deux branches rigides (regroupement des contacts à 10⁻⁹ et à 10⁻⁶, 6 264 trajectoires) et 144 fenêtres à cœur de raideur finie ; non exécuté. Pour C-147c, les compléments qu'il demandait sont faits : le flux intégré vaut exactement la source à travers toute coquille, et le profil est celui d'un milieu continu isotrope, u = Q / (4πDr) avec D = 4, à 0,2 % près dès huit mailles. Il rappelle, et le pilote en convient, que cette loi est générique en dimension 3 et que la dimension est déjà dans la trame. Détail : section 71.
 
+## 8 quater. Ajout du 13 novembre, 9 h 45 : la cadence de la mitose face à l'expansion mesurée (C-148c)
+
+L'auteur dit que la mitose est première et continue, « ralentie ou arrêtée » dans la matière. La mesure dit que l'expansion était plus rapide quand l'univers était plus dense. Protocole et prédictions écrits avant calcul ; données vérifiées à la source (DESI DR2, treize nombres ; 31 chronomètres ; six mesures de croissance).
+
+- **[FAIL] La loi de niveau.** Si les cellules prises dans la matière cessaient simplement de se diviser, l'expansion aurait été plus lente dans le passé. Le meilleur ajustement est « aucune cellule bloquée ».
+- **La loi de frein passe.** La matière agit sur la dérivée de la cadence : dc/dt = −κ·c^(2−n)·ρ. La mesure fixe l'exposant, **n = 2,04 ± 0,07 [CERT]** : c'est ΛCDM plat écrit autrement, et la constante cosmologique y est la cadence du tissu vide. Ce n'est pas une dérivation : deux paramètres, comme lui.
+- **[T] L'histoire de l'expansion ne dit pas si la matière freine.** Une famille de lois locales, de la matière qui freine seule à la matière qui ne freine pas, rend exactement la même histoire. C'est la croissance des structures qui tranche : le frein pur est exclu à plus de sept écarts-types, et la loi compatible est dc/dt = (c∞² − c²)/3 − 4πG·ρ, soit un moteur propre au tissu, une inertie des porteurs et un frein par la matière **[M, indicatif]**.
+- **[T, sous condition] Le frein et la loi en 1/r sont une seule loi.** Si la matière émet une grandeur conservée dont le gradient accélère les porteurs (la condition de C-147c), le théorème de Gauss donne ce frein, avec le même G. La même donnée manque aux deux.
+- **[FAIL] La modulation de la cadence prise comme déficit de volume** manque la pesanteur de trente ordres de grandeur, avec une loi en r⁻⁵.
+- **Correction du pilote.** La « tension » notée le 12 novembre entre la parole de l'auteur et la mesure venait en partie de sa lecture : il prenait « ralentit » pour un niveau. Reste non expliquée la cadence de départ, bien plus élevée que la cadence libre.
+- **Une prédiction fausse sur seize critères chiffrés** : une loi presque sans frein n'est écartée qu'à trois écarts-types par la forme de la croissance, non à plus de cinq.
+- **Relève de ChatGPT, 8 h 57.** Il a retrouvé de son côté le coefficient de C-147c (diffusivité égale à 4 fois l'identité) et pris le banc de validation indépendant de PR-4 bis (53 contrôles tenus sur 53 ; trajectoires non validées, grilles fermées).
+
+Aucun verrou ne change. Détail : carnet du 12 et 13 novembre, sections 72 et 73.
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.
 2. **Le rayon 1** : porteurs nés au contact, avec un solveur de contacts permanents validé.
 3. **La capture (CAS-2)** : un bain qui attire mène-t-il à une liaison durable, bilan d'énergie fermé, avec dissipation et bruit ? Distance minimale explicite, maillage convergé, témoins sans bain, sans dissipation, sans liant.
 4. **L'équité comme loi** : une dynamique d'échanges, indépendante du nombre quatre, qui s'arrête à quatre éléments.
-5. **La loi de cadence** : ce qui règle la durée d'une génération.
+5. **La loi de cadence** : la mesure en fixe la forme (section 8 quater) ; restent à dériver l'inertie des porteurs, ce que la matière émet et qui se conserve, la cadence du tissu vide et la cadence de départ.
 6. **Le recoupement** : ChatGPT n'a pas exécuté PR-3 et n'a recoupé PR-2 qu'en partie.
 
 ---

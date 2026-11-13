@@ -2,7 +2,7 @@
 
 **Rédigé par Claude, contre-auditeur, le 12 novembre 2026.** Auteur du Blob Principle : Rudolphe Mirante.
 **Objet :** reprendre toute la cosmogonie, du simplexe au complexe, et dire pour chaque principe ce qui est démontré, mesuré, réfuté ou encore ouvert.
-**Verdict : TOE démontrée = NON. Verrous fermés : 0 sur 7. Verrous partiels : V1, V3, V4.** *(Mis à jour le 13 novembre, 8 h 40.)*
+**Verdict : TOE démontrée = NON. Verrous fermés : 0 sur 7. Verrous partiels : V1, V3, V4.** *(Mis à jour le 13 novembre, 9 h 45.)*
 
 Ce document remplace la proposition V-1 du 9 novembre comme tableau de bord. Il ne grave rien : la cosmogonie appartient à Rudolphe.
 
@@ -85,9 +85,9 @@ Statuts : [T] théorème ; [CERT] certifié par calcul exact ; [M] mesure numér
 | Principe | Traduction | État |
 |---|---|---|
 | La matière sur rails : la gravité est l'étirement des arêtes | s = GM/(rc²), forme en cascade | [T] γ = β = 1 par calcul ; métrique de Papapetrou ; non distinguée de la relativité générale en champ faible |
-| L'étirement naît de la trame | Profil n_e(r) autour d'un cœur dense | [M] réponse à courte portée seulement (RO-25) ; **[CERT, sous condition] (C-147c, 13 nov.) : sur la vraie trame de palier (un porteur sur quatre à 26 fils, les autres à 10), une grandeur conservée transmise de fil en fil suit une loi en 1/r, isotrope à moins de 1 % dès 7 mailles sans poids métriques, à 3 % près avec** ; **[FAIL] l'étirement élastique d'un réseau de ressorts décroît en 1/r² et plus vite** ; avec perte, profil de Yukawa : la loi est perdue ; **donnée manquante : ce que la matière émet et qui se conserve [OPEN]** ; non recoupé |
+| L'étirement naît de la trame | Profil n_e(r) autour d'un cœur dense | [M] réponse à courte portée seulement (RO-25) ; **[CERT, sous condition] (C-147c, 13 nov.) : sur la vraie trame de palier (un porteur sur quatre à 26 fils, les autres à 10), une grandeur conservée transmise de fil en fil suit une loi en 1/r, isotrope à moins de 1 % dès 7 mailles sans poids métriques, à 3 % près avec** ; **[FAIL] l'étirement élastique d'un réseau de ressorts décroît en 1/r² et plus vite** ; avec perte, profil de Yukawa : la loi est perdue ; **donnée manquante : ce que la matière émet et qui se conserve [OPEN]** ; coefficient (diffusivité 4 fois l'identité) retrouvé indépendamment par ChatGPT, son programme non relu |
 | La métrique est portée par les arêtes | Étoiles de Hodge métriques dans D | **[CERT] obligatoire pour une seule vitesse de la lumière (C-117)** ; dérivation : [OPEN] |
-| La matière ralentit la mitose | Facteur e^(−s) exigé pour γ = 1 | [H] ; proxy testé non confirmé (27 sept.) |
+| La matière ralentit la mitose | Facteur e^(−s) exigé pour γ = 1 ; **loi de cadence face à H(z) (C-148c, 13 nov.)** | [H] ; proxy testé non confirmé (27 sept.) ; **[FAIL] comme loi de niveau** (cellules de matière qui cessent de se diviser : l'expansion aurait été plus lente dans le passé) ; **admise par la mesure comme loi de frein** : dc/dt = −κ·c^(2−n)·ρ, avec **[CERT] n = 2,04 ± 0,07** sur DESI DR2 (n = 2 est ΛCDM plat ; la constante cosmologique est la cadence du tissu vide) ; **[T] l'histoire de l'expansion ne dit pas si la matière freine** (famille de lois locales B, même histoire) ; **[M, indicatif] la croissance des structures exclut le frein pur (B = 0) et admet B = 1/3**, soit dc/dt = (c∞² − c²)/3 − 4πG·ρ : moteur, inertie, frein ; **[FAIL] la modulation de la cadence comme déficit de volume** manque la pesanteur de trente ordres de grandeur ; **[T, sous condition] le frein et la loi en 1/r de C-147c sont une seule loi par le théorème de Gauss** ; dérivation des trois termes : [OPEN] ; non recoupé |
 | Arête = énergie sombre, triangle = matière noire, tétraèdre = matière | Fractions par comptage | [FAIL] 6/6 en tissu fermé ; [T] triangles toujours plus nombreux que les arêtes ; voie des phases ouvertes : [OPEN] |
 | L'énergie sombre ne bouge pas | w = −1 | Falsificateur F-01 gravé ; expansion par paliers constants compatible [H] |
 | Patchwork de poches, pas de big bang | Aucune | [OPEN] ; contrainte : fond diffus uniforme à 10⁻⁵ |
@@ -111,8 +111,8 @@ Statuts : [T] théorème ; [CERT] certifié par calcul exact ; [M] mesure numér
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |
 |---|---|---|---|---|
-| V1 Espace-temps | Limite lorentzienne 3+1, causalité | Espace 3D étendu conservé ; distances en fils monotones [T] ; une seule vitesse au premier ordre sous produits scalaires métriques [CERT] ; sous étirement imposé, la tension produit seule la mitose régulière [CERT] ; **la mitose première étire sans échelle imposée [M]** ; **une règle purement généalogique engendre le tissu régulier [CERT]** | **Loi de cadence** ; régularité dans la durée ; énergie d'activation ; dépendance au germe ; dimension temporelle ; limite continue ; courbure | **Partiel (secteur spatial plat)** |
-| V2 Gravitation | Équations d'Einstein, G | Regge ; rails en champ faible ; forme en 1/r acquise sous condition d'un médiateur conservé (C-147c) | La grandeur conservée émise par la matière ; G ; propagation | Ouvert |
+| V1 Espace-temps | Limite lorentzienne 3+1, causalité | Espace 3D étendu conservé ; distances en fils monotones [T] ; une seule vitesse au premier ordre sous produits scalaires métriques [CERT] ; sous étirement imposé, la tension produit seule la mitose régulière [CERT] ; **la mitose première étire sans échelle imposée [M]** ; **une règle purement généalogique engendre le tissu régulier [CERT]** | **Loi de cadence** (forme exigée par la mesure : C-148c ; aucun terme dérivé) ; régularité dans la durée ; énergie d'activation ; dépendance au germe ; dimension temporelle ; limite continue ; courbure | **Partiel (secteur spatial plat)** |
+| V2 Gravitation | Équations d'Einstein, G | Regge ; rails en champ faible ; forme en 1/r acquise sous condition d'un médiateur conservé (C-147c) ; même condition pour le frein de la cadence (C-148c) | La grandeur conservée émise par la matière ; l'inertie des porteurs ; G ; propagation | Ouvert |
 | V3 Quantique | Born, intrication, Bell | Secteur sombre, bain persistant, intrication de mode | Interaction de mesure | Partiel, bloqué |
 | V4 Matière | Charges, spins, médiateurs | Modes protégés neutres aux rencontres ; signe de chiralité | Charge, multiplets, axe | Partiel |
 | V5 Spectre | Masses, générations, mélanges | Cône de Koide comme cible | Tout mécanisme | Ouvert |
@@ -132,7 +132,7 @@ Les théorèmes topologiques déjà acquis (modes protégés, neutralité, sépa
 
 ## 4. Les prochaines épreuves, par ordre de rendement
 
-1. **La loi de cadence.** L'auteur a répondu à « ce qui étire » : la mitose. Reste la durée d'une génération. L'observation exige une cadence par cellule égale à 3 H(z), plus élevée dans le passé ; trois lois sans coefficient sont réfutées (C-134c). Chercher dans la cosmogonie ce qui règle la cadence, et le tester à l'aveugle.
+1. **La loi de cadence.** L'auteur a répondu à « ce qui étire » : la mitose. Reste la durée d'une génération. L'observation exige une cadence par cellule égale à 3 H(z), plus élevée dans le passé ; trois lois sans coefficient sont réfutées (C-134c). **C-148c (13 novembre) : la mesure refuse la loi de niveau et fixe la forme, dc/dt = (c∞² − c²)/3 − 4πG·ρ.** Reste à chercher dans la cosmogonie ce qui donne aux porteurs une inertie, ce que la matière émet et qui se conserve, la cadence du tissu vide et la cadence de départ ; puis l'ère du rayonnement.
 1 bis. **Régularité de la trame sous mitose première** (suite de C-132 bis) : une exclusion qui ne fige pas les cellules nées aplaties ; C-133 de ChatGPT (inertie, énergie interne des simplexes).
 1 ter. **C-141c — Le mode protégé à travers une naissance** : transport isométrique, mesure de ce qui reste du mode ; protocole à figer.
 1 quater. **C-133/PR-1 (ChatGPT, figé)** : croissance sous contraintes exactes de volume et de forme, 20 graines, 127 événements ; à exécuter.
@@ -146,4 +146,4 @@ Les théorèmes topologiques déjà acquis (modes protégés, neutralité, sépa
 6. **C-146 / CAS-2 — La capture.** Un bain qui attire rapproche-t-il deux tétraèdres jusqu'à une liaison durable, avec un bilan d'énergie fermé, de la dissipation et du bruit ? À figer avant calcul, avec une distance minimale explicite (sinon le puits n'a pas de fond), un maillage convergé des faces et les témoins sans bain, sans dissipation, sans liant.
 7. **L'équité comme loi.** Chercher une dynamique d'échanges, indépendante du nombre quatre, qui s'arrête à quatre éléments ; l'égalité des modes ne suffit pas (toutes les roues la satisfont).
 
-*Documents liés : claude/session-2026-11-12.md (C-115 à C-147c), claude/session-2026-11-11.md (C-97 à C-114), claude/dossier-integral-2026-11-10.md.*
+*Documents liés : claude/session-2026-11-12.md (C-115 à C-148c), claude/session-2026-11-11.md (C-97 à C-114), claude/dossier-integral-2026-11-10.md.*
