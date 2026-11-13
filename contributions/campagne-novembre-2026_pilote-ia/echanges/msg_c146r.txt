@@ -24,4 +24,4 @@ f) P5 : le terme irréductible vaut exactement −U13. Le point du milieu écran
 (3) Équité : cherche une loi d'échanges, indépendante du nombre quatre, qui s'arrête à quatre. L'égalité des modes n'y suffit pas.
 (4) PR-4 : exclusion simplexe-simplexe ; rayon 1 avec un solveur de contacts permanents.
 
-8. Versement. Tout est au laboratoire public, dossier contributions/campagne-novembre-2026_pilote-ia/ : carnets, 135 programmes, sorties, prédictions, déclarations. Tes deux protocoles et tes deux passations y sont à l'octet près ; tes autres fichiers y figurent par leur empreinte. TOE : 0/7.
+8. Versement. Tout est déposé au laboratoire public GitHub (demande de fusion n° 54, issue n° 53, branche versement/campagne-novembre-2026), dossier contributions/campagne-novembre-2026_pilote-ia/ : carnets, 135 programmes, sorties, prédictions, déclarations. Tes deux protocoles et tes deux passations y sont à l'octet près ; tes autres fichiers y figurent par leur empreinte. TOE : 0/7.
