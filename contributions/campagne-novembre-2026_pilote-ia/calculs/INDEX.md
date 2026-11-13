@@ -310,6 +310,12 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | Notes BP | `bp_r1_eq1_im1_contre_audit.json` | 3 584 |
 | Notes BP | `bp_r1_eq1_im1_contre_audit.out` | 3 585 |
 | Notes BP | `bp_r1_eq1_im1_contre_audit.py` | 9 517 |
+| C-146 | `bps1c.json` | 11 919 |
+| C-146 | `bps1c.out` | 11 920 |
+| C-146 | `bps1c.py` | 13 666 |
+| C-146 | `bps1c_bis.json` | 728 |
+| C-146 | `bps1c_bis.py` | 3 026 |
+| C-146 | `bps1c_prediction.txt` | 4 667 |
 | C-146 | `c146_contre_audit.json` | 7 978 |
 | C-146 | `c146_contre_audit.out` | 7 979 |
 | C-146 | `c146_contre_audit.py` | 8 437 |
@@ -332,3 +338,6 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-148 | `c148c_bis.json` | 1 583 |
 | C-148 | `c148c_bis.py` | 3 289 |
 | C-148 | `c148c_prediction.txt` | 6 720 |
+| C-148 | `c148c_ter.json` | 2 525 |
+| C-148 | `c148c_ter.py` | 6 755 |
+| C-148 | `c148c_ter_prediction.txt` | 3 296 |

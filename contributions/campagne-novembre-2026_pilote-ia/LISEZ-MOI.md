@@ -18,7 +18,7 @@ Ce dossier réunit tout ce que la campagne d'audit croisé a produit entre le 1e
 | Dossier | Contenu |
 |---|---|
 | [`carnets/`](carnets/) | Douze carnets de laboratoire, du 1er au 13 novembre. Chaque laboratoire y a sa section : question, protocole, prédiction, résultat, écarts déclarés. |
-| [`calculs/`](calculs/) | 144 programmes Python, leurs sorties, les prédictions écrites avant calcul et les déclarations d'exécution. [Index](calculs/INDEX.md). |
+| [`calculs/`](calculs/) | 147 programmes Python, leurs sorties, les prédictions écrites avant calcul et les déclarations d'exécution. [Index](calculs/INDEX.md). |
 | [`echanges/`](echanges/) | Les messages du pilote à ChatGPT (résultats et demandes de recoupement). |
 | [`chatgpt/`](chatgpt/) | Deux protocoles figés et deux passations de ChatGPT, à l'octet près, et les [empreintes](chatgpt/EMPREINTES.md) de tous ses fichiers. |
 

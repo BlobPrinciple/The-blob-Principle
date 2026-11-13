@@ -195,6 +195,7 @@ Elles sont citées avec leur date dans les carnets, orthographe normalisée. Ell
 | 12 novembre | Un simplexe ne peut pas en chevaucher un autre à sa naissance, « à tester ». |
 | 13 novembre | La gravité n'existe pas, l'équilibre oui : l'équité des échanges, dont le tétraèdre est la personnification 3D. |
 | 13 novembre | Un effet de type Casimir pourrait agir après les premières annihilations, avec le bain et les liants. |
+| 13 novembre | La solution la plus viable et la moins énergivore est toujours privilégiée ; la première bonne solution est validée. « Alors mettons à l'épreuve ! » |
 
 ---
 
@@ -244,6 +245,24 @@ L'auteur dit que la mitose est première et continue, « ralentie ou arrêtée �
 - **Relève de ChatGPT, 8 h 57.** Il a retrouvé de son côté le coefficient de C-147c (diffusivité égale à 4 fois l'identité) et pris le banc de validation indépendant de PR-4 bis (53 contrôles tenus sur 53 ; trajectoires non validées, grilles fermées).
 
 Aucun verrou ne change. Détail : carnet du 12 et 13 novembre, sections 72 et 73.
+
+## 8 quinquies. Ajout du 13 novembre, 10 h 05 : C-148c recoupé ; la sélection du tétraèdre mise à l'épreuve
+
+**C-148c recoupé par ChatGPT, puis contre-vérifié.** Avec le vecteur et la covariance officiels de DESI, les deux programmes donnent n = 2,0491 (de 1,975 à 2,124) à six chiffres près. L'écart du pilote au χ² publié venait pour l'essentiel de la table arrondie.
+
+- **[FAIL] L'unicité de la loi locale.** ChatGPT exhibe une infinité de lois qui rendent la même histoire et la même croissance linéaire (un terme en λ, du second ordre). Vérifié. La mesure ne fixe donc que la partie linéaire de la loi de cadence : la « loi compatible » de la section 8 quater doit se lire ainsi.
+- **[T] Le second ordre les distingue.** Pour une région sphérique, δ = δ_L + ν·δ_L² avec ν = 17/21 − (50/7)·λ ; à λ = 0, c'est la valeur de la relativité générale. L'asymétrie du champ de densité trancherait ; la confrontation n'est pas faite.
+- **Le lien avec la loi en 1/r reste une correspondance** : le couplage, son intensité et la propagation ne sont pas dérivés.
+
+**La sélection du tétraèdre.** L'auteur : « La solution la plus viable et la moins énergivore est toujours privilégiée ; la première bonne solution est validée. » ChatGPT a figé puis exécuté un test (BP-S1, 7 200 trajectoires) dans un modèle abstrait de faces qui s'ajoutent et se retirent, sans préférence pour quatre. Sa prédiction a échoué : avec des faces peu coûteuses et six sites, le tétraèdre n'est la première fermeture que 299 fois sur 1 200. Le pilote a résolu ce modèle exactement (BP-S1c, prédictions écrites avant).
+
+- **Le calcul de ChatGPT est recoupé** : ses dix-huit comptes sont à moins de 2,0 écarts-types des probabilités exactes.
+- **L'échec est une affaire de seuil.** La part du tétraèdre croît avec le coût d'une face : 23 % à 0,6 ; 85 % à 2 ; 98 % à 3. Le seuil est à 0,92 fois l'agitation (six sites).
+- **« La première bonne solution » tient si les porteurs naissent un à un.** Au quatrième porteur, la seule coque possible est le tétraèdre ; il garde plus de 90 % des premières fermetures tant qu'un porteur naît moins d'une fois toutes les quatre fermetures.
+- **[T] La sobriété donne la durée.** Une coque à F faces vit 1/(F − 1) : le tétraèdre le plus longtemps, quels que soient les coûts.
+- **Limite.** Coûts, prime de fermeture et règle de détachement sont posés à la main : ce n'est pas une physique du Blob. BP-S1c n'est pas recoupé.
+
+Aucun verrou ne change. Détail : carnet du 12 et 13 novembre, sections 74 et 75.
 
 ## 9. Les prochaines épreuves
 

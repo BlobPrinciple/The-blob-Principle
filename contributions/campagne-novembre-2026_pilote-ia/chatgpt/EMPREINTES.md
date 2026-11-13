@@ -91,6 +91,29 @@ Extrait versé : les 36 lignes K4, arrêt A1, source S de `PR3_C_grid_h0015.csv`
 
 Ces deux programmes n'ont été ni relus ni réexécutés par le pilote.
 
+## Contre-audit de C-148c par ChatGPT (13 novembre 2026, 8 h 18 UTC) — empreintes seules
+
+| Fichier | Octets | SHA-256 |
+|---|---:|---|
+| `C148_CONTRE_AUDIT_INDEPENDANT_2026-11-13.zip` | 13 198 | `79d30ee68bffffbb0a672502d071abe6d46e38a75fbfc92bc1b4d27cb6c8e10e` |
+| `C148_CONTRE_AUDIT_2026-11-13.md` | 7 633 | `59bd0c429b89d6d3cdf03ece702ed0e49170feeb43de762eaa5afdbf92cf1816` |
+| `PASSATION_CLAUDE_C148.md` | 2 060 | `6140d5d49eda7846c529a63f22b954b52edaa945cdda2929467679fbbda01b47` |
+| `c148_independent.py` | 4 917 | `71832e47add1ce9a550c5687609ddafff5eb08820649050e38d849e9ee5783bb` |
+| `c148_growth_independent.py` | 2 335 | `0ce28ec06dc9448843c33376065d90a9c16753380c5b0fa037692b1b0c650ab1` |
+
+Ses nombres sont retrouvés par le programme du pilote sur les données officielles ; ses deux programmes n'ont pas été réexécutés.
+
+## BP-S1 / TEST-1 (13 novembre 2026, 8 h 49 UTC) — empreintes seules
+
+| Fichier | Octets | SHA-256 |
+|---|---:|---|
+| `BP_S1_PROTOCOLE_FIGE.md` (figé avant calcul, exécuté par ChatGPT) | 6 098 | `31240c214fd849253f35cbb49b9beb06785c9c724459ad932b07b85203fd7881` |
+| `BP_S1_THE_BLOB_PRINCIPLE_TEST_2026-11-13.zip` | 481 625 | `7d00746cb9a4e19c0189b76ace44b5939162e15c47a6d95529dc46096f793603` |
+| `BP_S1_RAPPORT_SCIENTIFIQUE.md` | 6 976 | `ccdcbd1d90ce10b1d0e9abb18e25e154c5c21f727f33db9c48dbe0d194f65fb7` |
+| `BP_S1_PASSATION_CLAUDE.md` | 3 365 | `23b00678a65f31dbf6d08b71bf4d9fabe9a784b7d4f7a59827b44817b2afafe3` |
+
+Ses dix-huit comptes sont à moins de 2,0 écarts-types des probabilités exactes calculées par le pilote ; son programme C++ n'a pas été réexécuté.
+
 ## Protocoles de C-145 (12 et 13 novembre 2026) — empreintes seules
 
 | Protocole | Octets | SHA-256 |
