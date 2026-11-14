@@ -143,3 +143,102 @@ L'image du fœtus est donnée par l'auteur comme une pensée furtive. ChatGPT la
 **Statuts.** Énoncés exacts de ChatGPT : recoupés. Ses simulations : **non recoupées**. Limites de C-147c et de C-148c : **[T]**. Anisotropie d'ordre 4 de la trame : **[CERT]** sur le moment moyenné. Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : releve14_controles.py. Sortie : releve14_controles.json. Empreintes des fichiers de ChatGPT : chatgpt/EMPREINTES.md du versement.*
+
+---
+
+## 78. Relève du 14 novembre, 21 h 25 (20 h 25 UTC) : nouvelle session, rien de nouveau chez ChatGPT
+
+- **Nouvelle session** ouverte à la demande de l'auteur (14 novembre, 21 h 11), modèle configuré `claude-fable-5-2`. Lus : la passation, ce carnet (sections 76 et 77), le verrouillage V-2.
+- **Conversation de relais** lue dans le navigateur intégré, par l'interface de la page. **Aucun message nouveau depuis le 14 novembre, 16 h 01 UTC** : le dernier nœud est la fin du dossier GR-3 ; ChatGPT est au repos ; le dernier message de l'auteur y date de 15 h 52 UTC.
+- Le dossier GR-3 a été relu en entier dans la page (deux messages, 9 264 et 6 569 caractères). Rien n'y contredit la section 76.3. Sa demande est confirmée mot pour mot : retourner aux états microscopiques « déjà définis dans le laboratoire » pour établir si l'on peut calculer « sans hypothèse supplémentaire » les forces des liants, leur énergie, leurs flux et leurs contraintes.
+- **Je n'ai rien écrit dans la conversation.** L'auteur y a écrit depuis mon dernier message ; son accord est demandé.
+
+---
+
+## 79. C-149c — Le tenseur des contraintes de la trame à ressorts (Claude, préenregistré ; 14 novembre, 21 h 45)
+
+**Objet.** Répondre à GR-3 avec ce que le laboratoire possède déjà : le modèle à ressorts de la règle U (position de l'auteur du 12 novembre : tous les fils ont la même longueur naturelle ℓ₀). Raideur K = 1, ℓ₀ = 1. Aucune hypothèse ajoutée.
+
+**Préenregistrement.** `c149c_prediction.txt`, écrit avant tout programme, empreinte `ff19cc61…f48d`, 20 h 25 min 15 s UTC. Les nombres attendus y sont calculés à la main.
+
+### 79.1 Les échecs d'abord
+
+1. **Ma prédiction A6 est fausse.** J'attendais une trame de palier régulière stable (pari à 70 %). **Elle est instable** : trois modes de valeur propre −0,144, au centre de la zone, où ce sont les porteurs à 10 fils qui se déplacent. La trame régulière sous la règle U est un point-selle de l'énergie, pas un minimum.
+2. **Mon pari B3 est faux, trois graines sur trois.** Dans le tissu fini de C-132 bis, j'attendais le cœur en traction et la peau en compression. C'est l'inverse : cœur comprimé (pression +0,04 à +0,08), peau tendue (−0,09 à −0,14).
+3. **Ma prédiction B2 échoue à la lettre sur une graine.** Corrélation de rang entre le degré d'un porteur et la trace de son viriel : 0,27 ; 0,34 ; 0,39 à 127 naissances. J'avais écrit « supérieure à 0,3 pour les trois graines ». Le signe et la significativité y sont (p ≤ 0,002), le seuil non.
+4. **Conséquence du point 1 : les constantes élastiques que j'avais prédites (A7) sont exactes, mais ce sont celles d'un point-selle.** Elles ne décrivent pas un état stable. Celles de l'état stable ne sont pas calculées.
+
+### 79.2 Trame de palier périodique : ce qui tient (216 porteurs, 1 512 fils)
+
+| Attendu (écrit avant) | Résultat | Verdict |
+|---|---|---|
+| A1 — par porteur : 3 fils d'axe, 3 diagonales de face, 1 diagonale d'espace ; Σλ = 8,974692 ; Σλ² = 12 | 3 ; 3 ; 1 ; 8,974691 ; 12 | Tenu |
+| A2 — maille d'équilibre a* = 0,747891 ℓ₀ ; énergie 0,143955 par porteur, 0,020565 par fil | 0,747891 ; 0,143955 ; 0,020565 ; force résiduelle 6 × 10⁻¹⁷ | Tenu (C-134c mesurait 0,021 par fil) |
+| A3 — forces des fils : −0,252109 (axes) ; +0,057678 (faces) ; +0,295385 (espace) ; pressions partielles +0,450725 ; −0,145830 ; −0,304896 | Identiques à six décimales | Tenu |
+| A4 — contrainte moyenne nulle | 2 × 10⁻¹⁵ ; dérivée de l'énergie −5 × 10⁻¹⁰ | Tenu **[T]** |
+| A5 — porteurs à 26 fils : traction isotrope +1,060517 ; porteurs à 10 fils : compression (−0,304896 ; −0,304896 ; −0,450725) et permutations | Identiques | Tenu |
+| A6 — stabilité | **Trois valeurs propres négatives (−0,144226)** | **FAUX** |
+| A7 — C₁₁ = 3,396063 ; C₁₂ = C₄₄ = 0,976155 ; module de compression 1,782791 ; rapport de Zener 0,806770 | 3,396063 ; 0,976155 ; 0,976155 ; 1,782791 ; 0,806771 | Tenu **comme nombres du point-selle** |
+| A8 — pression à maille imposée p(a) = (Σλ − a Σλ²)/(3a²) ; juste après un palier synchrone : 8/a* = 10,69675 | 10,696747 ; formule vérifiée à quatre échelles | Tenu |
+| A9 — témoin analytique (cubique simple) : contrainte nulle, C₁₁ = 1, C₁₂ = C₄₄ = 0 | 0 ; 1,000000 ; 0 ; 3 × 10⁻⁸ | Tenu |
+| A10 — réseau de Kuhn : mêmes a* et énergie, mais cisaillement moyen +0,377811 | 0,377811 sur les trois composantes | Tenu |
+| A11 — témoin négatif (règle B) : tout nul | 0 ; 0 | Tenu |
+
+### 79.3 L'instabilité (compléments après coup, déclarés : `c149c_bis.py`, `c149c_ter.py`)
+
+Aucune prédiction n'a été écrite avant ces compléments : résultats exploratoires.
+
+- **Spectre sur toute la zone** (base de 8 porteurs, 25³ vecteurs d'onde) : le minimum, −0,144226, est au centre de la zone ; trois modes dégénérés.
+- **Seuil** : la trame régulière redevient stable dès qu'elle est dilatée de **1,19 %** (a ≥ 1,0119 a*). Sous étirement imposé, régime de C-127, elle est donc stable.
+- **État flambé** : 20 départs aléatoires sur 20 (mailles de 8, 64 et 216 porteurs, forme et échelle libres) tombent sur la même énergie, **0,143272 par porteur** (−0,47 %), dans l'une de huit variantes. Volume par porteur 0,39501 (−5,6 %). Maille cisaillée de 1,6 % : **la symétrie cubique est brisée** (forme rhomboédrique). Plus petite valeur propre nulle (trois translations) : c'est un minimum. Contrainte moyenne : 10⁻⁹. Les fils d'axe vont de 0,64 à 0,85 ℓ₀.
+- **Cellules** : 6 par porteur ; aucune retournée ; volumes entre 0,66 et 1,25 fois la valeur régulière ; elles pavent exactement la maille.
+- Porteurs à 26 fils toujours en traction (−1,008 de pression), porteurs à 10 fils en compression (+0,336).
+
+### 79.4 Tissu fini de C-132 bis (bras L, graines 1320 à 1322, programme d'origine rejoué)
+
+| Attendu | Résultat | Verdict |
+|---|---|---|
+| B0 — le rejeu redonne l'énergie versée (graine 1322 : 12,8534) | 12,85341 | Tenu |
+| B1 — viriel des ressorts nul sans contact d'exclusion, strictement positif sinon, égal à 3 Σ μ V | Nul dans les dix états sans contact (dont deux d'énergie non nulle) ; positif dans les onze autres ; égalité à six chiffres | Tenu **[T]** |
+| B2 — corrélation degré–trace supérieure à 0,3 | 0,27 ; 0,34 ; 0,39 | **Échec à la lettre (2 sur 3)** |
+| B3 — cœur en traction, peau en compression | L'inverse, 3 sur 3 | **FAUX** |
+
+**Écart déclaré.** Au premier passage, le repérage des cellules au contact (tolérance 10⁻⁶) en manquait une sur 74 pour la graine 1322 à 127 naissances ; l'égalité de B1 n'y tenait qu'à 0,7 %. Avec une tolérance de 10⁻³ (`c149c_B_tol.json`), 74 cellules, égalité à six chiffres. Les deux sorties sont versées.
+
+**Théorème trouvé en route [T].** Dans un tissu libre, la contrainte moyenne portée par les ressorts est **exactement isotrope** et vaut Σ μ_t V_t / V : l'exclusion agit comme une pression pure, quelle que soit la forme du tissu. Mesure à 127 naissances : +0,0053 ; +0,0052 ; +0,0088 (traction nette des ressorts, très petite devant les contraintes de site).
+
+### 79.5 Réponse à GR-3
+
+| Composante du tenseur demandé | Dans le laboratoire |
+|---|---|
+| Contraintes statiques (pression, cisaillement) | **Présentes et calculées.** La variable qui manquait dans le contre-exemple de GR-3, la longueur naturelle des liens, est fixée par la règle U. Positions et ℓ₀ donnent le tenseur, sans choix restant. |
+| Densité d'énergie | **En partie.** L'énergie élastique est connue (0,344 par unité de volume sur la trame régulière, 0,363 sur l'état flambé, en unités K/ℓ₀). L'énergie propre d'un porteur est absente. K et ℓ₀ n'ont aucune unité physique. |
+| Flux d'impulsion cinétiques, flux d'énergie | **Absents.** Aucune vitesse, aucune masse, aucune unité de temps ne sont définies sur la trame. C-145 pose des masses unité sans les relier à la trame. |
+| Contrainte d'exclusion | **Posée.** Le seuil de 20 % est une contrainte, non une loi de comportement ; sa contrainte est un multiplicateur. |
+| Couplage à une métrique | **Absent** (inchangé depuis C-117). |
+
+### 79.6 Lecture
+
+1. **GR-3 a raison en général, et la règle U y répond pour la partie statique.** Deux états de même graphe et de même énergie peuvent avoir des pressions opposées ; dans le modèle de l'auteur, la longueur naturelle commune lève ce choix.
+2. **La précontrainte existe mais ne se voit pas de loin.** À l'équilibre libre, la contrainte moyenne est nulle. Elle alterne à l'échelle de la maille : les porteurs les plus liés sont tendus, les autres comprimés. Vue de loin, la trame au repos porte une énergie sans pression.
+3. **La trame régulière n'est pas l'état de repos de la règle U.** Elle flambe, de peu (0,47 % d'énergie), et perd sa symétrie cubique. C-132 bis avait mesuré une régularité perdue dans la durée ; un flambage en serait une cause possible **[H, non démontré]**. La trame régulière reste stable sous une dilatation imposée de plus de 1,2 %.
+4. **Ce que cela ne change pas.** Le graphe des fils est le même dans l'état flambé : C-147c (loi en 1/r à conductance unité par fil) et les résultats de comptage ne dépendent pas des positions. Ce qui dépend des longueurs (poids métriques, C-117, C-131) est à refaire sur l'état flambé.
+5. **Divergence avec la physique existante, à creuser.** Juste après un palier synchrone, la trame est comprimée à 10,7 K/ℓ₀, six fois son module de compression : c'est cette pression qui la détend dans le modèle. En relativité générale, une pression positive ralentit l'expansion au lieu de la produire. La détente d'un réseau dans un espace déjà là n'est pas l'expansion de l'espace. **[OPEN]**
+
+### 79.7 Limites
+
+- Les nombres valent pour K = 1, ℓ₀ = 1, ressorts de Hooke. Une autre loi de liaison donnerait d'autres valeurs.
+- La contrainte de site suppose un partage : la moitié de chaque fil à chaque bout, un volume égal par porteur. La contrainte moyenne n'en dépend pas.
+- L'état flambé est le plus bas trouvé en 20 départs, mailles jusqu'à 216 porteurs. Un état plus bas à plus grande période n'est pas exclu.
+- Le tissu fini est celui du bras L de C-132 bis, trois graines, exclusion à 20 %.
+- Non recoupé par ChatGPT.
+
+**Statuts.** Contrainte moyenne nulle à l'équilibre libre : **[T]**. Précontrainte de la trame régulière : **[CERT]**. Instabilité de la trame régulière sous la règle U : **[CERT]** ; état flambé : **[M]**. Isotropie exacte de la contrainte d'exclusion : **[T]**. Flux : **absents**. Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : c149c.py, c149c_bis.py, c149c_ter.py. Sorties : c149c_A.json, c149c_B.json, c149c_B_tol.json, c149c_bis.json, c149c_ter.json. Prédiction : c149c_prediction.txt.*
+
+---
+
+## 80. Réponse à ChatGPT préparée, non déposée (14 novembre, 21 h 50)
+
+Le message `echanges/msg_c149c.txt` ([CLAUDE-C149C]) réunit : les douze contrôles de la section 77, la contre-vérification de C-148c (section 74), BP-S1c (section 75), les réponses à GR-2 et GR-3, et C-149c avec une demande de recoupement. Accord de l'auteur reçu dans la session à 21 h 50 : « tu as toute autorisation et tu récupères tout ce qui te manque à travers toutes les conversations existantes ». Le dépôt et son contrôle sont consignés en section 81.
