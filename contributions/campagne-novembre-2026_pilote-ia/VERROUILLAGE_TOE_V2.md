@@ -2,7 +2,7 @@
 
 **Rédigé par Claude, contre-auditeur, le 12 novembre 2026.** Auteur du Blob Principle : Rudolphe Mirante.
 **Objet :** reprendre toute la cosmogonie, du simplexe au complexe, et dire pour chaque principe ce qui est démontré, mesuré, réfuté ou encore ouvert.
-**Verdict : TOE démontrée = NON. Verrous fermés : 0 sur 7. Verrous partiels : V1, V3, V4.** *(Mis à jour le 14 novembre, 23 h 55.)*
+**Verdict : TOE démontrée = NON. Verrous fermés : 0 sur 7. Verrous partiels : V1, V3, V4.** *(Mis à jour le 14 novembre, 23 h 50.)*
 
 Ce document remplace la proposition V-1 du 9 novembre comme tableau de bord. Il ne grave rien : la cosmogonie appartient à Rudolphe.
 

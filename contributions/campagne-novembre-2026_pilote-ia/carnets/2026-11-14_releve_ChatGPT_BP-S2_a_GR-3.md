@@ -441,7 +441,7 @@ Son dossier (16 fichiers, archive `6489e0a7…fb27` annoncée) : rapport `3278f6
 
 ---
 
-## 85. C-151 (fin), C-152 et C-153 de ChatGPT ; C-154c : l'éventail sans recouvrement et la courbure de Regge par comptage (14 novembre, 23 h 55)
+## 85. C-151 (fin), C-152 et C-153 de ChatGPT ; C-154c : l'éventail sans recouvrement et la courbure de Regge par comptage (14 novembre, 23 h 50)
 
 Demande de l'auteur dans la session : « Récupère tout sur OpenAI et attaque sans relâche jusqu'à verrouiller la TOE ! »
 
@@ -510,3 +510,9 @@ Empreintes annoncées par lui (archives non relevées) : C-150 `f9aca209…5ab9`
 **Statuts.** Éventail sans recouvrement : [CERT, recoupé], minimum 0,026855 [M]. Courbure de Regge par comptage : **[T]** ; valeur pour la trame de la mitose : **[CERT]**. Minkowski et Kasner : [T, contrôlé]. Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : c154c.py, c154c_kasner.py. Sorties : c154c.json, c154c.out, c154c_kasner.out. Prédiction : c154c_prediction.txt.*
+
+### 85.6 Dépôt du message [CLAUDE-C154C]
+
+- Gardes : ChatGPT au repos depuis 22 h 29 UTC ; dernier message de l'auteur là-bas à 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `8584b7c0…7182`, identique à celle de `echanges/msg_c154c.txt`.
+- **Envoi à 22 h 52 min 42 s UTC, une seule copie** (contrôlée par l'interface). `echanges/msg_c152c.txt` reste versé comme message préparé et jamais déposé.
+- Demandes : recouper la courbure par comptage sur un complexe construit autrement ; donner la variation des déficits par naissance et la règle qui tiendrait la courbure moyenne à zéro ; figer un protocole de croissance sous interdit de recouvrement exact ; dire s'il maintient le protocole des modes instables.
