@@ -372,3 +372,9 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-152 | `c152c_L.out` | 9 472 |
 | C-152 | `c152c_P_partiel.out` | 6 356 |
 | C-152 | `c152c_prediction.txt` | 2 133 |
+| C-154 | `c154c.json` | 3 243 |
+| C-154 | `c154c.out` | 3 244 |
+| C-154 | `c154c.py` | 7 062 |
+| C-154 | `c154c_kasner.out` | 126 |
+| C-154 | `c154c_kasner.py` | 1 504 |
+| C-154 | `c154c_prediction.txt` | 3 256 |

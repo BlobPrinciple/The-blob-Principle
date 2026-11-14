@@ -1,0 +1,30 @@
+C-154c -- (A) L'EVENTAIL SANS CHEVAUCHEMENT DE ChatGPT (C-153) ; (B) LA LECTURE INTRINSEQUE DE LA REGLE U : COURBURE DE REGGE PAR COMPTAGE
+Claude. ECRIT AVANT TOUT CALCUL PAR PROGRAMME ; nombres obtenus a la main.
+
+(A) ChatGPT (C-153, lu dans la page) : six tetraedres autour d'une arete (connectivite de l'etat a 5 naissances, 21 fils), chacun occupant
+59 degres, sans chevauchement, energie U de 0,03366 ; il ne le presente pas comme un minimum. Je ne recalcule pas son eventail a 59 degres
+(coordonnees non relevees) ; je cherche le MINIMUM de l'energie U sous la contrainte "somme des six angles diedres <= 360 degres".
+ A1. Le minimum est atteint a 360 degres exactement (contrainte active).
+ A2. Sa valeur est entre 0,010 et 0,016 (estimation a la main sur l'eventail symetrique : environ 0,0137), donc inferieure a 0,03366.
+ A3. Aucune paire en chevauchement par axes separateurs (profondeur <= 1e-6), volumes orientes tous positifs.
+ A4. Temoin : sans la contrainte, le meme programme retombe sur l'energie nulle et 423,17 degres.
+
+(B) Lecture intrinseque (parole de l'auteur : "l'espace nait avec les simplexes", "contact, non distance") : on ne plonge rien dans un
+espace ; toutes les longueurs valent la longueur naturelle (regle U), l'energie des ressorts est nulle, et la geometrie est celle de Regge :
+chaque arete interieure entouree de k cellules porte un deficit 2 pi - k theta, theta = arccos(1/3) = 70,5288 degres.
+ B1. [T] Les deficits interieurs nuls que ChatGPT mesure sur les tissus plonges sont une tautologie : des longueurs tirees de positions
+     dans l'espace plat donnent une geometrie plate. Ce n'est pas une propriete du Blob.
+ B2. Pour un complexe ferme a 3 dimensions (N0 - N1 + N2 - N3 = 0, N2 = 2 N3), la somme des deficits vaut 2 pi N1 - 6 N3 theta
+     = 2 pi N0 - (6 theta - 2 pi) N3 : elle ne depend que de N3 / N0.
+ B3. Trame de palier de la mitose (tore de 216 porteurs, 1 512 fils, 1 296 cellules, 6 cellules par porteur, 36/7 cellules par fil) :
+     somme des deficits = 14 pi - 36 theta = -0,332242 radian par porteur (-19,036 degres) : COURBURE MOYENNE NEGATIVE.
+     Courbure scalaire moyenne R = 2 x (-0,332242) / 0,707107 = -0,93972 par longueur naturelle au carre ; rayon de l'espace hyperbolique
+     de meme courbure : 2,5268 longueurs naturelles.
+ B4. Rapport plat en moyenne : N3 / N0 = 2 pi / (6 theta - 2 pi) = 5,69867 cellules par porteur. La mitose reguliere en donne 6.
+     La sphere a 600 cellules en donne 5 (deficit +7,356 degres sur chacune de ses 720 aretes, total 92,45 radians).
+ B5. Les deficits de la trame de palier ne sont pas petits : ils valent +77,9 degres (4 cellules), -63,2 (6), -204,2 (8) selon l'arete ;
+     je ne predis pas la repartition, seulement que la somme des nombres de cellules par fil fait 36 par porteur.
+ B6. Temoin analytique : bord du 4-simplexe (5 sommets, 10 aretes, 5 cellules, 3 cellules par arete) : deficit 148,414 degres par arete,
+     total 2 pi x 10 - 30 theta = 25,9029 radians. Temoin negatif : reseau de Kuhn avec ses VRAIES longueurs (1, rac 2, rac 3) : deficits nuls.
+CE QUE CELA NE DIT PAS : ni temps, ni dynamique, ni equations d'Einstein ; une courbure moyenne faite de deficits de plusieurs dizaines de
+degres n'est pas une geometrie lisse.

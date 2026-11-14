@@ -1,0 +1,146 @@
+{
+ "A4_sans_contrainte": {
+  "E": 2.984381968555749e-25,
+  "somme_angles_deg": 423.1726761931407,
+  "profondeur_max": 0.6719131406839286,
+  "volume_min": 0.11785113019777498,
+  "volume_max": 0.11785113019783426
+ },
+ "A": {
+  "energies_par_depart": [
+   0.026855077,
+   0.026855077,
+   0.026855077,
+   0.026855077
+  ],
+  "E_min": 0.02685507667837944,
+  "somme_angles_deg": 360.00000000000006,
+  "angles_deg": [
+   60.4282,
+   59.7659,
+   59.8059,
+   59.8059,
+   59.7659,
+   60.4282
+  ],
+  "longueur_arete_centrale": 0.9009090424314175,
+  "longueurs_min_max": [
+   0.9009090424314175,
+   1.0387732364941256
+  ],
+  "profondeur_max": 1.0547118733938987e-15,
+  "volume_min": 0.11168232286297049,
+  "volume_max": 0.11349691516491266
+ },
+ "A_59_degres": {
+  "E": 0.03306069977068104,
+  "profondeur_max": 3.764892043955914e-17,
+  "volume_min": 0.1105069968048439,
+  "volume_max": 0.11294812675713306
+ },
+ "B3_trame_de_palier_equilatere": {
+  "N0": 216,
+  "N1": 1512,
+  "N2": 2592,
+  "N3": 1296,
+  "euler": 0,
+  "cellules_par_porteur": 6.0,
+  "cellules_par_fil": 5.142857142857143,
+  "somme_k_par_porteur": 36.0,
+  "repartition": {
+   "longueur2=1, k=4": 324,
+   "longueur2=1, k=8": 324,
+   "longueur2=2, k=4": 648,
+   "longueur2=3, k=6": 216
+  },
+  "deficits_deg": [
+   -204.23,
+   -63.173,
+   77.885
+  ],
+  "somme_deficits_par_porteur": -0.332241874010787,
+  "formule": -0.33224187401078276,
+  "deficit_max_abs": 3.5644900315466117
+ },
+ "B3_courbure": {
+  "R": -0.9397219284286161,
+  "rayon_hyperbolique": 2.526829535237331
+ },
+ "B4": {
+  "rapport_plat": 5.6986662857188275,
+  "sphere_600": {
+   "deficit_deg": 7.356103172453426,
+   "total": 92.43951874251302
+  }
+ },
+ "B6_trame_de_palier_vraies_longueurs": {
+  "N0": 216,
+  "N1": 1512,
+  "N2": 2592,
+  "N3": 1296,
+  "euler": 0,
+  "cellules_par_porteur": 6.0,
+  "cellules_par_fil": 5.142857142857143,
+  "somme_k_par_porteur": 36.0,
+  "repartition": {
+   "longueur2=1, k=4": 324,
+   "longueur2=1, k=8": 324,
+   "longueur2=2, k=4": 648,
+   "longueur2=3, k=6": 216
+  },
+  "deficits_deg": [
+   -0.0
+  ],
+  "somme_deficits_par_porteur": -2.220446049250313e-15,
+  "formule": null,
+  "deficit_max_abs": 8.881784197001252e-16
+ },
+ "B6_Kuhn_vraies_longueurs": {
+  "N0": 216,
+  "N1": 1512,
+  "N2": 2592,
+  "N3": 1296,
+  "euler": 0,
+  "cellules_par_porteur": 6.0,
+  "cellules_par_fil": 5.142857142857143,
+  "somme_k_par_porteur": 36.0,
+  "repartition": {
+   "longueur2=1, k=6": 648,
+   "longueur2=2, k=4": 648,
+   "longueur2=3, k=6": 216
+  },
+  "deficits_deg": [
+   0.0
+  ],
+  "somme_deficits_par_porteur": -8.881784197001252e-16,
+  "formule": null,
+  "deficit_max_abs": 8.881784197001252e-16
+ },
+ "B6_Kuhn_equilatere": {
+  "N0": 216,
+  "N1": 1512,
+  "N2": 2592,
+  "N3": 1296,
+  "euler": 0,
+  "cellules_par_porteur": 6.0,
+  "cellules_par_fil": 5.142857142857143,
+  "somme_k_par_porteur": 36.0,
+  "repartition": {
+   "longueur2=1, k=6": 648,
+   "longueur2=2, k=4": 648,
+   "longueur2=3, k=6": 216
+  },
+  "deficits_deg": [
+   -63.173,
+   77.885
+  ],
+  "somme_deficits_par_porteur": -0.33224187401078714,
+  "formule": -0.33224187401078276,
+  "deficit_max_abs": 1.3593476378164873
+ },
+ "B6_bord_du_4_simplexe": {
+  "deficit_deg": 148.41366190347205,
+  "total": 25.90307055157262,
+  "formule": 25.90307055157262
+ }
+}

@@ -438,3 +438,75 @@ Son dossier (16 fichiers, archive `6489e0a7…fb27` annoncée) : rapport `3278f6
 **Statuts.** Interpénétration des tissus de C-132 bis : **[CERT, recoupé dans les deux sens]**. C-132 bis, expansion : **[FAIL géométrique]**. BP-S2 à R = 2,3 : différend clos. Unité de temps : absente **[T]**. Flambage dans C-132 bis : non confirmé (ChatGPT, non recalculé). Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : c152c.py. Sorties : c152c_L.json, c152c_L.out, c152c_P_partiel.out. Prédiction : c152c_prediction.txt.*
+
+---
+
+## 85. C-151 (fin), C-152 et C-153 de ChatGPT ; C-154c : l'éventail sans recouvrement et la courbure de Regge par comptage (14 novembre, 23 h 55)
+
+Demande de l'auteur dans la session : « Récupère tout sur OpenAI et attaque sans relâche jusqu'à verrouiller la TOE ! »
+
+### 85.1 Mes échecs d'abord
+
+1. **Ma prédiction A2 est fausse** : j'attendais un minimum de l'éventail entre 0,010 et 0,016 ; il vaut **0,026855**. Erreur d'arithmétique à la main (j'ai divisé deux fois par deux). Seule la partie « inférieur à 0,03366 » tient.
+2. Le message [CLAUDE-C152C] préparé en section 84 est **caduc avant d'être déposé** : ChatGPT a lui-même rejoué mes trajectoires d'origine (son C-152) et retrouvé mes nombres. Il n'a pas été déposé ; il est remplacé par [CLAUDE-C154C].
+3. Dans ma prédiction, le total du témoin (bord du 4-simplexe) est écrit 25,9029 ; la valeur exacte est 25,9031.
+
+### 85.2 Ce que ChatGPT a ajouté (22 h 00 à 22 h 29 UTC), lu en entier
+
+| Dossier | Ce qu'il avance | Mon contrôle |
+|---|---|---|
+| **C-152** — mes trajectoires d'origine rejouées | Énergies retrouvées (0,3636188461 à 15 naissances) ; premier recouvrement à 5 naissances ; 5 paires à 7 ; 43 à 15 ; à 31 naissances 105, 69 et 11 paires | **Identique à C-152c**, nombre pour nombre. Le recoupement est fait dans les deux sens |
+| C-152 — volume | À 5 naissances, la somme des volumes (0,707107) surestime la réunion (0,608117) de 14 % | Somme contrôlée (six tétraèdres réguliers) ; volume de l'intersection non recalculé |
+| C-152 — deux lectures | Lecture euclidienne : recouvrements inadmissibles. Lecture intrinsèque (Regge) : déficits intérieurs nuls, « géométrie intrinsèque plate » | Nombres confirmés (448 arêtes intérieures à 360°, section 84.4). **Mais c'est une tautologie [T]** : des longueurs tirées de positions dans l'espace plat donnent une géométrie plate (85.4) |
+| **C-153** — éventail | Six cellules à 59° autour de l'arête, sans recouvrement, énergie U de 0,03366 : « la règle U n'interdit pas la viabilité géométrique » | **Recoupé et amélioré** (85.3) |
+| C-153 — règle B | Sous B le volume reste 0,117851 quel que soit le nombre de cellules : subdiviser n'agrandit pas | Vrai par construction (B ne déplace rien) ; valeur contrôlée (volume du tétraèdre régulier) |
+| C-153 — Minkowski et Kasner | Même métrique spatiale plate, tenseurs d'évolution différents, invariant de Kretschmann 0 contre 64/27 : **la géométrie spatiale seule ne fixe pas la dynamique** | **Contrôlé exactement** (`c154c_kasner.py`) : Ricci nul, 64/(27 t⁴), K = (−2/3, −2/3, 1/3) |
+| C-153 — fondateurs | Le volume du tétraèdre des fondateurs se contracte à certaines étapes | Non recalculé ; mesuré sur des tissus qui se recouvrent |
+| Sa demande | Recouper l'éventail ; éprouver une relaxation sous exclusion globale ; deux voies : A, matière dans un espace existant ; B, espace intrinsèque issu des simplexes | Éventail : fait. Voie B : premier résultat ci-dessous. Voie A : non faite |
+
+Empreintes annoncées par lui (archives non relevées) : C-150 `f9aca209…5ab9`, protocole des modes `31ccd3c9…c9ec`, C-151 `4a235a5f…54fd`, C-152 `f38b92ec…7fd3`, C-153 `16bf352a…e95f`.
+
+### 85.3 C-154c, partie A : le minimum de l'éventail (préenregistré)
+
+`c154c_prediction.txt`, empreinte `534855df…ddd5`, 22 h 49 min 54 s UTC. Six cellules autour d'une arête, 21 fils, règle U ; minimum de l'énergie sous la contrainte « somme des angles ≤ 360° ».
+
+| Attendu | Résultat | Verdict |
+|---|---|---|
+| A1 — contrainte active, 360° exactement | 360,0000° ; angles 60,43 ; 59,77 ; 59,81 ; 59,81 ; 59,77 ; 60,43 | Tenu |
+| A2 — minimum entre 0,010 et 0,016 | **0,026855** (quatre départs sur quatre) | **FAUX** |
+| A3 — aucun recouvrement, volumes positifs | Profondeur 10⁻¹⁵ ; volumes 0,1117 à 0,1135 | Tenu |
+| A4 — témoin sans contrainte : énergie nulle, 423,17° | 3 × 10⁻²⁵ ; 423,1727° ; profondeur 0,672 | Tenu |
+
+- Éventail à 59° par cellule, relaxé par moi : 0,03306, contre 0,03366 chez ChatGPT (le sien n'est pas minimisé). Son témoin est recoupé.
+- **Lecture** : interdire le recouvrement coûte ici 0,0269 d'énergie pour 21 fils ; l'arête centrale se raccourcit de 10 %, les autres fils s'allongent de moins de 4 %. La règle U admet un assemblage sans recouvrement, mais frustré.
+
+### 85.4 C-154c, partie B : la lecture intrinsèque de la règle U (préenregistré)
+
+**Principe.** Si « l'espace naît avec les simplexes » et si « ce n'est pas une notion de distance mais de contact » (auteur, 13 novembre), on ne plonge rien dans un espace : tous les fils ont exactement la longueur naturelle, l'énergie des ressorts est nulle, et la géométrie est celle de Regge. Chaque fil intérieur entouré de k cellules porte un déficit 2π − k·arccos(1/3). **La courbure se lit alors par simple comptage.**
+
+| Attendu (à la main) | Résultat | Verdict |
+|---|---|---|
+| B2 — complexe fermé : somme des déficits = 2π N₁ − 6 N₃ θ, fonction du seul rapport N₃/N₀ | Vérifié sur trois complexes (caractéristique d'Euler nulle) | Tenu **[T]** |
+| B3 — trame de palier de la mitose (216 porteurs, 1 512 fils, 1 296 cellules) : −0,332242 radian par porteur | −0,332242 | Tenu |
+| B3 — courbure moyenne −0,93972/ℓ₀² ; rayon hyperbolique équivalent 2,5268 ℓ₀ | −0,939722 ; 2,526830 | Tenu |
+| B4 — plat en moyenne à 5,69867 cellules par porteur ; la mitose régulière en donne 6 ; la sphère à 600 cellules, 5 (+7,356° par fil) | 5,698666 ; 6 ; 7,3561° | Tenu |
+| B5 — déficits +77,9° ; −63,2° ; −204,2° ; 36 cellules-fils par porteur | +77,885° (972 fils à 4 cellules) ; −63,173° (216 fils à 6) ; −204,23° (324 fils à 8) ; 36 | Tenu |
+| B6 — témoins : bord du 4-simplexe ; réseaux avec leurs vraies longueurs : déficits nuls | 148,414° par fil ; 0 à 10⁻¹⁵ près | Tenu |
+
+**Ce que cela établit.**
+1. **[T] Les déficits nuls mesurés par ChatGPT sur les tissus plongés ne disent rien du Blob** : toute configuration posée dans l'espace plat est plate en dedans. La lecture intrinsèque n'a de contenu que si les longueurs sont premières.
+2. **[T] Dans la lecture intrinsèque de la règle U, la courbure moyenne est fixée par le seul nombre de cellules par porteur.** Cinq : sphère (l'univers fermé à 120 porteurs et 600 cellules). 5,70 : plat en moyenne. **Six, la valeur de la mitose régulière : courbure moyenne négative**, rayon de 2,5 fils.
+3. **[CERT] Cette géométrie n'est pas lisse** : les déficits valent des dizaines de degrés et changent de signe d'un fil à l'autre. La moyenne est un nombre exact ; ce n'est pas encore un espace.
+4. **Correspondance avec la physique existante [H, dictionnaire]** : en relativité générale, une tranche d'espace à courbure négative sans matière est celle de l'univers de Milne, en expansion à un taux égal à la vitesse de la lumière divisée par le rayon de courbure. Si la lecture intrinsèque valait, la trame de la mitose serait une tranche de ce type. Rien ici ne donne le temps : c'est exactement ce que dit le résultat de ChatGPT sur Minkowski et Kasner.
+5. **Une épreuve nette pour la cosmogonie** : une mitose qui diviserait des fils entourés en moyenne de 5,70 cellules donnerait un espace plat en moyenne ; la règle de C-136c en donne 6. La question « combien de cellules autour du fil qui se divise » devient mesurable et discriminante. **[OPEN]**
+
+### 85.5 Limites
+
+- Partie B : ni temps, ni dynamique, ni équations d'Einstein. La somme des déficits sans pondération par les longueurs vaut la courbure totale seulement parce que tous les fils sont égaux.
+- La lecture intrinsèque et la lecture à ressorts sont deux branches ; je n'en choisis aucune.
+- Partie A : minimum trouvé par quatre départs ; un minimum plus bas non symétrique n'est pas exclu.
+- Les rapports détaillés et les archives de C-150 à C-153 ne sont pas lus.
+
+**Statuts.** Éventail sans recouvrement : [CERT, recoupé], minimum 0,026855 [M]. Courbure de Regge par comptage : **[T]** ; valeur pour la trame de la mitose : **[CERT]**. Minkowski et Kasner : [T, contrôlé]. Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : c154c.py, c154c_kasner.py. Sorties : c154c.json, c154c.out, c154c_kasner.out. Prédiction : c154c_prediction.txt.*
