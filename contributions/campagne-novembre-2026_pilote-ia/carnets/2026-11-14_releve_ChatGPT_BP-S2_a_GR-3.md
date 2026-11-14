@@ -302,3 +302,71 @@ Douze départs à la période 4, amplitudes 0,05 à 0,6 :
 **Sa réserve est confirmée, et elle corrige mon énoncé.** L'état flambé est un minimum **local**. Le minimum de l'énergie des ressorts seule est un effondrement : la maille s'écrase à volume nul et la moitié des cellules se retournent. Mon « 20 départs sur 20 » ne valait que pour de petites perturbations ; je l'avais écrit sans cette précision. **La règle U ne tient un tissu que si l'exclusion est imposée**, ce que C-127 bis avait déjà mesuré dans la croissance.
 
 **Statuts.** Instabilité de la trame régulière : [CERT, recoupé par ChatGPT]. État flambé : minimum local sans cellule retournée [M, recoupé] ; minimum global des ressorts seuls : effondrement [M, recoupé dans les deux sens]. **TOE 0/7.**
+
+---
+
+## 83. Réponse complète de ChatGPT à C-149c ; BP-S2c, recoupement indépendant de BP-S2 (Claude, préenregistré ; 14 novembre, 22 h 30)
+
+Demande de l’auteur dans la session (vers 22 h) : « Il est temps d'attaquer avec OpenAI ! »
+
+### 83.1 La réponse de ChatGPT (deux messages, 20 h 48 et 20 h 58 UTC), lue en entier
+
+| Point | Ce qu'il avance | Mon contrôle |
+|---|---|---|
+| C-149c | Recoupé par une construction indépendante (section 82.2) | Accord à dix chiffres |
+| États effondrés | Énergies plus basses avec cellules retournées : [FAIL] comme tissus | Contre-calculé (section 82.3) : confirmé |
+| Flambage et C-132 bis | « Lien plausible, causalité non démontrée ». Qualité q₁₀ à 127 naissances : 0,033 ; 0,036 ; 0,016. La graine 1322 perd déjà de la régularité à sept naissances, sans exclusion active. **Test décisif proposé** : modes instables des tissus de C-132 bis à chaque palier, comparés aux déformations observées | Ses trois valeurs de q₁₀ : 0,016 est celle de ma sortie de C-132 ; les deux autres non revérifiées. Test à faire |
+| BP-S1c | « [T conditionnel] : le modèle explique quand le tétraèdre est sélectionné, non pourquoi la nature serait soumise à ces paramètres ». Seuil d'équilibre 0,89588 « vérifié analytiquement » ; seuil cinétique 0,92219 ; 93,7 % contre 23,1 % | Conforme à ma section 75 ; son seuil d'équilibre n'est pas recontrôlé par moi |
+| Ordre des recoupements | BP-S2 d'abord, BP-L1 ensuite ; protocoles d'origine fournis | Empreintes recalculées dans la page : BP-S2 `aefdb108…4f28`, BP-L1 `ab73d332…d63d`, identiques à celles du 14 novembre |
+| Pression | « Une déformation de matière dans l'espace n'est pas la même chose qu'une expansion de l'espace » | Même lecture que ma section 79.6, point 5 |
+
+Son dossier (16 fichiers, archive `6489e0a7…fb27` annoncée) : rapport `3278f648…a4a7` (14 604 octets), relevé et non lu ; la passation n'a pas pu être relevée (fichier introuvable par l'interface).
+
+### 83.2 BP-S2c : méthode et préenregistrement
+
+`bps2c_prediction.txt`, écrit avant tout calcul **et avant de lire son tableau par bras**, empreinte `2c14ad82…17ea`, 21 h 06 min 50 s UTC. **Déclaration** : un essai de réglage du moteur (200 chaînes, 1 000 pas) a montré une valeur pour un bras avant le calcul complet.
+
+- **M1** (A3, A4, un seul porteur mobile) : quadrature directe, 80 millions de points tirés par géométrie, poids de Boltzmann exacts. Aucune chaîne.
+- **M2** (F4, F5) : échange de répliques sur cinq valeurs de la liaison, pas de trois tailles, 1 000 chaînes indépendantes, deux départs opposés (aléatoire, compact).
+
+### 83.3 Mes prédictions
+
+| Prédiction | Résultat | Verdict |
+|---|---|---|
+| S1 — sans liaison, moins de 0,5 % de K₄ dans les 8 bras | Au plus 0,16 % | Tenu |
+| S2 — à liaison 4, entre 35 % et 80 % dans les 8 bras | 37,6 % à 74,6 % | Tenu |
+| S3 — liaison 2 en dessous de liaison 4 | 8 sur 8 | Tenu |
+| S4 — moins de K₄ à R = 2,3 qu'à R = 1,8 | 4 familles sur 4 (A4 : 72,74 contre 72,36, écart de 2,5 écarts types) | Tenu, de peu pour A4 |
+| S5 — témoin analytique : le moteur M2 sur A3 redonne la quadrature | 62,79 ± 0,20 contre 62,92 ± 0,11 ; 62,23 ± 0,22 contre 62,09 ± 0,17 ; liaisons 0 et 2 de même | Tenu |
+| S6 — les deux départs s'accordent à 3 écarts types | F4 : 1,9 et 0,9 ; F5 : 2,2 et 0,6 | Tenu |
+| S7 — A4 : aucun K₄ du mauvais côté | 0 | Tenu |
+| **Attente sur l'accord : désaccord sur son seul bras déclaré non convergé** | **Quatre bras en désaccord, non un** | **FAUX** |
+
+**Complément après coup, déclaré** (`bps2c_bis.py`) : à R = 1,8, la fraction à neuf contacts de F5 différait de 2 points entre mes deux départs. Avec des chaînes trois fois plus longues : 44,2 ± 0,3 et 44,0 ± 0,3 ; K₄ : 74,7 et 74,1. Convergé.
+
+### 83.4 Comparaison avec ChatGPT (fraction de configurations avec un K₄, liaison 4)
+
+| Bras | Sa grille figée (12 000 pas) | Son contrôle (quadrature ou chaîne longue) | Moi | Accord avec sa grille (critère : 3 points) |
+|---|---|---|---|---|
+| F4, R = 1,8 | 40,78 % | 42,43 % | 42,3 et 41,2 | Oui |
+| F5, R = 1,8 | 66,18 % | 74,45 % | 74,7 et 74,1 | **Non (8 points)** |
+| A3, R = 1,8 | 64,55 % | 63,12 % | 62,92 ± 0,11 | Oui |
+| A4, R = 1,8 | 72,08 % | 72,82 % | 72,74 ± 0,09 | Oui |
+| F4, R = 2,3 | 33,50 % | aucun | 38,1 et 37,6 | **Non (4 points) ; il ne l'avait pas signalé** |
+| F5, R = 2,3 | 64,83 % | aucun | 71,6 et 71,7 | **Non (7 points)** |
+| A3, R = 2,3 | 58,43 % | 62,57 % ; 62,37 % | 62,09 ± 0,17 | **Non (4 points) ; déclaré par lui** |
+| A4, R = 2,3 | 72,55 % | 72,60 % | 72,36 ± 0,12 | Oui |
+
+- Liaison 2 et liaison nulle : accord partout (F4 0,47 contre 0,40 ; F5 1,59 contre 1,75 ; A3 8,24 contre 7,62 ; A4 13,10 contre 12,99 ; A3 sans liaison 0,075 contre 0,071).
+- Deux tétraèdres collés (neuf contacts) dans F5 : 35,0 % et 33,9 % chez lui ; **44,1 % et 40,7 %** chez moi.
+- **Partout où il a un contrôle indépendant de sa grille, ce contrôle s'accorde avec moi.** Ses chaînes courtes sous-estiment les K₄ de 4 à 8 points dans quatre bras sur huit : elles ne sont pas à l'équilibre. Il l'avait déclaré pour A3 à R = 2,3 et mis une réserve sur F5.
+
+### 83.5 Lecture
+
+1. **Les conclusions de BP-S2 tiennent** : la liaison fait les K₄, son absence n'en fait pas ; le théorème (même bilan à la quatrième et à la cinquième naissance) n'est pas touché ; un coût et une liaison isotrope ne sélectionnent pas l'arrêt à quatre.
+2. **Ses fractions d'équilibre sont à corriger** : « 41 à 72 % » devient « 38 à 75 % », et le double tétraèdre est présent dans 41 à 44 % des configurations à cinq porteurs, non 34 à 35 %. Cela renforce sa conclusion : le cinquième porteur se colle aussi volontiers que le quatrième.
+3. Ses observables de séquence, son bilan de chaleur et ses taux d'acceptation ne sont pas recoupés : ils dépendent de sa chaîne.
+
+**Statuts.** BP-S2, théorème : [T, recoupé]. Simulation : **[M, recoupé]** pour le sens des effets ; fractions d'équilibre corrigées dans quatre bras. Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : bps2c.py, bps2c_bis.py. Sorties : bps2c.json, bps2c.out, bps2c_bis.json, bps2c_bis.out. Prédiction : bps2c_prediction.txt.*

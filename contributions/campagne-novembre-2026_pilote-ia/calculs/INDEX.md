@@ -360,3 +360,10 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-149 | `c149c_ter.py` | 2 968 |
 | C-149 | `c149c_quater.out` | 1 391 |
 | C-149 | `c149c_quater.py` | 3 235 |
+| BP-S2c | `bps2c.json` | 13 432 |
+| BP-S2c | `bps2c.out` | 11 710 |
+| BP-S2c | `bps2c.py` | 7 772 |
+| BP-S2c | `bps2c_bis.json` | 5 577 |
+| BP-S2c | `bps2c_bis.out` | 918 |
+| BP-S2c | `bps2c_bis.py` | 718 |
+| BP-S2c | `bps2c_prediction.txt` | 2 842 |

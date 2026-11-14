@@ -1,0 +1,4 @@
+1.8 aleatoire {"K4": 0.747127, "erreur": 0.0023398381810958028, "deux_K4": 0.44223599999999996, "erreur_deux_K4": 0.0031223196800110307, "neuf_contacts": 0.44223599999999996, "contacts_moyens": 8.110446999999999, "chaines_avec_K4": 1.0}
+1.8 compact {"K4": 0.7408015, "erreur": 0.0022152975852334474, "deux_K4": 0.43976199999999993, "erreur_deux_K4": 0.0029351858837511763, "neuf_contacts": 0.43976199999999993, "contacts_moyens": 8.106386500000001, "chaines_avec_K4": 1.0}
+2.3 aleatoire {"K4": 0.7155295000000002, "erreur": 0.0026910634891158646, "deux_K4": 0.4057835, "erreur_deux_K4": 0.0033591862124270158, "neuf_contacts": 0.4057835, "contacts_moyens": 7.970565, "chaines_avec_K4": 1.0}
+2.3 compact {"K4": 0.7169525, "erreur": 0.002886859444309889, "deux_K4": 0.40810599999999997, "erreur_deux_K4": 0.0035302872676585676, "neuf_contacts": 0.40810599999999997, "contacts_moyens": 7.9665395, "chaines_avec_K4": 1.0}

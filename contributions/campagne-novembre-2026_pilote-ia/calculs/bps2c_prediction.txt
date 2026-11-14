@@ -1,0 +1,31 @@
+BP-S2c -- RECOUPEMENT INDEPENDANT DES PROBABILITES D'EQUILIBRE DE BP-S2 (ChatGPT, protocole fige aefdb108...4f28)
+Claude, contre-auditeur. FICHIER ECRIT AVANT TOUT CALCUL ET AVANT LECTURE DU TABLEAU PAR BRAS DE ChatGPT.
+Ce que je connais de ses resultats (passation lue le 14 novembre) : "avec liaison, un K4 dans 41 a 72 % des cliches ; sans liaison 0 % ;
+desaccord simulation / quadrature 58,4 % contre 62,6 %, leve en allongeant les chaines ; un bras non converge (66 % puis 74 %)".
+Je ne connais pas ses valeurs bras par bras. Je les lirai APRES mon calcul.
+
+MODELE (son protocole, lu en entier dans la page, empreinte recalculee) : porteurs a coeur dur de diametre 1, puits carre -epsilon pour
+1 <= r <= 1,15, beta = 1, epsilon dans {0, 2, 4}, boule de rayon R dans {1,8 ; 2,3} ; familles F4, F5 (libres), A3 (triangle fixe + 1 mobile),
+A4 (tetraedre fixe + 1 mobile, interieur du tetraedre interdit). K4 = quatre porteurs dont les six paires sont au contact (r <= 1,15).
+
+MA METHODE, differente de la sienne (chaines de Metropolis de 12 000 pas) :
+ M1. A3 et A4 : quadrature de Monte-Carlo directe (points uniformes dans la boule, poids de Boltzmann exacts). Aucune chaine, aucun melange.
+ M2. F4 et F5 : echange de repliques sur epsilon = 0, 1, 2, 3, 4, pas de deplacement de plusieurs tailles, deux departs opposes
+     (aleatoire ; compact). L'incertitude est prise entre chaines independantes.
+ Temoin analytique du moteur M2 : le meme moteur applique a A3 doit redonner la quadrature M1 a 3 ecarts types.
+ Temoin negatif : epsilon = 0 (spheres dures seules).
+
+PREDICTIONS (sur MES nombres)
+ S1. epsilon = 0 : fraction de configurations avec au moins un K4 inferieure a 0,5 % dans les 8 bras famille x R.
+ S2. epsilon = 4 : fraction entre 35 % et 80 % dans les 8 bras. PARI (je ne sais pas si ses "41 a 72 %" couvrent les 8 bras).
+ S3. epsilon = 2 : fraction strictement inferieure a celle d'epsilon = 4, dans les 8 bras.
+ S4. A epsilon = 4, la fraction est plus faible a R = 2,3 qu'a R = 1,8, dans les 4 familles (plus de place, plus d'entropie).
+ S5. Le temoin analytique passe (moteur M2 sur A3 = quadrature M1 a 3 ecarts types, aux 6 couples epsilon x R).
+ S6. Les deux departs de M2 s'accordent a 3 ecarts types sur F4 et F5 (convergence).
+ S7. A4 : aucune configuration K4 du mauvais cote (meme cote que l'apex) n'est admissible.
+
+CRITERE D'ACCORD AVEC ChatGPT, FIXE ICI : pour chaque bras, accord si l'ecart entre sa fraction de cliches K4 et la mienne ne depasse pas
+3 fois l'incertitude combinee quand il donne la sienne, et sinon 3 points de pourcentage. Je m'attends a un DESACCORD sur son bras
+declare non converge, et a un accord ailleurs.
+CE QUE CE RECOUPEMENT NE COUVRE PAS : ses observables de sequence (>= 20 cliches), son bilan de chaleur, ses taux d'acceptation, qui
+dependent de sa chaine et non de l'equilibre.

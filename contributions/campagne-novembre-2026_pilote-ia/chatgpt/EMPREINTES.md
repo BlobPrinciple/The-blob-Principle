@@ -194,3 +194,14 @@ Empreintes de protocoles annoncées par ChatGPT et retrouvées sur les fichiers 
 | C-145 / PR-3 | 15 188 | `b58619d250c9fb5349a2a6053585720a6db70b2aac771fa504b00adea70125a3` |
 
 Les empreintes des protocoles antérieurs figurent dans les carnets, à la section du laboratoire concerné.
+
+## Contre-audit indépendant de C-149c par ChatGPT (14 novembre 2026, 20 h 58 UTC) — empreintes seules
+
+| Fichier | Octets | SHA-256 |
+|---|---:|---|
+| `BP_C149_CONTRE_AUDIT_INDEPENDANT_2026-11-14.zip` (annoncée par ChatGPT, non relevée) | — | `6489e0a7f67ba2540e9649467db9d84d00d11d018d238a6addc2283d1d74fb27` |
+| `BP_C149_CONTRE_AUDIT_2026-11-14/RAPPORT_INDEPENDANT.md` | 14 604 | `3278f6486132aaeb2cb35e4ec9fe51b1fbf958f248e25843ba64e16eb161a4a7` |
+| `BP_C149_CONTRE_AUDIT_2026-11-14/PROTOCOLE_BP_S2_ORIGINAL.md` | 6 778 | `aefdb1086e26e690727036c92fa55afe97c22e5a83857836ecae201f63914f28` |
+| `BP_C149_CONTRE_AUDIT_2026-11-14/PROTOCOLE_BP_L1_ORIGINAL.md` | 5 228 | `ab73d332bdd692bc0fda5bcf108b4f6b81f8e654777d4ab9ea9ebe209b0bd63d` |
+
+`BP_S2_2026-11-13/BP_S2_RAPPORT_SCIENTIFIQUE.md` relu le 14 novembre au soir : empreinte `d86fbf48…80c1`, inchangée.
