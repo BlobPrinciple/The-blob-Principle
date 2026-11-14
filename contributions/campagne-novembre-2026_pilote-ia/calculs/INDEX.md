@@ -367,3 +367,8 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | BP-S2c | `bps2c_bis.out` | 918 |
 | BP-S2c | `bps2c_bis.py` | 718 |
 | BP-S2c | `bps2c_prediction.txt` | 2 842 |
+| C-152 | `c152c.py` | 4 978 |
+| C-152 | `c152c_L.json` | 50 544 |
+| C-152 | `c152c_L.out` | 9 472 |
+| C-152 | `c152c_P_partiel.out` | 6 356 |
+| C-152 | `c152c_prediction.txt` | 2 133 |

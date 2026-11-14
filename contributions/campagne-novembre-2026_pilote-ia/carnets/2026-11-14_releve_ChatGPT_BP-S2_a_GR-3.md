@@ -376,3 +376,65 @@ Son dossier (16 fichiers, archive `6489e0a7…fb27` annoncée) : rapport `3278f6
 - Gardes : aucun message de l'auteur dans la conversation depuis [CLAUDE-C149C] ; ChatGPT au repos depuis 20 h 58 UTC ; zone de saisie vide ; empreinte du texte recalculée dans la page, `f9a73448…6891`, identique à celle de `echanges/msg_bps2c.txt`.
 - **Envoi à 21 h 31 min 48 s UTC, une seule copie.** Un premier clic n'a pas trouvé le bouton d'envoi (le texte est resté dans la zone, non envoyé) ; le second l'a envoyé. Contrôle par l'interface : une copie.
 - Demandes faites à ChatGPT : vérifier F4 et F5 à R = 2,3 ; **figer le protocole du test des modes instables sur les tissus de C-132 bis**, que j'exécuterai ; BP-L1 ensuite ; proposer la plus petite règle qui donne une unité de temps à la trame, avec ce qui la réfuterait.
+
+---
+
+## 84. Réponse de ChatGPT à BP-S2c, son C-151, et C-152c : les tissus de C-132 bis s'interpénètrent (14 novembre, 23 h 25)
+
+### 84.1 L'échec d'abord : un résultat du laboratoire est à requalifier
+
+**Les tissus de C-132 bis (mitose première, règle U) se recouvrent eux-mêmes dès la cinquième naissance.** ChatGPT l'a annoncé sur sa propre reconstruction ; je l'ai contrôlé sur **mes trajectoires exactes** (C-152c, ci-dessous) : c'est vrai, trois graines sur trois. L'énoncé « volume multiplié par 240 en 127 naissances » additionnait des volumes de cellules qui occupent en partie le même espace. Le critère figé de C-132 (« expansion collective conditionnelle », satisfait à 15 naissances) ne contrôlait ni les sommets enfermés ni les recouvrements : il a été satisfait par des tissus géométriquement inadmissibles. Mon programme de C-132 avait abandonné le contrôle d'auto-intersection que portait C-120.
+
+### 84.2 État de la conversation à la relève (22 h 05 UTC)
+
+- ChatGPT a répondu à [CLAUDE-BPS2C] à 21 h 38 UTC. L'auteur a écrit « Continue » à 21 h 58 UTC. ChatGPT était en cours d'écriture (dossier C-151) à ma lecture. **Je n'ai donc rien écrit là-bas** (règle d'écriture).
+
+### 84.3 Ce que ChatGPT avance
+
+| Point | Ce qu'il avance | Mon contrôle |
+|---|---|---|
+| F4 et F5 à R = 2,3 | Nouveau calcul par échange de répliques (12 ensembles, deux millions de propositions par réplique) : 37,98 % et 71,89 % ; neuf contacts 40,00 %. **Il retient 38 % et 72 %** et retire sa grille pour ces bras | Accord avec BP-S2c (37,6 à 38,1 ; 71,6 à 71,7 ; 40,7). Le différend est clos |
+| « Désaccord secondaire » sur neuf contacts : 40,0 chez lui, 44,1 chez moi | — | **Ce n'en est pas un** : mon 44,1 % est à R = 1,8, mon 40,7 % à R = 2,3. Mon message les donnait dans cet ordre sans le redire ; à préciser |
+| Protocole du test des modes instables | Figé, empreinte annoncée `31ccd3c9…c9ec` : raideur complète avec les multiplicateurs d'exclusion, recouvrement entre déplacement observé et modes instables, seuil de 50 %, témoin règle B de même généalogie | **Non relevé, non exécuté par moi** (priorité donnée à 84.4) |
+| Une unité de temps tirée de la mitose | **[T]** la mitose donne un ordre d'événements, pas une durée : sans masse ni constante dimensionnée, aucune seconde ne sort de la règle U ; un « tic causal local » sans durée est la plus petite proposition fidèle | Argument dimensionnel correct ; cohérent avec C-149c (masses absentes) et C-134c |
+| C-151, premier balayage (30 états, sa reconstruction) | Aucun mode instable admissible ; plus petites valeurs propres positives à 31 naissances. **Flambage non confirmé.** Le témoin B se déforme bien plus que U (q₁₀ de 0,004 à 0,009 contre 0,24 à 0,47) : la bissection déforme sans flambage | Non recalculé. Sa reconstruction diverge de mes trajectoires, il le déclare |
+| C-151, interpénétration | Sous U : recouvrements dès 7 naissances (5, 5, 3 paires), sommets enfermés aux naissances 12, 10, 12 ; aucun sous B. **[T]** six tétraèdres réguliers autour d'une arête demandent 423° | **Contre-calculé sur mes trajectoires : confirmé** (84.4) |
+
+### 84.4 C-152c — contre-calcul sur mes trajectoires exactes (préenregistré)
+
+`c152c_prediction.txt`, écrit avant calcul, empreinte `1f85dae9…e108`, 22 h 06 min 01 s UTC. Programme d'origine de C-132 rejoué (bras L, graines 1320 à 1322), trois tests indépendants : sommet strictement intérieur à une cellule étrangère ; recouvrement de deux tétraèdres par axes séparateurs (profondeur supérieure à 10⁻⁶) ; somme des angles dièdres autour des arêtes intérieures.
+
+| Graine | Premier recouvrement | Premier sommet enfermé | Paires en recouvrement à 7 ; 15 ; 31 ; 127 naissances | Sommets enfermés à 127 |
+|---|---|---|---|---|
+| 1320 | naissance 5 | naissance 10 | 5 ; 43 ; 105 ; 735 | 23 |
+| 1321 | naissance 5 | naissance 11 | 5 ; 80 ; 69 ; 937 | 27 |
+| 1322 | naissance 5 | naissance 10 | 3 ; 11 ; 11 ; 183 | 3 |
+
+- **À sept naissances : 5, 5 et 3 paires, exactement les nombres de ChatGPT.** Profondeur de recouvrement jusqu'à 0,67 fois la longueur naturelle : rien d'un arrondi.
+- **Le mécanisme est le sien [T]** : à la cinquième naissance, six cellules entourent une même arête de bord ; toutes les longueurs sont naturelles (énergie nulle), donc les six cellules sont régulières, et six angles de 70,53° font 423° : le tour se referme sur lui-même.
+- Les arêtes intérieures somment toutes à 360° (448 sur 448 à 127 naissances, graine 1320) : le recouvrement passe par le bord et par des parties éloignées du tissu, pas par un pli intérieur.
+- **Bras P** (complément, interrompu après deux graines sur trois, sortie partielle versée) : recouvrement dès les naissances 5 et 8 ; 2 185 et 14 paires à 127 naissances.
+
+| Prédiction | Résultat | Verdict |
+|---|---|---|
+| V1 — recouvrement à 7 naissances pour au moins deux graines (confiance 65 %) | Trois sur trois | Tenu |
+| V2 — à 127 naissances, sommets enfermés et recouvrements pour les trois graines | Oui | Tenu |
+| V3 — cohérence des tests d'angle et de recouvrement | Sans objet là où il n'y a pas de recouvrement (aucune arête intérieure à 1 et 3 naissances) ; ailleurs les angles font 360° malgré les recouvrements | **Mal posée** : le test d'angle ne voit pas ces recouvrements |
+| V4 — témoins : deux tétraèdres collés, apex opposés : 0 ; du même côté : détecté | 0,0 et 0,69 | Tenu |
+
+### 84.5 Ce qui est requalifié
+
+1. **C-132 bis** : « la mitose première étire sans échelle imposée, volume × 240 » passe de [M] à **[FAIL géométrique]** : le tissu se recouvre dès la cinquième naissance ; le volume annoncé est une somme de volumes qui se recouvrent. La poussée locale exacte ([T], une naissance sur un fil comprimé pousse) n'est pas touchée.
+2. **C-149c, partie B** (contraintes du tissu fini) : les deux théorèmes (viriel nul sans contact, exclusion comme pression pure) restent vrais, ce sont des identités ; les mesures (cœur comprimé, peau tendue, corrélation avec le degré) portent sur des tissus inadmissibles et **ne valent plus comme mesures d'un tissu**.
+3. **L'exclusion du laboratoire est incomplète** : interdire à chaque cellule de s'écraser (seuil de 20 %) n'interdit pas à deux cellules d'occuper le même espace. La donnée de l'auteur du 12 novembre, « les simplexes ne peuvent pas se chevaucher », n'était donc pas respectée par ce modèle.
+4. **Non touchés** : la trame de palier périodique (ses cellules pavent exactement la maille, contrôlé en C-149c ter) ; C-127 sous étirement imposé (trame régulière) ; les résultats de graphe.
+5. **Ma piste « le flambage explique la régularité perdue » ([H], section 79.6)** : affaiblie deux fois. ChatGPT ne trouve aucun mode instable sur ses états ; et la cause première de l'irrégularité est plus simple : des cellules régulières ne peuvent pas entourer une arête.
+
+### 84.6 Lecture pour la cosmogonie
+
+- **Règle U et pavage sont incompatibles en espace plat [T]** : des tétraèdres tous réguliers ne remplissent pas l'espace (défaut de 7,36° par arête à cinq, excès de 63° à six). Une trame dont tous les fils ont la même longueur naturelle est donc toujours frustrée : c'est la source de la précontrainte de C-149c, de l'instabilité de la trame régulière, et du recouvrement dès que rien n'interdit le chevauchement.
+- Trois sorties existent en physique connue, à éprouver sans en choisir une d'avance : des longueurs naturelles inégales (la règle B, qui se déforme sans limite) ; un vrai interdit de chevauchement (frustration portée par les liens) ; ou un espace qui n'est pas plat (des tétraèdres réguliers pavent une sphère de dimension 3 : cinq par arête). **[OPEN]**
+
+**Statuts.** Interpénétration des tissus de C-132 bis : **[CERT, recoupé dans les deux sens]**. C-132 bis, expansion : **[FAIL géométrique]**. BP-S2 à R = 2,3 : différend clos. Unité de temps : absente **[T]**. Flambage dans C-132 bis : non confirmé (ChatGPT, non recalculé). Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : c152c.py. Sorties : c152c_L.json, c152c_L.out, c152c_P_partiel.out. Prédiction : c152c_prediction.txt.*

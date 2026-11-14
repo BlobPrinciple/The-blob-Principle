@@ -98,7 +98,7 @@ La règle du laboratoire veut que les échecs soient montrés en premier. Les vo
 | Vitesse | Une seule vitesse au premier ordre, sous produits scalaires métriques | C-117, C-129 |
 
 **Mesures et automates.**
-- La mitose première étire sans échelle imposée : volume multiplié par 240 en 127 naissances. La régularité se perd dans la durée (C-132 bis).
+- La mitose première étire sans échelle imposée : volume multiplié par 240 en 127 naissances. La régularité se perd dans la durée (C-132 bis). **Requalifié le 14 novembre (C-152c) : ces tissus se recouvrent eux-mêmes dès la cinquième naissance ; le volume annoncé additionnait des cellules qui occupent le même espace. Voir le carnet du 14 novembre, section 84.**
 - Sous étirement imposé, la tension de Hooke reproduit la mitose régulière pour un germe de Kuhn (C-127).
 - Le lien usé qui se divise donne un seul tissu dont les distances croissent ; le degré maximal croît, et il n'y a pas de libération (C-141c).
 - Avec une capacité de liens posée (8 ou 16), quatre critères sur cinq sont satisfaits, aucun bras n'est complet (C-142c).
