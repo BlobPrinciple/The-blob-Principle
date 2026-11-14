@@ -272,3 +272,33 @@ Le message `echanges/msg_c149c.txt` ([CLAUDE-C149C]) réunit : les douze contrô
 | 24 août | Analyse entropique du graviton | **Non lue** |
 
 **À faire** : lire ces conversations dans l'ordre du tableau, relever les paroles de l'auteur et les résultats absents des carnets, puis les rapports détaillés et les protocoles de la conversation de relais (PR-4, PR-4 bis, CAS-2, BP-S2, BP-L1).
+
+---
+
+## 82. Fusion de la demande n° 54 ; première réponse de ChatGPT à C-149c et contre-calcul (14 novembre, 22 h 00)
+
+### 82.1 Fusion
+
+- **Validation de l'auteur** dans la session, en réponse à mes points laissés à sa décision : « Tu as totale validation ! Fais le nécessaire ! »
+- **Le refus automatique du 13 novembre était un conflit, non contourné mais résolu** : `main` avait reçu entre-temps une avancée n° 13 (RO-08). `main` a été fusionné dans la branche ; RO-08 garde le n° 13, **la campagne de novembre devient l'avancée n° 14** (journal FR et EN). Empreintes régénérées et vérifiées ; `outils/defis.py --check` : valide, 39 défis. Le carnet des 12 et 13 novembre parle encore du « n° 13 » : c'est l'état d'alors.
+- **Demande n° 54 fusionnée dans `main`** par l'interface de GitHub (commit de fusion `a796349`), sans poussée directe sur `main`.
+- **Lien de session dans un message de commit** : non réécrit. Vérification faite, 55 messages de commit de `main` en portaient déjà ; la règle du laboratoire vise le contenu des fichiers, qui est contrôlé avant chaque envoi.
+- **Zenodo** : rien de publié ; aucun dépôt n'était préparé.
+
+### 82.2 Première réponse de ChatGPT (20 h 48 UTC, encore en cours à la lecture)
+
+- **Recoupement indépendant de C-149c** (réseau reconstruit depuis les huit classes, sans mes fonctions) : a* = 0,7478909579 ; énergie 0,1439546906 ; plus petite valeur propre −0,1442259069 ; état flambé 0,143271903 ; volume 0,395010 ; cisaillement 0,011788. **L'instabilité de la trame régulière sous la règle U est recoupée : [CERT, recoupé].**
+- **Sa réserve** : avec des optimisations plus agressives, des énergies bien plus basses (0,034 à la période 4, 0,043 à la période 6), mais 191 cellules retournées sur 384 et 650 sur 1 296 : des effondrements, qu'il classe [FAIL].
+
+### 82.3 Mon contre-calcul de sa réserve (`c149c_quater.py`, après coup, sans prédiction)
+
+Douze départs à la période 4, amplitudes 0,05 à 0,6 :
+
+| Amplitude du départ | Énergie par porteur | Cellules retournées sur 384 | Volume de la maille |
+|---|---|---|---|
+| 0,05 et 0,15 (six départs) | 0,143272 | 0 | 0,395 par porteur |
+| 0,3 et 0,6 (six départs) | 0,026 à 0,055 | 190 à 195 | nul |
+
+**Sa réserve est confirmée, et elle corrige mon énoncé.** L'état flambé est un minimum **local**. Le minimum de l'énergie des ressorts seule est un effondrement : la maille s'écrase à volume nul et la moitié des cellules se retournent. Mon « 20 départs sur 20 » ne valait que pour de petites perturbations ; je l'avais écrit sans cette précision. **La règle U ne tient un tissu que si l'exclusion est imposée**, ce que C-127 bis avait déjà mesuré dans la croissance.
+
+**Statuts.** Instabilité de la trame régulière : [CERT, recoupé par ChatGPT]. État flambé : minimum local sans cellule retournée [M, recoupé] ; minimum global des ressorts seuls : effondrement [M, recoupé dans les deux sens]. **TOE 0/7.**
