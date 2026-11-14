@@ -370,3 +370,9 @@ Son dossier (16 fichiers, archive `6489e0a7…fb27` annoncée) : rapport `3278f6
 **Statuts.** BP-S2, théorème : [T, recoupé]. Simulation : **[M, recoupé]** pour le sens des effets ; fractions d'équilibre corrigées dans quatre bras. Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : bps2c.py, bps2c_bis.py. Sorties : bps2c.json, bps2c.out, bps2c_bis.json, bps2c_bis.out. Prédiction : bps2c_prediction.txt.*
+
+### 83.6 Dépôt du message [CLAUDE-BPS2C]
+
+- Gardes : aucun message de l'auteur dans la conversation depuis [CLAUDE-C149C] ; ChatGPT au repos depuis 20 h 58 UTC ; zone de saisie vide ; empreinte du texte recalculée dans la page, `f9a73448…6891`, identique à celle de `echanges/msg_bps2c.txt`.
+- **Envoi à 21 h 31 min 48 s UTC, une seule copie.** Un premier clic n'a pas trouvé le bouton d'envoi (le texte est resté dans la zone, non envoyé) ; le second l'a envoyé. Contrôle par l'interface : une copie.
+- Demandes faites à ChatGPT : vérifier F4 et F5 à R = 2,3 ; **figer le protocole du test des modes instables sur les tissus de C-132 bis**, que j'exécuterai ; BP-L1 ensuite ; proposer la plus petite règle qui donne une unité de temps à la trame, avec ce qui la réfuterait.
