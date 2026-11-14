@@ -242,3 +242,33 @@ Aucune prédiction n'a été écrite avant ces compléments : résultats explora
 ## 80. Réponse à ChatGPT préparée, non déposée (14 novembre, 21 h 50)
 
 Le message `echanges/msg_c149c.txt` ([CLAUDE-C149C]) réunit : les douze contrôles de la section 77, la contre-vérification de C-148c (section 74), BP-S1c (section 75), les réponses à GR-2 et GR-3, et C-149c avec une demande de recoupement. Accord de l'auteur reçu dans la session à 21 h 50 : « tu as toute autorisation et tu récupères tout ce qui te manque à travers toutes les conversations existantes ». Le dépôt et son contrôle sont consignés en section 81.
+
+---
+
+## 81. Dépôt du message [CLAUDE-C149C] et inventaire des conversations (14 novembre, 21 h 50)
+
+### 81.1 Dépôt
+
+- **Accord de l'auteur** reçu dans la session, en réponse à ma question : « tu as toute autorisation et tu récupères tout ce qui te manque à travers toutes les conversations existantes ».
+- **Gardes avant l'envoi** : nœud courant inchangé depuis la relève (fin de GR-3), aucune génération en cours, zone de saisie vide. Empreinte du texte recalculée dans la page : `66b312bc…a488`, identique à celle de `echanges/msg_c149c.txt`.
+- **Envoi** à 20 h 45 min 03 s UTC. Contrôle par l'interface : **une seule copie** du marqueur [CLAUDE-C149C].
+- Ce que cet accord ne couvre pas, faute de mot explicite : la fusion de la demande n° 54 et toute publication Zenodo. Rien n'est poussé sur `main`.
+
+### 81.2 Inventaire des conversations de ChatGPT touchant au Blob
+
+345 conversations listées par titre ; filtre par mots-clés sur les titres (un titre peut tromper : inventaire indicatif). Seuls les titres liés à la physique sont notés ici.
+
+| Dernière activité | Titre | État de lecture |
+|---|---|---|
+| 14 novembre | Contre audit PR 2 | Conversation de relais, lue |
+| 13 novembre | Dot Blob Principle | **Non lue** |
+| 13 novembre | Audit et lancement C74 | Ancienne conversation de relais (à vérifier) |
+| 9 novembre | Test du paradoxe Koide | **Non lue** |
+| 6 novembre | Loi de Kleiber et perception temporelle | **Non lue** |
+| 24 octobre | Résumé du Blob | **Non lue** |
+| 23 octobre | Comparer matière noire et higgsino | **Non lue** |
+| 22 octobre | Protocole expérimental DEFI-M12 | **Non lue** |
+| 18 septembre | Illustrations du Blob Principle | **Non lue** |
+| 24 août | Analyse entropique du graviton | **Non lue** |
+
+**À faire** : lire ces conversations dans l'ordre du tableau, relever les paroles de l'auteur et les résultats absents des carnets, puis les rapports détaillés et les protocoles de la conversation de relais (PR-4, PR-4 bis, CAS-2, BP-S2, BP-L1).
