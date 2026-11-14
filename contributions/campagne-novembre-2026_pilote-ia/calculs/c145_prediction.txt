@@ -1,0 +1,16 @@
+PRÉDICTION ENREGISTRÉE AVANT TOUT CALCUL — C-145 / PR-1 (protocole figé par ChatGPT ; empreinte SHA-256 recalculée sur le texte de son fichier :
+9b1cd06bd67002df30ffbf1a01abebe30c4e3c812524e9f957c37f167cb14148, 11 368 octets, identique à l'empreinte annoncée).
+Horodatage : date du fichier (12 novembre 2026, vers 22 h 37 UTC). Aucune trajectoire de C-145 n'a été simulée avant ce fichier.
+
+Raisonnement : défaire un lien coûte D = 1. La source S (un porteur contre ses trois voisins) charge trois liens à la fois : il lui faut environ 3 D.
+La source F (un seul lien) n'a besoin que d'environ 1 D. La source C (les quatre porteurs à tour de rôle) répartit l'énergie sur les six liens : elle disperse au lieu de concentrer.
+
+P1. Sous le seuil (P = 0 et P = 1/48, énergie totale 1/2 < D) : aucun franchissement dans les 96 trajectoires. Théorème.
+P2. Liant nu sans friction (B0) : F atteint une première rupture à plus faible puissance que S ; F rompt dès P = 1/16 ou 1/8, S seulement à partir de P = 1/4.
+P3. La source C ne focalise pas : il n'y aura PAS deux couples convergés où C rompt et S ne rompt pas. Là où les deux rompent, C rompt plus tard que S dans la majorité des cas.
+    Donc « candidat de focalisation non ciblée » NON obtenu ; verdict attendu : « échec de forte focalisation », seule la source F (cible imposée) allant plus loin que S.
+P4. Liant nu avec friction (Bγ) : aucune rupture sous S ni sous C jusqu'à P = 1/2 ; sous F, rupture à P = 1/2 dans au moins une cadence (incertain).
+P5. Modes internes (H3, X3) : pour chaque source, pas plus de ruptures que B0 (protection, comme dans C-144).
+P6. Concentration de l'énergie de cohésion (part du lien le plus chargé), en moyenne avant rupture : F > S > C.
+P7. Au moins 20 trajectoires sur 288 indéterminées en lecture de référence ; la lettre stricte sera dominée par les résidus de RK4 dans H3 et X3.
+Si P3 est fausse (les mitoses bloquées distribuées concentrent d'elles-mêmes l'énergie sur un lien), c'est un résultat en faveur du mécanisme de l'auteur et je le dirai tel quel.

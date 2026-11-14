@@ -1,0 +1,42 @@
+C-147c — LA LOI EN 1/r SORT-ELLE DE LA TRAME ?  (Claude, préenregistré avant tout calcul)
+Horodatage : date du fichier (13 novembre 2026, UTC). Reprend C-122, prévu le 12 novembre et jamais exécuté.
+Critère fixé le 12 novembre, inchangé : exposant du profil égal à -1 à 0,2 près.
+
+QUESTION. Autour d'une source ponctuelle permanente (une région de matière), quel profil prend ce que la trame transmet ?
+Deux lectures de la parole de l'auteur (« plus il y a de monde sur le fil, plus il s'allonge » ;
+« l'effet se transmet aux arêtes voisines qui partent dans toutes les directions ») :
+  D. une grandeur CONSERVÉE, émise par la source, qui passe de fil en fil (état permanent) ;
+  E. la déformation ÉLASTIQUE d'un réseau de ressorts autour d'une région qui pousse ou qui ne grandit pas.
+
+TRAME. État de palier du tissu régulier de la mitose de l'arête (C-116, C-136c) : triangulation de Kuhn du réseau cubique,
+quatorze fils par porteur (6 selon les axes, 6 diagonales de face, 2 diagonales d'espace). Cube de 65^3 porteurs (D) et de 41^3 (E),
+valeur nulle imposée au bord. Écart déclaré : un cube entier, et non la seule cellule mère (un sixième de cube) ; même structure locale.
+
+CONTRÔLES.
+  C0. La règle généalogique de C-136c, menée à la génération 9 (512 cellules), ne produit que des fils des sept directions de Kuhn. [attendu : exact]
+  CN (témoin négatif). Même calcul D sur une trame plane triangulaire : pas de loi en 1/r. Estimateur p = log2[(u(4)-u(8))/(u(8)-u(16))] :
+      attendu entre -0,15 et 0,15 dans le plan (loi logarithmique), donc critère en échec comme il se doit.
+  CA (témoin analytique). Réseau cubique simple à 7 voisins : amplitude 4 pi r u(r) entre 0,95 et 1,05 pour r de 6 à 12.
+
+PRÉDICTIONS.
+  P1 (D, transmission égale sur les quatorze fils, sans métrique). Exposant p entre 0,9 et 1,1 dans cinq directions, MAIS profil anisotrope.
+      Calcul fait avant exécution : tenseur de diffusion proportionnel à I + J (J : matrice de uns), donc u proportionnel à 1/sqrt(x.(I - J/4).x).
+      Amplitudes rapportées à la direction (1,-1,0), à distance euclidienne égale :
+      axe 1,155 ; (1,1,0) 1,414 ; (1,1,1) 2,000 ; (1,-1,1) 1,044 — chacune à 5 % près.
+  P2 (D, poids métriques : étoiles de Hodge de C-117, formule des cotangentes). Les poids des huit fils diagonaux sont nuls (à 1e-12) ;
+      il reste le réseau cubique simple. Exposant entre 0,9 et 1,1 ; amplitude 4 pi r u(r) entre 0,95 et 1,05 dans les cinq directions (isotrope).
+  P3 (D avec perte : chaque porteur absorbe une fraction mu = 0,01 de ce qu'il porte). Profil de Yukawa, portée entre 9,5 et 10,5 mailles ;
+      l'estimateur p sort de l'intervalle [0,8 ; 1,2] : la loi en 1/r est perdue.
+  P4 (E, ressorts égaux sur les quatorze fils, centre de dilatation). Déplacement radial en r^(-q), q entre 1,7 et 2,5 ;
+      allongement des fils radiaux en r^(-s), s entre 2,5 et 3,6. Le critère en 1/r est en ÉCHEC pour la transmission élastique.
+
+LECTURE ANNONCÉE.
+  - Si P1 et P2 tiennent : la loi en 1/r, proportionnelle à la source et additive, est acquise SOUS CONDITION qu'une grandeur conservée
+    soit transmise de fil en fil ; l'isotropie exige les mêmes poids métriques que la vitesse unique de C-117. Statut [CERT conditionnel].
+  - Si P4 tient : l'étirement élastique (ressorts, règle U) ne donne pas la gravité.
+  - Reste alors ouvert, et c'est la donnée manquante : ce qui, dans le Blob, est conservé et transmis par la matière.
+  - Avertissement tiré de C-145 / PR-3 : avec friction, 94 % du travail part en chaleur ; un médiateur dissipé est écranté (P3).
+
+Ce qui me donnerait tort : un exposant hors [0,9 ; 1,1] en P1 ou P2 ; une amplitude hors tolérance ; des poids diagonaux non nuls ;
+une portée hors [9,5 ; 10,5] ; q ou s hors de leurs intervalles.
+Non fait dans ce protocole : trame irrégulière (mitose première, C-132 bis), trame en cours de mitose (dilution), témoin petit monde.

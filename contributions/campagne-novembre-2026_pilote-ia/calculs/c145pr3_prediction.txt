@@ -1,0 +1,21 @@
+PRÉDICTION ENREGISTRÉE AVANT TOUT CALCUL — C-145 / PR-3 (protocole figé par ChatGPT ; sha256 b58619d250c9fb5349a2a6053585720a6db70b2aac771fa504b00adea70125a3,
+15 188 octets, recalculée dans la page sur le contenu brut du fichier : identique). Horodatage : date du fichier. Aucune trajectoire de PR-3 simulée avant ce fichier.
+
+CE QUE JE SAIS DÉJÀ (à dire, pour que mes prédictions ne passent pas pour plus qu'elles ne sont). PR-3 reprend mon orientation du tétraèdre et les perturbations de PR-2.
+Une partie de sa grille recoupe donc des trajectoires que j'ai déjà calculées dans PR-2 : campagne A à D = 1, γ0 = 0, P = 1/8, 1/4, 1/2 ; campagne B à a = 1/2 (les quatre couples)
+et à a = 1/4, 3/4 (trois couples sur quatre) ; campagne A à γ0 = 0,04 jusqu'à P = 1/2 (aucune sortie). Pour ces bras, ce qui suit est une relecture, pas une prédiction.
+Vraiment nouveau : P = 1 et les bras D = 1/2 et 2 (donc P/D jusqu'à 2) ; la friction à P/D = 1 et 2 ; le rayon a = 1 ; le tissu de deux tétraèdres.
+
+R1. [T] Aucune sortie quand 24 P < D. Théorème.
+R2. Invariance d'échelle : à P/D égal, mêmes classements dans au moins 95 % des paires où les deux trajectoires sont déterminées ; mais moins de 80 % sur l'ensemble,
+    parce que l'arrondi diffère d'un D à l'autre et que les événements tardifs y sont sensibles.
+R3. Friction (γ0 = 0,04) sous A2 : aucune sortie jusqu'à P/D = 1/2 ; premières sorties à P/D = 1 ; séparation durable robuste (6 perturbations sur 8) dans au moins
+    deux configurations à P/D = 2. Autrement dit : la source qui reprend finit par vaincre la friction, entre P/D = 1 et 2. Confiance moyenne.
+R4. Liant nu sous A2 : séparation durable robuste pour S et C à tout P/D ≥ 1/4 ; aucune à P/D ≤ 1/8. Seuil monotone, entre 1/8 et 1/4.
+R5. Focalisation C > S : NON obtenue.
+R6. Rayon a = 1 : BLOQUÉ pour les 64 trajectoires perturbées (une perturbation de 1e-8 place d'emblée des porteurs à moins de a) et, sauf solveur de complémentarité validé,
+    pour les 8 exactes. Universalité au rayon : [OPEN].
+R7. Tissu : sous A2 et P ≥ 1/4, la face primaire est durablement lésée dans plus de la moitié des trajectoires ; le tissu reste connexe dans 30 à 70 % de ces cas ;
+    critère de « redondance matérielle » (6 sur 8, deux couples) : NON obtenu. Chevauchement des deux tétraèdres dans au moins 20 % des trajectoires du tissu. Confiance faible.
+R8. Indéterminés : au moins 25 % des trajectoires calculées.
+Si R5 est fausse, c'est un résultat en faveur du mécanisme de l'auteur et je le dirai tel quel.

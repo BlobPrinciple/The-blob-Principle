@@ -1,0 +1,16 @@
+{
+ "E_par_porteur": 0.14327190269939044,
+ "cellules": 384,
+ "cellules_par_porteur": 6.0,
+ "volume_regulier_min": 0.06972099836521202,
+ "volume_regulier_max": 0.06972099836521209,
+ "somme_volumes_reguliers_par_porteur": 0.41832599019127237,
+ "a_cube": 0.4183259901912723,
+ "retournees": 0,
+ "rapport_min": 0.66037040949374,
+ "rapport_max": 1.2454020627249713,
+ "rapport_median": 0.9356408763325498,
+ "sous_20_pour_cent": 0,
+ "somme_volumes_flambes_par_porteur": 0.3950099848104702,
+ "det_F": 0.39500998481047017
+}

@@ -1,0 +1,31 @@
+C-145 / PR-3 — CONTRE-AUDIT DU DIFFÉREND K4, ARRÊT A1, SOURCE S (12 sur 36 chez ChatGPT, 5 sur 36 chez moi)
+Prédiction écrite avant tout calcul. Horodatage : date du fichier (13 novembre 2026, UTC). Exploratoire : hors protocole PR-3.
+
+CONSTAT PRÉALABLE (lecture des 36 lignes du fichier PR3_C_grid_h0015.csv de ChatGPT, comparées aux miennes, sans calcul nouveau).
+  - Géométrie exacte : accord à la quatrième décimale sur trois cas sur quatre (première sortie à 14,98, 7,5171 et 8,6592 T0 ;
+    mêmes nombres de collisions : 35, 19, 62 ; mêmes nombres de chocs). Les deux programmes intègrent donc la même dynamique.
+  - Géométries perturbées : les premières sorties diffèrent (chez moi 4,12 / 4,98 / 5,13 T0 à P = 1/2, c = 1, identiques
+    entre mes trois intégrateurs ; chez ChatGPT 7,10 / 7,14 / 5,14 / 5,71 / 7,46 T0).
+
+HYPOTHÈSE H1. Le différend ne vient pas de la dynamique mais de la DIRECTION de la perturbation de 1e-8 : l'état symétrique est
+instable, et l'issue dépend de la projection de la perturbation sur les modes instables. Les deux programmes n'appliquent
+pas le même vecteur de perturbation.
+
+ÉPREUVE. Mon programme (c145c.py, RK4 au pas T0/1024, inchangé), K4, A1, S, a = 3/4, D = 1, sans friction, quatre couples (P, c).
+  (a) Témoin : les huit perturbations du protocole redonnent mes valeurs de la grille.
+  (b) Ensemble : 100 perturbations aléatoires par couple (graine 20261113), centrées, de norme 1e-8.
+  (c) Variantes de convention pour les huit perturbations du protocole : sans centrage ; sans normalisation.
+
+PRÉDICTIONS.
+  E1. (a) redonne exactement les premières sorties de la grille (à 1e-3 T0 près).
+  E2. Sur l'ensemble (b), à P = 1/2 et c = 1, les premières sorties tombent dans un petit nombre de paquets (au plus 8 valeurs
+      distinctes à 0,02 T0 près couvrent 90 % des tirages), et l'un de ces paquets est à 7,46 ± 0,03 T0 (la valeur de ChatGPT).
+  E3. La part de séparations durables sur les 400 tirages est comprise entre 10 % et 40 % : 5 sur 36 et 12 sur 36 sont
+      alors deux tirages compatibles d'une même loi.
+  E4. L'une des variantes (c) redonne au moins une des valeurs de ChatGPT (7,10, 7,14, 5,14, 5,71 ou 7,46 à 0,02 près).
+Ce qui me donnerait tort : aucun paquet près de 7,46 sur 100 tirages (E2), ou une part hors de 10–40 % (E3).
+Si E2 échoue, le différend reste ouvert et relève d'une différence de mise en œuvre.
+
+--- SUITE, écrite après le premier calcul et avant le second (13 novembre 2026, voir la date du fichier c145c_tolerance_prediction.txt) ---
+Résultat du premier calcul : E1 tenue ; E2 fausse (aucun paquet à 7,46 sur 100 tirages) ; E3 fausse (13 durables sur 400, soit 3 %) ;
+E4 fausse (aucune variante de convention ne redonne les valeurs de ChatGPT). L'hypothèse H1 est RÉFUTÉE.

@@ -1,0 +1,21 @@
+[C/topo/sans usure] n=256 V=4 E=6 F=4 T=1 chi=1 comp=1 faces(1,2,3+)=4,0,0 K5=0 deg max/med/q95=3/3.0/3 dist=[1, 1, 1, 1, 1, 1] ratio=0.630 entourages={'disque': 4} (0 s)
+[C/topo/sans usure] n=1024 V=4 E=6 F=4 T=1 chi=1 comp=1 faces(1,2,3+)=4,0,0 K5=0 deg max/med/q95=3/3.0/3 dist=[1, 1, 1, 1, 1, 1] ratio=0.630 entourages={'disque': 4} (0 s)
+[C/topo/sans usure] n=4096 V=4 E=6 F=4 T=1 chi=1 comp=1 faces(1,2,3+)=4,0,0 K5=0 deg max/med/q95=3/3.0/3 dist=[1, 1, 1, 1, 1, 1] ratio=0.630 entourages={'disque': 4} (0 s)
+[C/topo/sans usure] n=16384 V=4 E=6 F=4 T=1 chi=1 comp=1 faces(1,2,3+)=4,0,0 K5=0 deg max/med/q95=3/3.0/3 dist=[1, 1, 1, 1, 1, 1] ratio=0.630 entourages={'disque': 4} (0 s)
+[C/topo/sans usure] n=65536 V=4 E=6 F=4 T=1 chi=1 comp=1 faces(1,2,3+)=4,0,0 K5=0 deg max/med/q95=3/3.0/3 dist=[1, 1, 1, 1, 1, 1] ratio=0.630 entourages={'disque': 4} (0 s)
+  fenetre {'de': 1, 'a': 2, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 2, 'a': 4, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 4, 'a': 8, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 8, 'a': 16, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 16, 'a': 32, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 32, 'a': 64, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 64, 'a': 128, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 128, 'a': 256, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 256, 'a': 512, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 512, 'a': 1024, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 1024, 'a': 2048, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 2048, 'a': 4096, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 4096, 'a': 8192, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 8192, 'a': 16384, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 16384, 'a': 32768, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}
+  fenetre {'de': 32768, 'a': 65536, 'r': 0.0, 'devenues': 0, 'differees': 0, 'distantes': 0.0, 'V': 4, 'deg_max': 3}

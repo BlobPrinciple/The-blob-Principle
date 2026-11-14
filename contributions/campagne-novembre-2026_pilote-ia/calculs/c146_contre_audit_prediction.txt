@@ -1,0 +1,31 @@
+C-146 / CAS-1 — CONTRE-AUDIT DE CLAUDE — PRÉDICTIONS ÉCRITES AVANT TOUT CALCUL
+Horodatage : voir la date du fichier (13 novembre 2026, UTC).
+Protocole audité : C146_CAS1_PREENREGISTRE.md, SHA-256 cdd0ccd42b35152535d715ea31328d2022e5f17f8941b48b036d51a134c56f25
+(empreinte recalculée dans la page avant lecture ; conforme à l'annonce de ChatGPT).
+
+Partie 1 — recompte des 96 cas (programme indépendant : conditionnement par complément de Schur
+et factorisation de Cholesky, géométrie reconstruite d'après le texte du protocole).
+  A1. Les 96 valeurs sont retrouvées à mieux que 1e-9. Les huit forces à mieux que 1e-5 en relatif.
+
+Partie 2 — extensions hors protocole de ChatGPT (donc exploratoires, déclarées comme telles).
+  A2. Raffinement du maillage (chaque face échantillonnée par un réseau triangulaire de m points par côté,
+      m = 2 à 8, sommets et arêtes partagés) à g = 0,30 et l = 0,50 :
+        - la préférence FF0 < FF60 subsiste à tous les maillages ;
+        - le rapport dF(FF60)/dF(FF0), 0,733 à 14 points, monte et se stabilise entre 0,75 et 0,95 ;
+        - le rapport dF(TT)/dF(FF0), 0,199 à 14 points, descend sous 0,12.
+      Même test à g = 0,15 et l = 0,25 : le rapport FF60/FF0, 0,424 à 14 points, dépasse 0,60.
+  A3. Divergence au contact : avec les 14 points, l = 0,50, dF(FF0) à g = 0,001 est inférieur à -15 kBT,
+      et la pente d(dF)/d(ln g) entre g = 0,001 et g = 0,0001 vaut 3,5 à 10 % près
+      (sept paires de points en vis-à-vis, 1/2 chacune). La profondeur du puits est donc fixée
+      par la distance minimale, pas par le modèle.
+  A4. Trois corps. Calcul analytique fait avant exécution :
+        - trois points alignés (0, d, 2d) : le terme irréductible vaut exactement l'opposé de l'interaction
+          de la paire extrême, U3 = -U13 = -(1/2) ln(1 - rho^4) (écrantage complet par le point du milieu) ;
+        - trois points en triangle équilatéral de côté d = 0,30, l = 0,50 :
+          U3 = -(1/2) ln(1-rho) + (1/2) ln(1+2 rho) - (3/2) ln(1+rho) = +0,1120 (rho = exp(-0,6)).
+  A5. Identité d'information : dF/kBT = - I(A;B), opposé de l'information mutuelle de Shannon (en nats)
+      entre les valeurs du champ sur les deux objets. Vérification numérique attendue à 1e-12
+      par l'entropie différentielle gaussienne.
+
+Ce qui me ferait dire que je me suis trompé : un seul des 96 écarts au-dessus de 1e-9 ; un rapport hors des
+intervalles ci-dessus ; une pente au contact hors de 3,15–3,85.

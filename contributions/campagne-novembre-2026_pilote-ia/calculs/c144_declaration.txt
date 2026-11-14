@@ -1,0 +1,10 @@
+C-144 / PR-1 — DÉCLARATION AVANT EXÉCUTION (12 novembre 2026, vers 22 h 02 UTC ; aucune trajectoire de la grille n'a été calculée).
+1. Deux fautes de mon code ont été trouvées par les contrôles préalables, sur des cas HORS GRILLE, et corrigées avant toute exécution :
+   (a) le travail de l'impulsion était calculé après écriture dans le vecteur d'état (vue numpy) et valait 0 : la source n'était pas débitée, le registre ne fermait pas ;
+   (b) un choc et un point de contrôle confondus au même instant donnaient deux marques distinctes, donc un choc en double.
+   Après correction : travail 0,24 pour 0,24 demandé ; registre fermé à 6e-9 (DOP853) ; source restante nulle après les 24 chocs.
+2. Contrôles réussis : forces = - gradient du potentiel total à 4e-10 près ; potentiel et couplage de classe C1 aux raccords ; énergie totale 0,9 < D : aucun
+   franchissement (B0 et H3) ; registre saboté détecté (résidu 0,8) ; P = 3 hors grille : séparation persistante des trois liens du porteur 0 détectée.
+3. Écart déclaré : sur le témoin hors grille H3, P = 0,3, RK4 au pas T0/512 laisse un résidu relatif de 3e-5, au-dessus de la tolérance de 1e-6 du protocole ;
+   DOP853, schéma de référence, la respecte. Je rapporterai donc DEUX lectures de chaque verdict, sans en choisir une : lettre stricte (tolérance exigée des trois
+   intégrations) et référence (tolérance exigée de DOP853 ; accord de statut et de liens exigé des trois intégrations et des témoins de perturbation).

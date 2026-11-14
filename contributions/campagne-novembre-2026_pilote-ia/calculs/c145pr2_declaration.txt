@@ -1,0 +1,36 @@
+DÉCLARATION AVANT EXÉCUTION — C-145 / PR-2. Date du fichier : fait foi. Aucune trajectoire de la grille n'a été calculée avant ce fichier.
+Contrôles sur des puissances hors grille (0,3 et 0,6). Ma prédiction (c145pr2_prediction.txt, 23 h 33 min 10 s UTC) leur est antérieure et n'est pas modifiée.
+Ce que ces contrôles hors grille laissent déjà voir, dit ici pour que rien ne soit caché : sous la règle A2, la source tournante éjecte un porteur dans les cas essayés
+(c'était ma prédiction Q4) ; avec friction, aucune sortie ; l'accord des trois intégrations n'est que de 31 sur 42.
+
+CONTRÔLES PASSÉS (c145b_controles.py)
+ A. Loi de collision : énergie, quantité de mouvement et moment cinétique conservés sur 300 configurations de 1 à 3 contacts (4e-15) ;
+    à un contact, formule du protocole retrouvée (3e-15).
+ B. Contrôle analytique : respiration rentrante d'énergie 3 ; six contacts simultanés à t = pi / (4 sqrt 8) = 0,2776801836 ; état initial retourné à 2 t.
+    DOP853 : instant à 7e-12, retour à 2e-11. RK4 : 5e-11 et 3e-12 ; retour à 1e-10 et 8e-12.
+ C. Règle A2 vérifiée sur une suite d'événements fabriquée (lié, sorti, arrêt définitif après T0 hors portée, arrêt conservé après recapture).
+ D. Quatre directions de perturbation centrées, de norme 1, distinctes ; neuf géométries à 1e-8 du tétraèdre exact.
+ E. 42 triplets hors grille : bilans 3e-10 (DOP853), 7e-8 et 3e-9 (RK4) ; aucun lien sous r = a (0,499999999984) ; 1 171 collisions sans variation d'énergie (5e-15) ; aucun cas ambigu.
+ F. Témoins négatifs : sans cœur, la trajectoire descend à r = 7e-7 ; collision rendue inélastique : résidu 6,8 ; chaleur oubliée : résidu 7,1 ; témoin de traversée : passage relevé.
+ G. Permutations d'étiquettes (0 1) et (0 1 2 3) : distances identiques à 1e-15 à 1 T0 et à 1e-12 à 4 T0.
+
+ERREUR TROUVÉE PAR LES CONTRÔLES ET CORRIGÉE AVANT LA GRILLE
+ La distance minimale relevée par DOP853 comptait des points d'une portion de pas ensuite abandonnée (0,48 affiché pour 0,50 réel). Tenue de compte seulement ;
+ la dynamique n'était pas touchée (retour à l'état initial à 2e-11 avant comme après). Corrigée ; les contrôles ont été refaits.
+
+PRÉCISIONS DE LECTURE (là où le protocole laisse le choix)
+ 1. Contact : lien à moins de 1e-9 de r = a. Après réflexion, si un lien au contact rentre encore, si un contact est détecté sans vitesse entrante, ou si plus de
+    4 000 collisions se suivent : trajectoire INDETERMINEE, arrêtée là. Aucun traitement séquentiel.
+ 2. Accord des solveurs exigé sur : existence d'une sortie ; groupe de première sortie (à 1e-5 T0) ; P_first ; P_any ; existence d'un rebond et liens du premier contact.
+    Le nombre de chocs délivrés est rapporté mais n'entre pas dans l'accord (le protocole ne le liste pas).
+ 3. Deux lectures, comme pour PR-1 : stricte (bilan sous 1e-6 pour les trois intégrations) et référence (bilan de DOP853) ; classements bruts conservés.
+ 4. A2 : « six liens liés » évalué à l'instant de la tentative ; durée hors portée comptée depuis le passage sortant ; l'arrêt définitif reste acquis si le lien est recapturé ensuite.
+ 5. Amortisseur de Bγ actif à toute distance, sans effet pendant la collision (instantanée).
+ 6. Témoin de traversée : liant nu ; « contaminée » = le premier passage sous r = 1/2 précède la première sortie.
+ 7. Témoins d'étiquetage : huit configurations du liant nu (4 couples, S et C), règles A1 et A2, DOP853, géométrie exacte (32 calculs).
+    Comparateur à précision accrue : mêmes configurations, DOP853 rtol 1e-12, atol 1e-13, pas maximal T0/128 (16 calculs). Hors total des 2 160.
+ 8. Candidats : une perturbation ne compte que si les deux trajectoires (S et C) sont déterminées en lecture de référence ; les comptes bruts de DOP853 sont donnés à côté.
+    Candidat faible : (i) les deux sortent et C au moins 0,5 T0 plus tôt ; (ii) C sort et S non, rapporté à part.
+ 9. Concentration à travail égal : comparée au dernier choc commun à S et C avant la première sortie de l'une ou de l'autre.
+10. Écart de pratique déclaré : le fil de ChatGPT n'acceptant plus de message, le texte du protocole a été lu par l'aperçu de la page et son empreinte recalculée
+    sur le contenu brut chargé pour cet aperçu (14 699 octets), sans téléchargement sur l'ordinateur.

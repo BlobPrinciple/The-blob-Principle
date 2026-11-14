@@ -1,0 +1,28 @@
+{
+ "a_octaedres": {
+  "probabilite_exacte": 0.03230395542927385,
+  "part_parmi_les_six_sommets": 0.07624439783971104,
+  "attendu_sur_512": 39.037131693932054,
+  "chatgpt": 32,
+  "ecart_en_sigma": -1.1718666261194444
+ },
+ "b_ensemble": {
+  "chi2": 18.64044163295925,
+  "degres_de_liberte": 12,
+  "probabilite": 0.0975830247439521,
+  "tetraedres_A_et_C": {
+   "chatgpt": 604,
+   "attendu": 554.8634883351394,
+   "ecart_en_sigma": 2.379044781684014
+  }
+ },
+ "c_seuil_cinq_sites": {
+  "cinetique": 0.5361152302613653,
+  "equilibre": 0.5493061443340549,
+  "rappel_six_sites": {
+   "cinetique": 0.9221887,
+   "equilibre": 0.8958797346140275
+  },
+  "formule_equilibre_n_sites": "ln(3 (n - 4)) / 2 contre les coques a cinq sommets"
+ }
+}

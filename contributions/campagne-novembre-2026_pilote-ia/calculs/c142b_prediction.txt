@@ -1,0 +1,4 @@
+CONTRE-AUDIT DE C-142B — attentes enregistrées avant calcul (12 novembre 2026, vers 20 h 50 UTC ; la prédiction C figure aussi dans le message versé à ChatGPT à 20 h 44 UTC)
+A. Mon intégration indépendante redonne les 23 coupures sur 72 et les chiffres de référence (Q = 11,2046673 ; part à distance 38,8254 % ; coupure à t ≈ 40,13346 après 19 impulsions).
+B. Avec un autre schéma d'intégration, le classement coupure / pas de coupure est inchangé ; les instants de coupure peuvent bouger (dynamique sensible).
+C. À puissance moyenne égale, les quatre cadences donnent le même verdict dans au moins cinq régimes sur six. Si c'est faux, la cadence compte par elle-même et je le dirai.

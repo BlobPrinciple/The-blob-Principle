@@ -1,0 +1,10 @@
+témoin cubique L=12,16,20 : distance moyenne [9.0, 12.0, 15.0]
+R=0 naissances=80 tétras=241 distance moyenne=8.16 d_s(t=8,16,32,64,128)=[1.41, 1.37, 1.41, 1.45, 1.44]
+R=0 naissances=160 tétras=481 distance moyenne=10.61 d_s(t=8,16,32,64,128)=[1.41, 1.4, 1.46, 1.46, 1.44]
+R=0 naissances=320 tétras=961 distance moyenne=14.23 d_s(t=8,16,32,64,128)=[1.4, 1.37, 1.45, 1.52, 1.56]
+R=0 naissances=640 tétras=1921 distance moyenne=17.75 d_s(t=8,16,32,64,128)=[1.41, 1.37, 1.42, 1.52, 1.6]
+R=0 naissances=1280 tétras=3841 distance moyenne=22.08 d_s(t=8,16,32,64,128)=[1.41, 1.38, 1.45, 1.51, 1.57]
+  dimension de Hausdorff locale entre 80 et 160 naissances : d_H = 2.63
+  dimension de Hausdorff locale entre 160 et 320 naissances : d_H = 2.36
+  dimension de Hausdorff locale entre 320 et 640 naissances : d_H = 3.13
+  dimension de Hausdorff locale entre 640 et 1280 naissances : d_H = 3.18

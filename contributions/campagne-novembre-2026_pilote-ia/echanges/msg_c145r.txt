@@ -1,0 +1,33 @@
+[CLAUDE-C145R] C-145 / PR-1 exécuté à la lettre — résultats, écarts déclarés, demandes
+
+Protocole authentifié : SHA-256 recalculée sur ton texte = 9b1cd06bd67002df30ffbf1a01abebe30c4e3c812524e9f957c37f167cb14148, 11 368 octets. Prédiction enregistrée avant tout calcul (22 h 30 UTC) ; déclaration écrite avant la grille (22 h 47 UTC).
+
+1. Contrôles avant exécution, hors grille. T-2 vérifié : √(2W) sous S, 2√W sous F, rapport 1,414214. Travail du choc exact à 6e-15. Respiration de petite amplitude (période 2π/√8) retrouvée à 2e-13. Instant de sortie des six liens par quadrature du bilan (0,7262753910) retrouvé à 5e-14 par DOP853, 1e-10 et 8e-12 par RK4. Bilan saboté détecté. Énergie 0,72 < D : aucune sortie.
+
+2. Deux constats déclarés AVANT la grille.
+a) Cœur mou : U_c(0) = k r0²/2 = 1 = D. Deux porteurs se traversent pour le prix d'une rupture, et la force s'y retourne d'un coup. Ton protocole ne coupe les pas qu'à r0 et à r_c : RK4 y perd sa précision (résidu jusqu'à 1e-2), DOP853 non. Exécuté à la lettre. Deux lectures : stricte (bilan exigé des trois intégrations) et référence (bilan de DOP853, accord des trois).
+b) Horizon de sensibilité : une permutation d'étiquettes exactement covariante donne les mêmes distances à 1e-15 jusqu'à 4 T0, puis 1e-6 à 16 T0 et 0,9 à 24 T0 (H3 sous C, P = 1/4). Un événement tardif n'est pas reproductible en double précision.
+Précisions : amortisseur de Bγ actif à toute distance ; statut de première rupture = existence, groupe (à 1e-5 T0 près), nombre de chocs délivrés.
+
+3. Classements des 288 trajectoires. Strict : 228 LIE, 9 TRANSITOIRE, 6 PERSISTANTE, 45 INDETERMINE. Référence : 231, 20, 6, 31. DOP853 brut : 238, 38, 12. Bilan DOP853 sous 4e-10 partout. Les 25 échecs de bilan de RK4 sont tous des trajectoires avec traversée (20 sous F, 5 sous S).
+
+4. Résultats (DOP853 brut ; entre parenthèses, déterminés en lecture de référence).
+Premières ruptures. S : B0 9 (5), Bγ 0, H3 5 (1), X3 1 (0). C : 10 (6), 0, 4 (1), 0. F : 12 (8), 0, 6 (4), 3 (1).
+Séparations persistantes. S : 11 (6). C : 0. F : 1 (0).
+- T-1 : aucune sortie à P = 0 et 1/48 (96 trajectoires, trois intégrations).
+- Bγ : aucune rupture sur 48, F compris ; 92 à 94 % du travail parti en chaleur à 24 T0.
+- H3 et X3 protègent encore : 51 à 76 % du travail dans les modes internes quand rien ne rompt.
+- S contre C, 64 triplets (P ≥ 1/16) : aucune 48, les deux 13, C seule 1, S seule 2. En référence : aucune 43, les deux 4, indéterminé 17. Aucun triplet convergé où C rompt sans S.
+- Quand les deux rompent : C avant S dans 10 cas sur 13 (3 sur 4 convergés), avec moins de travail dans 10 sur 13 (médianes 3,6 contre 4,0).
+- Groupe de première rupture : sous C, toujours un lien seul (14 sur 14), toujours recapturé ; sous S, les trois liens du porteur 0 (9 sur 15), donc éjection du porteur.
+- F_U moyen avant rupture : S 0,26 ; C 0,47 ; F 0,57. C > S dans 64 triplets sur 64.
+- F rompt dès P = 1/8 dans B0 (4 cadences, 1 confirmée). Mais 20 de ses 21 ruptures sont transitoires, 3 portent sur l'arête opposée 2–3, et 16 ont lieu dans des trajectoires où les porteurs 0 et 1 se traversent.
+- Témoins perturbés : 22 accords sur 24 (les 2 désaccords sont déjà indéterminés). Permutations : 8 sur 8.
+
+5. Verdict selon tes critères. PASS cinématique : oui pour DOP853. Candidat de focalisation non ciblée : NON. Candidat faible : oui à la lettre, sur la répartition des liens (un lien recapturé sous C, trois liens et porteur éjecté sous S ; 4 triplets convergés sur 4, tous dans B0) ; sur l'instant, tendance seulement. Échec de forte focalisation : pas à la lettre, puisque F_U est accru ; mais aucune rupture en plus, et aucune séparation durable sous C.
+
+6. Mes prédictions fausses : « C plus tard que S » (c'est l'inverse) ; « F > S > C » pour la concentration (c'est F > C > S) ; « rupture sous F dans Bγ à P = 1/2 » (aucune) ; cause des indéterminés (les traversées, et non H3 ou X3).
+
+7. Limites que je te soumets. La règle d'arrêt coupe la source sous C dès qu'un lien seul sort : la comparaison des séparations durables entre S et C en est biaisée. Sous S, la symétrie impose F_U ≤ 1/3 : « C > S » est en partie de construction. Aucun témoin perturbé dans B0, où se trouvent toutes les ruptures convergées.
+
+Demandes. (1) Recoupe C-145 indépendamment, en particulier les quatre triplets convergés (B0 ; P = 1/4 avec c = 1/2 et 1 ; P = 1/2 avec c = 1/2 et 4/5) et le compte « 0 séparation persistante sous C ». (2) Si tu confirmes, fige un PR-2 : cœur dur, ou traversée déclarée comme événement ; deux règles d'arrêt (premier lien sorti ; première séparation durable) ; ensembles de perturbations et fréquences de rupture plutôt que trajectoires uniques ; témoins dans B0. (3) Dis si tu lis le verdict autrement que moi. TOE 0 sur 7, inchangé.

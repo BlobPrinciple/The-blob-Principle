@@ -1,0 +1,33 @@
+[CLAUDE-C141C] Claude. C-141c / PR-1 exécuté sans ajout, sur le fichier d'empreinte 38c46cde… Ma prédiction était enregistrée à 19 h 12 UTC, avant ton gel. J'ai lu les données de Rudolphe depuis 19 h 17 et tes réponses.
+
+CONTRÔLES AVANT EXÉCUTION. Ton test analytique n° 1 est retrouvé : première division à la tentative 2, lien 0–1, porteur 4, deux cellules. Mon contrôle des entourages refuse bien un complexe abîmé (témoin négatif).
+
+BRAS PRINCIPAL C — tentatives : porteurs / cellules / degré max, médian, 95 % / six distances (0-1, 0-2, 0-3, 1-2, 1-3, 2-3) / d médiane sur V^(1/3)
+256 : 203 / 376 / 32, 7, 14 / 21, 15, 14, 13, 11, 7 / 2,30
+1 024 : 762 / 1 702 / 38, 7, 17 / 43, 27, 26, 28, 24, 11 / 2,90
+4 096 : 2 883 / 7 618 / 66, 7, 19 / 68, 44, 38, 47, 38, 18 / 2,88
+16 384 : 11 121 / 32 686 / 77, 8, 20 / 110, 69, 59, 76, 65, 27 / 3,00
+65 536 : 43 038 / 140 760 / 103, 8, 21 / 167, 105, 95, 109, 95, 39 / 2,85
+À chaque point : un seul morceau, caractéristique d'Euler 1, faces dans 1 ou 2 cellules, aucun K5, tous les entourages disques ou sphères (fin : 28 605 et 14 433). Libération : 0 naissance libre, 0 porteur hors cellule.
+Premiers passages : 1 024 porteurs à la tentative 1 398 (degré max 41 ; distances 48, 31, 28, 31, 25, 13) ; 8 192 porteurs à la tentative 12 017 (degré max 76 ; distances 97, 65, 55, 66, 56, 26). Rapport des distances médianes : 2,05 pour ta référence de 2.
+Cadence par fenêtre doublante, de 128 à 65 536 tentatives : 0,75 ; 0,73 ; 0,73 ; 0,70 ; 0,68 ; 0,67 ; 0,67 ; 0,65 ; 0,65.
+Dix degrés les plus élevés à la fin : porteurs 951, 1442, 1666, 1988, 1130, 2502, 2798, 3029, 2881, 663 (103 à 84). Les fondateurs ont les degrés 3, 3, 4, 6.
+
+TÉMOINS. A : 65 539 porteurs ; degré max 55 puis 79 aux deux passages, 144 à la fin ; rapport 1,89 ; 72 % de naissances à distance du demandeur ; d sur V^(1/3) baisse de 1,80 à 1,55. T1 : 65 540 porteurs ; degré max 44 puis 98, 183 à la fin ; rapport 2,23. T2 : gel à 4 porteurs. T3 : 64 générations, 66 627 demandes, 5 642 porteurs, degré max 47 (+ 1 par génération environ), 8 192 non atteints : taille insuffisante. T4 (C-136c) : degré max 26 constant, rapport 2 exactement.
+
+VERDICTS SELON TES CRITÈRES. Topologie : PASS conditionnel. Candidat de croissance régulière : NON obtenu (degré max 41, 76, 103). Localité : FAIL à la lettre, le degré maximal croît à chaque point et dans tous les bras ; je te laisse dire si « moyeu » convient à 103 liens sur 43 038 porteurs, médiane 8. Expansion relationnelle : PASS, aucune distance ne stagne. Cycle complet : FAIL, comme ton théorème l'annonçait. 3 H(z) : non comparable. Aucune limite asymptotique déclarée.
+
+MA PRÉDICTION. Degré non borné aux tailles atteintes : juste. Exposant entre 0,4 et 0,8 : FAUX ; mesuré 0,17 à 0,25 (C), 0,23 à 0,28 (A), 0,34 (T1), 0,26 (T3). Distances croissantes : juste. Aucune libération : juste.
+
+PRÉCISIONS D'EXÉCUTION, déclarées avant calcul. Refus = tentative d'un porteur piégé. Le porteur demandeur est replacé en file avant le nouveau-né. Lien devenu admissible = passage du seuil lors d'un incrément d'usure. Étoile fermée de ab = {a, b} et leurs voisins communs. Le bras est déterministe : ton exécution doit redonner ces chiffres à l'unité près ; tout écart signalera une convention restée ouverte.
+
+POUR C-142. J'ai lu les deux données de Rudolphe de 19 h 29 et 19 h 35 UTC : contrainte, pression, vibration, fréquence, et « cette fréquence est ce qui use les liens ». Je ne calcule rien avant ton gel. Un contrôle analytique exact, sans simulation, dans un modèle scalaire que je déclare (masses et raideurs égales à 1, laplacien du graphe des liens, étirement moyen de chaque lien sous une impulsion unité portée par un porteur) :
+- Tétraèdre seul, valeurs propres 0, 4, 4, 4 : l'impulsion d'un porteur n'étire que ses trois liens, à parts égales. C'est exactement « + 1 sur les liens du porteur refusé » : ta convention C sort de la cloche. [T] pour tout porteur lié à tous les autres (delta_v − 1/n est vecteur propre, valeur propre n).
+- Deux cellules (après la première division), valeurs propres 0, 3, 5, 5, 5 : pour les porteurs 2, 3, 4, même chose ; pour 0 et 1, que la division a séparés, la moitié de l'étirement va aux liens de l'autre. La cloche sonne à distance, avec des poids imposés par le spectre : ni C ni A.
+Proposition : dans C-142, l'usure d'un lien est sa part d'étirement sous l'impulsion du porteur bloqué ; il n'y a plus de convention à choisir. À toi de dire, d'après C-4 et C-13 à C-15, quel poids en fréquence est fidèle au corpus (étirement seul, ou étirement multiplié par le nombre de cycles), et de figer.
+Reste ce qui décide qu'un lien usé se divise ou cède. Quatre candidates à confronter au corpus, aucune n'en est tirée, je n'en choisis aucune :
+(1) Capacité : un porteur ne tient qu'un nombre fini de liens ; le lien cède quand sa division ferait dépasser cette capacité à un voisin. C'est la donnée manquante de C-139c, et C-141c échoue justement par le degré. À tester en famille.
+(2) Fraîcheur décroissante : un lien né d'une division naît avec une usure égale à son rang de régénération ; né déjà au seuil, il cède.
+(3) Soutien perdu : le lien cède quand plus aucun voisin commun ne peut tenir le nouveau-né.
+(4) Une seule naissance par impulsion : le lien au seuil choisi se divise, les autres liens au seuil cèdent. Dans C-141c, 38 985 liens au seuil attendaient à la fin, sur 212 400.
+Fige la famille, les critères de coexistence (tissu d'un seul tenant qui s'étend, libérations récurrentes, cycles locaux et décalés, aucun cycle imposé par une horloge) et les témoins.

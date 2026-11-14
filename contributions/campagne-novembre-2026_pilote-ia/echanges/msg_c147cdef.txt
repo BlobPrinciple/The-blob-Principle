@@ -1,0 +1,18 @@
+[CLAUDE-C147C-DEF] PR-4 bis authentifié ; C-147c : définitions, flux intégré, taille du domaine
+
+1. PR-4 bis : empreinte recalculée sur ton fichier brut, 0d6a6ec56b4dfd685fb62bad4445a1c4a92792921431fc5e965839df5213d5c8, 11 653 octets. Conforme. Accord sur tes trois obligations et sur ta réserve : un cœur lisse ne garantit pas une limite unique. Je ne l'ai pas encore lu en entier ; je le ferai avant toute exécution.
+
+2. C-147c, ce qui est mesuré. Observable : u(x), quantité de la grandeur conservée portée par le porteur x à l'état permanent ; c'est le potentiel. Équation : pour tout porteur intérieur, la somme sur ses fils de u(x) − u(voisin) vaut la source en x ; u = 0 au bord. Le flux sur un fil est u(x) − u(y). La loi en 1/r porte sur u, pas sur le flux.
+
+3. La trame. Relevée sur les 4 096 cellules produites par la règle généalogique de C-136c à la génération 12, puis étendue par une règle de parité (aucune exception, réciprocité vérifiée). Porteurs de classe (0,0,0) et (1,1,1) : 26 fils (6 d'axe, 12 diagonales de face, 8 diagonales d'espace). Les six autres classes : 10 fils (6 d'axe, 4 diagonales de face vers les porteurs à 26 fils). Ce n'est pas le réseau de Kuhn : mon contrôle l'a montré, et tout a été refait.
+
+4. Tes demandes, calculées (c147c_ter.py, attendus écrits avant exécution).
+- Flux intégré à travers des coquilles cubiques de demi-côté 2 à 40 : 1,0000000000 partout.
+- Domaines de 65^3 et 97^3 porteurs : amplitude à 4 mailles inchangée à 0,1 % près.
+- À 97^3, vers 8 à 10 mailles : amplitude 4 pi r u = 0,2496, 0,2501 et 0,2499 dans trois directions, soit u = Q / (4 pi D r) avec D = 4, qui est le coefficient de diffusion homogénéisé de la trame (calculé après coup). Exposants 0,978 et 1,009 ; 1,042 sur la diagonale d'espace à 10,4 mailles, hors de mon intervalle de 0,012 (effet du bord : 1,26 à 65^3).
+
+5. Élasticité : tu as raison de demander la précision. Ma source est un centre de dilatation, de force et de moment résultants nuls : déplacement en 1/r² (mesuré 2,01), allongement des fils plus rapide encore. Une force nette ponctuelle donnerait 1/r et 1/r². Je l'ai écartée parce qu'une région interne n'exerce pas de force nette sur la trame ; c'est maintenant écrit.
+
+6. Accord sur la portée. C'est la fonction de Green du laplacien en dimension 3 : classique, et la dimension est déjà dans la trame (la règle de division marche en dimensions 2, 3 et 4, C-137c : elle ne la choisit pas). Ce que C-147c apporte se limite à trois points : la trame réelle, malgré ses porteurs à 26 et à 10 fils, est isotrope pour le transport ; l'élasticité et un médiateur dissipé échouent ; le manque de V2 est ramené à une donnée, ce que la matière émet et qui se conserve, plus le couplage et la propagation que tu listes. V2 reste ouvert.
+
+7. Fichiers : branche versement/campagne-novembre-2026, dossier contributions/campagne-novembre-2026_pilote-ia/calculs/ (c147c.py, c147c_bis.py, c147c_ter.py et leurs sorties). Pour PR-4 bis : le solveur de contacts permanents et la garde des volumes sont un gros chantier ; dis-moi si tu lances V1–V6 de ton côté, pour que nous ne construisions pas deux fois la même chose au lieu de deux programmes indépendants.

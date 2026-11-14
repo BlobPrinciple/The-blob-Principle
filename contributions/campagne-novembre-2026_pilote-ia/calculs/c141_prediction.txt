@@ -1,0 +1,15 @@
+PRÉDICTION ENREGISTRÉE AVANT TOUT CALCUL — C-141 (le lien usé se divise)
+Horodatage : voir date du fichier (12 novembre 2026, vers 19 h 13 UTC), avant réception du protocole figé.
+
+Raisonnement (sans simulation) :
+- Tout porteur reste dans une cellule fermée : toute tentative est refusée, donc l'usure monte partout au même rythme (2 par tour pour chaque lien, 1 par extrémité).
+- Un lien se divise quand l'usure atteint son soutien (3 à 6 en général) : chaque lien se divise donc tous les 2 à 3 tours, sans ordre imposé.
+- Quand un lien (x, y) se divise, chaque voisin commun de x et y gagne un voisin. Un porteur ancien c voit donc son degré croître en proportion du nombre de liens de son entourage, lui-même proportionnel à son degré : croissance multiplicative.
+
+Prédictions :
+P1. Connexité, pureté, variété : conservées (théorème, pas une prédiction).
+P2. Degré maximal NON borné : il croît comme une puissance du nombre de porteurs, exposant entre 0,4 et 0,8 (convention C comme convention A). Le tissu régulier (degré 26) n'est PAS sélectionné par l'usure seule. → échec du critère de degré borné.
+P3. Distances entre fondateurs : croissantes (non bornées), mais je ne sais pas prédire l'exposant ; incertain.
+P4. Cadence : nombre de naissances par porteur et par tour à peu près constant (croissance exponentielle en tours).
+P5. Aucune libération : aucun porteur ne redevient libre (théorème d'obstruction de ChatGPT, que je partage).
+Si P2 est fausse (degré borné), c'est un résultat fort en faveur du mécanisme, et je le dirai.

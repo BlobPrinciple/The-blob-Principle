@@ -1,0 +1,350 @@
+{
+ "classes": {
+  "(0, 0, 0)": {
+   "fils": 26,
+   "axes": 6,
+   "faces": 12,
+   "espace": 8,
+   "moments": [
+    18,
+    18,
+    18
+   ],
+   "centrosymetrique": true
+  },
+  "(0, 0, 1)": {
+   "fils": 10,
+   "axes": 6,
+   "faces": 4,
+   "espace": 0,
+   "moments": [
+    6,
+    6,
+    2
+   ],
+   "centrosymetrique": true
+  },
+  "(0, 1, 0)": {
+   "fils": 10,
+   "axes": 6,
+   "faces": 4,
+   "espace": 0,
+   "moments": [
+    6,
+    2,
+    6
+   ],
+   "centrosymetrique": true
+  },
+  "(0, 1, 1)": {
+   "fils": 10,
+   "axes": 6,
+   "faces": 4,
+   "espace": 0,
+   "moments": [
+    2,
+    6,
+    6
+   ],
+   "centrosymetrique": true
+  },
+  "(1, 0, 0)": {
+   "fils": 10,
+   "axes": 6,
+   "faces": 4,
+   "espace": 0,
+   "moments": [
+    2,
+    6,
+    6
+   ],
+   "centrosymetrique": true
+  },
+  "(1, 0, 1)": {
+   "fils": 10,
+   "axes": 6,
+   "faces": 4,
+   "espace": 0,
+   "moments": [
+    6,
+    2,
+    6
+   ],
+   "centrosymetrique": true
+  },
+  "(1, 1, 0)": {
+   "fils": 10,
+   "axes": 6,
+   "faces": 4,
+   "espace": 0,
+   "moments": [
+    6,
+    6,
+    2
+   ],
+   "centrosymetrique": true
+  },
+  "(1, 1, 1)": {
+   "fils": 26,
+   "axes": 6,
+   "faces": 12,
+   "espace": 8,
+   "moments": [
+    18,
+    18,
+    18
+   ],
+   "centrosymetrique": true
+  }
+ },
+ "A1": {
+  "porteurs": 216,
+  "fils": 1512,
+  "par_porteur": {
+   "axes": 3.0,
+   "faces": 3.0,
+   "espace": 1.0
+  },
+  "somme_lambda": 8.974691494688162,
+  "somme_lambda2": 12.0
+ },
+ "A2": {
+  "a_etoile": 0.7478909578906803,
+  "E_par_porteur": 0.14395469063216482,
+  "E_par_fil": 0.020564955804594973,
+  "force_residuelle_max": 5.551115123125783e-17
+ },
+ "A3": {
+  "axes": {
+   "force": -0.2521090421093197,
+   "fL": -0.18855007299604098,
+   "pression_partielle": 0.45072521769405144
+  },
+  "faces": {
+   "force": 0.057677535825205295,
+   "fL": 0.06100423396407313,
+   "pression_partielle": -0.1458294138888668
+  },
+  "espace": {
+   "force": 0.2953851375880139,
+   "fL": 0.38263751709590377,
+   "pression_partielle": -0.3048958038051848
+  }
+ },
+ "A4": {
+  "sigma_moyen": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    1e-15,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    2e-15
+   ]
+  ],
+  "norme_max": 1.7889697864522823e-15,
+  "dE_da_a_etoile": -5.329070518200751e-10
+ },
+ "A5": {
+  "sites": {
+   "(0, 0, 0)": {
+    "fils": 26,
+    "sigma_diag": [
+     1.060517,
+     1.060517,
+     1.060517
+    ],
+    "hors_diag_max": 0.0,
+    "pression": -1.060516825304422
+   },
+   "(0, 0, 1)": {
+    "fils": 10,
+    "sigma_diag": [
+     -0.304896,
+     -0.304896,
+     -0.450725
+    ],
+    "hors_diag_max": 0.0,
+    "pression": 0.35350560843480694
+   },
+   "(0, 1, 0)": {
+    "fils": 10,
+    "sigma_diag": [
+     -0.304896,
+     -0.450725,
+     -0.304896
+    ],
+    "hors_diag_max": 0.0,
+    "pression": 0.35350560843480694
+   },
+   "(0, 1, 1)": {
+    "fils": 10,
+    "sigma_diag": [
+     -0.450725,
+     -0.304896,
+     -0.304896
+    ],
+    "hors_diag_max": 0.0,
+    "pression": 0.35350560843480694
+   },
+   "(1, 0, 0)": {
+    "fils": 10,
+    "sigma_diag": [
+     -0.450725,
+     -0.304896,
+     -0.304896
+    ],
+    "hors_diag_max": 0.0,
+    "pression": 0.35350560843480694
+   },
+   "(1, 0, 1)": {
+    "fils": 10,
+    "sigma_diag": [
+     -0.304896,
+     -0.450725,
+     -0.304896
+    ],
+    "hors_diag_max": 0.0,
+    "pression": 0.35350560843480694
+   },
+   "(1, 1, 0)": {
+    "fils": 10,
+    "sigma_diag": [
+     -0.304896,
+     -0.304896,
+     -0.450725
+    ],
+    "hors_diag_max": 0.0,
+    "pression": 0.35350560843480694
+   },
+   "(1, 1, 1)": {
+    "fils": 26,
+    "sigma_diag": [
+     1.060517,
+     1.060517,
+     1.060517
+    ],
+    "hors_diag_max": 0.0,
+    "pression": -1.0605168253044215
+   }
+  },
+  "moyenne": [
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0,
+    0.0
+   ]
+  ]
+ },
+ "A6": {
+  "n=6": {
+   "plus_petite": -0.14422590686434367,
+   "nulles": 3,
+   "premiere_positive": null,
+   "negatives": 3,
+   "plus_grande": 14.743344329365922
+  },
+  "n=8": {
+   "plus_petite": -0.14422590686435122,
+   "nulles": 3,
+   "premiere_positive": null,
+   "negatives": 15,
+   "plus_grande": 14.743344329365872
+  }
+ },
+ "A7": {
+  "C11": 3.396062702214018,
+  "C12": 0.9761551638281505,
+  "C44": 0.9761552000793621,
+  "B": 1.782791009956773,
+  "Zener": 0.8067706592876515,
+  "deplacement_interne_max": 0.0,
+  "affine": {
+   "C11": 3.3960629773634987,
+   "C12": 0.9761551409316298,
+   "C1112": 4.914752160583193e-18
+  }
+ },
+ "A8": {
+  "a*/2 (juste apres un palier)": {
+   "pression": 10.69674651845359,
+   "formule": 10.696746518453516,
+   "energie_par_volume": 18.79808648799811,
+   "rapport_p_sur_energie": 0.5690337963538508,
+   "cisaillement_max": 4.163336342344337e-17
+  },
+  "0,9 a*": {
+   "pression": 0.6602929949662691,
+   "formule": 0.6602929949662656,
+   "energie_par_volume": 0.5820938788451725,
+   "rapport_p_sur_energie": 1.1343410727428322,
+   "cisaillement_max": 0.0
+  },
+  "1,1 a*": {
+   "pression": -0.4420143189443565,
+   "formule": -0.44201431894436044,
+   "energie_par_volume": 0.3188177593374389,
+   "rapport_p_sur_energie": -1.386416866685665,
+   "cisaillement_max": 2.7755575615628914e-17
+  },
+  "2 a*": {
+   "pression": -1.3370933148066757,
+   "formule": -1.3370933148066895,
+   "energie_par_volume": 1.045835090953733,
+   "rapport_p_sur_energie": -1.278493451187734,
+   "cisaillement_max": 6.661338147750939e-16
+  }
+ },
+ "A9_cubique_simple": {
+  "E": 0.0,
+  "sigma_max": 0.0,
+  "C11": 0.9999999999998908,
+  "C12": 0.0,
+  "C44": 3.124999606744452e-08,
+  "B": 0.3333333333332969,
+  "Zener": 6.249999213489587e-08,
+  "deplacement_interne_max": 0.0
+ },
+ "A10_Kuhn": {
+  "a_etoile": 0.7478909578906803,
+  "E_par_porteur": 0.14395469063216482,
+  "sigma": [
+   [
+    0.0,
+    0.377811,
+    0.377811
+   ],
+   [
+    0.377811,
+    0.0,
+    0.377811
+   ],
+   [
+    0.377811,
+    0.377811,
+    0.0
+   ]
+  ]
+ },
+ "A11_regle_B": {
+  "E": 0.0,
+  "sigma_max": 0.0
+ }
+}

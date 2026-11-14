@@ -1,0 +1,48 @@
+BP-S1c -- CONTRE-AUDIT EXACT DE BP-S1 / TEST-1 (ChatGPT) ET TROIS PROLONGEMENTS
+Claude, 13 novembre 2026. ECRIT AVANT TOUT PROGRAMME. Heure reelle : celle de l'empreinte prise juste apres ecriture.
+
+D'OU L'ON PART
+- Parole de l'auteur (13 nov., 8 h 29 UTC) : "La solution la plus viable et la moins energivore est toujours privilegiee. Donc CQFD la premiere
+  bonne solution est validee." Puis (8 h 36 UTC) : "Alors mettons a l'epreuve !"
+- ChatGPT a fige BP-S1 / TEST-1 (empreinte 31240c214fd849253f35cbb49b9beb06785c9c724459ad932b07b85203fd7881, 6 098 octets, recalculee par moi
+  sur le fichier brut : conforme) et l'a execute : 7 200 trajectoires, six regimes. Premieres fermetures a 4 / 5 / 6 sommets :
+  A 299/389/512 ; B 52/168/980 ; C 305/395/500 ; D 84/264/852 ; E 57/134/1009 ; F 195/424/581. Sa prediction P1 (le tetraedre se forme le
+  plus souvent en A) : [FAIL].
+- Le modele est une chaine de Markov finie : je ne refais pas seulement un tirage, je resous EXACTEMENT les probabilites de premiere fermeture
+  (systeme lineaire sur les etats ouverts), puis je tire un Monte-Carlo independant.
+
+DEJA VERIFIE A LA MAIN, AVANT PROGRAMME (arithmetique sur ses formules)
+- Residence en A : taux par face retirable exp(-4,9), F - 1 faces retirables : 0,7998 ; 0,6891 ; 0,5938 a t = 10. Conforme.
+- Poids d'equilibre en A : 3 e^-2,4 ; 18 e^-3,6 ; 78 e^-4,8, soit 19,36 % ; 34,98 % ; 45,66 %. Conforme.
+- Croisement des survivants a 4 et a 6 sommets : t = ln(512/299) / (4 e^-4,9) = 18,06. Conforme.
+- 62 985 = C(19,3) + C(19,5) + C(19,7). Conforme.
+
+ATTENDUS
+X1. Coques spheriques fermees contenant le triangle d'ancrage, six sites etiquetes : 3 ; 18 ; 78 (dont 6 octaedres et 72 autres). Je les
+    tire de mes comptes de BP-EQ2 (1 ; 10 ; 195 spheres etiquetees a 4 ; 5 ; 6 sommets, dont 15 octaedres) par symetrie :
+    (6-3) x 1 ; C(3,2) x 10 x 6/10 ; 195 x 8/20. L'enumeration directe des 62 985 ensembles doit les rendre.
+X2. [T annonce] La prime de fermeture J n'entre pas dans la premiere fermeture quand le dernier pas est descendant : les probabilites
+    exactes de A et de C sont identiques, celles de B et de E aussi.
+    Les dix-huit comptes de ChatGPT sont a moins de trois ecarts-types binomiaux des probabilites exactes (1 200 tirages par regime).
+X3. Mon Monte-Carlo independant (algorithme de Gillespie, generateur PCG64, graine 20261113, 1 200 trajectoires par regime) : a moins de trois
+    ecarts-types des probabilites exactes, sur les dix-huit comptes.
+X4. (a l'aveugle) Seuil de cout. Famille du regime A (gamma = 0,4 ; J = 4 ; beta = 1), cout par face eps de 0 a 3 :
+    la part des premieres fermetures a 4 sommets croit avec eps ; elle depasse les deux autres au-dela d'un seuil eps* que je place entre 0,9 et 2,0.
+    [T annonce] A l'equilibre, le tetraedre a la plus grande part si et seulement si beta eps > ln(6)/2 = 0,896 (six sites).
+    Le regime A (0,6) est sous les deux seuils : l'echec de P1 serait une affaire de seuil, pas de principe.
+X5. (a l'aveugle) Nombre de sites. En A : part des premieres fermetures a 4 sommets = 1 avec quatre sites ; entre 0,35 et 0,60 avec cinq ;
+    la valeur a six sites (voisine de 0,25). Elle decroit quand les sites se multiplient.
+X6. (a l'aveugle) Naissances successives : la lecture litterale de "la premiere bonne solution est validee". Au depart, quatre sites
+    (le triangle d'ancrage et un porteur libre : le minimum pour fermer). Le cinquieme puis le sixieme site naissent l'un apres l'autre,
+    chacun apres une attente exponentielle de cadence c_b. Regles et couts du regime A, inchanges.
+    Part des premieres fermetures a 4 sommets : tend vers 1 quand c_b tend vers 0 ; superieure a 0,9 pour c_b <= 0,02 ; superieure a 0,5 pour
+    c_b <= 0,2 ; tend vers la valeur a six sites quand c_b devient grand.
+X7. [T annonce] Duree de vie d'une coque fermee : 1 / [(F - 1) r], r = taux de detachement d'une face. Rapport des durees 4 : 5 : 6 sommets
+    = 1/3 : 1/5 : 1/7, independant de J, de eps et de gamma. Controle : mesure sur le Monte-Carlo du regime A (a 10 % pres).
+
+LECTURE PREVUE
+- X1 a X3 tenus : le calcul de ChatGPT est recoupe par une methode exacte.
+- X4 a X6 tenus : la parole de l'auteur a deux lectures eprouvables. "La moins energivore" tient au-dessus d'un seuil de cout et echoue
+  en dessous. "La premiere bonne solution" tient si les porteurs naissent un a un et si la fermeture est plus rapide que les naissances.
+  Aucune des deux ne presuppose le nombre quatre ; toutes deux supposent une regle de cout et une prime de fermeture posees a la main.
+- Rien ici n'est une physique du Blob : ni volumes, ni exclusion, ni bain. Aucun verrou ne change. TOE 0/7.

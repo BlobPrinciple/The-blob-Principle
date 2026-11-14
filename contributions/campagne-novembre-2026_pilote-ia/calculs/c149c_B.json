@@ -1,0 +1,881 @@
+{
+ "1320": {
+  "1": {
+   "E_programme": 1.785770808839397e-21,
+   "nact_programme": 0,
+   "porteurs": 5,
+   "fils": 9,
+   "cellules": 2,
+   "E": 1.785770808839397e-21,
+   "W": 9.579481652723593e-11,
+   "W_sur_somme_L": 1.0643868502912922e-11,
+   "gradient_ressorts_max": 3.94788085451472e-11,
+   "au_contact": 0,
+   "fils_comprimes": 0.3333333333333333,
+   "spearman_degre_trace": 0.9128709291752769,
+   "p_value": 0.03046629166217096,
+   "degre_max": 4,
+   "pression_interieure": -1.4488917881542483e-10,
+   "pression_exterieure": -1.0722977848434369e-10,
+   "trace_moyenne_interieure": 2.5613030216218334e-11,
+   "trace_moyenne_exterieure": 9.477862939290484e-12,
+   "trace_moyenne_degre_haut": 2.5613030216218334e-11,
+   "trace_moyenne_degre_bas": 9.477862939290484e-12,
+   "volume": 0.23570226040457146,
+   "sigma_moyen": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "3": {
+   "E_programme": 1.3198706161818795e-20,
+   "nact_programme": 0,
+   "porteurs": 7,
+   "fils": 15,
+   "cellules": 4,
+   "E": 1.3198715093967565e-20,
+   "W": 1.538191796421636e-10,
+   "W_sur_somme_L": 1.0254611976039082e-11,
+   "gradient_ressorts_max": 1.3205060176080625e-10,
+   "au_contact": 0,
+   "fils_comprimes": 0.4666666666666667,
+   "spearman_degre_trace": 0.7559289460184546,
+   "p_value": 0.04931308767365259,
+   "degre_max": 6,
+   "pression_interieure": -1.806171560809894e-10,
+   "pression_exterieure": 1.0678512827225152e-10,
+   "trace_moyenne_interieure": 4.789335595226681e-11,
+   "trace_moyenne_exterieure": -1.2584748055634526e-11,
+   "trace_moyenne_degre_haut": 7.460901341928134e-11,
+   "trace_moyenne_degre_bas": -7.478045957430374e-12,
+   "volume": 0.47140452082063455,
+   "sigma_moyen": [
+    [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "7": {
+   "E_programme": 3.5373666513775662e-19,
+   "nact_programme": 0,
+   "porteurs": 11,
+   "fils": 27,
+   "cellules": 8,
+   "E": 3.5373660676394167e-19,
+   "W": -3.2720992511366385e-10,
+   "W_sur_somme_L": -1.2118886115467752e-11,
+   "gradient_ressorts_max": 6.881309092452013e-10,
+   "au_contact": 0,
+   "fils_comprimes": 0.48148148148148145,
+   "spearman_degre_trace": -0.38138503569823695,
+   "p_value": 0.24714092300874804,
+   "degre_max": 10,
+   "pression_interieure": 7.25487649008047e-11,
+   "pression_exterieure": 2.450984191402954e-10,
+   "trace_moyenne_interieure": -2.5649861814146505e-11,
+   "trace_moyenne_exterieure": -3.46621508457569e-11,
+   "trace_moyenne_degre_haut": -6.086605286470463e-11,
+   "trace_moyenne_degre_bas": -3.264271561772314e-11,
+   "volume": 0.9428090415805179,
+   "sigma_moyen": [
+    [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     -0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     -0.0
+    ]
+   ]
+  },
+  "15": {
+   "E_programme": 0.3636188460768477,
+   "nact_programme": 0,
+   "porteurs": 19,
+   "fils": 66,
+   "cellules": 32,
+   "E": 0.36361884607684763,
+   "W": -6.508650479686295e-09,
+   "W_sur_somme_L": -9.971464743040164e-11,
+   "gradient_ressorts_max": 3.5137113912897533e-09,
+   "au_contact": 0,
+   "fils_comprimes": 0.45454545454545453,
+   "spearman_degre_trace": 0.13814777045560125,
+   "p_value": 0.5727492354737447,
+   "degre_max": 15,
+   "pression_interieure": 0.060974508708705716,
+   "pression_exterieure": -0.12111719550320599,
+   "trace_moyenne_interieure": -0.034919223574661984,
+   "trace_moyenne_exterieure": 0.0387991365819966,
+   "trace_moyenne_degre_haut": -0.07932505612864353,
+   "trace_moyenne_degre_bas": 0.008925371450814495,
+   "volume": 2.8699832753287664,
+   "sigma_moyen": [
+    [
+     -0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "31": {
+   "E_programme": 0.898420851065878,
+   "nact_programme": 3,
+   "porteurs": 35,
+   "fils": 136,
+   "cellules": 73,
+   "E": 0.898420851065878,
+   "W": 0.022116354682220063,
+   "W_sur_somme_L": 0.00016477041853309271,
+   "gradient_ressorts_max": 0.1211914895989055,
+   "au_contact": 3,
+   "fils_comprimes": 0.5661764705882353,
+   "residu_KKT": 1.5485100378598123e-08,
+   "mu_max": 0.6239687568382186,
+   "trois_somme_mu_V": 0.02211634718430162,
+   "spearman_degre_trace": 0.4270175758994394,
+   "p_value": 0.010517034152097324,
+   "degre_max": 21,
+   "pression_interieure": 0.01789574976118435,
+   "pression_exterieure": -0.04252876102487014,
+   "trace_moyenne_interieure": -0.013700505600528538,
+   "trace_moyenne_exterieure": 0.015807379734807857,
+   "trace_moyenne_degre_haut": 0.05000274432365667,
+   "trace_moyenne_degre_bas": 0.0005368775003034179,
+   "volume": 6.699664213722596,
+   "sigma_moyen": [
+    [
+     0.0011,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0011,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0011
+    ]
+   ]
+  },
+  "63": {
+   "E_programme": 4.568301973667532,
+   "nact_programme": 24,
+   "porteurs": 67,
+   "fils": 303,
+   "cellules": 194,
+   "E": 4.568301973667532,
+   "W": 0.20000626746936057,
+   "W_sur_somme_L": 0.0006801467502971426,
+   "gradient_ressorts_max": 0.26575819036815734,
+   "au_contact": 24,
+   "fils_comprimes": 0.5412541254125413,
+   "residu_KKT": 1.4883297247465376e-07,
+   "mu_max": 1.8378422162298886,
+   "trois_somme_mu_V": 0.2000065284969719,
+   "spearman_degre_trace": 0.300199002645941,
+   "p_value": 0.01357906918805558,
+   "degre_max": 28,
+   "pression_interieure": 0.06510300804296118,
+   "pression_exterieure": -0.13079138546780106,
+   "trace_moyenne_interieure": -0.05194757322581094,
+   "trace_moyenne_exterieure": 0.059582538095361605,
+   "trace_moyenne_degre_haut": 0.11631330715483494,
+   "trace_moyenne_degre_bas": -0.06505799143139114,
+   "volume": 14.054288423441568,
+   "sigma_moyen": [
+    [
+     0.00474,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.00474,
+     -0.0
+    ],
+    [
+     0.0,
+     -0.0,
+     0.00474
+    ]
+   ]
+  },
+  "127": {
+   "E_programme": 11.800337407854418,
+   "nact_programme": 57,
+   "porteurs": 131,
+   "fils": 661,
+   "cellules": 460,
+   "E": 11.800337407854418,
+   "W": 0.4645593616777326,
+   "W_sur_somme_L": 0.0007283048514471166,
+   "gradient_ressorts_max": 0.29811790133783095,
+   "au_contact": 57,
+   "fils_comprimes": 0.5552193645990923,
+   "residu_KKT": 6.166838232215392e-07,
+   "mu_max": 2.0555931133647856,
+   "trois_somme_mu_V": 0.4645600518373335,
+   "spearman_degre_trace": 0.2702534087473139,
+   "p_value": 0.0017971828607628827,
+   "degre_max": 33,
+   "pression_interieure": 0.07508298807504411,
+   "pression_exterieure": -0.1399985619435363,
+   "trace_moyenne_interieure": -0.062344207802441994,
+   "trace_moyenne_exterieure": 0.07045041656367543,
+   "trace_moyenne_degre_haut": 0.23905516268245824,
+   "trace_moyenne_degre_bas": -0.04214681073072986,
+   "volume": 29.17057390106061,
+   "sigma_moyen": [
+    [
+     0.00531,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     0.00531,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     0.00531
+    ]
+   ]
+  }
+ },
+ "1321": {
+  "1": {
+   "E_programme": 1.785770808839397e-21,
+   "nact_programme": 0,
+   "porteurs": 5,
+   "fils": 9,
+   "cellules": 2,
+   "E": 1.785770808839397e-21,
+   "W": 9.579481652723593e-11,
+   "W_sur_somme_L": 1.0643868502912922e-11,
+   "gradient_ressorts_max": 3.94788085451472e-11,
+   "au_contact": 0,
+   "fils_comprimes": 0.3333333333333333,
+   "spearman_degre_trace": 0.9128709291752769,
+   "p_value": 0.03046629166217096,
+   "degre_max": 4,
+   "pression_interieure": -1.4488917881542483e-10,
+   "pression_exterieure": -1.0722977848434369e-10,
+   "trace_moyenne_interieure": 2.5613030216218334e-11,
+   "trace_moyenne_exterieure": 9.477862939290484e-12,
+   "trace_moyenne_degre_haut": 2.5613030216218334e-11,
+   "trace_moyenne_degre_bas": 9.477862939290484e-12,
+   "volume": 0.23570226040457146,
+   "sigma_moyen": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "3": {
+   "E_programme": 1.3198714595512243e-20,
+   "nact_programme": 0,
+   "porteurs": 7,
+   "fils": 15,
+   "cellules": 4,
+   "E": 1.3198711230213133e-20,
+   "W": 1.5381984577597836e-10,
+   "W_sur_somme_L": 1.0254656384960066e-11,
+   "gradient_ressorts_max": 1.320505696515147e-10,
+   "au_contact": 0,
+   "fils_comprimes": 0.4666666666666667,
+   "spearman_degre_trace": 0.7559289460184546,
+   "p_value": 0.04931308767365259,
+   "degre_max": 6,
+   "pression_interieure": -1.8061741776306573e-10,
+   "pression_exterieure": 1.067840292075305e-10,
+   "trace_moyenne_interieure": 4.7893425341205846e-11,
+   "trace_moyenne_exterieure": -1.258461852961499e-11,
+   "trace_moyenne_degre_haut": 7.460906893043257e-11,
+   "trace_moyenne_degre_bas": -7.47796269070353e-12,
+   "volume": 0.47140452082063466,
+   "sigma_moyen": [
+    [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "7": {
+   "E_programme": 1.8722864729358095e-18,
+   "nact_programme": 0,
+   "porteurs": 11,
+   "fils": 27,
+   "cellules": 8,
+   "E": 1.8722864947616555e-18,
+   "W": 2.3954383296144384e-10,
+   "W_sur_somme_L": 8.871993813308097e-12,
+   "gradient_ressorts_max": 1.3982275996374123e-09,
+   "au_contact": 0,
+   "fils_comprimes": 0.5925925925925926,
+   "spearman_degre_trace": 0.09534625892455924,
+   "p_value": 0.780352335624235,
+   "degre_max": 10,
+   "pression_interieure": -1.751509588966911e-10,
+   "pression_exterieure": 1.8668673934984571e-10,
+   "trace_moyenne_interieure": 6.192521538372628e-11,
+   "trace_moyenne_exterieure": -2.6401491868182794e-11,
+   "trace_moyenne_degre_haut": 8.37579330832211e-11,
+   "trace_moyenne_degre_bas": 5.271757141855462e-11,
+   "volume": 0.9428090415640569,
+   "sigma_moyen": [
+    [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     -0.0,
+     0.0
+    ]
+   ]
+  },
+  "15": {
+   "E_programme": 0.4133335148590099,
+   "nact_programme": 1,
+   "porteurs": 19,
+   "fils": 66,
+   "cellules": 32,
+   "E": 0.41333351485900977,
+   "W": 0.006255236806979297,
+   "W_sur_somme_L": 9.596925938079145e-05,
+   "gradient_ressorts_max": 0.02170865608913454,
+   "au_contact": 1,
+   "fils_comprimes": 0.45454545454545453,
+   "residu_KKT": 9.631099945762426e-09,
+   "mu_max": 0.17155291277285492,
+   "trois_somme_mu_V": 0.006255237549173226,
+   "spearman_degre_trace": 0.3487866587067364,
+   "p_value": 0.14332078893750544,
+   "degre_max": 14,
+   "pression_interieure": 0.08204677006081339,
+   "pression_exterieure": -0.18235655670184778,
+   "trace_moyenne_interieure": -0.0427542651942691,
+   "trace_moyenne_exterieure": 0.04819976541663002,
+   "trace_moyenne_degre_haut": -0.07673869663733629,
+   "trace_moyenne_degre_bas": 0.023395777881717483,
+   "volume": 2.529935701078558,
+   "sigma_moyen": [
+    [
+     0.00082,
+     -0.0,
+     -0.0
+    ],
+    [
+     -0.0,
+     0.00082,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     0.00082
+    ]
+   ]
+  },
+  "31": {
+   "E_programme": 0.8433261487680063,
+   "nact_programme": 4,
+   "porteurs": 35,
+   "fils": 135,
+   "cellules": 71,
+   "E": 0.8433261487680063,
+   "W": 0.03286494519101424,
+   "W_sur_somme_L": 0.00024646328184703935,
+   "gradient_ressorts_max": 0.16138667619383054,
+   "au_contact": 4,
+   "fils_comprimes": 0.5111111111111111,
+   "residu_KKT": 1.3618407420766347e-08,
+   "mu_max": 0.600471223937106,
+   "trois_somme_mu_V": 0.032864965443645006,
+   "spearman_degre_trace": 0.3744234855281615,
+   "p_value": 0.02669288107741573,
+   "degre_max": 19,
+   "pression_interieure": 0.031884764052030445,
+   "pression_exterieure": -0.06848519520798763,
+   "trace_moyenne_interieure": -0.023493373130723097,
+   "trace_moyenne_exterieure": 0.026808568326119418,
+   "trace_moyenne_degre_haut": 0.036872927634917,
+   "trace_moyenne_degre_bas": -0.025246870052829745,
+   "volume": 6.63914763400255,
+   "sigma_moyen": [
+    [
+     0.00165,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.00165,
+     -0.0
+    ],
+    [
+     0.0,
+     -0.0,
+     0.00165
+    ]
+   ]
+  },
+  "63": {
+   "E_programme": 3.3553432836821684,
+   "nact_programme": 14,
+   "porteurs": 67,
+   "fils": 293,
+   "cellules": 180,
+   "E": 3.3553432836821684,
+   "W": 0.09703897544266216,
+   "W_sur_somme_L": 0.0003388393847217592,
+   "gradient_ressorts_max": 0.2319418222367045,
+   "au_contact": 14,
+   "fils_comprimes": 0.5051194539249146,
+   "residu_KKT": 6.249179636176089e-08,
+   "mu_max": 1.2285500151885076,
+   "trois_somme_mu_V": 0.09703897001534428,
+   "spearman_degre_trace": 0.225311681748593,
+   "p_value": 0.06677308828063279,
+   "degre_max": 28,
+   "pression_interieure": 0.08114202324354113,
+   "pression_exterieure": -0.1395204731056126,
+   "trace_moyenne_interieure": -0.062301780016811276,
+   "trace_moyenne_exterieure": 0.06713028775800747,
+   "trace_moyenne_degre_haut": 0.12403797119338711,
+   "trace_moyenne_degre_bas": -0.016294385000026734,
+   "volume": 13.994514823212146,
+   "sigma_moyen": [
+    [
+     0.00231,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.00231,
+     -0.0
+    ],
+    [
+     0.0,
+     -0.0,
+     0.00231
+    ]
+   ]
+  },
+  "127": {
+   "E_programme": 9.945417912957133,
+   "nact_programme": 53,
+   "porteurs": 131,
+   "fils": 640,
+   "cellules": 424,
+   "E": 9.945417912957133,
+   "W": 0.4571313147520577,
+   "W_sur_somme_L": 0.000736635743956997,
+   "gradient_ressorts_max": 0.36401002246818265,
+   "au_contact": 53,
+   "fils_comprimes": 0.5171875,
+   "residu_KKT": 2.0204393305167592e-07,
+   "mu_max": 2.122787119541924,
+   "trois_somme_mu_V": 0.45713176653977944,
+   "spearman_degre_trace": 0.33697111106419547,
+   "p_value": 8.299421714754495e-05,
+   "degre_max": 40,
+   "pression_interieure": 0.04329632429708547,
+   "pression_exterieure": -0.0853367223094621,
+   "trace_moyenne_interieure": -0.03630108677745033,
+   "trace_moyenne_exterieure": 0.04389235449328897,
+   "trace_moyenne_degre_haut": 0.21424237412144112,
+   "trace_moyenne_degre_bas": -0.09007384249400759,
+   "volume": 29.589636564156287,
+   "sigma_moyen": [
+    [
+     0.00515,
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.00515,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.00515
+    ]
+   ]
+  }
+ },
+ "1322": {
+  "1": {
+   "E_programme": 1.785770808839397e-21,
+   "nact_programme": 0,
+   "porteurs": 5,
+   "fils": 9,
+   "cellules": 2,
+   "E": 1.785770808839397e-21,
+   "W": 9.579481652723593e-11,
+   "W_sur_somme_L": 1.0643868502912922e-11,
+   "gradient_ressorts_max": 3.94788085451472e-11,
+   "au_contact": 0,
+   "fils_comprimes": 0.3333333333333333,
+   "spearman_degre_trace": 0.9128709291752769,
+   "p_value": 0.03046629166217096,
+   "degre_max": 4,
+   "pression_interieure": -1.4488917881542483e-10,
+   "pression_exterieure": -1.0722977848434369e-10,
+   "trace_moyenne_interieure": 2.5613030216218334e-11,
+   "trace_moyenne_exterieure": 9.477862939290484e-12,
+   "trace_moyenne_degre_haut": 2.5613030216218334e-11,
+   "trace_moyenne_degre_bas": 9.477862939290484e-12,
+   "volume": 0.23570226040457146,
+   "sigma_moyen": [
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "3": {
+   "E_programme": 1.3198714595512243e-20,
+   "nact_programme": 0,
+   "porteurs": 7,
+   "fils": 15,
+   "cellules": 4,
+   "E": 1.3198711230213133e-20,
+   "W": 1.5381984577597836e-10,
+   "W_sur_somme_L": 1.0254656384960066e-11,
+   "gradient_ressorts_max": 1.320505696515147e-10,
+   "au_contact": 0,
+   "fils_comprimes": 0.4666666666666667,
+   "spearman_degre_trace": 0.7559289460184546,
+   "p_value": 0.04931308767365259,
+   "degre_max": 6,
+   "pression_interieure": -1.8061741776306573e-10,
+   "pression_exterieure": 1.067840292075305e-10,
+   "trace_moyenne_interieure": 4.7893425341205846e-11,
+   "trace_moyenne_exterieure": -1.258461852961499e-11,
+   "trace_moyenne_degre_haut": 7.460906893043257e-11,
+   "trace_moyenne_degre_bas": -7.47796269070353e-12,
+   "volume": 0.47140452082063466,
+   "sigma_moyen": [
+    [
+     0.0,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "7": {
+   "E_programme": 0.03057447717815599,
+   "nact_programme": 0,
+   "porteurs": 11,
+   "fils": 28,
+   "cellules": 9,
+   "E": 0.03057447717815599,
+   "W": -1.5988564708302455e-09,
+   "W_sur_somme_L": -5.722699434954188e-11,
+   "gradient_ressorts_max": 1.1636410134074904e-09,
+   "au_contact": 0,
+   "fils_comprimes": 0.5,
+   "spearman_degre_trace": 0.1130115862435227,
+   "p_value": 0.7407684411604335,
+   "degre_max": 10,
+   "pression_interieure": 2.6621188021132602e-11,
+   "pression_exterieure": 1.568554787087306e-09,
+   "trace_moyenne_interieure": -8.919778110572096e-12,
+   "trace_moyenne_exterieure": -3.0906755696391565e-10,
+   "trace_moyenne_degre_haut": -0.002929992723607324,
+   "trace_moyenne_degre_bas": 0.0024416603365300282,
+   "volume": 0.9985257163314336,
+   "sigma_moyen": [
+    [
+     -0.0,
+     0.0,
+     -0.0
+    ],
+    [
+     0.0,
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0,
+     0.0
+    ]
+   ]
+  },
+  "15": {
+   "E_programme": 0.5429222209837875,
+   "nact_programme": 2,
+   "porteurs": 19,
+   "fils": 69,
+   "cellules": 36,
+   "E": 0.5429222209837873,
+   "W": 0.024269004144593376,
+   "W_sur_somme_L": 0.00035722059057142927,
+   "gradient_ressorts_max": 0.09391485157803486,
+   "au_contact": 2,
+   "fils_comprimes": 0.4782608695652174,
+   "residu_KKT": 2.0418930976945262e-08,
+   "mu_max": 0.6279185958860819,
+   "trois_somme_mu_V": 0.024269004519448488,
+   "spearman_degre_trace": 0.16695962133833028,
+   "p_value": 0.4944975625255636,
+   "degre_max": 13,
+   "pression_interieure": 0.06318488325096458,
+   "pression_exterieure": -0.12554103612380266,
+   "trace_moyenne_interieure": -0.03665451689956456,
+   "trace_moyenne_exterieure": 0.043423797015582105,
+   "trace_moyenne_degre_haut": -0.024203571125151202,
+   "trace_moyenne_degre_bas": 0.002049928069568138,
+   "volume": 2.9713973853876317,
+   "sigma_moyen": [
+    [
+     0.00272,
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.00272,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.00272
+    ]
+   ]
+  },
+  "31": {
+   "E_programme": 1.6235048539149233,
+   "nact_programme": 6,
+   "porteurs": 35,
+   "fils": 148,
+   "cellules": 89,
+   "E": 1.6235048539149233,
+   "W": 0.049575415609143914,
+   "W_sur_somme_L": 0.00034236558839150844,
+   "gradient_ressorts_max": 0.10872215034853172,
+   "au_contact": 6,
+   "fils_comprimes": 0.5743243243243243,
+   "residu_KKT": 4.325902696509319e-08,
+   "mu_max": 0.66021553941038,
+   "trois_somme_mu_V": 0.04957544483477727,
+   "spearman_degre_trace": 0.05990195719257822,
+   "p_value": 0.732485126215639,
+   "degre_max": 18,
+   "pression_interieure": 0.08327721918740139,
+   "pression_exterieure": -0.18657461699156708,
+   "trace_moyenne_interieure": -0.06514948184273527,
+   "trace_moyenne_exterieure": 0.07189800522225759,
+   "trace_moyenne_degre_haut": 0.0844369514002024,
+   "trace_moyenne_degre_bas": 0.004010898843729568,
+   "volume": 6.8776182851309535,
+   "sigma_moyen": [
+    [
+     0.0024,
+     -0.0,
+     0.0
+    ],
+    [
+     -0.0,
+     0.0024,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0024
+    ]
+   ]
+  },
+  "63": {
+   "E_programme": 4.110815535880955,
+   "nact_programme": 14,
+   "porteurs": 67,
+   "fils": 311,
+   "cellules": 198,
+   "E": 4.110815535880954,
+   "W": 0.054123461328977385,
+   "W_sur_somme_L": 0.00017872408902328872,
+   "gradient_ressorts_max": 0.2828726448523149,
+   "au_contact": 14,
+   "fils_comprimes": 0.5176848874598071,
+   "residu_KKT": 2.1103631593851512e-07,
+   "mu_max": 1.3825344853886468,
+   "trois_somme_mu_V": 0.05412384266340231,
+   "spearman_degre_trace": 0.2708059472871257,
+   "p_value": 0.026655723711844815,
+   "degre_max": 24,
+   "pression_interieure": 0.06392883069877738,
+   "pression_exterieure": -0.12257966470916659,
+   "trace_moyenne_interieure": -0.055626555851992124,
+   "trace_moyenne_exterieure": 0.05895231394838511,
+   "trace_moyenne_degre_haut": 0.165041561847146,
+   "trace_moyenne_degre_bas": 0.0016212505913182358,
+   "volume": 15.15173892507411,
+   "sigma_moyen": [
+    [
+     0.00119,
+     -0.0,
+     -0.0
+    ],
+    [
+     -0.0,
+     0.00119,
+     -0.0
+    ],
+    [
+     -0.0,
+     -0.0,
+     0.00119
+    ]
+   ]
+  },
+  "127": {
+   "E_programme": 12.85340967774458,
+   "nact_programme": 74,
+   "porteurs": 131,
+   "fils": 667,
+   "cellules": 463,
+   "E": 12.85340967774458,
+   "W": 0.7388122111198108,
+   "W_sur_somme_L": 0.0011507404916594902,
+   "gradient_ressorts_max": 0.46693126615100555,
+   "au_contact": 73,
+   "fils_comprimes": 0.553223388305847,
+   "residu_KKT": 0.17335190622324842,
+   "mu_max": 3.248824339688474,
+   "trois_somme_mu_V": 0.7333994104860277,
+   "spearman_degre_trace": 0.3864306937082199,
+   "p_value": 5.1424597724463055e-06,
+   "degre_max": 30,
+   "pression_interieure": 0.07016577953359127,
+   "pression_exterieure": -0.12635482495339592,
+   "trace_moyenne_interieure": -0.053239628566121015,
+   "trace_moyenne_exterieure": 0.06542504148436613,
+   "trace_moyenne_degre_haut": 0.3061556774256987,
+   "trace_moyenne_degre_bas": -0.1105466975534628,
+   "volume": 27.91166623480322,
+   "sigma_moyen": [
+    [
+     0.00882,
+     -0.0,
+     -0.0
+    ],
+    [
+     -0.0,
+     0.00882,
+     -0.0
+    ],
+    [
+     -0.0,
+     -0.0,
+     0.00882
+    ]
+   ]
+  }
+ }
+}

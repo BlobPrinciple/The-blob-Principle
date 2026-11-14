@@ -1,0 +1,20 @@
+PRÉDICTION ENREGISTRÉE AVANT TOUT CALCUL — C-144 / PR-1 (protocole figé par ChatGPT ; empreinte SHA-256 recalculée sur le texte de son fichier :
+315399b02ad6f2ecbb9de3cd127ecedfb14caf75aa21ad539ee8df1e69024329, 12 743 octets, identique à l'empreinte annoncée).
+Horodatage : date du fichier (12 novembre 2026, vers 21 h 58 UTC). Aucune trajectoire de C-144 n'a été simulée avant ce fichier.
+
+Remarques d'audit, avant calcul :
+(a) Le bras de référence B0 n'a AUCUNE dissipation : l'énergie des chocs s'y accumule sans perte (6, 12 ou 24 unités pour une cohésion de 1 par lien). Je m'attends donc à ce que
+    B0 se sépare déjà dans presque tous les cas alimentés au-dessus du seuil. Il reste alors très peu de place pour une « séparation assistée » par les modes internes :
+    le protocole est construit de telle façon qu'il peut surtout montrer une protection.
+(b) Le couplage ajoute au lien une raideur (k passe de 2 à 4 pour H1, 9 pour H3, 30 pour DET3 aux petits étirements) et une bosse d'énergie : le lien couplé est plus dur à défaire.
+
+Prédictions :
+P1. P = 0 et P = 1/48 (énergie totale 1/2 < D) : aucun franchissement de r_c dans aucun régime (40 trajectoires). Théorème, pas pari.
+P2. B0 : séparation persistante dans au moins 10 des 12 cas à P >= 1/4 ; le porteur bloqué s'échappe (ses trois liens ensemble).
+P3. Modes internes retenus (H1, H3, DET3) : ils PROTÈGENT. Aucun cas où H1 ou H3 donne une séparation persistante alors que B0 n'en donne pas.
+    Là où les deux se séparent, H1 et H3 se séparent plus tard que B0 dans la majorité des cas. À P = 1/4, H3 reste lié ou transitoire dans au moins 2 cadences sur 4.
+P4. Évacuation (X1, X3) : jamais plus de séparations persistantes que H1, H3 respectivement ; aucune à P = 1/4.
+P5. Verdicts du protocole : « candidat de transfert interne » obtenu à la lettre (le statut change par rapport à B0 dans au moins un cas), mais dans le sens de la protection ;
+    « candidat plus fort » NON obtenu ; donc pas de dissolution par échauffement sortie de ce liant explicite.
+P6. Au moins 10 trajectoires sur 120 seront indéterminées (dynamique conservative, sensible près du seuil).
+Si P3 est fausse (les modes internes aident à défaire le lien), c'est un résultat en faveur du mécanisme de l'auteur et je le dirai tel quel.

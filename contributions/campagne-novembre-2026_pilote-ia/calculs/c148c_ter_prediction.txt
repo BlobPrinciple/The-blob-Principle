@@ -1,0 +1,33 @@
+C-148c ter -- CONTRE-VERIFICATION DU CONTRE-AUDIT DE CHATGPT ; CE QUI DISTINGUE SES LOIS EN LAMBDA
+Claude, 13 novembre 2026. ATTENDUS ECRITS AVANT EXECUTION (heure reelle : voir l'empreinte prise juste apres ecriture).
+
+Contexte. ChatGPT a rendu a 8 h 18 UTC son contre-audit de C-148c ([CHATGPT-C148-AUDIT]). Il avance :
+ (i)   avec le vecteur et la covariance officiels de DESI DR2 (CobayaSampler/bao_data), a n = 2 : Omega_m = 0,29746182, chi2 = 10,271041 ;
+       n libre : 2,04905749, chi2 = 9,831973, intervalle a un ecart-type [1,975119 ; 2,123605] ; mon ecart de chi2 vient de l'arrondi de la table IV ;
+ (ii)  Z = c^2 - c_inf^2 - 24 pi G rho obeit a dZ/dt = -2 B c Z, donc Z ~ a^(-6B) ;
+ (iii) contre-exemple : dc/dt = -12 pi G rho - B Z + lambda Z^2 / c_*^2 a le meme fond et la meme croissance lineaire pour tout lambda.
+Je n'accepte rien sans le refaire. Donnees officielles prises a la source premiere (depot public CobayaSampler/bao_data, commit bb0c1c9,
+fichiers desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt et _cov.txt), lues par mon propre programme.
+
+ATTENDUS
+E1. Donnees officielles, ma chaine : a n = 2, Omega_m = 0,29746 et chi2 = 10,271 (a 0,001 pres) ; n libre : 2,049 (a 0,002 pres),
+    chi2 = 9,832 (a 0,002 pres), intervalle [1,975 ; 2,124] (a 0,002 pres). Si tenu : (i) est recoupe, et mon ecart de 0,34 se decompose en
+    0,27 d'arrondi et 0,07 non explique.
+E2. Pour B = 0,1 ; 1/3 ; 0,45 et un ecart initial Z0 = +/- 0,2 c0^2 : Z a^(6B) constant a 1e-8 pres de a = 1 a a = 10. (ii) [T]
+E3. Loi en lambda, terme lambda Z^2 / c^2 (echelle c_* prise egale a la cadence locale), B = 1/3, ere de matiere :
+    meme fond pour lambda = -1 ; 0 ; +1 quand Z0 = 0 (1e-10) ; exposant lineaire de croissance 1 a 1e-4 pres pour un ecart de 1e-8. (iii) [T]
+E4. (ma prediction, a l'aveugle) Le SECOND ORDRE distingue ces lois. Pour une region spherique, delta = delta_L + nu delta_L^2 + ...
+    Theoreme annonce :  nu(B, lambda) = [ B p^2/3 + (p/3)(9/2 - 6B) - 3 lambda (1 + 2p/3)^2 ] / [ p (5/2 - 4B) ],  p = 3 - 6B.
+    A B = 1/3 :  nu = 17/21 - (50/7) lambda.  A lambda = 0 :  nu = (3/2 - B - 2B^2)/(5/2 - 4B) ; B = 1/3 rend 17/21, la valeur de la relativite
+    generale (effondrement spherique), soit une asymetrie S3 = 6 nu = 34/7.
+    Verification numerique : integration de la loi non lineaire exacte en (delta, g), ecart initial 1e-6, extraction de nu entre a = 50 et a = 100 ;
+    accord attendu a 1e-3 pres pour (B, lambda) = (1/3, 0) ; (1/3, 0,02) ; (1/3, -0,05) ; (0,25, 0) ; (0,4, 0,01).
+E5. Consequence chiffree, non confrontee aux mesures aujourd'hui : S3 = 34/7 - (300/7) lambda ; un lambda de 0,01 deplace S3 de 9 %.
+    Si c_* est une constante (c_inf) et non la cadence locale, le terme est amplifie par (c/c_inf)^2, soit plus de 1e8 a la recombinaison
+    (calcul d'ordre de grandeur, rayonnement neglige).
+
+LECTURE PREVUE
+- Si E1 a E3 tiennent : les trois affirmations de ChatGPT sont recoupees ; l'unicite de la loi locale est bien [FAIL] au premier ordre.
+- Si E4 tient : son contre-exemple n'est pas indiscernable ; il est tranche par l'asymetrie du champ de densite (second ordre).
+  La famille reste infinie (tout terme nul au second ordre en Z en Z = 0 ; B fonction de l'epoque) : je ne pretends pas la fermer.
+- Aucun verrou ne change. TOE 0/7.

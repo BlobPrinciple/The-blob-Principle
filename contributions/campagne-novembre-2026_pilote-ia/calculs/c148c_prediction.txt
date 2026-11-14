@@ -1,0 +1,71 @@
+C-148c -- LA CADENCE DE LA MITOSE FACE A L'EXPANSION MESUREE : NIVEAU, FREIN, CROISSANCE
+Claude, 13 novembre 2026, 9 h 20 (heure de Paris). ECRIT AVANT TOUT CALCUL. Aucun ajustement n'a ete lance avant ce fichier.
+
+0. D'OU L'ON PART
+- Donnee de l'auteur (12 nov., 13 h 46 UTC) : la mitose est ce qui etire ; elle est premiere et continue, "hors tetraedre et matiere sous tension,
+  donc ralentie ou arretee".
+- Acquis (C-116, C-120) : volume moyen par cellule constant, donc cadence par cellule c = (dN/dt)/N = 3 H.
+- C-134c : cadence constante (K1), debit constant (K2), generations a la vitesse de la lumiere (K3) : [FAIL] tous les trois.
+- Tension notee alors : l'expansion mesuree etait plus rapide quand l'univers etait plus dense, et la cosmogonie dit que la matiere ralentit.
+- Aucun choix n'est demande a l'auteur : les branches sont testees.
+
+1. BRANCHES
+(N) Loi de NIVEAU. Les cellules prises dans la matiere ne se divisent pas, leur nombre M se conserve, les autres se divisent a cadence fixe k.
+    Alors c = k (1 - M/N) et H(z)/H0 = [1 - m0 (1+z)^3] / (1 - m0), m0 = fraction bloquee aujourd'hui.
+(F) Loi de FREIN, famille a un exposant n > 0 : dc/dt = - kappa c^(2-n) rho, rho = densite de matiere, conservee, diluee comme 1/N.
+    Integration exacte : c^n = c_inf^n + n kappa rho, soit [H(z)/H0]^n = 1 - w + w (1+z)^3.
+    n = 2 : frein independant de la cadence ; c'est exactement LambdaCDM plat, la constante cosmologique etant la constante d'integration
+    (cadence libre c_inf), et kappa = 12 pi G. n = 1 : frein proportionnel a la cadence. n -> 0 : frein proportionnel a c^2 (H exponentiel en rho).
+(B) Lois LOCALES qui donnent toutes la meme histoire d'ensemble (celle de n = 2) :
+    dc/dt = B (c_inf^2 - c^2) - 12 pi G (1 - 2B) rho,   drho/dt = - c rho,   avec la condition de platitude c^2 = c_inf^2 + 24 pi G rho au depart.
+    B = 0 : frein pur. B = 1/3 : equation de Raychaudhuri sans cisaillement (Newton + constante). B = 1/2 : aucun frein de la matiere.
+    Hypothese [H] : la loi est locale, chaque region la suit avec sa propre densite.
+(S) Lecture CINEMATIQUE (hypothese de travail, non attribuee a l'auteur) : la mitose arretee dans un corps est un simple deficit de volume cree ;
+    le tissu alentour afflue a la vitesse v = c_inf V / (4 pi r^2), V = volume du corps.
+
+2. DONNEES (verifiees a la source ce matin)
+- DESI DR2, resultats II (arXiv:2503.14738), table IV : D_V/r_d a z = 0,295 ; couples (D_M/r_d, D_H/r_d) et leur correlation a z = 0,510 ; 0,706 ;
+  0,934 ; 1,321 ; 1,484 ; 2,330. Treize nombres. Echelle alpha = c/(H0 r_d) laissee libre : rien n'est suppose sur l'univers primordial.
+- 31 chronometres cosmiques (table de C-134c, A&A 683, A91) ; erreurs traitees comme independantes : indicatif.
+- Croissance : six valeurs de f sigma8 de la table finale SDSS (BAO + distorsions) : z = 0,15 ; 0,38 ; 0,51 ; 0,70 ; 0,85 ; 1,48.
+  Amplitude laissee libre (la normalisation venue du fond diffus n'est pas utilisee) : seule la FORME en z est testee. Indicatif : ces valeurs
+  sont extraites avec des gabarits de relativite generale et une cosmologie fiducielle.
+- Propagation de la lumiere supposee plate : D_M = c * integrale de dz/H. [H]
+
+3. TEMOINS
+T1 (positif, publie). A n = 2, ma chaine doit rendre les valeurs de DESI : Omega_m = 0,2975 +/- 0,0086 ; h r_d = 101,54 +/- 0,73 Mpc ;
+   chi2 = 10,2 pour 11 degres de liberte. Tolerances : 0,002 ; 0,2 ; 0,5 ; barres d'erreur a 15 % pres. Si T1 echoue : rien n'est classable.
+T2 (negatif). Cadence constante (w = 0) sur les treize nombres : chi2 > 100.
+T3. Integration numerique de la loi de frein contre la forme fermee, pour n = 1 ; 2 ; 3 : ecart relatif < 1e-8 jusqu'a z = 3.
+T4. Croissance en ere de matiere, loi locale non lineaire a deux regions (ecart initial 1e-6) : d ln(delta)/d ln(a) = 3 - 6B a 1e-3 pres,
+    pour B = 0 ; 0,2 ; 1/3 ; 0,45. C'est un theoreme annonce ici : exposants de delta ~ t^p, p = 2 - 4B ou p = -1.
+T5. Sphere newtonienne de coquilles avec constante : la cadence 3 (da/dt)/a d'une region uniforme suit la loi B = 1/3 a 1e-8 pres ;
+    une surdensite de 1e-5 y croit comme a (f = 1) a 1 % pres en ere de matiere.
+
+4. PREDICTIONS
+P1. Loi de niveau : le meilleur ajustement est m0 = 0 (bord), sur les chronometres comme sur DESI ; tout m0 > 0 degrade. [FAIL] par le signe.
+P2. DESI seul, famille F : meilleur n entre 1,6 et 2,4 ; n = 2 a moins de deux ecarts-types (delta chi2 < 4) ; n = 1 exclu (delta chi2 > 25) ;
+    n = 3 exclu (delta chi2 > 9).
+P3. Chronometres seuls : n = 2 a moins de deux ecarts-types ; intervalle a un ecart-type sur n plus large que 0,8 (ils contraignent peu).
+P4. DESI + chronometres : meilleur n entre 1,6 et 2,4 ; a n = 2, r_d = c/(alpha H0) entre 138 et 160 Mpc.
+P5. Croissance, famille B : meilleur B entre 0,28 et 0,38 ; B = 1/3 a moins de deux ecarts-types ; B = 0 exclu (delta chi2 > 25) ;
+    B = 0,49 exclu (delta chi2 > 25).
+P6. Lecture cinematique : acceleration en r^-5 (et non r^-2), non additive ; a la surface de la Terre, moins de 1e-20 fois la pesanteur. [FAIL]
+    Reciproque : pour qu'un afflux stationnaire rende Newton il faudrait detruire du tissu hors du corps a un taux tres superieur a c_inf
+    (attendu : plus de 1e10 fois c_inf a la surface de la Terre).
+P7. T3, T4, T5 tenus.
+
+5. CE QUI N'EST PAS A L'AVEUGLE
+n = 2 et B = 1/3 sont les valeurs de la relativite generale, et la litterature dit les donnees compatibles : je le sais avant de calculer.
+Sont a l'aveugle : la largeur des intervalles, les delta chi2 des autres valeurs, P4, les ordres de grandeur de P6.
+
+6. LECTURE PREVUE, QUEL QUE SOIT LE RESULTAT
+- Rien ici ne DERIVE la cadence a partir du Blob : la famille F a n = 2 est un dictionnaire (identite avec LambdaCDM), deux parametres comme lui.
+- Si P1 et P2 tiennent : la phrase "la matiere ralentit la mitose" n'est compatible avec la mesure que comme loi de FREIN (elle agit sur la
+  derivee de la cadence), pas comme loi de niveau ; ma "tension" de C-134c venait en partie de ce que je la lisais comme un niveau.
+- Si P5 tient : l'histoire de l'expansion ne dit pas si la matiere freine (toutes les lois B la rendent) ; c'est la croissance des structures
+  qui fixe B, et B = 1/3 = 1/dimension est l'inertie des porteurs.
+- Lien avec C-147c [T conditionnel, a ecrire] : pour un ecoulement sans cisaillement, dc/dt = -c^2/3 + divergence de l'acceleration. Si la
+  matiere emet une grandeur conservee dont le gradient accelere les porteurs (C-147c), le theoreme de Gauss donne le frein -4 pi G rho avec le
+  meme G que la loi en 1/r. Le frein de la mitose et la gravite seraient alors une seule loi, et une seule donnee manquerait aux deux.
+- Aucun changement de statut du verrouillage n'est attendu de ce calcul. TOE 0/7.

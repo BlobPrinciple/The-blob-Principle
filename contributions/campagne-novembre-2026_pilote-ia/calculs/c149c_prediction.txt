@@ -1,0 +1,42 @@
+C-149c -- LE TENSEUR DES CONTRAINTES DE LA TRAME A RESSORTS (demande du dossier GR-3 de ChatGPT)
+Claude, contre-auditeur. FICHIER ECRIT AVANT TOUT CALCUL PAR PROGRAMME. Les nombres ci-dessous sont obtenus a la main
+(sommes de reseau), a partir de faits deja etablis : classes de la trame de palier (K10 de la releve : deux classes a 26 fils,
+six classes a 10 fils), programmes c120.py et c132_audit.py lus mais non executes dans cette session.
+
+MODELE (deja defini dans le laboratoire, aucune hypothese ajoutee) : ressorts de Hooke, raideur K = 1, longueur naturelle
+commune l0 = 1 (regle U, position de l'auteur du 12 novembre). Energie E = 1/2 Somme (L - l0)^2. Force d'un fil f = L - l0
+(positive = traction). Contrainte par le viriel : sigma_ab = (1/V) Somme_fils f L n_a n_b (traction positive) ; pression
+p = - trace(sigma)/3. Contrainte de site : la moitie de chaque fil est attribuee a chaque bout, volume a^3 par porteur (convention).
+
+PARTIE A -- trame de palier periodique (vraie trame de C-147c bis, maille a)
+A1. Par porteur : 3 fils de longueur a, 3 de a.rac(2), 1 de a.rac(3). Somme lambda^2 = 12 ; Somme lambda = 8,974692.
+    Les classes a 10 fils : 6 fils d'axe et 4 diagonales de face dans un seul plan.
+A2. Equilibre libre : a* = 0,747891 l0 ; energie 0,143955 par porteur, 0,020565 par fil (C-134c mesurait 0,021 par fil).
+A3. Precontrainte : f = -0,252109 (axes, comprimes), +0,057678 (diagonales de face), +0,295385 (diagonales d'espace).
+    Pressions partielles : +0,450725 ; -0,145830 ; -0,304896. Somme nulle.
+A4. [T] Contrainte moyenne NULLE a l'equilibre libre (tenseur entier, a 1e-12 pres).
+A5. Contraintes de site : porteurs a 26 fils en traction isotrope, sigma = +1,060517 I ; porteurs a 10 fils en compression
+    anisotrope, sigma = diag(-0,304896 ; -0,304896 ; -0,450725) et permutations. Moyenne nulle.
+A6. Stabilite : toutes les frequences propres positives ou nulles (3 translations seulement). PARI, confiance 70 % :
+    les fils d'axe sont comprimes de 25 %, un flambage n'est pas exclu.
+A7. Elasticite (affine exacte, chaque porteur est centre de symetrie) : C11 = 3,396063 ; C12 = C44 = 0,976155 (relation de Cauchy) ;
+    module de compression 1,782791 ; rapport de Zener A = 0,806770 (different de 1 : elasticite anisotrope).
+A8. Echelle imposee : p(a) = (Somme lambda - a Somme lambda^2) / (3 a^2). Juste apres un palier synchrone (a = a*/2) :
+    p = 8/a* = 10,69675, compression, six fois le module de compression.
+A9. Temoin analytique : cubique simple a premiers voisins, a = l0 : contrainte et energie nulles, C11 = 1, C12 = C44 = 0.
+A10. Temoin de discrimination : le reseau de Kuhn a les memes sommes (3, 3, 1) donc les memes a* et energie, mais sa contrainte
+    moyenne n'est PAS nulle : cisaillement sigma_xy = sigma_xz = sigma_yz = +0,377811, diagonale nulle.
+A11. Temoin negatif : regle B (longueur naturelle = longueur a la naissance) : energie, forces, contraintes toutes nulles.
+
+PARTIE B -- tissu fini de C-132 bis (mitose premiere, bras L, graines 1320, 1321, 1322, 127 naissances, bord libre, exclusion a 20 %)
+B0. Le programme d'origine, rejoue, redonne l'energie versee (graine 1322 : E = 12,8534 a 127 naissances).
+B1. [T] Viriel des ressorts W = Somme (L - l0) L : nul tant qu'aucune cellule n'est au contact de l'exclusion ; strictement
+    positif sinon (les ressorts sont en traction nette, equilibree par la poussee des cellules a leur volume minimal) ;
+    W = 3 Somme mu_t V_t avec mu_t >= 0 les multiplicateurs d'exclusion (reconstruits par moindres carres positifs).
+B2. Correlation de rang entre le degre d'un porteur et la trace de son viriel de site : superieure a +0,3 pour les trois graines
+    (les porteurs tres lies en traction, les peu lies en compression, comme dans la trame periodique).
+B3. PARI FAIBLE : moitie interieure (par le rayon) en traction moyenne, moitie exterieure en compression.
+
+CE QUE JE NE PREDIS PAS : la valeur du viriel W du tissu fini ; la part des contraintes d'exclusion.
+POUR LES FLUX (attendu sans calcul) : aucune vitesse, aucune masse, aucune unite de temps ne sont definies sur la trame ;
+la partie cinetique du tenseur et les flux d'energie sont donc ABSENTS, a ecrire tels quels.

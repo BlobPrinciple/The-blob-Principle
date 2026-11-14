@@ -1,0 +1,21 @@
+[A/topo/usure] n=256 V=259 E=1021 F=1280 T=517 chi=1 comp=1 faces(1,2,3+)=492,788,0 K5=0 deg max/med/q95=39/7/18 dist=[16, 13, 11, 12, 9, 7] ratio=1.804 entourages={'disque': 248, 'sphere': 11} (0 s)
+[A/topo/usure] n=1024 V=1027 E=4442 F=5926 T=2510 chi=1 comp=1 faces(1,2,3+)=1812,4114,0 K5=0 deg max/med/q95=55/7/18 dist=[27, 22, 17, 19, 14, 11] ratio=1.784 entourages={'disque': 908, 'sphere': 119} (0 s)
+[A/topo/usure] n=4096 V=4099 E=18960 F=26441 T=11579 chi=1 comp=1 faces(1,2,3+)=6566,19875,0 K5=0 deg max/med/q95=66/7/20 dist=[39, 34, 26, 31, 21, 18] ratio=1.781 entourages={'disque': 3285, 'sphere': 814} (0 s)
+[A/topo/usure] n=16384 V=16387 E=79879 F=115287 T=51794 chi=1 comp=1 faces(1,2,3+)=23398,91889,0 K5=0 deg max/med/q95=104/8/21 dist=[60, 51, 40, 45, 32, 28] ratio=1.673 entourages={'disque': 11701, 'sphere': 4686} (2 s)
+[A/topo/usure] n=65536 V=65539 E=333099 F=494205 T=226644 chi=1 comp=1 faces(1,2,3+)=81834,412371,0 K5=0 deg max/med/q95=144/8/22 dist=[85, 76, 55, 70, 46, 41] ratio=1.550 entourages={'disque': 40919, 'sphere': 24620} (8 s)
+  fenetre {'de': 1, 'a': 2, 'r': 1.0, 'devenues': 1, 'differees': 0, 'distantes': 0.0, 'V': 5, 'deg_max': 4}
+  fenetre {'de': 2, 'a': 4, 'r': 1.0, 'devenues': 4, 'differees': 2, 'distantes': 0.0, 'V': 7, 'deg_max': 6}
+  fenetre {'de': 4, 'a': 8, 'r': 1.0, 'devenues': 4, 'differees': 2, 'distantes': 0.5, 'V': 11, 'deg_max': 8}
+  fenetre {'de': 8, 'a': 16, 'r': 1.0, 'devenues': 11, 'differees': 5, 'distantes': 0.375, 'V': 19, 'deg_max': 9}
+  fenetre {'de': 16, 'a': 32, 'r': 1.0, 'devenues': 20, 'differees': 7, 'distantes': 0.5625, 'V': 35, 'deg_max': 12}
+  fenetre {'de': 32, 'a': 64, 'r': 1.0, 'devenues': 49, 'differees': 22, 'distantes': 0.4375, 'V': 67, 'deg_max': 17}
+  fenetre {'de': 64, 'a': 128, 'r': 1.0, 'devenues': 83, 'differees': 36, 'distantes': 0.65625, 'V': 131, 'deg_max': 30}
+  fenetre {'de': 128, 'a': 256, 'r': 1.0, 'devenues': 185, 'differees': 85, 'distantes': 0.65625, 'V': 259, 'deg_max': 39}
+  fenetre {'de': 256, 'a': 512, 'r': 1.0, 'devenues': 346, 'differees': 162, 'distantes': 0.65234375, 'V': 515, 'deg_max': 52}
+  fenetre {'de': 512, 'a': 1024, 'r': 1.0, 'devenues': 700, 'differees': 322, 'distantes': 0.6640625, 'V': 1027, 'deg_max': 55}
+  fenetre {'de': 1024, 'a': 2048, 'r': 1.0, 'devenues': 1349, 'differees': 591, 'distantes': 0.6796875, 'V': 2051, 'deg_max': 59}
+  fenetre {'de': 2048, 'a': 4096, 'r': 1.0, 'devenues': 2759, 'differees': 1225, 'distantes': 0.68798828125, 'V': 4099, 'deg_max': 66}
+  fenetre {'de': 4096, 'a': 8192, 'r': 1.0, 'devenues': 5381, 'differees': 2349, 'distantes': 0.69921875, 'V': 8195, 'deg_max': 79}
+  fenetre {'de': 8192, 'a': 16384, 'r': 1.0, 'devenues': 10650, 'differees': 4501, 'distantes': 0.71337890625, 'V': 16387, 'deg_max': 104}
+  fenetre {'de': 16384, 'a': 32768, 'r': 1.0, 'devenues': 20826, 'differees': 8369, 'distantes': 0.71673583984375, 'V': 32771, 'deg_max': 122}
+  fenetre {'de': 32768, 'a': 65536, 'r': 1.0, 'devenues': 40951, 'differees': 15439, 'distantes': 0.72027587890625, 'V': 65539, 'deg_max': 144}

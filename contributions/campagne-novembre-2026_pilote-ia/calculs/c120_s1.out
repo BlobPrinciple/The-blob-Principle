@@ -1,0 +1,62 @@
+=== S1 forcé, loi U, frontière F
+  g=0 N3=   1 E_ins=   0.4395 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 16/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=1.000 Lmax=1.000 qmin=0.1179 degmax=3 inv=0 autoint=0
+  g=1 N3=   2 E_ins=   0.2679 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 15/16 adm.) E/arête=0.00000 volume=   0.2357 diam=  1.633 fondateurs moy=  1.105 Lmin=1.000 Lmax=1.000 qmin=0.1179 degmax=4 inv=0 autoint=0
+  g=2 N3=   4 E_ins=   0.5359 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 15/16 adm.) E/arête=0.00000 volume=   0.4714 diam=  1.991 fondateurs moy=  1.376 Lmin=1.000 Lmax=1.000 qmin=0.1179 degmax=6 inv=0 autoint=0
+  g=3 N3=   8 E_ins=   0.8128 E_relax=  0.03057 (16 init. : 0.03057..0.03057, 16/16 adm.) E/arête=0.00122 volume=   0.8843 diam=  1.979 fondateurs moy=  1.573 Lmin=0.943 Lmax=1.137 qmin=0.0730 degmax=9 inv=0 autoint=0
+  g=4 N3=  16 E_ins=   1.1751 E_relax=  0.24847 (16 init. : 0.24847..0.24847, 16/16 adm.) E/arête=0.00606 volume=   1.4629 diam=  3.129 fondateurs moy=  2.043 Lmin=0.761 Lmax=1.227 qmin=0.0194 degmax=9 inv=0 autoint=0
+  g=5 N3=32 INCONCLUSIF : 0/16 minima admissibles ; énergies 0.32723..0.34379
+=== S1 forcé, loi U, frontière I
+  g=0 N3=   1 E_ins=   0.4395 E_relax=  0.14196 (16 init. : 0.14196..0.14196, 1/16 adm.) E/arête=0.02366 volume=   0.0720 diam=  1.310 fondateurs moy=  0.953 Lmin=0.756 Lmax=1.310 qmin=0.0321 degmax=3 inv=0 autoint=0
+  g=1 N3=   2 E_ins=   0.3324 E_relax=  0.18245 (16 init. : 0.18245..0.18245, 1/16 adm.) E/arête=0.02027 volume=   0.1337 diam=  1.610 fondateurs moy=  1.171 Lmin=0.805 Lmax=1.314 qmin=0.0295 degmax=4 inv=0 autoint=0
+  g=2 N3=   4 E_ins=   0.7232 E_relax=  0.28696 (16 init. : 0.28696..0.28696, 1/16 adm.) E/arête=0.01913 volume=   0.3119 diam=  2.134 fondateurs moy=  1.553 Lmin=0.616 Lmax=1.232 qmin=0.0417 degmax=6 inv=0 autoint=0
+  g=3 N3=   8 E_ins=   0.9676 E_relax=  0.57012 (16 init. : 0.57012..0.57012, 1/16 adm.) E/arête=0.02280 volume=   0.5709 diam=  2.611 fondateurs moy=  1.899 Lmin=0.754 Lmax=1.305 qmin=0.0321 degmax=9 inv=0 autoint=0
+  g=4 N3=  16 E_ins=   1.5894 E_relax=  0.85477 (16 init. : 0.85477..0.85477, 1/16 adm.) E/arête=0.02085 volume=   1.0878 diam=  3.237 fondateurs moy=  2.355 Lmin=0.809 Lmax=1.321 qmin=0.0295 degmax=9 inv=0 autoint=0
+  g=5 N3=  32 E_ins=   3.8196 E_relax=  1.48822 (16 init. : 1.48822..1.48822, 1/16 adm.) E/arête=0.02011 volume=   2.6438 diam=  4.352 fondateurs moy=  3.166 Lmin=0.628 Lmax=1.256 qmin=0.0417 degmax=11 inv=0 autoint=0
+  g=6 N3=  64 E_ins=   4.5372 E_relax=  2.86095 (16 init. : 2.86095..2.86095, 1/16 adm.) E/arête=0.02201 volume=   4.5288 diam=  5.207 fondateurs moy=  3.788 Lmin=0.752 Lmax=1.302 qmin=0.0321 degmax=17 inv=0 autoint=0
+  g=7 N3= 128 E_ins=   9.2622 E_relax=  4.89403 (16 init. : 4.89403..4.89403, 1/16 adm.) E/arête=0.02128 volume=   8.8182 diam=  6.502 fondateurs moy=  4.731 Lmin=0.813 Lmax=1.327 qmin=0.0295 degmax=18 inv=0 autoint=0
+  g=8 N3= 256 E_ins=  23.6653 E_relax=  9.04819 (16 init. : 9.04819..9.04819, 1/16 adm.) E/arête=0.02056 volume=  22.0490 diam=  8.826 fondateurs moy=  6.421 Lmin=0.637 Lmax=1.274 qmin=0.0417 degmax=26 inv=0 autoint=0
+  g=9 N3= 512 E_ins=  25.9625 E_relax= 17.21153 (16 init. : 17.21153..17.21153, 1/16 adm.) E/arête=0.02141 volume=  36.0054 diam= 10.393 fondateurs moy=  7.561 Lmin=0.750 Lmax=1.299 qmin=0.0321 degmax=26 inv=0 autoint=0
+=== S1 forcé, loi U, frontière X
+  g=0 N3=   1 E_ins=   0.4395 E_relax=  0.43952 (16 init. : 0.43952..0.43952, 16/16 adm.) E/arête=0.07325 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=1.000 Lmax=1.732 qmin=0.0321 degmax=3 inv=0 autoint=0
+  g=1 N3=   2 E_ins=   0.2075 E_relax=  0.20747 (16 init. : 0.20747..0.20747, 16/16 adm.) E/arête=0.02305 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.866 Lmax=1.414 qmin=0.0295 degmax=4 inv=0 autoint=0
+  g=2 N3=   4 E_ins=   0.5433 E_relax=  0.54326 (16 init. : 0.54326..0.54326, 16/16 adm.) E/arête=0.03622 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.500 Lmax=1.000 qmin=0.0417 degmax=6 inv=0 autoint=0
+  g=3 N3=   8 E_ins=   1.9219 E_relax=  1.92194 (16 init. : 1.92194..1.92194, 16/16 adm.) E/arête=0.07688 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.500 Lmax=0.866 qmin=0.0321 degmax=9 inv=0 autoint=0
+  g=4 N3=  16 E_ins=   5.1008 E_relax=  5.10078 (16 init. : 5.10078..5.10078, 16/16 adm.) E/arête=0.12441 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.433 Lmax=0.707 qmin=0.0295 degmax=9 inv=0 autoint=0
+  g=5 N3=  32 E_ins=  14.3581 E_relax= 14.35814 (16 init. : 13.02502..14.35814, 1/16 adm.) E/arête=0.19403 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.250 Lmax=0.500 qmin=0.0417 degmax=11 inv=0 autoint=0
+  g=6 N3=  64 E_ins=  30.5371 E_relax= 30.53708 (16 init. : 28.07905..30.53708, 1/16 adm.) E/arête=0.23490 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.250 Lmax=0.433 qmin=0.0321 degmax=17 inv=0 autoint=0
+  g=7 N3= 128 E_ins=  64.1541 E_relax= 64.15407 (16 init. : 50.81737..64.15407, 1/16 adm.) E/arête=0.27893 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.217 Lmax=0.354 qmin=0.0295 degmax=18 inv=0 autoint=0
+  g=8 N3= 256 E_ins= 145.3244 E_relax=145.32443 (16 init. : 91.89908..145.32443, 1/16 adm.) E/arête=0.33028 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.125 Lmax=0.250 qmin=0.0417 degmax=26 inv=0 autoint=0
+  g=9 N3= 512 E_ins= 284.4311 E_relax=284.43109 (16 init. : 166.43995..284.43109, 1/16 adm.) E/arête=0.35377 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.125 Lmax=0.217 qmin=0.0321 degmax=26 inv=0 autoint=0
+=== S1 forcé, loi B, frontière F
+  g=0 N3=   1 E_ins=   0.4395 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 16/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=1.000 Lmax=1.000 qmin=0.1179 degmax=3 inv=0 autoint=0
+  g=1 N3=   2 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 16/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=0.500 Lmax=1.000 qmin=0.0589 degmax=4 inv=0 autoint=0
+  g=2 N3=   4 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 16/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=0.500 Lmax=1.000 qmin=0.0295 degmax=6 inv=0 autoint=0
+  g=3 N3=   8 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 12/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=0.500 Lmax=0.866 qmin=0.0227 degmax=9 inv=0 autoint=0
+  g=4 N3=  16 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 10/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=0.250 Lmax=0.866 qmin=0.0113 degmax=9 inv=0 autoint=0
+  g=5 N3=  32 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 9/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=0.250 Lmax=0.559 qmin=0.0211 degmax=11 inv=0 autoint=0
+  g=6 N3=  64 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 3/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=0.250 Lmax=0.559 qmin=0.0105 degmax=17 inv=0 autoint=0
+  g=7 N3= 128 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 5/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=0.125 Lmax=0.433 qmin=0.0113 degmax=18 inv=0 autoint=0
+  g=8 N3= 256 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 5/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=0.125 Lmax=0.280 qmin=0.0211 degmax=26 inv=0 autoint=0
+  g=9 N3= 512 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 4/16 adm.) E/arête=0.00000 volume=   0.1179 diam=  1.000 fondateurs moy=  1.000 Lmin=0.125 Lmax=0.280 qmin=0.0105 degmax=26 inv=0 autoint=0
+=== S1 forcé, loi B, frontière I
+  g=0 N3=   1 E_ins=   0.4395 E_relax=  0.14196 (16 init. : 0.14196..0.14196, 1/16 adm.) E/arête=0.02366 volume=   0.0720 diam=  1.310 fondateurs moy=  0.953 Lmin=0.756 Lmax=1.310 qmin=0.0321 degmax=3 inv=0 autoint=0
+  g=1 N3=   2 E_ins=   0.0941 E_relax=  0.07969 (16 init. : 0.07969..0.07969, 1/16 adm.) E/arête=0.00885 volume=   0.0885 diam=  1.402 fondateurs moy=  1.020 Lmin=0.701 Lmax=1.145 qmin=0.0295 degmax=4 inv=0 autoint=0
+  g=2 N3=   4 E_ins=   0.0587 E_relax=  0.04980 (16 init. : 0.04980..0.04980, 1/16 adm.) E/arête=0.00332 volume=   0.1034 diam=  1.477 fondateurs moy=  1.075 Lmin=0.426 Lmax=0.853 qmin=0.0417 degmax=6 inv=0 autoint=0
+  g=3 N3=   8 E_ins=   0.0173 E_relax=  0.00803 (16 init. : 0.00803..0.00803, 1/16 adm.) E/arête=0.00032 volume=   0.0888 diam=  1.404 fondateurs moy=  1.022 Lmin=0.405 Lmax=0.702 qmin=0.0321 degmax=9 inv=0 autoint=0
+  g=4 N3=  16 E_ins=   0.0035 E_relax=  0.00234 (16 init. : 0.00234..0.00234, 1/16 adm.) E/arête=0.00006 volume=   0.0937 diam=  1.430 fondateurs moy=  1.040 Lmin=0.357 Lmax=0.584 qmin=0.0295 degmax=9 inv=0 autoint=0
+  g=5 N3=  32 E_ins=   0.0014 E_relax=  0.00140 (16 init. : 0.00140..0.00140, 1/16 adm.) E/arête=0.00002 volume=   0.0939 diam=  1.431 fondateurs moy=  1.041 Lmin=0.206 Lmax=0.413 qmin=0.0417 degmax=11 inv=0 autoint=0
+  g=6 N3=  64 E_ins=   0.0004 E_relax=  0.00030 (16 init. : 0.00030..0.00030, 1/16 adm.) E/arête=0.00000 volume=   0.0924 diam=  1.423 fondateurs moy=  1.035 Lmin=0.205 Lmax=0.356 qmin=0.0321 degmax=17 inv=0 autoint=0
+  g=7 N3= 128 E_ins=   0.0001 E_relax=  0.00003 (16 init. : 0.00003..0.00003, 1/16 adm.) E/arête=0.00000 volume=   0.0933 diam=  1.428 fondateurs moy=  1.039 Lmin=0.178 Lmax=0.291 qmin=0.0295 degmax=18 inv=0 autoint=0
+  g=8 N3= 256 E_ins=   0.0000 E_relax=  0.00002 (16 init. : 0.00002..0.00002, 1/16 adm.) E/arête=0.00000 volume=   0.0931 diam=  1.427 fondateurs moy=  1.038 Lmin=0.103 Lmax=0.206 qmin=0.0417 degmax=26 inv=0 autoint=0
+  g=9 N3= 512 E_ins=   0.0000 E_relax=  0.00001 (16 init. : 0.00001..0.00001, 1/16 adm.) E/arête=0.00000 volume=   0.0930 diam=  1.426 fondateurs moy=  1.037 Lmin=0.103 Lmax=0.178 qmin=0.0321 degmax=26 inv=0 autoint=0
+=== S1 forcé, loi B, frontière X
+  g=0 N3=   1 E_ins=   0.4395 E_relax=  0.43952 (16 init. : 0.43952..0.43952, 16/16 adm.) E/arête=0.07325 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=1.000 Lmax=1.732 qmin=0.0321 degmax=3 inv=0 autoint=0
+  g=1 N3=   2 E_ins=   0.1716 E_relax=  0.17157 (16 init. : 0.17157..0.17157, 16/16 adm.) E/arête=0.01906 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.866 Lmax=1.414 qmin=0.0295 degmax=4 inv=0 autoint=0
+  g=2 N3=   4 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 16/16 adm.) E/arête=0.00000 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.500 Lmax=1.000 qmin=0.0417 degmax=6 inv=0 autoint=0
+  g=3 N3=   8 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 16/16 adm.) E/arête=0.00000 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.500 Lmax=0.866 qmin=0.0321 degmax=9 inv=0 autoint=0
+  g=4 N3=  16 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 16/16 adm.) E/arête=0.00000 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.433 Lmax=0.707 qmin=0.0295 degmax=9 inv=0 autoint=0
+  g=5 N3=  32 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 16/16 adm.) E/arête=0.00000 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.250 Lmax=0.500 qmin=0.0417 degmax=11 inv=0 autoint=0
+  g=6 N3=  64 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 16/16 adm.) E/arête=0.00000 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.250 Lmax=0.433 qmin=0.0321 degmax=17 inv=0 autoint=0
+  g=7 N3= 128 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 15/16 adm.) E/arête=0.00000 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.217 Lmax=0.354 qmin=0.0295 degmax=18 inv=0 autoint=0
+  g=8 N3= 256 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 5/16 adm.) E/arête=0.00000 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.125 Lmax=0.250 qmin=0.0417 degmax=26 inv=0 autoint=0
+  g=9 N3= 512 E_ins=   0.0000 E_relax=  0.00000 (16 init. : 0.00000..0.00000, 6/16 adm.) E/arête=0.00000 volume=   0.1667 diam=  1.732 fondateurs moy=  1.260 Lmin=0.125 Lmax=0.217 qmin=0.0321 degmax=26 inv=0 autoint=0

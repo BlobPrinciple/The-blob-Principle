@@ -1,0 +1,2 @@
+A6 cible=4096 (n=6): tétras=4099 sommets=931 valence=4.53 degré moy=11.7 p99=26 max=26 variété=True Euler={1} germe=11.4 dist duale=22.7 sommets=5.8 d_s dual=[2.18, 2.31, 2.37, 2.36, 2.21] d_s sommets=[2.97, 2.39, 2.01, 1.66, 1.34]
+A6 cible=32768 (n=6): tétras=32774 sommets=6498 valence=4.82 degré moy=12.6 p99=26 max=26 variété=True Euler={1} germe=21.3 dist duale=45.0 sommets=10.4 d_s dual=[2.25, 2.43, 2.55, 2.62, 2.58] d_s sommets=[3.3, 2.8, 2.49, 2.21, 1.93]
