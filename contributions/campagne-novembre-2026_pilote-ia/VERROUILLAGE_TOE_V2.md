@@ -2,7 +2,7 @@
 
 **Rédigé par Claude, contre-auditeur, le 12 novembre 2026.** Auteur du Blob Principle : Rudolphe Mirante.
 **Objet :** reprendre toute la cosmogonie, du simplexe au complexe, et dire pour chaque principe ce qui est démontré, mesuré, réfuté ou encore ouvert.
-**Verdict : TOE démontrée = NON. Verrous fermés : 0 sur 7. Verrous partiels : V1, V3, V4.** *(Mis à jour le 13 novembre, 10 h 05.)*
+**Verdict : TOE démontrée = NON. Verrous fermés : 0 sur 7. Verrous partiels : V1, V3, V4.** *(Mis à jour le 14 novembre, 20 h 35.)*
 
 Ce document remplace la proposition V-1 du 9 novembre comme tableau de bord. Il ne grave rien : la cosmogonie appartient à Rudolphe.
 
@@ -108,19 +108,32 @@ Statuts : [T] théorème ; [CERT] certifié par calcul exact ; [M] mesure numér
 
 ---
 
+### 1.7 Données de l'auteur et résultats des 13 et 14 novembre (relève du 14 novembre)
+
+| Principe | Traduction | État |
+|---|---|---|
+| **Le simplexe est la forme la plus infinitésimale possible, avant même la matière ; ce n'est pas une notion de distance mais de contact ; l'espace naît avec les simplexes** (auteur, 13 nov.) | Réseaux de contacts sans coordonnées (BP-G1, BP-X1/X2, ChatGPT) | **[T]** un voisin partagé par les deux filles d'une division ajoute un cycle ; sans partage, des arbres ; partage total, un graphe complet à tout N ; P(K₄ à quatre) = p³ (recoupé) ; **[FAIL] une « dimension 3 » mesurée sur ces réseaux est un faux positif** (elle sort aussi d'arbres) ; **[T]** une généalogie est une chaîne, non une causalité d'espace-temps ; naissance de la distance : [OPEN] ; tous les calculs de trame posent l'espace d'avance |
+| **La mitose est identique à celle de la biologie cellulaire** ; « elle peut créer des connexions nouvelles, et elle le fait » (auteur, 13 nov.) | Le parent devient deux filles (BP-G2, BP-G3) | **[T, recoupé]** couper un tétraèdre collé à un voisin par une arête de la face commune crée un cycle de contacts ; par une autre arête, aucun ; **[M, non recoupé]** à taille fixe et volumes exclus, la forme régulière ne fait aucun cycle (0 sur 96), l'orthoschème de Kuhn en fait toujours (96 sur 96) : différence entre formes choisies d'avance ; non réconcilié avec la mitose de l'arête |
+| **Le simplexe ne peut pas se transformer : il a en instinct d'être et de devenir éternellement, son évolution passe par la mitose** (auteur, 13 nov.) | Projection perpétuelle (BP-G3) | **[T conditionnel]** à volume fixe dans un contenant borné, ou avec un coût par naissance et une énergie finie, le nombre de naissances est borné ; source d'énergie : [OPEN] |
+| **Le bain sert surtout à consolider les liants, « comme la lumière bleue avec la résine »** ; il renforce un lien et peut faire d'un contact un liant (« un peu des deux ») ; une alchimie à plusieurs ingrédients (auteur, 13 nov.) | Activation puis consolidation par des quanta du bain (BP-L1, ChatGPT) | **[M, non recoupé]** six liants persistants dans 39 à 59 % des cas avec une réserve de 6 ou 12 quanta, aucun sans bain ; énergies et taux posés à la main ; graines réemployées, déclaré ; origine : [OPEN] ; donnée postérieure au protocole CAS-2 |
+| **Un coût de naissance et une liaison suffisent-ils à s'arrêter à quatre ?** | Deux tétraèdres collés par une face (BP-S2, ChatGPT) | **[T, recoupé] non** : le cinquième porteur fait trois contacts comme le quatrième, le bilan est le même ; simulation non recoupée |
+| **« La vitesse de la lumière est liée à la causalité, car la vitesse maximale est celle de la mitose »** (auteur, 13 nov.) | Cône de transmission par contacts (BP-X3, BP-X3b, ChatGPT) | [H] ; **[T]** un saut par cycle donne un cône en nombre de liens ; **[FAIL conditionnel]** la cadence d'expansion ne peut pas être l'horloge des micro-sauts (4 × 10⁴⁰ d'écart, recoupé) ; **[T, recoupé]** aucun jeu de poids sur les 26 voisins d'un réseau cubique n'est isotrope aux ordres 4 et 6 ; **[CERT] la trame de palier de C-147c n'est isotrope qu'à l'ordre 2** (moment d'ordre 4 moyenné : rapport 2 au lieu de 3) |
+| **« Appliquer la physique existante sur le Blob, constater en quoi ça converge ou diverge, puis creuser les divergences »** (auteur, 14 nov.) | Audits GR-1 à GR-3 de C-147c et C-148c (ChatGPT) | **[T, recoupé]** C-148c à B = 1/3 est l'équation de Raychaudhuri de la poussière, sans pression, cisaillement ni rotation ; **[T, recoupé]** le potentiel de C-147c ne fixe ni le rapport des deux potentiels de la métrique (déviation de la lumière : 0,88″ ou 1,75″), ni une vitesse de propagation, ni des ondes de gravitation ; **[T, recoupé]** même graphe, même champ, même énergie, et deux pressions opposées : les contacts et un champ scalaire ne déterminent pas le tenseur énergie-impulsion ; variables manquantes : état des liants, flux |
+| **Le sens est le constat de la logique des informations empilées et retenues** (auteur, 13 nov.) | Aucune | [H] ; non traduit |
+
 ## 2. Les sept verrous au 12 novembre
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |
 |---|---|---|---|---|
 | V1 Espace-temps | Limite lorentzienne 3+1, causalité | Espace 3D étendu conservé ; distances en fils monotones [T] ; une seule vitesse au premier ordre sous produits scalaires métriques [CERT] ; sous étirement imposé, la tension produit seule la mitose régulière [CERT] ; **la mitose première étire sans échelle imposée [M]** ; **une règle purement généalogique engendre le tissu régulier [CERT]** | **Loi de cadence** (forme exigée par la mesure : C-148c ; aucun terme dérivé) ; régularité dans la durée ; énergie d'activation ; dépendance au germe ; dimension temporelle ; limite continue ; courbure | **Partiel (secteur spatial plat)** |
-| V2 Gravitation | Équations d'Einstein, G | Regge ; rails en champ faible ; forme en 1/r acquise sous condition d'un médiateur conservé (C-147c) ; même condition pour le frein de la cadence (C-148c) | La grandeur conservée émise par la matière ; l'inertie des porteurs ; G ; propagation | Ouvert |
+| V2 Gravitation | Équations d'Einstein, G | Regge ; rails en champ faible ; forme en 1/r acquise sous condition d'un médiateur conservé (C-147c) ; même condition pour le frein de la cadence (C-148c) ; **limites démontrées le 14 novembre (GR-1 à GR-3)** | La grandeur conservée émise par la matière ; l'inertie des porteurs ; G ; propagation ; **le second potentiel de la métrique ; le tenseur des contraintes (état des liants, flux)** | Ouvert |
 | V3 Quantique | Born, intrication, Bell | Secteur sombre, bain persistant, intrication de mode | Interaction de mesure | Partiel, bloqué |
 | V4 Matière | Charges, spins, médiateurs | Modes protégés neutres aux rencontres ; signe de chiralité | Charge, multiplets, axe | Partiel |
 | V5 Spectre | Masses, générations, mélanges | Cône de Koide comme cible | Tout mécanisme | Ouvert |
 | V6 Jauge | Groupe de jauge, anomalies | Symétries discrètes | Tout le reste | Ouvert |
 | V7 Prédictions | Une prédiction indépendante confirmée | F-01 gravé ; trois vitesses comme test interne | Confirmation | Ouvert |
 
-**Bilan : 0/7 (inchangé au 13 novembre).** Ce qui a changé le 12 novembre : V1 n'est plus un mur. Deux échecs répétés (absence d'expansion, extinction du bain) avaient une cause commune, la naissance dans le volume, qui n'était pas la parole de la cosmogonie. Le petit monde, lui, tenait aussi au tirage uniforme des cellules.
+**Bilan : 0/7 (inchangé au 14 novembre).** Ce qui a changé le 12 novembre : V1 n'est plus un mur. Deux échecs répétés (absence d'expansion, extinction du bain) avaient une cause commune, la naissance dans le volume, qui n'était pas la parole de la cosmogonie. Le petit monde, lui, tenait aussi au tirage uniforme des cellules.
 
 ---
 
@@ -147,4 +160,7 @@ Les théorèmes topologiques déjà acquis (modes protégés, neutralité, sépa
 6. **C-146 / CAS-2 — La capture.** Un bain qui attire rapproche-t-il deux tétraèdres jusqu'à une liaison durable, avec un bilan d'énergie fermé, de la dissipation et du bruit ? À figer avant calcul, avec une distance minimale explicite (sinon le puits n'a pas de fond), un maillage convergé des faces et les témoins sans bain, sans dissipation, sans liant.
 7. **L'équité comme loi.** Chercher une dynamique d'échanges, indépendante du nombre quatre, qui s'arrête à quatre éléments ; l'égalité des modes ne suffit pas (toutes les roues la satisfont). **Acquis du 13 novembre (BP-S1, BP-S1c)** : dans un modèle abstrait, le tétraèdre est sélectionné sans être préféré si les faces coûtent assez, ou si les porteurs naissent un à un et que la fermeture devance la naissance suivante. **Suite (BP-S2)** : naissances explicites, première fermeture qui bloque la mitose (parole du 12 novembre), volumes sans chevauchement, aucune prime de fermeture posée à la main.
 
-*Documents liés : claude/session-2026-11-12.md (C-115 à C-148c), claude/session-2026-11-11.md (C-97 à C-114), claude/dossier-integral-2026-11-10.md.*
+8. **Le tenseur des contraintes de la trame à ressorts** (demande de GR-3) : le calculer à partir des sorties de C-120 et C-132 bis, attendu écrit avant ; dire ce qui manque pour les flux.
+9. **Recouper les simulations de ChatGPT des 13 et 14 novembre** (BP-S2, BP-L1, BP-G3) : aucune ne l'est.
+
+*Documents liés : claude/session-2026-11-14.md (relève du 14 novembre), claude/session-2026-11-12.md (C-115 à C-148c), claude/session-2026-11-11.md (C-97 à C-114), claude/dossier-integral-2026-11-10.md.*

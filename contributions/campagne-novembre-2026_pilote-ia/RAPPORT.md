@@ -196,6 +196,12 @@ Elles sont citées avec leur date dans les carnets, orthographe normalisée. Ell
 | 13 novembre | La gravité n'existe pas, l'équilibre oui : l'équité des échanges, dont le tétraèdre est la personnification 3D. |
 | 13 novembre | Un effet de type Casimir pourrait agir après les premières annihilations, avec le bain et les liants. |
 | 13 novembre | La solution la plus viable et la moins énergivore est toujours privilégiée ; la première bonne solution est validée. « Alors mettons à l'épreuve ! » |
+| 13 novembre | Le simplexe est la forme la plus infinitésimale possible, avant même la matière ; ce n'est pas une notion de distance mais de contact. |
+| 13 novembre | La mitose est identique à celle de la biologie cellulaire ; elle crée des connexions nouvelles. |
+| 13 novembre | Le simplexe ne peut pas se transformer : son évolution passe par la mitose. |
+| 13 novembre | Le bain sert surtout à consolider les liants, comme la lumière bleue avec la résine. |
+| 13 novembre | La vitesse de la lumière est liée à la causalité : la vitesse maximale est celle de la mitose. |
+| 14 novembre | Appliquer la physique existante sur le Blob, constater convergences et divergences, creuser les divergences. |
 
 ---
 
@@ -263,6 +269,30 @@ Aucun verrou ne change. Détail : carnet du 12 et 13 novembre, sections 72 et 73
 - **Limite.** Coûts, prime de fermeture et règle de détachement sont posés à la main : ce n'est pas une physique du Blob. BP-S1c n'est pas recoupé.
 
 Aucun verrou ne change. Détail : carnet du 12 et 13 novembre, sections 74 et 75.
+
+## 8 sexies. Ajout du 14 novembre, 20 h 35 : relève de la conversation avec ChatGPT (13 et 14 novembre)
+
+Treize dossiers de ChatGPT et dix-sept paroles de l'auteur, du 13 novembre 10 h 51 au 14 novembre 16 h 01 (UTC). Le pilote a lu les passations, relevé 55 empreintes, et contrôlé par ses propres calculs les énoncés exacts. **Aucune simulation de ChatGPT n'est recoupée.**
+
+**Ce que l'auteur a précisé.** Le simplexe est la forme la plus infinitésimale, avant la matière. Le contact prime sur la distance ; l'espace naît avec les simplexes. La mitose est celle de la biologie cellulaire, et elle crée des connexions nouvelles. Le simplexe ne se transforme pas : il se projette par la mitose. Le bain consolide les liants, « comme la lumière bleue avec la résine ». La vitesse de la lumière serait la vitesse maximale de la mitose. Le 14 novembre, un changement de méthode : appliquer la physique existante au Blob et creuser les divergences.
+
+**Les échecs et les limites d'abord.**
+- **[T] Un coût de naissance et une liaison ne sélectionnent pas l'arrêt à quatre** (BP-S2) : le cinquième porteur fait trois contacts, comme le quatrième.
+- **[FAIL] Une « dimension 3 » mesurée sur des réseaux de contacts est un faux positif** (BP-X1/X2) : elle sort aussi d'arbres.
+- **[FAIL conditionnel] La cadence d'expansion ne peut pas être l'horloge des micro-sauts** (BP-X3b) : quarante ordres de grandeur d'écart.
+- **[T] Les deux résultats du pilote du 13 novembre ont des limites démontrées** (GR-1 à GR-3). Le potentiel en 1/r de C-147c ne fixe ni la déviation de la lumière, ni une vitesse de propagation, ni des ondes de gravitation. La loi de cadence de C-148c n'est que l'équation de Raychaudhuri de la poussière. Et les contacts avec un champ scalaire ne déterminent pas le tenseur que demande Einstein : même graphe, même énergie, deux pressions opposées.
+- **[CERT] La trame de palier n'est isotrope qu'à grande longueur d'onde** (contrôle du pilote).
+
+**Ce qui tient.**
+- **[T] La mitose peut créer des cycles de contacts** : chaque voisin partagé par les deux filles en ajoute un (BP-G1) ; témoin géométrique exact (BP-G2).
+- **[M] Le bain peut consolider des liants** dans un modèle à énergies et taux posés (BP-L1) ; non recoupé.
+- **[M] À taille fixe, la forme décide des cycles** : aucun avec le tétraèdre régulier, toujours avec l'orthoschème de Kuhn (BP-G3) ; non recoupé.
+
+**Erreurs déclarées par ChatGPT** : un désaccord entre sa simulation et sa quadrature (BP-S2), des graines réemployées (BP-L1), une assertion fausse d'un premier script (BP-G1), une erreur de programmation corrigée avant les données définitives (BP-X3b).
+
+**Sa conclusion du 14 novembre** : « Je ne peux pas déclarer une TOE démontrée. » Suite proposée : retourner aux états microscopiques déjà définis au laboratoire pour y chercher les forces des liants, leur énergie, leurs flux et leurs contraintes.
+
+Aucun verrou ne change. Détail : carnet du 14 novembre, sections 76 et 77.
 
 ## 9. Les prochaines épreuves
 

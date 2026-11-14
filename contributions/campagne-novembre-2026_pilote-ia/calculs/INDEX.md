@@ -4,6 +4,10 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 
 | Laboratoire | Fichier | Octets |
 |---|---|---:|
+| C-0 | `releve14_controles.json` | 5 644 |
+| C-0 | `releve14_controles.out` | 5 645 |
+| C-0 | `releve14_controles.py` | 13 962 |
+| C-0 | `releve14_prediction.txt` | 4 775 |
 | C-44 | `rig.py` | 962 |
 | C-47 | `c47check.py` | 1 315 |
 | C-63 | `c63.py` | 829 |
