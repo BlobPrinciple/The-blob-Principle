@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.15",
- "updated": "2026-11-07",
+ "version": "1.16",
+ "updated": "2026-11-13",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -694,6 +694,32 @@
    "path_step": "P1",
    "state": "ouvert",
    "history": [],
+   "derived": []
+  },
+  {
+   "code": "DEFI-M20",
+   "level": 2,
+   "statement_fr": "Le coût en arêtes du pont RO-08 (RO-08). Le graphe canonique de A_Gibbs (κ = 6,6) ne peut être le 1-squelette d'aucune 3-variété fermée connexe (borne de Walkup f₁ ≥ 4f₀ − 10) et viole les conditions locales de link chez 96 à 97,5 % des sommets, l'aristocratie étant l'obstacle local (contributions/RO-08_pilote-ia/NOTE.md). Quel est le plus petit nombre de changements d'arêtes qui fait d'une configuration typique le 1-squelette d'une triangulation de T³, et ce coût par sommet a-t-il une limite quand N croît ? Une mesure de Gibbs à κ ≥ 8 garde-t-elle l'aristocratie ?",
+   "statement_en": "The edge cost of the RO-08 bridge (RO-08). The canonical A_Gibbs graph (κ = 6.6) cannot be the 1-skeleton of any connected closed 3-manifold (Walkup's bound f₁ ≥ 4f₀ − 10) and violates the local link conditions at 96 to 97.5 % of vertices, the aristocracy being the local obstacle (contributions/RO-08_pilote-ia/NOTE_EN.md). What is the smallest number of edge changes that turns a typical configuration into the 1-skeleton of a triangulation of T³, and does the cost per vertex have a limit as N grows? Does a Gibbs measure at κ ≥ 8 keep the aristocracy?",
+   "deliverable_fr": "Un algorithme explicite de complétion (graphe → triangulation de T³) et son coût mesuré à plusieurs N ; ou une borne inférieure démontrée meilleure que 0,7·N + 20 ; ou la mesure des conditions locales sous une variante de A_Gibbs à κ ≥ 8.",
+   "deliverable_en": "An explicit completion algorithm (graph → triangulation of T³) with its cost measured at several N; or a proven lower bound better than 0.7·N + 20; or the measurement of the local conditions under a variant of A_Gibbs with κ ≥ 8.",
+   "open_research": [
+    "RO-08"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/56",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-11-13",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/55",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[T] à κ = 6,6 (|E| = round(3,3·N), conservé), la borne de Walkup f₁ ≥ 4f₀ − 10 exclut, pour N ≥ 16, que le graphe de A_Gibbs soit le 1-squelette d'une 3-variété fermée connexe, quelles que soient les faces ; [M] moteur canonique, N = 500 à 4 000 : 96 à 97,5 % des sommets violent une condition locale nécessaire (92 % sans viabilité), 65 % des arêtes ont moins de 3 voisins communs ; le Blob franchit le seuil global n_tri/N ≥ κ − 2 mais concentre les triangles (aristocratie)",
+     "effect": "travail fondateur sur RO-08 : la voie « mise en faces du graphe » est exclue ; RO-08 reste ouvert pour les autres voies ; aucun changement de statut",
+     "result_en": "[T] at κ = 6.6 (|E| = round(3.3·N), preserved), Walkup's bound f₁ ≥ 4f₀ − 10 excludes, for N ≥ 16, that the A_Gibbs graph be the 1-skeleton of a connected closed 3-manifold, whatever the faces; [M] canonical engine, N = 500 to 4,000: 96 to 97.5 % of vertices violate a necessary local condition (92 % without viability), 65 % of edges have fewer than 3 common neighbours; the Blob crosses the global threshold n_tri/N ≥ κ − 2 but concentrates triangles (aristocracy)",
+     "effect_en": "founding work on RO-08: the route \"choice of faces on the graph\" is excluded; RO-08 stays open for the other routes; no status change"
+    }
+   ],
    "derived": []
   },
   {

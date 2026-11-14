@@ -24,7 +24,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 ### État des défis
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*État au 2026-11-07 — défis v1.15.*
+*État au 2026-11-13 — défis v1.16.*
 
 | Défi | Étape du chemin de preuve | État | Dernier événement |
 |---|---|---|---|
@@ -59,6 +59,7 @@ Tous les défis servent un seul but, déclaré par l'auteur : faire du Blob une 
 | DEFI-M17 | P1 | ouvert | — |
 | DEFI-M18 | P1 | ouvert | — |
 | DEFI-M19 | P1 | ouvert | — |
+| DEFI-M20 | P1 | ouvert | 2026-11-13 : [T] à κ = 6,6 (|E| = round(3,3·N), conservé), la borne de Walkup f₁ ≥ 4f₀ − 10 exclut, pour N ≥ 16, que le graphe de A_Gibbs soit le 1-squelette d'une 3-variété fermée connexe, quelles que soient les faces ; [M] moteur canonique, N = 500 à 4 000 : 96 à 97,5 % des sommets violent une condition locale nécessaire (92 % sans viabilité), 65 % des arêtes ont moins de 3 voisins communs ; le Blob franchit le seuil global n_tri/N ≥ κ − 2 mais concentre les triangles (aristocratie) |
 | DEFI-G1 | P2 | ouvert | — |
 | DEFI-G2 | P2 | ouvert | — |
 | DEFI-G3 | P2 | ouvert | — |
@@ -163,6 +164,7 @@ Les réfutations retenues sont inscrites au **Mur des réfutateurs**, avec le no
 | 15/10/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-R3 | Le comptage incrémental des triangles du moteur archivé V109 (V346 p. 291–292) : surcompte de +1,4 % à +2,7 % ([note](contributions/R3_pilote-ia/NOTE.md)) | Script [ARCH] corrigé ; le moteur canonique n'est pas concerné ; statut inchangé |
 | 23/10/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-R5 | Six passages du master V346 contredits par les JSON qu'ils rapportent : ligne N = 1000 du tableau M-7.1 recopiée de N = 3000 ; « σ² ∝ V^≈1 » (fit enregistré : 3,23) ; borne de A1.5 évaluée dix fois trop haut ; toile « propre à la viabilité » alors que le témoin sans viabilité reproduit l'essentiel de l'effet ; ρ* « stable » ; deux métriques d'erreur mêlées ([note](contributions/R5_pilote-ia/NOTE.md), [#39](https://github.com/BlobPrinciple/The-blob-Principle/issues/39)) | Corrections à porter au master s'il est réédité ; armature V347.1 non touchée ; défi dérivé DEFI-R6 ; statut inchangé |
 | 03/11/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | DEFI-R6 | La toile « propre à la viabilité » dont « l'excès croît avec N » (V346 XXV.2–XXV.3, p. 644–646) : l'amplitude relative P_max/N² est constante de N = 1 000 à 20 000, la croissance de P_max/médiane n'est que la normalisation par le bruit de grenaille, et la structure à grande échelle est présente sans viabilité ; la viabilité garde une action propre à petite échelle ([note](contributions/R6_pilote-ia/NOTE.md), [#46](https://github.com/BlobPrinciple/The-blob-Principle/issues/46)) | Correction à porter au master s'il est réédité ; armature V347.1 non touchée ; défi dérivé DEFI-R7 ; statut inchangé |
+| 13/11/2026 | Pilote IA du laboratoire (Claude, Anthropic) — non relu par une personne | RO-08 (DEFI-M20) | La voie la plus économe du pont A_Gibbs → B, garder sommets et arêtes et choisir les faces : à κ = 6,6, la borne de Walkup (f₁ ≥ 4f₀ − 10) l'exclut pour N ≥ 16, et 96 à 97,5 % des sommets violent une condition locale nécessaire ([note](contributions/RO-08_pilote-ia/NOTE.md), [#55](https://github.com/BlobPrinciple/The-blob-Principle/issues/55)) | Le pont doit changer le graphe ; RO-08 reste ouvert ; DEFI-M20 ouvert ; statut inchangé |
 
 *La place suivante vous attend.*
 

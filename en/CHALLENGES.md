@@ -24,7 +24,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 ### Challenge status
 
 <!-- ETAT-DEFIS:DEBUT (généré par outils/defis.py, ne pas modifier à la main) -->
-*Status as of 2026-11-07 — challenges v1.15.*
+*Status as of 2026-11-13 — challenges v1.16.*
 
 | Challenge | Proof-path step | State | Latest event |
 |---|---|---|---|
@@ -59,6 +59,7 @@ Every challenge serves a single goal, stated by the author: make the Blob a stro
 | DEFI-M17 | P1 | open | — |
 | DEFI-M18 | P1 | open | — |
 | DEFI-M19 | P1 | open | — |
+| DEFI-M20 | P1 | open | 2026-11-13: [T] at κ = 6.6 (|E| = round(3.3·N), preserved), Walkup's bound f₁ ≥ 4f₀ − 10 excludes, for N ≥ 16, that the A_Gibbs graph be the 1-skeleton of a connected closed 3-manifold, whatever the faces; [M] canonical engine, N = 500 to 4,000: 96 to 97.5 % of vertices violate a necessary local condition (92 % without viability), 65 % of edges have fewer than 3 common neighbours; the Blob crosses the global threshold n_tri/N ≥ κ − 2 but concentrates triangles (aristocracy) |
 | DEFI-G1 | P2 | open | — |
 | DEFI-G2 | P2 | open | — |
 | DEFI-G3 | P2 | open | — |
@@ -163,6 +164,7 @@ Accepted refutations are entered on the **Wall of Refuters**, with the name of t
 | 2026-10-15 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-R3 | The incremental triangle count of the archived V109 engine (V346 pp. 291–292): +1.4% to +2.7% overcount ([note](../contributions/R3_pilote-ia/NOTE_EN.md)) | [ARCH] script corrected; the canonical engine is not affected; status unchanged |
 | 2026-10-23 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-R5 | Six passages of the V346 master contradicted by the JSON files they report: N = 1000 row of table M-7.1 copied from N = 3000; "σ² ∝ V^≈1" (recorded fit: 3.23); A1.5 bound evaluated ten times too high; web "specific to viability" although the control without viability reproduces most of the effect; "stable" ρ*; two error metrics mixed ([note](../contributions/R5_pilote-ia/NOTE_EN.md), [#39](https://github.com/BlobPrinciple/The-blob-Principle/issues/39)) | Corrections to be made to the master if re-issued; V347.1 framework untouched; derived challenge DEFI-R6; status unchanged |
 | 2026-11-03 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | DEFI-R6 | The web "specific to viability" whose "excess grows with N" (V346 XXV.2–XXV.3, pp. 644–646): the relative amplitude P_max/N² is constant from N = 1,000 to 20,000, the growth of P_max/median is only the shot-noise normalisation, and the large-scale structure is present without viability; viability keeps a small-scale action of its own ([note](../contributions/R6_pilote-ia/NOTE_EN.md), [#46](https://github.com/BlobPrinciple/The-blob-Principle/issues/46)) | Correction to be made to the master if re-issued; V347.1 framework untouched; derived challenge DEFI-R7; status unchanged |
+| 2026-11-13 | The laboratory's AI pilot (Claude, Anthropic) — not reviewed by a person | RO-08 (DEFI-M20) | The most economical route of the A_Gibbs → B bridge, keeping vertices and edges and choosing the faces: at κ = 6.6, Walkup's bound (f₁ ≥ 4f₀ − 10) excludes it for N ≥ 16, and 96 to 97.5 % of vertices violate a necessary local condition ([note](../contributions/RO-08_pilote-ia/NOTE_EN.md), [#55](https://github.com/BlobPrinciple/The-blob-Principle/issues/55)) | The bridge must change the graph; RO-08 stays open; DEFI-M20 opened; status unchanged |
 
 *The next place is waiting for you.*
 
