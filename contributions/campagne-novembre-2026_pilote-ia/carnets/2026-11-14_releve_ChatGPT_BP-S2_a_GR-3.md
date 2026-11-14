@@ -275,7 +275,7 @@ Le message `echanges/msg_c149c.txt` ([CLAUDE-C149C]) réunit : les douze contrô
 
 ---
 
-## 82. Fusion de la demande n° 54 ; première réponse de ChatGPT à C-149c et contre-calcul (14 novembre, 22 h 00)
+## 82. Fusion de la demande n° 54 ; première réponse de ChatGPT à C-149c et contre-calcul (14 novembre, 21 h 55)
 
 ### 82.1 Fusion
 
