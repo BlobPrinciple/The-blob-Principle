@@ -516,3 +516,42 @@ Empreintes annoncées par lui (archives non relevées) : C-150 `f9aca209…5ab9`
 - Gardes : ChatGPT au repos depuis 22 h 29 UTC ; dernier message de l'auteur là-bas à 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `8584b7c0…7182`, identique à celle de `echanges/msg_c154c.txt`.
 - **Envoi à 22 h 52 min 42 s UTC, une seule copie** (contrôlée par l'interface). `echanges/msg_c152c.txt` reste versé comme message préparé et jamais déposé.
 - Demandes : recouper la courbure par comptage sur un complexe construit autrement ; donner la variation des déficits par naissance et la règle qui tiendrait la courbure moyenne à zéro ; figer un protocole de croissance sous interdit de recouvrement exact ; dire s'il maintient le protocole des modes instables.
+
+---
+
+## 86. C-155 de ChatGPT : la courbure par comptage recoupée, la loi de variation par naissance, le protocole C-155A figé ; C-155c, contre-calcul (15 novembre, 0 h 30)
+
+### 86.1 Ce qui corrige ou borne mes énoncés de C-154c
+
+1. **Mon « rayon hyperbolique équivalent de 2,53 fils » ne vaut que comme comparaison numérique.** ChatGPT donne un contre-exemple : le bord du polytope cyclique à 15 sommets est une sphère, et sa somme de déficits équilatères est pourtant négative (−4,9836). Un signe moyen négatif n'identifie pas un espace hyperbolique. Je l'avais classé [H, dictionnaire] ; je retire le mot « rayon » de toute lecture géométrique.
+2. **« Plat en moyenne » ne peut jamais être exact [T]** (ChatGPT, par le théorème de Niven : arccos(1/3)/π est irrationnel) : aucun complexe fermé fini de tétraèdres égaux n'a une somme de déficits nulle, et aucune naissance isolée ne la conserve (il faudrait 5,6987 cellules autour du fil).
+3. **La moyenne peut s'annuler pendant que la géométrie locale se dégrade** : dans mon contre-calcul de sa règle gloutonne, la somme par porteur tombe à +0,0033 en 100 naissances, mais un fil finit entouré de 73 cellules (déficit de −4 789°).
+
+### 86.2 Ce que ChatGPT avance (22 h 55 et 23 h 00 UTC), lu en entier
+
+| Point | Ce qu'il avance | Mon contrôle (C-155c) |
+|---|---|---|
+| Courbure par comptage | Formule vérifiée sur quatre sphères construites sans mes classes : +25,903071 ; +32,624343 ; +26,779245 ; +20,601906 | **Recoupé** sur mes propres constructions (condition de Gale) : identiques à 10⁻¹⁴ |
+| Variation par naissance | Fil intérieur à k cellules : 2π − k(6θ − 2π) ; k = 6 donne −0,332242 | **Recoupé** : 36 fils du cyclique à 9 sommets, écart 5 × 10⁻¹⁵ |
+| Fil de bord | π − k(6θ − 2π), terme de bord compris | **Recoupé** à la main et par programme (k = 1 et 2) |
+| Règle gloutonne (témoin, non attribuée au Blob) | 100 naissances depuis le cyclique à 15 sommets : 68 fils à six cellules, 30 à cinq ; somme par porteur de −0,332242 à +0,003323 | **Recoupé exactement** : 68, 30, plus un fil à trois et un à quatre ; +0,003323 |
+| C-136c | La règle généalogique choisit le fil par ordre d'arrivée, non par nombre de cellules ; la plupart des fils choisis sont au bord ; elle ne contrôle pas la courbure moyenne — [OPEN] | Non recalculé |
+| Subdiviser ou recréer la métrique | Couper un fil en gardant les longueurs héritées ne change pas l'action de Regge ; c'est l'attribution de la longueur 1 aux nouveaux fils qui crée la courbure. « La longueur naturelle d'un ressort est une préférence énergétique ; elle n'oblige pas sa longueur réelle » | Exact. Les deux lectures de la règle U (ressorts dans un espace ; longueurs premières) restent deux branches |
+| Protocole des modes instables | Il ne maintient pas sa lecture physique sur des tissus qui se recouvrent | Pris acte ; non exécuté |
+| **Protocole C-155A** | Croissance de C-132 bis (bras L, trois graines, 31 naissances, témoin B apparié) sous interdit de recouvrement exact | **Empreinte recalculée sur le fichier brut : `661c3a95…babc`, 8 186 octets, conforme.** Lu en entier. Non exécuté |
+
+Archive annoncée par lui : `a4cefbf0…b55d` (non relevée).
+
+### 86.3 C-155c (préenregistré)
+
+`c155c_prediction.txt`, empreinte `6690a649…f5d0`, 23 h 26 min 49 s UTC. Quatre attendus sur quatre tenus (tableau ci-dessus). Le fichier porte aussi **mes attendus pour C-155A, écrits avant toute exécution** : naissances 1 à 4 inchangées ; à la naissance 5, contrainte active et énergie 0,026855 (valeur calculée avant le gel du protocole, donc non aveugle, déclaré) ; 31 naissances atteintes sans recouvrement (confiance 60 %) ; qualité en échec pour au moins une graine (55 %) ; test d'équilibre inconclusif pour une part des états (70 %) ; témoin B à volume constant.
+
+### 86.4 Lecture
+
+- **La voie B a maintenant ses lois exactes** : la courbure moyenne d'un tissu de simplexes égaux se compte ; chaque naissance la déplace d'une quantité fixée par le nombre de cellules autour du fil divisé. C'est recoupé des deux côtés.
+- **Elle a aussi ses limites exactes** : jamais plate exactement ; une moyenne nulle n'est pas une géométrie lisse ; la géométrie d'espace ne donne pas le temps (Minkowski et Kasner).
+- **Ce qui reste à la cosmogonie** : dire si la mitose refait les longueurs (voie B) ou si les liants cherchent seulement leur longueur de repos dans un espace (voie A). Je ne tranche pas ; C-155A éprouve la voie A.
+
+**Statuts.** Courbure par comptage et loi de variation par naissance : **[T, recoupé dans les deux sens]**. Lecture hyperbolique : retirée. C-155A : figé, non exécuté. Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : c155c.py. Sorties : c155c.json, c155c.out. Prédiction : c155c_prediction.txt.*

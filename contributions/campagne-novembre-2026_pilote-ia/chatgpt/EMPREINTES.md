@@ -205,3 +205,16 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 | `BP_C149_CONTRE_AUDIT_2026-11-14/PROTOCOLE_BP_L1_ORIGINAL.md` | 5 228 | `ab73d332bdd692bc0fda5bcf108b4f6b81f8e654777d4ab9ea9ebe209b0bd63d` |
 
 `BP_S2_2026-11-13/BP_S2_RAPPORT_SCIENTIFIQUE.md` relu le 14 novembre au soir : empreinte `d86fbf48…80c1`, inchangée.
+
+## C-150 à C-155 de ChatGPT (14 novembre 2026, 21 h 38 à 23 h 00 UTC) — empreintes seules
+
+| Fichier | Octets | SHA-256 |
+|---|---:|---|
+| `BP_C155_2026-11-14/PROTOCOLE_A_CROISSANCE_SANS_RECOUVREMENT_FIGE.md` (relevé, empreinte recalculée) | 8 186 | `661c3a95da734c4dbce5ae1988f20cb7dc4d0c44422bab21e0397d50ce1ababc` |
+| `BP_C150_RELEVE_2026-11-14/PROTOCOLE_C132_MODES_INSTABLES_FIGE.md` (annoncée, non relevée) | — | `31ccd3c9754ae749e96275c03a839e470156c590f324f7dc72845069401cc9ec` |
+| `BP_C150_RELEVE_CLAUDE_2026-11-14.zip` (annoncée, non relevée) | — | `f9aca2097ef07e05abb13962aa9baeadf11d102cfd4a95dce694652d6ab75ab9` |
+| `BP_C151_BLOB_MODES_ET_COLLISIONS_2026-11-14.zip` (annoncée, non relevée) | — | `4a235a5fd9bd4358922577eb1eb56841939134d0c63e449262eee308e79154fd` |
+| `BP_C152_REPLAY_ORIGINAL_ET_COLLISIONS_2026-11-14.zip` (annoncée, non relevée) | — | `f38b92ec942d3addbb2a249256f7877ce46760a0eb6fcd027e0657c1120f7fd3` |
+| `BP_C153_AUDIT_GEOMETRIE_PHYSIQUE_2026-11-14.zip` (annoncée, non relevée) | — | `16bf352a37004c993420734f8c74d977fe6dcb79b15b283a8e65a1830605e95f` |
+| `BP_C155_REGGE_MITOSE_AUDIT_2026-11-14.zip` (annoncée, non relevée) | — | `a4cefbf0593b692451b467349607481edef95fae3b3de80c80480c4c6fd4b55d` |
+

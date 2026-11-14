@@ -378,3 +378,7 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-154 | `c154c_kasner.out` | 126 |
 | C-154 | `c154c_kasner.py` | 1 504 |
 | C-154 | `c154c_prediction.txt` | 3 256 |
+| C-155 | `c155c.json` | 1 395 |
+| C-155 | `c155c.out` | 1 396 |
+| C-155 | `c155c.py` | 3 256 |
+| C-155 | `c155c_prediction.txt` | 2 491 |
