@@ -242,3 +242,8 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 - `RAPPORT_SCIENTIFIQUE_C165.md` : 9 027 octets, `168a7194c8948422e5eb3d17791c9a96932b9b1ac7eeaa85fe7384eb5a352e00`, non lu.
 - `C165_SUMMARY.csv` : 435 octets, `384ce0de7cd58f165eea11076d65c54a7f8e22dacb39bbac6008a4f4a6fbb479`, non lu.
 - `c165_hessian_counterexample.py` : non obtenu.
+
+## C-166-E (15 novembre 2026, 15:36 UTC, nouvelle conversation, tout [EXPLORATOIRE])
+
+- `BP_C166_EXPLORATION.zip`, 50 097 octets : empreinte recalculée sur le fichier brut `5ff91983049a071c23b8679e35e7639a9c819f422882fbecc0c7410f5d166de2` (aucune empreinte annoncée dans le message). 15 fichiers, dont des copies de mes programmes (c120, c132_audit, c152c, c155a, c164c).
+- Lus en entier : `explore.py` (2 763 octets), `check_second.py` (2 316), `exploration.log` (500), `second_order.log` (746). `LISEZ_MOI.md` (8 058) : lu sur ses 3 500 premiers caractères. Non lus : `MANIFEST_SHA256.json`, `blob_states.json`, les deux fichiers de coordonnées.
