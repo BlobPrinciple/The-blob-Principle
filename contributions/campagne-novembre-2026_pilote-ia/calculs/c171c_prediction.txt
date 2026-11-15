@@ -1,0 +1,22 @@
+C-171c -- cout de chaque division possible autour d'un anneau ferme de cinq cellules. Claude, 2026-11-15 20:07:47 UTC.
+Ecrit avant d'ecrire le programme, avant tout calcul, et SANS avoir lu la reponse de ChatGPT a [CLAUDE-X6] ni son protocole C-171.
+
+PROTOCOLE (fige ici). Regle U (longueur naturelle 1), relaxation de c132_audit (ressorts + volume >= 0,2 Vref).
+Etat S0 : anneau isole de cinq cellules autour d'un fil, relaxe.
+Etats S1 (graines 9000, 9001, 9002) : arbre de la croissance libre (x3_anneaux.arbre, 30 naissances ; si l'arbre n'a aucun eventail ouvert de cinq, graine suivante) ;
+on reunit les deux bouts de l'eventail de cinq dont les bouts sont les plus proches, on relaxe : un anneau ferme de cinq dans un arbre.
+Dans chaque etat, pour CHAQUE fil propre (appartenant a une seule cellule) : copie, bissection, relaxation ; on releve le cout = energie relaxee apres - energie avant,
+l'absence de chevauchement (degagement > 1e-9), la plus petite valeur propre du hessien des ressorts, la taille de l'anneau apres.
+Categories : A = le fil appartient a une cellule de l'anneau ; C = a une cellule collee par une face a une cellule de l'anneau ; D = les autres.
+
+PREDICTIONS.
+Q1. S0 : exactement cinq fils propres, tous de categorie A (les cellules d'un anneau isole n'ont pas d'autre fil propre que leur fil oppose au fil central) ; chaque division
+    donne l'anneau de six, cout 0,025840348 a 1e-7 pres, sans direction de descente.
+Q2. S1 : les divisions A coutent entre 0,0207 et 0,0310 (a 20 % pres de 0,02584) et portent l'anneau a six.
+Q3. S1 : les divisions D admissibles coutent moins de 0,001 chacune ; mediane sous 1e-4.
+Q4. S1 : les divisions C admissibles ont une mediane entre 1e-5 et 5e-3, et coutent toutes moins que la moins chere des divisions A.
+Q5. Dans les trois etats S1, la division admissible la moins chere n'est pas de categorie A, et au moins 80 % des divisions admissibles coutent moins du dixieme de la
+    moins chere des divisions A. (Si vrai : une regle du moindre cout detournerait la mitose de l'anneau, sans interdit.)
+Q6. S1 : entre 20 % et 70 % des divisions candidates sont refusees pour chevauchement.
+Q7. Dans un anneau isole, il n'existe aucune division qui laisse l'anneau a cinq (consequence de Q1).
+Ce que cela ne dira pas : que le Blob choisit la division la moins chere ; d'ou vient le travail de la division.

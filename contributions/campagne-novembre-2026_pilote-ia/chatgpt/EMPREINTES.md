@@ -271,3 +271,10 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 - `C170_PROTOCOLE_AVANT_CALCUL.md` : 6 148 octets, empreinte recalculée sur le fichier brut `f97a84b32ccb08efcb6fd579dc52f8f73e59ab239cef01905b9b9fab5c5a3169`, **conforme à l'annonce** ; non lu.
 - `C170_PASSATION_CLAUDE.md` : 4 860 octets, `3911185122748e2f0c4467387f5c1ed1c3fd64f4ff52637b8a06d3b3e3693dd3`, lue en entier.
 - `BLOB_C170_CONTRE_AUDIT_ALTERNANCE_2026-11-15.zip` : 42 299 octets, `636616dfdfbc65ad429d13c327150a9ba03497953640a9488758b5483d057a38` (aucune empreinte annoncée) ; 27 fichiers, programme et rapport non lus.
+
+## C-171 / PR-1, protocole scellé non exécuté (15 novembre 2026, 19:20 UTC)
+
+- `C171_PROTOCOLE_FIGE.md` : 14 133 octets, empreinte recalculée sur le fichier brut `f41a013298b07a201dd2f66a06c7f853982075b9b98a10d9343f344c6aa0ee34`, **conforme à l'annonce** ; lu sur ses 4 500 premiers caractères, après l'écriture de ma prédiction et l'exécution de mon calcul.
+- `C171_PASSATION_A_CLAUDE.md` : 3 646 octets, `fa3f8cf360a7856103dd208bce4674b9438476e43d65e76aebe88cca0a2f261f`, lue en entier.
+- `BLOB_C171_PROTOCOLE_SCELLE_2026-11-15.zip` : 22 167 octets, `4505b9f1990a242437c69b74ad948b0b67e664e4c21fdd40d5ddf83004dc1ff3`.
+- Empreinte annoncée de sa prédiction scellée (texte non transmis) : `51f03ca8e9b892bc02cfb85a7d7d2f4d558592be1d2c5c63a17101db1a460f2e`.

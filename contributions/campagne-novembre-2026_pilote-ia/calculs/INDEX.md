@@ -519,3 +519,7 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-7 [EXPLORATOIRE] | `x7_hasard_v1.json` | 1 385 |
 | X-7 [EXPLORATOIRE] | `x7_hasard_v1.out` | 638 |
 | X-7 [EXPLORATOIRE] | `x7_moindre_cout.py` | 4 810 |
+| C-171c | `c171c.json` | 20 657 |
+| C-171c | `c171c.out` | 7 962 |
+| C-171c | `c171c.py` | 2 824 |
+| C-171c | `c171c_prediction.txt` | 2 369 |
