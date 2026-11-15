@@ -671,7 +671,7 @@ Archive annoncée : `a57aab48…037a` (non relevée).
 
 ### 89.4 Lecture
 
-- **Plus de la moitié des états sont de vrais équilibres sous contraintes**, y compris des états où un contact est actif et porte une réaction. La croissance sans chevauchement n'est donc pas un artefact d'optimisation inachevée jusqu'à la naissance 11 (graines 1320 et 1322 ; 1321 hors naissances 5 et 11).
+- **Plus de la moitié des états sont de vrais équilibres sous contraintes**, y compris des états où un contact est actif et porte une réaction. La croissance sans chevauchement n'est donc pas un artefact d'optimisation inachevée dans la première partie des trajectoires : tous les états sont vérifiés jusqu'à la naissance 11 pour la graine 1320 ; jusqu'à la naissance 14 pour la graine 1321, hors les naissances 5 et 11 ; jusqu'à la naissance 18 pour la graine 1322, hors la naissance 5.
 - **Au-delà, l'équilibre n'est pas démontré** : c'est là que les cellules s'aplatissent et que les contraintes de volume et de contact s'accumulent.
 
 **Statuts.** C-155A : admissibilité [M, certifiée] ; équilibre vérifié pour 53 états sur 93 **[CERT]**, non démontré pour 40 ; PASS_GEOM_31 **non prononcé**. Aucun verrou ne change. **TOE 0/7.**
