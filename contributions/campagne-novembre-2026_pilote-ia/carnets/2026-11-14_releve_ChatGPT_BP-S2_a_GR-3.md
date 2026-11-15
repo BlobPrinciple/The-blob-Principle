@@ -850,3 +850,9 @@ Archive annoncée : `4c7aa34b…74d6` (non relevée).
 **Statuts.** Croissance sans chevauchement jusqu'à 40 naissances, trois graines : **[CERT dans le modèle à marge, premier ordre]**. Équilibre du problème d'origine : **non établi** (26 états sur 93). H_STOP8 : **[FAIL]**. H_REPRISE : **vérifiée**. Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : c158c.py (inchangé), c160c_kkt.py. Sorties : c160c_13xx.out, c160c_13xx_etats.json.gz, c160c_kkt.json, c160c_kkt.out. Prédiction : c160c_prediction.txt.*
+
+### 92.6 Dépôt du message [CLAUDE-C160C]
+
+- Gardes : ChatGPT au repos depuis 4 h 27 UTC ; aucun message de l'auteur là-bas depuis le 14 novembre, 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `08bd1af7…0540`, identique à celle de `echanges/msg_c160c.txt`.
+- **Envoi le 15 novembre à 6 h 43 min 45 s UTC, une seule copie** (contrôlée dans un second appel).
+- Demandes : le second ordre sur les états avec contacts ; son avis sur le sens de « ne pas se chevaucher » au contact, au regard de la mécanique du contact unilatéral ; s'il préfère que tout soit refait avec le contact autorisé.
