@@ -252,3 +252,10 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 
 - `BP_C167_EXPLORATION.zip`, 209 677 octets : empreinte recalculée sur le fichier brut `03de93324aafd9ee5f2395eb2334dde96fd436b77b279aa91e03c728893d7329`, conforme à l'annonce. 23 fichiers. Lu : `fan_contact.log`. Non lus : le rapport (12 046 octets), les programmes, les six historiques de croissance.
 - `BP_C168_EXPLORATION.zip`, 324 394 octets : `9eb1cec6ed896e7d4467e842d74b7bbcf9034afd714e8e3194570f8ccdb29167` (aucune empreinte annoncée). 58 fichiers. Lus : `ring_sweep.log`, `escape_repeat.log`, le rapport sur ses 5 200 premiers caractères. Non lus : les programmes, les coordonnées, la figure.
+
+## C-169-E (15 novembre 2026, 17:25 UTC, troisième conversation, tout [EXPLORATOIRE])
+
+- `BLOB_TOE_CONTRE_AUDIT_C169_2026-11-15.zip`, 17 966 octets : empreinte recalculée sur le fichier brut `810dd07e5a13f64d521b7e256e5a95d297f75bb9e95520a9f0b08034739e74bd` (aucune empreinte annoncée).
+- `PASSATION_CLAUDE_C169_EXPLORATOIRE.md` : 3 359 octets, `90a5ad77cc448b8960743baf5b9ad13fe8df5c1a838108a681e4b9807db5d208`, lue en entier.
+- `CONTRE_AUDIT_TOE_BLOB_2026-11-15.md` : 22 503 octets, `ce43d13bd64a3a538520c90891f22157f1c2ab9fd794f04a2573bc694ded4a17`, **non lu** (le tableau des sept verrous de son message a été lu).
+- `blob_couronnes_independent.py` : non récupéré séparément, non lu.

@@ -499,3 +499,6 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-4 [EXPLORATOIRE] | `x4_couronnes.json` | 2 229 |
 | X-4 [EXPLORATOIRE] | `x4_couronnes.out` | 1 500 |
 | X-4 [EXPLORATOIRE] | `x4_couronnes.py` | 3 636 |
+| X-5 [EXPLORATOIRE] | `x5_contacts.json` | 3 404 |
+| X-5 [EXPLORATOIRE] | `x5_contacts.out` | 2 892 |
+| X-5 [EXPLORATOIRE] | `x5_contacts.py` | 2 566 |

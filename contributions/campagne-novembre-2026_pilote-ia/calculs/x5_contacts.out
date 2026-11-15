@@ -1,0 +1,45 @@
+d_k {2: 1.632993162, 3: 1.666666667, 4: 1.088662108, 5: 0.111111111, 6: 0.907218423, 7: 1.592592593} | 1/9 = 0.1111111111111111 | 5/3 = 1.6666666666666667 | racine(8/3) = 1.632993161855452
+6000 cellules 61
+    0,25-0,5 | voisins communs 0 | plus grand eventail commun 0 : 2
+    0,5-1 | voisins communs 0 | plus grand eventail commun 0 : 16
+    0,5-1 | voisins communs 1 | plus grand eventail commun 0 : 4
+    1,0887 | voisins communs 2 | plus grand eventail commun 4 : 3
+    1,0887 | voisins communs 2 | plus grand eventail commun 5 : 26
+    1-1,2 | voisins communs 0 | plus grand eventail commun 0 : 41
+    1-1,2 | voisins communs 1 | plus grand eventail commun 0 : 55
+    1/9 | voisins communs 2 | plus grand eventail commun 5 : 13
+    <0,25 | voisins communs 0 | plus grand eventail commun 0 : 2
+    <0,25 | voisins communs 1 | plus grand eventail commun 0 : 5
+6001 cellules 61
+    0,25-0,5 | voisins communs 1 | plus grand eventail commun 0 : 1
+    0,5-1 | voisins communs 0 | plus grand eventail commun 0 : 1
+    0,5-1 | voisins communs 1 | plus grand eventail commun 0 : 3
+    1,0887 | voisins communs 2 | plus grand eventail commun 4 : 5
+    1,0887 | voisins communs 2 | plus grand eventail commun 5 : 30
+    1-1,2 | voisins communs 0 | plus grand eventail commun 0 : 17
+    1-1,2 | voisins communs 1 | plus grand eventail commun 0 : 55
+    1/9 | voisins communs 2 | plus grand eventail commun 5 : 15
+    <0,25 | voisins communs 1 | plus grand eventail commun 0 : 3
+6002 cellules 61
+    0,25-0,5 | voisins communs 0 | plus grand eventail commun 0 : 4
+    0,25-0,5 | voisins communs 1 | plus grand eventail commun 0 : 1
+    0,5-1 | voisins communs 0 | plus grand eventail commun 0 : 9
+    0,5-1 | voisins communs 1 | plus grand eventail commun 0 : 6
+    1,0887 | voisins communs 2 | plus grand eventail commun 4 : 1
+    1,0887 | voisins communs 2 | plus grand eventail commun 5 : 30
+    1-1,2 | voisins communs 0 | plus grand eventail commun 0 : 44
+    1-1,2 | voisins communs 1 | plus grand eventail commun 0 : 60
+    1/9 | voisins communs 2 | plus grand eventail commun 5 : 15
+    <0,25 | voisins communs 1 | plus grand eventail commun 0 : 4
+6003 cellules 61
+    0,25-0,5 | voisins communs 0 | plus grand eventail commun 0 : 4
+    0,25-0,5 | voisins communs 1 | plus grand eventail commun 0 : 5
+    0,5-1 | voisins communs 0 | plus grand eventail commun 0 : 7
+    0,5-1 | voisins communs 1 | plus grand eventail commun 0 : 7
+    1,0887 | voisins communs 2 | plus grand eventail commun 4 : 8
+    1,0887 | voisins communs 2 | plus grand eventail commun 5 : 22
+    1-1,2 | voisins communs 0 | plus grand eventail commun 0 : 26
+    1-1,2 | voisins communs 1 | plus grand eventail commun 0 : 49
+    1/9 | voisins communs 2 | plus grand eventail commun 5 : 11
+    <0,25 | voisins communs 0 | plus grand eventail commun 0 : 1
+    <0,25 | voisins communs 1 | plus grand eventail commun 0 : 3
