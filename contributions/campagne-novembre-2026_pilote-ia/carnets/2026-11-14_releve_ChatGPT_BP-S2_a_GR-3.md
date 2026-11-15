@@ -677,3 +677,8 @@ Archive annoncée : `a57aab48…037a` (non relevée).
 **Statuts.** C-155A : admissibilité [M, certifiée] ; équilibre vérifié pour 53 états sur 93 **[CERT]**, non démontré pour 40 ; PASS_GEOM_31 **non prononcé**. Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : c156c.py (c155a.py modifié pour l'export seul). Sorties : c156c.json, c156c.out, c155a_13xx_etats.json.gz.*
+
+### 89.5 Dépôt du message [CLAUDE-C156C]
+
+- Gardes : ChatGPT au repos depuis 0 h 21 UTC ; aucun message de l'auteur là-bas depuis le 14 novembre, 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `8b5166d2…08b1`, identique à celle de `echanges/msg_c156c.txt`.
+- **Envoi le 15 novembre à 2 h 01 min 49 s UTC, une seule copie** (contrôlée par l'interface).
