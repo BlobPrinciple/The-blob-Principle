@@ -1,0 +1,14 @@
+C-157c -- LA REGLE "LES PLUS ANCIENS D'ABORD" DE ChatGPT (C-156, C-157), REFAITE PAR MOI. Ecrit avant tout calcul.
+Sa definition (lue le 15 novembre, 2 h 44 UTC) : tore 6 x 6 x 6, six tetraedres de Kuhn par cube ; les 216 sommets initiaux ont l'age 0 ;
+le sommet ne a la naissance t a l'age t ; on divise le fil (u, v), u < v, qui minimise (max des ages, min des ages, u, v).
+Ses points : N3/N0 = 5,727848 (100 naissances) ; 5,655963 (220) ; 5,650943 (420) ; 5,718137 (600) ; 5,810033 (1 000) ; 5,986784 (1 600).
+Ce que sa definition ne dit pas : la numerotation des 216 sommets et l'orientation des diagonales de Kuhn. Je prends x*36 + y*6 + z et les
+sept directions (1,0,0), (0,1,0), (0,0,1), (1,1,0), (1,0,1), (0,1,1), (1,1,1).
+PREDICTIONS
+ Z1. (60 %) ses six valeurs sont retrouvees a six decimales avec cette numerotation.
+ Z2. (90 %) sinon, meme allure : passage sous 5,70 entre 100 et 600 naissances, retour au-dessus de 5,80 a 1 000.
+ Z3. [T, a la main] pendant les 1 512 premieres naissances la regle ne divise que des fils entre sommets d'age 0 (les 1 512 fils d'origine,
+     chacun une fois) ; le rapport depend donc seulement de l'ORDRE dans lequel les fils d'origine sont pris, c'est-a-dire de la numerotation.
+     Ce n'est pas une regle "genealogique" au sens de C-136c : c'est un ordre de parcours du reseau initial.
+ Z4. (80 %) le plus grand nombre de cellules autour d'un fil depasse 12 avant 1 600 naissances : la moyenne s'approche de 5,70 pendant que
+     des fils tres charges apparaissent.

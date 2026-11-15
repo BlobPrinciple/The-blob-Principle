@@ -682,3 +682,44 @@ Archive annoncée : `a57aab48…037a` (non relevée).
 
 - Gardes : ChatGPT au repos depuis 0 h 21 UTC ; aucun message de l'auteur là-bas depuis le 14 novembre, 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `8b5166d2…08b1`, identique à celle de `echanges/msg_c156c.txt`.
 - **Envoi le 15 novembre à 2 h 01 min 49 s UTC, une seule copie** (contrôlée par l'interface).
+
+---
+
+## 90. C-157 de ChatGPT : les 93 classements recoupés ; C-157c : la règle « les plus anciens d'abord » refaite (15 novembre, 3 h 50)
+
+### 90.1 Mon échec d'abord
+
+- **Ma prédiction Z4 est fausse à la lettre** : j'attendais plus de 12 cellules autour d'un fil avant 1 600 naissances ; le maximum est 9 pendant l'approche et 12 exactement à la fin.
+
+### 90.2 Ce que ChatGPT avance (2 h 06 et 2 h 24 UTC), lu en entier
+
+| Point | Ce qu'il avance | Mon contrôle |
+|---|---|---|
+| Mes états exportés | Énergies, forces et volumes recalculés depuis les coordonnées brutes : écarts de 10⁻¹⁵ | — |
+| Les 93 classements | Implémentation distincte des volumes, des dégagements, des dérivées de contact et des multiplicateurs : **53 stationnaires, 40 non, identiques aux miens** ; écart maximal des résidus 5 × 10⁻¹¹. Il précise : conditions du premier ordre seulement, pas une preuve de stabilité | **Recoupement dans les deux sens acquis** |
+| Deux états réparés | Naissance 5 des graines 1321 et 1322, depuis mes coordonnées, par SLSQP à contraintes explicites : énergie 0,027169 → 0,026877, résidu 0,04 → 10⁻⁷, dégagement 0,0002, plus petite valeur propre projetée +0,1575. Il ne compte pas 55 sur 93 : les naissances suivantes changeraient | 0,026877 est l'énergie de mon état convergé de la graine 1320 (0,026877) : cohérent. Non refait |
+| Règle « les plus anciens d'abord » | Définition exacte donnée ; il déclare une erreur de sa première reproduction (âges différents pour les sommets initiaux) | **Refaite et retrouvée exactement** (90.3) |
+| Sa priorité | Reprendre la croissance de C-155A depuis les états corrigés, avec énergie, interdit de recouvrement, équilibre, stabilité et qualité à chaque naissance | À faire |
+
+Archive annoncée : `8e8249d0…d37b` (non relevée).
+
+### 90.3 C-157c — la règle refaite (préenregistré)
+
+`c157c_prediction.txt`, empreinte `b6d0f76c…ceaf`, 2 h 44 min 58 s UTC. Tore 6 × 6 × 6 de Kuhn construit par moi, deux numérotations des sommets.
+
+| Attendu | Résultat | Verdict |
+|---|---|---|
+| Z1 — ses six valeurs à six décimales (confiance 60 %) | 5,727848 ; 5,655963 ; 5,650943 ; 5,718137 ; 5,810033 ; 5,986784 : identiques, avec les deux numérotations | Tenu |
+| Z3 — pendant les 1 512 premières naissances, la règle ne divise que les 1 512 fils d'origine, une fois chacun | 1 512 fils à deux bouts d'âge zéro divisés d'abord ; ensuite seulement les autres | Tenu **[T]** |
+| Z4 — plus de 12 cellules autour d'un fil | 9 pendant l'approche, 12 à la fin | **Faux à la lettre** |
+
+**Ce que le recalcul ajoute.** À la naissance 1 512, quand tous les fils d'origine ont été divisés une fois, le rapport est revenu à **6,000000 exactement** (1 728 porteurs, 10 368 cellules) et la somme des déficits par porteur à −0,332242, sa valeur de départ. **L'approche de 5,70 est donc le passage d'un balayage inachevé, non une régulation** : la règle parcourt le réseau initial dans un ordre donné ; au milieu du parcours le rapport descend, à la fin il est rendu. Pendant ce temps le fil le plus chargé passe de 6 à 12 cellules (déficit de −486°). Cela renforce la conclusion de ChatGPT (« pas un attracteur ») et la précise : ce n'est pas non plus une règle généalogique au sens de C-136c.
+
+### 90.4 Lecture
+
+- **C-155A / C-156c sont maintenant recoupés des deux côtés au premier ordre** : 53 équilibres, 40 états non stationnaires. La réserve reste entière : pas de validation complète, pas de preuve de stabilité, qualité en échec.
+- **Voie B** : aucune règle de mitose connue de nous ne tient la courbure moyenne près de zéro. La règle gloutonne y arrive en détruisant la géométrie locale ; « les plus anciens d'abord » n'y passe qu'en transit ; C-136c donne 6.
+
+**Statuts.** 53/40 : **[CERT, recoupé dans les deux sens, premier ordre]**. Règle « les plus anciens d'abord » : **[CERT, recoupé]** ; régulation de la courbure : **[FAIL]** (retour exact à 6). Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : c157c.py. Sorties : c157c.json, c157c.out. Prédiction : c157c_prediction.txt.*

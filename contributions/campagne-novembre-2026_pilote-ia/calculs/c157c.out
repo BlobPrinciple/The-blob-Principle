@@ -1,0 +1,20 @@
+x*36+y*6+z
+   0 {'N0': 216, 'N1': 1512, 'N3': 1296, 'rapport': 6.0, 'somme_par_porteur': -0.332242, 'k_max': 6, 'k_min': 4, 'deficit_min_deg': -63.172676}
+   100 {'N0': 316, 'N1': 2126, 'N3': 1810, 'rapport': 5.727848, 'somme_par_porteur': -0.032175, 'k_max': 8, 'k_min': 4, 'deficit_min_deg': -204.230235}
+   220 {'N0': 436, 'N1': 2902, 'N3': 2466, 'rapport': 5.655963, 'somme_par_porteur': 0.047083, 'k_max': 8, 'k_min': 4, 'deficit_min_deg': -204.230235}
+   420 {'N0': 636, 'N1': 4230, 'N3': 3594, 'rapport': 5.650943, 'somme_par_porteur': 0.052618, 'k_max': 9, 'k_min': 4, 'deficit_min_deg': -274.759014}
+   600 {'N0': 816, 'N1': 5482, 'N3': 4666, 'rapport': 5.718137, 'somme_par_porteur': -0.021468, 'k_max': 9, 'k_min': 4, 'deficit_min_deg': -274.759014}
+   1000 {'N0': 1216, 'N1': 8281, 'N3': 7065, 'rapport': 5.810033, 'somme_par_porteur': -0.12279, 'k_max': 9, 'k_min': 4, 'deficit_min_deg': -274.759014}
+   1512 {'N0': 1728, 'N1': 12096, 'N3': 10368, 'rapport': 6.0, 'somme_par_porteur': -0.332242, 'k_max': 12, 'k_min': 4, 'deficit_min_deg': -486.345352}
+   1600 {'N0': 1816, 'N1': 12688, 'N3': 10872, 'rapport': 5.986784, 'somme_par_porteur': -0.31767, 'k_max': 12, 'k_min': 4, 'deficit_min_deg': -486.345352}
+   fils_divises_selon_le_nombre_de_bouts_d_age_zero {2: 1512, 1: 61, 0: 27}
+z*36+y*6+x
+   0 {'N0': 216, 'N1': 1512, 'N3': 1296, 'rapport': 6.0, 'somme_par_porteur': -0.332242, 'k_max': 6, 'k_min': 4, 'deficit_min_deg': -63.172676}
+   100 {'N0': 316, 'N1': 2126, 'N3': 1810, 'rapport': 5.727848, 'somme_par_porteur': -0.032175, 'k_max': 8, 'k_min': 4, 'deficit_min_deg': -204.230235}
+   220 {'N0': 436, 'N1': 2902, 'N3': 2466, 'rapport': 5.655963, 'somme_par_porteur': 0.047083, 'k_max': 8, 'k_min': 4, 'deficit_min_deg': -204.230235}
+   420 {'N0': 636, 'N1': 4230, 'N3': 3594, 'rapport': 5.650943, 'somme_par_porteur': 0.052618, 'k_max': 9, 'k_min': 4, 'deficit_min_deg': -274.759014}
+   600 {'N0': 816, 'N1': 5482, 'N3': 4666, 'rapport': 5.718137, 'somme_par_porteur': -0.021468, 'k_max': 9, 'k_min': 4, 'deficit_min_deg': -274.759014}
+   1000 {'N0': 1216, 'N1': 8281, 'N3': 7065, 'rapport': 5.810033, 'somme_par_porteur': -0.12279, 'k_max': 9, 'k_min': 4, 'deficit_min_deg': -274.759014}
+   1512 {'N0': 1728, 'N1': 12096, 'N3': 10368, 'rapport': 6.0, 'somme_par_porteur': -0.332242, 'k_max': 12, 'k_min': 4, 'deficit_min_deg': -486.345352}
+   1600 {'N0': 1816, 'N1': 12688, 'N3': 10872, 'rapport': 5.986784, 'somme_par_porteur': -0.31767, 'k_max': 12, 'k_min': 4, 'deficit_min_deg': -486.345352}
+   fils_divises_selon_le_nombre_de_bouts_d_age_zero {2: 1512, 1: 61, 0: 27}
