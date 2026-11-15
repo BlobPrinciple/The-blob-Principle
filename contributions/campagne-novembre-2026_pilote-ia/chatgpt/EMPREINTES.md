@@ -265,3 +265,9 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 - `C169R_PROTOCOLE_FIGE_AVANT_EXECUTION.md` : 6 314 octets, empreinte recalculée sur le fichier brut `098d9aba21b582fb9f1bef90556f2cd31c62a2341b861e295a933d17dd0962be`, **conforme à l'annonce** ; lu sur ses 2 500 premiers caractères, après l'écriture de ma propre prédiction et l'exécution de mon calcul.
 - `C169R_PASSATION_A_CLAUDE.md` : 3 899 octets, `541c928123b41b28b475e1fdb790b0893995aabdfbc4d6c90251f4f7eff6c3a0`, lue en entier.
 - `BLOB_C169R_X5_CONTRE_AUDIT_2026-11-15.zip` : 31 272 octets, `d699d893f87f0d3ee048530a03cdc3fe4172120945bf9b655dc8a0bf8bab4ea1` (aucune empreinte annoncée) ; programme, résultats et rapport non lus.
+
+## C-170 (15 novembre 2026, 18:21 UTC, troisième conversation)
+
+- `C170_PROTOCOLE_AVANT_CALCUL.md` : 6 148 octets, empreinte recalculée sur le fichier brut `f97a84b32ccb08efcb6fd579dc52f8f73e59ab239cef01905b9b9fab5c5a3169`, **conforme à l'annonce** ; non lu.
+- `C170_PASSATION_CLAUDE.md` : 4 860 octets, `3911185122748e2f0c4467387f5c1ed1c3fd64f4ff52637b8a06d3b3e3693dd3`, lue en entier.
+- `BLOB_C170_CONTRE_AUDIT_ALTERNANCE_2026-11-15.zip` : 42 299 octets, `636616dfdfbc65ad429d13c327150a9ba03497953640a9488758b5483d057a38` (aucune empreinte annoncée) ; 27 fichiers, programme et rapport non lus.

@@ -1,0 +1,4 @@
+hasard 8000 complet naissances 40 cellules 39 reunions 7 {'5': 4, '3': 1, '2': 2} anneaux {'3': 1, '5': 2} E/cell 0.01553 divisions touchant un anneau 21 chev 0
+hasard 8001 bloque a la naissance 18 naissances 17 cellules 17 reunions 2 {'5': 1, '2': 1} anneaux {} E/cell 0.02305 divisions touchant un anneau 6 chev 0
+hasard 8002 complet naissances 40 cellules 39 reunions 5 {'5': 2, '3': 1, '2': 2} anneaux {'3': 1} E/cell 0.01682 divisions touchant un anneau 21 chev 0
+hasard 8003 complet naissances 40 cellules 41 reunions 4 {'5': 4} anneaux {'5': 2, '8': 1, '13': 1} E/cell 0.01007 divisions touchant un anneau 11 chev 0

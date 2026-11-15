@@ -508,3 +508,14 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-169c | `c169c_b.json` | 8 822 |
 | C-169c | `c169c_b.out` | 1 696 |
 | C-169c | `c169c_prediction.txt` | 2 664 |
+| X-6 [EXPLORATOIRE] | `x6_bouts.json` | 1 958 |
+| X-6 [EXPLORATOIRE] | `x6_bouts.out` | 1 514 |
+| X-6 [EXPLORATOIRE] | `x6_bouts.py` | 2 861 |
+| X-7 [EXPLORATOIRE] | `x7_cout.out` | 0 |
+| X-7 [EXPLORATOIRE] | `x7_cout_v1.json` | 1 352 |
+| X-7 [EXPLORATOIRE] | `x7_cout_v1.out` | 604 |
+| X-7 [EXPLORATOIRE] | `x7_hasard.json` | 1 369 |
+| X-7 [EXPLORATOIRE] | `x7_hasard.out` | 623 |
+| X-7 [EXPLORATOIRE] | `x7_hasard_v1.json` | 1 385 |
+| X-7 [EXPLORATOIRE] | `x7_hasard_v1.out` | 638 |
+| X-7 [EXPLORATOIRE] | `x7_moindre_cout.py` | 4 810 |

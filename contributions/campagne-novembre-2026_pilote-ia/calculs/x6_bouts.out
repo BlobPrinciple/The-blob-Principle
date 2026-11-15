@@ -1,0 +1,22 @@
+6000 cellules 61 | bouts d eventail (cellules : nombre) {'5': 13} | hors eventail 7
+      {'d': 0.201982, 'voisins_communs': 0, 'cellules_entre': 9}
+      {'d': 0.210219, 'voisins_communs': 1, 'cellules_entre': 14}
+      {'d': 0.210219, 'voisins_communs': 1, 'cellules_entre': 14}
+      {'d': 0.221191, 'voisins_communs': 1, 'cellules_entre': 7}
+      {'d': 0.221191, 'voisins_communs': 1, 'cellules_entre': 7}
+      {'d': 0.221191, 'voisins_communs': 1, 'cellules_entre': 7}
+      {'d': 0.238078, 'voisins_communs': 0, 'cellules_entre': 13}
+6001 cellules 61 | bouts d eventail (cellules : nombre) {'5': 15} | hors eventail 3
+      {'d': 0.185185, 'voisins_communs': 1, 'cellules_entre': 6}
+      {'d': 0.221191, 'voisins_communs': 1, 'cellules_entre': 7}
+      {'d': 0.242716, 'voisins_communs': 1, 'cellules_entre': 13}
+6002 cellules 61 | bouts d eventail (cellules : nombre) {'5': 15} | hors eventail 4
+      {'d': 0.187688, 'voisins_communs': 1, 'cellules_entre': 12}
+      {'d': 0.187688, 'voisins_communs': 1, 'cellules_entre': 12}
+      {'d': 0.221191, 'voisins_communs': 1, 'cellules_entre': 7}
+      {'d': 0.221191, 'voisins_communs': 1, 'cellules_entre': 7}
+6003 cellules 61 | bouts d eventail (cellules : nombre) {'5': 11} | hors eventail 4
+      {'d': 0.198523, 'voisins_communs': 1, 'cellules_entre': 17}
+      {'d': 0.201982, 'voisins_communs': 0, 'cellules_entre': 9}
+      {'d': 0.213718, 'voisins_communs': 1, 'cellules_entre': 14}
+      {'d': 0.221191, 'voisins_communs': 1, 'cellules_entre': 7}
