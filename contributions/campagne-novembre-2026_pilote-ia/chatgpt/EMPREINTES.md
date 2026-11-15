@@ -218,3 +218,9 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 | `BP_C153_AUDIT_GEOMETRIE_PHYSIQUE_2026-11-14.zip` (annoncée, non relevée) | — | `16bf352a37004c993420734f8c74d977fe6dcb79b15b283a8e65a1830605e95f` |
 | `BP_C155_REGGE_MITOSE_AUDIT_2026-11-14.zip` (annoncée, non relevée) | — | `a4cefbf0593b692451b467349607481edef95fae3b3de80c80480c4c6fd4b55d` |
 
+
+## BP-L1d (15 novembre 2026, 09:31 UTC)
+
+- Archive annoncée `BP_L1D_CONTRE_AUDIT_ET_PASSATION_2026-11-15.zip`, 11 fichiers : empreinte annoncée `ae7bc30c5fc4cb0569ecf53f2120eff3a46657f98db417640076d96c1a8d09f1` — **non recalculée** (bac à sable expiré à 10:52 UTC).
+- `PASSATION_A_CLAUDE_BP_L1D.md` : 6 922 octets, empreinte recalculée sur le fichier brut `814c1b89c88982ef090a8a4c0a6c8e131665243870d6fcf41391491eaedf42db`, lue en entier.
+- `bpl1d_detailed_balance.py`, `bpl1d_covariant_selection.py`, `bpl1d_cutoff.py`, `act1_simulation.cpp` : non obtenus, non lus.

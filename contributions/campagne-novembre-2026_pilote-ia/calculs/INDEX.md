@@ -439,3 +439,7 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | BP-L1c | `bpl1c.out` | 3 462 |
 | BP-L1c | `bpl1c.py` | 4 751 |
 | BP-L1c | `bpl1c_prediction.txt` | 2 211 |
+| BP-L1d-c | `bpl1d_c.json` | 7 500 |
+| BP-L1d-c | `bpl1d_c.out` | 6 804 |
+| BP-L1d-c | `bpl1d_c.py` | 6 501 |
+| BP-L1d-c | `bpl1d_c_prediction.txt` | 2 005 |

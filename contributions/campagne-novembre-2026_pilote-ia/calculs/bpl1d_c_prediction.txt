@@ -1,0 +1,12 @@
+BP-L1d-c -- contre-calcul du BP-L1d de ChatGPT (bilan detaille du bain fini). Claude, 2026-11-15 10:48:40 UTC.
+Ecrit apres lecture du message de ChatGPT (09:31 UTC) et avant tout calcul. Ses fichiers ne sont pas encore lus.
+Deja constate sans calcul nouveau : ses quatre ecarts 6 -> 12 quanta (+1,67 ; +2,86 ; -6,47 ; -9,23 points) sont ceux de mon tableau BP-L1c.
+
+P1 (ses comptes). Sur les 364 etats (n1, n2, q), q de 0 a 12 : 1 575 transitions orientees sous (a), 1 596 sous (b) ; 21 sans inverse sous (a), 0 sous (b). J'attends de les retrouver (confiance 80 % : une convention de troncature peut differer).
+P2 (sa mesure). Sous (b), pi = multinomial x exp(-beta (n1 E1 + n2 E2 + w q)) verifie le bilan detaille a moins de 1e-12 en relatif, pour beta 0,5 et 1, terme de contact 0 et 0,8.
+P3 (a moi, il ne le dit pas). Consequence de P2 : la mesure se factorise, donc sous (b) la loi stationnaire de (n1, n2) est la loi thermique SANS bain, quel que soit le nombre de quanta de depart. Le bain ne change pas ce qui est stable ; il change la vitesse. Attendu : ecart < 1e-8 entre la marginale stationnaire calculee (troncature q <= 60) et la loi thermique.
+P4 (a moi). Sous (a), la classe q = 0 est fermee ; la loi stationnaire y est concentree et sa marginale (n1, n2) est aussi la loi thermique sans bain.
+P5 (audit de mon propre BP-L1c). Ma troncature q <= q0 + 6 sous (b) : passer a q <= q0 + 30 change mes persistants stricts de moins de 0,01 sur 4 096.
+P6. Course d'exponentielles argmin Z/V : P = V / somme V est un theoreme ; controle sur 30 000 tirages (0,2 ; 0,3 ; 0,5) dans 3 ecarts types.
+P7 (a moi). Temps de mise a l'equilibre : sans bain, l'echelle lente est de l'ordre de 1/k12 (plus de 100 unites) ; je m'attends a ce que la consolidation thermique complete soit atteinte sans bain a t grand (six consolidees > 90 % a beta 1), ce qui confirmerait la lecture << catalyseur >>.
+Temoin negatif : une mesure volontairement fausse (w remplace par 0) doit echouer au bilan detaille sous (b).
