@@ -470,3 +470,10 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-164c | `c164c_prediction.txt` | 1 985 |
 | C-164c | `c164c_synthese.json` | 4 557 |
 | C-164c | `c164c_synthese.out` | 3 734 |
+| C-163c bis | `c163c_bis.py` | 7 547 |
+| C-163c bis | `c163c_bis_1320_A.json.gz` | 18 749 |
+| C-163c bis | `c163c_bis_1320_A.out` | 2 873 |
+| C-163c bis | `c163c_bis_1320_B.json.gz` | 18 676 |
+| C-163c bis | `c163c_bis_1320_B.out` | 2 870 |
+| C-163c bis | `c163c_bis_1320_analyse.out` | 2 744 |
+| C-163c bis | `c163c_bis_prediction.txt` | 1 025 |

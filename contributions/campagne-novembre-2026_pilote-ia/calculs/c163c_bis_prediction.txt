@@ -1,0 +1,8 @@
+C-163c bis -- correction des deux seuils de c163c.py, graine 1320. Claude, 2026-11-15 14:04:52 UTC. Ecrit avant d'ecrire le programme corrige et avant tout calcul.
+Corrections : (1) le resultat de la relaxation d'origine est garde si tous les volumes sont >= 0,2 Vref x (1 - 1e-7) (tolerance declaree, au-dessus de la
+violation residuelle 1e-9 du lagrangien augmente) ; meme tolerance pour declarer un etat admissible ; (2) egalite de longueurs a 1e-7 pres au lieu de 1e-9,
+et toute quasi-egalite (ecart entre 1e-7 et 1e-5) est signalee ; (3) etats ecrits a chaque naissance.
+T1. A et B (numerotations differentes, marques transportees) : memes fils aux naissances 1 a 14, energies a moins de 1e-9, positions a moins de 1e-6. Confiance 75 %.
+T2. Meme chose jusqu'a la naissance 24 (ou jusqu'ou le temps permet). Confiance 45 % : la relaxation contrainte a huit departs entre en jeu vers la naissance 18.
+T3. Aucune quasi-egalite signalee.
+T4. La suite de fils de A est celle de c163c.py (A) jusqu'a la naissance 12 au moins.
