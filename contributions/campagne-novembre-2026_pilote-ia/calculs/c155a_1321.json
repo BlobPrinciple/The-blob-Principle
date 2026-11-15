@@ -1,0 +1,3336 @@
+{
+ "graine": 1321,
+ "U": {
+  "statut": "toutes les naissances admissibles",
+  "etats": [
+   {
+    "N0": 5,
+    "N1": 9,
+    "N3": 2,
+    "E": 1.785770808839397e-21,
+    "min_V_sur_Vref": 2.00000000007684,
+    "volume_min": 0.11785113020228573,
+    "qmin": 0.9999999999421416,
+    "q10": 0.9999999999421416,
+    "qmed": 0.9999999999421416,
+    "somme_volumes": 0.23570226040457146,
+    "rapport_volume": 2.00000000007684,
+    "fondateurs_max": 1.6329931618551758,
+    "fondateurs_moy": 1.105498860319114,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": null
+    },
+    "degagement_min_global": null,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 0.0,
+    "n": 1,
+    "methode": "origine",
+    "essais": [],
+    "arete": [
+     2,
+     3
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 3.697785493223493e-32,
+    "E_insertion": 0.2679491924311227,
+    "gradient_penalise_max": 3.94788085451472e-11,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 6,
+    "N1": 12,
+    "N3": 3,
+    "E": 6.273746043316044e-20,
+    "min_V_sur_Vref": 1.9999999996958016,
+    "volume_min": 0.11785113017983283,
+    "qmin": 0.9999999991988698,
+    "q10": 0.9999999993264045,
+    "qmed": 0.9999999998365429,
+    "somme_volumes": 0.3535533905655716,
+    "rapport_volume": 2.99999999976494,
+    "fondateurs_max": 1.6666666663494853,
+    "fondateurs_moy": 1.1111111110119958,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": 0.5773502692452348
+    },
+    "degagement_min_global": 0.5773502692452348,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 8.326672684688674e-17,
+    "n": 2,
+    "methode": "origine",
+    "essais": [],
+    "arete": [
+     2,
+     4
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 1.785770808839397e-21,
+    "E_insertion": 0.2679491924295084,
+    "gradient_penalise_max": 2.0440068012061678e-10,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 7,
+    "N1": 15,
+    "N3": 4,
+    "E": 1.3198711230213133e-20,
+    "min_V_sur_Vref": 1.9999999999465456,
+    "volume_min": 0.11785113019460806,
+    "qmin": 0.9999999996846562,
+    "q10": 0.9999999997183308,
+    "qmed": 0.9999999998014816,
+    "somme_volumes": 0.47140452082063466,
+    "rapport_volume": 4.00000000025119,
+    "fondateurs_max": 1.0886621078620695,
+    "fondateurs_moy": 1.0147770180007267,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": 0.5773502691815321
+    },
+    "degagement_min_global": 0.5773502691815321,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 5.551115123125783e-17,
+    "n": 3,
+    "methode": "origine",
+    "essais": [],
+    "arete": [
+     2,
+     5
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 6.273745960737715e-20,
+    "E_insertion": 0.26794919245367627,
+    "gradient_penalise_max": 1.320505696515147e-10,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 8,
+    "N1": 18,
+    "N3": 5,
+    "E": 8.351157182849188e-20,
+    "min_V_sur_Vref": 1.9999999998616897,
+    "volume_min": 0.11785113018942471,
+    "qmin": 0.999999999511947,
+    "q10": 0.9999999995273227,
+    "qmed": 0.9999999995610509,
+    "somme_volumes": 0.5892556510348286,
+    "rapport_volume": 5.000000000390655,
+    "fondateurs_max": 1.0000000001391147,
+    "fondateurs_moy": 0.8518518518273017,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": 0.06415002975616253
+    },
+    "degagement_min_global": 0.06415002975616253,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 8.326672684688674e-17,
+    "n": 4,
+    "methode": "origine",
+    "essais": [],
+    "arete": [
+     3,
+     4
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 1.3198714595512243e-20,
+    "E_insertion": 0.267949192462825,
+    "gradient_penalise_max": 2.436897865131554e-10,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 9,
+    "N1": 21,
+    "N3": 6,
+    "E": 0.02716928115381558,
+    "min_V_sur_Vref": 1.8922676343975822,
+    "volume_min": 0.11150293968424217,
+    "qmin": 0.8440999562377539,
+    "q10": 0.8440999686272596,
+    "qmed": 0.8591986597609345,
+    "somme_volumes": 0.676783929296208,
+    "rapport_volume": 5.742702069641108,
+    "fondateurs_max": 1.0186601149184868,
+    "fondateurs_moy": 0.8301129408798114,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": 0.0028030087822970267
+    },
+    "degagement_min_global": 0.0028030087822970267,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 5.551115123125783e-17,
+    "n": 5,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.02716928115381558,
+      "gradient": 0.04220187484817193
+     },
+     {
+      "i": 1,
+      "statut": "admissible",
+      "E": 0.027169281229644845,
+      "gradient": 0.04236277063446463
+     },
+     {
+      "i": 2,
+      "statut": "admissible",
+      "E": 0.02716928120870317,
+      "gradient": 0.04246956283509338
+     },
+     {
+      "i": 3,
+      "statut": "admissible",
+      "E": 0.027169281194728813,
+      "gradient": 0.04236694328526195
+     },
+     {
+      "i": 4,
+      "statut": "admissible",
+      "E": 0.02716928118444456,
+      "gradient": 0.042335445754649655
+     },
+     {
+      "i": 5,
+      "statut": "admissible",
+      "E": 0.027169281221683744,
+      "gradient": 0.04260294521131552
+     },
+     {
+      "i": 6,
+      "statut": "admissible",
+      "E": 0.02716928126978105,
+      "gradient": 0.042338963247274604
+     },
+     {
+      "i": 7,
+      "statut": "admissible",
+      "E": 0.027169281204799188,
+      "gradient": 0.04278194250769479
+     }
+    ],
+    "arete": [
+     3,
+     7
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 8.351161866249822e-20,
+    "E_insertion": 0.2679491924082926,
+    "gradient_penalise_max": 0.04220187484817193,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 10,
+    "N1": 25,
+    "N3": 8,
+    "E": 0.03940086284655071,
+    "min_V_sur_Vref": 1.8121564484175152,
+    "volume_min": 0.10274165678296604,
+    "qmin": 0.5861236555207611,
+    "q10": 0.5861236557626379,
+    "qmed": 0.6819745733216044,
+    "somme_volumes": 0.8712341013072646,
+    "rapport_volume": 7.392666492424014,
+    "fondateurs_max": 1.012820629868449,
+    "fondateurs_moy": 0.8232960136261986,
+    "degagement_min": {
+     "0": null,
+     "1": 0.3168622653748366,
+     "2": 0.00019996776642469978
+    },
+    "degagement_min_global": 0.00019996776642469978,
+    "paires_actives": 1,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.1102230246251565e-16,
+    "n": 6,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.039400862846556084,
+      "gradient": 7.747372411659459e-08
+     },
+     {
+      "i": 1,
+      "statut": "admissible",
+      "E": 0.03940086284655071,
+      "gradient": 7.992667271083942e-08
+     },
+     {
+      "i": 2,
+      "statut": "admissible",
+      "E": 0.03940086284655625,
+      "gradient": 8.018637801497641e-08
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "admissible",
+      "E": 0.03940086284758228,
+      "gradient": 9.025720003469351e-07
+     },
+     {
+      "i": 6,
+      "statut": "admissible",
+      "E": 0.03940086284684435,
+      "gradient": 4.612583481070076e-07
+     },
+     {
+      "i": 7,
+      "statut": "admissible",
+      "E": 0.039408865407019725,
+      "gradient": 0.023950923657168225
+     }
+    ],
+    "arete": [
+     1,
+     4
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 0.02716928115381558,
+    "E_insertion": 0.2999316214928805,
+    "gradient_penalise_max": 7.992667271083942e-08,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 11,
+    "N1": 30,
+    "N3": 12,
+    "E": 0.21383035178671217,
+    "min_V_sur_Vref": 1.341810442766032,
+    "volume_min": 0.07380447101279886,
+    "qmin": 0.4684625360288174,
+    "q10": 0.4689187283144889,
+    "qmed": 0.4793841131558212,
+    "somme_volumes": 1.100601279452944,
+    "rapport_volume": 9.338911537005208,
+    "fondateurs_max": 1.031505950872468,
+    "fondateurs_moy": 0.8472934942638972,
+    "degagement_min": {
+     "0": 0.4410285411131386,
+     "1": 0.2800809383927292,
+     "2": 0.00019996940777375786
+    },
+    "degagement_min_global": 0.00019996940777375786,
+    "paires_actives": 1,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.1102230246251565e-16,
+    "n": 7,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.21383035178671217,
+      "gradient": 2.0657090324404784e-08
+     },
+     {
+      "i": 1,
+      "statut": "admissible",
+      "E": 0.2138352783218466,
+      "gradient": 0.023727030424008574
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "admissible",
+      "E": 0.2138303517872984,
+      "gradient": 1.1840049513565931e-06
+     },
+     {
+      "i": 4,
+      "statut": "admissible",
+      "E": 0.21383035178711293,
+      "gradient": 6.051754631239414e-07
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "admissible",
+      "E": 0.21383035178684343,
+      "gradient": 2.3062429964706976e-07
+     },
+     {
+      "i": 7,
+      "statut": "admissible",
+      "E": 0.21383742872903205,
+      "gradient": 0.02392547756149304
+     }
+    ],
+    "arete": [
+     0,
+     9
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 0.039400862846550706,
+    "E_insertion": 0.33748799837146753,
+    "gradient_penalise_max": 2.0657090324404784e-08,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 12,
+    "N1": 34,
+    "N3": 14,
+    "E": 0.19730176510270292,
+    "min_V_sur_Vref": 1.4278502142149279,
+    "volume_min": 0.07917736674625485,
+    "qmin": 0.5066415480158947,
+    "q10": 0.5071166072488813,
+    "qmed": 0.5126475317666823,
+    "somme_volumes": 1.2860010312838521,
+    "rapport_volume": 10.912080598004467,
+    "fondateurs_max": 1.001117915590336,
+    "fondateurs_moy": 0.8334833006740167,
+    "degagement_min": {
+     "0": 0.4870304464081015,
+     "1": 0.27958622702389285,
+     "2": 0.0001999975899085425
+    },
+    "degagement_min_global": 0.0001999975899085425,
+    "paires_actives": 1,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.1102230246251565e-16,
+    "n": 8,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.19730176510272088,
+      "gradient": 1.2493690809881985e-07
+     },
+     {
+      "i": 1,
+      "statut": "admissible",
+      "E": 0.19730176510272063,
+      "gradient": 1.2224040936176673e-07
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "admissible",
+      "E": 0.19730176510270292,
+      "gradient": 2.9036577596110737e-08
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     1,
+     9
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 0.2138303517867122,
+    "E_insertion": 0.5242796624947246,
+    "gradient_penalise_max": 2.9036577596110737e-08,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 13,
+    "N1": 39,
+    "N3": 17,
+    "E": 0.23174066254031614,
+    "min_V_sur_Vref": 1.2783166324500732,
+    "volume_min": 0.0682938801992538,
+    "qmin": 0.35367138121010117,
+    "q10": 0.39081998519359595,
+    "qmed": 0.5556882154724796,
+    "somme_volumes": 1.5296830599212121,
+    "rapport_volume": 12.979791176837727,
+    "fondateurs_max": 1.0000000016170774,
+    "fondateurs_moy": 0.8393773573192954,
+    "degagement_min": {
+     "0": 0.48041191992094023,
+     "1": 0.22692399102802546,
+     "2": 0.04735378851764303
+    },
+    "degagement_min_global": 0.04735378851764303,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.3877787807814457e-16,
+    "n": 9,
+    "methode": "origine",
+    "essais": [],
+    "arete": [
+     0,
+     7
+    ],
+    "degre_arete": 3,
+    "arete_de_bord": true,
+    "E_avant": 0.19730176510270284,
+    "E_insertion": 0.5230527910245706,
+    "gradient_penalise_max": 2.381969288478558e-09,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 14,
+    "N1": 43,
+    "N3": 19,
+    "E": 0.21112367459596798,
+    "min_V_sur_Vref": 1.0688468196701224,
+    "volume_min": 0.06842798981186804,
+    "qmin": 0.3419486138674254,
+    "q10": 0.4629470359753813,
+    "qmed": 0.5484884613241068,
+    "somme_volumes": 1.7892193465812798,
+    "rapport_volume": 15.182029595973443,
+    "fondateurs_max": 1.0124616335913397,
+    "fondateurs_moy": 0.833380519838244,
+    "degagement_min": {
+     "0": 0.5447204922814083,
+     "1": 0.18771138149675784,
+     "2": 0.00019998753982198325
+    },
+    "degagement_min_global": 0.00019998753982198325,
+    "paires_actives": 1,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.1102230246251565e-16,
+    "n": 10,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.21112367459596815,
+      "gradient": 2.754437249466446e-08
+     },
+     {
+      "i": 1,
+      "statut": "admissible",
+      "E": 0.21112367459599105,
+      "gradient": 6.91100518311269e-07
+     },
+     {
+      "i": 2,
+      "statut": "admissible",
+      "E": 0.2111236745960096,
+      "gradient": 1.193238530253736e-07
+     },
+     {
+      "i": 3,
+      "statut": "admissible",
+      "E": 0.21112367459596798,
+      "gradient": 3.2266664324806515e-08
+     },
+     {
+      "i": 4,
+      "statut": "admissible",
+      "E": 0.21112367459596845,
+      "gradient": 2.0556023787657307e-08
+     },
+     {
+      "i": 5,
+      "statut": "admissible",
+      "E": 0.2111236745965029,
+      "gradient": 6.756559067302992e-07
+     },
+     {
+      "i": 6,
+      "statut": "admissible",
+      "E": 0.21112470041711884,
+      "gradient": 0.011802494337878333
+     },
+     {
+      "i": 7,
+      "statut": "admissible",
+      "E": 0.21112470037900433,
+      "gradient": 0.01181550666655803
+     }
+    ],
+    "arete": [
+     4,
+     5
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 0.23174066254031617,
+    "E_insertion": 0.5532840017736114,
+    "gradient_penalise_max": 3.2266664324806515e-08,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 15,
+    "N1": 47,
+    "N3": 21,
+    "E": 0.19065815017412827,
+    "min_V_sur_Vref": 0.9679966915262652,
+    "volume_min": 0.061971525317467156,
+    "qmin": 0.29537321670987715,
+    "q10": 0.4986769538484727,
+    "qmed": 0.6067197673953644,
+    "somme_volumes": 2.0522980252017406,
+    "rapport_volume": 17.414326207630936,
+    "fondateurs_max": 1.0303745798126864,
+    "fondateurs_moy": 0.8384844640358315,
+    "degagement_min": {
+     "0": 0.5427891170312947,
+     "1": 0.17245897009192013,
+     "2": 0.0002177057934232359
+    },
+    "degagement_min_global": 0.0002177057934232359,
+    "paires_actives": 1,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.1102230246251565e-16,
+    "n": 11,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.19066140985614674,
+      "gradient": 0.026671733324423796
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "admissible",
+      "E": 0.19066151908097592,
+      "gradient": 0.02664618371995044
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "admissible",
+      "E": 0.19065815017412827,
+      "gradient": 0.026647270936515054
+     },
+     {
+      "i": 6,
+      "statut": "admissible",
+      "E": 0.19065850955004582,
+      "gradient": 0.02658952156024709
+     },
+     {
+      "i": 7,
+      "statut": "admissible",
+      "E": 0.19065897463652093,
+      "gradient": 0.026652026792851446
+     }
+    ],
+    "arete": [
+     5,
+     9
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 0.21112367459596795,
+    "E_insertion": 0.508562467244205,
+    "gradient_penalise_max": 0.026647270936515054,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 16,
+    "N1": 51,
+    "N3": 23,
+    "E": 0.1867832514884569,
+    "min_V_sur_Vref": 0.8573379796437963,
+    "volume_min": 0.054887111470752425,
+    "qmin": 0.2591072136404254,
+    "q10": 0.48023573535478303,
+    "qmed": 0.6924082753462105,
+    "somme_volumes": 2.2810905463984064,
+    "rapport_volume": 19.355695126306085,
+    "fondateurs_max": 1.018514304082223,
+    "fondateurs_moy": 0.8273906272474476,
+    "degagement_min": {
+     "0": 0.551384717375235,
+     "1": 0.16062601781284186,
+     "2": 0.00019998389760826586
+    },
+    "degagement_min_global": 0.00019998389760826586,
+    "paires_actives": 1,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 12,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.18678325148845892,
+      "gradient": 1.290237899853608e-08
+     },
+     {
+      "i": 1,
+      "statut": "admissible",
+      "E": 0.1867832514885175,
+      "gradient": 4.3945617948099036e-07
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "admissible",
+      "E": 0.1867832514884569,
+      "gradient": 1.2555051034403297e-07
+     },
+     {
+      "i": 6,
+      "statut": "admissible",
+      "E": 0.1867832514885452,
+      "gradient": 1.3792439380877486e-07
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     9,
+     11
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 0.19065815017412827,
+    "E_insertion": 0.47619337130752637,
+    "gradient_penalise_max": 1.2555051034403297e-07,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 17,
+    "N1": 55,
+    "N3": 25,
+    "E": 0.18885100921318376,
+    "min_V_sur_Vref": 1.1430757604194544,
+    "volume_min": 0.06904919998497645,
+    "qmin": 0.37087571478483494,
+    "q10": 0.5159571603508502,
+    "qmed": 0.6509227641490603,
+    "somme_volumes": 2.493696097977021,
+    "rapport_volume": 21.159713053175825,
+    "fondateurs_max": 1.0061177298075747,
+    "fondateurs_moy": 0.8153957468897316,
+    "degagement_min": {
+     "0": 0.5354263773211464,
+     "1": 0.2234198771201806,
+     "2": 0.00019999326711926188
+    },
+    "degagement_min_global": 0.00019999326711926188,
+    "paires_actives": 1,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.1102230246251565e-16,
+    "n": 13,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.18885100921318387,
+      "gradient": 1.525034538062131e-08
+     },
+     {
+      "i": 1,
+      "statut": "admissible",
+      "E": 0.1888510092131838,
+      "gradient": 1.5600804741805474e-08
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "admissible",
+      "E": 0.18885100921318376,
+      "gradient": 1.4915990624216103e-08
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "admissible",
+      "E": 0.18885103447203863,
+      "gradient": 0.005892091924177594
+     },
+     {
+      "i": 7,
+      "statut": "admissible",
+      "E": 0.1888510092131845,
+      "gradient": 3.21330304980137e-08
+     }
+    ],
+    "arete": [
+     0,
+     13
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 0.18678325148845687,
+    "E_insertion": 0.4479237490185687,
+    "gradient_penalise_max": 1.4915990624216103e-08,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 18,
+    "N1": 60,
+    "N3": 29,
+    "E": 0.37075114415149585,
+    "min_V_sur_Vref": 0.20019999285133752,
+    "volume_min": 0.009382032494304188,
+    "qmin": 0.03819292648579093,
+    "q10": 0.4138003284205369,
+    "qmed": 0.5994203915900455,
+    "somme_volumes": 2.6073691532641856,
+    "rapport_volume": 22.124260911956792,
+    "fondateurs_max": 1.0078596906977566,
+    "fondateurs_moy": 0.8187937814018867,
+    "degagement_min": {
+     "0": 0.5006600050097607,
+     "1": 0.07595099082912495,
+     "2": 0.00019999128601308458
+    },
+    "degagement_min_global": 0.00019999128601308458,
+    "paires_actives": 1,
+    "volumes_actifs": 2,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 14,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.37075114417054533,
+      "gradient": 2.2107230901440705e-06
+     },
+     {
+      "i": 1,
+      "statut": "admissible",
+      "E": 0.37075114415149585,
+      "gradient": 1.0170770671710794e-06
+     },
+     {
+      "i": 2,
+      "statut": "admissible",
+      "E": 0.3707511441652729,
+      "gradient": 3.1152751553270575e-06
+     },
+     {
+      "i": 3,
+      "statut": "admissible",
+      "E": 0.3707511441528419,
+      "gradient": 9.064440553013808e-06
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "admissible",
+      "E": 0.3707511441561897,
+      "gradient": 4.992814279451696e-06
+     },
+     {
+      "i": 7,
+      "statut": "admissible",
+      "E": 0.3707511441654267,
+      "gradient": 2.1112380746614447e-06
+     }
+    ],
+    "arete": [
+     10,
+     15
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 0.1888510092131837,
+    "E_insertion": 0.5049972523778306,
+    "gradient_penalise_max": 1.0170770671710794e-06,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 19,
+    "N1": 65,
+    "N3": 33,
+    "E": 0.5403262470338515,
+    "min_V_sur_Vref": 0.20024455765304885,
+    "volume_min": 0.007535890064559572,
+    "qmin": 0.030553407549071505,
+    "q10": 0.09342384896381757,
+    "qmed": 0.5534634957870209,
+    "somme_volumes": 2.7792940108654283,
+    "rapport_volume": 23.583091703929234,
+    "fondateurs_max": 1.0559435321928894,
+    "fondateurs_moy": 0.8459308620905293,
+    "degagement_min": {
+     "0": 0.04194159779844714,
+     "1": 0.022562952937111826,
+     "2": 0.011571353757735794
+    },
+    "degagement_min_global": 0.011571353757735794,
+    "paires_actives": 0,
+    "volumes_actifs": 4,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 15,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.5403265464666828,
+      "gradient": 0.08909636115223558
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "admissible",
+      "E": 0.5403262470338515,
+      "gradient": 0.0889659315023305
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     1,
+     12
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 0.37075114415149596,
+    "E_insertion": 0.6906188737987583,
+    "gradient_penalise_max": 0.0889659315023305,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 20,
+    "N1": 69,
+    "N3": 35,
+    "E": 0.5433875934118497,
+    "min_V_sur_Vref": 0.20022100792135442,
+    "volume_min": 0.007532552708794239,
+    "qmin": 0.030599507918012914,
+    "q10": 0.4002513903024535,
+    "qmed": 0.5459780392161958,
+    "somme_volumes": 3.0446395788442207,
+    "rapport_volume": 25.834623509636437,
+    "fondateurs_max": 1.0650978964610556,
+    "fondateurs_moy": 0.845944468854158,
+    "degagement_min": {
+     "0": 0.04156487454425087,
+     "1": 0.02221106607716451,
+     "2": 0.00042150931792540213
+    },
+    "degagement_min_global": 0.00042150931792540213,
+    "paires_actives": 0,
+    "volumes_actifs": 2,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 16,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.5433875934118497,
+      "gradient": 0.08768967122605799
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "admissible",
+      "E": 0.5433875935540979,
+      "gradient": 0.08770654640255812
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "admissible",
+      "E": 0.543387593790912,
+      "gradient": 0.08783122087276082
+     }
+    ],
+    "arete": [
+     7,
+     15
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 0.5403262470338517,
+    "E_insertion": 1.0836874377793009,
+    "gradient_penalise_max": 0.08768967122605799,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 21,
+    "N1": 73,
+    "N3": 37,
+    "E": 0.5249930181529286,
+    "min_V_sur_Vref": 0.20019999381728623,
+    "volume_min": 0.007531762133178997,
+    "qmin": 0.03013315578479541,
+    "q10": 0.34826823414955055,
+    "qmed": 0.5893013589512046,
+    "somme_volumes": 3.3641886637127927,
+    "rapport_volume": 28.54608740762671,
+    "fondateurs_max": 1.06507714151202,
+    "fondateurs_moy": 0.8470911809559426,
+    "degagement_min": {
+     "0": 0.041354322027705254,
+     "1": 0.02210824387195706,
+     "2": 0.00019999186620516928
+    },
+    "degagement_min_global": 0.00019999186620516928,
+    "paires_actives": 1,
+    "volumes_actifs": 2,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.1102230246251565e-16,
+    "n": 17,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.5249930181530026,
+      "gradient": 4.479377572412513e-06
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "admissible",
+      "E": 0.5249930181529286,
+      "gradient": 2.2671753143396756e-06
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "admissible",
+      "E": 0.52499301823494,
+      "gradient": 5.712568769387222e-06
+     }
+    ],
+    "arete": [
+     4,
+     7
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 0.5433875934118497,
+    "E_insertion": 0.841305698753091,
+    "gradient_penalise_max": 2.2671753143396756e-06,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 22,
+    "N1": 77,
+    "N3": 39,
+    "E": 0.5143700447552751,
+    "min_V_sur_Vref": 0.2000000017426381,
+    "volume_min": 0.007524238193212518,
+    "qmin": 0.03591726150664173,
+    "q10": 0.31053674649605073,
+    "qmed": 0.6349041876276581,
+    "somme_volumes": 3.679494773110477,
+    "rapport_volume": 31.221548464882513,
+    "fondateurs_max": 1.0000000007071983,
+    "fondateurs_moy": 0.8303104296590023,
+    "degagement_min": {
+     "0": 0.30394998968968534,
+     "1": 0.05438426103301913,
+     "2": 0.0027762581720174465
+    },
+    "degagement_min_global": 0.0027762581720174465,
+    "paires_actives": 0,
+    "volumes_actifs": 1,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 18,
+    "methode": "origine",
+    "essais": [],
+    "arete": [
+     0,
+     4
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 0.5249930181529286,
+    "E_insertion": 0.7924437233603395,
+    "gradient_penalise_max": 6.655724291149134e-09,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 23,
+    "N1": 83,
+    "N3": 44,
+    "E": 0.6969488681555005,
+    "min_V_sur_Vref": 0.2000000018431471,
+    "volume_min": 0.007524238322472013,
+    "qmin": 0.033930739196303454,
+    "q10": 0.27057871065958033,
+    "qmed": 0.5510791158960292,
+    "somme_volumes": 3.858856786791553,
+    "rapport_volume": 32.74348561881647,
+    "fondateurs_max": 1.0000000020779083,
+    "fondateurs_moy": 0.8471085299849255,
+    "degagement_min": {
+     "0": 0.2579981437169832,
+     "1": 0.05467344507235432,
+     "2": 0.052295771150947336
+    },
+    "degagement_min_global": 0.052295771150947336,
+    "paires_actives": 0,
+    "volumes_actifs": 2,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 19,
+    "methode": "origine",
+    "essais": [],
+    "arete": [
+     10,
+     11
+    ],
+    "degre_arete": 5,
+    "arete_de_bord": false,
+    "E_avant": 0.5143700447552753,
+    "E_insertion": 0.8483047985461478,
+    "gradient_penalise_max": 3.816062542350007e-09,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 24,
+    "N1": 88,
+    "N3": 47,
+    "E": 0.7573478619085598,
+    "min_V_sur_Vref": 0.20000000160837123,
+    "volume_min": 0.007524238290395853,
+    "qmin": 0.03513668657599388,
+    "q10": 0.28463193628552746,
+    "qmed": 0.539363549541704,
+    "somme_volumes": 4.178564661567461,
+    "rapport_volume": 35.45629689384988,
+    "fondateurs_max": 1.0000000053158247,
+    "fondateurs_moy": 0.8388631956041365,
+    "degagement_min": {
+     "0": 0.2826140273594615,
+     "1": 0.055296737890493136,
+     "2": 0.03155670788115546
+    },
+    "degagement_min_global": 0.03155670788115546,
+    "paires_actives": 0,
+    "volumes_actifs": 2,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 20,
+    "methode": "origine",
+    "essais": [],
+    "arete": [
+     7,
+     9
+    ],
+    "degre_arete": 3,
+    "arete_de_bord": true,
+    "E_avant": 0.6969488681555005,
+    "E_insertion": 1.0667102334757024,
+    "gradient_penalise_max": 8.762154911357012e-09,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 25,
+    "N1": 94,
+    "N3": 52,
+    "E": 0.9364657016732839,
+    "min_V_sur_Vref": 0.2001999891524949,
+    "volume_min": 0.007531762066687264,
+    "qmin": 0.030293692363144598,
+    "q10": 0.09534323074960731,
+    "qmed": 0.5108849541376408,
+    "somme_volumes": 4.307050665460242,
+    "rapport_volume": 36.546536789531636,
+    "fondateurs_max": 1.0391930245109866,
+    "fondateurs_moy": 0.8564722557439516,
+    "degagement_min": {
+     "0": 0.04179305382184584,
+     "1": 0.02247752879410134,
+     "2": 0.04024746818232107
+    },
+    "degagement_min_global": 0.02247752879410134,
+    "paires_actives": 0,
+    "volumes_actifs": 5,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 21,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 0.9364657016732839,
+      "gradient": 2.963363411724704e-05
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "admissible",
+      "E": 0.9365269535688059,
+      "gradient": 0.0716899976678402
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     10,
+     14
+    ],
+    "degre_arete": 5,
+    "arete_de_bord": false,
+    "E_avant": 0.7573478619085596,
+    "E_insertion": 1.0882103885409764,
+    "gradient_penalise_max": 2.963363411724704e-05,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 26,
+    "N1": 100,
+    "N3": 57,
+    "E": 1.1506934680161427,
+    "min_V_sur_Vref": 0.20185592581550474,
+    "volume_min": 0.0076149748937238415,
+    "qmin": 0.0341865572376513,
+    "q10": 0.12013553300866213,
+    "qmed": 0.4774328682316884,
+    "somme_volumes": 4.5255910505522206,
+    "rapport_volume": 38.40091344867153,
+    "fondateurs_max": 1.0505317598676787,
+    "fondateurs_moy": 0.8440341742862587,
+    "degagement_min": {
+     "0": 0.04582917339186143,
+     "1": 0.02938481878796508,
+     "2": 0.008118434709526334
+    },
+    "degagement_min_global": 0.008118434709526334,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 22,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 1.1506934680161427,
+      "gradient": 0.15889564170043907
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     1,
+     10
+    ],
+    "degre_arete": 5,
+    "arete_de_bord": false,
+    "E_avant": 0.936465701673284,
+    "E_insertion": 1.28449690884393,
+    "gradient_penalise_max": 0.15889564170043907,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 27,
+    "N1": 105,
+    "N3": 60,
+    "E": 1.172433284532393,
+    "min_V_sur_Vref": 0.20020083275919678,
+    "volume_min": 0.0011258649163524471,
+    "qmin": 0.0038407511860821847,
+    "q10": 0.1267241554456233,
+    "qmed": 0.476346056100925,
+    "somme_volumes": 4.709398914705081,
+    "rapport_volume": 39.96057489480637,
+    "fondateurs_max": 1.0507654617365572,
+    "fondateurs_moy": 0.8453798652491584,
+    "degagement_min": {
+     "0": 0.006206784616366978,
+     "1": 0.0033496935911098294,
+     "2": 0.00020181959175077162
+    },
+    "degagement_min_global": 0.00020181959175077162,
+    "paires_actives": 1,
+    "volumes_actifs": 5,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 23,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 1.172433284532393,
+      "gradient": 0.1279098562779878
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     5,
+     13
+    ],
+    "degre_arete": 3,
+    "arete_de_bord": true,
+    "E_avant": 1.1506934680161427,
+    "E_insertion": 1.5747362866156782,
+    "gradient_penalise_max": 0.1279098562779878,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 28,
+    "N1": 111,
+    "N3": 65,
+    "E": 1.32026653245873,
+    "min_V_sur_Vref": 0.20019997187137858,
+    "volume_min": 0.0008162573831033519,
+    "qmin": 0.0037151456943106797,
+    "q10": 0.04949731162253516,
+    "qmed": 0.4646917160075128,
+    "somme_volumes": 4.793647093945467,
+    "rapport_volume": 40.675444400928335,
+    "fondateurs_max": 1.040943700142336,
+    "fondateurs_moy": 0.8416011818329563,
+    "degagement_min": {
+     "0": 0.004335961426622792,
+     "1": 0.002844738036982824,
+     "2": 0.00019999559606559116
+    },
+    "degagement_min_global": 0.00019999559606559116,
+    "paires_actives": 1,
+    "volumes_actifs": 7,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 24,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 1.32026653245873,
+      "gradient": 2.3354832764325983e-05
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     7,
+     22
+    ],
+    "degre_arete": 5,
+    "arete_de_bord": false,
+    "E_avant": 1.1724332845323933,
+    "E_insertion": 1.747110243900511,
+    "gradient_penalise_max": 2.3354832764325983e-05,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 29,
+    "N1": 117,
+    "N3": 69,
+    "E": 1.3567483141499372,
+    "min_V_sur_Vref": 0.2086274297680946,
+    "volume_min": 0.0005607125986857193,
+    "qmin": 0.00245303839710696,
+    "q10": 0.04911727816783845,
+    "qmed": 0.4671173568027139,
+    "somme_volumes": 5.207217756566199,
+    "rapport_volume": 44.184707841395536,
+    "fondateurs_max": 1.1642286841363547,
+    "fondateurs_moy": 0.8765108443531253,
+    "degagement_min": {
+     "0": 0.0027076449373742845,
+     "1": 0.0016250104783951489,
+     "2": 0.0033131220473269466
+    },
+    "degagement_min_global": 0.0016250104783951489,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 25,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 1.3567483141499372,
+      "gradient": 0.1413460460083273
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     1,
+     7
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": true,
+    "E_avant": 1.3202665324587302,
+    "E_insertion": 2.1929444825627527,
+    "gradient_penalise_max": 0.1413460460083273,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 30,
+    "N1": 122,
+    "N3": 73,
+    "E": 1.4833311741709858,
+    "min_V_sur_Vref": 0.20758350131521358,
+    "volume_min": 0.0006896189559623863,
+    "qmin": 0.0026334543811132156,
+    "q10": 0.05445354962621504,
+    "qmed": 0.4395058349246529,
+    "somme_volumes": 5.3917130489266345,
+    "rapport_volume": 45.750202309296235,
+    "fondateurs_max": 1.1802626756121133,
+    "fondateurs_moy": 0.8631395613193518,
+    "degagement_min": {
+     "0": 0.003366405181521759,
+     "1": 0.0018389873538155372,
+     "2": 0.0034294357825680765
+    },
+    "degagement_min_global": 0.0018389873538155372,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 26,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 1.4833311741709858,
+      "gradient": 0.1397007710758633
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     10,
+     23
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 1.3567483141499372,
+    "E_insertion": 1.666370811810979,
+    "gradient_penalise_max": 0.1397007710758633,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 31,
+    "N1": 126,
+    "N3": 75,
+    "E": 1.5455377835349255,
+    "min_V_sur_Vref": 0.200425494119405,
+    "volume_min": 0.00033184172701761677,
+    "qmin": 0.0012202589505732483,
+    "q10": 0.04524719733131129,
+    "qmed": 0.4180252801757776,
+    "somme_volumes": 5.6152961087261675,
+    "rapport_volume": 47.64736748220848,
+    "fondateurs_max": 1.1698743678581298,
+    "fondateurs_moy": 0.8709860599498278,
+    "degagement_min": {
+     "0": 0.0016107549834039336,
+     "1": 0.0008564034596328546,
+     "2": 0.0016405283981330656
+    },
+    "degagement_min_global": 0.0008564034596328546,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 27,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 1.5455377835349255,
+      "gradient": 0.38283415903269213
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     5,
+     11
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 1.483331174170986,
+    "E_insertion": 1.9466933166250289,
+    "gradient_penalise_max": 0.38283415903269213,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 32,
+    "N1": 130,
+    "N3": 77,
+    "E": 1.4056263569865706,
+    "min_V_sur_Vref": 0.20146998724596119,
+    "volume_min": 0.0011574325981482947,
+    "qmin": 0.00478300053924981,
+    "q10": 0.04339041615939027,
+    "qmed": 0.48209967421602556,
+    "somme_volumes": 6.037973932420315,
+    "rapport_volume": 51.23390774690413,
+    "fondateurs_max": 1.1861593573905116,
+    "fondateurs_moy": 0.8694232579651093,
+    "degagement_min": {
+     "0": 0.005469316495285731,
+     "1": 0.002964773045504674,
+     "2": 0.002683755434267068
+    },
+    "degagement_min_global": 0.002683755434267068,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 28,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 1.4056263569865706,
+      "gradient": 0.12361600644806814
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     13,
+     14
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 1.5455377835349255,
+    "E_insertion": 1.8446470926047556,
+    "gradient_penalise_max": 0.12361600644806814,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 33,
+    "N1": 138,
+    "N3": 83,
+    "E": 1.6466802663783253,
+    "min_V_sur_Vref": 0.20040805472490075,
+    "volume_min": 0.0003828023482451333,
+    "qmin": 0.001700158022833587,
+    "q10": 0.09072454490453373,
+    "qmed": 0.4557770505812632,
+    "somme_volumes": 6.319887661005644,
+    "rapport_volume": 53.626025057211365,
+    "fondateurs_max": 1.3714574960290438,
+    "fondateurs_moy": 0.9737116897615006,
+    "degagement_min": {
+     "0": 0.0020094085848108845,
+     "1": 0.001089708421212119,
+     "2": 0.002104685645861451
+    },
+    "degagement_min_global": 0.001089708421212119,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 29,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 1.6466802663783253,
+      "gradient": 0.11017446560190296
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "admissible",
+      "E": 1.6547885965249787,
+      "gradient": 0.11135101184072552
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     0,
+     1
+    ],
+    "degre_arete": 6,
+    "arete_de_bord": true,
+    "E_avant": 1.4056263569865706,
+    "E_insertion": 1.874929059538231,
+    "gradient_penalise_max": 0.11017446560190296,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 34,
+    "N1": 143,
+    "N3": 87,
+    "E": 1.850631194761017,
+    "min_V_sur_Vref": 0.20020134151390204,
+    "volume_min": 0.0003314826270158777,
+    "qmin": 0.0014151856142408297,
+    "q10": 0.08830208744293899,
+    "qmed": 0.4307295438648149,
+    "somme_volumes": 6.558923801816004,
+    "rapport_volume": 55.65431397059938,
+    "fondateurs_max": 1.3794615663321328,
+    "fondateurs_moy": 0.9701232215924798,
+    "degagement_min": {
+     "0": 0.0017640206798430758,
+     "1": 0.0009573751843619682,
+     "2": 0.0018311527625975148
+    },
+    "degagement_min_global": 0.0009573751843619682,
+    "paires_actives": 0,
+    "volumes_actifs": 2,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 30,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 1.850631194761017,
+      "gradient": 0.10843027653510698
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     10,
+     26
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 1.6466802663783255,
+    "E_insertion": 2.0961327326161974,
+    "gradient_penalise_max": 0.10843027653510698,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 35,
+    "N1": 148,
+    "N3": 91,
+    "E": 2.281240941022681,
+    "min_V_sur_Vref": 0.20112401094544685,
+    "volume_min": 8.457028315046744e-05,
+    "qmin": 0.0003203409896343067,
+    "q10": 0.046290324619282446,
+    "qmed": 0.4404518397932067,
+    "somme_volumes": 6.70345696620029,
+    "rapport_volume": 56.880718538309125,
+    "fondateurs_max": 1.4153068305359802,
+    "fondateurs_moy": 0.9859691787400149,
+    "degagement_min": {
+     "0": 0.0005010218303078129,
+     "1": 0.0002738660712748696,
+     "2": 0.0007764208510013788
+    },
+    "degagement_min_global": 0.0002738660712748696,
+    "paires_actives": 1,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.220446049250313e-16,
+    "n": 31,
+    "methode": "contrainte",
+    "essais": [
+     {
+      "i": 0,
+      "statut": "admissible",
+      "E": 2.777679174839456,
+      "gradient": 0.8664389543492117
+     },
+     {
+      "i": 1,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 2,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 3,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 4,
+      "statut": "admissible",
+      "E": 2.281240941022681,
+      "gradient": 0.3630010719478823
+     },
+     {
+      "i": 5,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 6,
+      "statut": "perturbation non admissible"
+     },
+     {
+      "i": 7,
+      "statut": "perturbation non admissible"
+     }
+    ],
+    "arete": [
+     7,
+     25
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 1.8506311947610175,
+    "E_insertion": 2.7776791748394563,
+    "gradient_penalise_max": 0.3630010719478823,
+    "admissible": true,
+    "controle_energie": true
+   }
+  ]
+ },
+ "B": {
+  "statut": "toutes les naissances admissibles",
+  "etats": [
+   {
+    "N0": 5,
+    "N1": 9,
+    "N3": 2,
+    "E": 3.0814879110195774e-32,
+    "min_V_sur_Vref": 1.0,
+    "volume_min": 0.058925565098878946,
+    "qmin": 0.5000000000000001,
+    "q10": 0.5000000000000001,
+    "qmed": 0.5000000000000001,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": null
+    },
+    "degagement_min_global": null,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 0.0,
+    "n": 1,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     2,
+     3
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 3.697785493223493e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 6,
+    "N1": 12,
+    "N3": 3,
+    "E": 4.3140830754274083e-32,
+    "min_V_sur_Vref": 1.0,
+    "volume_min": 0.02946278254943947,
+    "qmin": 0.25000000000000006,
+    "q10": 0.25000000000000006,
+    "qmed": 0.2500000000000001,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": 0.16910197872576277
+    },
+    "degagement_min_global": 0.16910197872576277,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.3877787807814457e-17,
+    "n": 2,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     2,
+     4
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 7,
+    "N1": 15,
+    "N3": 4,
+    "E": 4.3140830754274083e-32,
+    "min_V_sur_Vref": 0.9999999999999999,
+    "volume_min": 0.01473139127471973,
+    "qmin": 0.12499999999999997,
+    "q10": 0.125,
+    "qmed": 0.18750000000000008,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": 0.07382244929162216
+    },
+    "degagement_min_global": 0.07382244929162216,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 1.3877787807814457e-17,
+    "n": 3,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     2,
+     5
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 8,
+    "N1": 18,
+    "N3": 5,
+    "E": 5.546678239835239e-32,
+    "min_V_sur_Vref": 0.9999999999999999,
+    "volume_min": 0.01473139127471973,
+    "qmin": 0.12499999999999997,
+    "q10": 0.125,
+    "qmed": 0.25000000000000006,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": 0.07382244929162216
+    },
+    "degagement_min_global": 0.07382244929162216,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.7755575615628914e-17,
+    "n": 4,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     3,
+     4
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 9,
+    "N1": 21,
+    "N3": 6,
+    "E": 5.546678239835239e-32,
+    "min_V_sur_Vref": 0.9999999999999999,
+    "volume_min": 0.01473139127471973,
+    "qmin": 0.12499999999999997,
+    "q10": 0.12499999999999997,
+    "qmed": 0.12500000000000006,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": null,
+     "1": null,
+     "2": 0.07382244929162216
+    },
+    "degagement_min_global": 0.07382244929162216,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 2.7755575615628914e-17,
+    "n": 5,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     3,
+     7
+    ],
+    "degre_arete": 1,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 10,
+    "N1": 25,
+    "N3": 8,
+    "E": 5.546678239835239e-32,
+    "min_V_sur_Vref": 0.9999999999999999,
+    "volume_min": 0.01473139127471973,
+    "qmin": 0.12499999999999997,
+    "q10": 0.12499999999999997,
+    "qmed": 0.12500000000000006,
+    "somme_volumes": 0.11785113019775788,
+    "rapport_volume": 0.9999999999999999,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": null,
+     "1": 0.06077545320436021,
+     "2": 0.07382244929162216
+    },
+    "degagement_min_global": 0.06077545320436021,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 5.551115123125783e-17,
+    "n": 6,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     1,
+     4
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 11,
+    "N1": 30,
+    "N3": 12,
+    "E": 5.546678239835239e-32,
+    "min_V_sur_Vref": 0.9999999999999999,
+    "volume_min": 0.007365695637359867,
+    "qmin": 0.06250000000000003,
+    "q10": 0.06478384917269586,
+    "qmed": 0.10516924586347914,
+    "somme_volumes": 0.11785113019775786,
+    "rapport_volume": 0.9999999999999998,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.058925565098878925,
+     "1": 0.04315774891019537,
+     "2": 0.06842085824848322
+    },
+    "degagement_min_global": 0.04315774891019537,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 7,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     0,
+     9
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 12,
+    "N1": 34,
+    "N3": 14,
+    "E": 5.546678239835239e-32,
+    "min_V_sur_Vref": 0.9999999999999999,
+    "volume_min": 0.003682847818679934,
+    "qmin": 0.042669245863479165,
+    "q10": 0.04861847210443542,
+    "qmed": 0.09269951072349673,
+    "somme_volumes": 0.11785113019775786,
+    "rapport_volume": 0.9999999999999998,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.05892556509887892,
+     "1": 0.04212447766117,
+     "2": 0.05817116719829729
+    },
+    "degagement_min_global": 0.04212447766117,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 8,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     1,
+     9
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 13,
+    "N1": 39,
+    "N3": 17,
+    "E": 5.39260384428426e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00368284781867993,
+    "qmin": 0.03125000000000001,
+    "q10": 0.042669245863479144,
+    "qmed": 0.08533849172695832,
+    "somme_volumes": 0.11785113019775786,
+    "rapport_volume": 0.9999999999999998,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.04538427298976448,
+     "1": 0.030756303076289446,
+     "2": 0.05817116719829729
+    },
+    "degagement_min_global": 0.030756303076289446,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 9,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     0,
+     7
+    ],
+    "degre_arete": 3,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 14,
+    "N1": 43,
+    "N3": 19,
+    "E": 5.546678239835239e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00368284781867993,
+    "qmin": 0.03125000000000001,
+    "q10": 0.04266924586347915,
+    "qmed": 0.074359711273827,
+    "somme_volumes": 0.11785113019775788,
+    "rapport_volume": 0.9999999999999999,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.04538427298976448,
+     "1": 0.030756303076289446,
+     "2": 0.05817116719829729
+    },
+    "degagement_min_global": 0.030756303076289446,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 10,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     4,
+     5
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 15,
+    "N1": 47,
+    "N3": 21,
+    "E": 5.854827030937197e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.0018414239093399668,
+    "qmin": 0.03125000000000001,
+    "q10": 0.04266924586347916,
+    "qmed": 0.07252675271550428,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.04538427298976448,
+     "1": 0.030756303076289446,
+     "2": 0.05031562219538766
+    },
+    "degagement_min_global": 0.030756303076289446,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 11,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     5,
+     9
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 16,
+    "N1": 51,
+    "N3": 23,
+    "E": 5.854827030937197e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.0009207119546699834,
+    "qmin": 0.03125000000000001,
+    "q10": 0.04266924586347916,
+    "qmed": 0.06250000000000003,
+    "somme_volumes": 0.1178511301977579,
+    "rapport_volume": 1.0000000000000002,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.04538427298976448,
+     "1": 0.030756303076289446,
+     "2": 0.045682973519866214
+    },
+    "degagement_min_global": 0.030756303076289446,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 12,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     9,
+     11
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 17,
+    "N1": 55,
+    "N3": 25,
+    "E": 5.893345629824942e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.0009207119546699834,
+    "qmin": 0.021334622931739582,
+    "q10": 0.035817698345391655,
+    "qmed": 0.07252675271550427,
+    "somme_volumes": 0.11785113019775788,
+    "rapport_volume": 0.9999999999999999,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.04538427298976448,
+     "1": 0.030756303076289446,
+     "2": 0.045682973519866214
+    },
+    "degagement_min_global": 0.030756303076289446,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 13,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     0,
+     13
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 18,
+    "N1": 60,
+    "N3": 29,
+    "E": 5.893345629824942e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00046035597733499155,
+    "qmin": 0.021334622931739582,
+    "q10": 0.02387998450916236,
+    "qmed": 0.04811252243246882,
+    "somme_volumes": 0.11785113019775788,
+    "rapport_volume": 0.9999999999999999,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.01473139127471973,
+     "1": 0.01632985704529274,
+     "2": 0.034861092994494323
+    },
+    "degagement_min_global": 0.01473139127471973,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 14,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     10,
+     15
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 19,
+    "N1": 65,
+    "N3": 33,
+    "E": 5.893345629824942e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00046035597733499155,
+    "qmin": 0.015625000000000003,
+    "q10": 0.023174877680874183,
+    "qmed": 0.046349755361748374,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.01473139127471973,
+     "1": 0.01632985704529274,
+     "2": 0.03191842764578886
+    },
+    "degagement_min_global": 0.01473139127471973,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 15,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     1,
+     12
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 20,
+    "N1": 69,
+    "N3": 35,
+    "E": 5.893345629824942e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00046035597733499155,
+    "qmin": 0.01158743884043709,
+    "q10": 0.021958847376419427,
+    "qmed": 0.04811252243246882,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.01473139127471973,
+     "1": 0.01632985704529274,
+     "2": 0.03070613265890385
+    },
+    "degagement_min_global": 0.01473139127471973,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 16,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     7,
+     15
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 21,
+    "N1": 73,
+    "N3": 37,
+    "E": 6.047420025375921e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00046035597733499155,
+    "qmin": 0.01158743884043709,
+    "q10": 0.02227095959875935,
+    "qmed": 0.056239341517572206,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.01473139127471973,
+     "1": 0.01632985704529274,
+     "2": 0.03070613265890385
+    },
+    "degagement_min_global": 0.01473139127471973,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 17,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     4,
+     7
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 22,
+    "N1": 77,
+    "N3": 39,
+    "E": 6.047420025375921e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00046035597733499155,
+    "qmin": 0.01158743884043709,
+    "q10": 0.022583071821099275,
+    "qmed": 0.06250000000000003,
+    "somme_volumes": 0.11785113019775788,
+    "rapport_volume": 0.9999999999999999,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.01473139127471973,
+     "1": 0.01632985704529274,
+     "2": 0.03070613265890385
+    },
+    "degagement_min_global": 0.01473139127471973,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 18,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     0,
+     4
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 23,
+    "N1": 83,
+    "N3": 44,
+    "E": 6.047420025375921e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00023017798866749577,
+    "qmin": 0.01158743884043709,
+    "q10": 0.02133462293173956,
+    "qmed": 0.052268695376739976,
+    "somme_volumes": 0.11785113019775786,
+    "rapport_volume": 0.9999999999999998,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.0130766445241485,
+     "1": 0.01525220839167729,
+     "2": 0.03070613265890385
+    },
+    "degagement_min_global": 0.0130766445241485,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 19,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     10,
+     11
+    ],
+    "degre_arete": 5,
+    "arete_de_bord": false,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 24,
+    "N1": 88,
+    "N3": 47,
+    "E": 6.201494420926899e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00023017798866749577,
+    "qmin": 0.0114475920217196,
+    "q10": 0.018131688178876067,
+    "qmed": 0.05189591976293922,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.0130766445241485,
+     "1": 0.01525220839167729,
+     "2": 0.03070613265890385
+    },
+    "degagement_min_global": 0.0130766445241485,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 20,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     7,
+     9
+    ],
+    "degre_arete": 3,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 25,
+    "N1": 94,
+    "N3": 52,
+    "E": 6.162975822039155e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.0114475920217196,
+    "q10": 0.01813168817887607,
+    "qmed": 0.05009698449942348,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.0130766445241485,
+     "1": 0.01525220839167729,
+     "2": 0.03070613265890385
+    },
+    "degagement_min_global": 0.0130766445241485,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 21,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     10,
+     14
+    ],
+    "degre_arete": 5,
+    "arete_de_bord": false,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 26,
+    "N1": 100,
+    "N3": 57,
+    "E": 6.162975822039155e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.007812500000000002,
+    "q10": 0.011587438840437092,
+    "qmed": 0.042669245863479165,
+    "somme_volumes": 0.1178511301977579,
+    "rapport_volume": 1.0000000000000002,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.0130766445241485,
+     "1": 0.01525220839167729,
+     "2": 0.02798367089726548
+    },
+    "degagement_min_global": 0.0130766445241485,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 22,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     1,
+     10
+    ],
+    "degre_arete": 5,
+    "arete_de_bord": false,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 27,
+    "N1": 105,
+    "N3": 60,
+    "E": 6.355568816477878e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.007812500000000002,
+    "q10": 0.011587438840437093,
+    "qmed": 0.04175160719702487,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.0130766445241485,
+     "1": 0.01525220839167729,
+     "2": 0.02798367089726548
+    },
+    "degagement_min_global": 0.0130766445241485,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 23,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     5,
+     13
+    ],
+    "degre_arete": 3,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 28,
+    "N1": 111,
+    "N3": 65,
+    "E": 6.355568816477878e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.0053336557329349,
+    "q10": 0.010979423688209715,
+    "qmed": 0.04083396853057058,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.009177788727679381,
+     "1": 0.01028739080115931,
+     "2": 0.018555394420279668
+    },
+    "degagement_min_global": 0.009177788727679381,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 24,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     7,
+     22
+    ],
+    "degre_arete": 5,
+    "arete_de_bord": false,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 29,
+    "N1": 117,
+    "N3": 69,
+    "E": 6.085938624263665e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.005793719420218543,
+    "q10": 0.011559469476693592,
+    "qmed": 0.04083396853057058,
+    "somme_volumes": 0.11785113019775788,
+    "rapport_volume": 0.9999999999999999,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.008730378697119692,
+     "1": 0.01028739080115931,
+     "2": 0.018555394420279668
+    },
+    "degagement_min_global": 0.008730378697119692,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 25,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     1,
+     7
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 30,
+    "N1": 122,
+    "N3": 73,
+    "E": 6.008901426488176e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.005793719420218543,
+    "q10": 0.011447592021719591,
+    "qmed": 0.03717985563691355,
+    "somme_volumes": 0.1178511301977579,
+    "rapport_volume": 1.0000000000000002,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.008730378697119692,
+     "1": 0.01028739080115931,
+     "2": 0.018555394420279668
+    },
+    "degagement_min_global": 0.008730378697119692,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 26,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     10,
+     23
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 31,
+    "N1": 126,
+    "N3": 75,
+    "E": 6.008901426488176e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.005793719420218543,
+    "q10": 0.01097942368820972,
+    "qmed": 0.04083396853057058,
+    "somme_volumes": 0.11785113019775788,
+    "rapport_volume": 0.9999999999999999,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.008730378697119692,
+     "1": 0.01028739080115931,
+     "2": 0.018555394420279668
+    },
+    "degagement_min_global": 0.008730378697119692,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 27,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     5,
+     11
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 32,
+    "N1": 130,
+    "N3": 77,
+    "E": 6.008901426488176e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.005793719420218543,
+    "q10": 0.011135479799379677,
+    "qmed": 0.03717985563691355,
+    "somme_volumes": 0.11785113019775788,
+    "rapport_volume": 0.9999999999999999,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.008730378697119692,
+     "1": 0.01028739080115931,
+     "2": 0.018555394420279668
+    },
+    "degagement_min_global": 0.008730378697119692,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 28,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     13,
+     14
+    ],
+    "degre_arete": 2,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 3.0814879110195774e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 33,
+    "N1": 138,
+    "N3": 83,
+    "E": 5.431122443172005e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.005793719420218543,
+    "q10": 0.011475561385463098,
+    "qmed": 0.03717985563691355,
+    "somme_volumes": 0.11785113019775789,
+    "rapport_volume": 1.0,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.008730378697119692,
+     "1": 0.01028739080115931,
+     "2": 0.018555394420279668
+    },
+    "degagement_min_global": 0.008730378697119692,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 29,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     0,
+     1
+    ],
+    "degre_arete": 6,
+    "arete_de_bord": true,
+    "E_avant": 3.0814879110195774e-32,
+    "E_insertion": 2.465190328815662e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 34,
+    "N1": 143,
+    "N3": 87,
+    "E": 5.440752092893941e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374789,
+    "qmin": 0.005793719420218543,
+    "q10": 0.011340691168031334,
+    "qmed": 0.03703703703703705,
+    "somme_volumes": 0.11785113019775786,
+    "rapport_volume": 0.9999999999999998,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.008730378697119692,
+     "1": 0.01028739080115931,
+     "2": 0.018555394420279668
+    },
+    "degagement_min_global": 0.008730378697119692,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 30,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     10,
+     26
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 2.465190328815662e-32,
+    "E_insertion": 2.465190328815662e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   },
+   {
+    "N0": 35,
+    "N1": 148,
+    "N3": 91,
+    "E": 5.479270691781686e-32,
+    "min_V_sur_Vref": 0.9999999999999994,
+    "volume_min": 0.00011508899433374782,
+    "qmin": 0.005793719420218543,
+    "q10": 0.010667311465869807,
+    "qmed": 0.03703703703703705,
+    "somme_volumes": 0.11785113019775785,
+    "rapport_volume": 0.9999999999999997,
+    "fondateurs_max": 1.0,
+    "fondateurs_moy": 1.0,
+    "degagement_min": {
+     "0": 0.008730378697119692,
+     "1": 0.01028739080115931,
+     "2": 0.018555394420279668
+    },
+    "degagement_min_global": 0.008730378697119692,
+    "paires_actives": 0,
+    "volumes_actifs": 0,
+    "recouvrements_controle_independant": 0,
+    "profondeur_max_controle": 4.163336342344337e-17,
+    "n": 31,
+    "methode": "aucune",
+    "essais": [],
+    "arete": [
+     7,
+     25
+    ],
+    "degre_arete": 4,
+    "arete_de_bord": false,
+    "E_avant": 2.465190328815662e-32,
+    "E_insertion": 2.465190328815662e-32,
+    "gradient_penalise_max": 0.0,
+    "admissible": true,
+    "controle_energie": true
+   }
+  ]
+ }
+}

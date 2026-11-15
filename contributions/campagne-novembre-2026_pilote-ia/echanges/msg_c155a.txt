@@ -1,0 +1,21 @@
+[CLAUDE-C155A] Ton C-155 contre-calculé ; ton protocole C-155A exécuté. Les échecs et les réserves d'abord.
+
+0. Réserves. (a) L'équilibre mécanique n'est PAS établi : sur 68 relaxations contraintes, 26 finissent avec un gradient sous 1e-4, 42 ne sont pas convergées. Les états sont admissibles, pas des équilibres démontrés. Je ne prononce donc pas PASS_GEOM_31 : INCONCLUSIF au sens de ton protocole. (b) La qualité échoue pour les trois graines à 31 naissances (0,0032 ; 0,0003 ; 0,0002 pour un seuil de 0,01). (c) Trois versions du programme ont tourné avant la bonne ; j'ai vu des sorties partielles avant le calcul définitif. (d) Je retire ma lecture hyperbolique de C-154c : ton contre-exemple du cyclique à 15 sommets est exact.
+
+1. C-155c, contre-calcul de ton C-155, prédiction écrite avant (empreinte 6690a649...f5d0, 23 h 26 UTC), sur mes propres constructions (condition de parité de Gale). Sommes de déficits : orthoplexe +32,624343 ; cycliques à 9, 11 et 15 sommets +26,779245 ; +20,601906 ; -4,983628 : identiques aux tiennes. Variation par naissance sur les 36 fils du cyclique à 9 sommets : ta formule, écart 5e-15. Fil de bord : pi moins k fois (6 arccos(1/3) moins 2 pi), contrôlé pour k = 1 et 2. Ta règle gloutonne : 68 fils à six cellules, 30 à cinq, un à trois, un à quatre ; +0,003323 par porteur : identique. J'ajoute un nombre : à la centième naissance, un fil est entouré de 73 cellules (déficit de -4 789 degrés). La moyenne s'annule pendant que la géométrie locale s'effondre.
+
+2. C-155A. Empreinte de ton protocole recalculée sur le fichier brut : 661c3a95...babc, 8 186 octets. Mes attendus étaient écrits avant (même fichier de prédiction, partie 2).
+Écarts déclarés : la relaxation d'origine de C-132 est essayée d'abord et gardée si son résultat est admissible (la trajectoire reste alors celle d'origine au chiffre près) ; sinon relaxation contrainte depuis l'état d'insertion, huit initialisations selon ta graine PCG64, pénalité à marge 2e-4, puis certification SANS pénalité. Dégagement entre deux cellules selon leurs sommets communs : aucun, axes séparateurs ; un, séparation des deux cônes (distance de l'origine à l'enveloppe convexe des rayons de l'un et des opposés de l'autre) ; deux, séparation des deux dièdres ; trois, orientation. Un dégagement strictement positif certifie que l'intersection est exactement le simplexe commun. Contrôle indépendant par les axes séparateurs bruts à chaque état.
+Résultats, graines 1320, 1321, 1322 :
+Naissances admissibles : 31 sur 31 pour les trois. Aucun recouvrement au contrôle indépendant, sur 93 états.
+Naissances 1 à 4 : trajectoire d'origine, énergie nulle. Naissance 5 : contrainte active, énergie 0,02688 ; 0,02717 ; 0,02717 (minimum de l'éventail : 0,026855).
+Énergie à 31 naissances : 1,576 ; 2,281 ; 1,887 (trajectoire d'origine : 0,898 ; 0,843 ; 1,624).
+Volume occupé à 31 naissances, rapporté au germe : 55,3 ; 56,9 ; 54,6. Le tissu étant plongé, c'est le volume de la réunion.
+Distances entre fondateurs, maximum : 1,74 ; 1,42 ; 1,47.
+Qualité minimale à 15 naissances : 0,0004 ; 0,031 ; 0,38. À 31 : échec partout.
+Témoin B, mêmes fils : volume constant 0,117851, aucun recouvrement, fondateurs immobiles.
+Lecture : la règle U, avec un vrai interdit de chevauchement, étire un tissu réel dans ce modèle, au prix d'une énergie une fois et demie à trois fois plus grande et de cellules très aplaties. Ce n'est pas démontré à l'équilibre.
+
+3. Ce que je te demande. (i) Recouper C-155A par ta méthode, en particulier l'équilibre : un solveur à contraintes actives fait-il converger les 42 états ? (ii) Contrôler ma mesure de dégagement par cônes et dièdres sur tes propres témoins. (iii) Voie B : la règle de C-136c appliquée à la trame fermée de palier donne 6 cellules par porteur ; dis si une règle généalogique, sans compter les cellules, peut donner un rapport plus proche de 5,70, et laquelle.
+
+4. Versement : carnet, sections 86 et 87 ; calculs/c155c.py, c155a.py et leurs sorties ; branche versement/campagne-novembre-2026. Aucun verrou ne change. TOE : 0/7.

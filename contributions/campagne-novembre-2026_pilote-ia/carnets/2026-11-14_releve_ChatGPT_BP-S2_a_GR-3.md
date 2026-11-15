@@ -555,3 +555,63 @@ Archive annoncée par lui : `a4cefbf0…b55d` (non relevée).
 **Statuts.** Courbure par comptage et loi de variation par naissance : **[T, recoupé dans les deux sens]**. Lecture hyperbolique : retirée. C-155A : figé, non exécuté. Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : c155c.py. Sorties : c155c.json, c155c.out. Prédiction : c155c_prediction.txt.*
+
+---
+
+## 87. C-155A exécuté : croissance de C-132 bis sous interdit de recouvrement (Claude ; protocole figé par ChatGPT ; 15 novembre, 1 h 10)
+
+Protocole : `PROTOCOLE_A_CROISSANCE_SANS_RECOUVREMENT_FIGE.md`, empreinte `661c3a95…babc` recalculée sur le fichier brut. Mes attendus : `c155c_prediction.txt`, partie 2 (23 h 26 UTC, avant toute exécution). Programme : `c155a.py`.
+
+### 87.1 Les échecs et les réserves d'abord
+
+1. **L'équilibre mécanique n'est pas établi.** Sur 68 relaxations contraintes, 26 seulement finissent avec un gradient sous 10⁻⁴ ; les 42 autres ne sont pas convergées (gradient de la fonction pénalisée jusqu'à 900). Les états sont **admissibles** ; ce ne sont pas des équilibres démontrés. Au sens du protocole, le test d'équilibre est **INCONCLUSIF**, et le verdict PASS_GEOM_31, qui exige un équilibre valide, **ne peut pas être prononcé**.
+2. **La qualité échoue pour les trois graines à 31 naissances** : plus petite qualité 0,0032 ; 0,0003 ; 0,0002, pour un seuil de 0,01. À 15 naissances : 0,0004 (échec) ; 0,031 ; 0,38.
+3. **Écarts au protocole, déclarés** (en tête du programme) : la relaxation d'origine de C-132 est essayée d'abord et gardée si son résultat est admissible ; les huit initialisations ne sont faites que pour la relaxation contrainte ; la contrainte est traitée par pénalité à marge puis **certification sans pénalité** ; le dégagement entre cellules est mesuré selon leurs sommets communs (axes séparateurs, cônes, dièdres).
+4. **Mise au point déclarée** : trois versions du programme ont tourné avant la bonne. La première mesure de dégagement ne pouvait pas être positive (erreur de conception, corrigée et contrôlée sur des témoins) ; la deuxième divergeait de la trajectoire d'origine dès la troisième naissance par un simple départage d'égalités ; la troisième s'arrêtait à tort sur un volume égal à 0,2 à 10⁻⁹ près. J'ai vu ces sorties partielles avant le calcul définitif.
+5. À la naissance 5, deux graines sur trois ne sont pas au minimum (0,02717 au lieu de 0,02686).
+
+### 87.2 Résultats
+
+| Graine | Naissances admissibles | Relaxations contraintes (convergées) | Dégagement minimal sur toute la trajectoire | Recouvrements au contrôle indépendant | Énergie à 31 (trajectoire d'origine) | Volume à 31, rapporté au germe |
+|---|---|---|---|---|---|---|
+| 1320 | 31 sur 31 | 25 (9) | 0,00020 | 0 | 1,576 (0,898) | × 55,3 |
+| 1321 | 31 sur 31 | 23 (10) | 0,00020 | 0 | 2,281 (0,843) | × 56,9 |
+| 1322 | 31 sur 31 | 20 (7) | 0,00020 | 0 | 1,887 (1,624) | × 54,6 |
+
+- **Aucun recouvrement, aucun contact accidentel, aucune inversion** dans les 93 états acceptés : chaque paire de cellules est strictement séparée hors de son simplexe commun, chaque volume reste au-dessus de 0,2 fois sa référence. Le contrôle indépendant (axes séparateurs bruts de C-152c) ne trouve aucune paire.
+- **Le volume est cette fois un volume réellement occupé** : le tissu est plongé, la somme des volumes est le volume de la réunion. Il est multiplié par 55 à 57 en 31 naissances.
+- Les distances entre fondateurs augmentent : au plus × 1,74 ; × 1,42 ; × 1,47.
+- **Témoin B** (mêmes fils divisés) : volume constant 0,117851, aucun recouvrement, fondateurs immobiles, qualité 0,005 ; 0,006 ; 0,003. Subdivision sans croissance, comme attendu.
+
+| Attendu (écrit avant) | Résultat | Verdict |
+|---|---|---|
+| X1 — naissances 1 à 4 identiques à l'origine, énergie nulle | Oui, trois graines | Tenu |
+| X2 — naissance 5 : contrainte active, énergie 0,026855 | Contrainte active ; 0,02688 ; 0,02717 ; 0,02717 | Tenu pour la contrainte ; minimum atteint sur une graine (biais de marge), approché sur deux |
+| X3 — 31 naissances sans recouvrement, énergie au-dessus de l'origine (confiance 60 %) | Oui, trois graines | Tenu |
+| X4 — qualité en échec pour au moins une graine (55 %) | Trois sur trois | Tenu |
+| X5 — test d'équilibre inconclusif pour une part des états (70 %) | 42 relaxations sur 68 | Tenu |
+| X6 — témoin B à volume constant | Oui | Tenu |
+
+### 87.3 Verdicts au sens du protocole
+
+- **Admissibilité géométrique sur 31 naissances** : obtenue pour les trois graines.
+- **PASS_GEOM_31** : non prononcé, faute d'équilibre vérifié — **INCONCLUSIF**.
+- **Croissance** : volume réel et distances entre fondateurs en hausse. **Critère de qualité** : échec.
+- **FAIL_GEOM** : aucun.
+
+### 87.4 Lecture
+
+1. **La requalification de la section 84 est précisée, non annulée.** C-132 bis tel qu'il avait été calculé reste un échec géométrique. Mais la même mécanique, avec un vrai interdit de chevauchement, produit des tissus admissibles dont le volume occupé croît du même ordre (× 55 contre × 57 à 31 naissances). La mitose première sous la règle U peut donc étirer un tissu réel dans ce modèle ; elle le paie par une énergie de une fois et demie à trois fois plus grande, et par des cellules très aplaties.
+2. **Ce n'est pas démontré à l'équilibre.** Tant que les relaxations ne convergent pas, je ne peux pas dire que ces états sont ceux que la mécanique choisirait.
+3. La parole de l'auteur du 12 novembre, « les simplexes ne peuvent pas se chevaucher », est maintenant respectée par un modèle du laboratoire.
+
+### 87.5 Limites
+
+- Trois graines, 31 naissances, bras L. La dégradation de la qualité laisse prévoir un blocage plus loin ; non testé.
+- La marge de pénalité (2 × 10⁻⁴) biaise les énergies vers le haut.
+- La mesure de dégagement par cônes et dièdres est de moi ; elle est contrôlée sur des témoins et par le test brut indépendant, mais non recoupée par ChatGPT.
+- Voie A seulement : rien ici ne touche la lecture intrinsèque.
+
+**Statuts.** Tissus de la règle U sans recouvrement sur 31 naissances : **[M], admissibilité certifiée, équilibre INCONCLUSIF**. Qualité : **[FAIL]**. Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : c155a.py. Sorties : c155a_1320.json, c155a_1321.json, c155a_1322.json et les .out correspondants.*
