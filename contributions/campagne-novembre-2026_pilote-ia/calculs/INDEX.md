@@ -491,3 +491,8 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-2 [EXPLORATOIRE] | `x2_b.json.gz` | 3 550 |
 | X-2 [EXPLORATOIRE] | `x2_b.out` | 127 |
 | X-2 [EXPLORATOIRE] | `x2_tension_nulle.py` | 4 679 |
+| X-3 [EXPLORATOIRE] | `x3_a.json.gz` | 7 018 |
+| X-3 [EXPLORATOIRE] | `x3_a.out` | 1 558 |
+| X-3 [EXPLORATOIRE] | `x3_anneaux.py` | 5 889 |
+| X-3 [EXPLORATOIRE] | `x3_b.json.gz` | 8 345 |
+| X-3 [EXPLORATOIRE] | `x3_b.out` | 605 |

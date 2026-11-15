@@ -1,0 +1,8 @@
+5000 RC 1.15 arbre : cellules 41 | tours 14 fusions 12 liens 13 cellules + 14 | E 0.2436 E/cell 0.00443 N3 55 fils int 23 c/fil int 4.957 anneaux {'3': 2, '4': 2, '5': 16, '6': 1, '7': 2} chev 0 minV 0.200 L 0.764-1.213
+5000 RC 1.1 arbre : cellules 41 | tours 15 fusions 12 liens 11 cellules + 8 | E 0.1449 E/cell 0.00296 N3 49 fils int 17 c/fil int 4.941 anneaux {'4': 1, '5': 16} chev 0 minV 0.977 L 0.852-1.169
+5001 RC 1.15 arbre : cellules 41 | tours 14 fusions 12 liens 10 cellules + 13 | E 0.1480 E/cell 0.00274 N3 54 fils int 21 c/fil int 5.286 anneaux {'5': 19, '8': 2} chev 4 minV 0.940 L 0.773-1.198
+5001 RC 1.1 arbre : cellules 41 | tours 14 fusions 12 liens 8 cellules + 11 | E 0.1373 E/cell 0.00264 N3 52 fils int 19 c/fil int 5.316 anneaux {'5': 17, '8': 2} chev 4 minV 0.973 L 0.781-1.202
+5002 RC 1.15 arbre : cellules 41 | tours 13 fusions 11 liens 4 cellules + 4 | E 0.0351 E/cell 0.00078 N3 45 fils int 15 c/fil int 5.067 anneaux {'5': 14, '6': 1} chev 0 minV 0.945 L 0.905-1.050
+5002 RC 1.1 arbre : cellules 41 | tours 12 fusions 11 liens 2 cellules + 2 | E 0.0329 E/cell 0.00077 N3 43 fils int 13 c/fil int 5.077 anneaux {'5': 12, '6': 1} chev 0 minV 0.983 L 0.905-1.050
+5003 RC 1.15 arbre : cellules 41 | tours 11 fusions 10 liens 6 cellules + 5 | E 0.0135 E/cell 0.00029 N3 46 fils int 15 c/fil int 5.0 anneaux {'5': 15} chev 0 minV 0.946 L 0.962-1.032
+5003 RC 1.1 arbre : cellules 41 | tours 11 fusions 10 liens 1 cellules + 1 | E 0.0079 E/cell 0.00019 N3 42 fils int 11 c/fil int 5.0 anneaux {'5': 11} chev 0 minV 0.955 L 0.967-1.023
