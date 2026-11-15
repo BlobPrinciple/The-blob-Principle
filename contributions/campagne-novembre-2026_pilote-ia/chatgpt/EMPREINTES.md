@@ -289,3 +289,22 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 ## C-172 / PR-AB, protocole figé non exécuté (15 novembre 2026, 21:11 UTC)
 
 - `C172_PROTOCOLE_AB_FIGE.md` : 7 008 octets, empreinte recalculée sur le fichier brut `fa5711d72c1886a4e0937b6f88b667c4c5b96b9dac6b4bc5eee2b20760b8c016`, **conforme à l'annonce** ; lu en entier, après l'écriture et l'exécution de mon propre protocole C-172c.
+
+## C-172R, contre-calcul des parties A, B, C, D (récupéré le 15 novembre 2026, 23:12 UTC)
+
+Archive `BLOB_C172_CONTRE_CALCUL_ABCD_2026-11-15.zip` : 44 824 octets, `e30b9980573641d99aabb780a0ab607835565e66bf841f3aa37e7fc10341cfc0` (aucune empreinte annoncée pour l'archive). Empreintes recalculées sur chaque fichier brut, **toutes conformes à son manifeste** (`SHA256_MANIFEST.txt`, `6bfb9d8cf26d97d7b202703a75a41a0682242319652803cef5ca01054ab4be6b`) :
+
+- `C172_PASSATION_A_CLAUDE.md` : 2 541 octets, `58011776bda1586ce18bfb2bc75da361f1244d50718f621cd152ca6a0db06796`, **versé dans ce dossier**, lu.
+- `C172_RAPPORT_CONTRE_CALCUL.md` : 9 845 octets, `df912a22ef07b3c78971a54ad2a737f4843251504bdc65e21654ffba2aec775c`, lu en entier, non versé.
+- `C172_ERRATUM_A_TEMOIN_HOMOTHETIE.md` : `a0bbcdeb99ec883db0f6ea5289e31b5ffcff8d9f3a895d43a01c1f39f1a42d63`, lu.
+- `C172_AB_EXECUTION.log` : `a4f61e14604dba07e51386631fb5d75419da8da21ea25aec092e9052debc6928`, lu.
+- `C172_CD_EXECUTION.log` : `8903b31ebdeee9e216cf09a6086bdcd1839e0647d0b32f58f651c1a98917f688`, lu.
+- `C172_TEMOIN_SANS_ANNEAU.log` : `f18726becc3349d62e9e799107d5b3b2ab9a3b1db1c7ea87fdd36ffd8e574149`, lu.
+- `C172_AB_INDEPENDANT.py` : `d76b1698b32109f67cf6c3f089c986d54d497756a6b85370e21c2a73c7aa8bd9`, non lu.
+- `C172_CD_INDEPENDANT.py` : `76a90d34ee1f19cd0c746ebe5b4c02d7bbd2303094eb3cd3323a7a81caf46834`, non lu.
+- `C172_AB_RESULTS.json` : `9f7ceb62fa75c250505db84a7f34b5e7b65eb46932aeb70603fff572de7da9f2`, non lu.
+- `C172_CD_RESULTS.json` : `79e24a21864b4173196dfc7143f98f78eaaead8eafc0aa19ecd962d002ed70bc`, non lu.
+- `C172_CONTROLE_HOMOTHETIE_CORRIGE.json`, `.log`, `.py` : `3e1df00053facf5207eaaef2451503f0ebaa4dfa31d4995ed495c4477350c3f9`, `028a806aced96516e029cab065db1fbaf756d4e559fc6fd29621cca394e14595`, `7e74d223f0a06f8eda1d2ff29e77bfd23faaa743b1c7a0ab8b04d93eae9a31af`, non lus.
+- `C172_TEMOIN_SANS_ANNEAU.json`, `.py` : `d6d24cf17780904ee10f14ebec26ce4b359c5b13f205bf0a38322ac5a59c6ba8`, `adbc8a57eaa6ed7a583689b2ddc687086793f5d7e3a7d835cccce3b2136fa641`, non lus.
+- `C172_PROTOCOLE_AB_FIGE.md` : `fa5711d72c1886a4e0937b6f88b667c4c5b96b9dac6b4bc5eee2b20760b8c016`, identique à la pièce déjà relevée.
+- Hors manifeste, programmes d'aide : `C169R_CODE.py` `bdc1194094eb88e78f3e666cbeb256b0fb2088a945cba45cc6c40250071c7fb8` ; `C170_ALTERNANCE_INDEPENDANTE_REFERENCE.py` `d17efa75281d8acde720f4e4f3e5ce4e70ace76c49f78c01eef2ad57785caa8d` ; non lus.
