@@ -447,3 +447,16 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | BP-L1e-c | `bpl1e_c.out` | 1 771 |
 | BP-L1e-c | `bpl1e_c.py` | 1 570 |
 | BP-L1e-c | `bpl1e_c_prediction.txt` | 1 130 |
+| C-163c | `c163c.py` | 7 004 |
+| C-163c | `c163c_1320_A_14.json` | 25 673 |
+| C-163c | `c163c_1320_A_14.out` | 1 625 |
+| C-163c | `c163c_1320_A_arret24.out` | 2 764 |
+| C-163c | `c163c_1320_B_14.json` | 25 048 |
+| C-163c | `c163c_1320_B_14.out` | 1 622 |
+| C-163c | `c163c_1320_B_arret24.out` | 2 810 |
+| C-163c | `c163c_1320_C_14.json` | 26 529 |
+| C-163c | `c163c_1320_C_14.out` | 1 538 |
+| C-163c | `c163c_1320_analyse_14.json` | 6 883 |
+| C-163c | `c163c_1320_analyse_14.out` | 1 996 |
+| C-163c | `c163c_analyse.py` | 1 618 |
+| C-163c | `c163c_prediction.txt` | 2 631 |

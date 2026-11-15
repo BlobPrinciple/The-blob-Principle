@@ -1,0 +1,25 @@
+A 1320 1 [1, 3] deg 1 origine E 0.000000000 vol 2.0000 egal [6] ecart [None]  adm True
+A 1320 2 [0, 2] deg 2 origine E 0.030574477 vol 3.6423 egal [6] ecart [None] marge 3.591 adm True
+A 1320 3 [4, 5] deg 4 origine E 0.205887450 vol 5.0787 egal [1] ecart ['7.30e-02'] marge 3.714 adm True
+A 1320 4 [0, 4] deg 2 origine E 0.197253112 vol 6.7405 egal [3] ecart ['3.17e-01'] marge 1.305 adm True
+A 1320 5 [0, 1] deg 2 origine E 0.163618309 vol 8.7882 egal [2] ecart ['9.76e-02'] marge 2.026 adm True
+A 1320 6 [3, 5] deg 2 origine E 0.121667784 vol 11.2484 egal [2, 1] ecart ['4.02e-02', '7.88e-02'] marge 7.364 adm True
+A 1320 7 [0, 5] deg 2 origine E 0.096191544 vol 13.6210 egal [1] ecart ['8.87e-02'] marge 6.918 adm True
+A 1320 8 [1, 2] deg 2 origine E 0.088064362 vol 15.7462 egal [1] ecart ['3.45e-02'] marge 21.817 adm True
+A 1320 9 [5, 9] deg 2 origine E 0.071034558 vol 18.0674 egal [1] ecart ['2.78e-02'] marge 1.983 adm True
+A 1320 10 [2, 5] deg 2 origine E 0.061414251 vol 20.8591 egal [1, 1] ecart ['4.40e-02', '9.84e-02'] marge 8.332 adm True
+A 1320 11 [6, 13] deg 4 origine E 0.250666525 vol 22.4367 egal [1, 1, 1] ecart ['1.40e-02', '2.04e-02', '7.17e-02'] marge 361.966 adm True
+A 1320 12 [6, 11] deg 5 origine E 0.461589217 vol 23.4136 egal [1] ecart ['1.38e-03'] marge 1.365 adm True
+A 1320 13 [5, 13] deg 2 contrainte E 0.414605193 vol 25.6111 egal [1, 1, 1] ecart ['2.88e-02', '6.56e-03', '8.11e-02'] marge 3.742 adm True
+A 1320 14 [4, 11] deg 2 origine E 0.421584055 vol 27.8077 egal [1, 1, 1] ecart ['5.90e-03', '6.62e-02', '2.67e-09'] marge 1.024 adm True
+A 1320 15 [0, 8] deg 2 origine E 0.445610011 vol 29.6213 egal [1] ecart ['4.87e-02'] marge 1.157 adm True
+A 1320 16 [2, 12] deg 3 origine E 0.478915620 vol 32.1466 egal [1, 1] ecart ['1.58e-02', '6.05e-02'] marge 15.698 adm True
+A 1320 17 [12, 13] deg 2 origine E 0.428721427 vol 34.7217 egal [1] ecart ['1.15e-01'] marge 1.673 adm True
+A 1320 18 [6, 19] deg 4 contrainte E 0.558647803 vol 36.4429 egal [1, 1] ecart ['1.98e-02', '1.32e-01'] marge 1.655 adm True
+A 1320 19 [1, 11] deg 2 origine E 0.529674091 vol 38.9078 egal [1] ecart ['5.66e-02'] marge 2.045 adm True
+A 1320 20 [6, 18] deg 4 contrainte E 0.705784118 vol 39.9678 egal [1] ecart ['5.82e-02'] marge 1.535 adm True
+A 1320 21 [2, 9] deg 3 contrainte E 0.714219083 vol 42.1087 egal [1, 1] ecart ['6.01e-02', '2.23e-01'] marge 3.859 adm True
+A 1320 22 [6, 24] deg 4 contrainte E 0.887477492 vol 43.6644 egal [1] ecart ['2.42e-01'] marge 198.032 adm True
+A 1320 23 [13, 16] deg 2 origine E 0.868476294 vol 45.9033 egal [1] ecart ['8.87e-02'] marge 304.258 adm True
+A 1320 24 [2, 24] deg 3 contrainte E 0.908420627 vol 47.9084 egal [1, 1, 1, 1] ecart ['8.89e-03', '1.85e-02', '1.33e-02', '1.47e-01'] marge 225.728 adm True
+finA

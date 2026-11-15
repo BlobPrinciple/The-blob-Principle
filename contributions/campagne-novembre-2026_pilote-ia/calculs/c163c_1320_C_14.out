@@ -1,0 +1,15 @@
+C 1320 1 [0, 2] deg 1 origine E 0.000000000 vol 2.0000 egal [6] ecart [None]  adm True
+C 1320 2 [1, 3] deg 2 origine E 0.030574477 vol 3.6423 egal [6] ecart [None] marge 4.143 adm True
+C 1320 3 [4, 5] deg 4 origine E 0.205887450 vol 5.0787 egal [1] ecart ['7.30e-02'] marge 2.135 adm True
+C 1320 4 [3, 4] deg 2 origine E 0.197253112 vol 6.7405 egal [3] ecart ['3.17e-01'] marge 1.269 adm True
+C 1320 5 [2, 5] deg 2 origine E 0.163618309 vol 8.7882 egal [2] ecart ['9.76e-02'] marge 1.326 adm True
+C 1320 6 [2, 3] deg 2 origine E 0.121667784 vol 11.2484 egal [1] ecart ['7.88e-02'] marge 8.835 adm True
+C 1320 7 [0, 7] deg 2 origine E 0.113721123 vol 13.2496 egal [1] ecart ['6.00e-02'] marge 133.683 adm True
+C 1320 8 [1, 2] deg 2 origine E 0.127803312 vol 14.9259 egal [1, 1] ecart ['1.06e-02', '4.09e-03'] marge 2.112 adm True
+C 1320 9 [2, 8] deg 2 origine E 0.129618776 vol 17.2580 egal [1] ecart ['4.57e-02'] marge 1.435 adm True
+C 1320 10 [6, 12] deg 4 origine E 0.313849773 vol 18.3337 egal [1] ecart ['5.23e-02'] marge 3.596 adm True
+C 1320 11 [3, 7] deg 2 contrainte E 0.316842396 vol 20.3502 egal [1] ecart ['2.37e-02'] marge 2.168 adm True
+C 1320 12 [5, 6] deg 4 contrainte E 0.497966893 vol 21.2584 egal [1] ecart ['2.01e-02'] marge 1.631 adm True
+C 1320 13 [2, 4] deg 2 contrainte E 0.505250701 vol 23.5475 egal [1] ecart ['1.78e-02'] marge 16.561 adm True
+C 1320 14 [3, 5] deg 2 origine E 0.508187879 vol 25.7871 egal [1, 1] ecart ['1.76e-01', '1.83e-02'] marge 1.249 adm True
+STATUT 1320 C toutes les naissances admissibles

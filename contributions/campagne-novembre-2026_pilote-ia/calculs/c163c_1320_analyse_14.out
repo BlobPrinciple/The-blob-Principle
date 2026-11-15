@@ -1,0 +1,14 @@
+1 [1, 3] origine E 0.000000000 egal [6] | B: fil = dE 1.9e-26 dX 2.1e-16 iso 2.2e-16 orig | C: fil X dE 9.9e-27 dX 1.3e+00 iso 2.2e-16 orig
+2 [0, 2] origine E 0.030574477 egal [6] | B: fil = dE 1.0e-17 dX 3.1e-09 iso 4.7e-09 orig | C: fil X dE 2.1e-17 dX 1.2e+00 iso 8.5e-10 orig
+3 [4, 5] origine E 0.205887450 egal [1] | B: fil = dE 2.8e-17 dX 8.2e-10 iso 6.2e-10 orig | C: fil = dE 2.8e-17 dX 1.6e+00 iso 1.9e-10 orig
+4 [0, 4] origine E 0.197253112 egal [3] | B: fil = dE 1.1e-16 dX 3.6e-10 iso 7.5e-10 orig | C: fil X dE 2.8e-17 dX 1.7e+00 iso 7.1e-10 orig
+5 [0, 1] origine E 0.163618309 egal [2] | B: fil = dE 5.6e-17 dX 5.6e-10 iso 8.2e-10 orig | C: fil X dE 8.3e-17 dX 1.7e+00 iso 3.8e-09 orig
+6 [3, 5] origine E 0.121667784 egal [2, 1] | B: fil = dE 4.2e-17 dX 1.2e-09 iso 1.0e-09 orig | C: fil X dE 1.4e-17 dX 1.7e+00 iso 5.7e-10 orig
+7 [0, 5] origine E 0.096191544 egal [1] | B: fil = dE 4.2e-17 dX 3.9e-10 iso 3.8e-10 orig | C: fil X dE 1.8e-02 dX 1.7e+00 iso 2.3e-01 orig
+8 [1, 2] origine E 0.088064362 egal [1] | B: fil = dE 4.2e-17 dX 4.1e-10 iso 3.3e-13 orig | C: fil = dE 4.0e-02 dX 1.6e+00 iso 1.7e-01 orig
+9 [5, 9] origine E 0.071034558 egal [1] | B: fil = dE 1.4e-17 dX 4.0e-10 iso 4.4e-15 orig | C: fil X dE 5.9e-02 dX 1.6e+00 iso 1.4e-01 orig
+10 [2, 5] origine E 0.061414251 egal [1, 1] | B: fil = dE 6.9e-18 dX 4.3e-10 iso 1.4e-11 orig | C: fil X dE 2.5e-01 dX 1.6e+00 iso 3.2e-01 orig
+11 [6, 13] origine E 0.250666525 egal [1, 1, 1] | B: fil = dE 5.6e-17 dX 2.1e-09 iso 4.1e-09 orig | C: fil X dE 6.6e-02 dX 1.6e+00 iso 1.7e-01 cont
+12 [6, 11] origine E 0.461589217 egal [1] | B: fil = dE 9.7e-12 dX 8.6e-09 iso 7.5e-09 orig | C: fil X dE 3.6e-02 dX 1.7e+00 iso 1.6e-01 cont
+13 [5, 13] contrainte E 0.414605193 egal [1, 1, 1] | B: fil = dE 3.2e-06 dX 7.7e-03 iso 4.6e-05 orig | C: fil X dE 9.1e-02 dX 1.7e+00 iso 2.3e-01 cont
+14 [4, 11] origine E 0.421584055 egal [1, 1, 1] | B: fil X dE 0.0e+00 dX 9.4e-01 iso 1.9e-09 orig | C: fil X dE 8.7e-02 dX 1.7e+00 iso 9.8e-02 orig

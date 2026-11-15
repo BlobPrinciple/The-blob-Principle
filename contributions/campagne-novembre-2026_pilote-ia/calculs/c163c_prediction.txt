@@ -1,0 +1,20 @@
+C-163c -- tirage independant des numeros (course d'exponentielles, marques portees par les cellules et les fils), graine 1320. Claude, 2026-11-15 12:44:46 UTC.
+Ecrit avant d'ecrire le programme et avant tout calcul. Regle proposee par ChatGPT (BP-L1d, section 4) ; programme a moi, derive de c155a.py.
+
+Dispositif. Meme tissu, trois executions, 14 naissances, regle U, interdit de chevauchement (c155a) :
+ A : numeros d'origine (fondateurs 0 a 3, nouveaux sommets 4, 5, ...).
+ B : fondateurs permutes (3, 0, 1, 2 -> permutation impaire incluse dans un second essai si le temps le permet), nouveaux sommets numerotes en descendant depuis 999 ; les marques sont TRANSPORTEES (calculees sur les numeros canoniques, ceux de A).
+ C (temoin negatif) : meme renumerotation que B, marques calculees sur les numeros de B (non transportees).
+Regle : cellule = argmin Z_T / V_T, Z_T = -ln(u), u tire d'une empreinte SHA-256 de (graine, naissance, sommets canoniques de la cellule) ; arete la plus longue, egalites (a 1e-9 pres) departagees par la plus petite marque de fil ; marche vers la cellule voisine d'arete strictement plus longue, egalites departagees par marque ; perturbations des huit initialisations tirees dans l'ordre canonique.
+
+R1. A et B donnent la meme suite de fils (en numeros canoniques) aux 14 naissances. Confiance 70 % : la relaxation contrainte a huit departs peut choisir un autre minimum sur un ecart d'arrondi.
+R2. Si R1 tient : energies egales a moins de 1e-6 et positions (par sommet canonique) a moins de 1e-4 a chaque naissance.
+R3. Tous les etats admissibles dans A et B.
+R4. Temoin negatif C : suite de fils differente de A (en numeros canoniques) au plus tard a la naissance 3.
+R5. Egalites exactes de longueur : six fils a egalite a la naissance 1 (tetraedre regulier) ; ensuite, au plus trois naissances avec une egalite a 1e-9 pres.
+R6. Quasi-egalites dangereuses (ecart entre le fil le plus long et le suivant compris entre 1e-9 et 1e-6) : aucune sur les 14 naissances.
+Ce que cela ne dira pas : ce qui choisit physiquement la cellule ou le fil ; les marques sont des jetons de couplage, pas des grandeurs du Blob.
+
+COMPLEMENT ecrit le 2026-11-15 12:46:34 UTC, apres les executions A, B, C a 14 naissances (quelques secondes chacune) et avant toute execution plus longue.
+Extension a 40 naissances, modes A, B, B2 (permutation impaire), C, graines 1320, 1321, 1322. Memes attendus R1 a R3 et R6, confiance 50 % pour R1 a 40 naissances
+(des que la relaxation contrainte entre en jeu, un ecart d'arrondi peut changer de minimum). R5 est deja fausse a 14 naissances (cinq naissances a egalite, pas trois).

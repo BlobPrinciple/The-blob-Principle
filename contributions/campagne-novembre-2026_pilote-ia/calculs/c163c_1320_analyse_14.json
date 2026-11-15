@@ -1,0 +1,388 @@
+[
+ {
+  "n": 1,
+  "fil": [
+   1,
+   3
+  ],
+  "E": 1.785769784959572e-21,
+  "methode": "origine",
+  "egalites": [
+   6
+  ],
+  "ecart_min": null,
+  "B": {
+   "meme_fil": true,
+   "dE": 1.8785397418036658e-26,
+   "methode": "origine",
+   "dX": 2.0816681711721685e-16,
+   "ecart_isometrie": 2.220446049250313e-16
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 9.930242704680317e-27,
+   "methode": "origine",
+   "dX": 1.2961218946284903,
+   "ecart_isometrie": 2.220446049250313e-16
+  }
+ },
+ {
+  "n": 2,
+  "fil": [
+   0,
+   2
+  ],
+  "E": 0.030574477178156034,
+  "methode": "origine",
+  "egalites": [
+   6
+  ],
+  "ecart_min": null,
+  "B": {
+   "meme_fil": true,
+   "dE": 1.0408340855860843e-17,
+   "methode": "origine",
+   "dX": 3.133059256477111e-09,
+   "ecart_isometrie": 4.681766307967905e-09
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 2.0816681711721685e-17,
+   "methode": "origine",
+   "dX": 1.1823313157657083,
+   "ecart_isometrie": 8.494980274775799e-10
+  }
+ },
+ {
+  "n": 3,
+  "fil": [
+   4,
+   5
+  ],
+  "E": 0.20588745030457187,
+  "methode": "origine",
+  "egalites": [
+   1
+  ],
+  "ecart_min": 0.0729673171545171,
+  "B": {
+   "meme_fil": true,
+   "dE": 2.7755575615628914e-17,
+   "methode": "origine",
+   "dX": 8.164415879474696e-10,
+   "ecart_isometrie": 6.200974178582896e-10
+  },
+  "C": {
+   "meme_fil": true,
+   "dE": 2.7755575615628914e-17,
+   "methode": "origine",
+   "dX": 1.5765671607559173,
+   "ecart_isometrie": 1.884219447134683e-10
+  }
+ },
+ {
+  "n": 4,
+  "fil": [
+   0,
+   4
+  ],
+  "E": 0.19725311191347386,
+  "methode": "origine",
+  "egalites": [
+   3
+  ],
+  "ecart_min": 0.3171572867091538,
+  "B": {
+   "meme_fil": true,
+   "dE": 1.1102230246251565e-16,
+   "methode": "origine",
+   "dX": 3.6098746214463517e-10,
+   "ecart_isometrie": 7.501368415319121e-10
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 2.7755575615628914e-17,
+   "methode": "origine",
+   "dX": 1.6559695198247968,
+   "ecart_isometrie": 7.093055032214579e-10
+  }
+ },
+ {
+  "n": 5,
+  "fil": [
+   0,
+   1
+  ],
+  "E": 0.16361830942537037,
+  "methode": "origine",
+  "egalites": [
+   2
+  ],
+  "ecart_min": 0.09758681370128197,
+  "B": {
+   "meme_fil": true,
+   "dE": 5.551115123125783e-17,
+   "methode": "origine",
+   "dX": 5.595258562030025e-10,
+   "ecart_isometrie": 8.209291024741106e-10
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 8.326672684688674e-17,
+   "methode": "origine",
+   "dX": 1.7004849300423173,
+   "ecart_isometrie": 3.801400971781277e-09
+  }
+ },
+ {
+  "n": 6,
+  "fil": [
+   3,
+   5
+  ],
+  "E": 0.12166778386071608,
+  "methode": "origine",
+  "egalites": [
+   2,
+   1
+  ],
+  "ecart_min": 0.04020091523948688,
+  "B": {
+   "meme_fil": true,
+   "dE": 4.163336342344337e-17,
+   "methode": "origine",
+   "dX": 1.1826941648251932e-09,
+   "ecart_isometrie": 1.0430725172483335e-09
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 1.3877787807814457e-17,
+   "methode": "origine",
+   "dX": 1.7292406613677516,
+   "ecart_isometrie": 5.722740059610487e-10
+  }
+ },
+ {
+  "n": 7,
+  "fil": [
+   0,
+   5
+  ],
+  "E": 0.09619154436737477,
+  "methode": "origine",
+  "egalites": [
+   1
+  ],
+  "ecart_min": 0.08869482649738325,
+  "B": {
+   "meme_fil": true,
+   "dE": 4.163336342344337e-17,
+   "methode": "origine",
+   "dX": 3.9055408906918387e-10,
+   "ecart_isometrie": 3.8115932632365457e-10
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 0.017529578346275526,
+   "methode": "origine",
+   "dX": 1.7033767336293972,
+   "ecart_isometrie": 0.23479748191247984
+  }
+ },
+ {
+  "n": 8,
+  "fil": [
+   1,
+   2
+  ],
+  "E": 0.08806436209573097,
+  "methode": "origine",
+  "egalites": [
+   1
+  ],
+  "ecart_min": 0.034483663518978025,
+  "B": {
+   "meme_fil": true,
+   "dE": 4.163336342344337e-17,
+   "methode": "origine",
+   "dX": 4.121803384715683e-10,
+   "ecart_isometrie": 3.339550858072471e-13
+  },
+  "C": {
+   "meme_fil": true,
+   "dE": 0.03973895002942977,
+   "methode": "origine",
+   "dX": 1.5645387714587822,
+   "ecart_isometrie": 0.17244466478811749
+  }
+ },
+ {
+  "n": 9,
+  "fil": [
+   5,
+   9
+  ],
+  "E": 0.07103455788031258,
+  "methode": "origine",
+  "egalites": [
+   1
+  ],
+  "ecart_min": 0.02778971943349884,
+  "B": {
+   "meme_fil": true,
+   "dE": 1.3877787807814457e-17,
+   "methode": "origine",
+   "dX": 3.952661531414492e-10,
+   "ecart_isometrie": 4.440892098500626e-15
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 0.05858421842068283,
+   "methode": "origine",
+   "dX": 1.5684156770436817,
+   "ecart_isometrie": 0.1398315318086083
+  }
+ },
+ {
+  "n": 10,
+  "fil": [
+   2,
+   5
+  ],
+  "E": 0.06141425149862202,
+  "methode": "origine",
+  "egalites": [
+   1,
+   1
+  ],
+  "ecart_min": 0.043971180708698876,
+  "B": {
+   "meme_fil": true,
+   "dE": 6.938893903907228e-18,
+   "methode": "origine",
+   "dX": 4.273754900321891e-10,
+   "ecart_isometrie": 1.3963497025315519e-11
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 0.25243552141259795,
+   "methode": "origine",
+   "dX": 1.5880323433781893,
+   "ecart_isometrie": 0.31713233348220005
+  }
+ },
+ {
+  "n": 11,
+  "fil": [
+   6,
+   13
+  ],
+  "E": 0.25066652549059193,
+  "methode": "origine",
+  "egalites": [
+   1,
+   1,
+   1
+  ],
+  "ecart_min": 0.014046343645240711,
+  "B": {
+   "meme_fil": true,
+   "dE": 5.551115123125783e-17,
+   "methode": "origine",
+   "dX": 2.1122550930563477e-09,
+   "ecart_isometrie": 4.052561286549405e-09
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 0.06617587028384592,
+   "methode": "contrainte",
+   "dX": 1.6287103437268464,
+   "ecart_isometrie": 0.16554775395753873
+  }
+ },
+ {
+  "n": 12,
+  "fil": [
+   6,
+   11
+  ],
+  "E": 0.46158921712747897,
+  "methode": "origine",
+  "egalites": [
+   1
+  ],
+  "ecart_min": 0.0013844359102010984,
+  "B": {
+   "meme_fil": true,
+   "dE": 9.708511772288375e-12,
+   "methode": "origine",
+   "dX": 8.605713475162702e-09,
+   "ecart_isometrie": 7.463677564878424e-09
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 0.0363776759420153,
+   "methode": "contrainte",
+   "dX": 1.6691170005635352,
+   "ecart_isometrie": 0.1571132399693611
+  }
+ },
+ {
+  "n": 13,
+  "fil": [
+   5,
+   13
+  ],
+  "E": 0.4146051931148447,
+  "methode": "contrainte",
+  "egalites": [
+   1,
+   1,
+   1
+  ],
+  "ecart_min": 0.006564057426438952,
+  "B": {
+   "meme_fil": true,
+   "dE": 3.218603524646202e-06,
+   "methode": "origine",
+   "dX": 0.007738666429513208,
+   "ecart_isometrie": 4.582475708736489e-05
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 0.09064550799988913,
+   "methode": "contrainte",
+   "dX": 1.6748159903928292,
+   "ecart_isometrie": 0.22760613972464228
+  }
+ },
+ {
+  "n": 14,
+  "fil": [
+   4,
+   11
+  ],
+  "E": 0.4215840553311858,
+  "methode": "origine",
+  "egalites": [
+   1,
+   1,
+   1
+  ],
+  "ecart_min": 2.6674924491487673e-09,
+  "B": {
+   "meme_fil": false,
+   "dE": 0.0,
+   "methode": "origine",
+   "dX": 0.940886236595838,
+   "ecart_isometrie": 1.8981149985108914e-09
+  },
+  "C": {
+   "meme_fil": false,
+   "dE": 0.08660382342551942,
+   "methode": "origine",
+   "dX": 1.7122198730904223,
+   "ecart_isometrie": 0.09825558984908056
+  }
+ }
+]
