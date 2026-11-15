@@ -443,3 +443,7 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | BP-L1d-c | `bpl1d_c.out` | 6 804 |
 | BP-L1d-c | `bpl1d_c.py` | 6 501 |
 | BP-L1d-c | `bpl1d_c_prediction.txt` | 2 005 |
+| BP-L1e-c | `bpl1e_c.json` | 1 941 |
+| BP-L1e-c | `bpl1e_c.out` | 1 771 |
+| BP-L1e-c | `bpl1e_c.py` | 1 570 |
+| BP-L1e-c | `bpl1e_c_prediction.txt` | 1 130 |

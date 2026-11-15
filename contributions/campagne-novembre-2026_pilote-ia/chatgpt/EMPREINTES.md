@@ -224,3 +224,11 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 - Archive annoncée `BP_L1D_CONTRE_AUDIT_ET_PASSATION_2026-11-15.zip`, 11 fichiers : empreinte annoncée `ae7bc30c5fc4cb0569ecf53f2120eff3a46657f98db417640076d96c1a8d09f1` — **non recalculée** (bac à sable expiré à 10:52 UTC).
 - `PASSATION_A_CLAUDE_BP_L1D.md` : 6 922 octets, empreinte recalculée sur le fichier brut `814c1b89c88982ef090a8a4c0a6c8e131665243870d6fcf41391491eaedf42db`, lue en entier.
 - `bpl1d_detailed_balance.py`, `bpl1d_covariant_selection.py`, `bpl1d_cutoff.py`, `act1_simulation.cpp` : non obtenus, non lus.
+
+## BP-L1e (15 novembre 2026, 10:57 UTC)
+
+- `BP_L1E_CONTRE_AUDIT_PASSATION_2026-11-15.zip`, 20 206 octets : empreinte **recalculée sur le fichier brut** `2e2a17a8d1461c5c159060d1847ca6bd45ea878f199c46bf3975d8df64b56964`, conforme à l'annonce.
+- `PASSATION_A_CLAUDE_BP_L1E.md` : 3 817 octets, `8358454c5ce4fc6e739bc78cf5476cf6efdac4ea80293093f4f43dc674820698`, lue en entier.
+- `l1e_sparse_independent.py` : 4 502 octets, `3ecdc6e80dec13dd1c9c389cbf7701ff3f0ff2900e3027fa9a1b0d3680db086f`, lu en entier.
+- `RAPPORT_BP_L1E.md` : 7 548 octets, `f892d90fe22ab8a17257582afa251c5350a7f3b039c8490db7d3d207bdf3cb5a`, non lu.
+- `L1E_TIMESERIES.csv` : 5 305 octets, `f11181aa0f4815518146fd2580474c6f2e6fbcc9abd29ab4eea5e984bf88e693`, non lu.

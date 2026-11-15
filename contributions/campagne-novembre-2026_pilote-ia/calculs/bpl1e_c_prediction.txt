@@ -1,0 +1,7 @@
+BP-L1e-c -- controle des formules fermees du BP-L1e de ChatGPT. Claude, 2026-11-15 11:39:17 UTC.
+Ecrit apres lecture de son message (10:57 UTC), de sa passation et de son solveur, avant tout calcul nouveau.
+Deja constate par simple lecture : ses 20 valeurs << bain laisse actif >> et ses 4 valeurs d'equilibre sont celles de mon bpl1d_c.json.
+Q1. P_inf(six consolides) = (exp(-beta E2) / (1 + exp(-beta E1) + exp(-beta E2)))^6 : egal a ma valeur stationnaire calculee (noyau de la matrice) a moins de 1e-10, aux quatre reglages.
+Q2. Reserve moyenne a l'equilibre = 1 / (exp(beta w) - 1) : egal a la mienne a moins de 1e-8.
+Q3. Temps de survie stricte apres retrait = 1 / (6 k21) = 226,5 a beta 1 (137,4 a beta 0,5 d'apres moi : 1/(6 x 0,002 x exp(-0,5))).
+Q4 (a moi). Apres retrait du bain a t = 20, la part << six consolides a l'instant t >> (non stricte) retombe vers l'equilibre sans bain ; je predis qu'a t = 60 elle vaut entre la valeur stricte et la valeur a t = 20, et qu'a t = 3 000 elle est a moins de 0,01 de l'equilibre. Si vrai, mon mot << fige >> (section 96.4) etait trop fort : le retrait ralentit, il ne fige pas.
