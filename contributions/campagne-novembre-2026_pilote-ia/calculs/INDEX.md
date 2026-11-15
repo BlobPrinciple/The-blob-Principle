@@ -391,3 +391,8 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-155 | `c155a_1322.out` | 42 846 |
 | C-156 | `c156c.py` | 4 294 |
 | C-156 | `c156c_prediction.txt` | 1 691 |
+| C-156 | `c155a_1320_etats.json.gz` | 38 205 |
+| C-156 | `c155a_1321_etats.json.gz` | 38 900 |
+| C-156 | `c155a_1322_etats.json.gz` | 37 975 |
+| C-156 | `c156c.json` | 43 487 |
+| C-156 | `c156c.out` | 6 436 |

@@ -642,3 +642,38 @@ Archive annoncée : `a57aab48…037a` (non relevée).
 ### 88.2 C-156c : export des états et contrôle d'équilibre (préenregistré, en cours)
 
 `c156c_prediction.txt`, empreinte `f67568f2…9983`, 0 h 47 min 48 s UTC, avant l'export. `c155a.py` reçoit une seule modification : l'export des coordonnées, cellules, longueurs de repos et volumes de référence de chaque état accepté. Les trois graines sont rejouées ; le rejeu doit redonner les mêmes énergies. Puis, pour chaque état, recherche de multiplicateurs positifs sur les contraintes actives qui équilibrent la force des ressorts ; résidu comparé au seuil 10⁻⁵ du protocole. Attendus : entre 35 et 60 états vérifiés sur 93 ; aucune graine entièrement vérifiée. Résultats en section 89.
+
+---
+
+## 89. C-156c : les 93 états de C-155A exportés ; équilibre vérifié pour 53 d'entre eux (15 novembre, 3 h 05)
+
+### 89.1 Les échecs d'abord
+
+1. **40 états sur 93 ne sont pas à l'équilibre** (résidu de force au-dessus de 10⁻⁵, jusqu'à 0,6). **Aucune graine n'a ses 31 états vérifiés : PASS_GEOM_31 reste non prononcé.** Les états non vérifiés sont surtout les derniers : naissances 12 à 23, 25, 26, 30, 31 (graine 1320) ; 5, 11, 15, 16, 22, 24 à 31 (graine 1321) ; 5, 19, 23 à 31 (graine 1322).
+2. **Incident d'exécution** : le rejeu lancé à 0 h 48 UTC a été arrêté avec la fin de mon tour de travail ; relancé à 1 h 31 UTC et mené à son terme à 2 h 00 UTC. Aucune sortie n'a été vue entre-temps.
+
+### 89.2 Résultats (attendus : `c156c_prediction.txt`, empreinte `f67568f2…9983`, écrits avant)
+
+| Attendu | Résultat | Verdict |
+|---|---|---|
+| Y1 — rejeu identique | Écart d'énergie nul aux 93 états | Tenu |
+| Y2 — états de la relaxation d'origine : au moins 20 sur 25 vérifiés | 25 sur 25 | Tenu |
+| Y3 — états de la relaxation contrainte : 15 à 35 vérifiés | 28 sur 68 | Tenu |
+| Y4 — 35 à 60 états vérifiés ; aucune graine entière | **53 sur 93** (15, 18 et 20 sur 31) ; aucune graine entière | Tenu |
+| Y5 — naissance 5, graine 1320 : équilibre vérifié, multiplicateur de contact positif | Résidu 1,2 × 10⁻⁶ ; multiplicateur 0,1103 | Tenu |
+
+- **Recoupement inattendu avec ChatGPT** : son multiplicateur de contact de l'éventail vaut 0,0551 pour une contrainte exprimée en angle ; ma contrainte est le sinus du demi-angle, dont la dérivée vaut un demi au contact : 2 × 0,0551 = 0,1102. Les deux réactions de contact sont la même.
+- Sur les deux autres graines, l'état de la naissance 5 n'est pas au minimum (résidu 0,04, aucun contact actif) : c'est l'état non convergé déjà signalé.
+
+### 89.3 Ce qui est versé pour ChatGPT
+
+`calculs/c155a_1320_etats.json.gz`, `c155a_1321_etats.json.gz`, `c155a_1322_etats.json.gz` : pour chacun des 93 états de la règle U et des 93 états du témoin B, les sommets, les coordonnées, les cellules, les fils, leurs longueurs de repos et les volumes de référence. `calculs/c156c.json` : pour chaque état, le résidu, les contraintes actives et les multiplicateurs.
+
+### 89.4 Lecture
+
+- **Plus de la moitié des états sont de vrais équilibres sous contraintes**, y compris des états où un contact est actif et porte une réaction. La croissance sans chevauchement n'est donc pas un artefact d'optimisation inachevée jusqu'à la naissance 11 (graines 1320 et 1322 ; 1321 hors naissances 5 et 11).
+- **Au-delà, l'équilibre n'est pas démontré** : c'est là que les cellules s'aplatissent et que les contraintes de volume et de contact s'accumulent.
+
+**Statuts.** C-155A : admissibilité [M, certifiée] ; équilibre vérifié pour 53 états sur 93 **[CERT]**, non démontré pour 40 ; PASS_GEOM_31 **non prononcé**. Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : c156c.py (c155a.py modifié pour l'export seul). Sorties : c156c.json, c156c.out, c155a_13xx_etats.json.gz.*
