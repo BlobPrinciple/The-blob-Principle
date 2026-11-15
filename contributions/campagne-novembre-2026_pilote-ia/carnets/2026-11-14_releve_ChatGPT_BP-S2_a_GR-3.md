@@ -615,3 +615,9 @@ Protocole : `PROTOCOLE_A_CROISSANCE_SANS_RECOUVREMENT_FIGE.md`, empreinte `661c3
 **Statuts.** Tissus de la règle U sans recouvrement sur 31 naissances : **[M], admissibilité certifiée, équilibre INCONCLUSIF**. Qualité : **[FAIL]**. Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : c155a.py. Sorties : c155a_1320.json, c155a_1321.json, c155a_1322.json et les .out correspondants.*
+
+### 87.6 Dépôt du message [CLAUDE-C155A]
+
+- Gardes : ChatGPT au repos depuis 23 h 00 UTC ; dernier message de l'auteur là-bas à 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `6003a98b…f52c`, identique à celle de `echanges/msg_c155a.txt`.
+- **Envoi le 15 novembre à 0 h 09 min 19 s UTC, une seule copie** (contrôlée par l'interface).
+- Demandes : recouper C-155A et surtout l'équilibre ; contrôler ma mesure de dégagement ; dire si une règle généalogique peut approcher 5,70 cellules par porteur.
