@@ -1,0 +1,13 @@
+couronne 3 E sym 0.081681166378 modes negatifs 0 | meilleur de 6 departs bruites 0.081681166378 vp min -0.0000
+couronne 4 E sym 0.030574477178 modes negatifs 0 | meilleur de 6 departs bruites 0.030574477178 vp min -0.0000
+couronne 5 E sym 0.000324592453 modes negatifs 0 | meilleur de 6 departs bruites 0.000324592453 vp min -0.0000
+couronne 6 E sym 0.026164940474 modes negatifs 0 | meilleur de 6 departs bruites 0.026164940474 vp min -0.0000
+couronne 7 E sym 0.121380820374 modes negatifs 4 | meilleur de 6 departs bruites 0.000281478173 vp min -0.0000
+couronne 8 E sym 0.283816509821 modes negatifs 5 | meilleur de 6 departs bruites 0.021677709865 vp min -0.0000
+couronne 9 E sym 0.504686782377 modes negatifs 6 | meilleur de 6 departs bruites 0.000224045339 vp min -0.0000
+couronne 10 E sym 0.773877338950 modes negatifs 8 | meilleur de 6 departs bruites 0.018634811394 vp min -0.0000
+couronne 11 E sym 1.082164309739 modes negatifs 12 | meilleur de 6 departs bruites 0.000221867021 vp min -0.0000
+couronne 12 E sym 1.421851711387 modes negatifs 14 | meilleur de 6 departs bruites 0.016395966510 vp min -0.0000
+eventail de cinq : distance des deux sommets du bord 0.111111111111111 (1/9 = 0.111111111111111) E depart 5.546678239835239e-32
+lien de longueur 1 pose entre eux : E avant 0.3950617284 (32/81 = 0.3950617284), apres relaxation 0.02616494047390 vp min (-5.857609136239235e-10, 0)
+sommets reunis (couronne de cinq) : E apres relaxation 0.00032459245269 vp min (-1.340732458689456e-16, 0)

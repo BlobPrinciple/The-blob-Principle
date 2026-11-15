@@ -496,3 +496,6 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-3 [EXPLORATOIRE] | `x3_anneaux.py` | 5 889 |
 | X-3 [EXPLORATOIRE] | `x3_b.json.gz` | 8 345 |
 | X-3 [EXPLORATOIRE] | `x3_b.out` | 605 |
+| X-4 [EXPLORATOIRE] | `x4_couronnes.json` | 2 229 |
+| X-4 [EXPLORATOIRE] | `x4_couronnes.out` | 1 500 |
+| X-4 [EXPLORATOIRE] | `x4_couronnes.py` | 3 636 |

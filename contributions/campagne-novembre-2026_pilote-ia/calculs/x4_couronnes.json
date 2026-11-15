@@ -1,0 +1,80 @@
+{
+ "couronnes": {
+  "3": {
+   "E_symetrique": 0.08168116637826894,
+   "vp_min": -2.775309125751058e-12,
+   "modes_negatifs": 0,
+   "E_apres_bruit": 0.08168116637826885,
+   "vp_min_apres_bruit": -2.595587459563818e-09
+  },
+  "4": {
+   "E_symetrique": 0.030574477178155972,
+   "vp_min": -4.650305637861617e-13,
+   "modes_negatifs": 0,
+   "E_apres_bruit": 0.03057447717815597,
+   "vp_min_apres_bruit": -2.9111080252406407e-12
+  },
+  "5": {
+   "E_symetrique": 0.0003245924526933498,
+   "vp_min": -2.314644680950583e-15,
+   "modes_negatifs": 0,
+   "E_apres_bruit": 0.0003245924526933487,
+   "vp_min_apres_bruit": -2.0730261501873284e-16
+  },
+  "6": {
+   "E_symetrique": 0.026164940473899678,
+   "vp_min": -3.136218153242997e-16,
+   "modes_negatifs": 0,
+   "E_apres_bruit": 0.026164940473899664,
+   "vp_min_apres_bruit": -5.397904277366083e-10
+  },
+  "7": {
+   "E_symetrique": 0.1213808203744567,
+   "vp_min": -0.23861897285249153,
+   "modes_negatifs": 4,
+   "E_apres_bruit": 0.00028147817320206596,
+   "vp_min_apres_bruit": -1.8063986398638092e-10
+  },
+  "8": {
+   "E_symetrique": 0.2838165098209643,
+   "vp_min": -0.7321492241479916,
+   "modes_negatifs": 5,
+   "E_apres_bruit": 0.02167770986535941,
+   "vp_min_apres_bruit": -5.752825030811815e-10
+  },
+  "9": {
+   "E_symetrique": 0.5046867823767632,
+   "vp_min": -1.1754196283118485,
+   "modes_negatifs": 6,
+   "E_apres_bruit": 0.0002240453391261068,
+   "vp_min_apres_bruit": -3.6068421166028635e-10
+  },
+  "10": {
+   "E_symetrique": 0.7738773389503699,
+   "vp_min": -1.7403731204380875,
+   "modes_negatifs": 8,
+   "E_apres_bruit": 0.018634811394268497,
+   "vp_min_apres_bruit": -2.087141119065975e-10
+  },
+  "11": {
+   "E_symetrique": 1.0821643097393343,
+   "vp_min": -2.2243905980427545,
+   "modes_negatifs": 12,
+   "E_apres_bruit": 0.00022186702071222796,
+   "vp_min_apres_bruit": -6.215499841182034e-11
+  },
+  "12": {
+   "E_symetrique": 1.4218517113868014,
+   "vp_min": -2.831387867494387,
+   "modes_negatifs": 14,
+   "E_apres_bruit": 0.0163959665104611,
+   "vp_min_apres_bruit": -5.249801553626099e-10
+  }
+ },
+ "eventail": {
+  "distance": 0.11111111111111084,
+  "E_lien_pose": 0.395061728395062,
+  "E_lien_relaxe": 0.026164940473899664,
+  "E_reunion": 0.0003245924526933524
+ }
+}

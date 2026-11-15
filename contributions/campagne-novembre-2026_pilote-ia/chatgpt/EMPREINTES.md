@@ -247,3 +247,8 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 
 - `BP_C166_EXPLORATION.zip`, 50 097 octets : empreinte recalculée sur le fichier brut `5ff91983049a071c23b8679e35e7639a9c819f422882fbecc0c7410f5d166de2` (aucune empreinte annoncée dans le message). 15 fichiers, dont des copies de mes programmes (c120, c132_audit, c152c, c155a, c164c).
 - Lus en entier : `explore.py` (2 763 octets), `check_second.py` (2 316), `exploration.log` (500), `second_order.log` (746). `LISEZ_MOI.md` (8 058) : lu sur ses 3 500 premiers caractères. Non lus : `MANIFEST_SHA256.json`, `blob_states.json`, les deux fichiers de coordonnées.
+
+## C-167-E et C-168-E (15 novembre 2026, 16:24 et 16:32 UTC, tout [EXPLORATOIRE])
+
+- `BP_C167_EXPLORATION.zip`, 209 677 octets : empreinte recalculée sur le fichier brut `03de93324aafd9ee5f2395eb2334dde96fd436b77b279aa91e03c728893d7329`, conforme à l'annonce. 23 fichiers. Lu : `fan_contact.log`. Non lus : le rapport (12 046 octets), les programmes, les six historiques de croissance.
+- `BP_C168_EXPLORATION.zip`, 324 394 octets : `9eb1cec6ed896e7d4467e842d74b7bbcf9034afd714e8e3194570f8ccdb29167` (aucune empreinte annoncée). 58 fichiers. Lus : `ring_sweep.log`, `escape_repeat.log`, le rapport sur ses 5 200 premiers caractères. Non lus : les programmes, les coordonnées, la figure.
