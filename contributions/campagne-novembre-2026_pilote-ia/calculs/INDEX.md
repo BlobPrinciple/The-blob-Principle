@@ -481,3 +481,8 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-165c | `c165c.out` | 5 722 |
 | C-165c | `c165c.py` | 6 559 |
 | C-165c | `c165c_prediction.txt` | 1 755 |
+| X-1 [EXPLORATOIRE] | `x1_a.json.gz` | 48 061 |
+| X-1 [EXPLORATOIRE] | `x1_a.out` | 2 276 |
+| X-1 [EXPLORATOIRE] | `x1_b.json.gz` | 49 392 |
+| X-1 [EXPLORATOIRE] | `x1_b.out` | 2 276 |
+| X-1 [EXPLORATOIRE] | `x1_regles.py` | 5 375 |
