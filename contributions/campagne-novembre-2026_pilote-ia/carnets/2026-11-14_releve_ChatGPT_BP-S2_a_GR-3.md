@@ -729,3 +729,62 @@ Archive annoncée : `8e8249d0…d37b` (non relevée).
 - Gardes : ChatGPT au repos depuis 2 h 24 UTC ; aucun message de l'auteur là-bas depuis le 14 novembre, 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `6422eb82…4876`, identique à celle de `echanges/msg_c157c.txt`.
 - **Envoi le 15 novembre à 2 h 46 min 36 s UTC, une seule copie.** Le script d'envoi a dépassé son délai d'attente ; je ne l'ai pas relancé, et le contrôle par l'interface montre une copie.
 - Demandes : qu'il exécute C-155A en entier avec son solveur à contraintes actives, en réplication indépendante ; qu'il dise si une parole de l'auteur fixe le nombre de cellules autour du fil qui se divise.
+
+---
+
+## 91. C-158 de ChatGPT ; C-158c : avec une résolution à contraintes explicites, les 93 états sont des équilibres (15 novembre, 5 h 10)
+
+### 91.1 Les échecs et les réserves d'abord
+
+1. **Ma prédiction P2 est fausse** : j'attendais qu'aucune graine n'ait ses 31 états à l'équilibre (confiance 60 %). Les trois les ont.
+2. **La qualité échoue toujours** : plus petite qualité à 31 naissances 0,0003 ; 0,0014 ; 0,0037, pour un seuil de 0,01 ; à 15 naissances 0,0049 (échec, graine 1320) ; 0,031 ; 0,38.
+3. **L'équilibre est du premier ordre.** Je n'ai pas contrôlé la stabilité (second ordre). Les écarts au protocole de C-155A demeurent : relaxation d'origine essayée d'abord ; huit initialisations seulement en relaxation contrainte ; marge de 2 × 10⁻⁴ ; ma mesure de dégagement. Non recoupé.
+4. Sorties déjà connues de moi avant ce calcul : C-156c, et le C-158 de ChatGPT.
+
+### 91.2 Ce que ChatGPT avance (2 h 48 et 3 h 06 UTC), lu en entier
+
+| Point | Ce qu'il avance | Mon contrôle |
+|---|---|---|
+| Règle « les plus anciens d'abord » | Il retire toute lecture de cette règle comme régulation de la courbure | Accord (section 90) |
+| Nombre de cellules autour du fil qui se divise | « Je ne trouve aucune donnée déjà établie qui impose un nombre précis » ; 5,70 est un seuil mathématique, non une constante tirée de la cosmogonie ; classé [OPEN — valence des arêtes] | Accord : je n'en vois pas non plus |
+| Réplication autonome de C-155A (son solveur SLSQP, depuis le germe) | 15, 12 et 12 naissances validées au premier ordre ; graine 1322 à 11 naissances : énergie 0,176450, volume × 17,07, qualité 0,3742 ; stabilité au second ordre contrôlée sur trois états (valeurs propres +0,116 ; +0,135 ; +0,078) ; graine 1320 en échec de qualité à 15 naissances (0,0043) ; réplication 3 × 31 inconclusive (54 états manquants, moins d'initialisations) | **Graine 1322, naissance 11 : mes trois nombres sont les siens** (0,176450 ; × 17,07 ; 0,3742). Ailleurs nos trajectoires diffèrent (graine 1320, naissance 12 : 0,3635 chez lui, 0,4141 chez moi) |
+
+Archive annoncée : `86326bee…4af7` (non relevée).
+
+### 91.3 C-158c (préenregistré)
+
+`c158c_prediction.txt`, empreinte `4d24dc77…52ee`, 3 h 35 min 37 s UTC, avant toute exécution de la nouvelle étape. Programme `c158c.py` : `c155a.py` inchangé, plus une reprise du meilleur essai par SLSQP sous contraintes explicites (volume de chaque cellule ; dégagement des paires proches, liste complétée tant qu'une paire est violée). Contrôle d'équilibre par la fonction de C-156c, inchangée.
+
+| Attendu | Résultat | Verdict |
+|---|---|---|
+| P1 — au moins 75 états stationnaires sur 93 (confiance 55 %) | **93 sur 93**, résidu maximal 1,0 × 10⁻⁷ | Tenu |
+| P2 — aucune graine entière (60 %) | Les trois graines, 31 sur 31 | **FAUX** |
+| P3 — qualité en échec à 31 naissances pour les trois graines (80 %) | 0,0003 ; 0,0014 ; 0,0037 | Tenu |
+| P4 — 31 naissances admissibles pour les trois graines (70 %) | Oui | Tenu |
+| P5 — naissance 5 : 0,02688, stationnaire, contact actif | 0,026877 pour les trois, un contact actif | Tenu ; c'est l'énergie des deux états réparés par ChatGPT (0,026877127) |
+
+| Graine | États à l'équilibre | Relaxations contraintes, toutes reprises | Recouvrements (contrôle indépendant) | Énergie à 31 | Volume occupé à 31 | Fondateurs, distance maximale |
+|---|---|---|---|---|---|---|
+| 1320 | 31 sur 31 | 16 | 0 | 1,570 | × 58,9 | × 2,15 |
+| 1321 | 31 sur 31 | 23 | 0 | 1,581 | × 59,8 | × 1,38 |
+| 1322 | 31 sur 31 | 21 | 0 | 1,175 | × 58,0 | × 1,05 |
+
+Témoin B : volume constant 0,117851, aucun recouvrement.
+
+### 91.4 Verdicts au sens du protocole C-155A
+
+- **PASS_GEOM_31 : atteint pour les trois graines, au premier ordre et sous mes écarts déclarés.** Trente et une naissances, tous les états plongés sans recouvrement ni contact hors du simplexe commun, volumes au-dessus du seuil, forces équilibrées par les réactions de volume et de contact, aucune inversion.
+- **Croissance** : volume réellement occupé × 58 à 60 ; une distance entre fondateurs augmente de plus de 5 % dans les trois cas (de justesse pour la graine 1322).
+- **Qualité** : échec. PASS_CROISSANCE_31, qui l'exige en supplément, n'est pas obtenu.
+- **Non établi** : la stabilité ; un recoupement indépendant complet (ChatGPT s'arrête à 15, 12 et 12 naissances).
+
+### 91.5 Lecture
+
+1. **L'inconclusif de la section 87 venait de ma méthode, non de la mécanique** : la pénalité ne convergeait pas ; une résolution à contraintes explicites converge partout. ChatGPT l'avait diagnostiqué.
+2. **Dans ce modèle, la mitose première sous la règle U, avec l'interdit de chevauchement de l'auteur, étire un tissu réel et à l'équilibre** : volume multiplié par près de 60 en 31 naissances. C'est la version valide de ce que C-132 bis avait annoncé à tort.
+3. **Elle ne garde pas la forme des cellules.** L'aplatissement est maintenant mesuré sur de vrais équilibres : ce n'est plus un doute numérique, c'est une propriété du modèle. La question ouverte est de savoir s'il arrête la croissance plus loin.
+4. Rien ici ne touche le temps, la métrique ou la gravitation.
+
+**Statuts.** Croissance sans chevauchement sous la règle U, 31 naissances, équilibre du premier ordre : **[CERT dans le modèle, non recoupé en entier]**. Régularité : **[FAIL]**. Stabilité : [OPEN]. Valence des fils : [OPEN]. Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : c158c.py, c158c_kkt.py. Sorties : c158c_13xx.out, c158c_13xx_etats.json.gz, c158c_kkt.json, c158c_kkt.out. Prédiction : c158c_prediction.txt.*

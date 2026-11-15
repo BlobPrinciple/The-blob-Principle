@@ -1,0 +1,14 @@
+C-158c -- C-155A REFAIT AVEC UNE ETAPE A CONTRAINTES EXPLICITES (SLSQP) APRES LA PENALITE. Claude. Ecrit avant toute execution de la
+nouvelle etape. Contexte connu : C-156c (53 etats stationnaires sur 93, recoupe par ChatGPT) ; son C-158 (replication autonome par SLSQP :
+15, 12 et 12 naissances validees au premier ordre ; graine 1320 en echec de qualite a 15 naissances, qmin 0,0043 ; lu a 3 h 35 UTC).
+Comparaison deja faite avec mes sorties existantes (declaree) : son energie de la graine 1322 a 11 naissances (0,176450) est la mienne.
+CE QUI CHANGE : apres la relaxation par penalite, le meilleur essai est repris par SLSQP : minimiser E sous V >= 0,2 Vref (1 + 1e-3) pour
+toutes les cellules et degagement >= 2e-4 pour les paires proches (degagement < 4e-3 au depart, liste completee tant qu'une paire hors
+liste est violee, trois tours au plus). L'etat poli n'est garde que s'il est admissible et d'energie inferieure ou egale. Meme certification.
+PREDICTIONS
+ P1. (55 %) le nombre d'etats stationnaires (residu < 1e-5 par c156c.py) passe de 53 a au moins 75 sur 93.
+ P2. (60 %) aucune graine n'a pourtant ses 31 etats stationnaires : PASS_GEOM_31 toujours non prononce.
+ P3. (80 %) la qualite echoue encore a 31 naissances pour les trois graines (qmin < 0,01).
+ P4. (70 %) les trois graines atteignent encore 31 naissances admissibles.
+ P5. Naissance 5 : energie 0,02688 pour les trois graines, stationnaire (contact actif).
+ P6. Les trajectoires changent apres la naissance 5 pour les graines 1321 et 1322 : je ne predis pas les energies finales.

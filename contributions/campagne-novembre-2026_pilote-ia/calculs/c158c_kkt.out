@@ -1,0 +1,18 @@
+1320 toutes les naissances admissibles | verifies 31 / 31 | non verifies [] | polis gardes 16 ecartes 0
+   n 5 E 0.026877 residu 3.1e-08 qmin 0.8454 vol x5.75 fond 1.02 contacts 1 volumes 0
+   n 11 E 0.414904 residu 6.0e-09 qmin 0.0028 vol x16.49 fond 1.13 contacts 0 volumes 1
+   n 12 E 0.414128 residu 2.4e-09 qmin 0.2889 vol x19.34 fond 1.11 contacts 0 volumes 0
+   n 15 E 0.614062 residu 3.1e-09 qmin 0.0049 vol x24.63 fond 1.65 contacts 0 volumes 1
+   n 31 E 1.570358 residu 9.8e-09 qmin 0.0003 vol x58.94 fond 2.15 contacts 25 volumes 8
+1321 toutes les naissances admissibles | verifies 31 / 31 | non verifies [] | polis gardes 23 ecartes 0
+   n 5 E 0.026877 residu 9.2e-09 qmin 0.8454 vol x5.75 fond 1.02 contacts 1 volumes 0
+   n 11 E 0.190657 residu 5.3e-08 qmin 0.2954 vol x17.41 fond 1.03 contacts 1 volumes 0
+   n 12 E 0.186783 residu 1.9e-08 qmin 0.2591 vol x19.36 fond 1.02 contacts 1 volumes 0
+   n 15 E 0.540322 residu 3.4e-08 qmin 0.0305 vol x23.58 fond 1.06 contacts 0 volumes 4
+   n 31 E 1.581166 residu 3.1e-08 qmin 0.0014 vol x59.77 fond 1.38 contacts 4 volumes 5
+1322 toutes les naissances admissibles | verifies 31 / 31 | non verifies [] | polis gardes 21 ecartes 0
+   n 5 E 0.026877 residu 9.7e-09 qmin 0.8454 vol x5.75 fond 1.02 contacts 1 volumes 0
+   n 11 E 0.176450 residu 2.3e-09 qmin 0.3742 vol x17.07 fond 1.10 contacts 0 volumes 0
+   n 12 E 0.332100 residu 8.8e-08 qmin 0.0418 vol x18.70 fond 1.10 contacts 0 volumes 2
+   n 15 E 0.334693 residu 9.6e-09 qmin 0.3836 vol x25.44 fond 1.10 contacts 0 volumes 0
+   n 31 E 1.174558 residu 4.6e-08 qmin 0.0037 vol x57.97 fond 1.05 contacts 0 volumes 4
