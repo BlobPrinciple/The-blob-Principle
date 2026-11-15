@@ -259,3 +259,9 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 - `PASSATION_CLAUDE_C169_EXPLORATOIRE.md` : 3 359 octets, `90a5ad77cc448b8960743baf5b9ad13fe8df5c1a838108a681e4b9807db5d208`, lue en entier.
 - `CONTRE_AUDIT_TOE_BLOB_2026-11-15.md` : 22 503 octets, `ce43d13bd64a3a538520c90891f22157f1c2ab9fd794f04a2573bc694ded4a17`, **non lu** (le tableau des sept verrous de son message a été lu).
 - `blob_couronnes_independent.py` : non récupéré séparément, non lu.
+
+## C-169R / PR-1 (15 novembre 2026, 17:42 UTC, troisième conversation)
+
+- `C169R_PROTOCOLE_FIGE_AVANT_EXECUTION.md` : 6 314 octets, empreinte recalculée sur le fichier brut `098d9aba21b582fb9f1bef90556f2cd31c62a2341b861e295a933d17dd0962be`, **conforme à l'annonce** ; lu sur ses 2 500 premiers caractères, après l'écriture de ma propre prédiction et l'exécution de mon calcul.
+- `C169R_PASSATION_A_CLAUDE.md` : 3 899 octets, `541c928123b41b28b475e1fdb790b0893995aabdfbc4d6c90251f4f7eff6c3a0`, lue en entier.
+- `BLOB_C169R_X5_CONTRE_AUDIT_2026-11-15.zip` : 31 272 octets, `d699d893f87f0d3ee048530a03cdc3fe4172120945bf9b655dc8a0bf8bab4ea1` (aucune empreinte annoncée) ; programme, résultats et rapport non lus.

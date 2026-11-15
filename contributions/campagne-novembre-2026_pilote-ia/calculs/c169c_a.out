@@ -1,0 +1,12 @@
+T 7000 complet naissances 30 cellules 31 reunions 2 hors eventail 0 perdues 0 chev 0 E/cell 0.00797 fils int 2 anneaux {'5': 1, '12': 1}
+T 7001 bloque a la naissance 24 naissances 23 cellules 23 reunions 2 hors eventail 0 perdues 1 chev 10 E/cell 0.01341 fils int 0 anneaux {}
+T 7002 complet naissances 30 cellules 31 reunions 3 hors eventail 0 perdues 0 chev 0 E/cell 0.01096 fils int 3 anneaux {'5': 1, '7': 1, '12': 1}
+T 7003 bloque a la naissance 13 naissances 12 cellules 13 reunions 2 hors eventail 0 perdues 0 chev 0 E/cell 0.01396 fils int 2 anneaux {'7': 2}
+D0.25 7000 complet naissances 30 cellules 31 reunions 9 hors eventail 6 perdues 0 chev 0 E/cell 0.00821 fils int 6 anneaux {'4': 1, '5': 2, '6': 2, '7': 1}
+D0.25 7001 complet naissances 30 cellules 27 reunions 10 hors eventail 5 perdues 4 chev 0 E/cell 0.00415 fils int 5 anneaux {'5': 2, '6': 3}
+D0.25 7002 complet naissances 30 cellules 23 reunions 13 hors eventail 10 perdues 8 chev 0 E/cell 0.00513 fils int 4 anneaux {'4': 1, '5': 2, '6': 1}
+D0.25 7003 bloque a la naissance 24 naissances 23 cellules 18 reunions 10 hors eventail 7 perdues 6 chev 4 E/cell 0.00532 fils int 2 anneaux {'5': 2}
+D0.99 7000 bloque a la naissance 25 naissances 24 cellules 22 reunions 12 hors eventail 9 perdues 3 chev 1 E/cell 0.01369 fils int 7 anneaux {'3': 1, '4': 2, '5': 2, '6': 1, '7': 1}
+D0.99 7001 bloque a la naissance 22 naissances 21 cellules 13 reunions 13 hors eventail 10 perdues 9 chev 0 E/cell 0.00798 fils int 1 anneaux {'5': 1}
+D0.99 7002 bloque a la naissance 29 naissances 28 cellules 20 reunions 15 hors eventail 12 perdues 9 chev 1 E/cell 0.01105 fils int 4 anneaux {'4': 2, '6': 2}
+D0.99 7003 bloque a la naissance 13 naissances 12 cellules 13 reunions 2 hors eventail 0 perdues 0 chev 0 E/cell 0.01396 fils int 2 anneaux {'7': 2}

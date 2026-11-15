@@ -1,0 +1,25 @@
+C-169c -- alternance croissance / fermeture, deux regles de reunion. Claude, 2026-11-15 18:15:19 UTC.
+Ecrit avant d'ecrire le programme, avant tout calcul, et SANS avoir lu la reponse de ChatGPT a [CLAUDE-X5] ni sa prediction.
+Premier passage du regime d'exploration (X-3, X-5) au regime de certification.
+
+PROTOCOLE (fige ici).
+Depart : tetraedre regulier, regle U (longueur naturelle 1), relaxation de c132_audit (ressorts + volume >= 0,2 Vref), comme x3_anneaux.py.
+Naissance : on tire au hasard, sans remise, parmi les fils qui n'appartiennent qu'a une cellule ; on garde le premier dont l'etat relaxe n'a aucun chevauchement
+(degagement > 1e-9). Au plus 60 essais ; si aucun ne convient, la croissance est dite bloquee.
+Fermeture, apres chaque naissance, repetee jusqu'a ce qu'aucune paire ne convienne (au plus 30 reunions par naissance) : on reunit la paire admissible la plus proche
+(les deux sommets vont a leur milieu), puis on relaxe. Paire admissible :
+  regle D(r) : deux sommets non lies a distance < r ; r = 0,12 ; 0,25 ; 0,5 ; 0,99.
+  regle T : deux sommets non lies, a distance < 0,5, qui ont deux voisins communs u et v lies entre eux, le fil (u, v) portant exactement cinq cellules.
+Une reunion est dite << d'eventail >> si elle satisfait le critere de T. Les chevauchements apres reunion ne sont pas corriges : ils sont comptes.
+Quatre graines (7000 a 7003) par regle, 30 naissances. Mesures a la fin : nombre de reunions, part hors eventail, paires de cellules en chevauchement, energie par cellule,
+repartition des fils interieurs selon leur nombre de cellules, blocage.
+
+PREDICTIONS.
+P1. Regle T : aucun chevauchement dans au moins 3 graines sur 4 ; energie par cellule < 0,002 a 30 naissances ; au moins 90 % des fils interieurs portent cinq cellules.
+P2. Regle D(0,12) : part des reunions hors eventail < 10 % ; nombre de reunions compris entre 50 % et 100 % de celui de T (une fois le tissu tendu, certaines ouvertures depassent 0,12).
+P3. Regle D(0,25) : part hors eventail entre 15 % et 35 % ; chevauchement dans au moins 2 graines sur 4.
+P4. Regles D(0,5) et D(0,99) : part hors eventail > 40 % et > 60 % ; chevauchement dans au moins 3 graines sur 4 ; a 0,99, blocage avant 30 naissances dans au moins une graine.
+P5. Energie par cellule, moyenne sur les graines : T <= D(0,12) < D(0,25) < D(0,5) < D(0,99).
+P6. Regle T : nombre d'anneaux de cinq fermes par cellule, a 30 naissances, entre 0,15 et 0,35.
+Temoin negatif : sans aucune fermeture (croissance seule), energie nulle et aucun fil interieur, sur les memes graines.
+Ce que cela ne dira pas : laquelle de ces regles est celle du Blob ; les seuils sont poses par les auditeurs.

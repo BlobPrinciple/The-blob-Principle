@@ -502,3 +502,9 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-5 [EXPLORATOIRE] | `x5_contacts.json` | 3 404 |
 | X-5 [EXPLORATOIRE] | `x5_contacts.out` | 2 892 |
 | X-5 [EXPLORATOIRE] | `x5_contacts.py` | 2 566 |
+| C-169c | `c169c.py` | 4 345 |
+| C-169c | `c169c_a.json` | 11 866 |
+| C-169c | `c169c_a.out` | 1 805 |
+| C-169c | `c169c_b.json` | 8 822 |
+| C-169c | `c169c_b.out` | 1 696 |
+| C-169c | `c169c_prediction.txt` | 2 664 |
