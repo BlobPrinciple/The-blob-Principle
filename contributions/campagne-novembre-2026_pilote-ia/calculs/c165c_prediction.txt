@@ -1,0 +1,14 @@
+C-165c -- contre-calcul du C-165 de ChatGPT (forme fermee de 0,030574477 ; classe D point-selle). Claude, 2026-11-15 14:38:36 UTC.
+Ecrit apres lecture de son message (14:05 UTC), de sa passation et de sa liste de regles ; avant tout calcul. Ses programmes ne sont pas lus (un seul obtenu, non ouvert).
+Remarque de lecture : son message donne un polynome en r (144 r^4 - 336 r^3 + 270 r^2 - 84 r + 7 = 0), sa passation un polynome en E (3 E^4 - 22 E^3 + 39 E^2 - 132 E + 4 = 0). Les deux sont a controler.
+
+U1. La racine r = 0,943130660386845 annule son polynome en r et donne, par sa formule, E = 0,030574477178156 (ma valeur) a 1e-13 pres.
+U2. Ma valeur de E annule son polynome en E a 1e-10 pres.
+U3. Classe D (144 ordres, E = 0,229710800) : le hessien des ressorts de MON etat relaxe a quatre valeurs propres negatives, -0,2005 ; -0,1495 (double) ; -0,0498 a 1e-4 pres ;
+    un deplacement de 0,003 le long de la pire baisse l'energie. Confiance 85 %. Si vrai : j'ai rapporte un point-selle comme etat d'equilibre.
+U4. Les trois autres triangulations et la decoupe reguliere : aucune valeur propre negative (au-dela des six modes rigides, seuil -1e-8).
+U5. (a moi) Depuis l'etat D deplace, ma relaxation trouve un etat admissible d'energie plus basse d'au moins 0,01. Confiance 50 % (ChatGPT : 55 redemarrages, tous chevauchants).
+U6. Les deux tissus de la naissance 2 (energie 0 et 0,0306) : aucune valeur propre negative.
+U7. (audit de mes propres trajectoires) Graine 1320, c163c_bis, 24 naissances : parmi les etats sans contrainte de volume active, aucun n'a de valeur propre negative
+    (seuil -1e-6). Confiance 65 %.
+U8. Cout d'insertion a la naissance 2 : 2 - racine(3) = 0,267949 pour un fil prive, 0,276924 pour un fil partage (sa formule).

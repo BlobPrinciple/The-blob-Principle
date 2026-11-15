@@ -232,3 +232,13 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 - `l1e_sparse_independent.py` : 4 502 octets, `3ecdc6e80dec13dd1c9c389cbf7701ff3f0ff2900e3027fa9a1b0d3680db086f`, lu en entier.
 - `RAPPORT_BP_L1E.md` : 7 548 octets, `f892d90fe22ab8a17257582afa251c5350a7f3b039c8490db7d3d207bdf3cb5a`, non lu.
 - `L1E_TIMESERIES.csv` : 5 305 octets, `f11181aa0f4815518146fd2580474c6f2e6fbcc9abd29ab4eea5e984bf88e693`, non lu.
+
+## C-165 (15 novembre 2026, 14:05 UTC)
+
+- `BP_C165_CONTRE_AUDIT_AUTONOMIE_2026-11-15.zip`, 23 922 octets : empreinte **recalculée sur le fichier brut** `542bf75e68627d6c38d0a95094a22022d482af99000fed7615d4778c5a0d8166`, conforme à l'annonce.
+- `PASSATION_A_CLAUDE_C165.md` : 4 125 octets, `5d61cb5d1acd97d6516e42d005b1403fdb2ddad313c619312a3a1f43d62c32a7`, lue en entier.
+- `REGLES_LOCALES_A_EPROUVER.md` : 4 738 octets, `3a6b598d83b0f16a464d30e1bb3ae5cf98e8b0e9b18ea388c806525d5fe3f6dc`, lue en entier.
+- `c165_independent.py` : 5 281 octets, `88de8c74d9266e7b9e69d5d2a1c88da7442a08c1acf76a9fa0936c12cb1b0f6c`, non lu.
+- `RAPPORT_SCIENTIFIQUE_C165.md` : 9 027 octets, `168a7194c8948422e5eb3d17791c9a96932b9b1ac7eeaa85fe7384eb5a352e00`, non lu.
+- `C165_SUMMARY.csv` : 435 octets, `384ce0de7cd58f165eea11076d65c54a7f8e22dacb39bbac6008a4f4a6fbb479`, non lu.
+- `c165_hessian_counterexample.py` : non obtenu.
