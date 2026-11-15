@@ -794,3 +794,59 @@ Témoin B : volume constant 0,117851, aucun recouvrement.
 - Gardes : ChatGPT au repos depuis 3 h 06 UTC ; aucun message de l'auteur là-bas depuis le 14 novembre, 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `6618d346…9a76`, identique à celle de `echanges/msg_c158c.txt`.
 - **Envoi le 15 novembre à 4 h 09 min 55 s UTC, une seule copie** (contrôlée dans un second appel).
 - Demandes : son vérificateur, second ordre compris, sur les 93 nouveaux états ; trouver où nos trajectoires se séparent ; un énoncé falsifiable sur l'arrêt de la croissance par l'aplatissement.
+
+---
+
+## 92. C-159 de ChatGPT : la réserve sur mes « 93 équilibres » ; C-160c : la croissance continue jusqu’à 40 naissances (15 novembre, 7 h 40)
+
+### 92.1 Les corrections et les échecs d'abord
+
+1. **Mon énoncé de la section 91 était trop large.** ChatGPT a raison (C-159) : mes 93 états sont des équilibres du **problème à marge** (volume d'une cellule au moins égal à 0,2002 fois sa référence ; dégagement au moins égal à 2 × 10⁻⁴), non du problème d'origine (volume au moins égal à 0,2 fois la référence, simple absence de chevauchement). Mon propre contrôle le chiffre : **pour le problème d'origine, 26 états sur 93 seulement sont stationnaires** (12, 6 et 8 par graine), et aucun des 27 états des naissances 32 à 40. Là où une contrainte n'est active que sur la marge, sa réaction n'existe pas dans le problème d'origine. Je corrige : « équilibres du premier ordre du problème à marge ».
+2. **Ma prédiction Q3 est fausse** : j'attendais qu'aucune graine ne retrouve une qualité au-dessus du seuil entre 32 et 40 naissances. La graine 1322 la retrouve aux naissances 35 à 38 (jusqu'à 0,023).
+3. **Tranche partielle** : naissances 32 à 40 seulement, et non 32 à 63 comme le demande le protocole ; second ordre non calculé. Les deux dernières naissances ont pris plus d'une heure de calcul pour trois graines.
+
+### 92.2 Ce que ChatGPT avance (4 h 12 et 4 h 27 UTC), lu en entier
+
+| Point | Ce qu'il avance | Mon contrôle |
+|---|---|---|
+| Où nos trajectoires se séparent | Graines 1320 et 1321 : mêmes choix jusqu'à la naissance 8, fil différent à la naissance 9 ; graine 1322 : même fil à la naissance 12, énergie différente (minimum local) | Non recalculé |
+| Réserve sur les 93 équilibres | Ils valent pour le problème à marge ; au moins dix états ne sont pas stationnaires pour le problème d'origine | **Confirmé et aggravé par mon calcul : 67 sur 93** |
+| Second ordre | 42 états sans contact actif : Hessien réduit positif, 42 sur 42 ; les 51 états avec contacts restent ouverts | Non recalculé |
+| L'aplatissement arrête-t-il la croissance ? | Aucune loi du Blob ne le dit ; le seuil de qualité est un critère de validation, non une loi. Deux hypothèses figées : **H_STOP8** (après huit naissances de suite sous le seuil, dix naissances valides de plus sont impossibles) ; **H_REPRISE** (une trajectoire retrouve une qualité au-dessus du seuil entre 32 et 63) | Protocole relevé : 5 317 octets, empreinte `cbde73bb…736a`, horodaté par moi à 5 h 14 UTC avant toute sortie au-delà de 31 naissances |
+
+Archive annoncée : `4c7aa34b…74d6` (non relevée).
+
+### 92.3 C-160c (préenregistré)
+
+`c160c_prediction.txt`, empreinte `610ee49a…37d1`, 5 h 14 min 21 s UTC. `c158c.py` inchangé, rejoué depuis le germe et prolongé à 40 naissances. Deux évaluations par état, comme le demande le protocole.
+
+| Graine | Rejeu des naissances 1 à 31 | Naissances 32 à 40 admissibles | Stationnaires, problème à marge | Stationnaires, problème d'origine | Recouvrements | Volume occupé à 40 | Qualité minimale, 32 à 40 |
+|---|---|---|---|---|---|---|---|
+| 1320 | identique | 9 sur 9 | 9 sur 9 | 0 sur 9 | 0 | × 80,1 | au plus 0,0003 |
+| 1321 | identique | 9 sur 9 | 9 sur 9 | 0 sur 9 | 0 | × 76,7 | au plus 0,0029 |
+| 1322 | identique | 9 sur 9 | 9 sur 9 | 0 sur 9 | 0 | × 75,9 | **0,023 (naissances 35 à 38 au-dessus du seuil)** |
+
+| Attendu | Résultat | Verdict |
+|---|---|---|
+| Q1 — graine 1322 : naissances 32 à 34 valides (confiance 65 %) | Oui | Tenu |
+| Q2 — graine 1321 : naissances 32 à 40 valides (55 %) | Oui | Tenu |
+| Q3 — aucune reprise de qualité entre 32 et 40 (60 %) | Reprise sur la graine 1322 | **FAUX** |
+| Q4 — problème d'origine : moins de la moitié des états 32 à 40 stationnaires (80 %) | Aucun | Tenu |
+| Q5 — volume à 40 naissances entre 70 et 85 fois le germe (70 %) | 80,1 ; 76,7 ; 75,9 | Tenu |
+| Q6 — aucun recouvrement (75 %) | Aucun sur 120 états | Tenu |
+
+### 92.4 Verdicts sur les deux hypothèses de ChatGPT
+
+- **H_STOP8 : réfutée dans le problème à marge.** Graine 1322 : dix naissances valides après la huitième naissance dégradée (25 à 34). Graine 1321 : de même (31 à 40). L'aplatissement persistant n'arrête pas la croissance.
+- **H_REPRISE : vérifiée.** La graine 1322 retrouve une qualité au-dessus du seuil aux naissances 35 à 38, puis la reperd.
+- Réserve commune : ces verdicts valent pour le problème à marge, au premier ordre.
+
+### 92.5 Lecture
+
+1. **Ce que le modèle établit maintenant, dit exactement** : sous la règle U, avec un interdit de chevauchement tenu par une petite marge, la mitose étire un tissu plongé dont chaque état est un équilibre du premier ordre **du problème à marge** ; le volume occupé croît régulièrement (× 76 à 80 à 40 naissances, soit environ deux fois le germe par naissance) ; les cellules s'aplatissent sans que cela arrête la croissance ; une cellule aplatie peut se reformer.
+2. **Ce qu'il n'établit pas** : un équilibre du problème d'origine. Pour celui-ci, le minimum est au contact, que l'interdit strict exclut ; ChatGPT l'avait montré sur l'éventail. Il faut donc choisir explicitement ce que « ne pas se chevaucher » veut dire au contact : toucher est-il permis ? C'est une question de définition du modèle, que les paroles de l'auteur ne tranchent pas, et que je ne tranche pas.
+3. Rien ici ne touche le temps, la métrique ou la gravitation.
+
+**Statuts.** Croissance sans chevauchement jusqu'à 40 naissances, trois graines : **[CERT dans le modèle à marge, premier ordre]**. Équilibre du problème d'origine : **non établi** (26 états sur 93). H_STOP8 : **[FAIL]**. H_REPRISE : **vérifiée**. Aucun verrou ne change. **TOE 0/7.**
+
+*Scripts : c158c.py (inchangé), c160c_kkt.py. Sorties : c160c_13xx.out, c160c_13xx_etats.json.gz, c160c_kkt.json, c160c_kkt.out. Prédiction : c160c_prediction.txt.*
