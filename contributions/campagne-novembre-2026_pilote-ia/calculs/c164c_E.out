@@ -1,0 +1,7 @@
+rouge (0, 1) symetries 8 E 0.030574477 origine True vol x7.4902
+rouge (0, 2) symetries 8 E 0.030574477 origine True vol x7.4902
+rouge (0, 3) symetries 8 E 0.030574477 origine True vol x7.4902
+suite [[0, 1], [0, 2], [0, 3], [1, 2], [1, 3], [2, 3]] ordres 192 symetries 2 cellules 8 E 0.030574477 origine True vol x7.5039 
+suite [[0, 1], [0, 2], [0, 3], [1, 3], [1, 2], [2, 3]] ordres 192 symetries 2 cellules 8 E 0.030574477 origine True vol x7.5039 
+suite [[0, 1], [0, 2], [0, 3], [2, 3], [1, 2], [1, 3]] ordres 192 symetries 1 cellules 8 E 0.026164940 origine True vol x7.7965 
+suite [[0, 1], [2, 3], [0, 2], [0, 3], [1, 2], [1, 3]] ordres 144 symetries 8 cellules 8 E 0.229710800 origine True vol x3.9475 

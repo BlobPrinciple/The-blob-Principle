@@ -1,0 +1,18 @@
+C-164c -- test de la donnee de l'auteur << L'autonomie, je pense >> (15 novembre). Claude, 2026-11-15 13:51:54 UTC.
+Ecrit avant d'ecrire le programme et avant tout calcul. Regle U, bras L, interdit de chevauchement, tetraedre regulier de depart.
+
+Branche H (horloges autonomes) : chaque cellule porte sa propre horloge, de cadence proportionnelle a son volume ; la premiere qui sonne se divise (c'est la course
+d'exponentielles de c163c.py) ; entre fils exactement equivalents, n'importe lequel. 200 graines (2000 a 2199), 10 naissances.
+Branche E (tous ensemble) : les six fils equivalents du tetraedre de depart se divisent en meme temps.
+  E-rouge : decoupe reguliere (quatre coins + octaedre central coupe par une de ses trois diagonales).
+  E-suite : les six bissections du laboratoire faites a la suite, dans les 720 ordres.
+Classes : deux tissus sont dits identiques si la liste triee de toutes leurs distances entre sommets coincide a 1e-5 pres.
+
+S1. Branche H : une seule classe de tissu aux naissances 1 a 3 pour les 200 graines (confiance 80 %) ; une seule jusqu'a la naissance 6 (confiance 55 %).
+S2. Branche H : au moins 2 classes a la naissance 7, au moins 5 a la naissance 10.
+S3. Si S1 tient : entre fils exactement equivalents, le choix n'a aucune consequence (tissus identiques a une symetrie pres) ; attendu par symetrie, a constater.
+S4. E-rouge : les trois diagonales donnent la meme classe ; le tissu obtenu ne garde pas toute la symetrie du tetraedre : au plus 8 des 24 symetries (l'octaedre impose un choix).
+S5. E-suite : les 720 ordres donnent au plus 6 classes avant relaxation ; aucune n'est la decoupe rouge.
+S6. Apres relaxation (regle U), E-rouge et E-suite sont admissibles et d'energie plus haute que la branche H a 6 naissances (meme nombre de sommets, 10). Confiance 60 %.
+S7. Aucun tissu de la branche E n'est dans les classes atteintes par la branche H a 6 naissances.
+Ce que cela ne dira pas : si le Blob suit H ou E ; d'ou viennent les horloges.

@@ -1,0 +1,265 @@
+{
+ "graines": 52,
+ "par_naissance": {
+  "1": {
+   "graines": 52,
+   "classes": 1,
+   "effectifs": [
+    52
+   ],
+   "E_min": 1.7857677114386826e-21,
+   "E_max": 1.7857890896431698e-21,
+   "vol_moy": 2.0000000000768403,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 52
+  },
+  "2": {
+   "graines": 52,
+   "classes": 2,
+   "effectifs": [
+    29,
+    23
+   ],
+   "E_min": 6.27373714210418e-20,
+   "E_max": 0.03057447717815603,
+   "vol_moy": 3.284099598277832,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 52
+  },
+  "3": {
+   "graines": 52,
+   "classes": 5,
+   "effectifs": [
+    23,
+    14,
+    6,
+    5,
+    4
+   ],
+   "E_min": 1.7657915812454508e-21,
+   "E_max": 0.2058874503045719,
+   "vol_moy": 4.701711574342214,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 29
+  },
+  "4": {
+   "graines": 52,
+   "classes": 10,
+   "effectifs": [
+    23,
+    14,
+    4,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "E_min": 3.8779412105950068e-19,
+   "E_max": 0.2725365869540577,
+   "vol_moy": 6.243485382129776,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 35
+  },
+  "5": {
+   "graines": 52,
+   "classes": 14,
+   "effectifs": [
+    23,
+    9,
+    5,
+    4,
+    2,
+    1,
+    1,
+    1
+   ],
+   "E_min": 2.625162947940738e-19,
+   "E_max": 0.4155904983095209,
+   "vol_moy": 8.04689137917004,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 42
+  },
+  "6": {
+   "graines": 52,
+   "classes": 18,
+   "effectifs": [
+    23,
+    5,
+    3,
+    3,
+    2,
+    2,
+    2,
+    2
+   ],
+   "E_min": 0.030574477178156013,
+   "E_max": 0.4155847283339506,
+   "vol_moy": 10.2203287533771,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 23
+  },
+  "7": {
+   "graines": 52,
+   "classes": 24,
+   "effectifs": [
+    13,
+    10,
+    3,
+    3,
+    3,
+    2,
+    1,
+    1
+   ],
+   "E_min": 0.09619154436737477,
+   "E_max": 0.39282020023434383,
+   "vol_moy": 12.327344832293258,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 8
+  },
+  "8": {
+   "graines": 52,
+   "classes": 29,
+   "effectifs": [
+    17,
+    6,
+    3,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "E_min": 0.08747168230987606,
+   "E_max": 0.43668258806731886,
+   "vol_moy": 14.472807903805139,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 1
+  },
+  "9": {
+   "graines": 52,
+   "classes": 30,
+   "effectifs": [
+    11,
+    5,
+    5,
+    3,
+    2,
+    2,
+    1,
+    1
+   ],
+   "E_min": 0.06840152490021488,
+   "E_max": 0.5513601707267777,
+   "vol_moy": 16.654431838287085,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 3
+  },
+  "10": {
+   "graines": 52,
+   "classes": 33,
+   "effectifs": [
+    7,
+    6,
+    5,
+    2,
+    2,
+    2,
+    2,
+    1
+   ],
+   "E_min": 0.06141425149862202,
+   "E_max": 0.5239456734923638,
+   "vol_moy": 18.81046035058912,
+   "non_admissibles": 0,
+   "naissances_avec_egalite": 3
+  }
+ },
+ "E": [
+  {
+   "genre": "rouge",
+   "classe_E": 0,
+   "E": 0.030574477178155993,
+   "methode": "origine",
+   "admissible": true,
+   "volume": 7.490218605142828,
+   "symetries": 8,
+   "cellules": 8,
+   "ordres": null,
+   "dans_les_classes_H_a_6": false
+  },
+  {
+   "genre": "rouge",
+   "classe_E": 0,
+   "E": 0.030574477178155993,
+   "methode": "origine",
+   "admissible": true,
+   "volume": 7.490218605142828,
+   "symetries": 8,
+   "cellules": 8,
+   "ordres": null,
+   "dans_les_classes_H_a_6": false
+  },
+  {
+   "genre": "rouge",
+   "classe_E": 0,
+   "E": 0.030574477178155993,
+   "methode": "origine",
+   "admissible": true,
+   "volume": 7.490218605142841,
+   "symetries": 8,
+   "cellules": 8,
+   "ordres": null,
+   "dans_les_classes_H_a_6": false
+  },
+  {
+   "genre": "suite",
+   "classe_E": 1,
+   "E": 0.030574477178156003,
+   "methode": "origine",
+   "admissible": true,
+   "volume": 7.503936218756088,
+   "symetries": 2,
+   "cellules": 8,
+   "ordres": 192,
+   "dans_les_classes_H_a_6": false
+  },
+  {
+   "genre": "suite",
+   "classe_E": 2,
+   "E": 0.030574477178156034,
+   "methode": "origine",
+   "admissible": true,
+   "volume": 7.503936236454742,
+   "symetries": 2,
+   "cellules": 8,
+   "ordres": 192,
+   "dans_les_classes_H_a_6": false
+  },
+  {
+   "genre": "suite",
+   "classe_E": 3,
+   "E": 0.026164940473899702,
+   "methode": "origine",
+   "admissible": true,
+   "volume": 7.79651193912283,
+   "symetries": 1,
+   "cellules": 8,
+   "ordres": 192,
+   "dans_les_classes_H_a_6": false
+  },
+  {
+   "genre": "suite",
+   "classe_E": 4,
+   "E": 0.22971080042288924,
+   "methode": "origine",
+   "admissible": true,
+   "volume": 3.9474747166752215,
+   "symetries": 8,
+   "cellules": 8,
+   "ordres": 144,
+   "dans_les_classes_H_a_6": false
+  }
+ ]
+}
