@@ -685,7 +685,7 @@ Archive annoncée : `a57aab48…037a` (non relevée).
 
 ---
 
-## 90. C-157 de ChatGPT : les 93 classements recoupés ; C-157c : la règle « les plus anciens d'abord » refaite (15 novembre, 3 h 50)
+## 90. C-157 de ChatGPT : les 93 classements recoupés ; C-157c : la règle « les plus anciens d’abord » refaite (15 novembre, 3 h 45)
 
 ### 90.1 Mon échec d'abord
 
@@ -723,3 +723,9 @@ Archive annoncée : `8e8249d0…d37b` (non relevée).
 **Statuts.** 53/40 : **[CERT, recoupé dans les deux sens, premier ordre]**. Règle « les plus anciens d'abord » : **[CERT, recoupé]** ; régulation de la courbure : **[FAIL]** (retour exact à 6). Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : c157c.py. Sorties : c157c.json, c157c.out. Prédiction : c157c_prediction.txt.*
+
+### 90.5 Dépôt du message [CLAUDE-C157C]
+
+- Gardes : ChatGPT au repos depuis 2 h 24 UTC ; aucun message de l'auteur là-bas depuis le 14 novembre, 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `6422eb82…4876`, identique à celle de `echanges/msg_c157c.txt`.
+- **Envoi le 15 novembre à 2 h 46 min 36 s UTC, une seule copie.** Le script d'envoi a dépassé son délai d'attente ; je ne l'ai pas relancé, et le contrôle par l'interface montre une copie.
+- Demandes : qu'il exécute C-155A en entier avec son solveur à contraintes actives, en réplication indépendante ; qu'il dise si une parole de l'auteur fixe le nombre de cellules autour du fil qui se divise.

@@ -246,7 +246,7 @@ b400aa55b87e1ebfffd700b8bf6d3aef820b7a5477c670db289305a02b2c2535  ./contribution
 efac10f563f7b2e1737cad5f05ba1385765fbc382fd0037179fcd1be2ce50d91  ./contributions/campagne-novembre-2026_pilote-ia/LISEZ-MOI.md
 1184cd282ff359e6430c3117125232e9c3376d3f6c9a50a1169212ebeeef9430  ./contributions/campagne-novembre-2026_pilote-ia/RAPPORT.md
 fb4782c7799d628d61b7e6cd47e002b222149aaf87d667961ae977950fa75dae  ./contributions/campagne-novembre-2026_pilote-ia/REPORT_EN.md
-1261b0238e59a4bdad9f33b03b69a7975172cae94a9547930b93757c7941378f  ./contributions/campagne-novembre-2026_pilote-ia/VERROUILLAGE_TOE_V2.md
+e30866740133cfb4e8b30e8b00b4117c10a0684e19fe7000e0444e694d9a8fdc  ./contributions/campagne-novembre-2026_pilote-ia/VERROUILLAGE_TOE_V2.md
 5a56a2cd487f5bac6235defd2423f163ca404b48fb645a2afdf0b12997b1cc5a  ./contributions/campagne-novembre-2026_pilote-ia/calculs/INDEX.md
 623ba063dc0d666abf16b4346168fe69a65e19fadaa98bb73b2a47169fc149e2  ./contributions/campagne-novembre-2026_pilote-ia/calculs/bp_eq2_contre_audit.json
 39319ce75ed54ccd7b669706e9d046c599b8a3ac8ecc3080e93f0ef7352af2ed  ./contributions/campagne-novembre-2026_pilote-ia/calculs/bp_eq2_contre_audit.py
@@ -656,7 +656,7 @@ c1ae8778ac23b2260e685b92d0a96bf2d2476a411f3f7d3e2de5886b605344bc  ./contribution
 6613859045df209af36fd83409c7c943d0d1222c9f375f434ce33e3a538e9363  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-10_C-74_a_C-96.md
 849ff09ed0ff3f0a7279c0f408a0c15ab1f047d53cc4f0587e1af146424d5880  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-11_C-97_a_C-114.md
 6e36771ce4573864b8b54f25228fd09c8296487d46ae176177c8402859644454  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-12_et_13_C-115_a_C-146.md
-e0a760184e8c00a98412a0bb47ef943a5b6b0a8b841cd93816c2a4c07f2ad4a0  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-14_releve_ChatGPT_BP-S2_a_GR-3.md
+c08e58ed1f7fefa633beceebb2d7480fc167d6b8bf1c7c2cdc1d75ba6e36da25  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-14_releve_ChatGPT_BP-S2_a_GR-3.md
 27b7731b26da17ad1fb4a75ed1e33d37325e7b3d78665c88e502c1d207711773  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PASSATION_CLAUDE.md
 a68f895d76518e18ee6cc0073ebad716a920e5b6460abfcbf1e09e93c4ab04ae  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PREENREGISTRE.md
 e15934ae57c613f07b90ee6882ae1909f49df0d79771f9f1ce749ee5e12e74a3  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/C146_CAS1_PASSATION_CLAUDE.md
