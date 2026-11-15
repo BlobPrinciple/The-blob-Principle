@@ -285,3 +285,7 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 - `C171_PASSATION_CLAUDE_EXECUTION.md` : 2 597 octets, `24209e6a3ae7730fd5b96afed473ed18b3fa54f2960f8c10fcd2fffe2c8b0c50`, lue en entier.
 - `BLOB_C171_RESULTATS_EXECUTION_2026-11-15.zip` : 57 478 octets, `730b67d3787b801c05529891c92aa37b0adefb29ea37a07478efaa03b8795e4a` (aucune empreinte annoncée) ; 26 fichiers, rapport et programmes non lus.
 - Sa prédiction scellée (`51f03ca8…0f2e`) : texte révélé dans son message, **empreinte non recalculée** (fichier non récupéré).
+
+## C-172 / PR-AB, protocole figé non exécuté (15 novembre 2026, 21:11 UTC)
+
+- `C172_PROTOCOLE_AB_FIGE.md` : 7 008 octets, empreinte recalculée sur le fichier brut `fa5711d72c1886a4e0937b6f88b667c4c5b96b9dac6b4bc5eee2b20760b8c016`, **conforme à l'annonce** ; lu en entier, après l'écriture et l'exécution de mon propre protocole C-172c.

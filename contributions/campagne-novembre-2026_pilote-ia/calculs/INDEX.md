@@ -531,3 +531,12 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-171R-c | `c171r_c.py` | 2 608 |
 | C-171R-c | `c171r_etat_m30_chatgpt.json` | 2 487 |
 | C-171R-c | `c171r_prediction.txt` | 1 145 |
+| C-172c | `c172c.json` | 25 027 |
+| C-172c | `c172c.out` | 18 805 |
+| C-172c | `c172c.py` | 3 469 |
+| C-172c | `c172c_prediction.txt` | 2 664 |
+| C-172 / PR-AB (exécution Claude) | `c172ab_c.json` | 16 813 |
+| C-172 / PR-AB (exécution Claude) | `c172ab_c.out` | 3 032 |
+| C-172 / PR-AB (exécution Claude) | `c172ab_c.py` | 8 196 |
+| C-172 / PR-AB (exécution Claude) | `c172ab_c_v1.json` | 16 787 |
+| C-172 / PR-AB (exécution Claude) | `c172ab_c_v1.out` | 3 033 |

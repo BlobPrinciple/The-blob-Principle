@@ -125,6 +125,30 @@ Statuts : [T] théorème ; [CERT] certifié par calcul exact ; [M] mesure numér
 | **Une unité de temps pour la trame** | Analyse dimensionnelle (ChatGPT, 14 nov.) | **[T]** la mitose donne un ordre d'événements, pas une durée : sans masse ni constante dimensionnée, aucune durée ne sort de la règle U |
 | **Le sens est le constat de la logique des informations empilées et retenues** (auteur, 13 nov.) | Aucune | [H] ; non traduit |
 
+### 1.8 Journée du 15 novembre (carnet, sections 93 à 113) : ce qui est acquis, ce qui est retiré
+
+**Les sept verrous restent ouverts : TOE 0/7.** ChatGPT, à qui l'auteur a demandé de démontrer la TOE, rend le même verdict (C-169-E, section 108).
+
+Acquis de la journée, tous dans le modèle à ressorts posé par les auditeurs (règle U, longueur naturelle 1), et tous du côté de la géométrie du premier verrou :
+
+| Fait | Statut |
+|---|---|
+| Équilibre des liens de BP-L1 indépendant du bain ; surconsolidation passagère ; aucun lien irréversible dans ce modèle | [T dans le modèle, recoupé] (sections 95 à 97) |
+| Tirage de la cellule indépendant des numéros, 24 naissances | [CERT, une graine] (section 101) |
+| Deux tissus différents dès la naissance 2, selon que la cellule coupe un fil qui lui est propre (énergie nulle) ou un fil commun (0,030574477) | [CERT, recoupé] (sections 100, 102) |
+| Couronne fermée de n cellules autour d'un fil : énergie 0,081681166 (3) ; 0,030574477 (4) ; 0,000324592 (5) ; 0,026164940 (6) ; forme symétrique instable à partir de 7 | [CERT, protocole figé de ChatGPT, exécuté par moi sans son code ; son exécution attendue] (section 113) |
+| Éventail ouvert de cinq tétraèdres réguliers : les deux bords à exactement 1/9 | [T, preuve exacte en fractions] (section 113) |
+| Une division par le fil opposé au fil central ajoute une cellule à l'anneau ; coût : −0,051106689 de trois à quatre ; −0,030249885 de quatre à cinq ; +0,025840348 de cinq à six ; +0,0952 de six à sept | [T pour la connectivité ; M, prédiction écrite avant, vraie à neuf chiffres ; contre-calcul de ChatGPT attendu] (section 113) |
+| Autour d'un anneau de cinq, deux populations de coûts seulement : zéro ailleurs, 0,0258 dans l'anneau ; à l'instant de l'insertion, les coûts sont presque égaux | [M, recoupé sur l'instantané de ChatGPT par deux moteurs ; retrouvé sur trois tissus neufs] (sections 112, 113) |
+| Fermer un tissu déjà grandi donne des anneaux de cinq presque sans tension ; fermer pendant la croissance donne des anneaux qui passent à six et au-delà | [M, recoupé] (sections 109, 110) |
+| La relaxation héritée de C-132 s'arrête parfois sur un point-selle : les états des croissances rapportées depuis C-155a ne sont des équilibres qu'au premier ordre | **[FAIL]** (section 102) |
+
+Retiré dans la journée : « le tirage ne choisit rien pendant six naissances » ; « la tension vient de la fermeture des anneaux » ; « courbure positive du tissu » (un tissu plongé n'a pas de défaut d'angle) ; « l'encombrement garde l'anneau à cinq » comme énoncé général ; un exposant de forme (0,46) ; « exact » pour un calcul tronqué ; « fige » pour le retrait du bain.
+
+Ce que cela ne contient pas : le temps, la gravitation, la mécanique quantique, les masses, la jauge, aucune prédiction extérieure. Et le modèle lui-même (ressorts, espace à trois dimensions, volume minimal, bissection) est une traduction des auditeurs, non une loi dérivée de la cosmogonie.
+
+Paroles de l'auteur du 15 novembre, statut [H] : les simplexes peuvent se toucher (« je dirais que oui ») ; « L'autonomie, je pense. Donc si la première structure est viable, l'attention est portée sur la suite. » Questions en attente de sa réponse : une cellule que ses voisines entourent se divise-t-elle encore comme une cellule libre ? sent-elle la tension avant de se diviser ? quand deux bords se touchent, se réunissent-ils ou un liant se pose-t-il ? jusqu'à quelle distance deux porteurs se touchent-ils ? qu'est-ce qui empêche une cellule de s'aplatir ? un lien consolidé peut-il se défaire ?
+
 ## 2. Les sept verrous au 12 novembre
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |

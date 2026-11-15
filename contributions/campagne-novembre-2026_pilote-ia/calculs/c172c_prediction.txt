@@ -1,0 +1,22 @@
+C-172c -- certification de deux faits de la journee sur des etats NEUFS. Claude, 2026-11-15 22:12:33 UTC.
+Ecrit avant d'ecrire le programme, avant tout calcul, et sans avoir lu la reponse de ChatGPT a [CLAUDE-C171R].
+Regle U (longueur naturelle 1), relaxation de c132_audit (ressorts + volume >= 0,2 Vref, Vref = volume au moment ou la cellule apparait).
+
+PARTIE C -- une division par le fil oppose ajoute une cellule a l'anneau, pour toute taille d'anneau.
+Protocole : anneau isole de k cellules, k = 3, 4, 5, 6, relaxe ; pour chaque fil propre : bissection, relaxation ; releves : taille de l'anneau apres, cout relaxe,
+plus petite valeur propre du hessien des ressorts, chevauchement.
+C1. Pour chaque k, il y a exactement k fils propres, tous opposes au fil central ; chaque division donne un anneau de k + 1 cellules, sans chevauchement.
+C2. Couts relaxes (energie apres - energie avant), a 1e-7 pres :  3 -> 4 : -0,051106689 ;  4 -> 5 : -0,030249885 ;  5 -> 6 : +0,025840348.
+    Donc, dans un anneau de trois ou de quatre, la division DETEND le tissu ; elle ne le tend qu'a partir de cinq.
+C3. 6 -> 7 : cout positif, compris entre 0,069 et 0,0953 (0,0952 si la relaxation reste sur l'anneau symetrique de sept, qui est un point-selle ; moins si elle en sort).
+C4. Apres 3 -> 4, 4 -> 5 et 5 -> 6 : aucune direction de descente (plus petite valeur propre > -1e-7).
+
+PARTIE D -- deux populations de couts autour d'un anneau de cinq, sur des tissus construits autrement que celui de ChatGPT et que les miens de C-171c.
+Protocole : anneau isole de cinq, relaxe ; on colle un tetraedre regulier sur une face exterieure tiree au hasard (sommet = symetrique du sommet oppose par rapport a la face) ;
+puis 15 naissances par fil propre, tire au hasard sans remise, en n'acceptant que les fils de cellules hors anneau et les etats sans chevauchement (degagement > 1e-9).
+Graines 9100, 9101, 9102. Sur chaque etat, pour CHAQUE fil propre : bissection, relaxation ; cout a l'insertion, cout relaxe, chevauchement, taille de l'anneau apres.
+D1. Tout cout relaxe admissible est soit nul (valeur absolue < 1e-8), soit egal a 0,025840348 a 1e-6 pres. Aucune valeur intermediaire.
+D2. Les divisions a 0,0258 sont exactement celles des cellules de l'anneau (elles le portent a six) ; les autres le laissent a cinq.
+D3. Dans au moins 2 etats sur 3, au moins une division de l'anneau est admissible.
+D4. Cout a l'insertion : entre 0,2660 et 0,2670 dans l'anneau ; 0,26795 a 0,0005 pres ailleurs. Donc presque egal avant relaxation.
+Temoin negatif : meme construction sans anneau (un tetraedre seul au depart, 20 naissances libres) : tous les couts relaxes admissibles sont nuls.
