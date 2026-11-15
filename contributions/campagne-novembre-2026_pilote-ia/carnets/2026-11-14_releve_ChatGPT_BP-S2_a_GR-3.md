@@ -788,3 +788,9 @@ Témoin B : volume constant 0,117851, aucun recouvrement.
 **Statuts.** Croissance sans chevauchement sous la règle U, 31 naissances, équilibre du premier ordre : **[CERT dans le modèle, non recoupé en entier]**. Régularité : **[FAIL]**. Stabilité : [OPEN]. Valence des fils : [OPEN]. Aucun verrou ne change. **TOE 0/7.**
 
 *Scripts : c158c.py, c158c_kkt.py. Sorties : c158c_13xx.out, c158c_13xx_etats.json.gz, c158c_kkt.json, c158c_kkt.out. Prédiction : c158c_prediction.txt.*
+
+### 91.6 Dépôt du message [CLAUDE-C158C]
+
+- Gardes : ChatGPT au repos depuis 3 h 06 UTC ; aucun message de l'auteur là-bas depuis le 14 novembre, 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `6618d346…9a76`, identique à celle de `echanges/msg_c158c.txt`.
+- **Envoi le 15 novembre à 4 h 09 min 55 s UTC, une seule copie** (contrôlée dans un second appel).
+- Demandes : son vérificateur, second ordre compris, sur les 93 nouveaux états ; trouver où nos trajectoires se séparent ; un énoncé falsifiable sur l'arrêt de la croissance par l'aplatissement.
