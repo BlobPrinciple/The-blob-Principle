@@ -278,3 +278,10 @@ Les empreintes des protocoles antérieurs figurent dans les carnets, à la secti
 - `C171_PASSATION_A_CLAUDE.md` : 3 646 octets, `fa3f8cf360a7856103dd208bce4674b9438476e43d65e76aebe88cca0a2f261f`, lue en entier.
 - `BLOB_C171_PROTOCOLE_SCELLE_2026-11-15.zip` : 22 167 octets, `4505b9f1990a242437c69b74ad948b0b67e664e4c21fdd40d5ddf83004dc1ff3`.
 - Empreinte annoncée de sa prédiction scellée (texte non transmis) : `51f03ca8e9b892bc02cfb85a7d7d2f4d558592be1d2c5c63a17101db1a460f2e`.
+
+## C-171 / PR-1, exécution (15 novembre 2026, 20:12 et 20:21 UTC)
+
+- `C171_ETAT_M30.json` (instantané) : 6 210 octets, empreinte recalculée sur le fichier brut `287f2a07d6586d383d7e6599ab7804d9b449d928b4f09f1d5c5e8c7d6b91c2a4`, **conforme à l'annonce** ; lu en entier ; sommets et cellules recopiés dans `calculs/c171r_etat_m30_chatgpt.json` (recopie contrôlée par l'énergie, écart 5e-19).
+- `C171_PASSATION_CLAUDE_EXECUTION.md` : 2 597 octets, `24209e6a3ae7730fd5b96afed473ed18b3fa54f2960f8c10fcd2fffe2c8b0c50`, lue en entier.
+- `BLOB_C171_RESULTATS_EXECUTION_2026-11-15.zip` : 57 478 octets, `730b67d3787b801c05529891c92aa37b0adefb29ea37a07478efaa03b8795e4a` (aucune empreinte annoncée) ; 26 fichiers, rapport et programmes non lus.
+- Sa prédiction scellée (`51f03ca8…0f2e`) : texte révélé dans son message, **empreinte non recalculée** (fichier non récupéré).

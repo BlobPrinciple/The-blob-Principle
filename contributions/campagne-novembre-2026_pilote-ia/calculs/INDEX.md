@@ -523,3 +523,11 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-171c | `c171c.out` | 7 962 |
 | C-171c | `c171c.py` | 2 824 |
 | C-171c | `c171c_prediction.txt` | 2 369 |
+| X-8 [EXPLORATOIRE] | `x8_distincts.json` | 684 |
+| X-8 [EXPLORATOIRE] | `x8_distincts.out` | 605 |
+| X-8 [EXPLORATOIRE] | `x8_distincts.py` | 1 735 |
+| C-171R-c | `c171r_c.json` | 7 728 |
+| C-171R-c | `c171r_c.out` | 3 139 |
+| C-171R-c | `c171r_c.py` | 2 608 |
+| C-171R-c | `c171r_etat_m30_chatgpt.json` | 2 487 |
+| C-171R-c | `c171r_prediction.txt` | 1 145 |

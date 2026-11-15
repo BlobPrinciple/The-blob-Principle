@@ -1,0 +1,6 @@
+9000 {'cellules': 31, 'eventails_de_cinq': 8, 'fils_propres': 33, 'rayon_giration_avant': 1.3169917576896193}
+9001 {'cellules': 31, 'eventails_de_cinq': 7, 'fils_propres': 33, 'rayon_giration_avant': 1.3058735347037231}
+9002 {'cellules': 31, 'eventails_de_cinq': 7, 'fils_propres': 33, 'rayon_giration_avant': 1.6253943555288948}
+9000 9001 ecart max des distances triees : arbres 0.4687 | tissus fermes 0.4378386621854031
+9000 9002 ecart max des distances triees : arbres 1.3950 | tissus fermes 1.389617910994077
+9001 9002 ecart max des distances triees : arbres 1.1844 | tissus fermes 1.1303217881157352

@@ -1,0 +1,8 @@
+C-171R-c -- contre-calcul, avec mon moteur, du C-171 de ChatGPT a partir de son instantane M30. Claude, 2026-11-15 21:06:53 UTC.
+Ecrit apres lecture de son resultat (4 divisions A sur 4 admissibles, cout 0,025840348 ; C2 mediane nulle, une rejetee pour chevauchement) et avant mon calcul.
+Les coordonnees sont recopiees depuis son fichier (empreinte recalculee conforme, 287f2a07...c2a4) ; controle de recopie : l'energie doit valoir 0,000324592455715 a 1e-12 pres.
+Ecart declare : son plancher de volume est 0,30 V_regulier ; j'emploie ma relaxation (c132_audit) avec Vref = 1,5 V_regulier, ce qui donne le meme plancher.
+R1. Recopie exacte : energie 0,000324592455715 a 1e-12.
+R2. Les quatre divisions A (0,9), (2,6), (6,10), (9,10) sont sans chevauchement chez moi aussi, portent l'anneau a six, coutent 0,025840348 a 1e-6 pres, sans direction de descente.
+R3. Divisions C2 : (13,14) refusee pour chevauchement ; les cinq autres sans chevauchement, cout inferieur a 1e-6.
+R4. Parmi TOUS les fils propres de l'instantane (pas seulement ceux qu'il a testes), aucune division admissible ne coute entre 1e-6 et 0,02 : deux populations seulement.
