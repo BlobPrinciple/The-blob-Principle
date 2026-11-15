@@ -1,0 +1,296 @@
+{
+ "graine": 1320,
+ "marge": 2e-05,
+ "marge_volume": 0.0001,
+ "statut": "toutes les naissances admissibles",
+ "etats": [
+  {
+   "n": 1,
+   "arete": [
+    2,
+    3
+   ],
+   "methode": "origine",
+   "E": 1.785770808839397e-21,
+   "residu": 3.94788085451472e-11,
+   "contacts_actifs": 0,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.0,
+   "degagement_min": null,
+   "V_sur_Vref_min": 2.00000000007684,
+   "recouvrements": 0,
+   "rapport_volume": 2.00000000007684,
+   "qmin": 0.9999999999421416,
+   "admissible": true
+  },
+  {
+   "n": 2,
+   "arete": [
+    3,
+    4
+   ],
+   "methode": "origine",
+   "E": 6.273746733865159e-20,
+   "residu": 2.0440082308135192e-10,
+   "contacts_actifs": 0,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.0,
+   "degagement_min": 0.5773502692452346,
+   "V_sur_Vref_min": 1.9999999996958018,
+   "recouvrements": 0,
+   "rapport_volume": 2.9999999997649396,
+   "qmin": 0.9999999991988693,
+   "admissible": true
+  },
+  {
+   "n": 3,
+   "arete": [
+    3,
+    5
+   ],
+   "methode": "origine",
+   "E": 1.3198715093967565e-20,
+   "residu": 1.3205060176080625e-10,
+   "contacts_actifs": 0,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.0,
+   "degagement_min": 0.5773502691815323,
+   "V_sur_Vref_min": 1.9999999999465452,
+   "recouvrements": 0,
+   "rapport_volume": 4.000000000251189,
+   "qmin": 0.999999999684656,
+   "admissible": true
+  },
+  {
+   "n": 4,
+   "arete": [
+    5,
+    6
+   ],
+   "methode": "origine",
+   "E": 4.279764253416645e-18,
+   "residu": 2.118937276413463e-09,
+   "contacts_actifs": 0,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.0,
+   "degagement_min": 0.06415002943450195,
+   "V_sur_Vref_min": 1.9999999967901454,
+   "recouvrements": 0,
+   "rapport_volume": 4.999999996041711,
+   "qmin": 0.9999999943944327,
+   "admissible": true
+  },
+  {
+   "n": 5,
+   "arete": [
+    2,
+    4
+   ],
+   "methode": "contrainte",
+   "E": 0.026857281196236336,
+   "residu": 6.505859212658182e-08,
+   "contacts_actifs": 1,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [
+    0.110229
+   ],
+   "multiplicateur_max": 0.11022862658767722,
+   "degagement_min": 1.9999999999992504e-05,
+   "V_sur_Vref_min": 1.8953062292847827,
+   "recouvrements": 0,
+   "rapport_volume": 5.745713757042717,
+   "qmin": 0.845444700740214,
+   "admissible": true
+  },
+  {
+   "n": 6,
+   "arete": [
+    1,
+    5
+   ],
+   "methode": "contrainte",
+   "E": 0.039389265037195156,
+   "residu": 4.826825170147293e-08,
+   "contacts_actifs": 1,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [
+    0.064421
+   ],
+   "multiplicateur_max": 0.06442070066273,
+   "degagement_min": 2.0000000000525118e-05,
+   "V_sur_Vref_min": 1.812226825076716,
+   "recouvrements": 0,
+   "rapport_volume": 7.39277233566887,
+   "qmin": 0.5861459076148136,
+   "admissible": true
+  },
+  {
+   "n": 7,
+   "arete": [
+    0,
+    9
+   ],
+   "methode": "contrainte",
+   "E": 0.21381934472730074,
+   "residu": 7.897306824690326e-08,
+   "contacts_actifs": 1,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [
+    0.061137
+   ],
+   "multiplicateur_max": 0.06113699196802127,
+   "degagement_min": 1.9999999999504586e-05,
+   "V_sur_Vref_min": 1.3418412379404387,
+   "recouvrements": 0,
+   "rapport_volume": 9.338976020481548,
+   "qmin": 0.46849132284216993,
+   "admissible": true
+  },
+  {
+   "n": 8,
+   "arete": [
+    1,
+    9
+   ],
+   "methode": "contrainte",
+   "E": 0.19730090138646927,
+   "residu": 1.3840875848214473e-08,
+   "contacts_actifs": 1,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [
+    0.004777
+   ],
+   "multiplicateur_max": 0.004776799648891171,
+   "degagement_min": 1.9999999999930545e-05,
+   "V_sur_Vref_min": 1.4278803383172123,
+   "recouvrements": 0,
+   "rapport_volume": 10.912104642015702,
+   "qmin": 0.5066761382497809,
+   "admissible": true
+  },
+  {
+   "n": 9,
+   "arete": [
+    1,
+    4
+   ],
+   "methode": "origine",
+   "E": 0.23174066254031614,
+   "residu": 2.259878041643848e-09,
+   "contacts_actifs": 0,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.0,
+   "degagement_min": 0.04735378874790453,
+   "V_sur_Vref_min": 1.278308053319675,
+   "recouvrements": 0,
+   "rapport_volume": 12.979791182428519,
+   "qmin": 0.3536713850452962,
+   "admissible": true
+  },
+  {
+   "n": 10,
+   "arete": [
+    4,
+    11
+   ],
+   "methode": "origine",
+   "E": 0.17065403025482487,
+   "residu": 8.765766910945327e-09,
+   "contacts_actifs": 0,
+   "volumes_actifs": 0,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.0,
+   "degagement_min": 0.0221392409845618,
+   "V_sur_Vref_min": 1.4308221872714129,
+   "recouvrements": 0,
+   "rapport_volume": 15.636635784761081,
+   "qmin": 0.41844058558665065,
+   "admissible": true
+  },
+  {
+   "n": 11,
+   "arete": [
+    0,
+    12
+   ],
+   "methode": "contrainte",
+   "E": 0.32701521140677836,
+   "residu": 2.093461550418973e-07,
+   "contacts_actifs": 0,
+   "volumes_actifs": 2,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.39803117972442625,
+   "degagement_min": 0.025732782584456226,
+   "V_sur_Vref_min": 0.2000200000000027,
+   "recouvrements": 0,
+   "rapport_volume": 17.32351375666756,
+   "qmin": 0.03674903906111596,
+   "admissible": true
+  },
+  {
+   "n": 12,
+   "arete": [
+    1,
+    8
+   ],
+   "methode": "contrainte",
+   "E": 0.3591915285458224,
+   "residu": 2.9657534324212254e-08,
+   "contacts_actifs": 0,
+   "volumes_actifs": 1,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.3351986208962094,
+   "degagement_min": 0.0028888553801601244,
+   "V_sur_Vref_min": 0.20002000000000797,
+   "recouvrements": 0,
+   "rapport_volume": 19.18177473791076,
+   "qmin": 0.003291378152027356,
+   "admissible": true
+  },
+  {
+   "n": 13,
+   "arete": [
+    0,
+    15
+   ],
+   "methode": "contrainte",
+   "E": 0.520551097716524,
+   "residu": 4.4324873767903616e-08,
+   "contacts_actifs": 0,
+   "volumes_actifs": 3,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.8292990674587976,
+   "degagement_min": 0.0003489764976429937,
+   "V_sur_Vref_min": 0.20001999999999928,
+   "recouvrements": 0,
+   "rapport_volume": 20.197212838306378,
+   "qmin": 0.0006077846180347968,
+   "admissible": true
+  },
+  {
+   "n": 14,
+   "arete": [
+    1,
+    15
+   ],
+   "methode": "contrainte",
+   "E": 0.5354967560969811,
+   "residu": 4.265379865975305e-08,
+   "contacts_actifs": 0,
+   "volumes_actifs": 3,
+   "multiplicateurs_contact": [],
+   "multiplicateur_max": 0.8316537240553059,
+   "degagement_min": 0.00028370516163242065,
+   "V_sur_Vref_min": 0.20002000000000186,
+   "recouvrements": 0,
+   "rapport_volume": 22.1866815019178,
+   "qmin": 0.0005304219141508285,
+   "admissible": true
+  }
+ ]
+}

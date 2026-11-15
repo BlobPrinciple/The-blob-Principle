@@ -1,0 +1,18 @@
+C-161c -- "LES SIMPLEXES PEUVENT-ILS SE TOUCHER ?" Claude. ECRIT AVANT TOUT CALCUL.
+Parole de l'auteur (15 novembre, dans la session, vers 8 h) : "Les simplexes peuvent-ils se toucher ? C'est a tester car je dirais que oui
+mais c'est a confirmer." Donnee [H] : toucher serait permis ; a eprouver.
+CE QUE LE CALCUL PEUT DIRE, ET CE QU'IL NE PEUT PAS : il ne peut pas dire si la nature le permet. Il peut dire lequel des deux modeles est bien
+pose : (S) contact interdit, les cellules restent strictement separees ; (C) contact permis, sans chevauchement, avec une force de contact.
+TEST : la croissance de C-158c (c158c.py inchange) refaite avec la marge divisee par 10 puis par 100 (degagement minimal 2e-4, 2e-5, 2e-6 ;
+marge de volume 1e-3, 1e-4, 1e-5), graines 1320 et 1322, 14 naissances. Si (C) est bien pose, les etats convergent quand la marge tend vers
+zero vers un etat limite AU CONTACT, equilibre par une force de contact finie ; l'energie varie lineairement avec la marge. Si le contact
+etait un point singulier (force de contact qui diverge, energie qui ne converge pas), (C) serait mal pose.
+PREDICTIONS
+ R1. (70 %) la meme suite de fils divises pour les trois marges jusqu'a 14 naissances, pour les deux graines.
+ R2. Naissance 5 : energie 0,026855 + 0,110 x marge, soit 0,026877 ; 0,026857 ; 0,026855 (a 2e-6 pres) : la force de contact reste 0,110.
+ R3. (75 %) partout ou les suites coincident et ou un contact ou un volume est actif, l'ecart d'energie entre les marges 2e-5 et 2e-6 vaut
+     un dixieme de l'ecart entre 2e-4 et 2e-5, a un facteur 3 pres (convergence lineaire) ; les multiplicateurs de contact restent bornes
+     (rapport entre marges compris entre 0,5 et 2).
+ R4. Tous les etats sont stationnaires (residu < 1e-5) dans leur propre probleme, et aucun recouvrement au controle independant.
+ R5. Consequence attendue : (C) est bien pose, et (S) n'a pas d'equilibre la ou un contact est actif (l'energie decroit strictement quand
+     la marge decroit : la borne inferieure n'est atteinte qu'au contact).

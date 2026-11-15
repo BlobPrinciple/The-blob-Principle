@@ -421,3 +421,17 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-160 | `c160c_kkt.out` | 3 565 |
 | C-160 | `c160c_kkt.py` | 3 392 |
 | C-160 | `c160c_prediction.txt` | 1 948 |
+| C-161 | `c161c.py` | 1 546 |
+| C-161 | `c161c_1320_0.0002.json` | 6 729 |
+| C-161 | `c161c_1320_2e-05.json` | 6 741 |
+| C-161 | `c161c_1320_2e-06.json` | 6 761 |
+| C-161 | `c161c_1320_2e-4.out` | 9 671 |
+| C-161 | `c161c_1320_2e-5.out` | 9 699 |
+| C-161 | `c161c_1320_2e-6.out` | 9 703 |
+| C-161 | `c161c_1322_0.0002.json` | 6 731 |
+| C-161 | `c161c_1322_2e-05.json` | 6 736 |
+| C-161 | `c161c_1322_2e-06.json` | 6 736 |
+| C-161 | `c161c_1322_2e-4.out` | 9 694 |
+| C-161 | `c161c_1322_2e-5.out` | 9 694 |
+| C-161 | `c161c_1322_2e-6.out` | 9 686 |
+| C-161 | `c161c_prediction.txt` | 2 037 |
