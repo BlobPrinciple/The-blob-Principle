@@ -14,9 +14,6 @@ bb8eb5576e93cd6e6cd8eea5bbf021a64a20008b03f51e2738cf42e037728ec0  ./.github/pull
 9dbdc38ddc97500a4c10043bc01807cbfb7b3da3387d875781e636c98c6927f8  ./.github/workflows/ouvrir-discussions.yml
 c5127379d8c1b81b45449fb419d33168faab1ede35c5cf0bb110d335113606bc  ./.github/workflows/release-depuis-notes.yml
 6ed6615b113eba679a11f0e5df4ccc152d135e7185914cb4705bbba1a58efaed  ./.gitignore
-9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316  ./.ruff_cache/.gitignore
-380e0af7ae05ff9d1a255422b251b92e24d570a3ae1e31c249d9e94706ea280e  ./.ruff_cache/0.16.9/10297455425018972004
-5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae  ./.ruff_cache/CACHEDIR.TAG
 bd0e57a3445b607cc487106fc7d0bfbb72e07bb833b413329afb674f6e86a527  ./.zenodo.json
 7ddee76e4e53cec5f77d67a06e38dcdc89a15805ab25cc39ee2d8a5f7d3cf185  ./APPEL_A_COLLABORATION.md
 6ac5adbe9718c6672f8cefd218aed4dc70874b74dadaad256d7fcb83f20119d1  ./CITATION.cff
