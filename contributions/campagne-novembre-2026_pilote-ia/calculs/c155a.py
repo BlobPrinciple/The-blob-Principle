@@ -23,6 +23,7 @@ from c152c import axes_separateurs
 import c132_audit as c132
 
 MARGE = 2e-4; EPSV = 0.2; MARGEV = 1e-3
+EXPORT = True      # ajout du 15 novembre (C-156c) : export des coordonnees des etats acceptes ; rien d'autre n'est change
 EDG = list(itertools.combinations(range(4), 2))
 
 
@@ -183,6 +184,7 @@ def trajectoire(seed, nmax, law, replay=None):
         avant = {v: m.X[v].copy() for v in m.X}
         gmax = 0.0; methode = 'aucune'; essais = []
         if law == 'U':
+            # (l'export des etats est ajoute plus bas ; la dynamique est inchangee)
             # d'abord la relaxation D'ORIGINE de C-132 (ressorts + volume minimal) : si son resultat est admissible, c'est aussi un minimum
             # local du probleme contraint, et la trajectoire reste celle d'origine ; sinon, retour a l'etat d'insertion et relaxation contrainte.
             r0 = c132.relax(m, dict(Vref)); cl0 = ts.degagements(ts.X0()); gmax = r0['gmax']; methode = 'origine'
@@ -191,10 +193,12 @@ def trajectoire(seed, nmax, law, replay=None):
                 X, gmax, essais = ts.relaxe(VR, seed, n); methode = 'contrainte'
                 if X is None: methode = 'contrainte : aucun essai admissible, etat d insertion garde'
         r = mesures(m, ts, VR, f0, V0)
+        r['export'] = dict(sommets=[int(v) for v in ts.ids], X=[[float(c) for c in m.X[v]] for v in ts.ids], cellules=[[int(v) for v in t] for t in ts.TT],
+                           Vref=[float(x) for x in VR], fils=[[int(a), int(b)] for a, b in m.rest], repos=[float(m.rest[e_]) for e_ in m.rest])
         r.update(n=n, methode=methode, essais=essais, arete=list(e), degre_arete=deg, arete_de_bord=bool(bord), E_avant=Epre, E_insertion=Eins, gradient_penalise_max=gmax)
         admissible = (r['degagement_min_global'] is None or r['degagement_min_global'] > 1e-10) and r['min_V_sur_Vref'] >= EPSV and r['volume_min'] > 0 and r['recouvrements_controle_independant'] == 0
         r['admissible'] = bool(admissible); r['controle_energie'] = bool(r['E'] <= Eins + 1e-8)
-        rows.append(r); print(law, seed, n, json.dumps({k: (round(v, 6) if isinstance(v, float) else v) for k, v in r.items() if k not in ('arete', 'essais')}), flush=True)
+        rows.append(r); print(law, seed, n, json.dumps({k: (round(v, 6) if isinstance(v, float) else v) for k, v in r.items() if k not in ('arete', 'essais', 'export')}), flush=True)
         if not admissible: statut = f'etat non admissible a la naissance {n}'; break
     else:
         statut = 'toutes les naissances admissibles'
@@ -205,5 +209,5 @@ if __name__ == '__main__':
     seed = int(sys.argv[1]); nmax = int(sys.argv[2]) if len(sys.argv) > 2 else 31
     rowsU, seq, stU = trajectoire(seed, nmax, 'U')
     rowsB, _, stB = trajectoire(seed, len(seq), 'B', replay=seq)
-    json.dump(dict(graine=seed, U=dict(statut=stU, etats=rowsU), B=dict(statut=stB, etats=rowsB)), open(f'c155a_{seed}.json', 'w'), indent=1)
+    json.dump(dict(graine=seed, U=dict(statut=stU, etats=rowsU), B=dict(statut=stB, etats=rowsB)), open(f'c155a_{seed}_etats.json' if EXPORT else f'c155a_{seed}.json', 'w'))
     print('STATUT', seed, 'U :', stU, '| B :', stB)

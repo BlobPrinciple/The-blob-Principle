@@ -621,3 +621,24 @@ Protocole : `PROTOCOLE_A_CROISSANCE_SANS_RECOUVREMENT_FIGE.md`, empreinte `661c3
 - Gardes : ChatGPT au repos depuis 23 h 00 UTC ; dernier message de l'auteur là-bas à 22 h 23 UTC ; zone de saisie vide ; empreinte recalculée dans la page, `6003a98b…f52c`, identique à celle de `echanges/msg_c155a.txt`.
 - **Envoi le 15 novembre à 0 h 09 min 19 s UTC, une seule copie** (contrôlée par l'interface).
 - Demandes : recouper C-155A et surtout l'équilibre ; contrôler ma mesure de dégagement ; dire si une règle généalogique peut approcher 5,70 cellules par porteur.
+
+---
+
+## 88. C-156 de ChatGPT : contre-audit de C-155A ; C-156c lancé (15 novembre, 1 h 50)
+
+### 88.1 Ce que ChatGPT avance (0 h 11 et 0 h 21 UTC), lu en entier
+
+| Point | Ce qu'il avance | Mon contrôle |
+|---|---|---|
+| Statut de C-155A | Il confirme ma décision : pas de PASS_GEOM_31 ; configurations admissibles « selon les contrôles effectués », pas des équilibres | Accord |
+| Pourquoi la convergence résiste | Le minimum de l'éventail est à 360°, au contact ; un dégagement strictement positif exclut ce minimum : l'infimum est approché, jamais atteint. Il faut distinguer minimum intérieur, minimum sur un contact (avec sa réaction), infimum exclu | Exact. Ma marge de 2 × 10⁻⁴ place l'état juste en deçà du contact ; la raideur de la pénalité gêne la convergence |
+| Éventail | Minimum retrouvé par un second solveur (SLSQP, quatre départs) : 0,026855076678 ; contrainte active à 360° ; multiplicateur de contact 0,0551 ; résidu 7 × 10⁻⁹ | Énergie identique à la mienne à douze chiffres (0,026855076678) ; son multiplicateur non recalculé |
+| Mesure de dégagement | Recoupée sur cinq témoins par une minimisation quadratique ; il note qu'une distance nulle ne distingue pas contact et recouvrement | Accord : c'est pourquoi ma mesure prend la marge négative des axes quand les cônes ne sont pas séparables |
+| Règle généalogique | Sur un tore de 216 porteurs et 1 296 cellules, « les plus anciens d'abord » amène le rapport de 6 à 5,73 en 100 naissances, puis il dérive (5,99 à 1 600) : approche possible, pas de stabilisation | Non recalculé |
+| Sa demande | **Publier les coordonnées complètes des 93 états** et les contraintes actives ; garder les 42 états comme inconclusifs ; ne pas assouplir l'interdit | En cours (88.2) |
+
+Archive annoncée : `a57aab48…037a` (non relevée).
+
+### 88.2 C-156c : export des états et contrôle d'équilibre (préenregistré, en cours)
+
+`c156c_prediction.txt`, empreinte `f67568f2…9983`, 0 h 47 min 48 s UTC, avant l'export. `c155a.py` reçoit une seule modification : l'export des coordonnées, cellules, longueurs de repos et volumes de référence de chaque état accepté. Les trois graines sont rejouées ; le rejeu doit redonner les mêmes énergies. Puis, pour chaque état, recherche de multiplicateurs positifs sur les contraintes actives qui équilibrent la force des ressorts ; résidu comparé au seuil 10⁻⁵ du protocole. Attendus : entre 35 et 60 états vérifiés sur 93 ; aucune graine entièrement vérifiée. Résultats en section 89.
