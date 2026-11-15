@@ -435,3 +435,7 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-161 | `c161c_1322_2e-5.out` | 9 694 |
 | C-161 | `c161c_1322_2e-6.out` | 9 686 |
 | C-161 | `c161c_prediction.txt` | 2 037 |
+| BP-L1c | `bpl1c.json` | 15 592 |
+| BP-L1c | `bpl1c.out` | 3 462 |
+| BP-L1c | `bpl1c.py` | 4 751 |
+| BP-L1c | `bpl1c_prediction.txt` | 2 211 |

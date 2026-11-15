@@ -1,0 +1,20 @@
+BP-L1c -- RECOUPEMENT INDEPENDANT DE BP-L1 / ACT-1 (ChatGPT, protocole fige ab73d332...d63d, relu en entier dans la page le 15 novembre,
+9 h 22 UTC, 5 228 octets, empreinte recalculee). Claude. ECRIT AVANT TOUT CALCUL ET AVANT DE LIRE SON TABLEAU PAR CONFIGURATION.
+Ce que je connais de ses resultats (passation lue le 14 novembre) : 77 824 trajectoires ; six liants persistants dans 1 590 a 2 423 cas sur
+4 096 avec une reserve de 6 ou 12 quanta ; aucun sans bain ni avec 3 quanta ; pas de seuil strict ; graines reemployees entre configurations.
+MA METHODE, SANS SIMULATION : equation maitresse exacte. Les six aretes sont echangeables ; l'etat est (nombre d'aretes labiles, nombre
+d'aretes consolidees, quanta du bain). Phase 1 (t <= 20, bain actif) : exponentielle de la matrice de taux. Phase 2 (20 a 60) : aretes
+independantes, formules fermees. Aucune graine, aucune fluctuation.
+AMBIGUITE DU PROTOCOLE, DECLAREE AVANT : la transition provoquee inverse 2 -> 1 a lieu "si bain actif et disponible". Deux lectures :
+(a) elle exige q > 0 ; (b) elle n'exige que le bain actif. Je calcule les deux et je dirai laquelle ses nombres designent.
+TEMOIN ANALYTIQUE : sans bain (q0 = 0), la probabilite de six consolidees a t = 20 doit valoir la puissance sixieme de celle d'une arete
+(chaine a trois etats resolue a part). TEMOIN NEGATIF : sans canal 1 <-> 2, zero.
+PREDICTIONS
+ L1. Le temoin analytique tient a 1e-12.
+ L2. Sous l'une des deux lectures, mes probabilites exactes de persistance stricte s'accordent avec ses frequences dans les 16 configurations,
+     a 3 ecarts types binomiaux (environ 2,3 points) ; je m'attends a la lecture (a).
+ L3. q0 = 0 et q0 = 3 : persistance stricte inferieure a 0,1 % (d'ou ses zeros sur 4 096).
+ L4. Ses huit predictions P1 a P8 sont vraies en valeurs exactes, sauf peut-etre P4 et P5 que je ne sais pas evaluer de tete.
+ L5. Persistance stricte = P(six consolidees a t = 20) x exp(-6 x 40 x 0,002 x exp(-beta)) : facteur 0,838 a beta = 1 et 0,747 a beta = 0,5.
+CRITERE D'ACCORD FIXE ICI : 3 ecarts types binomiaux sur 4 096 trajectoires. Ses graines reemployees correlent ses configurations : un
+desaccord isole a 3 ecarts types ne suffira pas a conclure a une erreur.
