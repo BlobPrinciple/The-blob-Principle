@@ -584,3 +584,21 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-9 [EXPLORATOIRE] (contrôles de C-173R, PHYS-1, PHYS-2) | `x9_controles_phys.py` | 4 320 |
 | X-9 [EXPLORATOIRE] (contrôles de C-173R, PHYS-1, PHYS-2) | `x9_topologie_croissances.json` | 148 |
 | X-9 [EXPLORATOIRE] (contrôles de C-173R, PHYS-1, PHYS-2) | `x9_topologie_croissances.py` | 1 290 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c.py` | 2 880 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2100.json` | 4 984 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2100.out` | 502 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2102.json` | 4 983 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2102.out` | 502 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2104.json` | 4 986 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2104.out` | 496 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2106.json` | 4 989 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2106.out` | 502 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2108.json` | 4 983 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2108.out` | 502 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2110.json` | 4 986 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_G_2110.out` | 498 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_prediction.txt` | 1 549 |
+| C-175c (topologie de la croissance canonique : chaîne ou tissu) | `c175c_synthese.json` | 6 138 |
+| X-10 [EXPLORATOIRE] (témoin cubique de PHYS-3) | `x10_cube_spectral.json` | 367 |
+| X-10 [EXPLORATOIRE] (témoin cubique de PHYS-3) | `x10_cube_spectral.out` | 285 |
+| X-10 [EXPLORATOIRE] (témoin cubique de PHYS-3) | `x10_cube_spectral.py` | 802 |

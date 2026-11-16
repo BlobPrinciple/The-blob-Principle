@@ -1,0 +1,290 @@
+{
+ "graines": 12,
+ "statuts": {
+  "2100": "toutes les naissances admissibles",
+  "2101": "toutes les naissances admissibles",
+  "2102": "toutes les naissances admissibles",
+  "2103": "toutes les naissances admissibles",
+  "2104": "toutes les naissances admissibles",
+  "2105": "toutes les naissances admissibles",
+  "2106": "toutes les naissances admissibles",
+  "2107": "toutes les naissances admissibles",
+  "2108": "toutes les naissances admissibles",
+  "2109": "toutes les naissances admissibles",
+  "2110": "toutes les naissances admissibles",
+  "2111": "toutes les naissances admissibles"
+ },
+ "par_graine": {
+  "2100": {
+   "naissances": 16,
+   "N": 41,
+   "B": 28,
+   "C": 28,
+   "C_sur_N": 0.6829268292682927,
+   "B_sur_N": 0.6829268292682927,
+   "fils_interieurs": 32,
+   "partages": 14,
+   "premier_cycle": 3,
+   "identite": true,
+   "vol": 27.84802766845122
+  },
+  "2101": {
+   "naissances": 16,
+   "N": 42,
+   "B": 28,
+   "C": 29,
+   "C_sur_N": 0.6904761904761905,
+   "B_sur_N": 0.6666666666666666,
+   "fils_interieurs": 33,
+   "partages": 15,
+   "premier_cycle": 2,
+   "identite": true,
+   "vol": 30.66251725736444
+  },
+  "2102": {
+   "naissances": 16,
+   "N": 40,
+   "B": 28,
+   "C": 27,
+   "C_sur_N": 0.675,
+   "B_sur_N": 0.7,
+   "fils_interieurs": 31,
+   "partages": 15,
+   "premier_cycle": 2,
+   "identite": true,
+   "vol": 30.2019537573742
+  },
+  "2103": {
+   "naissances": 16,
+   "N": 39,
+   "B": 30,
+   "C": 25,
+   "C_sur_N": 0.6410256410256411,
+   "B_sur_N": 0.7692307692307693,
+   "fils_interieurs": 28,
+   "partages": 15,
+   "premier_cycle": 2,
+   "identite": true,
+   "vol": 30.78141140385103
+  },
+  "2104": {
+   "naissances": 16,
+   "N": 38,
+   "B": 30,
+   "C": 24,
+   "C_sur_N": 0.631578947368421,
+   "B_sur_N": 0.7894736842105263,
+   "fils_interieurs": 27,
+   "partages": 14,
+   "premier_cycle": 3,
+   "identite": true,
+   "vol": 30.815032085765118
+  },
+  "2105": {
+   "naissances": 16,
+   "N": 39,
+   "B": 30,
+   "C": 25,
+   "C_sur_N": 0.6410256410256411,
+   "B_sur_N": 0.7692307692307693,
+   "fils_interieurs": 28,
+   "partages": 11,
+   "premier_cycle": 6,
+   "identite": true,
+   "vol": 26.17473068395409
+  },
+  "2106": {
+   "naissances": 16,
+   "N": 42,
+   "B": 28,
+   "C": 29,
+   "C_sur_N": 0.6904761904761905,
+   "B_sur_N": 0.6666666666666666,
+   "fils_interieurs": 33,
+   "partages": 15,
+   "premier_cycle": 2,
+   "identite": true,
+   "vol": 29.051936104833825
+  },
+  "2107": {
+   "naissances": 16,
+   "N": 42,
+   "B": 28,
+   "C": 29,
+   "C_sur_N": 0.6904761904761905,
+   "B_sur_N": 0.6666666666666666,
+   "fils_interieurs": 33,
+   "partages": 15,
+   "premier_cycle": 2,
+   "identite": true,
+   "vol": 31.030278709343513
+  },
+  "2108": {
+   "naissances": 16,
+   "N": 37,
+   "B": 32,
+   "C": 22,
+   "C_sur_N": 0.5945945945945946,
+   "B_sur_N": 0.8648648648648649,
+   "fils_interieurs": 24,
+   "partages": 15,
+   "premier_cycle": 2,
+   "identite": true,
+   "vol": 32.20114162666681
+  },
+  "2109": {
+   "naissances": 16,
+   "N": 41,
+   "B": 28,
+   "C": 28,
+   "C_sur_N": 0.6829268292682927,
+   "B_sur_N": 0.6829268292682927,
+   "fils_interieurs": 32,
+   "partages": 13,
+   "premier_cycle": 4,
+   "identite": true,
+   "vol": 29.361052216531714
+  },
+  "2110": {
+   "naissances": 16,
+   "N": 37,
+   "B": 32,
+   "C": 22,
+   "C_sur_N": 0.5945945945945946,
+   "B_sur_N": 0.8648648648648649,
+   "fils_interieurs": 24,
+   "partages": 12,
+   "premier_cycle": 4,
+   "identite": true,
+   "vol": 28.315586957391325
+  },
+  "2111": {
+   "naissances": 16,
+   "N": 37,
+   "B": 32,
+   "C": 22,
+   "C_sur_N": 0.5945945945945946,
+   "B_sur_N": 0.8648648648648649,
+   "fils_interieurs": 24,
+   "partages": 13,
+   "premier_cycle": 3,
+   "identite": true,
+   "vol": 29.927590076667254
+  }
+ },
+ "par_naissance": {
+  "1": {
+   "graines": 12,
+   "C_sur_N": 0.0,
+   "B_sur_N": 3.0,
+   "N": 2.0,
+   "part_fil_partage": 0.0
+  },
+  "2": {
+   "graines": 12,
+   "C_sur_N": 0.125,
+   "B_sur_N": 2.3333333333333335,
+   "N": 3.5,
+   "part_fil_partage": 0.5
+  },
+  "3": {
+   "graines": 12,
+   "C_sur_N": 0.36250000000000004,
+   "B_sur_N": 1.625,
+   "N": 6.25,
+   "part_fil_partage": 0.75
+  },
+  "4": {
+   "graines": 12,
+   "C_sur_N": 0.4840277777777777,
+   "B_sur_N": 1.2694444444444444,
+   "N": 8.833333333333334,
+   "part_fil_partage": 0.9166666666666666
+  },
+  "5": {
+   "graines": 12,
+   "C_sur_N": 0.5061868686868687,
+   "B_sur_N": 1.1762626262626261,
+   "N": 11.0,
+   "part_fil_partage": 0.9166666666666666
+  },
+  "6": {
+   "graines": 12,
+   "C_sur_N": 0.5158348595848595,
+   "B_sur_N": 1.123931623931624,
+   "N": 13.166666666666666,
+   "part_fil_partage": 1.0
+  },
+  "7": {
+   "graines": 12,
+   "C_sur_N": 0.5306623931623932,
+   "B_sur_N": 1.070940170940171,
+   "N": 15.25,
+   "part_fil_partage": 0.9166666666666666
+  },
+  "8": {
+   "graines": 12,
+   "C_sur_N": 0.5276532835356365,
+   "B_sur_N": 1.061391223155929,
+   "N": 17.25,
+   "part_fil_partage": 1.0
+  },
+  "9": {
+   "graines": 12,
+   "C_sur_N": 0.5251580237358101,
+   "B_sur_N": 1.0541150670794635,
+   "N": 19.25,
+   "part_fil_partage": 1.0
+  },
+  "10": {
+   "graines": 12,
+   "C_sur_N": 0.5471894698868383,
+   "B_sur_N": 0.997389306599833,
+   "N": 21.916666666666668,
+   "part_fil_partage": 1.0
+  },
+  "11": {
+   "graines": 12,
+   "C_sur_N": 0.5632199925678186,
+   "B_sur_N": 0.9559643255295428,
+   "N": 24.333333333333332,
+   "part_fil_partage": 0.9166666666666666
+  },
+  "12": {
+   "graines": 12,
+   "C_sur_N": 0.5775695292361958,
+   "B_sur_N": 0.9193121693121693,
+   "N": 26.916666666666668,
+   "part_fil_partage": 1.0
+  },
+  "13": {
+   "graines": 12,
+   "C_sur_N": 0.5943179290677668,
+   "B_sur_N": 0.8788222885136121,
+   "N": 29.75,
+   "part_fil_partage": 1.0
+  },
+  "14": {
+   "graines": 12,
+   "C_sur_N": 0.6146597275273746,
+   "B_sur_N": 0.8314001358119004,
+   "N": 33.0,
+   "part_fil_partage": 1.0
+  },
+  "15": {
+   "graines": 12,
+   "C_sur_N": 0.6245810826306181,
+   "B_sur_N": 0.8067307688050723,
+   "N": 35.833333333333336,
+   "part_fil_partage": 1.0
+  },
+  "16": {
+   "graines": 12,
+   "C_sur_N": 0.6508080202640537,
+   "B_sur_N": 0.7490319563169371,
+   "N": 39.583333333333336,
+   "part_fil_partage": 1.0
+  }
+ },
+ "part_fil_partage_totale": 0.8697916666666666
+}

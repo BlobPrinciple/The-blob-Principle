@@ -1,0 +1,16 @@
+C-175c -- la croissance canonique du laboratoire est-elle une chaine ou un tissu ? (Claude). Ecrit le 2026-11-16 08:09:04 UTC, avant tout calcul et avant
+toute lecture de ChatGPT posterieure a 7 h 05 UTC (conversation non lue a cette heure ; une tentative de mise en memoire des archives a echoue sans rien afficher).
+
+Ce que je sais deja (exploratoire, X-9 bis) : UNE trajectoire (graine 1320, 24 naissances) donne 68 cellules, 38 faces exterieures, 50 cycles. Les graines ci-dessous sont neuves.
+
+Protocole fige. Croissance de c163c.py, mode A (regle U, tirage independant des numeros, plus long fil de la cellule tiree apres marche, interdit de chevauchement, plancher 0,2 Vref),
+graines 2100 a 2111, 16 naissances. A chaque naissance, topologie seule : N cellules, B faces exterieures, C = faces interieures - N + 1 (cycles du graphe des cellules
+voisines par une face), nombre de fils interieurs, nombre de cellules portant le fil divise. Aucune graine retiree ; trajectoire interrompue comptee et dite.
+Temoin negatif : fils propres seuls (X-9, deja fait : C = 0, B = 2N + 2). Temoin de l'identite : B = 2N + 2 - 2C verifiee a chaque etat.
+
+Predictions.
+ T1 a 16 naissances, C/N est entre 0,5 et 0,9 pour chaque graine.
+ T2 au moins 70 % des naissances divisent un fil partage (porte par deux cellules ou plus).
+ T3 a 16 naissances, B/N < 1,2 pour chaque graine (une chaine donne environ 2).
+ T4 la moyenne de C/N a 16 naissances depasse celle a 8 naissances.
+ T5 des la sixieme naissance au plus tard, chaque trajectoire a au moins un cycle.

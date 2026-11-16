@@ -153,6 +153,8 @@ Paroles de l'auteur du 15 novembre, statut [H] : les simplexes peuvent se touche
 
 **Complément du 16 novembre, suite (carnet, sections 116 et 117).** C-174c : sur 288 états de 24 croissances (C-163c, 12 naissances), 5 sont des points-selles libres et 1 un point-selle à plancher de volume actif, tous après la huitième naissance, dans une trajectoire sur cinq ; 11 états non tranchés ; première sortie de ce laboratoire invalidée par un seuil faux, déclarée. PHYS-2 de ChatGPT, démonstrations refaites : identité B = 2N + 2 − 2C ; la division de fils propres seuls ne produit qu'une chaîne de cellules. La croissance canonique du laboratoire, qui divise des fils partagés, n'est pas une chaîne (une trajectoire, exploratoire). Aucun verrou n'est touché.
 
+**Complément du 16 novembre, fin de matinée (carnet, section 118).** C-175c, prédit avant et vrai : la croissance canonique du laboratoire (C-163c) n'est pas une chaîne ; à 16 naissances, sur 12 graines, 0,60 à 0,69 cycle par cellule, 87 % des naissances sur un fil partagé, volume multiplié par 26 à 32 sous la règle U. Identité de ChatGPT redémontrée : diviser un fil porté par k cellules et h faces intérieures ajoute k cellules, h cycles et 2(k − h) faces extérieures. Connectivité, expansion et courbure sont trois choses distinctes (accord). PHYS-3 de ChatGPT (loi de transmission par les fils, modèle d'auditeur) : une dimension de diffusion proche de trois peut être un faux positif ; rien n'y est acquis pour la cosmogonie. Aucun verrou n'est touché.
+
 ## 2. Les sept verrous au 12 novembre
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |
