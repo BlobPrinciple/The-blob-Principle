@@ -1,0 +1,25 @@
+C-177c -- l'energie relaxee d'un tissu du laboratoire est-elle la somme, sur ses fils interieurs, de l'energie de couronne f_U(n_e) ? (Claude). Ecrit le 2026-11-16 09:25:49 UTC,
+avant tout calcul sur les graines ci-dessous.
+
+Enjeu, dans les termes du master (armature V347.1, II.0 et II.6) : l'action du secteur canonique B est S = mu N3 + Somme_e f(n_e). C-176c a montre que la regle U du laboratoire
+donne autour d'un fil une energie f_U(n) nulle en d* et quadratique autour. Question : la somme Somme_e f_U(n_e), SANS AUCUN PARAMETRE AJUSTE, decrit-elle l'energie relaxee
+d'un tissu entier ? Si oui, la forme << somme sur les fils d'une fonction du nombre de cellules >> de l'action de B n'est pas seulement posee : elle approxime une mecanique.
+
+Ce que je sais deja (exploration X-11, graines 2100 a 2111, 158 etats a au moins deux fils interieurs) : correlation 0,919 ; pente par l'origine 0,979 ; rapport median 0,987 ;
+ecart relatif median 0,22. Les seuils ci-dessous en viennent. Les graines 2200 a 2211 n'ont jamais ete tirees.
+
+Protocole fige. Croissance de c163c.py, mode A, graines 2200 a 2211, 16 naissances. Pour chaque etat : E = energie relaxee (celle du moteur) ; fils interieurs (fils dont aucune
+face porteuse n'est au bord) et n_e = nombre de cellules autour ; predicteur P = Somme sur les fils interieurs de f_U(n_e), f_U(n) = energie de la couronne isolee de n cellules
+(3 : 0,081681166 ; 4 : 0,030574477 ; 5 : 0,000324592 ; 6 : 0,026164940 ; 7 : 0,121380820 ; au-dela, meme formule). Etats retenus pour le verdict : ceux qui ont au moins deux fils
+interieurs (avec un seul, le tissu EST une couronne isolee et l'egalite est triviale). Aucune graine retiree ; trajectoire interrompue comptee et dite.
+Temoin negatif : predicteur qui ignore n_e, Q = 0,02086 x (nombre de fils interieurs), coefficient cale sur l'exploration X-11.
+
+Predictions.
+ A1 correlation entre P et E >= 0,85.
+ A2 pente par l'origine (Somme P E / Somme P^2) entre 0,85 et 1,10.
+ A3 mediane de E / P entre 0,85 et 1,15.
+ A4 ecart relatif median |E - P| / E <= 0,30.
+ A5 le predicteur P fait mieux que le temoin Q : ecart relatif median de P strictement inferieur a celui de Q.
+ A6 dans ces tissus, aucun fil interieur n'a moins de 4 ni plus de 7 cellules (dans X-11 : seulement 4, 5 et 6).
+
+Ce que cela ne dira pas, meme si tout est vrai : rien sur mu N3 ni sur alpha ; rien hors de la regle U ; un accord a 20 ou 30 % pres etat par etat est une approximation, pas une identite.

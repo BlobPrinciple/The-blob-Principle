@@ -606,3 +606,32 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-176c (le terme b (n − d★)² de l'action du master et les ressorts de la règle U) | `c176c.out` | 2 080 |
 | C-176c (le terme b (n − d★)² de l'action du master et les ressorts de la règle U) | `c176c.py` | 2 277 |
 | C-176c (le terme b (n − d★)² de l'action du master et les ressorts de la règle U) | `c176c_prediction.txt` | 2 920 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2100.json` | 8 358 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2100.out` | 78 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2102.json` | 8 334 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2102.out` | 78 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2104.json` | 8 186 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2104.out` | 78 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2106.json` | 8 366 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2106.out` | 78 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2108.json` | 8 316 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2108.out` | 78 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2110.json` | 8 218 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_G_2110.out` | 78 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_additivite.py` | 3 603 |
+| X-11 [EXPLORATOIRE] (énergie du tissu = somme des énergies de couronne ?) | `x11_synthese.json` | 6 040 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c.py` | 2 768 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2200.json` | 5 416 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2200.out` | 78 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2202.json` | 5 441 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2202.out` | 78 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2204.json` | 5 325 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2204.out` | 78 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2206.json` | 5 211 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2206.out` | 78 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2208.json` | 5 490 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2208.out` | 78 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2210.json` | 2 854 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2210.out` | 39 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_prediction.txt` | 2 471 |
+| C-177c (même question, graines neuves, prédiction scellée) | `c177c_synthese.json` | 1 290 |
