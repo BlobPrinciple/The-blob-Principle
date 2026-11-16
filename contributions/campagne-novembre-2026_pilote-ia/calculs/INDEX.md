@@ -875,3 +875,36 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_C_18307.json` | 1 613 |
 | C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_taches.txt` | 192 |
 | C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_temoins.json` | 3 072 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c.out` | 2 117 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c.py` | 4 532 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_A_18400.json` | 2 587 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_A_18401.json` | 2 614 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_A_18402.json` | 2 605 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_A_18403.json` | 2 632 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_A_18404.json` | 2 669 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_A_18405.json` | 2 628 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_A_18406.json` | 2 566 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_A_18407.json` | 2 664 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_R_18400.json` | 2 376 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_R_18401.json` | 2 569 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_R_18402.json` | 2 384 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_R_18403.json` | 2 465 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_R_18404.json` | 2 338 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_R_18405.json` | 2 426 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_R_18406.json` | 2 294 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_R_18407.json` | 2 430 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_prediction.txt` | 2 374 |
+| C-184c (contre-calcul du C-184 de ChatGPT : tétraèdres rigides hors grille ; accord graine par graine ; deux prédictions fausses) | `c184c_taches.txt` | 128 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c.out` | 1 738 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c.py` | 4 423 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_10.json` | 1 486 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_11.json` | 1 598 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_12.json` | 1 714 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_13.json` | 1 937 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_4.json` | 803 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_5.json` | 938 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_6.json` | 1 029 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_7.json` | 1 165 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_8.json` | 1 298 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_9.json` | 1 398 |
+| C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_prediction.txt` | 3 056 |

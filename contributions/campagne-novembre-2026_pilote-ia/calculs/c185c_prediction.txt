@@ -1,0 +1,19 @@
+C-185c -- ancrage sur une physique reelle et connue : amas de Lennard-Jones, N = 4 a 13 (Claude). Ecrit le 2026-11-16 16:08:15 UTC, avant toute execution de c185c.py.
+Consigne de l'auteur (a ChatGPT, 16 novembre, 15 h 26 UTC) : << Pas besoin qu'elle soit nouvelle, il faut juste qu'elle soit reelle ! >>
+Etat d'aveuglement : ChatGPT a annonce (15 h 26) un C-185 avec une interaction atomique connue ; sa reponse a << Parfait, continue ! >> (15 h 55) est en cours ou faite, NON lue. Ceci est un precalcul independant.
+NON aveugle sur la litterature : les amas de Lennard-Jones sont un systeme d'ecole. Je connais, et j'ai controle aujourd'hui sur la table de la Cambridge Cluster Database
+ (www-wales.ch.cam.ac.uk/~jon/structures/LJ/tables.150.html), les energies des minima globaux : -6 ; -9,103852 ; -12,712062 ; -16,505384 ; -19,821489 ; -24,113360 ; -28,422532 ; -32,765970 ; -37,967600 ;
+ -44,326801 pour N = 4 a 13, et les symetries D5h (N = 7), Ih (N = 13), Oh (N = 6). Ce test ne DECOUVRE donc rien en physique : il verifie, avec les mesures du laboratoire (liens, tetraedres,
+ nombre de tetraedres par lien), ce que cette physique connue fait des couronnes de cinq.
+PROTOCOLE : V = somme sur les paires de 4 (r^-12 - r^-6) ; rien d'autre. Departs aleatoires (PCG64, graine 185000 + N ; 3000 departs jusqu'a N = 9, 6000 au-dela), L-BFGS puis BFGS.
+ Lien = paire a moins de 1,3 r0 (r0 = 2^(1/6)). Tetraedre = quatre atomes tous lies. Lien entoure = lien dont tous les triangles sont partages par exactement deux tetraedres.
+PREDICTIONS
+ D1 le minimum le plus bas trouve reproduit l'energie de reference a 1e-5 pres pour chaque N de 4 a 13, et c'est un vrai minimum (aucune valeur propre negative, 6 modes nuls).
+ D2 N = 7 : bipyramide pentagonale = cinq tetraedres autour d'un lien : 5 tetraedres, exactement 1 lien entoure, avec n_e = 5 ; ce lien axial mesure entre 0,97 et 1,06 r0 ; tous les liens entre 0,95 et 1,06 r0.
+ D3 N = 7 : exactement 4 minima distincts, d'energies -16,505 ; -15,935 ; -15,593 ; -15,533 (a 2e-3 pres) : la couronne de cinq fermee gagne de 0,57 sur le suivant.
+ D4 N = 13 : icosaedre = 20 tetraedres ; 12 liens entoures (les rayons), tous a n_e = 5 ; 30 liens de surface a n_e = 2 ; rapport rayon / arete de surface = 0,9511 a 3e-3 pres.
+ D5 N = 6 : octaedre, AUCUN tetraedre (les diagonales sont a 1,41) : la physique reelle ne choisit pas toujours l'empilement de tetraedres. Contre-exemple attendu, a dire.
+ D6 pour tout N de 7 a 13, tous les liens entoures ont n_e = 5 exactement (jamais 4 ni 6) ; il y en a 1 a N = 7, 6 a N = 12, 12 a N = 13.
+ D7 dans aucun minimum global de N = 4 a 13 un triangle n'appartient a plus de deux tetraedres (au contraire du graphe de cliques du moteur historique condense).
+Lecture annoncee : si D2, D4, D6 tiennent, une interaction de paires reelle, sans aucun terme en d*, ferme les couronnes de cinq en deformant les tetraedres ; c'est de la physique connue (frustration
+ icosaedrique), qui ancre un mecanisme du laboratoire, pas une preuve cosmologique. D5 borne la portee. TOE 0/7.

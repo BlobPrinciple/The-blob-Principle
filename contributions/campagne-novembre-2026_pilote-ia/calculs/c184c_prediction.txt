@@ -1,0 +1,19 @@
+C-184c -- contre-calcul independant du C-184 de ChatGPT (Claude). Ecrit le 2026-11-16 15:59:32 UTC, avant toute execution de c184c.py.
+Recherche ouverte visee : RO-24. Regle testee = hypothese d'auditeur de ChatGPT (tetraedre regulier accole a une face, trois contacts ajoutes) ; ce n'est pas la mitose de l'armature.
+
+Etat d'aveuglement : ChatGPT a calcule (14 h 57 UTC). J'ai lu UNIQUEMENT son protocole fige (C184_PROTOCOLE_FIGE_AVANT_CALCUL.md, SHA-256 5af7a0598e6f4267826965c8d1383c0d06ed17bcf64a730a7546e744cc52dc06),
+ qui contient ses predictions et aucun resultat. Archive en memoire, non ouverte au-dela : 227 247 octets, 6c29ccaa41a461b9dd8352ad104f4d45f71681a37a760a20a2d2806e20e12c86.
+ J'ai lu aussi, sans rapport avec ces nombres : les paroles de l'auteur a ChatGPT (15 h 26 UTC : << Pas besoin qu'elle soit nouvelle, il faut juste qu'elle soit reelle ! >> ; 15 h 55 : << Parfait, continue ! >>)
+ et la reponse de 15 h 26 de ChatGPT (reorientation vers un potentiel interatomique connu ; aucun resultat de C-184 dedans).
+Son protocole fixe cette fois l'appel du generateur (un rng.integers par naissance, faces triees) : je vise un recoupement GRAINE PAR GRAINE. Memes graines 18400 a 18407, 64 naissances, memes seuils
+ (proximite 0,15 ; doublon 1e-8 ; SAT 1e-9).
+
+PREDICTIONS
+ M1 [identite] dans les 16 trajectoires : aucune arete interieure, aucune face a plus de 2 cellules, aucun chevauchement, C_dual = 0, B = 2N + 2 = 132 a 65 cellules, E_U < 1e-20.
+ M2 les 16 trajectoires reussissent les 64 naissances.
+ M3 au plus 5 cellules autour d'une arete, partout. Bras A : au moins une arete a 5 cellules dans au moins 6 graines sur 8.
+ M4 bras A : naissances a Q > 0 plus nombreuses que dans le bras R dans au moins 7 graines sur 8 ; mediane (sur les graines) d'au moins 8 dans A et d'au plus 3 dans R.
+ M5 la distance de proximite la plus courte relevee vaut 0,1111 a 1e-3 pres (les deux sommets qui se font face de part et d'autre du jour de 7,36 degres, racine(3) sin(3,678 degres)),
+    dans au moins 6 des graines du bras A.
+ M6 densite N Vtet / V_enveloppe a 65 cellules : mediane plus haute dans A que dans R, et A > R dans au moins 6 graines sur 8. Prediction la moins sure.
+Lecture annoncee : meme si A est plus dense, aucune arete n'est jamais entouree : des tetraedres reguliers rigides ne font pas d'interieur ; il faut de la deformation. TOE 0/7.

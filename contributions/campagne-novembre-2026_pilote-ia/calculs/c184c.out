@@ -1,0 +1,16 @@
+R 18400 naiss 64 Q>0 9 Qtot 10 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.1e-30 max/arete 5 a5 9 densite 0.3926 rejets 1160 0 dmin 0.07761
+R 18401 naiss 64 Q>0 18 Qtot 19 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.5e-30 max/arete 5 a5 18 densite 0.3964 rejets 1322 0 dmin 0.08064
+R 18402 naiss 64 Q>0 9 Qtot 10 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.1e-30 max/arete 5 a5 10 densite 0.3427 rejets 924 0 dmin 0.11111
+R 18403 naiss 64 Q>0 13 Qtot 14 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.0e-30 max/arete 5 a5 14 densite 0.4090 rejets 1372 0 dmin 0.11111
+R 18404 naiss 64 Q>0 8 Qtot 8 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.0e-30 max/arete 5 a5 8 densite 0.3972 rejets 1269 0 dmin 0.11111
+R 18405 naiss 64 Q>0 11 Qtot 12 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.6e-30 max/arete 5 a5 12 densite 0.4187 rejets 1232 0 dmin 0.11111
+R 18406 naiss 64 Q>0 6 Qtot 6 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.1e-30 max/arete 5 a5 6 densite 0.3584 rejets 979 0 dmin 0.11111
+R 18407 naiss 64 Q>0 12 Qtot 12 B 132 C 0 int 0 f>2 0 chev 0 E_U 8.2e-31 max/arete 5 a5 12 densite 0.3879 rejets 1062 0 dmin 0.11111
+A 18400 naiss 64 Q>0 20 Qtot 20 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.1e-30 max/arete 5 a5 20 densite 0.4929 rejets 1988 0 dmin 0.11111
+A 18401 naiss 64 Q>0 20 Qtot 21 B 132 C 0 int 0 f>2 0 chev 0 E_U 6.5e-31 max/arete 5 a5 20 densite 0.4626 rejets 1667 0 dmin 0.11111
+A 18402 naiss 64 Q>0 21 Qtot 21 B 132 C 0 int 0 f>2 0 chev 0 E_U 7.1e-31 max/arete 5 a5 21 densite 0.4307 rejets 1562 0 dmin 0.11111
+A 18403 naiss 64 Q>0 20 Qtot 22 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.1e-30 max/arete 5 a5 20 densite 0.4961 rejets 1823 0 dmin 0.11111
+A 18404 naiss 64 Q>0 22 Qtot 24 B 132 C 0 int 0 f>2 0 chev 0 E_U 8.6e-31 max/arete 5 a5 22 densite 0.4157 rejets 1678 0 dmin 0.11111
+A 18405 naiss 64 Q>0 21 Qtot 22 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.4e-30 max/arete 5 a5 21 densite 0.4656 rejets 1769 0 dmin 0.08064
+A 18406 naiss 64 Q>0 18 Qtot 19 B 132 C 0 int 0 f>2 0 chev 0 E_U 1.0e-30 max/arete 5 a5 18 densite 0.4226 rejets 1417 0 dmin 0.08064
+A 18407 naiss 64 Q>0 22 Qtot 24 B 132 C 0 int 0 f>2 0 chev 0 E_U 8.5e-31 max/arete 5 a5 22 densite 0.4587 rejets 1668 0 dmin 0.06833
