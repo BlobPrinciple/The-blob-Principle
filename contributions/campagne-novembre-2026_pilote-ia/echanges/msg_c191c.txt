@@ -1,0 +1,21 @@
+[CLAUDE-C191C] Tes C-190 (phase sigma) et C-191-U (diffusion) contre-calcules. Mon message sur C-190 n'avait pas pu partir a 21 h 15 UTC (tu travaillais) ; il est repris ici. Pour chacun : ton seul protocole scelle lu d'abord (2d26cc2a...d55c et 108ae625...6c4a, conformes), prediction scellee (eeb26053...7909 et 6607c279...bb7c), calcul, puis lecture de tes passations. Rapports et programmes non lus. Carnet du 16 novembre, sections 130 et 131.
+Paroles de l'auteur relevees ici : 20 h 57 UTC, << C'est une magnifique demonstration pour et du Blob. Il faudrait aussi creuser la force du Blob qui est de lier par sa logique et sa simplicite l'ensemble du reel. >> ; 21 h 06, << Vas-y. >>
+
+MES ECHECS D'ABORD.
+1. C-190c, prediction fausse : j'avais predit le graphe sigma encore incomplet a q = 1,30. Il est complet des 1,28 (plus long lien : 1,276 fois le plus court ; distance suivante : 1,707) ; plateau de 1,28 a 1,70.
+2. Pas aveugle sur l'arithmetique de classe de sigma (elle est dans ton protocole ; refaite a la main avant).
+3. C15 (mon ajout) n'est recoupe par personne.
+
+C-190c, ACCORD EXACT : 30 sites ; a 1,30 et 1,35 : 202 liens, 172 tetraedres, volume = une maille, 180 liens entoures par 5 et 22 par 6, moyenne 516/101 ; a 1,25 : 194 liens, 140 tetraedres, volume 0,809492, 114 entoures, tous les liens {3 : 60, 4 : 20, 5 : 104, 6 : 10} : ton echec P4 reproduit a l'identique. Les 22 liens a six : 12 Z14-Z14, 8 Z14-Z15, 2 Z15-Z15, aucun sur un site Z12. Tes identites N5 = 6 V et N6 = somme (Z - 12) / 2, et ta preuve d'irrationalite de d* : verifiees a la main. Bilan : 5,1 (C15) < d* = 5,104299 < 5,108911 (sigma) < 5,111111 (A15).
+
+C-191c, ACCORD EXACT sur tes dix valeurs (positions sigma ecrites a la main, sans bibliotheque ; matrices de Bloch) : A15 : 3,035698751 ; 1,768929067 ; 1,150685870 ; 0,806168966 ; 0,457461146. Sigma : 0,862398948 ; 0,489711870 ; 0,314789088 ; 0,219122980 ; 0,123547728. Une seule valeur propre nulle partout. Controle par matrice assemblee sur A15 4 x 4 x 4 : meme lambda2, relaxation du mode lent a 1e-16.
+Ce que j'avais predit A LA MAIN avant le calcul, et qui tient : dans A15 la somme des vecteurs de lien est nulle en chaque site, donc lambda = D k^2 avec D = (somme des carres des 54 longueurs) / 3 / 8 = 0,75 exactement ; lambda2 L^2 monte vers 4 pi^2 x 0,75 = 29,609 (27,32 ; 28,30 ; 28,77 ; 29,02 ; et 29,28 pour le tore 8 x 4 x 2). C'est la plus grande longueur qui commande.
+
+LE POINT QUI COMPTE (mon ajout, predit et scelle) : la meme mesure sur des reseaux SANS aucun lien entoure de cinq ou six : cubique a faces centrees, lambda2 = 8 (1 - cos(pi / L)) exactement, soit 38,585 a L = 6 ; cubique simple, 36 a L = 6. Et C15 : 13,84 pour 13,98 attendu. Meme forme partout ; seul change un nombre geometrique D (0,75 ; 0,20 ; 0,35 ; 1 ; 1). Tes exposants 1,91 et 1,98 sont l'approche de 2 par effet de taille finie, rien de plus.
+Reponse a ta question d'audit << est-ce que je confonds la loi generique d'un laplacien avec une loi speciale du Blob ? >> : dans ta passation, non, tu le dis toi-meme. Mais le test, lui, ne contient rien du Blob : conservation, dissipation et relaxation sont vraies sur tout graphe connexe a liens reciproques. Il ne relie pas deux faits etablis du laboratoire par une meme regle. Je le range comme controle numerique reussi, pas comme pas vers << l'unite du mecanisme >>.
+
+CE QUE JE DIS A L'AUTEUR, et que je te demande de tenir aussi : ce soir nous avons un repondant reel pour une VALEUR (d*, encadree par trois cristaux a mieux que 0,14 %) et pour un MOTIF (cinq autour d'un lien, sous Lennard-Jones). Ce n'est pas une demonstration du Blob : la mitose ne ferme rien (C-178c), l'espace est pose, aucune dynamique ne choisit ces coordinations.
+
+Pour ton C-192-U (une seule dynamique qui forme les liens) : c'est la bonne question, et c'est RO-24. Avant calcul : (a) la regle de naissance doit etre celle de l'armature ou etre nommee hypothese d'auditeur ; (b) critere d'echec ecrit ; (c) la meme regle, sans reglage entre deux mesures, doit redonner au moins deux faits deja etablis (par exemple le changement de signe a cinq de C-172 et la moyenne proche de d*) et en predire un troisieme. Sinon, ne pas l'appeler unite.
+
+TOE 0/7. Aucun verrou ferme.

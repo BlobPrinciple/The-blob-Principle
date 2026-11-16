@@ -1,0 +1,426 @@
+{
+ "structures": [
+  {
+   "structure": "A15",
+   "sites": 8,
+   "liens_par_maille": 54.0,
+   "degres": [
+    12,
+    14
+   ],
+   "d_min": 0.5,
+   "somme_des_vecteurs_de_lien_max": 0.0,
+   "D_naif": [
+    0.75,
+    0.75,
+    0.75
+   ],
+   "tores": [
+    {
+     "L": [
+      3,
+      3,
+      3
+     ],
+     "N": 216,
+     "zeros": 1,
+     "vp_min": 1.687431932465705e-15,
+     "lambda2": 3.0356987510471387,
+     "lambda2_fois_longueur_max_au_carre": 27.32128875942425,
+     "vp_max": 17.82654482762964
+    },
+    {
+     "L": [
+      4,
+      4,
+      4
+     ],
+     "N": 512,
+     "zeros": 1,
+     "vp_min": 1.687431932465705e-15,
+     "lambda2": 1.7689290672060238,
+     "lambda2_fois_longueur_max_au_carre": 28.30286507529638,
+     "vp_max": 18.000000000000007
+    },
+    {
+     "L": [
+      5,
+      5,
+      5
+     ],
+     "N": 1000,
+     "zeros": 1,
+     "vp_min": 1.687431932465705e-15,
+     "lambda2": 1.1506858699919407,
+     "lambda2_fois_longueur_max_au_carre": 28.767146749798517,
+     "vp_max": 17.945193730719375
+    },
+    {
+     "L": [
+      6,
+      6,
+      6
+     ],
+     "N": 1728,
+     "zeros": 1,
+     "vp_min": 1.687431932465705e-15,
+     "lambda2": 0.8061689659783569,
+     "lambda2_fois_longueur_max_au_carre": 29.022082775220845,
+     "vp_max": 18.000000000000007
+    },
+    {
+     "L": [
+      8,
+      4,
+      2
+     ],
+     "N": 512,
+     "zeros": 1,
+     "vp_min": 1.687431932465705e-15,
+     "lambda2": 0.45746114566327456,
+     "lambda2_fois_longueur_max_au_carre": 29.277513322449572,
+     "vp_max": 18.000000000000007
+    }
+   ]
+  },
+  {
+   "structure": "sigma",
+   "sites": 30,
+   "liens_par_maille": 202.0,
+   "degres": [
+    12,
+    14,
+    15
+   ],
+   "d_min": 0.258893280632411,
+   "somme_des_vecteurs_de_lien_max": 0.07981227975693997,
+   "D_naif": [
+    0.20102293333333313,
+    0.20102293333333307,
+    0.19660881021939572
+   ],
+   "tores": [
+    {
+     "L": [
+      3,
+      3,
+      3
+     ],
+     "N": 810,
+     "zeros": 1,
+     "vp_min": 1.507951749579739e-14,
+     "lambda2": 0.8623989481139122,
+     "lambda2_fois_longueur_max_au_carre": 7.76159053302521,
+     "vp_max": 18.112218823111483
+    },
+    {
+     "L": [
+      4,
+      4,
+      4
+     ],
+     "N": 1920,
+     "zeros": 1,
+     "vp_min": 1.507951749579739e-14,
+     "lambda2": 0.489711870178219,
+     "lambda2_fois_longueur_max_au_carre": 7.835389922851504,
+     "vp_max": 18.113063327137706
+    },
+    {
+     "L": [
+      5,
+      5,
+      5
+     ],
+     "N": 3750,
+     "zeros": 1,
+     "vp_min": 1.507951749579739e-14,
+     "lambda2": 0.3147890881418523,
+     "lambda2_fois_longueur_max_au_carre": 7.869727203546307,
+     "vp_max": 18.115501408734616
+    },
+    {
+     "L": [
+      6,
+      6,
+      6
+     ],
+     "N": 6480,
+     "zeros": 1,
+     "vp_min": 1.507951749579739e-14,
+     "lambda2": 0.21912298026593613,
+     "lambda2_fois_longueur_max_au_carre": 7.8884272895737,
+     "vp_max": 18.113063327137706
+    },
+    {
+     "L": [
+      8,
+      4,
+      2
+     ],
+     "N": 1920,
+     "zeros": 1,
+     "vp_min": 1.507951749579739e-14,
+     "lambda2": 0.12354772773076983,
+     "lambda2_fois_longueur_max_au_carre": 7.907054574769269,
+     "vp_max": 18.113063327137706
+    }
+   ]
+  },
+  {
+   "structure": "C15",
+   "sites": 24,
+   "liens_par_maille": 160.0,
+   "degres": [
+    12,
+    16
+   ],
+   "d_min": 0.3535533905932738,
+   "somme_des_vecteurs_de_lien_max": 0.0,
+   "D_naif": [
+    0.3541666666666667,
+    0.3541666666666667,
+    0.3541666666666667
+   ],
+   "tores": [
+    {
+     "L": [
+      3,
+      3,
+      3
+     ],
+     "N": 648,
+     "zeros": 1,
+     "vp_min": -4.705926655073656e-15,
+     "lambda2": 1.4914709396613077,
+     "lambda2_fois_longueur_max_au_carre": 13.42323845695177,
+     "vp_max": 19.999999999999993
+    },
+    {
+     "L": [
+      4,
+      4,
+      4
+     ],
+     "N": 1536,
+     "zeros": 1,
+     "vp_min": -4.705926655073656e-15,
+     "lambda2": 0.8541216842109187,
+     "lambda2_fois_longueur_max_au_carre": 13.6659469473747,
+     "vp_max": 19.999999999999993
+    },
+    {
+     "L": [
+      5,
+      5,
+      5
+     ],
+     "N": 3000,
+     "zeros": 1,
+     "vp_min": -4.705926655073656e-15,
+     "lambda2": 0.5511674405586988,
+     "lambda2_fois_longueur_max_au_carre": 13.77918601396747,
+     "vp_max": 19.999999999999993
+    },
+    {
+     "L": [
+      6,
+      6,
+      6
+     ],
+     "N": 5184,
+     "zeros": 1,
+     "vp_min": -4.705926655073656e-15,
+     "lambda2": 0.3844705981626749,
+     "lambda2_fois_longueur_max_au_carre": 13.840941533856299,
+     "vp_max": 19.999999999999993
+    },
+    {
+     "L": [
+      8,
+      4,
+      2
+     ],
+     "N": 1536,
+     "zeros": 1,
+     "vp_min": -4.705926655073656e-15,
+     "lambda2": 0.21722683510818186,
+     "lambda2_fois_longueur_max_au_carre": 13.902517446923639,
+     "vp_max": 19.999999999999993
+    }
+   ]
+  },
+  {
+   "structure": "cubique a faces centrees",
+   "sites": 4,
+   "liens_par_maille": 24.0,
+   "degres": [
+    12
+   ],
+   "d_min": 0.7071067811865476,
+   "somme_des_vecteurs_de_lien_max": 0.0,
+   "D_naif": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "tores": [
+    {
+     "L": [
+      3,
+      3,
+      3
+     ],
+     "N": 108,
+     "zeros": 1,
+     "vp_min": 3.1086244689504383e-15,
+     "lambda2": 3.999999999999996,
+     "lambda2_fois_longueur_max_au_carre": 35.999999999999964,
+     "vp_max": 16.000000000000004
+    },
+    {
+     "L": [
+      4,
+      4,
+      4
+     ],
+     "N": 256,
+     "zeros": 1,
+     "vp_min": 3.1086244689504383e-15,
+     "lambda2": 2.3431457505076154,
+     "lambda2_fois_longueur_max_au_carre": 37.49033200812185,
+     "vp_max": 16.000000000000004
+    },
+    {
+     "L": [
+      5,
+      5,
+      5
+     ],
+     "N": 500,
+     "zeros": 1,
+     "vp_min": 3.1086244689504383e-15,
+     "lambda2": 1.5278640450004193,
+     "lambda2_fois_longueur_max_au_carre": 38.19660112501048,
+     "vp_max": 16.00000000000001
+    },
+    {
+     "L": [
+      6,
+      6,
+      6
+     ],
+     "N": 864,
+     "zeros": 1,
+     "vp_min": 3.1086244689504383e-15,
+     "lambda2": 1.0717967697244921,
+     "lambda2_fois_longueur_max_au_carre": 38.58468371008172,
+     "vp_max": 16.000000000000007
+    },
+    {
+     "L": [
+      8,
+      4,
+      2
+     ],
+     "N": 256,
+     "zeros": 1,
+     "vp_min": 3.1086244689504383e-15,
+     "lambda2": 0.6089637399097082,
+     "lambda2_fois_longueur_max_au_carre": 38.973679354221325,
+     "vp_max": 16.000000000000004
+    }
+   ]
+  },
+  {
+   "structure": "cubique simple",
+   "sites": 1,
+   "liens_par_maille": 3.0,
+   "degres": [
+    6
+   ],
+   "d_min": 1.0,
+   "somme_des_vecteurs_de_lien_max": 0.0,
+   "D_naif": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "tores": [
+    {
+     "L": [
+      3,
+      3,
+      3
+     ],
+     "N": 27,
+     "zeros": 1,
+     "vp_min": 0.0,
+     "lambda2": 3.0,
+     "lambda2_fois_longueur_max_au_carre": 27.0,
+     "vp_max": 9.000000000000002
+    },
+    {
+     "L": [
+      4,
+      4,
+      4
+     ],
+     "N": 64,
+     "zeros": 1,
+     "vp_min": 0.0,
+     "lambda2": 2.0,
+     "lambda2_fois_longueur_max_au_carre": 32.0,
+     "vp_max": 12.0
+    },
+    {
+     "L": [
+      5,
+      5,
+      5
+     ],
+     "N": 125,
+     "zeros": 1,
+     "vp_min": 0.0,
+     "lambda2": 1.381966011250105,
+     "lambda2_fois_longueur_max_au_carre": 34.54915028125263,
+     "vp_max": 10.854101966249686
+    },
+    {
+     "L": [
+      6,
+      6,
+      6
+     ],
+     "N": 216,
+     "zeros": 1,
+     "vp_min": 0.0,
+     "lambda2": 0.9999999999999999,
+     "lambda2_fois_longueur_max_au_carre": 35.99999999999999,
+     "vp_max": 12.0
+    },
+    {
+     "L": [
+      8,
+      4,
+      2
+     ],
+     "N": 64,
+     "zeros": 1,
+     "vp_min": 0.0,
+     "lambda2": 0.585786437626905,
+     "lambda2_fois_longueur_max_au_carre": 37.49033200812192,
+     "vp_max": 12.0
+    }
+   ]
+  }
+ ],
+ "controle": {
+  "symetrique": true,
+  "sommes_de_lignes": 0.0,
+  "lambda2_assemble": 1.7689290672060196,
+  "nombre_de_zeros": 1,
+  "erreur_relaxation": 1.3422660514213568e-16,
+  "conservation": 1.7763568394002505e-15
+ }
+}

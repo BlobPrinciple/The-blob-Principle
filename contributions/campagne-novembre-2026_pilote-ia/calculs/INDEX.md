@@ -926,3 +926,6 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-190c (phase sigma : 202 liens tous entourés, 180 par 5 et 22 par 6, moyenne 5,1089 ; accord exact ; une clause fausse) | `c190c.json` | 18 926 |
 | C-190c (phase sigma : 202 liens tous entourés, 180 par 5 et 22 par 6, moyenne 5,1089 ; accord exact ; une clause fausse) | `c190c.py` | 5 132 |
 | C-190c (phase sigma : 202 liens tous entourés, 180 par 5 et 22 par 6, moyenne 5,1089 ; accord exact ; une clause fausse) | `c190c_prediction.txt` | 3 244 |
+| C-191c (diffusion sur les réseaux de liens A15, sigma, C15 et deux témoins sans cinq ni six ; accord exact ; prédictions vraies) | `c191c.json` | 7 962 |
+| C-191c (diffusion sur les réseaux de liens A15, sigma, C15 et deux témoins sans cinq ni six ; accord exact ; prédictions vraies) | `c191c.py` | 4 177 |
+| C-191c (diffusion sur les réseaux de liens A15, sigma, C15 et deux témoins sans cinq ni six ; accord exact ; prédictions vraies) | `c191c_prediction.txt` | 2 853 |

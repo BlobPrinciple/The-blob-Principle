@@ -1,0 +1,20 @@
+C-191c -- contre-calcul independant du C-191-U de ChatGPT (diffusion sur les graphes de liens de cristaux reels) (Claude). Ecrit le 2026-11-16 22:09:40 UTC, avant toute execution de c191c.py.
+Recherches ouvertes nommees par ChatGPT : RO-08, RO-24, RO-25. Mon avis, ecrit AVANT le calcul : ce test ne peut en toucher aucune (voir C3).
+Etat d'aveuglement : ChatGPT a calcule (21 h 10 et 21 h 20 UTC). J'ai lu UNIQUEMENT son protocole scelle (SHA-256 108ae625a1556be973d75cabfd09b7168764c90833ccb92feceeaf1a1e936c4a).
+ Archive en memoire : 25 499 octets, 8f5b2844bc2171499e040c5364bf01eb751537c925013c3d113686b58a82644a ; noms de fichiers vus. Aucune parole nouvelle de l'auteur depuis 21 h 06.
+
+PREDICTIONS
+ C1 [theoreme, vrai pour TOUT graphe connexe a liens reciproques] : somme des q conservee ; variance decroissante ; une seule valeur propre nulle ; toutes les autres positives ; le mode lent decroit en exp(-lambda2 t).
+    Rien de cela ne depend du motif cinq/six.
+ C2 A15 : graphe a 54 liens par maille (degres 12 et 14). Calcul a la main : la somme des vecteurs de lien est nulle en chaque site, donc aux grandes longueurs d'onde
+    lambda = D k^2 avec D = (somme des carres des longueurs des 54 liens) / 3 / 8 = 18 / 24 = 0,75 exactement. Donc lambda2 L^2 tend vers 4 pi^2 x 0,75 = 29,6088 par valeurs inferieures ;
+    a L = 6 : entre 28,0 et 29,61 ; a L = 3 : plus bas (entre 24 et 29). Tore 8 x 4 x 2 : lambda2 x 64 dans la meme fourchette (28,0 a 29,61), donc lambda2 environ 4 fois plus petit qu'au tore 4 x 4 x 4
+    (rapport entre 0,24 et 0,28) : c'est la plus grande longueur qui commande, pas le nombre de sommets.
+ C3 [la prediction qui compte, mon ajout] le meme comportement, avec la meme forme, se retrouve sur des reseaux SANS aucun lien entoure de cinq ou six tetraedres :
+    cubique a faces centrees : D = 1 exactement, lambda2 = 8 (1 - cos(pi / L)), soit lambda2 L^2 = 38,58 a L = 6 ; cubique simple : D = 1, lambda2 = 2 (1 - cos(2 pi / L)), soit 36 a L = 6.
+    Le produit lambda2 L^2 ne distingue donc les structures que par un nombre geometrique (D) ; il ne dit rien de propre aux tissus de tetraedres ni au Blob.
+ C4 sigma : 202 liens par maille (degres 12, 14, 15). Je ne sais pas calculer D a la main (les sommes de vecteurs de lien ne s'annulent pas toutes). Je predis seulement : lambda2 x (plus grande longueur)^2
+    varie de moins de 10 % entre L = 4 et L = 6, et reste inferieur ou egal a 4 pi^2 x D naif.
+ C5 C15 (mon ajout) : 160 liens par maille ; D naif = (somme des carres des longueurs) / 3 / 24 ; lambda2 L^2 a L = 6 a moins de 6 % sous 4 pi^2 D naif.
+Lecture annoncee : si C1 et C3 tiennent, C-191-U verifie des theoremes de diffusion sur graphe, vrais partout ; ce n'est pas un test de << l'unite du mecanisme >> du Blob, et il ne relie pas deux faits
+ etablis du laboratoire par une meme regle. TOE 0/7.
