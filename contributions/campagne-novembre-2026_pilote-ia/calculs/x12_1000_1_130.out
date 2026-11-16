@@ -1,0 +1,1 @@
+{'nsw': 130, 'graine': 1, 'triangles_par_sommet': 3.131, 'tetraedres_par_sommet': 3.427, 'plus_grande_clique': 10, 'n_e_mediane': 3.0, 'n_e_moyenne': 14.054682159945317, 'n_e_max': 171, 'degre_max': 28, 'composantes': 6, 'plus_grande_composante': 995, 'sommets_isoles': 5, 'dispersion_degres': 0.6019176578655269, 'secondes': 8.176713466644287}

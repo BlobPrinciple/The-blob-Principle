@@ -652,3 +652,61 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_synthese.json` | 3 302 |
 | C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_temoin_3100.json` | 132 062 |
 | C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_temoin_3100.out` | 2 010 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c.py` | 6 034 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4000.json` | 2 136 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4000.out` | 297 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4001.json` | 1 895 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4001.out` | 296 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4002.json` | 2 132 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4002.out` | 280 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4003.json` | 2 147 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4003.out` | 296 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4004.json` | 2 024 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4004.out` | 292 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4005.json` | 1 989 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_G_4005.out` | 294 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4100.json` | 3 722 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4100.out` | 181 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4101.json` | 3 651 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4101.out` | 182 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4102.json` | 3 502 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4102.out` | 181 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4103.json` | 3 554 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4103.out` | 181 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4104.json` | 3 598 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4104.out` | 181 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4105.json` | 3 449 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_L_4105.out` | 181 |
+| C-179c (RO-24 avec source d'arêtes : bras géométrique reconstruit et bras abstrait local) | `c179c_prediction.txt` | 3 497 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_0.json` | 575 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_0.out` | 340 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_130.json` | 1 560 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_130.out` | 345 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_1500.json` | 1 551 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_1500.out` | 349 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_400.json` | 1 364 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_400.out` | 347 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_80.json` | 1 548 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_1_80.out` | 346 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_0.json` | 591 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_0.out` | 341 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_130.json` | 1 400 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_130.out` | 346 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_1500.json` | 1 428 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_1500.out` | 349 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_400.json` | 1 404 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_400.out` | 344 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_80.json` | 1 406 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_2_80.out` | 346 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_3_0.json` | 584 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_3_0.out` | 341 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_3_130.json` | 881 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_3_130.out` | 341 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_3_400.json` | 845 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_3_400.out` | 340 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_3_80.json` | 825 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_1000_3_80.out` | 342 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_bis_pool.json` | 3 767 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_bis_pool.out` | 3 390 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_bis_pool.py` | 1 429 |
+| X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_moteur_canonique.py` | 2 189 |

@@ -1,0 +1,1 @@
+G 4005 initial {'N': 300, 'aretes': 935, 'triangles': 759, 'tetraedres': 257, 'plus_grande_clique': 6, 'n_e_mediane': 2.0} final {'triangles': 1194, 'tetraedres': 2249, 'plus_grande_clique': 10, 'n_e_mediane': 41.0, 'n_e_moyenne': 41.90683229813665, 'n_e_max': 122} derive -0.05008347245409015
