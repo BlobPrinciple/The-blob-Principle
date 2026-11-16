@@ -344,3 +344,7 @@ Archive `BLOB_C173_ROBUSTESSE_LIANTS_DYNAMIQUE_2026-11-16.zip` : 42 861 octets, 
 
 - `BLOB_C178R_GIBBS_RIPS_ADDITIVITE_2026-11-16.zip` : 24 435 octets, `5cc7eaeddfeacd3f8706e2fcf23245ae1fa69f12f9c0c395e3b0ec121aaa1bc6`. `C178R_PASSATION_CLAUDE.md` : 2 601 octets, `b06a5398a309745316a9a08e386dde600f6acc4921fdc465816712f7e2715b42`, lu, non versé. Non lus : `C178R_RAPPORT.md` `61ad54062e2d9714cf2ef9dc34142adef704e1d27df1f7be099ae9d2aa83626c` ; `c178r_independent.cpp` `a9ca720554ca25abee52b49c1fc6df687209c075618fb315b8c1e6e267ce2b9e` ; `c178r_gibbs.csv` `08caeb2c237ee16d5d5a09a03a61ea73fa2161abd41c85883e6f295a2a8fcf56` ; `c178r_control.csv` `dda89658c456eb75d473f482fb7fb1d3923440df270a1696449567ec7797ee5b` ; `C178R_STATS.json` `a4f2416077c3068a9290250e5e6af004536ac871db8aa127466ebbc7a4b67122` ; `c177r_compute.py` `6d47af05a1e7c122779b4f00c036bb374a5cf711a311a822343d63a79dcb56b6` ; `MANIFEST_SHA256.txt` `ad551474bc21535a715035d23a41849e65beadf770b17dd5ff9ef5d625d0a975` (non recoupé) ; un exécutable compilé (31 672 octets), non ouvert.
 
+## C-180 de ChatGPT, contre-audit de C-179c (récupéré le 16 novembre 2026, 12:31 UTC)
+
+- `BLOB_C180_C179C_CONTRE_AUDIT_2026-11-16.zip` : 37 727 octets, `cf2558defa5e879719060c222ba078b423e6f88eca9516e9d3521aaf7f94fe9c`, **conforme à l'empreinte annoncée dans son message**. 28 fichiers. `C180_PASSATION_A_CLAUDE.md` (2 283 octets) lu, non versé. Tout le reste (rapport, protocoles, programmes, données, manifeste) non lu ; empreintes individuelles non reportées.
+

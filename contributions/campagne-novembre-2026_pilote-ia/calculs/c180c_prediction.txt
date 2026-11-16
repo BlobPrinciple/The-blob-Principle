@@ -1,0 +1,29 @@
+C-180c -- certification de X-12 sur le moteur canonique de l'auteur, et essai du terme en b sur ce moteur (Claude). Ecrit le 2026-11-16 12:32:44 UTC, avant tout calcul,
+et avant d'avoir lu la reponse de ChatGPT a mon message C-179c (son archive << C180_C179C_CONTRE_AUDIT >> est en memoire, non ouverte).
+Recherches ouvertes visees : RO-24 (fermeture) pour la partie I ; RO-08 (pont de la couche historique vers la couche B) pour la partie II.
+
+Ce que je sais deja (X-12, exploratoire, graines 1 a 3, N = 1000) : etat stationnaire de 80 a 1500 balayages ; n_e (tetraedres par arete, sur les aretes qui en portent au moins un)
+de mediane 3 pour un vivier de 1,3 a 2,6 ; (22, 6, 9) a 4,1 ; plus de 100 a 6,0. Les graines 11 a 16 n'ont jamais ete tirees ; la taille 2000 non plus.
+
+PARTIE I -- moteur de l'auteur importe SANS MODIFICATION (corpus/03_scripts/SCRIPTS DIVERS BLOB/blob colab verrouillage.py, fonction canonical ; kappa = 6,6).
+ Graines 11 a 16 ; N = 1000 et N = 2000. (a) nsw_per_N = 80 et 400 a cand_factor = 2,6. (b) nsw_per_N = 80, cand_factor = 2,0 ; 2,6 ; 3,2 ; 4,1.
+ S1 stationnarite : a chaque taille, la moyenne sur les graines des triangles par sommet a 400 balayages est a moins de 5 % de celle a 80 ; la mediane de n_e vaut 3 aux deux
+    durees dans au moins 5 graines sur 6.
+ S2 seuil : a cand_factor 2,0 et 2,6 la mediane de n_e vaut 3 dans au moins 5 graines sur 6 (a chaque taille) ; a 4,1 et N = 1000, la MOYENNE de n_e depasse 20 dans au moins
+    4 graines sur 6.
+ S3 a 3,2 la moyenne (sur les graines) de n_e moyen est entre celle de 2,6 et celle de 4,1, a chaque taille.
+ S4 taille : a 4,1, la moyenne sur les graines de n_e moyen a N = 2000 vaut au moins 0,7 fois celle a N = 1000 (la condensation ne disparait pas en grandissant) ; a 2,6 la
+    mediane reste 3 a N = 2000 (deja dans S2).
+
+PARTIE II -- essai d'auditeur, PAS une loi du master : au moteur de l'auteur (retranscrit ligne a ligne, memes tirages), j'ajoute dans le poids le terme en b de la couche B :
+    poids = exp( N S_sim / tau  -  b Somme sur les aretes presentes de (n_e - d*)^2 ),  d* = 2 pi / arccos(1/3),  n_e = nombre de tetraedres (cliques a 4) contenant l'arete.
+ Le melange des deux echelles (N S_sim / tau d'un cote, b de l'autre) est MON choix ; rien dans le master ne le fixe. N = 1000, cand_factor = 4,1 (au-dessus du seuil),
+ nsw_per_N = 80, graines 11 a 13, b = 0 ; 0,05 (valeur de production du master) ; 0,5.
+ Temoin d'identite : a b = 0 et cand_factor = 2,6, ma retranscription doit redonner EXACTEMENT le graphe de la fonction de l'auteur (memes aretes) pour la graine 11.
+ B1 b = 0 : condensation retrouvee, n_e moyen > 20 dans au moins 2 graines sur 3.
+ B2 b = 0,05 : dans chaque graine, n_e maximum <= 20 et n_e moyen entre 3 et 7.
+ B3 b = 0,05 : dans chaque graine, au moins 30 % des aretes portant un tetraedre ont n_e egal a 4, 5 ou 6.
+ B4 b = 0,05 : dans chaque graine, la part des aretes sans aucun tetraedre est plus petite qu'a b = 0.
+ B5 b = 0,5 : meme sens que b = 0,05, avec n_e maximum <= 12 dans chaque graine.
+Lecture annoncee : si B2 et B3 tiennent, le terme en b suffit a empecher la condensation de la couche historique et ramene n_e autour de d* ; ce serait un element du pont RO-08,
+sous reserve du choix d'echelle. S'ils tombent, je le dirai.

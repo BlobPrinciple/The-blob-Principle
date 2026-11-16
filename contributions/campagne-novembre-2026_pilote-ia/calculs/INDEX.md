@@ -710,3 +710,89 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_bis_pool.out` | 3 390 |
 | X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_bis_pool.py` | 1 429 |
 | X-12 [EXPLORATOIRE] (moteur canonique de l'auteur tel quel : balayages et vivier) | `x12_moteur_canonique.py` | 2 189 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c.out` | 4 185 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c.py` | 6 629 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_11_0.05_4.1.json` | 770 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_11_0.0_2.6.json` | 2 444 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_11_0.0_4.1.json` | 4 950 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_11_0.5_4.1.json` | 713 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_12_0.05_4.1.json` | 737 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_12_0.0_4.1.json` | 2 935 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_12_0.5_4.1.json` | 735 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_13_0.05_4.1.json` | 750 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_13_0.0_4.1.json` | 2 892 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_II_13_0.5_4.1.json` | 732 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_11_400_2.6.json` | 2 507 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_11_80_2.0.json` | 1 424 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_11_80_2.6.json` | 2 420 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_11_80_3.2.json` | 3 381 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_11_80_4.1.json` | 4 951 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_12_400_2.6.json` | 1 307 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_12_80_2.0.json` | 1 279 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_12_80_2.6.json` | 1 338 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_12_80_3.2.json` | 1 951 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_12_80_4.1.json` | 2 936 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_13_400_2.6.json` | 1 373 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_13_80_2.0.json` | 1 081 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_13_80_2.6.json` | 1 411 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_13_80_3.2.json` | 2 024 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_13_80_4.1.json` | 2 893 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_14_400_2.6.json` | 1 804 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_14_80_2.0.json` | 1 444 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_14_80_2.6.json` | 1 638 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_14_80_3.2.json` | 2 643 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_14_80_4.1.json` | 3 719 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_15_400_2.6.json` | 2 917 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_15_80_2.0.json` | 2 109 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_15_80_2.6.json` | 2 698 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_15_80_3.2.json` | 3 503 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_15_80_4.1.json` | 4 970 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_16_400_2.6.json` | 1 375 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_16_80_2.0.json` | 1 064 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_16_80_2.6.json` | 1 232 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_16_80_3.2.json` | 2 122 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_1000_16_80_4.1.json` | 2 957 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_11_400_2.6.json` | 2 367 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_11_80_2.0.json` | 1 745 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_11_80_2.6.json` | 2 638 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_11_80_3.2.json` | 3 283 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_11_80_4.1.json` | 4 993 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_12_400_2.6.json` | 2 082 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_12_80_2.0.json` | 1 258 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_12_80_2.6.json` | 1 840 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_12_80_3.2.json` | 2 928 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_12_80_4.1.json` | 4 175 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_13_400_2.6.json` | 1 579 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_13_80_2.0.json` | 1 091 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_13_80_2.6.json` | 1 562 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_13_80_3.2.json` | 2 323 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_13_80_4.1.json` | 3 726 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_14_400_2.6.json` | 1 736 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_14_80_2.0.json` | 1 429 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_14_80_2.6.json` | 1 740 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_14_80_3.2.json` | 2 349 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_14_80_4.1.json` | 3 737 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_15_400_2.6.json` | 3 012 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_15_80_2.0.json` | 1 822 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_15_80_2.6.json` | 2 990 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_15_80_3.2.json` | 4 484 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_15_80_4.1.json` | 5 706 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_16_400_2.6.json` | 1 739 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_16_80_2.0.json` | 1 207 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_16_80_2.6.json` | 1 682 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_16_80_3.2.json` | 2 186 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_I_2000_16_80_4.1.json` | 3 450 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_prediction.txt` | 3 285 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_synthese.json` | 8 795 |
+| C-180c (moteur canonical de l'auteur : certification de X-12 ; essai du terme en b) | `c180c_taches.txt` | 1 119 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_bis.out` | 1 750 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_bis_11_0.0.json` | 291 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_bis_11_0.05.json` | 288 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_bis_12_0.0.json` | 293 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_bis_12_0.05.json` | 289 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_bis_13_0.0.json` | 293 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_bis_13_0.05.json` | 290 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_bis_b_compteur_corrige.py` | 1 340 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_deux_moteurs.json` | 4 881 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_deux_moteurs.out` | 4 269 |
+| X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_deux_moteurs.py` | 3 308 |
