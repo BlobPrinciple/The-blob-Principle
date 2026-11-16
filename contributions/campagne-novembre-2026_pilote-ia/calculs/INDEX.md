@@ -635,3 +635,20 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-177c (même question, graines neuves, prédiction scellée) | `c177c_G_2210.out` | 39 |
 | C-177c (même question, graines neuves, prédiction scellée) | `c177c_prediction.txt` | 2 471 |
 | C-177c (même question, graines neuves, prédiction scellée) | `c177c_synthese.json` | 1 290 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c.py` | 3 012 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3000.json` | 27 221 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3000.out` | 360 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3005.json` | 27 330 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3005.out` | 360 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3010.json` | 27 396 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3010.out` | 357 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3015.json` | 27 370 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3015.out` | 358 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3020.json` | 27 264 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3020.out` | 359 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3025.json` | 27 258 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_blob_3025.out` | 358 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_prediction.txt` | 3 146 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_synthese.json` | 3 302 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_temoin_3100.json` | 132 062 |
+| C-178c (RO-24 : mitose de l'armature + échange d'arêtes de la couche historique) | `c178c_temoin_3100.out` | 2 010 |

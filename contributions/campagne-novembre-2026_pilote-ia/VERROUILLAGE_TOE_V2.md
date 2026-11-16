@@ -159,6 +159,8 @@ Paroles de l'auteur du 15 novembre, statut [H] : les simplexes peuvent se touche
 
 **Complément du 16 novembre, suite de la refouille (carnet, section 120).** C-177c, six prédictions vraies sur 11 graines neuves (147 états) : sous la règle U, l'énergie relaxée d'un tissu du laboratoire vaut, à 23 % près en médiane, la somme sur ses fils intérieurs de l'énergie de couronne f_U(nₑ), fonction calculée et non ajustée (corrélation 0,88 ; pente 1,04) ; c'est la forme Σ f(nₑ) de l'action de la couche B du master. Les fils intérieurs portent 4, 5 ou 6 cellules. Non contre-calculé. Rattachement de novembre aux recherches ouvertes de l'armature : RO-24 (fermeture), RO-08 (pont vers B), RO-06, RO-10 ; la bande A (programme G0) n'est pas touchée. Aucun verrou n'est touché.
 
+**Complément du 16 novembre, RO-24 (carnet, section 121).** C-178c, premier laboratoire de novembre fait avec les objets de l'armature. [T] Sous la mitose de la définition 3.1 et l'échange d'arêtes à nombre fixe, arêtes = sommets − 1, donc cycles = morceaux − 1 : déplacer des arêtes ne ferme rien sans détacher des porteurs ; pas de tétraèdre avant 7 porteurs ; un générateur de fermeture connexe doit créer des arêtes. [M, version abstraite, 30 graines] la pondération par les triangles ferme dès que possible (triangle à 4, tétraèdre à 7) mais condense un seul amas de sept porteurs (dix tétraèdres par arête, le double de d★) entouré de porteurs isolés ; le hasard seul ne ferme pas. Une prédiction fausse (part des porteurs isolés). Résultat négatif pour l'option la plus économique de RO-24 ; RO-24 reste ouverte. Aucun verrou n'est touché.
+
 ## 2. Les sept verrous au 12 novembre
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |

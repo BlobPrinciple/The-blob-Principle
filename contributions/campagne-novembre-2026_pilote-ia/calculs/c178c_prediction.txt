@@ -1,0 +1,32 @@
+C-178c -- RO-24 (generateur de fermeture), option << la plus economique >> de l'armature V347.1, prise a la lettre (Claude). Ecrit le 2026-11-16 10:27:32 UTC,
+avant tout calcul, et avant d'avoir lu le message de ChatGPT de 9 h 37 UTC et son archive C-177 (mise en memoire, non ouverte).
+
+Recherche ouverte attaquee : RO-24. Texte de l'armature (II.5) : << option la plus economique a tester : intercaler la dynamique d'aretes deja existante de A_Gibbs entre les
+evenements de croissance, plutot que d'inventer une troisieme loi >>.
+
+Objets, pris tels que l'armature les definit :
+ - mitose (definition 3.1) : un sommet v0 engendre un sommet v', relie a v0 par une arete ; rien d'autre ;
+ - dynamique d'aretes de A_Gibbs (A3, A4, A5) : echange d'aretes de Metropolis a nombre d'aretes FIXE, mesure proportionnelle a exp(N S_sim / tau),
+   S_sim = log(1 + n_tri) - beta D, D = ecart type des degres / degre moyen, beta = 0,30, tau = 0,50 ; complexe de drapeau (toute clique est remplie).
+LIMITE DECLAREE D'AVANCE : je prends la version ABSTRAITE (graphe sans substrat geometrique). Le moteur historique du master travaille sur un graphe geometrique (rayon de Rips,
+densite kappa0 = 8) que je n'ai pas reconstruit ; la partie mesuree ci-dessous ne vaut donc que pour la version abstraite. La partie demontree ne depend pas de ce choix.
+
+Protocole fige.
+ Depart : un sommet. A chaque naissance : mitose d'un sommet tire uniformement, puis 200 x N propositions d'echange (retirer une arete tiree au hasard, ajouter une paire non liee
+ tiree au hasard ; acceptation de Metropolis sur N S_sim / tau ; tous les graphes simples sont admis, connexes ou non). Jusqu'a N = 30. Graines 3000 a 3029.
+ A chaque N : nombre d'aretes, de composantes, de cycles independants b1 = aretes - sommets + composantes, de triangles, de tetraedres (cliques a 4), sommets isoles,
+ et pour chaque arete le nombre n_e de tetraedres qui la contiennent.
+ Temoin : meme protocole a tau = 1e6 (echanges au hasard), graines 3100 a 3129.
+
+Predictions.
+ T1 [a demontrer, puis controle] dans tout etat, aretes = sommets - 1, donc b1 = composantes - 1 : un graphe connexe y est toujours un arbre ; chaque cycle se paie d'un
+    morceau detache.
+ T2 [corollaire] pas de triangle avant N = 4 ; pas de tetraedre avant N = 7 (un tetraedre a trois cycles independants : il faut trois morceaux detaches).
+ M1 a N = 12, au moins 90 % des graines ont au moins un triangle.
+ M2 a N = 30, au moins 80 % des graines ont au moins un tetraedre.
+ M3 a N = 30, la mediane (sur les graines) de la part de sommets isoles est >= 0,5.
+ M4 a N = 30, parmi les aretes portees par au moins un tetraedre, la mediane de n_e est >= 7 (au-dela de six, le regime que le master appelle effondrement).
+ M5 temoin a tau = 1e6 : mediane du nombre de triangles a N = 30 inferieure ou egale a 1.
+
+Lecture annoncee : si T1 tient, l'option economique de RO-24, prise a la lettre, ne peut fermer qu'en detachant des porteurs ; si M2 a M4 tiennent, elle condense en un amas
+serre entoure de porteurs isoles, pas en tissu. Ce serait un resultat NEGATIF pour cette option dans sa version abstraite, pas la cloture de RO-24.
