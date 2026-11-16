@@ -2,6 +2,8 @@
 
 # Campagne d'audit croisé de novembre 2026 — point complet au 13 novembre
 
+> **Ajouts postérieurs** : sections 8 bis à 8 sexies (13 et 14 novembre) et **8 septies (enregistrement complet de la journée du 16 novembre)**. Les journées des 14 et 15 novembre sont dans leurs carnets.
+
 > **Bloc de statut obligatoire**
 > TOE démontrée : **NON**. Portes G0–G5 : **ouvertes**. G6 : **externe**. Portes physiques : **0/7**.
 > Ce versement ne modifie **aucun statut** du programme. Il n'a été relu par aucune personne extérieure.
@@ -293,6 +295,65 @@ Treize dossiers de ChatGPT et dix-sept paroles de l'auteur, du 13 novembre 10 h 
 **Sa conclusion du 14 novembre** : « Je ne peux pas déclarer une TOE démontrée. » Suite proposée : retourner aux états microscopiques déjà définis au laboratoire pour y chercher les forces des liants, leur énergie, leurs flux et leurs contraintes.
 
 Aucun verrou ne change. Détail : carnet du 14 novembre, sections 76 et 77.
+
+## 8 septies. Ajout du 16 novembre, 18 h 40 : enregistrement complet de la journée du 16 novembre
+
+Demande de l'auteur (16 novembre, vers 17 h 30 UTC) : « Tu récupères tout sur OpenAI et tu mets à jour totalement le laboratoire avec l'enregistrement de la totalité des avancées ! » Cette section est le relevé d'ensemble ; le détail, les protocoles, les prédictions scellées et les nombres sont au carnet `carnets/2026-11-16_C-172R_et_suite.md`, sections 114 à 127. Les journées des 14 et 15 novembre sont dans leurs carnets ; elles ne sont pas résumées ici.
+
+**État inchangé : TOE 0/7. Aucun verrou fermé.** Tout ce qui suit est au niveau du modèle ou de la physique connue.
+
+### Les échecs, rétractations et prédictions fausses du 16 novembre (pilote)
+
+- C-173c fait sans aveuglement (conversation ouverte avant le scellé) ; une prédiction fausse.
+- C-174c : un seuil mal placé a mal classé 27 états ; déclaré, refait ; deux prédictions fausses.
+- **Faute de méthode commune au pilote et à ChatGPT** : avoir travaillé sur les couronnes de cinq tétraèdres sans rouvrir le master où d★ est posé. Corrigée par l'auteur (« Refouille tous les masters ! »).
+- C-177c : 11 graines sur 12 (délai dépassé) ; un coefficient de témoin mal recopié.
+- C-178c : une prédiction fausse. C-179c : prédiction principale fausse (le substrat géométrique ne borne pas le nombre de tétraèdres par arête) ; moteur reconstruit depuis le texte au lieu du script de l'auteur.
+- **Rétractation** : « la valeur de production du vivier est juste sous un seuil de condensation » (mauvais script, pas de seuil net).
+- C-180c : deux clauses fausses. C-183c : deux prédictions fausses. C-184c : deux prédictions fausses. C-187c : deux clauses fausses, et quatre états non convergés (défaut du minimiseur, sans effet sur les comptes).
+- Un message (C-177c) jamais déposé ; la conversation s'est dédoublée deux fois.
+
+### Ce qui a été établi le 16 novembre, avec son statut
+
+| n° | résultat | statut |
+|---|---|---|
+| C-172 | énergies des couronnes de 3 à 6 tétraèdres sous la règle U (liens de longueur naturelle commune) ; le coût d'une division change de signe à cinq | certifié des deux côtés, dans le modèle |
+| C-173 | ce changement de signe tient pour cinq lois de ressort bidirectionnelles, pas pour les lois à sens unique ; hors règle U, cinq reste le moins cher entre −6,5 % et +10,9 % de longueur de ceinture | recoupé |
+| C-174c | 288 états de croissance : 237 minimums libres, 5 points-selles, 34 stables au plancher, 1 selle au plancher, 11 non tranchés | pilote seul |
+| C-175c | la croissance canonique du laboratoire n'est pas une chaîne ; B = 2N + 2 − 2C | théorème + mesure |
+| **C-176c** | sous la règle U, l'énergie d'une couronne s'annule exactement en d★ = 2π/arccos(1/3) et vaut c (n − d★)² autour, c = 9π²/(d★³(d★ + 17)) | théorème dans le modèle ; coefficient recoupé |
+| C-177c | l'énergie d'un tissu ≈ somme, fil par fil, de cette fonction (corrélation 0,88 ; écart médian 23 %) | mesure ; statistiques recoupées |
+| **C-178c** | RO-24 : la mitose de l'armature (un sommet, une arête) plus l'échange d'arêtes donne arêtes = sommets − 1 : rien ne se ferme | théorème ; contre-calculé |
+| C-180c, X-13 | les deux moteurs historiques de l'auteur relus ; `blob engine.py` (canonique) reproduit son point de travail annoncé, en régime condensé (46 à 78 tétraèdres par arête) ; anomalie de comptage dans le script secondaire `canonical` | mesure ; anomalie confirmée des deux côtés |
+| **C-181c** | RO-08 : le terme b Σ (nₑ − d★)² de la couche B, ajouté au moteur canonique, supprime la condensation dès b = 0,01 (médiane 4) ; mais 20 à 28 % des triangles restent dans plus de deux tétraèdres, le réseau se fragmente, et le point de travail de l'auteur est quitté | mesure ; recoupée par ChatGPT ; échelle des deux termes choisie par l'auditeur |
+| C-182c | tétraèdres accolés + bascules 2→3 : des cycles, pas d'intérieur ; 3 cellules par arête nouvelle | accord graine par graine |
+| C-183c | cubes sur grille posée : la compacité n'apparaît que si on la demande | accord statistique ; formule d'énergie vérifiée |
+| C-184c | tétraèdres réguliers rigides hors grille : jamais d'arête intérieure | accord graine par graine |
+| **C-185c** | potentiel de Lennard-Jones seul (physique connue, table publiée) : le minimum à 7 atomes est la couronne fermée de cinq tétraèdres ; de 7 à 13 atomes tout lien entouré l'est par exactement 5 ; contre-exemple à 6 atomes (octaèdre) | recoupé ; non aveugle sur la littérature |
+| C-186 | dynamique : la couronne se forme et persiste à froid (3 trajectoires sur 4 à 7 atomes) ; jamais sans la partie attractive | **ChatGPT seul, non contre-calculé** |
+| C-187c | croissance atome par atome : couronne à 7 atomes dans une croissance sur quatre ; à 13 atomes presque toujours un lien entouré de 5 ; 1 191 liens entourés, tous par 5 | accord statistique ; les seuils prédits par ChatGPT échouent des deux côtés |
+| C-188c | icosaèdre à 13 atomes = 20 tétraèdres, un sommet intérieur, 12 liens intérieurs entourés de 5, stable | accord chiffre pour chiffre ; connu de la littérature |
+
+### Lecture d'ensemble (celle du pilote ; à ne pas attribuer à l'auteur)
+
+1. **Dans le master**, d★ est posé comme cible du terme en b. Le laboratoire montre d'où il peut venir : d'une longueur naturelle commune des liens (C-176c). Que cette longueur commune soit la parole de l'auteur reste à lui demander.
+2. **La mitose seule ne ferme rien** (C-178c). Toutes les fermetures essayées depuis (accoler, basculer, grille, proximité) ajoutent des arêtes à la main, et aucune ne fait d'intérieur avec des cellules rigides.
+3. **Une interaction réelle et connue le fait** : sous Lennard-Jones, les couronnes de cinq se ferment par petite déformation, n'entourent leurs liens que de 5 cellules, et font un vrai volume à 13 atomes. C'est l'ordre icosaédrique des petits amas, bien connu. Il donne un répondant physique réel au fait « cinq autour d'un lien », rien de plus : les atomes viennent de l'extérieur, l'espace est posé, la courbure est nulle, et la préférence n'est pas universelle (6 atomes, 38 atomes).
+4. Le pont entre la couche historique et la couche B (RO-08) a un candidat (C-181c), pas une démonstration.
+
+### Questions à porter à l'auteur (sans réponse soufflée)
+
+- La longueur naturelle commune des liens est-elle sa parole ?
+- D'où viennent, dans sa cosmogonie, les arêtes en plus de celle de la mitose ?
+- Le régime condensé de son moteur canonique est-il voulu ?
+- La couche B s'applique-t-elle au graphe du moteur historique, ou seulement à des triangulations fermées ?
+- Les résultats faits avec le script `canonical` doivent-ils être refaits après correction du compteur ?
+
+### Pièces de ChatGPT versées le 16 novembre
+
+Telles quelles et contrôlées octet pour octet : ses passations C-172, C-173, PHYS-1, PHYS-2R, C-181 à C-188, son atlas de seize secteurs et sa carte (`chatgpt/`). Les archives complètes (12,4 Mo) ne sont pas versées, faute de canal ; leurs empreintes sont dans `chatgpt/EMPREINTES.md`. L'atlas est le classement de ChatGPT, non audité ligne à ligne.
+
+---
 
 ## 9. Les prochaines épreuves
 

@@ -55,6 +55,22 @@ Seven statements by the pilot were withdrawn and at least twenty-three recorded 
 
 No lock changes. Details: notebooks of 12–13 November (sections 69 to 75) and 14 November (sections 76 and 77).
 
+## Additions of 16 November (full record of the day)
+
+Status unchanged: **TOE 0/7, no lock closed.** Details, sealed predictions and numbers are in the French notebook `carnets/2026-11-16_C-172R_et_suite.md`, sections 114 to 127.
+
+Failures first (pilot): one non-blind counter-calculation; a misplaced threshold that misclassified 27 states (declared, redone); a method fault shared with ChatGPT (working on five-tetrahedron crowns without reopening the master, corrected by the author); one retraction ("the production pool value sits just below a condensation threshold"); about a dozen false sealed predictions, each declared in the notebook.
+
+What was established, at model level or as known physics:
+- **C-176c** — under rule U (all links share one natural length) the energy of a crown of n tetrahedra vanishes exactly at d★ = 2π/arccos(1/3) and is c (n − d★)² nearby; the coefficient was cross-checked.
+- **C-178c (RO-24)** — the armature's mitosis (one vertex, one edge) plus edge swaps keeps edges = vertices − 1: nothing closes. Theorem, counter-calculated.
+- **C-181c (RO-08)** — adding the layer-B term b Σ (nₑ − d★)² to the author's canonical engine removes condensation from b = 0.01 on; but 20–28 % of triangles still lie in more than two tetrahedra, the network fragments, and the author's working point is left. Cross-checked; the relative scale of the two terms is the auditor's choice.
+- **C-182c to C-184c** — three auditor closures tried by ChatGPT (gluing, 2→3 flips, cubes on a grid, rigid tetrahedra off-grid): cycles without interior, or compactness only when imposed. Seed-by-seed agreement on two of them.
+- **C-185c, C-187c, C-188c** — a real, known interaction (Lennard-Jones pair potential, no Blob term; energies match the published Cambridge Cluster Database table): the 7-atom minimum is the closed crown of five tetrahedra; from 7 to 13 atoms every enclosed bond is surrounded by exactly five; the 13-atom icosahedron is a genuine 3D complex of 20 tetrahedra. Growth atom by atom forms the crown in about one run in four at 7 atoms. Counter-example: octahedron at 6 atoms. This is well-known icosahedral order; it anchors "five around a link" in real physics and nothing more (atoms are added from outside, space is given, curvature is zero).
+- C-186 (Langevin dynamics) is ChatGPT's alone, not counter-calculated.
+
+ChatGPT's hand-over notes C-181 to C-188, its sixteen-sector atlas and map are deposited verbatim, byte-checked, in `chatgpt/`. The full archives (12.4 MB) are not deposited; their hashes are recorded.
+
 ## Limits
 
 714 indeterminate runs out of 3,312 (PR-3) and 632 out of 2,160 (PR-2) are counted as such. PR-3 has not been cross-checked; PR-2 only in part, with one unresolved disagreement. Three-dimensional space, masses, the cohesion potential, the energy reserve and the Gaussian bath are assumed, not derived. ChatGPT's reports and programs are not deposited here; their fingerprints are in `chatgpt/EMPREINTES.md`.

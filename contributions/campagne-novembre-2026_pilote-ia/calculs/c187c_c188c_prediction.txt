@@ -1,0 +1,24 @@
+C-187c et C-188c -- contre-calculs independants des C-187 et C-188 de ChatGPT (Claude). Ecrit le 2026-11-16 17:26:23 UTC, avant toute execution de c187c.py.
+Parole de l'auteur relevee (a ChatGPT, 16 h 35 UTC) : << Va au bout et donne 100 % pour decrocher un pan complet. >>
+Etat d'aveuglement : ChatGPT a calcule C-186 (16 h 27), C-187 (16 h 37) et C-188 (17 h 13). J'ai lu UNIQUEMENT ses protocoles figes de C-187 (SHA-256 24811cf9c2ead6fb8b718ff34b675540033b897168cd1c91647877e984580b08)
+ et de C-188 (4c6c82c2d14717e0901f426ff890ec3b862d10ded4991b343b21fd40057886c1), qui contiennent ses predictions et aucun resultat. Archives en memoire : a57e1874...d3d3 (C-186, 5 047 662 octets),
+ 9d0909ca...d604 (C-187, 6 017 308 octets), 15eb08c1...d37d (C-188, 417 006 octets). Messages, passations, rapports, programmes, donnees : non lus. C-186 (dynamique de Langevin) : NON contre-calcule ici.
+NON aveugle : mon C-185c (N = 13 : 20 tetraedres, 12 rayons entoures de 5, rapport 0,95106, energie -44,326801) couvre deja une partie de son C-188 ; je connais la table de Cambridge et mes
+ statistiques de departs aleatoires a N = 7 (bipyramide pentagonale : 28 % des departs).
+Limite : son protocole C-187 ne fixe pas l'ordre exact des tirages ; recoupement statistique, pas graine par graine. Mon detecteur est different du sien (cliques, pas Delaunay), memes fenetres.
+
+C-187c (croissance Lennard-Jones atome par atome, N = 2 a 13 ; Q1 : graines 187000 a 187063 ; Q4 : graines 188000 a 188023)
+ G1 a N = 7, entre 10 et 30 croissances Q1 sur 64 portent un lien entoure de 5 tetraedres (mon estimation : un quart a un tiers ; sa prediction P1 demande au moins 20 : je ne sais pas si elle passe).
+ G2 a N = 7, au moins 15 croissances Q4 sur 24 portent le motif ; et la part Q4 est superieure a la part Q1.
+ G3 aucune croissance a N <= 6 ne porte le motif.
+ G4 a N = 13, au moins 40 croissances Q1 sur 64 portent au moins un lien entoure de 5.
+ G5 a N = 13, entre 5 et 20 croissances Q4 sur 24 ont un centre icosaedrique ; au plus 10 croissances Q1 sur 64.
+ G6 la meilleure energie Q4 a N = 7 vaut -16,505384 a 5e-4 pres ; a N = 7 les seules energies rencontrees sont celles des quatre minima connus (-16,505 ; -15,935 ; -15,593 ; -15,533).
+ G7 [la plus interessante] dans TOUTES les structures de croissance, a tout N, tout lien entoure l'est par exactement 5 tetraedres (jamais 3, 4 ou 6), a au plus 2 % d'exceptions pres ;
+    et aucune face n'est partagee par plus de deux tetraedres.
+C-188c (icosaedre a 13 atomes)
+ H1 E(icosaedre mis a l'echelle) = -44,326801 a 1e-5 pres (aucune relaxation supplementaire necessaire) ; E(cuboctaedre a l'echelle) plus haut d'au moins 2.
+ H2 20 tetraedres, 12 rayons entoures chacun de 5 tetraedres, 30 aretes de surface, somme des diedres autour de chaque rayon = 2 pi a 1e-9, volume des tetraedres = volume de l'enveloppe a 1e-10 relatif.
+ H3 rayon = 0,9638 et arete = 1,0134 (en r0), rapport 0,95106 ; energie de ressort U des 42 liens entre 0,008 et 0,012.
+ H4 6 modes nuls, 33 positifs ; les 12 perturbations (graines 18800 a 18811) reviennent toutes au meme minimum.
+Lecture annoncee : meme si tout passe, c'est la physique connue des petits amas (ordre icosaedrique), dans un espace pose, avec des atomes ajoutes de l'exterieur : ni mitose, ni espace emergent, ni verrou. TOE 0/7.

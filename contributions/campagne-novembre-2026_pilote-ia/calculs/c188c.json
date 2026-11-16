@@ -1,0 +1,67 @@
+{
+ "icosaedre": {
+  "echelle": 0.506704032826604,
+  "E": -44.32680141953401,
+  "E_par_paires": -44.32680141953401
+ },
+ "cuboctaedre": {
+  "echelle": 0.7000075203923346,
+  "E": -40.88449367588931,
+  "E_par_paires": -40.88449367588931
+ },
+ "E_minimum_libre": -44.32680141953401,
+ "detecteur": {
+  "tetraedres": 20,
+  "liens_entoures": [
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5
+  ],
+  "cinq": 12,
+  "faces_surchargees": 0,
+  "centre_icosaedrique": true,
+  "dmin": 0.9638083445055504
+ },
+ "tetraedres_au_centre": 20,
+ "rayon": [
+  0.9638083445055504,
+  0.9638083445055504
+ ],
+ "arete_de_surface": [
+  1.013408065653208,
+  1.013408065653208
+ ],
+ "nombre_aretes_de_surface": 30,
+ "rapport": 0.9510565162951536,
+ "somme_diedres_ecart_max_a_2pi": 8.881784197001252e-16,
+ "volume_tetraedres": 2.2706338291690997,
+ "volume_enveloppe": 2.2706338291690997,
+ "U_des_42_liens": 0.010555658932984604,
+ "modes_nuls": 6,
+ "modes_positifs": 33,
+ "plus_petite_vp_positive": 53.74074116914087,
+ "perturbations_revenues": 12,
+ "energies_perturbations": [
+  -44.32680141953402,
+  -44.32680141953403,
+  -44.326801419534,
+  -44.326801419533986,
+  -44.32680141953398,
+  -44.32680141953397,
+  -44.32680141953402,
+  -44.326801419534014,
+  -44.32680141953391,
+  -44.32680141953402,
+  -44.32680141953401,
+  -44.32680141953403
+ ]
+}

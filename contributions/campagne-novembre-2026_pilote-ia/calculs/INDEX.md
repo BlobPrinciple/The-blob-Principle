@@ -908,3 +908,10 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_8.json` | 1 298 |
 | C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_9.json` | 1 398 |
 | C-185c (amas de Lennard-Jones, N = 4 à 13 : physique réelle et connue ; sept prédictions vraies) | `c185c_prediction.txt` | 3 056 |
+| C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c187c.py` | 7 538 |
+| C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c187c_Q1.json` | 143 275 |
+| C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c187c_Q1.out` | 1 070 |
+| C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c187c_Q4.json` | 54 020 |
+| C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c187c_Q4.out` | 1 070 |
+| C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c187c_c188c_prediction.txt` | 3 318 |
+| C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c188c.json` | 1 332 |

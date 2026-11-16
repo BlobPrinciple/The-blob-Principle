@@ -1,0 +1,6 @@
+Q1 N 6 avec lien entoure de 5 : 0 / 64 | entoures autres que 5 : 0 | centre icosaedrique : 0 | faces surchargees : 0 | E min -12.712062 max -12.302928 | dmin 0.995 | grad max 4.0e-05
+Q1 N 7 avec lien entoure de 5 : 15 / 64 | entoures autres que 5 : 0 | centre icosaedrique : 0 | faces surchargees : 0 | E min -16.505384 max -15.533060 | dmin 0.992 | grad max 5.5e-05
+Q1 N 8 avec lien entoure de 5 : 37 / 64 | entoures autres que 5 : 0 | centre icosaedrique : 0 | faces surchargees : 0 | E min -19.821489 max -18.778208 | dmin 0.987 | grad max 7.5e-05
+Q1 N 10 avec lien entoure de 5 : 55 / 64 | entoures autres que 5 : 0 | centre icosaedrique : 0 | faces surchargees : 0 | E min -28.422532 max -25.443356 | dmin 0.976 | grad max 7.3e-05
+Q1 N 13 avec lien entoure de 5 : 62 / 64 | entoures autres que 5 : 0 | centre icosaedrique : 1 | faces surchargees : 0 | E min -44.326801 max -36.511835 | dmin 0.961 | grad max 2.2e-04
+Q1 N<=6 avec cinq : 0 | energies distinctes a N=7 : [-16.505, -15.935, -15.593, -15.533] | a N=13, meilleures : [-44.327, -41.472, -41.445, -41.394]

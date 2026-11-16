@@ -1,0 +1,17 @@
+﻿secteur_id,secteur,etat,ancrage_reel,limite,test_discriminant
+1,Substrat / localité,OUVERT,"Relativité, QFT; localité phénoménale","Lorentz, causalité, espace émergent",Lorentz/c sans paramètre imposé
+2,Simplexe / tetraèdre,MODELE + EXP,LJ7/LJ13; frustration observée,Le simplexe n’est pas fondamentalement déduit,Émergence à partir variables sous-jacentes
+3,Mitose / naissance,OUVERT,Division connue dans d’autres systèmes,Bilan énergie et nombres conservés manquant,Genèse avec conservation de tous les charges
+4,Liants / équilibre,MODELE,"LJ13 minimisé: -44.32680142, 12 arêtes n=5",LJ impose espace 3D et atomes,Interaction issue du substrat
+5,Frustration 5/6,GÉOMÉTRIE + EXP,Deficit angle et ordre icosaédrique,Non-universalité LJ38,Distribution d’incidences 5/6 en grand N
+6,Dissipation constructive,MODELE AVEC BAIN,Gradient flow LJ13; dE/dt<=0,"Frottement imposé, pas bath dérivé",Bilan thermique et formation sous dynamique réelle
+7,Calcification / fragilité,OUVERT,Vieillissement de verres connu,Rupture non déduite du Blob,Prédire temps de relaxation et fissures
+8,Bain matière/antimatière,OUVERT,Annihilation QFT; ALPHA anti-H,Aucune asymétrie ex nihilo par bain neutre,"Sakharov et mécanisme CP, conservations"
+9,Chiralité / H,OUVERT,Chiralité et CP mesurées,H chrono pas physique CP démontrée,Chiralité globale sans signe introduit
+10,Gravitation,OUVERT,GR/Regge; MICROSCOPE 10^-15,LJ13: défaut Regge =0,"Espace-temps, géodésiques, équivalence"
+11,"Temps 1,2,3",OUVERT,"Temps propre, entropique, perceptif",Aucune identité dérivée,Prédictions d’horloges et perception
+12,Kleiber / taille,OUVERT,"Scaling métabolique empirique, variable",3/4 non universel,Exposants vrais hors échantillon
+13,Koide / masses,OUVERT,"Masses mesurées, rapprochement empirique",Spectre non dérivé,Rapports et valeurs absolues sans ajustement
+14,Quantique / Born,OUVERT,"Unitarité, Born, Bell","C80/C85 non conclusifs, Born OPEN","Interférence, Born, non signalisation"
+15,Information / sens,CONCEPTUEL,Shannon/von Neumann,Sens pas variable mesurable,Définition opérationnelle + prédiction
+16,Vie / conscience,CONCEPTUEL,Biologie / neurosciences,Pas de preuve TOE,Mesure empirique discriminante
