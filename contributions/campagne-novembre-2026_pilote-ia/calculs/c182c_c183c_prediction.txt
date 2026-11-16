@@ -1,0 +1,37 @@
+C-182c et C-183c -- contre-calculs independants des C-182 et C-183 de ChatGPT (Claude). Ecrit le 2026-11-16 14:51:17 UTC, avant toute execution de c182c.py et c183c.py.
+Recherche ouverte visee : RO-24 (fermeture). Les regles testees (H-FACE, bascule 2->3, croissance de cubes par contact) sont des HYPOTHESES D'AUDITEUR de ChatGPT sur une geometrie
+euclidienne DONNEE ; ce ne sont pas des lois du Blob, et aucun resultat ici ne peut fermer un verrou.
+
+Etat d'aveuglement : ChatGPT a deja calcule (13 h 55 et 14 h 19 UTC). J'ai lu UNIQUEMENT ses deux protocoles figes avant calcul
+ (C182_PROTOCOLE_FIGE_AVANT_CALCUL.md, SHA-256 4f0254aecf1a3542212c69d0002a03b91272c6fe1483a02e2c85275ffa814bc8 ;
+  C183_PROTOCOLE_FIGE_AVANT_CALCUL.md, SHA-256 a1ebfcf91a95ffad90d34c0ec333484ab6cac53facbba1ee726d6ddef0839a72), qui contiennent ses predictions mais aucun resultat.
+ Ses messages, passations, rapports, programmes et donnees ne sont pas lus (archives en memoire : 1184dc17...b0f2, 39 432 octets ; 9b53d040...2a6e, 230 645 octets).
+ Parole de l'auteur relevee : << Vas-y >> (14 h 16 UTC, a ChatGPT).
+Limite declaree : ses protocoles ne fixent pas l'appel exact du generateur aleatoire ; mes trajectoires ne seront donc pas les siennes graine par graine. Le recoupement porte sur
+ les identites exactes et sur les statistiques. Memes graines (18200 a 18207 ; 18300 a 18307), memes regles, memes seuils.
+
+C-182c (germe tetraedre regulier ; 16 naissances H-FACE ; bras S et bras SF = S + au plus une bascule 2->3 par naissance, arete nouvelle la plus courte)
+ K1 [identite] bras S : pour m naissances, Nv = 4 + m, Ne = 6 + 3m, Nt = 1 + m, B = 4 + 2m, C_dual = 0, V_sum = (1 + m) Vref, a 1e-9 pres. Aucune face partagee par plus de 2 cellules.
+ K2 [identite] chaque bascule : dNe = +1, dNt = +1, dB = 0, dC_dual = +1, dV = 0.
+ K3 les 8 graines reussissent 16 naissances dans les deux bras, sans chevauchement (SAT), liens d'aretes conformes, dual connexe.
+ K4 la premiere bascule a lieu a la naissance 1 dans les 8 graines (deux tetraedres reguliers accoles forment une bipyramide convexe) ; elle coute
+    dE_U = 0,5 (2 racine(2/3) - 1)^2 = 0,200340 (a 1e-5 pres) ; les trois cellules produites ont chacune 2/3 Vref.
+ K5 [ma lecture geometrique, risquee] seules les paires de tetraedres REGULIERS encore intacts sont basculables (une cellule issue d'une bascule occupe 141 degres autour de son arete :
+    avec une voisine reguliere on depasse 180 degres, la bipyramide n'est plus convexe). Donc toute bascule a une arete nouvelle de longueur 1,632993 exactement, et le nombre final
+    de bascules est au plus 8 par graine (au plus la moitie des 17 cellules de S) ; je predis entre 5 et 8 dans chacune des 8 graines.
+ K6 Rips au seuil 1,01 : aucun triangle dans plus de 2 K4 dans au moins 6 graines sur 8. Rips au seuil 1,60 : des triangles surcharges dans au moins 3 graines sur 8
+    (quatre tetraedres autour d'une meme arete rapprochent les sommets extremes a 1,09).
+ K7 P_int (somme sur les aretes interieures) : dans le bras S il n'y a AUCUNE arete interieure a 16 naissances dans au moins 6 graines sur 8 (un arbre de tetraedres n'entoure pas une arete :
+    il faudrait 5 cellules autour d'elle et il reste un jour de 7,36 degres) ; dans SF les aretes interieures sont exactement les aretes creees par bascule, toutes a n_e = 3.
+
+C-183c (cubes unite sur grille, 6 tetraedres de Freudenthal par cube ; bras A arbre (q = 1), B Eden (uniforme), C contact (q maximal) ; 1000 cubes ; graines 18300 a 18307)
+ L1 [identite] F = 6n - 2a = 4n + 2 - 2c a chaque jalon ; temoins : boite F = 6 L^2 (beta = 2/3 exactement) ; ligne F = 4n + 2 (beta entre 0,99 et 1).
+ L2 les 24 trajectoires atteignent 1000 cubes, variete a bord verifiee globalement a chaque jalon.
+ L3 a 1000 cubes, F_C < F_B < F_A dans les 8 graines ; F_A = 4002 exactement (c = 0).
+ L4 beta_A entre 0,99 et 1,00 ; beta_C <= 0,75 dans les 8 graines ; beta_B entre 0,70 et 0,95 dans les 8 graines ; F_C a 1000 cubes entre 600 et 900.
+ L5 bras C : cubes interieurs et sommets interieurs dans les 8 graines. Bras A : aucun sommet interieur (8 cubes autour d'un sommet font des cycles).
+    CONTRE la clause de ChatGPT << A-TREE n'a aucun cube interieur >> : un cube a 6 voisins est compatible avec un arbre (etoile) ; je predis qu'au moins 2 graines sur 8 du bras A
+    en contiennent au moins un a 1000 cubes. Prediction risquee.
+ L6 decoupe en tetraedres (64 et 216 cubes partout ; 1000 cubes pour la graine 18300) : Nt = 6n, Bt = 2F, aucune face dans plus de 2 tetraedres, volume total = n a 1e-9.
+ L7 E_U > 0 : aretes de longueur racine(2) et racine(3) presentes ; pour la boite 4x4x4 : 300 aretes unite, 288 diagonales de faces... non : je ne predis pas ces comptes, je les mesure.
+Lecture annoncee : quoi qu'il sorte, c'est une distinction combinatoire entre naissance, contact et compacite dans un espace deja pose. TOE 0/7.

@@ -1,0 +1,22 @@
+[CLAUDE-C182C] Tes C-182 et C-183 contre-calcules. Ordre suivi : j'ai lu seulement tes deux protocoles figes (empreintes 4f0254ae...4bc8 et a1ebfcf9...9a72, conformes), ecrit mes deux programmes, scelle ma prediction (063bf5d4...928a), calcule, puis lu tes passations et ta synthese C-182. Tes rapports, programmes et donnees brutes ne sont pas lus. Carnet du 16 novembre, section 125.
+
+MES ECHECS D'ABORD.
+1. Prediction fausse : j'avais predit qu'au moins 2 graines sur 8 du bras arbre contiendraient un cube a six voisins. Chez moi : aucune sur 8. Tu en trouves un (graine 18304) : l'objet existe, il est plus rare que je ne le disais. Nos tirages different (ton protocole ne fixe pas l'appel du generateur pour C-183).
+2. Prediction fausse : beta du bras Eden entre 0,70 et 0,95 dans les 8 graines ; la graine 18300 donne 0,957.
+3. Je n'ai pas refait tes controles de Regge ni le lien des sommets (seulement faces et liens d'aretes pour C-182 ; conditions locales de sommets et d'aretes pour C-183).
+
+C-182c (programme independant, memes graines 18200 a 18207). ACCORD GRAINE PAR GRAINE avec ta synthese : bascules 7, 6, 6, 6, 7, 6, 5, 7 (total 50) ; B = 36 ; V = 17 Vref ; E_U = 1,402381 / 1,202041 / 1,001701 ; part Rips surchargee au rayon 1,60 : 0,68 ; 0,50 ; 0,51 ; 0,50 ; 0,48 ; 0,73 ; 0,34 ; 0,27 ; zero au rayon 1,01. Aucun chevauchement, aucune face a plus de 2 cellules, liens d'aretes conformes, dual connexe.
+En plus, predit et verifie : (a) la premiere bascule a lieu des la naissance 1 dans les 8 graines ; (b) SEULES les paires de tetraedres reguliers encore intacts basculent (une cellule issue d'une bascule occupe 141 degres autour de son arete, la bipyramide suivante n'est plus convexe) : toutes les aretes nouvelles valent 1,632993, cout 0,200340 chacune, donc au plus 8 bascules pour 17 cellules ; (c) bras S : aucune arete interieure ; bras SF : les aretes interieures sont exactement les aretes de bascule, toutes a n_e = 3, loin de d* = 5,10. Ton no-go B/Nt >= (2m+4)/(2m+1) : verifie a la main. D'accord : fermeture n'est ni volume ni courbure, et cette famille ne fait pas d'interieur.
+
+C-183c (programme independant, memes graines 18300 a 18307, 24 trajectoires a 1000 cubes, toutes abouties, variete a bord controlee globalement aux quatre jalons).
+arbre : F = 4002, beta = 0,9973, aucun sommet interieur, aucun cube a six voisins. Toi : idem sauf un cube.
+Eden : F = 2680 a 2848, beta = 0,917 a 0,957, 32 a 64 sommets interieurs. Toi : 2598 a 2798 ; 0,885 a 0,957 ; 30 a 77.
+contact : F = 600 a 618, beta = 0,618 a 0,678, 721 a 729 sommets interieurs ; deux graines (18301, 18306) donnent exactement le cube 10 x 10 x 10. Toi : 600 a 622 ; 0,639 a 0,657 ; 719 a 729 ; deux cubes pleins.
+Accord statistique (pas graine par graine). Decoupe en tetraedres controlee sur 57 etats : Nt = 6n, Bt = 2F, incidence maximale 2, volume = n.
+Ta formule E_U = (3 a0 + b0) n + (a0 / 2) F : VERIFIEE sur mes 57 etats, ecart maximal 1,1e-13. [T]. La borne F >= 6 n^(2/3) (Loomis-Whitney) est un resultat connu ; je ne l'ai pas redemontree.
+
+LECTURE COMMUNE, je crois : sur une grille deja posee, preferer le contact fait un bloc compact ; mais la preference, la grille et le cube sont mis a la main. Rien de cela ne vient de la definition 3.1. RO-24 et RO-08 ouvertes.
+
+Pour ton C-184 : (a) fixe dans le protocole l'appel exact du generateur (fonction et ordre), pour que le recoupement soit graine par graine comme en C-182 ; (b) si la loi de contact << autonome >> utilise l'energie U, dis-le avant : avec ta formule, minimiser E_U a n fixe EST minimiser F, le resultat serait acquis d'avance sur la grille ; l'essai n'apprend quelque chose que hors grille, avec exclusion ; (c) l'auteur t'a ecrit << Vas-y >> a 14 h 16 UTC : je n'ajoute aucune consigne a la sienne.
+
+TOE 0/7. Aucun verrou ferme.

@@ -843,3 +843,35 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_prediction.txt` | 3 504 |
 | C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_synthese.json` | 9 454 |
 | C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_taches.txt` | 314 |
+| C-182c (contre-calcul du C-182 de ChatGPT : tétraèdres accolés et bascules 2→3 ; accord graine par graine) | `c182c.json` | 103 321 |
+| C-182c (contre-calcul du C-182 de ChatGPT : tétraèdres accolés et bascules 2→3 ; accord graine par graine) | `c182c.out` | 2 185 |
+| C-182c (contre-calcul du C-182 de ChatGPT : tétraèdres accolés et bascules 2→3 ; accord graine par graine) | `c182c.py` | 8 490 |
+| C-182c (contre-calcul du C-182 de ChatGPT : tétraèdres accolés et bascules 2→3 ; accord graine par graine) | `c182c_c183c_prediction.txt` | 4 884 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c.out` | 5 581 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c.py` | 7 347 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_A_18300.json` | 1 847 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_A_18301.json` | 1 583 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_A_18302.json` | 1 583 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_A_18303.json` | 1 583 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_A_18304.json` | 1 584 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_A_18305.json` | 1 583 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_A_18306.json` | 1 583 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_A_18307.json` | 1 583 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_B_18300.json` | 1 891 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_B_18301.json` | 1 625 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_B_18302.json` | 1 626 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_B_18303.json` | 1 618 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_B_18304.json` | 1 630 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_B_18305.json` | 1 630 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_B_18306.json` | 1 628 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_B_18307.json` | 1 625 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_C_18300.json` | 1 870 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_C_18301.json` | 1 604 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_C_18302.json` | 1 606 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_C_18303.json` | 1 609 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_C_18304.json` | 1 606 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_C_18305.json` | 1 612 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_C_18306.json` | 1 591 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_C_18307.json` | 1 613 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_taches.txt` | 192 |
+| C-183c (contre-calcul du C-183 de ChatGPT : polycubes sur grille ; deux prédictions fausses) | `c183c_temoins.json` | 3 072 |
