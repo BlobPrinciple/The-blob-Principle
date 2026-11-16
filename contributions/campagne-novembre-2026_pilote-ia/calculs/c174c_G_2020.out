@@ -1,0 +1,48 @@
+2020 1 libre, minimum E 0.000000000 vp -5.03e-17 
+2020 2 libre, minimum E 0.030574477 vp -2.82e-10 
+2020 3 libre, minimum E 0.205887450 vp -1.27e-15 
+2020 4 libre, minimum E 0.197253112 vp -1.38e-09 
+2020 5 libre, minimum E 0.163618309 vp -2.25e-10 
+2020 6 libre, minimum E 0.121667784 vp -1.09e-10 
+2020 7 libre, minimum E 0.113721123 vp -2.23e-11 
+2020 8 libre, minimum E 0.088064362 vp -1.34e-10 
+2020 9 libre, minimum E 0.107566196 vp -5.64e-10 
+2020 10 libre, minimum E 0.079979251 vp -3.11e-16 
+2020 11 libre, selle E 0.268144596 vp -3.42e-01 {'pas': 1, 'E': 0.2681394505495164, 'baisse': 5.145616141455367e-06, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.07861936573314175, 'min_V_sur_Vref': 0.19999999991499842}
+2020 12 libre, selle E 0.310813373 vp -3.20e-01 {'pas': 1, 'E': 0.31080957726809144, 'baisse': 3.7954959267727517e-06, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.0805843259165831, 'min_V_sur_Vref': 0.19999999812236854}
+2021 1 libre, minimum E 0.000000000 vp -5.03e-17 
+2021 2 libre, minimum E 0.000000000 vp -1.84e-10 
+2021 3 libre, minimum E 0.030574477 vp -7.49e-11 
+2021 4 libre, minimum E 0.205887450 vp -9.41e-10 
+2021 5 libre, minimum E 0.197253112 vp -1.95e-10 
+2021 6 libre, minimum E 0.163618309 vp -7.06e-10 
+2021 7 libre, minimum E 0.121667784 vp -2.75e-11 
+2021 8 libre, minimum E 0.182029793 vp -1.16e-15 
+2021 9 libre, minimum E 0.157676540 vp -5.37e-10 
+2021 10 libre, minimum E 0.153291117 vp -2.21e-10 
+2021 11 libre, minimum E 0.120826566 vp -3.98e-16 
+2021 12 plancher, stationnaire stable E 0.304285691 vp -4.05e-01 
+2022 1 libre, minimum E 0.000000000 vp -1.29e-16 
+2022 2 libre, minimum E 0.000000000 vp -1.84e-10 
+2022 3 libre, minimum E 0.030574477 vp -7.49e-11 
+2022 4 libre, minimum E 0.205887450 vp -8.75e-11 
+2022 5 libre, minimum E 0.245521538 vp -1.15e-16 
+2022 6 libre, minimum E 0.231740663 vp -3.58e-10 
+2022 7 libre, minimum E 0.170654030 vp -1.55e-10 
+2022 8 libre, minimum E 0.176450073 vp -3.93e-10 
+2022 9 libre, selle E 0.332099724 vp -5.62e-01 {'pas': 1, 'E': 0.33209156114334665, 'baisse': 8.162603033712301e-06, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.08101458344789397, 'min_V_sur_Vref': 0.19999999801415277}
+2022 10 plancher, stationnaire stable E 0.317957099 vp -3.71e-01 
+2022 11 plancher, stationnaire stable E 0.297710825 vp -3.76e-01 
+2022 12 libre, minimum E 0.300093016 vp -3.41e-10 
+2023 1 libre, minimum E 0.000000000 vp -4.87e-16 
+2023 2 libre, minimum E 0.030574477 vp -2.26e-17 
+2023 3 libre, minimum E 0.205887450 vp 1.93e-16 
+2023 4 libre, minimum E 0.197253112 vp -1.38e-09 
+2023 5 libre, minimum E 0.163618309 vp -2.30e-10 
+2023 6 libre, minimum E 0.121667784 vp -1.05e-10 
+2023 7 libre, minimum E 0.113721123 vp -2.14e-11 
+2023 8 libre, minimum E 0.127803312 vp -5.11e-10 
+2023 9 libre, minimum E 0.100315491 vp -4.16e-11 
+2023 10 libre, selle E 0.308215360 vp -3.98e-01 {'pas': 1, 'E': 0.28965897752847103, 'baisse': 0.018556381995743387, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.08370577625783172, 'min_V_sur_Vref': 0.1999999989434628}
+2023 11 libre, minimum E 0.277980000 vp -6.22e-10 
+2023 12 libre, minimum E 0.245907858 vp -8.28e-10 

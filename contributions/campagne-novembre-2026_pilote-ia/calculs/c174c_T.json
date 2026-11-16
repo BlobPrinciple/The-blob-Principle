@@ -1,0 +1,17 @@
+{
+ "couronne de cinq": {
+  "E": 0.0003245924526933498,
+  "directions": 0,
+  "modes_nuls": 6
+ },
+ "couronne de sept": {
+  "E": 0.1213808203744567,
+  "directions": 4,
+  "modes_nuls": 6
+ },
+ "tetraedre": {
+  "E": 3.697785493223493e-32,
+  "directions": 0,
+  "modes_nuls": 6
+ }
+}

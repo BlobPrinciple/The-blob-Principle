@@ -1,0 +1,48 @@
+2012 1 libre, minimum E 0.000000000 vp -1.29e-16 
+2012 2 libre, minimum E 0.000000000 vp -1.84e-10 
+2012 3 libre, minimum E 0.000000000 vp 2.64e-18 
+2012 4 libre, minimum E 0.197241882 vp -5.46e-16 
+2012 5 libre, minimum E 0.163532676 vp -3.51e-10 
+2012 6 libre, minimum E 0.121065346 vp -4.55e-10 
+2012 7 libre, minimum E 0.107028045 vp -1.35e-10 
+2012 8 libre, minimum E 0.087471682 vp -3.73e-10 
+2012 9 libre, minimum E 0.068401525 vp -5.48e-10 
+2012 10 libre, minimum E 0.079432254 vp -3.89e-11 
+2012 11 libre, selle E 0.266166676 vp -3.36e-01 {'pas': 1, 'E': 0.26616171771495384, 'baisse': 4.958094607820929e-06, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.07925884171413963, 'min_V_sur_Vref': 0.19999999915160785}
+2012 12 plancher, stationnaire stable E 0.287805860 vp -4.39e-01 
+2013 1 libre, minimum E 0.000000000 vp -4.87e-16 
+2013 2 libre, minimum E 0.000000000 vp -1.84e-10 
+2013 3 libre, minimum E 0.030574477 vp -7.49e-11 
+2013 4 libre, minimum E 0.205887450 vp -9.40e-10 
+2013 5 libre, minimum E 0.197253112 vp -7.72e-11 
+2013 6 libre, minimum E 0.163618309 vp -4.65e-17 
+2013 7 libre, minimum E 0.121667784 vp -2.15e-10 
+2013 8 libre, minimum E 0.113721123 vp -3.35e-10 
+2013 9 libre, minimum E 0.088064362 vp -6.75e-11 
+2013 10 libre, minimum E 0.071034558 vp -6.24e-10 
+2013 11 libre, minimum E 0.159223474 vp -4.25e-10 
+2013 12 plancher, stationnaire stable E 0.334040768 vp -3.67e-01 
+2014 1 libre, minimum E 0.000000000 vp -2.96e-16 
+2014 2 libre, minimum E 0.030574477 vp -2.82e-10 
+2014 3 libre, minimum E 0.205887450 vp -6.14e-16 
+2014 4 libre, minimum E 0.197253112 vp -7.49e-16 
+2014 5 libre, minimum E 0.163618309 vp -4.70e-09 
+2014 6 libre, minimum E 0.121667784 vp -6.18e-10 
+2014 7 libre, minimum E 0.096191544 vp -1.82e-15 
+2014 8 libre, minimum E 0.088064362 vp -2.41e-10 
+2014 9 libre, minimum E 0.107566196 vp -5.64e-10 
+2014 10 libre, minimum E 0.142689958 vp -7.70e-10 
+2014 11 libre, minimum E 0.134247008 vp -1.32e-10 
+2014 12 libre, selle E 0.297876235 vp -2.94e-01 {'pas': 1, 'E': 0.29787259282594136, 'baisse': 3.641826792466496e-06, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.0865779283243015, 'min_V_sur_Vref': 0.1999999995830197}
+2015 1 libre, minimum E 0.000000000 vp -5.03e-17 
+2015 2 libre, minimum E 0.000000000 vp -1.84e-10 
+2015 3 libre, minimum E 0.030574477 vp -7.49e-11 
+2015 4 libre, minimum E 0.205887450 vp -9.41e-10 
+2015 5 libre, minimum E 0.245521538 vp -1.74e-11 
+2015 6 libre, selle E 0.392820200 vp -5.15e-01 {'pas': 1, 'E': 0.39280993723503627, 'baisse': 1.0262982369946272e-05, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.0799270998371625, 'min_V_sur_Vref': 0.19999999901885407}
+2015 7 plancher, stationnaire stable E 0.378197657 vp -1.14e-01 
+2015 8 plancher, stationnaire stable E 0.359860756 vp -1.28e-02 
+2015 9 libre, selle E 0.551360171 vp -5.04e-01 {'pas': 1, 'E': 0.5513446851112641, 'baisse': 1.548561551356631e-05, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.006893544254453806, 'min_V_sur_Vref': 0.19999999967609688}
+2015 10 plancher, stationnaire stable E 0.523945673 vp -1.12e-01 
+2015 11 libre, selle E 0.476214552 vp -1.63e-02 {'pas': 1, 'E': 0.47621413260465106, 'baisse': 4.192047161066803e-07, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.006824139837289217, 'min_V_sur_Vref': 0.19999997661400998}
+2015 12 libre, selle E 0.487156831 vp -1.67e-05 {'pas': 1, 'E': 0.4871567821269088, 'baisse': 4.848973678139856e-08, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.00618685847784959, 'min_V_sur_Vref': 0.19999998979194403}

@@ -1,0 +1,102 @@
+{
+ "flambement": {
+  "seuil": 0.06515408776061202,
+  "ecart_a_chatgpt": 3.612013466103292e-12,
+  "vp_a_10": -0.07728328786067237,
+  "directions_a_15": 3
+ },
+ "M30": {
+  "cellules": 30,
+  "faces_exterieures": 60,
+  "faces_interieures": 30,
+  "cycles": 1,
+  "identite_B_2N_2_2C": true,
+  "fils_interieurs": [
+   [
+    [
+     4,
+     5
+    ],
+    5
+   ]
+  ],
+  "fils_de_bord_a_cinq_cellules": 2,
+  "sommets_interieurs": 0
+ },
+ "chaine": [
+  {
+   "graine": 9300,
+   "cellules": 512,
+   "voisins_par_face": {
+    "0": 0,
+    "1": 2,
+    "2": 510,
+    "3": 0,
+    "4": 0
+   },
+   "faces_exterieures": 1026,
+   "voisins_par_fil_moyenne": 94.34765625
+  },
+  {
+   "graine": 9301,
+   "cellules": 512,
+   "voisins_par_face": {
+    "0": 0,
+    "1": 2,
+    "2": 510,
+    "3": 0,
+    "4": 0
+   },
+   "faces_exterieures": 1026,
+   "voisins_par_fil_moyenne": 74.5234375
+  },
+  {
+   "graine": 9302,
+   "cellules": 512,
+   "voisins_par_face": {
+    "0": 0,
+    "1": 2,
+    "2": 510,
+    "3": 0,
+    "4": 0
+   },
+   "faces_exterieures": 1026,
+   "voisins_par_fil_moyenne": 87.47265625
+  },
+  {
+   "graine": 9303,
+   "cellules": 512,
+   "voisins_par_face": {
+    "0": 0,
+    "1": 2,
+    "2": 510,
+    "3": 0,
+    "4": 0
+   },
+   "faces_exterieures": 1026,
+   "voisins_par_fil_moyenne": 64.60546875
+  },
+  {
+   "graine": 9304,
+   "cellules": 512,
+   "voisins_par_face": {
+    "0": 0,
+    "1": 2,
+    "2": 510,
+    "3": 0,
+    "4": 0
+   },
+   "faces_exterieures": 1026,
+   "voisins_par_fil_moyenne": 77.84375
+  }
+ ],
+ "freudenthal": {
+  "cellules": 2058,
+  "faces_exterieures": 588,
+  "sommets_interieurs": 216,
+  "fils_interieurs": 1981,
+  "cycles": 1765,
+  "cellules_a_quatre_voisins": 1512,
+  "identite": true
+ }
+}

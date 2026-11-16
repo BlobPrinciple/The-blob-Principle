@@ -1,0 +1,182 @@
+{
+ "etats": 288,
+ "graines": 24,
+ "classes": {
+  "libre, minimum": 237,
+  "plancher, stationnaire stable": 34,
+  "plancher, non stationnaire": 9,
+  "libre, selle": 7,
+  "plancher, selle": 1
+ },
+ "par_naissance": {
+  "1": {
+   "libre, minimum": 24
+  },
+  "2": {
+   "libre, minimum": 24
+  },
+  "3": {
+   "libre, minimum": 24
+  },
+  "4": {
+   "plancher, stationnaire stable": 1,
+   "libre, minimum": 23
+  },
+  "5": {
+   "plancher, non stationnaire": 1,
+   "libre, minimum": 23
+  },
+  "6": {
+   "plancher, stationnaire stable": 2,
+   "libre, minimum": 21,
+   "plancher, non stationnaire": 1
+  },
+  "7": {
+   "plancher, stationnaire stable": 3,
+   "libre, minimum": 21
+  },
+  "8": {
+   "plancher, stationnaire stable": 5,
+   "libre, minimum": 19
+  },
+  "9": {
+   "libre, minimum": 16,
+   "plancher, stationnaire stable": 5,
+   "libre, selle": 2,
+   "plancher, non stationnaire": 1
+  },
+  "10": {
+   "libre, minimum": 16,
+   "libre, selle": 3,
+   "plancher, stationnaire stable": 4,
+   "plancher, non stationnaire": 1
+  },
+  "11": {
+   "libre, minimum": 14,
+   "libre, selle": 2,
+   "plancher, stationnaire stable": 6,
+   "plancher, non stationnaire": 2
+  },
+  "12": {
+   "libre, minimum": 12,
+   "plancher, non stationnaire": 3,
+   "plancher, selle": 1,
+   "plancher, stationnaire stable": 8
+  }
+ },
+ "planchers_actifs": 44,
+ "contacts_actifs": 0,
+ "ecart_E_max": 0.0,
+ "gradient_max_libres": 0.12090029338565082,
+ "selles": [
+  {
+   "graine": 2001,
+   "n": 10,
+   "vp": -0.3028099349896319,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.3313691791680051,
+    "baisse": 0.004581113061541631,
+    "classe": "contact : non tranche",
+    "degagement_min": -0.47837677126981626,
+    "min_V_sur_Vref": 0.20000000015718072
+   }
+  },
+  {
+   "graine": 2001,
+   "n": 11,
+   "vp": -0.4283407281625052,
+   "directions": 4,
+   "sortie": {
+    "pas": 1,
+    "E": 0.347001124154478,
+    "baisse": 0.010825624557941005,
+    "classe": "contact : non tranche",
+    "degagement_min": -0.48278098152329413,
+    "min_V_sur_Vref": 0.19999999819646774
+   }
+  },
+  {
+   "graine": 2002,
+   "n": 11,
+   "vp": -0.16780268822164585,
+   "directions": 1,
+   "sortie": {
+    "pas": 1,
+    "E": 0.2376785337957677,
+    "baisse": 0.012987991694824175,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.08631799650934141,
+    "min_V_sur_Vref": 0.19999999974512644
+   }
+  },
+  {
+   "graine": 2004,
+   "n": 10,
+   "vp": -0.3977731703129109,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.2896589775129204,
+    "baisse": 0.01855638201129406,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.0837057759759599,
+    "min_V_sur_Vref": 0.1999999989331215
+   }
+  },
+  {
+   "graine": 2006,
+   "n": 9,
+   "vp": -0.0037885760662329532,
+   "directions": 1,
+   "sortie": {
+    "pas": 1,
+    "E": 0.3124703534737986,
+    "baisse": 0.004084990476076855,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.009077898245275846,
+    "min_V_sur_Vref": 0.19999999933813836
+   }
+  },
+  {
+   "graine": 2016,
+   "n": 9,
+   "vp": -0.003788571494466719,
+   "directions": 1,
+   "sortie": {
+    "pas": 1,
+    "E": 0.31243774549960374,
+    "baisse": 0.004117598450271764,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.007555538731683589,
+    "min_V_sur_Vref": 0.1999999992722332
+   }
+  },
+  {
+   "graine": 2023,
+   "n": 10,
+   "vp": -0.39777316464417484,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.28965897752847103,
+    "baisse": 0.018556381995743387,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.08370577625783172,
+    "min_V_sur_Vref": 0.1999999989434628
+   }
+  }
+ ],
+ "selles_plancher": [
+  {
+   "graine": 2002,
+   "n": 12,
+   "vp": -0.10443049552671219,
+   "residu": 1.3245608052881482e-08
+  }
+ ],
+ "statuts": {
+  "toutes les naissances admissibles": 24
+ }
+}

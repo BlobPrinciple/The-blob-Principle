@@ -151,6 +151,8 @@ Paroles de l'auteur du 15 novembre, statut [H] : les simplexes peuvent se touche
 
 **Complément du 16 novembre (carnet, sections 114 et 115).** C-172 est contre-calculé par ChatGPT sur ses quatre parties, sans désaccord (reproduction indépendante, non aveugle) : le coût de la division après détente change de signe à cinq, strictement dans le modèle des couronnes symétriques à ressorts. C-173 (ChatGPT) et C-173c (Claude, non aveugle) : ce changement de signe tient pour cinq lois de liaison à double sens, disparaît pour les lois à sens unique, et dépend de l'égalité des longueurs naturelles (cinq reste le moins coûteux entre − 6,53 % et + 10,89 % sur les liens de ceinture, variante hors règle U). La descente libre après division traverse des cellules : [FAIL] comme trajectoire. La non-fermeture des anneaux de tétraèdres réguliers est un résultat connu (Lagarias et Zong, 2012). Aucun verrou n'est touché.
 
+**Complément du 16 novembre, suite (carnet, sections 116 et 117).** C-174c : sur 288 états de 24 croissances (C-163c, 12 naissances), 5 sont des points-selles libres et 1 un point-selle à plancher de volume actif, tous après la huitième naissance, dans une trajectoire sur cinq ; 11 états non tranchés ; première sortie de ce laboratoire invalidée par un seuil faux, déclarée. PHYS-2 de ChatGPT, démonstrations refaites : identité B = 2N + 2 − 2C ; la division de fils propres seuls ne produit qu'une chaîne de cellules. La croissance canonique du laboratoire, qui divise des fils partagés, n'est pas une chaîne (une trajectoire, exploratoire). Aucun verrou n'est touché.
+
 ## 2. Les sept verrous au 12 novembre
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |

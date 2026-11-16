@@ -1,0 +1,25 @@
+C-174c -- les etats des croissances passees sont-ils des minimums ou des points-selles ? (Claude). Ecrit le 2026-11-16 07:02:53 UTC,
+avant tout calcul, et avant d'avoir lu quoi que ce soit de ChatGPT posterieur a mon message C-173c (deux archives mises en memoire sans etre ouvertes).
+
+Objet. Premier etage de la relaxation << en six points >> : NON la procedure complete. Ce programme classe les etats et sort des selles libres ; il ne tranche pas
+le second ordre des etats ou un contact entre cellules est actif (declare d'avance comme limite).
+
+Protocole fige.
+ Croissance : celle de c163c.py (regle U, tirage independant des numeros, interdit de chevauchement, contact permis, plancher de volume 0,2 Vref), mode A,
+ graines 2000 a 2023, 12 naissances : 288 etats au plus. Aucune graine retiree ; une trajectoire interrompue (etat non admissible) est comptee et dite.
+ Pour chaque etat, reconstruit depuis la suite des fils et les positions :
+  1 gradient de l'energie des liens ; 2 contraintes actives : volume (V/Vref < 0,2 + 1e-6) et contact (degagement < 1e-6) ;
+  3 etat LIBRE (aucune contrainte active) : valeurs propres du hessien analytique ; selle si la plus petite est < -1e-6 (six modes rigides exclus par leur valeur nulle) ;
+  4 etat a plancher de volume actif SANS contact : multiplicateurs par moindres carres positifs, residu, hessien du lagrangien (courbure des volumes par differences
+    finies du gradient analytique) reduit a l'espace tangent des contraintes actives ; selle contrainte si une valeur propre reduite < -1e-6 ;
+  5 etat avec contact actif : classe << non tranche >> ;
+  6 pour chaque selle libre : sortie le long du mode (x1_regles.sortie_selle, pas 0,003, deux sens), nouvelle relaxation, energie et admissibilite de l'arrivee.
+ Temoins : couronne isolee de cinq (attendu : libre, minimum) ; couronne symetrique de sept (attendu : selle, 4 directions) ; tetraedre regulier (minimum, energie nulle).
+
+Predictions.
+ G1 plus de la moitie des etats sont libres.
+ G2 parmi les etats libres, entre 1 % et 15 % sont des points-selles.
+ G3 toute selle libre sort vers un etat d'energie plus basse, sans chevauchement ; baisse d'energie inferieure a 0,01 a chaque fois.
+ G4 plancher de volume actif dans moins de 10 % des etats ; contact actif dans 5 % a 40 % des etats.
+ G5 parmi les etats a plancher actif sans contact, au moins un est une selle contrainte.
+ G6 les trois temoins donnent le resultat attendu.

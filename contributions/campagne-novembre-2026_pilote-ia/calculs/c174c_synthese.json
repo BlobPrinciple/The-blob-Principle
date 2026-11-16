@@ -1,0 +1,530 @@
+{
+ "etats": 288,
+ "graines": 24,
+ "classes": {
+  "libre, minimum": 237,
+  "libre, selle": 32,
+  "plancher, stationnaire stable": 18,
+  "plancher, selle": 1
+ },
+ "par_naissance": {
+  "1": {
+   "libre, minimum": 24
+  },
+  "2": {
+   "libre, minimum": 24
+  },
+  "3": {
+   "libre, minimum": 24
+  },
+  "4": {
+   "libre, selle": 1,
+   "libre, minimum": 23
+  },
+  "5": {
+   "libre, selle": 1,
+   "libre, minimum": 23
+  },
+  "6": {
+   "plancher, stationnaire stable": 1,
+   "libre, minimum": 21,
+   "libre, selle": 2
+  },
+  "7": {
+   "libre, selle": 2,
+   "libre, minimum": 21,
+   "plancher, stationnaire stable": 1
+  },
+  "8": {
+   "plancher, stationnaire stable": 4,
+   "libre, minimum": 19,
+   "libre, selle": 1
+  },
+  "9": {
+   "libre, minimum": 16,
+   "plancher, stationnaire stable": 2,
+   "libre, selle": 6
+  },
+  "10": {
+   "libre, minimum": 16,
+   "libre, selle": 5,
+   "plancher, stationnaire stable": 3
+  },
+  "11": {
+   "libre, minimum": 14,
+   "libre, selle": 8,
+   "plancher, stationnaire stable": 2
+  },
+  "12": {
+   "libre, minimum": 12,
+   "libre, selle": 6,
+   "plancher, selle": 1,
+   "plancher, stationnaire stable": 5
+  }
+ },
+ "planchers_actifs": 19,
+ "contacts_actifs": 0,
+ "ecart_E_max": 0.0,
+ "gradient_max_libres": 0.2579879085476267,
+ "selles": [
+  {
+   "graine": 2000,
+   "n": 4,
+   "vp": -0.44842685765290097,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.27253211832875024,
+    "baisse": 4.468612842867259e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.06364375243072566,
+    "min_V_sur_Vref": 0.20000000002828783
+   }
+  },
+  {
+   "graine": 2000,
+   "n": 5,
+   "vp": -0.4971368137933471,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.4155734736146114,
+    "baisse": 1.702469490949543e-05,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.06476300395109337,
+    "min_V_sur_Vref": 0.19999999861236217
+   }
+  },
+  {
+   "graine": 2000,
+   "n": 7,
+   "vp": -0.1665648528244784,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.38100591035156023,
+    "baisse": 3.062674301002044e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.06387107273427016,
+    "min_V_sur_Vref": 0.20000000032954077
+   }
+  },
+  {
+   "graine": 2001,
+   "n": 10,
+   "vp": -0.3028099349896319,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.3313691791680051,
+    "baisse": 0.004581113061541631,
+    "classe": "contact : non tranche",
+    "degagement_min": -0.47837677126981626,
+    "min_V_sur_Vref": 0.20000000015718072
+   }
+  },
+  {
+   "graine": 2001,
+   "n": 11,
+   "vp": -0.4283407281625052,
+   "directions": 4,
+   "sortie": {
+    "pas": 1,
+    "E": 0.347001124154478,
+    "baisse": 0.010825624557941005,
+    "classe": "contact : non tranche",
+    "degagement_min": -0.48278098152329413,
+    "min_V_sur_Vref": 0.19999999819646774
+   }
+  },
+  {
+   "graine": 2001,
+   "n": 12,
+   "vp": -0.409397268539676,
+   "directions": 4,
+   "sortie": {
+    "pas": 1,
+    "E": 0.5352531990429952,
+    "baisse": 0.0198367850949992,
+    "classe": "contact : non tranche",
+    "degagement_min": -0.4156274284000212,
+    "min_V_sur_Vref": 0.19999999979558614
+   }
+  },
+  {
+   "graine": 2002,
+   "n": 11,
+   "vp": -0.16780268822164585,
+   "directions": 1,
+   "sortie": {
+    "pas": 1,
+    "E": 0.2376785337957677,
+    "baisse": 0.012987991694824175,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.08631799650934141,
+    "min_V_sur_Vref": 0.19999999974512644
+   }
+  },
+  {
+   "graine": 2004,
+   "n": 10,
+   "vp": -0.3977731703129109,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.2896589775129204,
+    "baisse": 0.01855638201129406,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.0837057759759599,
+    "min_V_sur_Vref": 0.1999999989331215
+   }
+  },
+  {
+   "graine": 2005,
+   "n": 9,
+   "vp": -0.335572654625333,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.32192761625439437,
+    "baisse": 7.1264101261236945e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.07351614858963895,
+    "min_V_sur_Vref": 0.20000000065471488
+   }
+  },
+  {
+   "graine": 2006,
+   "n": 9,
+   "vp": -0.0037885760662329532,
+   "directions": 1,
+   "sortie": {
+    "pas": 1,
+    "E": 0.3124703534737986,
+    "baisse": 0.004084990476076855,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.009077898245275846,
+    "min_V_sur_Vref": 0.19999999933813836
+   }
+  },
+  {
+   "graine": 2007,
+   "n": 11,
+   "vp": -0.11683803604656576,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.3138240540395759,
+    "baisse": 4.3223107531464855e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.06581982049043084,
+    "min_V_sur_Vref": 0.1999999999451653
+   }
+  },
+  {
+   "graine": 2008,
+   "n": 9,
+   "vp": -0.3533720568721185,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.36140330893600925,
+    "baisse": 8.746107161006211e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.0687137490615098,
+    "min_V_sur_Vref": 0.19999999998552298
+   }
+  },
+  {
+   "graine": 2011,
+   "n": 10,
+   "vp": -0.36124473594233975,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.44731963627446747,
+    "baisse": 1.2935553203752281e-05,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.030398126295549405,
+    "min_V_sur_Vref": 0.1999999987918743
+   }
+  },
+  {
+   "graine": 2011,
+   "n": 11,
+   "vp": -0.26370198062175043,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.40234733418367485,
+    "baisse": 1.725646794448199e-05,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.030689290713859146,
+    "min_V_sur_Vref": 0.19999999854519562
+   }
+  },
+  {
+   "graine": 2011,
+   "n": 12,
+   "vp": -0.9066063808373014,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.5784430780944279,
+    "baisse": 1.6394666613406272e-05,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.0037757648211134602,
+    "min_V_sur_Vref": 0.19999999208833993
+   }
+  },
+  {
+   "graine": 2012,
+   "n": 11,
+   "vp": -0.33600833886437165,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.26616171771495384,
+    "baisse": 4.958094607820929e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.07925884171413963,
+    "min_V_sur_Vref": 0.19999999915160785
+   }
+  },
+  {
+   "graine": 2014,
+   "n": 12,
+   "vp": -0.2944750479905138,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.29787259282594136,
+    "baisse": 3.641826792466496e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.0865779283243015,
+    "min_V_sur_Vref": 0.1999999995830197
+   }
+  },
+  {
+   "graine": 2015,
+   "n": 6,
+   "vp": -0.5146912459670648,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.39280993723503627,
+    "baisse": 1.0262982369946272e-05,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.0799270998371625,
+    "min_V_sur_Vref": 0.19999999901885407
+   }
+  },
+  {
+   "graine": 2015,
+   "n": 9,
+   "vp": -0.504066121583171,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.5513446851112641,
+    "baisse": 1.548561551356631e-05,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.006893544254453806,
+    "min_V_sur_Vref": 0.19999999967609688
+   }
+  },
+  {
+   "graine": 2015,
+   "n": 11,
+   "vp": -0.016263183238233083,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.47621413260465106,
+    "baisse": 4.192047161066803e-07,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.006824139837289217,
+    "min_V_sur_Vref": 0.19999997661400998
+   }
+  },
+  {
+   "graine": 2015,
+   "n": 12,
+   "vp": -1.6672195699020942e-05,
+   "directions": 1,
+   "sortie": {
+    "pas": 1,
+    "E": 0.4871567821269088,
+    "baisse": 4.848973678139856e-08,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.00618685847784959,
+    "min_V_sur_Vref": 0.19999998979194403
+   }
+  },
+  {
+   "graine": 2016,
+   "n": 6,
+   "vp": -0.5146813625091887,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.392809937226852,
+    "baisse": 1.566523794249708e-05,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.07992709994905628,
+    "min_V_sur_Vref": 0.19999999880370084
+   }
+  },
+  {
+   "graine": 2016,
+   "n": 7,
+   "vp": -0.5979251329933049,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.3422120224252497,
+    "baisse": 8.28516575851479e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.08022079260700427,
+    "min_V_sur_Vref": 0.19999999871923013
+   }
+  },
+  {
+   "graine": 2016,
+   "n": 8,
+   "vp": -0.3713202605613447,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.32772768257707546,
+    "baisse": 7.984453260501123e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.08285147203900944,
+    "min_V_sur_Vref": 0.20000000028716922
+   }
+  },
+  {
+   "graine": 2016,
+   "n": 9,
+   "vp": -0.003788571494466719,
+   "directions": 1,
+   "sortie": {
+    "pas": 1,
+    "E": 0.31243774549960374,
+    "baisse": 0.004117598450271764,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.007555538731683589,
+    "min_V_sur_Vref": 0.1999999992722332
+   }
+  },
+  {
+   "graine": 2019,
+   "n": 10,
+   "vp": -0.10273931959500819,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.38596717490079974,
+    "baisse": 2.483775749517747e-07,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.0073421819142045815,
+    "min_V_sur_Vref": 0.19999999762431275
+   }
+  },
+  {
+   "graine": 2019,
+   "n": 11,
+   "vp": -0.31977422372322517,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.5372460062604476,
+    "baisse": 8.014916381915427e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.007348294863517794,
+    "min_V_sur_Vref": 0.19999997741102354
+   }
+  },
+  {
+   "graine": 2019,
+   "n": 12,
+   "vp": -0.3366780931633676,
+   "directions": 3,
+   "sortie": {
+    "pas": 1,
+    "E": 0.5238887117576161,
+    "baisse": 7.79901160141705e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.007480885974301088,
+    "min_V_sur_Vref": 0.19999999948427863
+   }
+  },
+  {
+   "graine": 2020,
+   "n": 11,
+   "vp": -0.3424513052057972,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.2681394505495164,
+    "baisse": 5.145616141455367e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.07861936573314175,
+    "min_V_sur_Vref": 0.19999999991499842
+   }
+  },
+  {
+   "graine": 2020,
+   "n": 12,
+   "vp": -0.3196037818317266,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.31080957726809144,
+    "baisse": 3.7954959267727517e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.0805843259165831,
+    "min_V_sur_Vref": 0.19999999812236854
+   }
+  },
+  {
+   "graine": 2022,
+   "n": 9,
+   "vp": -0.5621063294744666,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.33209156114334665,
+    "baisse": 8.162603033712301e-06,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.08101458344789397,
+    "min_V_sur_Vref": 0.19999999801415277
+   }
+  },
+  {
+   "graine": 2023,
+   "n": 10,
+   "vp": -0.39777316464417484,
+   "directions": 2,
+   "sortie": {
+    "pas": 1,
+    "E": 0.28965897752847103,
+    "baisse": 0.018556381995743387,
+    "classe": "plancher, stationnaire stable",
+    "degagement_min": 0.08370577625783172,
+    "min_V_sur_Vref": 0.1999999989434628
+   }
+  }
+ ],
+ "selles_plancher": [
+  {
+   "graine": 2002,
+   "n": 12,
+   "vp": -0.10443049552671219,
+   "residu": 1.3245608052881482e-08
+  }
+ ],
+ "statuts": {
+  "toutes les naissances admissibles": 24
+ }
+}

@@ -548,3 +548,39 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_UNI.json` | 2 122 |
 | C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_UNI.out` | 1 790 |
 | C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_prediction.txt` | 2 817 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c.py` | 6 360 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2000.jsonl` | 21 196 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2000.out` | 3 755 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2004.jsonl` | 20 208 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2004.out` | 3 187 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2008.jsonl` | 20 261 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2008.out` | 3 197 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2012.jsonl` | 21 059 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2012.out` | 3 612 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2016.jsonl` | 20 805 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2016.out` | 3 752 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2020.jsonl` | 20 403 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_G_2020.out` | 3 205 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_T.json` | 274 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis.py` | 755 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2000.jsonl` | 21 012 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2000.out` | 3 104 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2004.jsonl` | 20 100 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2004.out` | 2 841 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2008.jsonl` | 20 100 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2008.out` | 2 530 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2012.jsonl` | 20 837 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2012.out` | 2 590 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2016.jsonl` | 20 600 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2016.out` | 2 773 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2020.jsonl` | 20 274 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_G_2020.out` | 2 687 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_classement_final.json` | 3 448 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_bis_synthese.json` | 3 853 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_prediction.txt` | 2 441 |
+| C-174c (minimums ou points-selles ; première sortie à ne pas citer, complément « bis ») | `c174c_synthese.json` | 11 753 |
+| X-9 [EXPLORATOIRE] (contrôles de C-173R, PHYS-1, PHYS-2) | `x9_controles_phys.json` | 1 695 |
+| X-9 [EXPLORATOIRE] (contrôles de C-173R, PHYS-1, PHYS-2) | `x9_controles_phys.out` | 1 295 |
+| X-9 [EXPLORATOIRE] (contrôles de C-173R, PHYS-1, PHYS-2) | `x9_controles_phys.py` | 4 320 |
+| X-9 [EXPLORATOIRE] (contrôles de C-173R, PHYS-1, PHYS-2) | `x9_topologie_croissances.json` | 148 |
+| X-9 [EXPLORATOIRE] (contrôles de C-173R, PHYS-1, PHYS-2) | `x9_topologie_croissances.py` | 1 290 |

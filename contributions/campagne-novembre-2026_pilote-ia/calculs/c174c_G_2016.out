@@ -1,0 +1,48 @@
+2016 1 libre, minimum E 0.000000000 vp -1.29e-16 
+2016 2 libre, minimum E 0.000000000 vp -1.84e-10 
+2016 3 libre, minimum E 0.030574477 vp -7.49e-11 
+2016 4 libre, minimum E 0.205887450 vp -9.41e-10 
+2016 5 libre, minimum E 0.245521538 vp -1.24e-11 
+2016 6 libre, selle E 0.392825602 vp -5.15e-01 {'pas': 1, 'E': 0.392809937226852, 'baisse': 1.566523794249708e-05, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.07992709994905628, 'min_V_sur_Vref': 0.19999999880370084}
+2016 7 libre, selle E 0.342220308 vp -5.98e-01 {'pas': 1, 'E': 0.3422120224252497, 'baisse': 8.28516575851479e-06, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.08022079260700427, 'min_V_sur_Vref': 0.19999999871923013}
+2016 8 libre, selle E 0.327735667 vp -3.71e-01 {'pas': 1, 'E': 0.32772768257707546, 'baisse': 7.984453260501123e-06, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.08285147203900944, 'min_V_sur_Vref': 0.20000000028716922}
+2016 9 libre, selle E 0.316555344 vp -3.79e-03 {'pas': 1, 'E': 0.31243774549960374, 'baisse': 0.004117598450271764, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.007555538731683589, 'min_V_sur_Vref': 0.1999999992722332}
+2016 10 libre, minimum E 0.280625253 vp -9.26e-10 
+2016 11 libre, minimum E 0.280930387 vp 8.36e-17 
+2016 12 libre, minimum E 0.316872772 vp -3.69e-10 
+2017 1 libre, minimum E 0.000000000 vp -4.70e-16 
+2017 2 libre, minimum E 0.030574477 vp -2.82e-10 
+2017 3 libre, minimum E 0.205887450 vp -8.95e-16 
+2017 4 libre, minimum E 0.197253112 vp -6.07e-16 
+2017 5 libre, minimum E 0.163618309 vp -4.12e-09 
+2017 6 libre, minimum E 0.121667784 vp -4.82e-10 
+2017 7 libre, minimum E 0.113721123 vp -2.15e-11 
+2017 8 libre, minimum E 0.088064362 vp -1.34e-10 
+2017 9 libre, minimum E 0.107566196 vp -4.37e-10 
+2017 10 libre, minimum E 0.116045792 vp -6.91e-10 
+2017 11 libre, minimum E 0.287873548 vp -2.14e-10 
+2017 12 libre, minimum E 0.269535401 vp -1.06e-10 
+2018 1 libre, minimum E 0.000000000 vp -2.96e-16 
+2018 2 libre, minimum E 0.030574477 vp -2.82e-10 
+2018 3 libre, minimum E 0.205887450 vp -6.14e-16 
+2018 4 libre, minimum E 0.197253112 vp -1.52e-15 
+2018 5 libre, minimum E 0.163618309 vp -2.30e-10 
+2018 6 libre, minimum E 0.121667784 vp -7.83e-11 
+2018 7 libre, minimum E 0.113721123 vp -2.16e-11 
+2018 8 libre, minimum E 0.127803312 vp -4.13e-10 
+2018 9 libre, minimum E 0.117133957 vp -1.15e-09 
+2018 10 libre, minimum E 0.107268306 vp -5.32e-10 
+2018 11 libre, minimum E 0.121669633 vp -6.73e-10 
+2018 12 libre, minimum E 0.144596754 vp -2.34e-10 
+2019 1 libre, minimum E 0.000000000 vp -4.70e-16 
+2019 2 libre, minimum E 0.000000000 vp -1.84e-10 
+2019 3 libre, minimum E 0.000000000 vp -2.64e-10 
+2019 4 libre, minimum E 0.030574477 vp 5.96e-17 
+2019 5 libre, minimum E 0.205887450 vp -1.62e-10 
+2019 6 libre, minimum E 0.245521538 vp -6.16e-11 
+2019 7 libre, minimum E 0.278037512 vp -2.76e-11 
+2019 8 plancher, stationnaire stable E 0.436682588 vp -7.11e-01 
+2019 9 plancher, stationnaire stable E 0.459638400 vp -2.14e-01 
+2019 10 libre, selle E 0.385967423 vp -1.03e-01 {'pas': 1, 'E': 0.38596717490079974, 'baisse': 2.483775749517747e-07, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.0073421819142045815, 'min_V_sur_Vref': 0.19999999762431275}
+2019 11 libre, selle E 0.537254021 vp -3.20e-01 {'pas': 1, 'E': 0.5372460062604476, 'baisse': 8.014916381915427e-06, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.007348294863517794, 'min_V_sur_Vref': 0.19999997741102354}
+2019 12 libre, selle E 0.523896511 vp -3.37e-01 {'pas': 1, 'E': 0.5238887117576161, 'baisse': 7.79901160141705e-06, 'classe': 'plancher, stationnaire stable', 'degagement_min': 0.007480885974301088, 'min_V_sur_Vref': 0.19999999948427863}
