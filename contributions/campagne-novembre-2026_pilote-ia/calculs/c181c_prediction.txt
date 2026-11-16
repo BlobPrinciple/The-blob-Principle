@@ -1,0 +1,29 @@
+C-181c -- le terme en b de la couche B ajoute au moteur canonique de l'auteur lui-meme (blob engine.py) (Claude). Ecrit le 2026-11-16 13:44:29 UTC, avant tout calcul de C-181c.
+Recherche ouverte visee : RO-08 (pont de la couche historique A_Gibbs vers la couche B). Essai d'auditeur, PAS une loi du master.
+
+Etat d'aveuglement : la reponse de ChatGPT a mon message C-180c (12 h 40 UTC) existe ; je n'en ai lu que les noms de fichiers (archive BLOB_C181_CONTRE_AUDIT_PENALITE_B_2026-11-16.zip,
+26 281 octets, SHA-256 c939a3f14d45e1a24b875ed2772e9e690e5f88f1d06cbff0820bf2f8f79d2164, gardee non ouverte), aucun nombre, aucune phrase.
+Ce que je sais deja (NON aveugle sur ces points) : X-13 (graines 0 a 2) : blob engine.py tel quel donne 5,1 a 6,0 triangles par sommet, dispersion des degres 0,82 a 0,98, n_e median 46 a 78,
+61 a 66 % d'aretes sans tetraedre. C-180c partie II sur l'autre script (canonical) : b = 0,05 ramene n_e a une moyenne de 3,8 a 3,9 (maximum 12 a 14), au prix de 68 a 84 sommets isoles.
+
+PROTOCOLE (fige). N = 1000 ; graines 21 a 26 (jamais tirees) ; parametres de l'auteur inchanges (kappa 6,6 ; beta 0,30 ; tau 0,50 ; vivier 1,6 sur le rayon ; 120 N pas en 8 blocs ;
+garde-fou de degre <= 2 ; plafond 96). _mcmc retranscrit a l'identique ; seul changement : acceptation avec
+    ln(poids) = (S2 - S) / (tau / N)  -  b [ Somme (n_e - d*)^2 apres  -  Somme (n_e - d*)^2 avant ],   somme sur TOUTES les aretes presentes, d* = 2 pi / arccos(1/3),
+    n_e = nombre de cliques a 4 sommets contenant l'arete.  L'echelle relative des deux termes est MON choix (le meme qu'en C-180c).
+b = 0 ; 0,01 ; 0,02 ; 0,05 ; 0,1 ; 0,2 ; 0,5.  Mesures : n_e sur les aretes portant au moins un tetraedre (mediane, moyenne, maximum, part a 4-5-6), part des aretes sans tetraedre,
+part des triangles contenus dans plus de deux tetraedres, sommets isoles, composantes, triangles par sommet, dispersion (CV) des degres.
+TEMOINS : graines 21 et 22, b = 0 avec le suivi incremental de n_e actif : (i) graphe final EXACTEMENT egal a celui de build_blob de l'auteur ; (ii) n_e suivi = n_e recalcule ;
+(iii) compteur de triangles final = nombre de triangles distincts.
+
+PREDICTIONS
+ P0 les trois temoins passent pour les deux graines.
+ P1 b = 0 : dans au moins 5 graines sur 6, n_e median >= 20 et triangles par sommet entre 4,5 et 6,5 (regime condense de X-13 retrouve sur graines neuves).
+ P2 b = 0,05 : dans chaque graine, n_e maximum <= 20, n_e moyen entre 3 et 7, et au moins 30 % des aretes portant un tetraedre a n_e = 4, 5 ou 6.
+ P3 b = 0,01 suffit deja : la moyenne sur les graines de n_e moyen est < 15.
+ P4 b = 0,05 : triangles par sommet plus bas qu'a b = 0 dans chaque graine ; dispersion des degres plus basse qu'a b = 0 dans au moins 5 graines sur 6.
+ P5 connexite : grace au garde-fou du moteur (absent de l'autre script), a b = 0,05 et a b = 0,5 il y a au plus 10 sommets isoles dans chaque graine.
+ P6 b = 0,05 : la part des triangles contenus dans plus de deux tetraedres est plus basse qu'a b = 0 dans chaque graine, mais reste > 0 dans chaque graine
+    (le complexe de cliques n'est toujours pas un tissu ou chaque face a au plus deux cellules).
+ P7 b = 0,5 : n_e maximum <= 12 dans chaque graine.
+Lecture annoncee : si P2, P5 tiennent, le terme en b empeche la condensation dans le moteur canonique lui-meme sans casser la connexite ; element du pont RO-08 sous reserve du choix d'echelle.
+Si P6 (seconde clause) tient, ce n'est toujours pas une triangulation. TOE 0/7 dans tous les cas.

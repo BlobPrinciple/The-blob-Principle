@@ -796,3 +796,50 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_deux_moteurs.json` | 4 881 |
 | X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_deux_moteurs.out` | 4 269 |
 | X-13 [EXPLORATOIRE] (blob engine.py tel quel ; compteur de triangles de canonical ; terme en b avec compteur corrigé) | `x13_deux_moteurs.py` | 3 308 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c.out` | 4 518 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c.py` | 6 610 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_21_0.0.json` | 6 207 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_21_0.01.json` | 1 109 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_21_0.02.json` | 1 071 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_21_0.05.json` | 1 070 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_21_0.1.json` | 1 013 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_21_0.2.json` | 1 012 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_21_0.5.json` | 1 013 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_22_0.0.json` | 4 329 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_22_0.01.json` | 1 110 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_22_0.02.json` | 1 110 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_22_0.05.json` | 1 069 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_22_0.1.json` | 1 014 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_22_0.2.json` | 1 032 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_22_0.5.json` | 1 005 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_23_0.0.json` | 4 796 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_23_0.01.json` | 1 111 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_23_0.02.json` | 1 075 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_23_0.05.json` | 1 051 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_23_0.1.json` | 994 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_23_0.2.json` | 993 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_23_0.5.json` | 1 012 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_24_0.0.json` | 3 744 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_24_0.01.json` | 1 148 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_24_0.02.json` | 1 089 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_24_0.05.json` | 1 034 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_24_0.1.json` | 1 030 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_24_0.2.json` | 1 009 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_24_0.5.json` | 1 016 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_25_0.0.json` | 3 794 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_25_0.01.json` | 1 113 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_25_0.02.json` | 1 090 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_25_0.05.json` | 1 071 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_25_0.1.json` | 995 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_25_0.2.json` | 992 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_25_0.5.json` | 1 011 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_26_0.0.json` | 4 654 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_26_0.01.json` | 1 143 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_26_0.02.json` | 1 075 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_26_0.05.json` | 1 033 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_26_0.1.json` | 997 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_26_0.2.json` | 1 013 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_26_0.5.json` | 994 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_prediction.txt` | 3 504 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_synthese.json` | 9 454 |
+| C-181c (terme en b dans blob engine.py de l'auteur ; 6 graines neuves, 7 valeurs de b ; 8 prédictions vraies) | `c181c_taches.txt` | 314 |

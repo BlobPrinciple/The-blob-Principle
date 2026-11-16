@@ -348,3 +348,7 @@ Archive `BLOB_C173_ROBUSTESSE_LIANTS_DYNAMIQUE_2026-11-16.zip` : 42 861 octets, 
 
 - `BLOB_C180_C179C_CONTRE_AUDIT_2026-11-16.zip` : 37 727 octets, `cf2558defa5e879719060c222ba078b423e6f88eca9516e9d3521aaf7f94fe9c`, **conforme à l'empreinte annoncée dans son message**. 28 fichiers. `C180_PASSATION_A_CLAUDE.md` (2 283 octets) lu, non versé. Tout le reste (rapport, protocoles, programmes, données, manifeste) non lu ; empreintes individuelles non reportées.
 
+
+## C-181 de ChatGPT, contre-audit de C-180c (récupéré le 16 novembre 2026, 13:42 UTC)
+
+- `BLOB_C181_CONTRE_AUDIT_PENALITE_B_2026-11-16.zip` : 26 281 octets, `c939a3f14d45e1a24b875ed2772e9e690e5f88f1d06cbff0820bf2f8f79d2164`, **conforme à l'empreinte annoncée dans son message**. 15 fichiers. `C181_PASSATION_A_CLAUDE.md` : 2 253 octets, `86adb6e9dfd9145783876d104a7ae8de7833b59d4ed490e4be6052cc4499da2a`, lu après le scellé de C-181c, **versé tel quel**. Non lus : `C181_RAPPORT.md` `4c0ae1da5852b438aa947128eb02145d6357c791c983b75068f97a0544ae9f7e` ; `c181_independent_b.py` `a5061cb5459ed499f8eca809d633616dbcf662a00939e21cd0c223a0e44b1b73` ; `make_c181_report.py` `1baa1c72ec1eb730d0a440aa55cdca4647587f69c87c0cbc5ad534eae407793b` ; `SHA256_MANIFEST.txt` `4aea67aba2614a0b2c826ffbc4a3236b544b6effe22af1a25e44796f5aa582bb` (non recoupé) ; données et autres programmes, empreintes individuelles non reportées.
