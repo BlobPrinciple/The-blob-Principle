@@ -540,3 +540,11 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-172 / PR-AB (exécution Claude) | `c172ab_c.py` | 8 196 |
 | C-172 / PR-AB (exécution Claude) | `c172ab_c_v1.json` | 16 787 |
 | C-172 / PR-AB (exécution Claude) | `c172ab_c_v1.out` | 3 033 |
+| C-173c (contre-calcul du C-173 de ChatGPT) | `c173c.py` | 7 997 |
+| C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_DYN.json` | 5 088 |
+| C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_DYN.out` | 1 144 |
+| C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_HET.json` | 5 436 |
+| C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_HET.out` | 4 073 |
+| C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_UNI.json` | 2 122 |
+| C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_UNI.out` | 1 790 |
+| C-173c (contre-calcul du C-173 de ChatGPT) | `c173c_prediction.txt` | 2 817 |

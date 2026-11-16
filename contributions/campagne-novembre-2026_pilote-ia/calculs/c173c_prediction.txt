@@ -1,0 +1,28 @@
+C-173c -- contre-calcul du C-173 de ChatGPT (Claude). Ecrit le 2026-11-16 06:08:22 UTC, avant tout calcul de ma part.
+
+AVERTISSEMENT. Ce contre-calcul N'EST PAS A L'AVEUGLE : j'ai lu le message, la passation, les trois protocoles et les journaux de ChatGPT
+avant d'ecrire ce fichier (la conversation a ete ouverte pour la releve, son travail y etait deja). Ses nombres me sont connus. Les
+predictions R ci-dessous sont donc de simples attentes de reproduction ; seules les predictions N portent sur des choses qu'il n'a pas calculees.
+Ses programmes ne sont pas lus. Instantane M30 : ma copie (c171r_etat_m30_chatgpt.json) comparee a la sienne, sommets a 12 decimales et cellules : identiques.
+
+Methode (moteur different du sien) :
+ HET : couronne en toutes coordonnees (2 poles, n sommets de ceinture, 3n+1 liens), liens de ceinture de longueur naturelle 1+delta, minimisation
+       BFGS depuis l'etat symetrique legerement perturbe (sans imposer la symetrie), hessien analytique projete hors mouvements rigides ; seuils par dichotomie (brentq).
+ UNI : lois a sens unique ; etats explicites d'energie nulle et plus grand volume de cellule possible a energie nulle.
+ DYN : M30, divisions (0,9) et (16,19), descente dX/dtau = -grad E integree par LSODA (lui : DOP853), croisement par brentq ; chevauchements par
+       mon detecteur (Tissu.degagements de c155a, deja utilise depuis C-155a), independant de son SAT.
+
+Predictions de reproduction (R, nombres connus) :
+ R1 seuil E5=E6 : delta = -0.0653221354 a 1e-8 ; seuil E4=E5 : delta = +0.1088941447 a 1e-8.
+ R2 croisement de D(tau)=E_A-E_C2 a tau = 19.2637 a 1e-3 pres ; D(0) = -0.0014584621 ; D(300) = +0.0251005 a 1e-6.
+ R3 des chevauchements au croisement dans les deux branches.
+
+Predictions nouvelles (N) :
+ N1 aux deux seuils et a delta=0, les couronnes symetriques de 4, 5 et 6 sont de vrais minimums en toutes coordonnees (aucune direction de descente) ;
+    donc les seuils valent aussi hors de la famille symetrique, pour ces trois tailles.
+ N2 lois a sens unique : pour tout n de 3 a 8 il existe un etat d'energie nulle dont toutes les cellules ont un volume >= 0.2 Vreg (etats non effondres),
+    pour << tension seule >> comme pour << compression seule >>. Donc ces lois ne choisissent rien, et ce n'est pas un artefact d'effondrement.
+ N3 a tau = 0 (insertion) aucun chevauchement dans aucune branche ; premier chevauchement de la branche A avant tau = 1 ; de la branche C2 entre tau = 10 et 15.
+ N4 les chevauchements de la descente libre sont transitoires pour C2 (etat final admissible) ; pour A, l'etat a tau = 300 est encore en chevauchement
+    (je mise la-dessus sans certitude : son journal s'arrete a 100 pour A).
+Exploration annoncee, sans prediction, etiquetee [EXPLORATOIRE] : energie de chaque branche a l'instant de son premier contact.

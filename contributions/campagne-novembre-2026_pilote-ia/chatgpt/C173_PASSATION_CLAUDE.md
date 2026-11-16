@@ -1,0 +1,17 @@
+[CHATGPT-C173 — PASSATION AU CONTRE-AUDITEUR CLAUDE — 16 NOV 2026]
+
+AUTEUR : Rudolphe Mirante. TOE = 0/7. Nouvelle exploration exécutée ; trois sous-laboratoires préenregistrés séparément, méthodes de l'auditeur et non nouvelles lois du Blob. Échecs en premier.
+
+0. FAIL/limites. (i) Le coût élastique ne sélectionne pas cinq sous une loi « tension seulement » ou « compression seulement » : énergie nulle pour toutes les couronnes 3..8 dans la famille symétrique. (ii) Si les liens de ceinture ont une longueur de repos différente, cinq cesse d'être optimal : seuil −6,532% vers six et +10,889% vers quatre. **Ce sous-test viole la longueur commune U du primitif : il représente seulement un étage possible de liants différenciés.** (iii) Sur M30, la relaxation suramortie sans exclusion change le classement énergétique à τ=19,26371455, mais un SAT post hoc trouve trois paires chevauchées pour A et huit pour C2 au croisement. **FAIL comme trajectoire physique ; ne pas présenter l'inversion comme mécanisme admissible.** Le temps τ n'est pas une seconde ni une vitesse causale.
+
+1. ROB-1 (7 lois de liaison, préengagement 259cdeb3...789ad09). Hooke : ΔE45=−0,030249885, ΔE56=+0,025840348. Duffing quartique : −0,031398035, +0,026393350 ; logarithmique −0,028915944, +0,026806590 ; compression douce −0,0062579996,+0,0035705012 ; extension douce −0,0048771906,+0,0068040791. Cinq est un minimum parmi 4,5,6 dans 5/5 lois bidirectionnelles. Les deux lois unilatérales ne sélectionnent rien.
+
+2. HET-2 (préengagement 3470f928...fa71dd9) : E_n=½(h−1)²+n(q−1)²+n/2(b−1−δ)², q=√(r²+h²/4), b=2r sin π/n. Seuil E5=E6 : δ=−0,0653221354369 ; E4=E5 : δ=+0,108894144708. Contrôle indépendant via Powell aux seuils, écarts machine. Les longueurs différentes ne sont PAS la règle U de l'auteur ; tester, si pertinent, seulement comme produit ultérieur de calcification / chimie des liants.
+
+3. DYN-3 (préengagement 977cbb41...52f7e) : instantané M30 SHA 287f2a07...c2a4, divisions A=(0,9), C2=(16,19), dot X=−grad E (mobilité artificielle 1). Au départ E_A−E_C2=−0,0014584621 ; à τ=300 =+0,025100467 ; croisement à τ=19,26371455. MAIS aucun certificat géométrique : 3 et 8 intersections à cet instant. La transition libre à travers les volumes est interdite par la cosmogonie. SAT post hoc, contrôle non indépendant de C169R.
+
+4. Déduction mathématique : aucun anneau de tétraèdres tous parfaitement réguliers ne ferme en E3 avec arêtes unité ; cosθ=1/3 et 2cos(2πm/n) entier algébrique, donc 2/3 impossible. **Résultat connu**, frustration géométrique (Lagarias & Zong, AMS, 2012), non nouveauté TOE.
+
+5. Demande de contre-audit : (a) tenter de réfuter les seuils HET-2 avec solveur différent ; (b) contrôler que les lois unilatérales ne sont pas de faux minima effondrés et dire leur statut ; (c) reproduire le croisement DYN-3 puis contrôler les collisions avec un moteur indépendant ; (d) proposer, SANS figer l'exploration, un modèle d'exclusion dynamique (projection / contact) avec contraintes de volume et travail de naissance correctement comptés. **Ne rien déclarer certifié physiquement avant contrôle indépendant ; TOE 0/7.**
+
+C-173 progresse sur la dépendance à la loi du liant et l'accessibilité dynamique, mais ne fournit ni horloge, ni gravité, ni Born, ni sélection de dimension. Conserver « viabilité EST le constat », jamais un filtre artificiel. Le dossier ZIP contient protocoles, scripts et journaux et l'instantané M30.

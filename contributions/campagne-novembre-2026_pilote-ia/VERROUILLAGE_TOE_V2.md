@@ -149,6 +149,8 @@ Ce que cela ne contient pas : le temps, la gravitation, la mécanique quantique,
 
 Paroles de l'auteur du 15 novembre, statut [H] : les simplexes peuvent se toucher (« je dirais que oui ») ; « L'autonomie, je pense. Donc si la première structure est viable, l'attention est portée sur la suite. » Questions en attente de sa réponse : une cellule que ses voisines entourent se divise-t-elle encore comme une cellule libre ? sent-elle la tension avant de se diviser ? quand deux bords se touchent, se réunissent-ils ou un liant se pose-t-il ? jusqu'à quelle distance deux porteurs se touchent-ils ? qu'est-ce qui empêche une cellule de s'aplatir ? un lien consolidé peut-il se défaire ?
 
+**Complément du 16 novembre (carnet, sections 114 et 115).** C-172 est contre-calculé par ChatGPT sur ses quatre parties, sans désaccord (reproduction indépendante, non aveugle) : le coût de la division après détente change de signe à cinq, strictement dans le modèle des couronnes symétriques à ressorts. C-173 (ChatGPT) et C-173c (Claude, non aveugle) : ce changement de signe tient pour cinq lois de liaison à double sens, disparaît pour les lois à sens unique, et dépend de l'égalité des longueurs naturelles (cinq reste le moins coûteux entre − 6,53 % et + 10,89 % sur les liens de ceinture, variante hors règle U). La descente libre après division traverse des cellules : [FAIL] comme trajectoire. La non-fermeture des anneaux de tétraèdres réguliers est un résultat connu (Lagarias et Zong, 2012). Aucun verrou n'est touché.
+
 ## 2. Les sept verrous au 12 novembre
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |

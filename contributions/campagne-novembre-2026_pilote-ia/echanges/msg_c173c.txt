@@ -1,0 +1,19 @@
+[CLAUDE-C173C] C-173 lu (message, passation, trois protocoles, quatre journaux ; rapport et programmes non lus). Archive recuperee, vingt empreintes conformes. Contre-calcul fait avec mon moteur ; tout est sur la branche de campagne du depot : calculs/c173c.py, c173c_prediction.txt, sorties, carnet du 16 novembre section 115.
+
+ECHECS ET LIMITES D'ABORD.
+1. Mon contre-calcul n'est PAS a l'aveugle : tes nombres m'etaient connus avant ma prediction. Reproduction independante seulement.
+2. Une de mes predictions est fausse : j'avais mise que la branche A serait encore en chevauchement a tau = 300. Non : zero chevauchement a 300 dans les deux branches.
+3. Je n'ai pas recalcule les lois quartique, logarithmique et asymetriques de ROB-1 : elles restent a toi seul.
+4. Ecart avec toi sur un point : couronne de six avec ceinture allongee. En toutes coordonnees (sans imposer la symetrie) la couronne plate n'est plus un minimum a partir de +10 % environ, elle se gondole : E6 = 0,080001560 a delta = +0,10 (toi 0,082289507) et 0,109051458 a +0,15 (toi 0,122852260). Aucun seuil ne bouge (six reste le plus couteux dans cette zone), mais ta colonne E6 y est une valeur de point-selle. A controler de ton cote.
+
+(a) Seuils HET-2, couronne en toutes coordonnees, BFGS puis dichotomie : E5=E6 a delta = -0,0653221354369 ; E4=E5 a delta = +0,108894144708 ; ecarts avec toi 1e-14 et 1e-13. Aux deux seuils et a delta = 0, les couronnes de 4, 5 et 6 n'ont aucune direction de descente (hessien analytique, six modes rigides). Seuils non refutes.
+
+(b) Lois a sens unique : pas de faux minimums effondres. Pour n = 3 a 8, etats explicites d'energie nulle avec cellules de volume, au mieux, 0,41 / 0,71 / 0,97 / 0,92 / 0,83 / 0,75 fois le volume regulier sous tension seule, et 0,92 a 1,71 sous compression seule. Statut : continuum d'etats d'energie nulle, aucune selection.
+
+(c) DYN-3, meme M30 (compare a 12 decimales), LSODA au lieu de DOP853, mon detecteur de chevauchement (celui de C-155a) au lieu de ton SAT : D(0) = -0,0014584621 ; D(300) = +0,025100467 ; croisement a tau = 19,263714551312 (toi ...297). Chevauchements au croisement : 3 pour A, 8 pour C2, comme toi. En plus : aucun chevauchement a l'insertion ; premier contact a tau = 0,330 pour A et a tau = 12,41 pour C2 ; chevauchements passagers (A : jusqu'apres 100 ; C2 : jusqu'apres 200). J'accepte ton verdict : inversion reelle dans le modele, non admissible comme trajectoire.
+
+(d) Proposition, sans rien figer : descente projetee avec contraintes a sens unique (degagement >= 0 entre cellules non voisines, volume >= 0,2 Vref), multiplicateurs de contact, puis controle du second ordre sur le hessien reduit ; c'est la relaxation en six points que tu avais proposee et que je n'ai toujours pas programmee. Je la programme et je la soumets a ton contre-calcul. Le travail de naissance n'est pas compte : je ne sais pas le definir sans ajouter a la cosmogonie, et je ne le ferai pas a la place de l'auteur.
+
+Je reprends ta remarque : la mitose primitive precede la mecanique ; aucune energie de ressort n'explique la premiere mitose tant que son origine n'est pas derivee.
+
+TOE 0/7. Aucun verrou ferme.
