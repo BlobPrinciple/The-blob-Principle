@@ -1,0 +1,23 @@
+C-190c -- contre-calcul independant du C-190 de ChatGPT (phase sigma) (Claude). Ecrit le 2026-11-16 21:10:25 UTC, avant toute execution de c190c.py.
+Recherche ouverte visee : RO-08, a titre d'ancrage de la VALEUR d* ; rien ne peut etre ferme (positions publiees, pas de dynamique, pas de naissance, espace pose).
+Paroles de l'auteur relevees (a ChatGPT) : 20 h 57 UTC : << C'est une magnifique demonstration pour et du Blob. Il faudrait aussi creuser la force du Blob qui est de lier par sa logique et sa
+ simplicite l'ensemble du reel. >> ; 21 h 06 UTC : << Vas-y. >> Je n'ai lu ni la reponse de ChatGPT de 20 h 58 ni ce qu'il fait depuis 21 h 06.
+Etat d'aveuglement : ChatGPT a calcule C-190 a 19 h 51 UTC. J'ai lu UNIQUEMENT son protocole scelle (SHA-256 2d26cc2ae2ab4aeea0f125cd1defd0aedbb04d21ae6a179f37f3bdab411bd55c). Ce protocole contient
+ lui-meme l'arithmetique de classe (202 liens, 172 tetraedres, 180 + 22, 516/101) ; je l'ai refaite a la main : somme des coordinations 10 x 12 + 16 x 14 + 4 x 15 = 404, donc 202 liens ;
+ T = E - V = 172 ; liens a six = (16 x 2 + 4 x 3) / 2 = 22 ; moyenne = 6 - 12 / (202/15) = 516/101. Archive en memoire : 28 809 octets, 79fddcbf5082b03e3df63b4ee704565151128bd68a871ade33a5769fd91f0436 ;
+ j'ai vu les noms de fichiers, dont << C190_202_LIENS_SIGMA_POSTHOC.csv >>.
+Source des positions controlee par moi : softqc.wordpress.com/sigma (P 42/m n m, a = 253, c = 131, 30 sites : Z12 8i et 2b, Z14 8i et 8j, Z15 4f ; coordination moyenne annoncee 13,467).
+ Positions equivalentes ecrites a la main (positions de Wyckoff du groupe 136, citees de memoire : si elles sont fausses, S1 echoue et je le dirai).
+
+PREDICTIONS
+ S1 les cinq sites donnent 8, 2, 8, 8, 4 positions, 30 distinctes.
+ S2 [si le graphe des voisins est complet] 202 liens, 172 tetraedres, volume des tetraedres = volume de la maille, les 202 liens tous entoures : 180 par 5, 22 par 6 ;
+    moyenne 516/101 = 5,108911 ; ecart a d* : +0,004612 ; aucune face surchargee ; coordinations 12, 14, 15 selon les sites.
+ S3 les 22 liens a six ne touchent aucun site Z12 : seulement Z14-Z14, Z14-Z15, Z15-Z15.
+ S4 [risquee, la seule vraie incertitude] le seuil du protocole (q fois la plus petite distance) n'a PAS de plateau propre dans cette structure : la plus petite distance est le lien de chaine
+    le long de c (c/2 = 0,259), et les plus longs liens de Frank-Kasper la depassent de plus de 30 %. Je predis : a q = 1,25 le graphe est incomplet (moins de 202 liens) ;
+    a q = 1,30 il est incomplet aussi (moins de 202 liens, donc des liens non entoures) ; il existe une valeur de q entre 1,30 et 1,70 ou l'on trouve exactement 202 liens, 172 tetraedres, 180 + 22.
+    Si q = 1,30 donne deja 202, cette prediction est fausse et je le dirai.
+ S5 ordre des moyennes : 5,1 (C15) < d* = 5,104299 < 5,108911 (sigma) < 5,111111 (A15) ; sigma est plus pres de d* que A15 (0,0046 contre 0,0068) et a peu pres aussi pres que C15 (0,0043), de l'autre cote.
+AJOUT declare avant calcul : balayage de q de 1,10 a 1,70 par pas de 0,02 (super-reseau de rayon 1) pour situer le plateau.
+Lecture annoncee : trois cristaux reels encadrent d* a mieux que 0,14 % ; c'est de la cristallographie connue, un repondant de la valeur, pas une derivation. TOE 0/7.

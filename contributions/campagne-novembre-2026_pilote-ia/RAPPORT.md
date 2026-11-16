@@ -337,6 +337,7 @@ Demande de l'auteur (16 novembre, vers 17 h 30 UTC) : « Tu récupères tout sur
 | C-188c | icosaèdre à 13 atomes = 20 tétraèdres, un sommet intérieur, 12 liens intérieurs entourés de 5, stable | accord chiffre pour chiffre ; connu de la littérature |
 | **C-189c** | minimums de Lennard-Jones à 13, 19, 38, 55 atomes : les liens entourés le sont tous par 5 et seulement sur les axes d'ordre cinq ; aucun lien à 6 ; aucun lien entouré dans l'amas cubique à 38 atomes. **La moyenne d★ = 5,104 n'est pas réalisée par ces amas** | accord nombre pour nombre ; limite de l'ancrage |
 | **C-189Dc** | cristaux réels faits de tétraèdres seuls (positions publiées, source vérifiée, aucun potentiel) : A15 (Cr₃Si) : 48 liens entourés de 5 et 6 de 6, moyenne 5,1111 ; C15 (Cu₂Mg) : 144 et 16, moyenne 5,1. **d★ = 5,1043 tombe entre les deux, à 0,1 % près.** Identité : moyenne = 6 − 12/z | accord exact sur A15 ; C15 pilote seul ; cristallographie connue |
+| **C-190c** | phase sigma (30 sites par maille, source vérifiée) : 202 liens tous entourés, 180 par 5 et 22 par 6, moyenne 516/101 = 5,1089. Trois cristaux réels encadrent d★ : 5,1 < **5,1043** < 5,1089 < 5,1111 | accord exact ; une clause du pilote fausse |
 
 ### Lecture d'ensemble (celle du pilote ; à ne pas attribuer à l'auteur)
 

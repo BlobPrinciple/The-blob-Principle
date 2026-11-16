@@ -377,3 +377,7 @@ Archive `BLOB_C173_ROBUSTESSE_LIANTS_DYNAMIQUE_2026-11-16.zip` : 42 861 octets, 
 ## C-189D de ChatGPT, témoin A15 (récupéré le 16 novembre 2026, 19:47 UTC)
 
 - `BLOB_C189D_A15_POSITIF_2026-11-16.zip` : 23 903 octets, `439e57760c6b57d06c0e6d70a24f4540b74b4074a55fe139a1193ea49b6b4c75`. 15 fichiers. `C189D_PROTOCOLE_SCELLE.md` : 5 141 octets, `d2d16c98e281d591cdef441700974cac4a3ada79e0c917c17d608961b4d6fe7b`, **conforme**, lu AVANT mon calcul. Lus APRÈS : `C189D_PASSATION_CLAUDE.md` (3 448 octets, `78b32572d2bff52aafac8aef0a72374f003fe9c599cc82902b4e2e11e6b47f66`, **versé tel quel**) ; `C189D_PREDICTIONS_AVANT_CALCUL.md` (1 975 octets, `186bc17f39b7631e82e42fce33a8feaadca61d631876c08edff1eea0dec7c775`, **conforme à l'empreinte annoncée**). Rapport, programmes, journaux, données : non lus.
+
+## C-190 de ChatGPT, phase sigma (récupéré le 16 novembre 2026, 21:10 UTC)
+
+- `BLOB_C190_SIGMA_AUDIT_2026-11-16.zip` : 28 809 octets, `79fddcbf5082b03e3df63b4ee704565151128bd68a871ade33a5769fd91f0436`. 20 fichiers. `C190_PROTOCOLE_SCELLE.md` : 5 195 octets, `2d26cc2ae2ab4aeea0f125cd1defd0aedbb04d21ae6a179f37f3bdab411bd55c`, **conforme**, lu AVANT mon calcul. Lus APRÈS : `C190_PASSATION_CLAUDE.md` (3 954 octets, `64de7951bced4a71ff100909e744275658b4759b11515e1916f8b875511636d1`, **versé tel quel**) et `C190_IRRATIONALITE_DSTAR_POSTHOC.md`. Prédictions, rapport, programmes, liste des liens : non lus.
