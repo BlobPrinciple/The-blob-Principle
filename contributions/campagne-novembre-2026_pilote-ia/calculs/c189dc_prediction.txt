@@ -1,0 +1,22 @@
+C-189Dc -- contre-calcul independant du C-189D de ChatGPT (temoin positif A15), avec un ajout de ma part (phase de Laves C15) (Claude). Ecrit le 2026-11-16 19:48:04 UTC, avant toute execution de c189dc.py.
+Recherche ouverte visee : RO-08 (d'ou vient d*), a titre d'ancrage ; rien ne peut etre ferme : ce sont des positions cristallographiques publiees, sans dynamique, sans mitose, dans un espace pose.
+Etat d'aveuglement : ChatGPT a calcule (18 h 44 et 18 h 52 UTC). J'ai lu UNIQUEMENT son protocole scelle (C189D_PROTOCOLE_SCELLE.md, SHA-256 d2d16c98e281d591cdef441700974cac4a3ada79e0c917c17d608961b4d6fe7b).
+ Archive en memoire : 23 903 octets, 439e57760c6b57d06c0e6d70a24f4540b74b4074a55fe139a1193ea49b6b4c75 ; j'ai vu les NOMS des fichiers, dont << C189D_54_LIENS_MAILLE_A15.csv >> (le nombre 54 est donc connu de moi).
+ Aucune parole nouvelle de l'auteur. Sources des positions controlees par moi avant d'ecrire : atomic-scale-physics.de/lattice/struk/a15.html (Cr3Si, cP8, Pm-3n 223, 2a et 6c) et c15.html (Cu2Mg, cF24, Fd-3m 227, 8a et 16d).
+NON aveugle sur la litterature : je sais que A15 et C15 sont des phases de Frank-Kasper (empilements de tetraedres seuls, liens entoures de 5 ou 6), et que la coordination moyenne ideale de Coxeter
+ correspond a d* ; je deduis les nombres ci-dessous par un calcul a la main (coordinations 12, 14, 16), pas par la machine.
+
+PREDICTIONS -- A15 (protocole de ChatGPT ; seuil principal 1,30 fois la plus petite distance)
+ A1 coordination moyenne 13,5 (2 atomes a 12 voisins, 6 a 14) ; 54 liens par maille ; 46 tetraedres par maille ; leur volume total = 1 (pavage de l'espace par tetraedres seuls) a 1e-9.
+ A2 les 54 liens sont TOUS entoures : 48 par 5 tetraedres, 6 par 6 ; les 6 liens a six sont les liens des chaines Cr-Cr, de longueur 1/2 ; part des six = 1/9.
+ A3 moyenne de n_e = 46/9 = 5,111111 ; ecart a d* = 5,104299 : +0,006812 (0,13 %).
+ A4 aucune face a plus de deux tetraedres ; memes nombres aux seuils 1,25 et 1,35 et sur le super-reseau 3x3x3.
+TEMOIN NEGATIF cubique a faces centrees : coordination 12 ; 24 liens et 8 tetraedres par maille ; volume des tetraedres = 1/3 (le reste est en octaedres) ; AUCUN lien entoure.
+AJOUT DE CLAUDE -- C15 (phase de Laves cubique, 24 atomes par maille)
+ L1 coordination moyenne 13,3333 (8 atomes a 16 voisins, 16 a 12) ; 160 liens par maille ; 136 tetraedres ; volume total = 1.
+ L2 les 160 liens tous entoures : 144 par 5, 16 par 6 ; les liens a six sont les liens Mg-Mg (longueur racine(3)/4 = 0,433013) ; part des six = 1/10.
+ L3 moyenne de n_e = 5,1 exactement ; ecart a d* : -0,004299.
+ L4 [la prediction qui compte] d* = 5,104299 tombe ENTRE les deux phases reelles : 5,1 (C15) < d* < 5,1111 (A15).
+Lecture annoncee : si A2, A3, L3, L4 tiennent, des cristaux reels et tabules realisent des tissus de tetraedres ou chaque lien est entoure de 5 ou 6 cellules, avec une moyenne a 0,1 % de d*.
+ C'est de la cristallographie connue (Frank et Kasper, 1958-1959 ; je ne rouvre pas ces articles aujourd'hui), pas une decouverte ; elle ancre la VALEUR d* du master dans des structures reelles,
+ ce que les amas de Lennard-Jones ne faisaient pas (C-189c). Elle ne dit rien de la naissance, de l'espace, ni d'aucun verrou. TOE 0/7.

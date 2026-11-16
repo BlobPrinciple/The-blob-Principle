@@ -336,6 +336,7 @@ Demande de l'auteur (16 novembre, vers 17 h 30 UTC) : « Tu récupères tout sur
 | C-187c | croissance atome par atome : couronne à 7 atomes dans une croissance sur quatre ; à 13 atomes presque toujours un lien entouré de 5 ; 1 191 liens entourés, tous par 5 | accord statistique ; les seuils prédits par ChatGPT échouent des deux côtés |
 | C-188c | icosaèdre à 13 atomes = 20 tétraèdres, un sommet intérieur, 12 liens intérieurs entourés de 5, stable | accord chiffre pour chiffre ; connu de la littérature |
 | **C-189c** | minimums de Lennard-Jones à 13, 19, 38, 55 atomes : les liens entourés le sont tous par 5 et seulement sur les axes d'ordre cinq ; aucun lien à 6 ; aucun lien entouré dans l'amas cubique à 38 atomes. **La moyenne d★ = 5,104 n'est pas réalisée par ces amas** | accord nombre pour nombre ; limite de l'ancrage |
+| **C-189Dc** | cristaux réels faits de tétraèdres seuls (positions publiées, source vérifiée, aucun potentiel) : A15 (Cr₃Si) : 48 liens entourés de 5 et 6 de 6, moyenne 5,1111 ; C15 (Cu₂Mg) : 144 et 16, moyenne 5,1. **d★ = 5,1043 tombe entre les deux, à 0,1 % près.** Identité : moyenne = 6 − 12/z | accord exact sur A15 ; C15 pilote seul ; cristallographie connue |
 
 ### Lecture d'ensemble (celle du pilote ; à ne pas attribuer à l'auteur)
 
@@ -343,6 +344,7 @@ Demande de l'auteur (16 novembre, vers 17 h 30 UTC) : « Tu récupères tout sur
 2. **La mitose seule ne ferme rien** (C-178c). Toutes les fermetures essayées depuis (accoler, basculer, grille, proximité) ajoutent des arêtes à la main, et aucune ne fait d'intérieur avec des cellules rigides.
 3. **Une interaction réelle et connue le fait** : sous Lennard-Jones, les couronnes de cinq se ferment par petite déformation, n'entourent leurs liens que de 5 cellules, et font un vrai volume à 13 atomes. C'est l'ordre icosaédrique des petits amas, bien connu. Il donne un répondant physique réel au fait « cinq autour d'un lien », rien de plus : les atomes viennent de l'extérieur, l'espace est posé, la courbure est nulle, et la préférence n'est pas universelle (6 atomes, 38 atomes).
    Limite ajoutée à 18 h 45 UTC (C-189c) : ces amas n'entourent leurs liens que de 5 cellules, jamais de 6, et seulement le long de quelques axes ; ils ne donnent donc pas la moyenne d★ du master, qui demande un mélange de liens à 5 et à 6.
+   Ajout de 20 h 50 UTC (C-189Dc) : la *valeur* d★, elle, a un répondant réel ailleurs : dans les phases cristallines de Frank-Kasper, où tout lien est entouré de 5 ou 6 tétraèdres, la moyenne vaut 5,1 (C15) à 5,1111 (A15) ; d★ est entre les deux. Positions posées, sans dynamique ni naissance : un ancrage de la valeur, pas une dérivation.
 4. Le pont entre la couche historique et la couche B (RO-08) a un candidat (C-181c), pas une démonstration.
 
 ### Questions à porter à l'auteur (sans réponse soufflée)
@@ -350,6 +352,7 @@ Demande de l'auteur (16 novembre, vers 17 h 30 UTC) : « Tu récupères tout sur
 - La longueur naturelle commune des liens est-elle sa parole ?
 - D'où viennent, dans sa cosmogonie, les arêtes en plus de celle de la mitose ?
 - Le régime condensé de son moteur canonique est-il voulu ?
+- d★ est-il une valeur que le tissu doit atteindre exactement, ou une moyenne autour de laquelle il se tient ?
 - La couche B s'applique-t-elle au graphe du moteur historique, ou seulement à des triangulations fermées ?
 - Les résultats faits avec le script `canonical` doivent-ils être refaits après correction du compteur ?
 

@@ -920,3 +920,6 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-189c (contre-calcul : amas de Lennard-Jones à 13, 19, 38, 55 atomes ; aucun lien à six ; sept prédictions vraies ; une rétractation) | `c189c_prediction.txt` | 3 161 |
 | X-14 [APRÈS COUP] (double icosaèdre à 19 atomes) | `x14_lj19_double_icosaedre.json` | 1 291 |
 | X-14 [APRÈS COUP] (double icosaèdre à 19 atomes) | `x14_lj19_double_icosaedre.py` | 1 194 |
+| C-189Dc (cristaux réels A15 et C15 : liens entourés de 5 ou 6 tétraèdres ; d★ entre 5,1 et 5,1111 ; prédictions à la main toutes vraies) | `c189dc.json` | 6 887 |
+| C-189Dc (cristaux réels A15 et C15 : liens entourés de 5 ou 6 tétraèdres ; d★ entre 5,1 et 5,1111 ; prédictions à la main toutes vraies) | `c189dc.py` | 4 532 |
+| C-189Dc (cristaux réels A15 et C15 : liens entourés de 5 ou 6 tétraèdres ; d★ entre 5,1 et 5,1111 ; prédictions à la main toutes vraies) | `c189dc_prediction.txt` | 3 226 |

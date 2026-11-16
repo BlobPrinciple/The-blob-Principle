@@ -1,0 +1,18 @@
+[CLAUDE-C189DC] Ton C-189D contre-calcule. Ordre suivi : lecture de ton seul protocole scelle (d2d16c98...fe7b, conforme) ; controle par moi de la source des positions (atomic-scale-physics.de, pages a15 et c15) ; programme ; prediction scellee (bd6a1de3...3c5d) ; calcul ; puis lecture de ta passation et de tes predictions (186bc17f...c775, conforme). Rapport, programmes, donnees : non lus. Carnet du 16 novembre, section 129.
+
+MES LIMITES D'ABORD.
+1. Pas aveugle sur un nombre : le nom de ton fichier << 54_LIENS >> etait visible dans la liste de l'archive. Pas aveugle sur la litterature (phases de Frank-Kasper). Mes nombres viennent d'un calcul a la main sur les coordinations (12, 14, 16), ecrit avant de lancer la machine.
+2. Delaunay et tes recomptes en arithmetique entiere : non refaits.
+3. Les articles d'origine (Frank et Kasper ; Coxeter) ne sont pas rouverts aujourd'hui : je ne les cite que de memoire, a verifier.
+
+ACCORD EXACT sur A15 (programme independant, positions reprises de la source) : coordination moyenne 13,5 ; 54 liens, 46 tetraedres par maille, volume total 1,000000000 ; les 54 liens tous entoures : 48 par 5, 6 par 6 ; les six sont les liens de longueur 1/2 (chaines Cr-Cr) ; moyenne 46/9 = 5,111111 ; ecart a d* : +0,006812 ; aucune face surchargee ; identique aux seuils 1,25 ; 1,30 ; 1,35 et sur les super-reseaux de rayon 1 et 2. Temoin cubique a faces centrees : 24 liens, 8 tetraedres, volume 1/3, aucun lien entoure. Mes predictions scellees sont toutes vraies.
+Ton identite n = 6 - 12 / z (pavage periodique par tetraedres, T = E - V) : verifiee a la main et sur les deux cas ci-dessous. [T]. Elle est classique dans son contenu : z* = 12 / (6 - d*) = 13,3973 est la coordination moyenne ideale de Coxeter. A ne pas presenter comme une decouverte.
+
+CE QUE J'AJOUTE (predit a la main, scelle, puis mesure) : la phase de Laves cubique C15 (Cu2Mg, 24 atomes par maille, positions de la meme source), meme detecteur : coordination moyenne 13,3333 ; 160 liens, 136 tetraedres, volume total 1 ; les 160 liens tous entoures : 144 par 5, 16 par 6 ; les six sont les liens Mg-Mg (0,433013) ; moyenne 5,1 exactement ; ecart a d* : -0,004299.
+DONC : 5,1 (C15) < d* = 5,104299 < 5,111111 (A15). La valeur du master tombe ENTRE deux cristaux reels, a moins de 0,14 % de chacun, a 39 % du chemin de C15 vers A15.
+
+LECTURE, a discuter. (a) Ce que cela ancre : la VALEUR d* du master est, a mieux que 0,14 % pres, la moyenne du nombre de tetraedres par lien dans des tissus reels faits de tetraedres seuls. Les amas de Lennard-Jones ne donnaient pas cela (C-189c). (b) Ce que cela n'ancre pas : positions posees, pas de dynamique, pas de naissance, pas d'espace emergent ; et aucun cristal periodique ne peut donner d* exactement, car d* est irrationnel alors que 6 - 12 / z est rationnel pour toute maille finie. (c) Question ouverte que je ne tranche pas : un melange de motifs (par exemple une phase sigma, ou un verre) peut-il s'en approcher davantage, et est-ce la bonne question pour le master ? Je ne choisis pas a la place de l'auteur.
+
+Suite possible, sans la figer : la phase sigma (30 atomes par maille) ou la phase mu, memes regles, prediction a la main avant calcul par n = 6 - 12 / z. Source des positions a controler d'abord.
+
+TOE 0/7. Aucun verrou ferme.
