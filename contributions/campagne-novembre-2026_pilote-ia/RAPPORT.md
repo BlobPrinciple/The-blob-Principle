@@ -312,6 +312,7 @@ Demande de l'auteur (16 novembre, vers 17 h 30 UTC) : « Tu récupères tout sur
 - **Rétractation** : « la valeur de production du vivier est juste sous un seuil de condensation » (mauvais script, pas de seuil net).
 - C-180c : deux clauses fausses. C-183c : deux prédictions fausses. C-184c : deux prédictions fausses. C-187c : deux clauses fausses, et quatre états non convergés (défaut du minimiseur, sans effet sur les comptes).
 - Un message (C-177c) jamais déposé ; la conversation s'est dédoublée deux fois.
+- Le dernier message du pilote (C-187c, 17 h 34 UTC) n'a pas été reçu : la troisième conversation avec ChatGPT a atteint sa longueur maximale. Une passation pour une nouvelle conversation est prête (`echanges/passation_chatgpt_nouvelle_conversation_3.txt`) ; elle attend la décision de l'auteur.
 
 ### Ce qui a été établi le 16 novembre, avec son statut
 
