@@ -312,6 +312,7 @@ Demande de l'auteur (16 novembre, vers 17 h 30 UTC) : « Tu récupères tout sur
 - **Rétractation** : « la valeur de production du vivier est juste sous un seuil de condensation » (mauvais script, pas de seuil net).
 - C-180c : deux clauses fausses. C-183c : deux prédictions fausses. C-184c : deux prédictions fausses. C-187c : deux clauses fausses, et quatre états non convergés (défaut du minimiseur, sans effet sur les comptes).
 - Un message (C-177c) jamais déposé ; la conversation s'est dédoublée deux fois.
+- **Rétractation (18 h 40 UTC)** : « dans un volume, des liens à 6 doivent apparaître », écrit à ChatGPT à 17 h 45 ; faux pour les amas de Lennard-Jones jusqu'à 55 atomes (C-189c) ; deux prédictions de ChatGPT qui reprenaient cette phrase échouent.
 - Le dernier message du pilote (C-187c, 17 h 34 UTC) n'a pas été reçu : la troisième conversation avec ChatGPT a atteint sa longueur maximale. Une passation pour une nouvelle conversation est prête (`echanges/passation_chatgpt_nouvelle_conversation_3.txt`) ; sur la parole de l'auteur (« Vas-y »), elle a été déposée dans une quatrième conversation à 17 h 45 UTC.
 
 ### Ce qui a été établi le 16 novembre, avec son statut
@@ -334,12 +335,14 @@ Demande de l'auteur (16 novembre, vers 17 h 30 UTC) : « Tu récupères tout sur
 | C-186 | dynamique : la couronne se forme et persiste à froid (3 trajectoires sur 4 à 7 atomes) ; jamais sans la partie attractive | **ChatGPT seul, non contre-calculé** |
 | C-187c | croissance atome par atome : couronne à 7 atomes dans une croissance sur quatre ; à 13 atomes presque toujours un lien entouré de 5 ; 1 191 liens entourés, tous par 5 | accord statistique ; les seuils prédits par ChatGPT échouent des deux côtés |
 | C-188c | icosaèdre à 13 atomes = 20 tétraèdres, un sommet intérieur, 12 liens intérieurs entourés de 5, stable | accord chiffre pour chiffre ; connu de la littérature |
+| **C-189c** | minimums de Lennard-Jones à 13, 19, 38, 55 atomes : les liens entourés le sont tous par 5 et seulement sur les axes d'ordre cinq ; aucun lien à 6 ; aucun lien entouré dans l'amas cubique à 38 atomes. **La moyenne d★ = 5,104 n'est pas réalisée par ces amas** | accord nombre pour nombre ; limite de l'ancrage |
 
 ### Lecture d'ensemble (celle du pilote ; à ne pas attribuer à l'auteur)
 
 1. **Dans le master**, d★ est posé comme cible du terme en b. Le laboratoire montre d'où il peut venir : d'une longueur naturelle commune des liens (C-176c). Que cette longueur commune soit la parole de l'auteur reste à lui demander.
 2. **La mitose seule ne ferme rien** (C-178c). Toutes les fermetures essayées depuis (accoler, basculer, grille, proximité) ajoutent des arêtes à la main, et aucune ne fait d'intérieur avec des cellules rigides.
 3. **Une interaction réelle et connue le fait** : sous Lennard-Jones, les couronnes de cinq se ferment par petite déformation, n'entourent leurs liens que de 5 cellules, et font un vrai volume à 13 atomes. C'est l'ordre icosaédrique des petits amas, bien connu. Il donne un répondant physique réel au fait « cinq autour d'un lien », rien de plus : les atomes viennent de l'extérieur, l'espace est posé, la courbure est nulle, et la préférence n'est pas universelle (6 atomes, 38 atomes).
+   Limite ajoutée à 18 h 45 UTC (C-189c) : ces amas n'entourent leurs liens que de 5 cellules, jamais de 6, et seulement le long de quelques axes ; ils ne donnent donc pas la moyenne d★ du master, qui demande un mélange de liens à 5 et à 6.
 4. Le pont entre la couche historique et la couche B (RO-08) a un candidat (C-181c), pas une démonstration.
 
 ### Questions à porter à l'auteur (sans réponse soufflée)

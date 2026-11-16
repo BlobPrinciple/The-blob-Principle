@@ -1,0 +1,84 @@
+{
+ "E": -72.65978245439203,
+ "reference": -72.659782,
+ "ecart": -4.543920226751652e-07,
+ "gradient": 2.850657470077067e-07,
+ "dmin": 0.9222706016294506,
+ "mesures": [
+  {
+   "seuil": 1.3,
+   "liens": 68,
+   "tetraedres": 35,
+   "liens_entoures": 23,
+   "distribution": {
+    "5": 23
+   },
+   "moyenne": 5.0,
+   "part_six": 0.0,
+   "n_e_de_tous_les_liens": {
+    "2": 40,
+    "3": 5,
+    "5": 23
+   },
+   "faces_surchargees": 0,
+   "longueurs_entoures": [
+    0.92227,
+    0.9528,
+    0.9528,
+    0.97697,
+    0.97697,
+    0.97697
+   ]
+  },
+  {
+   "seuil": 1.25,
+   "liens": 68,
+   "tetraedres": 35,
+   "liens_entoures": 23,
+   "distribution": {
+    "5": 23
+   },
+   "moyenne": 5.0,
+   "part_six": 0.0,
+   "n_e_de_tous_les_liens": {
+    "2": 40,
+    "3": 5,
+    "5": 23
+   },
+   "faces_surchargees": 0,
+   "longueurs_entoures": [
+    0.92227,
+    0.9528,
+    0.9528,
+    0.97697,
+    0.97697,
+    0.97697
+   ]
+  },
+  {
+   "seuil": 1.35,
+   "liens": 68,
+   "tetraedres": 35,
+   "liens_entoures": 23,
+   "distribution": {
+    "5": 23
+   },
+   "moyenne": 5.0,
+   "part_six": 0.0,
+   "n_e_de_tous_les_liens": {
+    "2": 40,
+    "3": 5,
+    "5": 23
+   },
+   "faces_surchargees": 0,
+   "longueurs_entoures": [
+    0.92227,
+    0.9528,
+    0.9528,
+    0.97697,
+    0.97697,
+    0.97697
+   ]
+  }
+ ]
+}

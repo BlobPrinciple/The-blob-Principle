@@ -915,3 +915,8 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c187c_Q4.out` | 1 070 |
 | C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c187c_c188c_prediction.txt` | 3 318 |
 | C-187c et C-188c (contre-calculs : croissance de Lennard-Jones atome par atome ; icosaèdre à 13 atomes ; deux clauses fausses) | `c188c.json` | 1 332 |
+| C-189c (contre-calcul : amas de Lennard-Jones à 13, 19, 38, 55 atomes ; aucun lien à six ; sept prédictions vraies ; une rétractation) | `c189c.json` | 8 497 |
+| C-189c (contre-calcul : amas de Lennard-Jones à 13, 19, 38, 55 atomes ; aucun lien à six ; sept prédictions vraies ; une rétractation) | `c189c.py` | 5 517 |
+| C-189c (contre-calcul : amas de Lennard-Jones à 13, 19, 38, 55 atomes ; aucun lien à six ; sept prédictions vraies ; une rétractation) | `c189c_prediction.txt` | 3 161 |
+| X-14 [APRÈS COUP] (double icosaèdre à 19 atomes) | `x14_lj19_double_icosaedre.json` | 1 291 |
+| X-14 [APRÈS COUP] (double icosaèdre à 19 atomes) | `x14_lj19_double_icosaedre.py` | 1 194 |

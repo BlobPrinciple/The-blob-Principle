@@ -1,0 +1,25 @@
+C-189c -- contre-calcul independant du C-189 de ChatGPT (Claude). Ecrit le 2026-11-16 18:41:01 UTC, avant toute execution de c189c.py.
+Recherches ouvertes visees : RO-08 et RO-24, a titre d'ancrage sur une physique connue (Lennard-Jones) ; aucune ne peut etre fermee par ce calcul.
+Etat d'aveuglement : ChatGPT a calcule (17 h 48 et 18 h 01 UTC, quatrieme conversation). J'ai lu UNIQUEMENT son protocole scelle (C189_PROTOCOLE_SCELLE.md, SHA-256
+ acf1a4bcd6b81958a76bd551581d66884dcc9e9be1fb1498e706925673601e0f), qui ne contient aucun resultat. Archive en memoire, non ouverte au-dela : 32 113 octets,
+ 35c5d62d8efe983c3472c4c998e3e5b7354378957508fd5795d5d8f1256c97da. Aucune parole nouvelle de l'auteur dans les deux conversations depuis 17 h 45.
+Son protocole est deterministe (departs construits, un tirage fixe par reprise) : recoupement nombre pour nombre vise.
+NON aveugle sur la litterature : energies de reference (table Cambridge) ; je sais que l'icosaedre de Mackay a 55 atomes est fait de 20 blocs d'empilement cubique a faces centrees separes par des
+ plans de macle, et que l'empilement cubique a faces centrees alterne tetraedres et octaedres.
+
+RETRACTATION PREALABLE. Dans ma passation de 17 h 45, j'ai ecrit a ChatGPT : << dans un volume, des liens a 6 doivent apparaitre (Frank-Kasper) ; c'est la prediction a tester >>.
+ En y reflechissant avant ce calcul, je ne le crois plus pour CES amas, et je predis le contraire ci-dessous. Si le calcul me donne raison maintenant, ma phrase de 17 h 45 etait fausse.
+
+PREDICTIONS (mesure primaire : seuil 1,30)
+ N1 N = 13 : E = -44,326801 a 1e-6 ; 12 liens entoures, tous par 5.
+ N2 N = 55 : E = -279,248470 a 1e-4 ; exactement 24 liens entoures (les 12 rayons centre-premiere couche et les 12 liens qui les prolongent vers la seconde couche, le long des 12 axes d'ordre cinq),
+    tous par 5 ; AUCUN lien a 6 ; aucune face a plus de deux tetraedres. Ailleurs l'empilement est cubique : les liens n'y ont que 2 tetraedres et ne sont pas entoures.
+ N3 N = 38 : E = -173,928427 a 1e-3 ; AUCUN lien entoure (moyenne non definie) ; aucune face surchargee. Le temoin cubique ne contredit donc pas << cinq autour d'un lien entoure >> :
+    il n'a simplement aucun lien entoure.
+ N4 N = 19 : le depart du protocole (six atomes au-dessus d'une arete, pas d'un sommet) ne mene PAS au minimum global : E plus haut que -72,659782 d'au moins 0,1.
+    Entre 12 et 14 liens entoures, tous par 5 ; aucun a 6.
+ N5 moyenne de n_e sur les liens entoures = 5 exactement pour N = 13, 19, 55 : elle ne s'approche pas de d* = 5,104.
+ N6 les 16 reprises perturbees reviennent a la meme energie (1e-6 relatif) dans au moins 15 cas sur 16, avec les memes comptes.
+ N7 au seuil 1,25 : memes comptes qu'a 1,30 pour N = 13, 38, 55. Au seuil 1,35 : inchange pour N = 13 et 38 ; pas de prediction pour 19 et 55.
+Lecture annoncee : si N2, N3, N5 tiennent, ces amas ne montrent aucune ligne a six ; la moyenne d* = 5,104 du master (qui exige un melange de liens a 5 et a 6) n'est pas realisee par les
+ petits amas de Lennard-Jones, qui sont soit a cinq sur quelques axes, soit cubiques. C'est une limite de l'ancrage, a dire. TOE 0/7.
