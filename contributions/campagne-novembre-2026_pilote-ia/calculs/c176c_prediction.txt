@@ -1,0 +1,26 @@
+C-176c -- le terme quadratique de l'action du master, b (n_e - d*)^2, sort-il des ressorts de la regle U ? (Claude). Ecrit le 2026-11-16 08:34:13 UTC, avant tout calcul sur machine.
+
+Origine. Parole de l'auteur du 16 novembre, 8 h 22 UTC : << Nous avons deja tous ces resultats ! Refouille tous les masters ! >>. Le master V346 (pages 1611, 1634, 1650, 1670 du
+texte converti) et l'armature V347.1 (II.6, definition 6.3) posent l'action S = mu N3 - alpha Somme log(1 + n_e) + b Somme (n_e - d*)^2, avec d* = 2 pi / arccos(1/3) =
+5,104299312119540, << fixee par l'arbitrage de l'auteur a sa valeur de Regge exacte >>, et b = 0,05 choix de production gele. C-172 (novembre) a trouve, sans regarder le master,
+que le cout de division d'une couronne change de signe a cinq. Rapprochement jamais fait jusqu'ici.
+
+Ce que je sais deja en ecrivant (dit pour que rien ne passe pour une prediction a l'aveugle) : les energies des couronnes entieres, E3 = 0,081681166378 ; E4 = 0,030574477178 ;
+E5 = 0,000324592453 ; E6 = 0,026164940474 ; E7 = 0,121380820374 ; et un calcul a la main, fait avant ce fichier, qui donne les valeurs P1 et P2 ci-dessous.
+
+Objet. Famille symetrique de C-172/C-173 : E_n(h, r) = 1/2 (h - 1)^2 + n (q - 1)^2 + n/2 (b - 1)^2, q = racine(r^2 + h^2/4), b = 2 r sin(pi / n), minimisee en (h, r),
+prolongee a n REEL (la formule a un sens pour tout n > 2). E(n) = min sur (h, r).
+
+Predictions.
+ P1 [a demontrer] E(n) = 0 exactement en n = d* = 2 pi / arccos(1/3), et nulle part ailleurs : a h = 1, r = racine(3)/2 on a q = 1 et b = racine(3) sin(pi/n), qui vaut 1
+    quand sin(pi/n) = 1/racine(3), soit n = pi / arcsin(1/racine(3)) = 2 pi / arccos(1/3).
+ P2 pres de d*, E(n) = c (n - d*)^2 + ..., avec c = m'^2 A k / (k + A g^2), m' = -racine(3) cos(pi/d*) pi / d*^2, A = d*/2, g = 2/racine(3), k = (3 d*/4) / (1 + d*/8).
+    Valeur attendue : c = 0,03022 a 1e-4 pres. Controle par differences finies de E(n) en d* (pas 1e-3 et 1e-4), ecart relatif < 1e-4.
+ P3 le terme suivant est positif : E(n) = c x^2 + c3 x^3 + ..., x = n - d*, avec c3 entre 0,002 et 0,006 (differences finies). Donc la couronne coute moins cher en dessous
+    de d* qu'au-dessus, a ecart egal.
+ P4 en unites du deficit de Regge delta = theta (d* - n), theta = arccos(1/3) : E = (c / theta^2) delta^2, c / theta^2 = 0,01994 a 1e-4 pres.
+ P5 temoin : avec des liens de ceinture de longueur naturelle 1 + d (famille HET-2), le zero se deplace en n0(d) = pi / arcsin((1 + d)/racine(3)) ; a d = +0,018073920910 le zero est
+    en n = 5 exactement (deja vu en C-173c : energie nulle a 1e-27). Controle : n0(0,018073920910) = 5 a 1e-9.
+
+Ce que cela ne dira pas. Le coefficient c est en unites K l0^2 (ressorts) ; b = 0,05 du master est un poids d'action sans dimension : les deux ne se comparent pas sans une
+echelle que personne n'a derivee. Les termes mu N3 et -alpha log(1 + n_e) ne sont pas touches. Ce n'est pas la fermeture d'un verrou.

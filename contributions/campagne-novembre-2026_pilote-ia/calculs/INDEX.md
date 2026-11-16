@@ -602,3 +602,7 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-10 [EXPLORATOIRE] (témoin cubique de PHYS-3) | `x10_cube_spectral.json` | 367 |
 | X-10 [EXPLORATOIRE] (témoin cubique de PHYS-3) | `x10_cube_spectral.out` | 285 |
 | X-10 [EXPLORATOIRE] (témoin cubique de PHYS-3) | `x10_cube_spectral.py` | 802 |
+| C-176c (le terme b (n − d★)² de l'action du master et les ressorts de la règle U) | `c176c.json` | 2 393 |
+| C-176c (le terme b (n − d★)² de l'action du master et les ressorts de la règle U) | `c176c.out` | 2 080 |
+| C-176c (le terme b (n − d★)² de l'action du master et les ressorts de la règle U) | `c176c.py` | 2 277 |
+| C-176c (le terme b (n − d★)² de l'action du master et les ressorts de la règle U) | `c176c_prediction.txt` | 2 920 |
