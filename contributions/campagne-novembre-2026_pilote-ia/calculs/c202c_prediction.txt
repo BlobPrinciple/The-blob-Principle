@@ -1,0 +1,22 @@
+C-202c -- premiere epreuve d'une regle ECRITE PAR L'AUTEUR dans son master, au critere << spectre de tissu mur >> (Claude). Ecrit le 2026-11-17 16:18:59 UTC, avant toute execution de c202c.py.
+Recherche ouverte nommee : RO-24. Paroles de l'auteur du 17 novembre (vers 15 h UTC) : une vraie cellule, c'est << le volume ! >> ; deux simplexes non parents se lient << quand les circonstances s'y pretent
+[...] proximite, bain, liants, frequences et autres >>.
+SOURCE (master V346 complet, lu ce jour par extraction de texte du PDF) :
+ XV.8 << Un univers qui CROIT sommet par sommet (chaque nouveau-ne attache au voisinage d'un parent) produit un maillage etendu >>.
+ XV.9 << Les simplexes sont identiques ; leur signature est leur position dans un terreau [...]. La viabilite = compatibilite de signatures (proximite dans le terreau + interdiction de cellules de dim >3). >>
+ ailleurs : << signature, ou frequence propre >> ; << (C.5) l'enfant nait dans un voisinage dense, ses aretes sont triangulees des t=0 >> ; << (C.6) le Blob purement combinatoire (sans embedding) s'effondre
+ en clique ; l'embedding est PORTEUR de la localite spatiale >>. L'armature V347.1 ecrit du bain : << ABSENT >> (aucun formalisme ; RO-10). Les scripts cites (mitose, terreau) ne sont pas dans le corpus.
+CE QUI EST DE L'AUTEUR ICI : croissance sommet par sommet pres d'un parent ; liaison par proximite dans le terreau ; interdiction des cellules de dimension superieure a 3 ; cellule = volume.
+CE QUI EST DE MOI, FAUTE DE VALEURS DANS LE TEXTE (HYPOTHESES D'AUDITEUR, a confirmer ou corriger par l'auteur) : terreau de dimension 3 ; parent tire uniformement ; enfant pose a distance 1 du parent,
+ direction au hasard ; liaison a tout sommet a distance au plus 1,30 ; << pas de cellule de dimension > 3 >> lu comme : un lien est refuse s'il cree un groupe de 5 sommets tous lies ; cellule = groupe de 4
+ sommets tous lies, de volume non nul. Bain, liants, frequences : NON modelises (aucune definition calculable trouvee) ; aucune energie importee ; aucune distance minimale (le texte n'en donne pas).
+Bras P : proximite seule. Bras PV : proximite + interdiction. 600 sommets, 8 graines 202000 a 202007. Region << mure >> : tout le tissu (aucune selection).
+
+PREDICTIONS
+ T1 Bras P : des faces portees par plus de 2 cellules dans les 8 graines, et plus de 30 % des faces ; des groupes de 5 presents. Le volume n'est pas certifie : ECHEC a la premiere porte du critere.
+ T2 Bras PV : aucun groupe de 5 (par construction), MAIS des faces portees par plus de 2 cellules subsistent dans les 8 graines (trois cellules peuvent partager une face sans former un groupe de 5) : ECHEC aussi.
+ T3 Part des liens entoures d'un anneau ferme de 5 ou 6 cellules, parmi les liens portant au moins une cellule : moins de 30 % dans les deux bras, 8 graines sur 8.
+ T4 Bras P : le nombre moyen de voisins CROIT avec la taille (a 600 sommets, plus de 1,5 fois sa valeur a 150 sommets, dans au moins 6 graines sur 8) : sans longueur minimale, la matiere s'entasse.
+    Bras PV : nombre moyen de voisins a 600 sommets inferieur a celui du bras P.
+Lecture annoncee si T1 a T4 tiennent : la regle telle qu'elle est ecrite au master (proximite + interdiction des cellules de dimension > 3) ne fabrique pas de volume ; il lui manque ce qui empeche deux
+ simplexes de s'entasser -- une longueur ou une exclusion. Je ne dis pas laquelle : c'est la question a l'auteur. Si T1 ou T2 echouent (le volume est certifie), je le dirai en premier. TOE 0/7.
