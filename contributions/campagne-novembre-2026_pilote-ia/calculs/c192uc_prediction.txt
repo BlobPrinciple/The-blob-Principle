@@ -1,0 +1,23 @@
+C-192Uc -- contre-calcul independant du C-192-U de ChatGPT (Claude). Ecrit le 2026-11-17 11:14:51 UTC, avant toute execution de c192uc.py.
+Recherches ouvertes nommees : RO-24, RO-25, RO-08. La regle de naissance (porteur place a 1,04 du parent, parent tire au hasard, relaxation sous Lennard-Jones) est une HYPOTHESE D'AUDITEUR de ChatGPT ;
+son protocole le dit et ecrit lui-meme que la condition << bilans conserves sans apport exterieur >> n'est pas tenue par construction : aucune recherche ouverte ne peut etre fermee ici.
+Paroles de l'auteur relevees AVANT ce calcul (a ChatGPT, 17 novembre, heures UTC) : 4 h 40 << Vas-y >> ; 4 h 58 << Vas-y, [decide] toutes ces parties et valide le Blob car sur le principe il est deja valide !
+ Il suffit de quelques preuves et on a une TOE complete ! >> ; 5 h 25 (plus de point de depart une fois la structure en place ; action diffuse et equilibree ; des points d'accroche plus denses sans etre LA source ;
+ cycles ou poches de l'univers ; nous sommes dans l'une d'elles, notre analyse reste locale) ; 5 h 32 (cycles de vie des poches ; mitose continue et eternelle donc exponentielle ; creation de la matiere puis retour
+ au simplexe, a des stades differents partout) ; 5 h 41 (filaments du debut, puis ramification et densification ; poche-univers nee avec le premier simplexe, en agrandissement exponentiel) ; 5 h 47 et 6 h 55 << Vas-y >>.
+ Texte exact au carnet du 17 novembre.
+Etat d'aveuglement : ChatGPT a calcule C-192U (16 novembre 22 h 16 UTC) puis C-193B, C-194, C-195, C-196, C-197, C-198 (17 novembre). Je n'ai lu QUE le protocole scelle de C-192U
+ (SHA-256 c3b4f3fecdf10b8e6f19f600866e03ce9b202bd89a3cf81afb6b849be03d2117) et les noms et tailles des fichiers des sept archives. Aucun de ses messages, passations, rapports ou resultats n'est lu.
+NON aveugle : mon C-187c (croissance voisine, autre tirage) et les minimums tabules.
+Son protocole fixe l'ordre des tirages : je vise un recoupement graine par graine, sous reserve que le minimiseur tombe dans les memes bassins.
+
+PREDICTIONS (16 graines 192000 a 192015)
+ U1 bras LJ, N = 7 : entre 2 et 7 trajectoires sur 16 portent un lien entoure de 5 tetraedres.
+ U2 bras LJ, N = 13 : au moins 13 sur 16 portent au moins un lien entoure de 5 ; icosaedre complet : 0 ou 1 sur 16.
+ U3 bras LJ, N = 19 : les 16 portent au moins un lien entoure ; TOUS les liens entoures, sur toutes les trajectoires, le sont par exactement 5 (aucun par 6) : la moyenne vaut 5 exactement et ne
+    s'approche PAS de d* = 5,104. Double icosaedre (E = -72,6598) : 0 sur 16.
+ U4 bras LJ : des contacts non genealogiques apparaissent partout (au moins 20 par trajectoire a N = 13) ; aucune face surchargee, a aucun jalon.
+ U5 temoin WCA (repulsion seule) : au plus 1 trajectoire sur 16 avec un lien entoure de 5, a chacun des trois jalons ; energie finale nulle (a 1e-6) dans au moins 12 trajectoires sur 16 a N = 19.
+ U6 aucun echec de placement ; force residuelle sous 1e-4 partout dans le bras LJ.
+Lecture annoncee : si U1 a U4 tiennent, la << naissance minimale >> ne fait que reproduire C-187c : ce sont les contacts de Lennard-Jones, pas la regle de naissance, qui ferment ; et la cible d* n'est pas atteinte.
+ Les trois conditions que j'avais posees ne sont alors pas remplies (une seule famille de faits, pas de troisieme fait predit et obtenu). TOE 0/7.

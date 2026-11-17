@@ -929,3 +929,8 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-191c (diffusion sur les réseaux de liens A15, sigma, C15 et deux témoins sans cinq ni six ; accord exact ; prédictions vraies) | `c191c.json` | 7 962 |
 | C-191c (diffusion sur les réseaux de liens A15, sigma, C15 et deux témoins sans cinq ni six ; accord exact ; prédictions vraies) | `c191c.py` | 4 177 |
 | C-191c (diffusion sur les réseaux de liens A15, sigma, C15 et deux témoins sans cinq ni six ; accord exact ; prédictions vraies) | `c191c_prediction.txt` | 2 853 |
+| C-192Uc (contre-calcul du C-192-U de ChatGPT : naissance minimale puis Lennard-Jones ; accord sur les comptes, écarts de bassin ; une clause fausse, une partielle) | `c192uc.json` | 137 288 |
+| C-192Uc (contre-calcul du C-192-U de ChatGPT : naissance minimale puis Lennard-Jones ; accord sur les comptes, écarts de bassin ; une clause fausse, une partielle) | `c192uc.py` | 4 421 |
+| C-192Uc (contre-calcul du C-192-U de ChatGPT : naissance minimale puis Lennard-Jones ; accord sur les comptes, écarts de bassin ; une clause fausse, une partielle) | `c192uc_prediction.txt` | 3 344 |
+| X-15 (contrôle après coup : le minimum local à 13 porteurs de ChatGPT, un lien entouré de 6 et deux de 4, confirmé) | `x15_six_dans_un_minimum_local.json` | 673 |
+| X-15 (contrôle après coup : le minimum local à 13 porteurs de ChatGPT, un lien entouré de 6 et deux de 4, confirmé) | `x15_six_dans_un_minimum_local.py` | 2 719 |

@@ -1,0 +1,36 @@
+{
+ "E_fourni": -39.08149251399911,
+ "force_fournie": 3.96655161468132e-06,
+ "E_apres_BFGS": -39.08149251399914,
+ "deplacement_max": 7.907977106480502e-09,
+ "force_apres": 1.2526859858186368e-06,
+ "modes_nuls": 6,
+ "vp_negatives": 0,
+ "plus_petite_vp_positive": 7.832105791562424,
+ "mesure_fournie": {
+  "tetraedres": 15,
+  "distribution": {
+   "4": 2,
+   "5": 2,
+   "6": 1
+  },
+  "surcharges": 0
+ },
+ "mesure_apres": {
+  "tetraedres": 15,
+  "distribution": {
+   "4": 2,
+   "5": 2,
+   "6": 1
+  },
+  "surcharges": 0
+ },
+ "longueur_lien_0_3": 0.9707475398696173,
+ "mon_etat_meme_graine": {
+  "E": -39.717147417916955,
+  "distribution": {
+   "5": 4
+  },
+  "tetraedres": 14
+ }
+}

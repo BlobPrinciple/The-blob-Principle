@@ -364,6 +364,17 @@ Telles quelles et contrôlées octet pour octet : ses passations C-172, C-173, P
 
 ---
 
+## 8 octies. Ajout du 17 novembre, 11 h 40 UTC : relève de la quatrième conversation, C-192Uc, X-15
+
+Échecs d'abord : lecture de la conversation refusée par le service pendant cinq heures (rien contourné) ; six archives de ChatGPT sur sept encore non lues ; deux clauses de prédiction fausses ou partielles ; une phrase du 16 novembre trop large, corrigée.
+
+| pièce | résultat | statut |
+|---|---|---|
+| C-192Uc | naissance minimale + Lennard-Jones, graines 192000 à 192015 : lien entouré de 5 dans 4/16 à 7 porteurs, 16/16 à 13, 15/15 à 19 (une graine échoue) ; moyenne 5 ; aucun icosaèdre ; rien sous répulsion seule. Accord avec ChatGPT sur les comptes et le verdict ; écarts de bassin sur les répartitions | [M] modèle d'auditeur ; ne ferme rien |
+| X-15 | le minimum local de ChatGPT (13 porteurs, énergie −39,0815) porte un lien entouré de 6 et deux de 4 : confirmé (6 modes nuls, plus petite valeur propre positive 7,832) | [CERT] numérique ; corrige « tous par 5 » en « minimums globaux étudiés » |
+
+Paroles de l'auteur du 17 novembre : au carnet, section 132, telles quelles. Détail : [carnet du 17 novembre](carnets/2026-11-17_C-192Uc_et_releve.md). **TOE 0/7.**
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

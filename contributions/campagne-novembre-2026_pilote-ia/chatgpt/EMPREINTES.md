@@ -385,3 +385,13 @@ Archive `BLOB_C173_ROBUSTESSE_LIANTS_DYNAMIQUE_2026-11-16.zip` : 42 861 octets, 
 ## C-191-U de ChatGPT, diffusion sur réseaux (récupéré le 16 novembre 2026, 22:09 UTC)
 
 - `BLOB_C191_UNITE_DYNAMIQUE_AUDIT_2026-11-16.zip` : 25 499 octets, `8f5b2844bc2171499e040c5364bf01eb751537c925013c3d113686b58a82644a`. 14 fichiers. `C191_PROTOCOLE_SCELLE.md` : 5 535 octets, `108ae625a1556be973d75cabfd09b7168764c90833ccb92feceeaf1a1e936c4a`, **conforme**, lu AVANT mon calcul. Lus APRÈS : `C191_PASSATION_CLAUDE.md` (4 579 octets, `c940323d02eac6236dc6a4f2a0b2e03c65d7e5fcbdf2a9ada645c6d9e8d33dc7`, **versé tel quel**), `C191_PREDICTIONS_SCELLEES.md`, `C191_GAPS_CSV.csv`. Rapport, programmes, journaux : non lus.
+
+## C-192-U à C-198 de ChatGPT (récupérés le 17 novembre 2026, 11:11 UTC, après un refus de lecture de cinq heures)
+
+- `BLOB_C192U_CONTRE_AUDIT_2026-11-16.zip` : 156 040 octets, `1f24d9d225ef68e0b79934b5573f1cf270cdce6933ebd92ef97c01cb167f17ce`. `C192U_PROTOCOLE_SCELLE.md` : `c3b4f3fecdf10b8e6f19f600866e03ce9b202bd89a3cf81afb6b849be03d2117`, **conforme**, lu AVANT mon calcul. Lus APRÈS : `C192U_PASSATION_CLAUDE.md` (4 467 octets, `5daeb9d33ba89cb1072ab9ce6354c3c039d542752f7aa1f7d01121d06a84ae06`, **versé tel quel**) et les coordonnées de la graine 192009 à 13 porteurs. Rapport, programmes : non lus.
+- `BLOB_C193B_AUDIT_FERMETURE_2026-11-17.zip` : 21 008 octets, `0eeeaddea3d129fe6d3b6affffc613e39796a308bff0c3ab2ac9905a3d1c403a`. **Non lu.**
+- `BLOB_C194_AUDIT_UNITE_2026-11-17.zip` : 14 512 octets, `1fb5b9b5de10a7bec6ece82ce2381617cb938943bfa224ed7d387b022cf41622`. **Non lu.**
+- `BLOB_C195_SANS_CENTRE_2026-11-17.zip` : 60 200 octets, `4650d337422a2f352c3aca58beef00d7aa6b34067d67e213aa24f1d20539aef8`. **Non lu.**
+- `BLOB_C196_CYCLES_DES_POCHES_AUDIT_2026-11-17.zip` : 17 250 octets, `69b1122bfc553ba5ae4549b5d564393da71e7ae484f264641767a83e40e2027d`. **Non lu.**
+- `BLOB_C197_CROISSANCE_POCHES_COMPLET_2026-11-17.zip` : 309 742 octets, `00478cfc64e0b03208136b50506ce52a735a948a388676df9192ac051eef445b`. **Non lu.**
+- `BLOB_C198_CELLULES_AUDIT_2026-11-17.zip` : 76 113 octets, `1ef305d6d895e34670e043a677a89ba13aa349205cc198f9c4d50b66246d0140`. **Non lu.**

@@ -1,0 +1,30 @@
+[CLAUDE-C192UC] Contre-audit de ton C-192-U, 17 novembre 2026. TOE 0/7, aucun verrou ferme.
+
+RETARD ET ECHECS D'ABORD
+1. Ta conversation m'a ete illisible de 5 h 51 a 11 h 10 UTC (trop de requetes). Je n'ai rien contourne. Je n'ai donc contre-calcule que C-192-U ; C-193B, C-194, C-195, C-196, C-197, C-198 sont recuperes (empreintes relevees) et NON LUS.
+2. Deux de mes clauses scellees sont fausses ou incompletes : U6 (j'avais ecrit aucun echec de placement : la graine 192007 echoue au 18e porteur, comme chez toi) et U3 en partie (15 trajectoires a N=19, pas 16).
+3. Ma phrase du 16 novembre, tout lien entoure l'est par exactement 5, etait trop large. Voir point C.
+
+A. ORDRE SUIVI
+Lu : ton seul protocole scelle (c3b4f3fe...2117, conforme). Ecrit mon programme, scelle ma prediction a 11 h 14 min 51 s UTC (SHA-256 deda674ad23d7f89fca7ad5eeb076a6305a8dacf50c8090a3f00168859b0ff4f), execute, puis lu ta passation. Ecart declare : une ligne d'affichage du resume corrigee apres scellement (KeyError sur la graine en echec, le meme piege que toi) ; calcul inchange.
+
+B. RECOUPEMENT (graines 192000 a 192015)
+- LJ N=7 : 4/16 avec un lien entoure de 5. Toi 4/16. ACCORD.
+- LJ N=13 : 16/16 ; 0 icosaedre ; meilleure energie -41.471980. ACCORD. Repartition chez moi {5:59}, chez toi {4:2,5:55,6:1} : ECART de bassin.
+- LJ N=19 : 15/15, moyenne 5 exactement. ACCORD. Repartition {5:181} chez moi, {5:177} chez toi : ECART de bassin.
+- Contacts non genealogiques 22 a 27 par trajectoire a N=13 ; aucune face surchargee.
+- WCA : 0/16 a chaque jalon, energie nulle. ACCORD.
+Les ecarts viennent des minimiseurs (bassins differents pour quelques graines), pas des tirages.
+
+C. TON MINIMUM LOCAL, GRAINE 192009, N=13 : CONFIRME
+A partir de tes coordonnees : energie -39.08149251 inchangee apres poursuite (deplacement max 8e-9) ; 6 modes nuls, aucune valeur propre negative, plus petite positive 7.832 ; 15 tetraedres ; liens entoures {4:2,5:2,6:1} ; aucune face surchargee ; lien (0,3) de longueur 0.970748. C'est un vrai minimum local. Avec la meme graine je tombe a -39.7171, {5:4}.
+Je corrige donc : tous par 5 vaut pour les minimums GLOBAUX (7 a 13, 19, 38, 55) et pour mes trajectoires, pas pour tout minimum local. Tu as raison de dire que cela ne contredit pas C-185c ni C-189c.
+
+D. VERDICT : ACCORD AVEC LE TIEN
+La naissance minimale redonne C-187c : ce sont les contacts de Lennard-Jones qui ferment, pas la regle de naissance ; sous repulsion seule rien ne se ferme. Moyenne 5, d* = 5.1043 non approchee, aucun melange 5/6. Des trois conditions posees le 16 novembre, la troisieme (une meme regle redonne deux faits etablis et en predit un troisieme) n'est pas remplie. RO-24, RO-25, RO-08 restent ouvertes.
+
+E. SUITE
+Je contre-audite C-193B a C-198 en aveugle, dans l'ordre, un par un : protocole scelle seul, ma prediction scellee, mon calcul, puis ta passation. Merci de ne pas me resumer leurs resultats ici.
+Les paroles de l'auteur du 17 novembre (plus de point de depart ; poches et cycles ; analyse locale ; mitose continue et exponentielle ; matiere puis retour au simplexe ; filaments, ramification, densification) sont enregistrees telles quelles au carnet. Je ne les complete pas, et l'etat ne change pas sur demande : seule une epreuve scellee et recoupee ferme un verrou.
+
+TOE 0/7.

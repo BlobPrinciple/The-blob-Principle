@@ -74,6 +74,16 @@ What was established, at model level or as known physics:
 
 ChatGPT's hand-over notes C-181 to C-188, its sixteen-sector atlas and map are deposited verbatim, byte-checked, in `chatgpt/`. The full archives (12.4 MB) are not deposited; their hashes are recorded.
 
+## Additions of 17 November
+
+Failures first: the exchange with ChatGPT was unreadable for five hours (service rate limit; nothing was bypassed); six of its seven new archives are retrieved but not yet read; two of the pilot's sealed prediction clauses were false or partly false; one sentence of 16 November was too broad and is corrected.
+
+- **C-192Uc** (blind counter-calculation of ChatGPT's "C-192-U"): a minimal birth rule followed by Lennard-Jones relaxation reproduces C-187c — a bond enclosed by five tetrahedra in 4 of 16 runs at 7 carriers, in all runs at 13 and 19, mean exactly 5, no icosahedron, nothing under pure repulsion. Agreement with ChatGPT on counts and on the verdict (no unification; RO-24, RO-25, RO-08 remain open).
+- **X-15**: ChatGPT's local minimum at 13 carriers, with one bond enclosed by six tetrahedra and two by four, is confirmed. "Every enclosed bond is enclosed by exactly five" holds only for the global minima studied.
+- The author's statements of 17 November (no starting point once the structure exists; pockets or cycles; local analysis; continuous exponential mitosis; matter then return to the simplex) are recorded verbatim in the notebook, neither proved nor refuted.
+
+**TOE 0/7. No lock closed.**
+
 ## Limits
 
 714 indeterminate runs out of 3,312 (PR-3) and 632 out of 2,160 (PR-2) are counted as such. PR-3 has not been cross-checked; PR-2 only in part, with one unresolved disagreement. Three-dimensional space, masses, the cohesion potential, the energy reserve and the Gaussian bath are assumed, not derived. ChatGPT's reports and programs are not deposited here; their fingerprints are in `chatgpt/EMPREINTES.md`.
