@@ -1,0 +1,27 @@
+C-195c -- contre-calcul independant du C-195 de ChatGPT (<< sans centre >>) et un ajout (Claude). Ecrit le 2026-11-17 11:52:19 UTC, avant toute execution de c195c.py.
+Parole de l'auteur visee (17 novembre, 5 h 25 UTC) : << Une fois la structure du Blob en place il n'y a plus de point de depart >> ; poches ; analyse locale. Recherches ouvertes nommees : RO-24, RO-25, RO-08.
+Le systeme de ChatGPT (Cahn-Hilliard sur un reseau cubique periodique 12x12x12) est une EXPERIENCE D'AUDITEUR, << hors moteur canonique >>, son protocole le dit : reseau, dimension 3, energie a deux puits sont poses.
+RESERVE POSEE D'AVANCE : l'absence de centre y est IMPOSEE (toutes les translations sont des symetries du reseau) ; P6 ne peut pas echouer ; ce test ne peut donc ni confirmer ni infirmer la parole de l'auteur.
+Etat d'aveuglement : lu le seul C195_PROTOCOLE_PRECALCUL.md (SHA-256 2bf51c1b56e7679a2c4681876cdc4722e0cdbd1d7d2007a8ec2e4120aa203a99, qui contient ses predictions P1 a P8) et les noms et tailles des 12 fichiers. Rien d'autre.
+
+PREDICTIONS SUR SON SYSTEME (analyse lineaire faite a la main : taux de croissance d'un mode = lambda (1 - kappa lambda), maximal = 1 pour lambda = 2, positif pour lambda < 4)
+ S1 (son P1) VRAI : somme de u conservee a mieux que 1e-9.
+ S2 (son P2) VRAI : F non croissante aux six mesures, huit graines.
+ S3 Au pas 100 (t = 1) : aucune poche, aucune graine (ecart-type au plus 0,11). Au pas 600 (t = 6) : separation faite, au moins 50 % des sites avec |u| > 0,5 dans les huit graines.
+ S4 (son P4) VRAI, largement : au pas 1200, les huit graines ont au moins 60 % des sites avec |u| > 0,5.
+ S5 (son P3) FAUX, c'est ma prediction risquee : a composition symetrique (moyenne nulle) en dimension 3, les deux phases sont chacune d'un seul tenant (structure bicontinue, puis lamelle) ;
+    au pas 1200, AU PLUS 3 graines sur 8 ont deux poches positives ou plus ; la situation typique est 1 poche positive et 1 negative. Au pas 3000 : au plus 2 graines sur 8 avec deux poches positives ou plus.
+    (Incertitude declaree : l'interface est plus fine que la maille, racine de 2 kappa = 0,71 ; un blocage sur reseau peut figer de petites poches.)
+ S6 (son P5) VRAI : temoin convexe sans aucune poche, variance decroissante.
+ S7 (son P6) VRAI par construction : ecart nul ou inferieur a 1e-12.
+ S8 (son P7) VRAI : pi_i = degre_i / 2E, flux net nul en chaque site. (son P8) VRAI : boules de rayon 3 de C_11 et C_101 = chemins de 7 sommets.
+
+MON AJOUT, LE TEST QUE SON SYSTEME NE FAIT PAS : la croissance garde-t-elle la memoire de son origine ?
+ Systeme : la mitose du master reduite a sa definition 3.1 (un sommet + une arete par naissance). HYPOTHESE D'AUDITEUR declaree : le parent est tire uniformement parmi les sommets existants (le master ne me fixe pas ce choix).
+ n = 2000 sommets, 200 graines (195100 a 195299). Pour chaque sommet v, psi(v) = taille de la plus grande composante restante quand on retire v ; on classe les sommets par psi croissant (les plus << centraux >> d'abord).
+ M1 Le premier sommet est retrouve SANS connaitre l'histoire : il est parmi les 10 sommets les plus centraux dans au moins 60 % des arbres, et parmi les 30 dans au moins 85 %.
+    Un sommet tire au hasard serait parmi les 10 dans 0,5 % des cas.
+ M2 Degre du premier sommet : mediane au moins 6 (attendu : somme harmonique, environ 8,2), contre un degre moyen de 2 (1,999).
+ M3 Temoin : le sommet numero 1000 (ne a mi-parcours) est parmi les 10 plus centraux dans moins de 2 % des arbres.
+ Lecture annoncee si M1 a M3 tiennent : avec la seule regle << un sommet + une arete >>, la structure GARDE la trace de son point de depart ; << plus de point de depart >> demande donc autre chose que cette regle --
+ les aretes supplementaires ou un rearrangement, c'est-a-dire encore RO-24. Je ne dis pas ce que cette autre chose doit etre. TOE 0/7.

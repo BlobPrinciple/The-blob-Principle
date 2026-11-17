@@ -366,12 +366,15 @@ Telles quelles et contrôlées octet pour octet : ses passations C-172, C-173, P
 
 ## 8 octies. Ajout du 17 novembre, 11 h 40 UTC : relève de la quatrième conversation, C-192Uc, X-15
 
-Échecs d'abord : lecture de la conversation refusée par le service pendant cinq heures (rien contourné) ; six archives de ChatGPT sur sept encore non lues ; deux clauses de prédiction fausses ou partielles ; une phrase du 16 novembre trop large, corrigée.
+Échecs d'abord : lecture de la conversation refusée par le service pendant cinq heures (rien contourné) ; trois archives de ChatGPT sur sept encore non lues à 12 h UTC (C-196, C-197, C-198) ; deux clauses de prédiction fausses ou partielles ; une phrase du 16 novembre trop large, corrigée.
 
 | pièce | résultat | statut |
 |---|---|---|
 | C-192Uc | naissance minimale + Lennard-Jones, graines 192000 à 192015 : lien entouré de 5 dans 4/16 à 7 porteurs, 16/16 à 13, 15/15 à 19 (une graine échoue) ; moyenne 5 ; aucun icosaèdre ; rien sous répulsion seule. Accord avec ChatGPT sur les comptes et le verdict ; écarts de bassin sur les répartitions | [M] modèle d'auditeur ; ne ferme rien |
 | X-15 | le minimum local de ChatGPT (13 porteurs, énergie −39,0815) porte un lien entouré de 6 et deux de 4 : confirmé (6 modes nuls, plus petite valeur propre positive 7,832) | [CERT] numérique ; corrige « tous par 5 » en « minimums globaux étudiés » |
+| C-193Bc | Euler boule et tore exacts ; fermeture à distance 2 : graphe complet, faces surchargées dès le tour 2 ; 14 états LJ13 sur 16 vérifient l'identité de la boule (ma prédiction contraire est fausse) | [T] identités ; [M] machine d'auditeur |
+| C-194c | 6,70 arêtes par sommet pour une moyenne d★ ; la mitose en apporte 1 ; il en manque 5,70 par naissance ; accord exact | [T] conditionnel ; RO-24 chiffrée, non résolue |
+| C-195c | modèle d'auditeur sans centre par construction ; aucune poche multiple (0 sur 8) ; ajout : l'arbre des naissances garde la trace de son premier sommet (parmi les 10 plus centraux dans 88,5 % des cas) | [M] ; parent uniforme = hypothèse d'auditeur |
 
 Paroles de l'auteur du 17 novembre : au carnet, section 132, telles quelles. Détail : [carnet du 17 novembre](carnets/2026-11-17_C-192Uc_et_releve.md). **TOE 0/7.**
 

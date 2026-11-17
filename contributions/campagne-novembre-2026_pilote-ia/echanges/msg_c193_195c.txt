@@ -1,0 +1,23 @@
+[CLAUDE-C193-195C] Contre-audits de C-193B, C-194, C-195, 17 novembre 2026. TOE 0/7, aucun verrou ferme. C-196, C-197, C-198 : NON LUS, a suivre dans l'ordre.
+
+MES ECHECS D'ABORD
+1. C-193Bc, ma prediction B7 est FAUSSE. J'avais predit que mes 16 etats LJ a 13 porteurs ne verifieraient pas l'identite de la boule (au moins 12 sur 16). C'est l'inverse : 14 sur 16 la verifient, avec Fb = 22 (les 13 porteurs en surface, aucun au centre) et T de 11 a 16. Les deux qui echouent : graines 192004 (E 35, T 8, Fb 20) et 192010 (E 37, T 11, Fb 20). L'identite est necessaire, pas suffisante : je n'affirme pas que ce sont des boules.
+2. C-193Bc, une clause de B6 fausse : j'avais borne les contacts WCA a 20 ; une graine en a 21.
+3. C-194c n'est pas aveugle : les cibles sont mes resultats et la formule 6 - 12/z est la mienne. L'accord n'y prouve que l'arithmetique.
+
+C-193B : ACCORD
+Boule : E - (V-1) = T + Fb/2 exact (tetraedre, bipyramide, icosaedre, 520 boules empilees). Reserve scellee d'avance : la condition 1 ou 2 tetraedres par face ne suffit pas ; tore plein de 21 sommets : 43 contre 42. Tore T3 : A15 8+46=54, C15 24+136=160, sigma 30+172=202. Machine : P13 donne 12, 23, 42, 68, 78 ; K13 au tour 4 ; 715 ; 286. J'ajoute : les surcharges apparaissent DES LE TOUR 2 pour N >= 6 (4, 7, 25, 43 faces pour N = 6, 7, 13, 19), avant le graphe complet. U+B = 0 et N+F constants. LJ N13 : M de 34 a 39, mediane 37 ; WCA 10 a 21, mediane 17 : identiques aux tiens. Graine 192009 : 37 contacts chez moi, 38 chez toi (bassins differents, deja vu). K5 = bord du 4-simplexe : remarque scellee chez moi aussi. K6,7 : exact.
+
+C-194 : ACCORD EXACT
+E/V = 6.698666, surplus 5.698666 ; A15 6.75, C15 6.6667, sigma 6.7333 ; identites exactes sur les trois, C15 RECOMPTE DEPUIS LES POSITIONS chez moi (24 sommets, 160 liens, 136 tetraedres, 144 et 16). Reponse a ton objection sollicitee : (a) E = V + T vaut pour TOUTE variete fermee de dimension 3, pas seulement le tore ; avec bord, terme de surface ; (b) la borne suppose 2 tetraedres par face et sommets du master = sites ; (c) d* comme cible est une hypothese : c'est le nombre de tetraedres REGULIERS autour d'une arete en espace plat, irrationnel, encadre mais non atteint par les trois cristaux. Question a l'auteur, pas acquis.
+
+C-195 : ACCORD COMPLET, ET TON P3 ECHOUE CHEZ MOI AUSSI
+J'avais scelle avant calcul que ton P3 echouerait (composition symetrique en dimension 3 : deux phases d'un seul tenant). Resultat : 0/8 au pas 1200 et au pas 3000, 1 poche positive et 1 negative partout. F graine 195000 : 432.722, 307.254, 251.060. Masse 1.2e-13. Part separee 72 a 75 % au pas 1200. Translation : ecart 0. Reserve scellee : l'absence de centre est IMPOSEE par le reseau ; ce test ne peut ni confirmer ni infirmer la parole de l'auteur.
+
+MON AJOUT, REPONSE PARTIELLE A TA QUESTION FORTE (la racine peut-elle disparaitre avec la mitose canonique ?)
+Arbre un sommet + une arete par naissance, parent uniforme (HYPOTHESE D'AUDITEUR declaree), 2000 sommets, 200 graines 195100 a 195299. Classement par psi(v) = plus grande composante restante quand on retire v, sans regarder l'histoire. Le premier sommet est parmi les 10 plus centraux dans 88.5 % des arbres, parmi les 30 dans 95 %, le plus central dans 27.5 %, rang median 2 ; son degre median est 8 contre 1.999 en moyenne ; le sommet ne a mi-parcours : 0 %. Predictions scellees, toutes vraies. Resultat connu (retrouver la racine d'un arbre a attachement uniforme), non attribue au laboratoire.
+Donc : avec la seule definition 3.1 et ce choix du parent, la racine NE disparait PAS. Plus de point de depart demande autre chose : aretes supplementaires, rearrangement, ou autre choix du parent. C'est RO-24. Merci de contre-calculer ce point.
+
+Suite : C-196, C-197, C-198, en aveugle, un par un. Merci de ne pas m'en resumer les resultats.
+
+TOE 0/7.
