@@ -1,0 +1,25 @@
+C-197c -- contre-calcul independant du C-197 de ChatGPT (<< croissance, fermeture locale et renouvellement sans centre impose >>) (Claude). Ecrit le 2026-11-17 12:51:17 UTC, avant toute execution de c197c.py.
+Paroles de l'auteur visees (17 novembre, 5 h 25 a 5 h 41 UTC) : plus de point de depart ; poches a des stades differents ; mitose continue ; filaments puis ramification et densification.
+Recherches ouvertes nommees : RO-24, RO-25, RO-08. Le generateur (naissance avec probabilite 0,28 ; contacts avec les voisins du parent ; fermeture d'un chemin de longueur deux ; rupture selon l'age)
+est une HYPOTHESE D'AUDITEUR de ChatGPT, son protocole le dit ; aucun espace, aucun volume, aucune energie. Rien ne peut etre ferme ici.
+ETAT D'AVEUGLEMENT, AVEC UNE ENTORSE DECLAREE : en cherchant le protocole, la page m'a rendu d'abord C197H_PROTOCOLE_SCELLE_POSTHOC.md (une extension ecrite par ChatGPT APRES ses resultats primaires).
+ Je l'ai lu. Il m'apprend une chose : dans C-197, deux composantes separees ne se rejoignent jamais. C'est de toute facon une consequence immediate des regles (je la demontre en F5), mais je ne peux plus
+ pretendre l'avoir vue seul. Lu ensuite : C197_PROTOCOLE_SCELLE.md (SHA-256 b96580ff7fb04fdb581fd1e553ded614e3feb407a91dfe94c939bbd23a52ed01) et les noms des 30 fichiers. Rien d'autre.
+LIMITE DECLAREE : le protocole ne fixe pas tout l'ordre des tirages (choix des voisins, tirage des contacts). Je vise un accord STATISTIQUE sur 12 graines ; un accord graine par graine n'est attendu que pour
+ le nombre de sommets N (flux de naissance separe), si nous tirons les naissances de la meme facon.
+
+PREDICTIONS (12 graines 197000 a 197011, t = 28)
+ F1 (son P1) VRAI : bras A = arbre, E = N - 1, aucun triangle, a tout instant.
+ F2 (son P2) N identique dans A, B, C, D pour chaque graine ; moyenne de N(28) sur les 12 graines entre 500 et 1600 (esperance 1,28^28 = 1004 ; dispersion forte attendue) ; aucun arret a 20000.
+ F3 (son P3) VRAI : bras C, triangles a t = 28 dans au moins 11 graines sur 12 ; cliques de 4 dans au moins 9 sur 12.
+ F4 (son P4) VRAI : mediane d'au moins 12 pas sur 14 avec creation ET destruction de triangles.
+ F5 (son P5) VRAI : au moins 7 graines sur 12 avec deux << poches >> ou plus. MAIS, et c'est ma lecture annoncee : ces poches sont des DEBRIS DE RUPTURE. [T] Avec ces regles, toute arete nouvelle joint deux
+    sommets deja dans la meme composante (enfant-parent, enfant-voisin du parent, extremites d'un chemin de longueur deux) : le nombre de composantes ne diminue JAMAIS (12 graines sur 12, a chaque pas).
+    Bras C a t = 28 : mediane du nombre de composantes au moins 10, et au moins 3 % de N. Les poches ne peuvent ni se toucher ni echanger : ce ne sont pas des regions en interaction.
+ F6 (son P6) VRAI : aucune poche dans A ni dans D.
+ F7 (son P7) VRAI : bras E, N constant apres t = 14, aretes creees et detruites ensuite.
+ F8 Bras B (sans rupture) : une seule composante, 12 sur 12 ; le premier sommet est parmi les 3 sommets de plus grand degre dans au moins 9 graines sur 12 : SANS rupture, l'origine reste un centre.
+    Bras C : le premier sommet a le plus grand degre dans au plus 3 graines sur 12 : la rupture selon l'age efface l'avantage de l'origine -- par usure, pas par organisation.
+ F9 Faces portees par 3 cliques de 4 ou plus a t = 28 : presentes dans le bras B pour au moins 8 graines sur 12 ; dans le bras C pour au moins 4 sur 12. Ces graphes ne sont pas des tissus de dimension 3.
+Lecture annoncee : micro-assemblages et renouvellement apparaissent, mais generiques ; la << mosaique >> est une fragmentation irreversible ; l'origine ne cesse d'etre centrale que parce que les vieux liens cassent.
+TOE 0/7.
