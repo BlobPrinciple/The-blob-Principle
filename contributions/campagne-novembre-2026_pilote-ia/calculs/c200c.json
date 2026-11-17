@@ -1,0 +1,374 @@
+[
+ {
+  "graine": 197000,
+  "C": {
+   "N": 270,
+   "E": 458,
+   "composantes": 11,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 10,
+   "rang_degre": 0.012962962962962963,
+   "rang_harmonique": 0.0,
+   "composante_racine": 0.762962962962963,
+   "geante": 0.762962962962963,
+   "temoin_rang_degre": 0.3148148148148148,
+   "temoin_rang_harmonique": 0.725925925925926
+  },
+  "H": {
+   "N": 270,
+   "E": 534,
+   "composantes": 7,
+   "baisses": 2,
+   "ajouts_H": 65,
+   "degre_racine": 17,
+   "rang_degre": 0.005555555555555556,
+   "rang_harmonique": 0.0,
+   "composante_racine": 0.9518518518518518,
+   "geante": 0.9518518518518518,
+   "temoin_rang_degre": 0.25,
+   "temoin_rang_harmonique": 0.37777777777777777
+  }
+ },
+ {
+  "graine": 197001,
+  "C": {
+   "N": 46,
+   "E": 72,
+   "composantes": 4,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 6,
+   "rang_degre": 0.05434782608695652,
+   "rang_harmonique": 0.0,
+   "composante_racine": 0.782608695652174,
+   "geante": 0.782608695652174,
+   "temoin_rang_degre": 0.4891304347826087,
+   "temoin_rang_harmonique": 0.08695652173913043
+  },
+  "H": {
+   "N": 46,
+   "E": 75,
+   "composantes": 4,
+   "baisses": 0,
+   "ajouts_H": 14,
+   "degre_racine": 2,
+   "rang_degre": 0.6847826086956522,
+   "rang_harmonique": 0.7608695652173914,
+   "composante_racine": 0.2391304347826087,
+   "geante": 0.6521739130434783,
+   "temoin_rang_degre": 0.9021739130434783,
+   "temoin_rang_harmonique": 0.8695652173913043
+  }
+ },
+ {
+  "graine": 197002,
+  "C": {
+   "N": 2772,
+   "E": 4638,
+   "composantes": 163,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 7,
+   "rang_degre": 0.07774170274170274,
+   "rang_harmonique": 0.011544011544011544,
+   "composante_racine": 0.38672438672438675,
+   "geante": 0.38672438672438675,
+   "temoin_rang_degre": 0.29383116883116883,
+   "temoin_rang_harmonique": 0.6664862914862915
+  },
+  "H": {
+   "N": 2772,
+   "E": 5539,
+   "composantes": 41,
+   "baisses": 3,
+   "ajouts_H": 884,
+   "degre_racine": 25,
+   "rang_degre": 0.00018037518037518038,
+   "rang_harmonique": 0.0,
+   "composante_racine": 0.8971861471861472,
+   "geante": 0.8971861471861472,
+   "temoin_rang_degre": 0.12067099567099566,
+   "temoin_rang_harmonique": 0.8423520923520924
+  }
+ },
+ {
+  "graine": 197003,
+  "C": {
+   "N": 808,
+   "E": 1295,
+   "composantes": 57,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 11,
+   "rang_degre": 0.006188118811881188,
+   "rang_harmonique": 0.0037128712871287127,
+   "composante_racine": 0.4034653465346535,
+   "geante": 0.4034653465346535,
+   "temoin_rang_degre": 0.4375,
+   "temoin_rang_harmonique": 0.08415841584158416
+  },
+  "H": {
+   "N": 808,
+   "E": 1620,
+   "composantes": 11,
+   "baisses": 1,
+   "ajouts_H": 273,
+   "degre_racine": 17,
+   "rang_degre": 0.006188118811881188,
+   "rang_harmonique": 0.011138613861386138,
+   "composante_racine": 0.9393564356435643,
+   "geante": 0.9393564356435643,
+   "temoin_rang_degre": 0.37004950495049505,
+   "temoin_rang_harmonique": 0.034653465346534656
+  }
+ },
+ {
+  "graine": 197004,
+  "C": {
+   "N": 269,
+   "E": 419,
+   "composantes": 24,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 8,
+   "rang_degre": 0.02973977695167286,
+   "rang_harmonique": 0.03345724907063197,
+   "composante_racine": 0.23048327137546468,
+   "geante": 0.23048327137546468,
+   "temoin_rang_degre": 0.6672862453531598,
+   "temoin_rang_harmonique": 0.3643122676579926
+  },
+  "H": {
+   "N": 269,
+   "E": 509,
+   "composantes": 6,
+   "baisses": 1,
+   "ajouts_H": 77,
+   "degre_racine": 14,
+   "rang_degre": 0.013011152416356878,
+   "rang_harmonique": 0.01486988847583643,
+   "composante_racine": 0.9479553903345725,
+   "geante": 0.9479553903345725,
+   "temoin_rang_degre": 0.7472118959107806,
+   "temoin_rang_harmonique": 0.3643122676579926
+  }
+ },
+ {
+  "graine": 197005,
+  "C": {
+   "N": 1763,
+   "E": 2774,
+   "composantes": 121,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 5,
+   "rang_degre": 0.1659103800340329,
+   "rang_harmonique": 0.6392512762336926,
+   "composante_racine": 0.01758366420873511,
+   "geante": 0.17186613726602382,
+   "temoin_rang_degre": 0.9926262053318208,
+   "temoin_rang_harmonique": 0.9926262053318208
+  },
+  "H": {
+   "N": 1763,
+   "E": 3431,
+   "composantes": 36,
+   "baisses": 2,
+   "ajouts_H": 561,
+   "degre_racine": 14,
+   "rang_degre": 0.008791832104367556,
+   "rang_harmonique": 0.023255813953488372,
+   "composante_racine": 0.9222915484968803,
+   "geante": 0.9222915484968803,
+   "temoin_rang_degre": 0.24588769143505387,
+   "temoin_rang_harmonique": 0.12875779920589903
+  }
+ },
+ {
+  "graine": 197006,
+  "C": {
+   "N": 1794,
+   "E": 2900,
+   "composantes": 122,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 10,
+   "rang_degre": 0.013099219620958752,
+   "rang_harmonique": 0.028985507246376812,
+   "composante_racine": 0.1527313266443701,
+   "geante": 0.26421404682274247,
+   "temoin_rang_degre": 0.6669453734671126,
+   "temoin_rang_harmonique": 0.8754180602006689
+  },
+  "H": {
+   "N": 1794,
+   "E": 3563,
+   "composantes": 28,
+   "baisses": 2,
+   "ajouts_H": 580,
+   "degre_racine": 21,
+   "rang_degre": 0.0002787068004459309,
+   "rang_harmonique": 0.0,
+   "composante_racine": 0.935340022296544,
+   "geante": 0.935340022296544,
+   "temoin_rang_degre": 0.25891861761426976,
+   "temoin_rang_harmonique": 0.2318840579710145
+  }
+ },
+ {
+  "graine": 197007,
+  "C": {
+   "N": 641,
+   "E": 1000,
+   "composantes": 45,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 7,
+   "rang_degre": 0.06006240249609984,
+   "rang_harmonique": 0.0171606864274571,
+   "composante_racine": 0.37285491419656785,
+   "geante": 0.37285491419656785,
+   "temoin_rang_degre": 0.26053042121684866,
+   "temoin_rang_harmonique": 0.46801872074882994
+  },
+  "H": {
+   "N": 641,
+   "E": 1248,
+   "composantes": 15,
+   "baisses": 2,
+   "ajouts_H": 209,
+   "degre_racine": 9,
+   "rang_degre": 0.062402496099843996,
+   "rang_harmonique": 0.014040561622464899,
+   "composante_racine": 0.608424336973479,
+   "geante": 0.608424336973479,
+   "temoin_rang_degre": 0.5249609984399376,
+   "temoin_rang_harmonique": 0.3915756630265211
+  }
+ },
+ {
+  "graine": 197008,
+  "C": {
+   "N": 1575,
+   "E": 2593,
+   "composantes": 84,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 8,
+   "rang_degre": 0.054285714285714284,
+   "rang_harmonique": 0.03111111111111111,
+   "composante_racine": 0.2749206349206349,
+   "geante": 0.2749206349206349,
+   "temoin_rang_degre": 0.2742857142857143,
+   "temoin_rang_harmonique": 0.7536507936507937
+  },
+  "H": {
+   "N": 1575,
+   "E": 3110,
+   "composantes": 21,
+   "baisses": 1,
+   "ajouts_H": 435,
+   "degre_racine": 16,
+   "rang_degre": 0.006349206349206349,
+   "rang_harmonique": 0.0044444444444444444,
+   "composante_racine": 0.9447619047619048,
+   "geante": 0.9447619047619048,
+   "temoin_rang_degre": 0.24317460317460318,
+   "temoin_rang_harmonique": 0.7326984126984127
+  }
+ },
+ {
+  "graine": 197009,
+  "C": {
+   "N": 66,
+   "E": 110,
+   "composantes": 4,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 5,
+   "rang_degre": 0.12878787878787878,
+   "rang_harmonique": 0.11363636363636363,
+   "composante_racine": 0.8181818181818182,
+   "geante": 0.8181818181818182,
+   "temoin_rang_degre": 0.29545454545454547,
+   "temoin_rang_harmonique": 0.2727272727272727
+  },
+  "H": {
+   "N": 66,
+   "E": 125,
+   "composantes": 2,
+   "baisses": 0,
+   "ajouts_H": 19,
+   "degre_racine": 5,
+   "rang_degre": 0.25757575757575757,
+   "rang_harmonique": 0.3939393939393939,
+   "composante_racine": 0.9848484848484849,
+   "geante": 0.9848484848484849,
+   "temoin_rang_degre": 0.7272727272727273,
+   "temoin_rang_harmonique": 0.5378787878787878
+  }
+ },
+ {
+  "graine": 197010,
+  "C": {
+   "N": 606,
+   "E": 1012,
+   "composantes": 33,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 9,
+   "rang_degre": 0.026402640264026403,
+   "rang_harmonique": 0.00825082508250825,
+   "composante_racine": 0.47029702970297027,
+   "geante": 0.47029702970297027,
+   "temoin_rang_degre": 0.12293729372937294,
+   "temoin_rang_harmonique": 0.523102310231023
+  },
+  "H": {
+   "N": 606,
+   "E": 1234,
+   "composantes": 8,
+   "baisses": 4,
+   "ajouts_H": 196,
+   "degre_racine": 15,
+   "rang_degre": 0.009075907590759076,
+   "rang_harmonique": 0.01485148514851485,
+   "composante_racine": 0.976897689768977,
+   "geante": 0.976897689768977,
+   "temoin_rang_degre": 0.5594059405940595,
+   "temoin_rang_harmonique": 0.981023102310231
+  }
+ },
+ {
+  "graine": 197011,
+  "C": {
+   "N": 1671,
+   "E": 2769,
+   "composantes": 110,
+   "baisses": 0,
+   "ajouts_H": 0,
+   "degre_racine": 16,
+   "rang_degre": 0.0002992220227408737,
+   "rang_harmonique": 0.09814482345900659,
+   "composante_racine": 0.0921603830041891,
+   "geante": 0.25014961101137045,
+   "temoin_rang_degre": 0.18043087971274685,
+   "temoin_rang_harmonique": 0.6481149012567325
+  },
+  "H": {
+   "N": 1671,
+   "E": 3436,
+   "composantes": 23,
+   "baisses": 3,
+   "ajouts_H": 522,
+   "degre_racine": 17,
+   "rang_degre": 0.005385996409335727,
+   "rang_harmonique": 0.0011968880909634949,
+   "composante_racine": 0.9545182525433872,
+   "geante": 0.9545182525433872,
+   "temoin_rang_degre": 0.39347695990424897,
+   "temoin_rang_harmonique": 0.27408737283064033
+  }
+ }
+]

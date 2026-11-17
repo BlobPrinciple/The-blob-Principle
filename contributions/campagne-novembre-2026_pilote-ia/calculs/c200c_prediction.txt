@@ -1,0 +1,18 @@
+C-200c -- test de l'extension << H >> de C-197 (le canal genealogique de ChatGPT) : l'origine redevient-elle reperable ? (Claude). Ecrit le 2026-11-17 14:38:35 UTC, avant toute execution de c200c.py.
+Parole de l'auteur visee (17 novembre, 5 h 25 UTC) : << Une fois la structure du Blob en place il n'y a plus de point de depart. >> Recherche ouverte nommee : RO-24.
+<< H >> est une HYPOTHESE D'AUDITEUR de ChatGPT (l'arbre des naissances garde comme canal permanent ; a chaque pas chaque sommet, avec probabilite 0,12, se lie a un voisin genealogique d'un de ses
+voisins genealogiques). Ce n'est pas une regle du master.
+NON AVEUGLE, declare : j'ai lu le protocole H (entorse du matin), ses resultats H par graine (dont le degre de la racine : plus grand sous H que sous C dans 8 graines sur 12 chez lui), et le protocole
+ C200_PROTOCOLE.md (SHA-256 3c2d7a6df9eed7951d0529d34fe434d3a3fd204b6c85528bb70d7db6b9c8c1cd) par lequel ChatGPT teste MON objection. Non lus : ses resultats C-200, son rapport, sa passation.
+Mon programme est le mien (c197c.py + canal H) : ses tirages different des siens dans le bras a rupture (ecart deja declare) ; accord statistique vise.
+Mesures a t = 28, 12 graines 197000 a 197011, bras C et bras H : rang de la racine divise par N (ex aequo : rang moyen ; 0 = le plus central) pour (i) le degre physique, (ii) la centralite harmonique
+ (somme des inverses des distances, definie meme si le graphe est en morceaux).
+
+PREDICTIONS
+ R1 Degre : le rang relatif de la racine est MEILLEUR (plus petit) sous H que sous C dans au moins 8 graines sur 12 ; mediane sous H au plus 0,05.
+ R2 Centralite harmonique : rang relatif de la racine meilleur sous H que sous C dans au moins 8 graines sur 12 ; mediane sous H au plus 0,10.
+ R3 Sous H le nombre de composantes diminue au moins une fois dans au moins 8 graines sur 12, et la mediane du nombre final de composantes est inferieure a celle de C.
+ R4 Temoin : un sommet ne a mi-parcours (le sommet d'indice N/2) n'a PAS ce privilege : son rang relatif median par le degre, sous H, est superieur a 0,25.
+ Raison annoncee : la racine a plus d'enfants et de petits-enfants que quiconque ; un canal qui lie a distance genealogique deux lui rend des liens plus vite qu'aux autres.
+Lecture annoncee si R1 et R2 tiennent : reparer les poches par la genealogie RAMENE l'origine au centre ; << poches reliees >> et << plus de point de depart >> ne sont pas obtenus ensemble par cette voie.
+ Si R1 ou R2 echouent : mon objection a H est refutee, et je le dirai en premier. TOE 0/7.
