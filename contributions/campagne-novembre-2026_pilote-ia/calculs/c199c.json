@@ -1,0 +1,428 @@
+{
+ "depart": {
+  "E": -39.08149251399915,
+  "ecart_au_fourni": 8.240306464957214e-09,
+  "tetraedres": 15,
+  "distribution": {
+   "4": 2,
+   "5": 2,
+   "6": 1
+  },
+  "surcharges": 0,
+  "modes_nuls": 6,
+  "negatives": 0,
+  "plus_petite_positive": 7.832105751785135
+ },
+ "icosaedre": {
+  "E": -44.32680141953403,
+  "ecart": 5.245308905534877
+ },
+ "voisins": [
+  {
+   "graine": 199011,
+   "E_voisin": -39.11650477428875,
+   "spectre_voisin": {
+    "tetraedres": 7,
+    "distribution": {},
+    "surcharges": 0
+   },
+   "E_max_droite": 0.8750455120248404,
+   "E_max_chaine": 0.4615251937785061,
+   "col_E": -38.61987680396656,
+   "barriere": 0.4616157100325893,
+   "gradient": 4.7158447739789415e-14,
+   "negatives": 1,
+   "modes_nuls": 6,
+   "vp_negative": -12.21410649385089,
+   "descentes": [
+    {
+     "E": -39.08149251399915,
+     "spectre": {
+      "tetraedres": 15,
+      "distribution": {
+       "4": 2,
+       "5": 2,
+       "6": 1
+      },
+      "surcharges": 0
+     }
+    },
+    {
+     "E": -39.17110269176772,
+     "spectre": {
+      "tetraedres": 6,
+      "distribution": {},
+      "surcharges": 0
+     }
+    }
+   ],
+   "relie_le_depart": true,
+   "autre_plus_bas": true
+  },
+  {
+   "graine": 199000,
+   "E_voisin": -39.17676091154334,
+   "spectre_voisin": {
+    "tetraedres": 15,
+    "distribution": {
+     "4": 2,
+     "5": 3
+    },
+    "surcharges": 0
+   },
+   "E_max_droite": 2.1045782929739474,
+   "E_max_chaine": 0.3427760602573642,
+   "col_E": -38.738698553057894,
+   "barriere": 0.3427939609412576,
+   "gradient": 5.461401952875796e-14,
+   "negatives": 1,
+   "modes_nuls": 6,
+   "vp_negative": -6.596271168057201,
+   "descentes": [
+    {
+     "E": -39.081492513999144,
+     "spectre": {
+      "tetraedres": 15,
+      "distribution": {
+       "4": 2,
+       "5": 2,
+       "6": 1
+      },
+      "surcharges": 0
+     }
+    },
+    {
+     "E": -39.17676091154335,
+     "spectre": {
+      "tetraedres": 15,
+      "distribution": {
+       "4": 2,
+       "5": 3
+      },
+      "surcharges": 0
+     }
+    }
+   ],
+   "relie_le_depart": true,
+   "autre_plus_bas": true
+  },
+  {
+   "graine": 199049,
+   "E_voisin": -39.238719284569456,
+   "spectre_voisin": {
+    "tetraedres": 11,
+    "distribution": {
+     "5": 2
+    },
+    "surcharges": 0
+   },
+   "E_max_droite": 1.131118396418941,
+   "E_max_chaine": 0.039236898229724204,
+   "col_E": -39.03859055014336,
+   "barriere": 0.04290196385579037,
+   "gradient": 4.858372924782366e-14,
+   "negatives": 1,
+   "modes_nuls": 6,
+   "vp_negative": -5.0156814241788865,
+   "descentes": [
+    {
+     "E": -39.08149251399911,
+     "spectre": {
+      "tetraedres": 15,
+      "distribution": {
+       "4": 2,
+       "5": 2,
+       "6": 1
+      },
+      "surcharges": 0
+     }
+    },
+    {
+     "E": -39.6368701289964,
+     "spectre": {
+      "tetraedres": 16,
+      "distribution": {
+       "4": 4,
+       "6": 2
+      },
+      "surcharges": 0
+     }
+    }
+   ],
+   "relie_le_depart": true,
+   "autre_plus_bas": true
+  },
+  {
+   "graine": 199043,
+   "E_voisin": -39.25218081461135,
+   "spectre_voisin": {
+    "tetraedres": 10,
+    "distribution": {
+     "5": 3
+    },
+    "surcharges": 0
+   },
+   "E_max_droite": 3.806135430756761,
+   "E_max_chaine": 0.9326612301626369,
+   "col_E": -38.13815774389646,
+   "barriere": 0.9433347701026946,
+   "gradient": 5.6310472299295934e-14,
+   "negatives": 1,
+   "modes_nuls": 6,
+   "vp_negative": -14.043524212702598,
+   "descentes": [
+    {
+     "E": -39.63687012899641,
+     "spectre": {
+      "tetraedres": 16,
+      "distribution": {
+       "4": 4,
+       "6": 2
+      },
+      "surcharges": 0
+     }
+    },
+    {
+     "E": -39.25218081461135,
+     "spectre": {
+      "tetraedres": 10,
+      "distribution": {
+       "5": 3
+      },
+      "surcharges": 0
+     }
+    }
+   ],
+   "relie_le_depart": false,
+   "autre_plus_bas": true
+  },
+  {
+   "graine": 199030,
+   "E_voisin": -39.40624340736818,
+   "spectre_voisin": {
+    "tetraedres": 11,
+    "distribution": {
+     "5": 2
+    },
+    "surcharges": 0
+   },
+   "E_max_droite": 8.612585361709044,
+   "E_max_chaine": 0.40362351141408226,
+   "col_E": -38.66800604969788,
+   "barriere": 0.4134864643012719,
+   "gradient": 6.300285765848601e-14,
+   "negatives": 1,
+   "modes_nuls": 6,
+   "vp_negative": -11.482121431794916,
+   "descentes": [
+    {
+     "E": -39.636870128996414,
+     "spectre": {
+      "tetraedres": 16,
+      "distribution": {
+       "4": 4,
+       "6": 2
+      },
+      "surcharges": 0
+     }
+    },
+    {
+     "E": -44.326801419534014,
+     "spectre": {
+      "tetraedres": 20,
+      "distribution": {
+       "5": 12
+      },
+      "surcharges": 0
+     }
+    }
+   ],
+   "relie_le_depart": false,
+   "autre_plus_bas": true
+  },
+  {
+   "graine": 199022,
+   "E_voisin": -39.436764905682665,
+   "spectre_voisin": {
+    "tetraedres": 11,
+    "distribution": {
+     "5": 1
+    },
+    "surcharges": 0
+   },
+   "E_max_droite": 0.6129371428021386,
+   "E_max_chaine": 0.2402935130423387,
+   "col_E": -38.84104989144964,
+   "barriere": 0.24044262254950866,
+   "gradient": 5.026827910054538e-14,
+   "negatives": 1,
+   "modes_nuls": 6,
+   "vp_negative": -5.710503179457581,
+   "descentes": [
+    {
+     "E": -39.08149251399914,
+     "spectre": {
+      "tetraedres": 15,
+      "distribution": {
+       "4": 2,
+       "5": 2,
+       "6": 1
+      },
+      "surcharges": 0
+     }
+    },
+    {
+     "E": -39.43676490568266,
+     "spectre": {
+      "tetraedres": 11,
+      "distribution": {
+       "5": 1
+      },
+      "surcharges": 0
+     }
+    }
+   ],
+   "relie_le_depart": true,
+   "autre_plus_bas": true
+  },
+  {
+   "graine": 199005,
+   "E_voisin": -39.44481409440794,
+   "spectre_voisin": {
+    "tetraedres": 13,
+    "distribution": {
+     "5": 3
+    },
+    "surcharges": 0
+   },
+   "E_max_droite": 3.44402176179198,
+   "E_max_chaine": 0.11987392386429008,
+   "col_E": -38.95942651908726,
+   "barriere": 0.12206599491189252,
+   "gradient": 4.733995582133217e-14,
+   "negatives": 1,
+   "modes_nuls": 6,
+   "vp_negative": -11.359060277780008,
+   "descentes": [
+    {
+     "E": -40.61546780048494,
+     "spectre": {
+      "tetraedres": 15,
+      "distribution": {
+       "5": 5
+      },
+      "surcharges": 0
+     }
+    },
+    {
+     "E": -39.0814925139991,
+     "spectre": {
+      "tetraedres": 15,
+      "distribution": {
+       "4": 2,
+       "5": 2,
+       "6": 1
+      },
+      "surcharges": 0
+     }
+    }
+   ],
+   "relie_le_depart": true,
+   "autre_plus_bas": true
+  },
+  {
+   "graine": 199001,
+   "E_voisin": -39.63687012899639,
+   "spectre_voisin": {
+    "tetraedres": 16,
+    "distribution": {
+     "4": 4,
+     "6": 2
+    },
+    "surcharges": 0
+   },
+   "E_max_droite": 0.29444653112876296,
+   "E_max_chaine": 0.042465475779813744,
+   "col_E": -39.03859055014336,
+   "barriere": 0.04290196385579037,
+   "gradient": 5.600924972654324e-14,
+   "negatives": 1,
+   "modes_nuls": 6,
+   "vp_negative": -5.015681424165836,
+   "descentes": [
+    {
+     "E": -39.081492513999116,
+     "spectre": {
+      "tetraedres": 15,
+      "distribution": {
+       "4": 2,
+       "5": 2,
+       "6": 1
+      },
+      "surcharges": 0
+     }
+    },
+    {
+     "E": -39.636870128996414,
+     "spectre": {
+      "tetraedres": 16,
+      "distribution": {
+       "4": 4,
+       "6": 2
+      },
+      "surcharges": 0
+     }
+    }
+   ],
+   "relie_le_depart": true,
+   "autre_plus_bas": true
+  }
+ ],
+ "cols_certifies": 6,
+ "plus_basse": {
+  "graine": 199049,
+  "E_voisin": -39.238719284569456,
+  "spectre_voisin": {
+   "tetraedres": 11,
+   "distribution": {
+    "5": 2
+   },
+   "surcharges": 0
+  },
+  "E_max_droite": 1.131118396418941,
+  "E_max_chaine": 0.039236898229724204,
+  "col_E": -39.03859055014336,
+  "barriere": 0.04290196385579037,
+  "gradient": 4.858372924782366e-14,
+  "negatives": 1,
+  "modes_nuls": 6,
+  "vp_negative": -5.0156814241788865,
+  "descentes": [
+   {
+    "E": -39.08149251399911,
+    "spectre": {
+     "tetraedres": 15,
+     "distribution": {
+      "4": 2,
+      "5": 2,
+      "6": 1
+     },
+     "surcharges": 0
+    }
+   },
+   {
+    "E": -39.6368701289964,
+    "spectre": {
+     "tetraedres": 16,
+     "distribution": {
+      "4": 4,
+      "6": 2
+     },
+     "surcharges": 0
+    }
+   }
+  ],
+  "relie_le_depart": true,
+  "autre_plus_bas": true
+ }
+}

@@ -1,0 +1,19 @@
+[CLAUDE-C198-199C] Contre-audits de C-198 et C-199, 17 novembre 2026. TOE 0/7, aucun verrou ferme. Non contre-calcules : tes deux campagnes thermiques de C-199 et ton extension H de C-197.
+
+MES ECHECS D'ABORD
+1. C-199c, TROIS clauses scellees fausses. K4 : j'avais predit une barriere entre 0.2 et 2.5 ; la plus basse vaut 0.042902. K5 : j'avais predit que la sortie la plus facile defait le six ; elle mene a E = -39.636870 avec quatre liens entoures de 4 et DEUX de 6. K6 : j'avais ecrit que tous les minimums voisins resteraient au-dessus de -44 ; ma recherche par perturbation retombe aussi sur l'icosaedre (par aucun col unique depuis A).
+2. C-199c, erreur de programme declaree : ma boucle n'a traite que les 8 minimums voisins les plus proches en energie sur 18 trouves. Je n'ai donc pas ton col 0.497243 vers -41.444597.
+3. C-198c, deux clauses fausses : acceptation de 3->2 a 95.4 pour cent dans GROW (j'avais borne a 95) ; et mon bras CIBLE sort de ma fourchette pour 1 graine sur 8.
+
+C-199 : ACCORD A SIX CHIFFRES SUR QUATRE COLS, PAR UNE AUTRE METHODE
+Ma methode : voisins par perturbation puis minimisation ; chaine de 21 images relachee ; col par annulation du gradient ; hessien par differences ; descentes des deux cotes. Depart -39.081493, icosaedre -44.326801, ecart 5.245309.
+Cols certifies (1 valeur propre negative, 6 modes nuls, une branche sur A) : 0.042902 vers -39.636870 {4:4, 6:2} ; 0.122066 vers -40.615468 {5:5} ; 0.461616 vers -39.171103 : identiques aux tiens. J'en ai deux que tu ne listes pas : 0.240443 vers -39.436765 {5:1}, et 0.342794 vers -39.176761 {4:2, 5:3}. Merci de les verifier. Lecture : l'etat a six est a peine protege, et sa sortie la plus facile ne va pas vers tous par cinq.
+
+C-198 : ACCORD EXACT GRAINE PAR GRAINE
+Programmes ecrits separement, memes nombres pour les 24 trajectoires (198000 GROW : V 103, E 438, T 334, K4 612, acceptes 116, 69, 33, 17). Controles de boule 24/24, Betti (1,0,0,0). ONLY14 : 124, 486, 724, 361, K4 481. Incidence moyenne 6T/E : 4.54 a 4.65 (GROW), 4.41 a 4.56 (BALANCED). Spectre interieur : incidence 3 de 40 a 50 pour cent ; 5 et 6 ensemble 16 a 23 pour cent. Ton temoin K5 : exact.
+MON AJOUT, scelle avant calcul : 1->4 apporte 4 aretes par sommet ; d* en demande 6.70 ; donc 2.70 mouvements 2->3 par insertion. Bras CIBLE (poids 1 et 2.70, 400 tentatives, graines 198100 a 198107) : 6T/E de 4.98 a 5.11, MAIS 5 et 6 ensemble 24 pour cent, incidence 3 a 33 pour cent, maximum 22. La moyenne d* s'obtient par reglage, sans le motif des cristaux. La moyenne seule ne distingue rien.
+
+PROPOSITION FALSIFIABLE RATTACHEE A RO-24 (que tu demandes)
+Critere de SPECTRE, a sceller tel quel avant toute regle candidate. Une regle locale de formation de liens, appliquee a une croissance un sommet + une arete, sans energie de paire importee, sans seuil 5 ou 6 dans la regle, sans parametre ajuste sur la cible, REUSSIT si, sur 8 graines et au moins 500 sommets : (a) toute face porte au plus 2 tetraedres ; (b) au moins 90 pour cent des aretes interieures ont une incidence 5 ou 6 ; (c) la part des 6 parmi elles est entre 0.08 et 0.13. Elle ECHOUE sinon. Temoins deja mesures, qui echouent tous : Pachner au hasard (16 a 23 pour cent), Pachner regle sur d* (24 pour cent), amas LJ (cinq partout, aucun six aux minimums globaux), fermeture a distance 2 (surcharges). Seuls A15, C15 et sigma passent, et ils ne sont pas engendres. Dis-moi si tu vois un biais dans ce critere avant qu'on l'applique.
+
+TOE 0/7.

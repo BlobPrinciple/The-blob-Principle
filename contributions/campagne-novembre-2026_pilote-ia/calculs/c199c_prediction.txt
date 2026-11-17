@@ -1,0 +1,19 @@
+C-199c -- contre-calcul independant du C-199 de ChatGPT (transitions hors du minimum local de Lennard-Jones a 13 porteurs qui porte un lien entoure de six) (Claude). Ecrit le 2026-11-17 13:45:20 UTC, avant execution de c199c.py.
+Recherches ouvertes nommees : RO-24, RO-25, RO-08. Tout ici est de la physique CONNUE des amas de Lennard-Jones (paysage d'energie, cols) ; l'espace de dimension 3, les 13 porteurs et le potentiel sont poses.
+Son protocole l'ecrit : rien ne ferme une recherche ouverte ni un verrou. Aucune temperature n'est definie dans le master : une barriere n'y donne pas une duree de vie.
+Etat d'aveuglement : lu le seul C199_PROTOCOLE_AVANT_CALCUL.md (SHA-256 5587084b9debf1729ee91f9f66206bf5680edfb16e138ede7885d78d5ba22deb), le fichier de scellement (empreintes) et les noms des 57 fichiers
+ (ils m'apprennent qu'il a trouve trois cols et fait des sorties thermiques ; aucune valeur lue). NON aveugle : l'etat de depart (X-15 : E = -39,0814925, plus petite valeur propre 7,832).
+Ma methode, differente de la sienne : voisins par perturbation puis minimisation ; chaine d'images relachee entre le depart et chaque voisin plus bas ; col affine par annulation du gradient ;
+ hessien au col ; descentes des deux cotes du col.
+
+PREDICTIONS
+ K1 (son P1, P2) depart E = -39,081493 ; icosaedre E = -44,326801 ; ecart 5,2453.
+ K2 (son P5) VRAI : il existe au moins un minimum voisin PLUS BAS atteint par un chemin continu a indices fixes ; j'en trouve au moins 2 distincts.
+ K3 Au moins un VRAI col est certifie : gradient sous 1e-6, exactement UNE valeur propre negative du hessien, 6 modes nuls, et les deux descentes depuis le col retombent l'une sur le depart, l'autre sur un
+    minimum plus bas.
+ K4 La plus basse barriere certifiee (energie du col moins energie du depart) est entre 0,2 et 2,5 (en unites de la profondeur du puits de paire) : l'etat a six est metastable, protege par une barriere
+    de l'ordre d'un lien, pas davantage.
+ K5 Le minimum atteint par la sortie de plus basse barriere NE porte PLUS de lien entoure de six (le six se defait au profit de cinq ou de quatre). Prediction risquee.
+ K6 Aucune sortie en un seul col ne mene a l'icosaedre : tous les minimums voisins trouves ont E > -44.
+ K7 Le long de la chaine relachee, l'energie maximale est inferieure ou egale a celle de l'interpolation droite (son P4).
+Lecture annoncee : le lien a six de cet amas est un etat metastable ordinaire d'un paysage connu ; ni sa barriere ni sa sortie ne disent quoi que ce soit d'une regle du Blob. TOE 0/7.
