@@ -1,0 +1,119 @@
+{
+ "d_etoile": 5.10429931211954,
+ "alpha": 6.698666285718828,
+ "coordination": 13.397332571437657,
+ "surplus": 5.698666285718828,
+ "part_fournie": 0.14928344798007664,
+ "six_par_sommet": 0.6986662857188284,
+ "fraction_de_six": 0.10429931211954013,
+ "cristaux": {
+  "A15": {
+   "V": 8,
+   "E": 54,
+   "T": 46,
+   "n5": 48,
+   "n6": 6,
+   "autres": {},
+   "E_sur_V": 6.75,
+   "six_par_sommet": 0.75,
+   "euler": true,
+   "n5_egal_6V": true,
+   "n6_egal_E_moins_6V": true,
+   "somme": true,
+   "six_T": 276,
+   "exces_sur_arbre": 47,
+   "moyenne": "46/9",
+   "moyenne_dec": 5.111111111111111,
+   "surchargees": 0
+  },
+  "C15": {
+   "V": 24,
+   "E": 160,
+   "T": 136,
+   "n5": 144,
+   "n6": 16,
+   "autres": {},
+   "E_sur_V": 6.666666666666667,
+   "six_par_sommet": 0.6666666666666666,
+   "euler": true,
+   "n5_egal_6V": true,
+   "n6_egal_E_moins_6V": true,
+   "somme": true,
+   "six_T": 816,
+   "exces_sur_arbre": 137,
+   "moyenne": "51/10",
+   "moyenne_dec": 5.1,
+   "surchargees": 0
+  },
+  "sigma": {
+   "V": 30,
+   "E": 202,
+   "T": 172,
+   "n5": 180,
+   "n6": 22,
+   "autres": {},
+   "E_sur_V": 6.733333333333333,
+   "six_par_sommet": 0.7333333333333333,
+   "euler": true,
+   "n5_egal_6V": true,
+   "n6_egal_E_moins_6V": true,
+   "somme": true,
+   "six_T": 1032,
+   "exces_sur_arbre": 173,
+   "moyenne": "516/101",
+   "moyenne_dec": 5.108910891089109,
+   "surchargees": 0
+  }
+ },
+ "ordre": [
+  [
+   "C15",
+   6.666666666666667
+  ],
+  [
+   "alpha(d*)",
+   6.698666285718828
+  ],
+  [
+   "sigma",
+   6.733333333333333
+  ],
+  [
+   "A15",
+   6.75
+  ]
+ ],
+ "arbres": [
+  {
+   "n": 13,
+   "aretes": 12,
+   "triangles": 0,
+   "tetraedres": 0
+  },
+  {
+   "n": 100,
+   "aretes": 99,
+   "triangles": 0,
+   "tetraedres": 0
+  },
+  {
+   "n": 1000,
+   "aretes": 999,
+   "triangles": 0,
+   "tetraedres": 0
+  }
+ ],
+ "K_6_7": {
+  "aretes": 42,
+  "triangles": 0,
+  "tetraedres": 0
+ },
+ "K_13": {
+  "aretes": 78,
+  "triangles": 286,
+  "tetraedres": 715,
+  "tetra_par_face": [
+   10
+  ]
+ }
+}

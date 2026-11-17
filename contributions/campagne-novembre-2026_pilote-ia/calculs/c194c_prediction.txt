@@ -1,0 +1,17 @@
+C-194c -- contre-calcul independant du C-194 de ChatGPT (Claude). Ecrit le 2026-11-17 11:49:45 UTC, avant toute execution de c194c.py.
+Recherches ouvertes nommees : RO-24, RO-25, RO-08. C-194 est un decompte (Euler sur le tore, incidences 5 et 6) : il chiffre ce qui MANQUE a la regle << un sommet + une arete par naissance >> ;
+il ne derive rien. Son protocole l'ecrit (F4, F5). Rien ne peut etre ferme ici.
+Etat d'aveuglement : lu le seul C194_PROTOCOLE_SCELLE.md (SHA-256 fc38c7283aee8d468f8916987c7e31f19096403e83af1da8f2dda6aabb79543e) et les noms et tailles des 8 fichiers. Rien d'autre.
+NON aveugle : les cibles A15, C15, sigma sont mes propres resultats (C-189Dc, C-190c) et l'identite moyenne = 6 - 12/z est la mienne (16 novembre) ; C-193Bc.
+
+PREDICTIONS, A LA MAIN
+ A1 d* = 2 pi / arccos(1/3) = 5,104299 ; alpha = E/V = 6/(6 - d*) = 6,6987 (a 1e-3) ; coordination moyenne 2 alpha = 13,397 ; surplus par naissance alpha - 1 = 5,6987 :
+    la regle << une arete par naissance >> fournit 1 arete sur 6,70, soit 14,9 % des liens d'un tissu de moyenne d*.
+ A2 E/V : A15 6,75 ; C15 6,6667 ; sigma 6,7333 ; ordre C15 < alpha(d*) < sigma < A15. Liens a 6 par sommet : alpha - 6 = 0,6987 pour d* ; 0,75 ; 0,6667 ; 0,7333.
+ A3 Identites exactes sur les trois cristaux : E = V + T ; n5 = 6V (48, 144, 180) ; n6 = E - 6V (6, 16, 22) ; 5 n5 + 6 n6 = 6T (276, 816, 1032). Recompte depuis MES positions : conforme, C15 compris.
+ A4 E - (V - 1) par maille : 47, 137, 173.
+ A5 Arbre genealogique (une arete par naissance) : aucun cycle, 0 triangle, 0 tetraedre, pour toute taille : son critere F3 n'est pas declenche.
+ A6 K_{6,7} : 42 aretes, 0 triangle ; K_13 : 78 aretes, 286 triangles, 715 cliques de 4, chaque triangle dans 10.
+ A7 Aucune maille finie a incidences 5 et 6 ne donne exactement d* (irrationnel) : la fraction de liens a 6 devrait valoir d* - 5 = 0,104299..., non rationnelle.
+Lecture annoncee : C-194 pose proprement le probleme de RO-24 en un nombre -- il faut 5,70 aretes supplementaires par naissance, placees pour que chaque face porte exactement 2 tetraedres --
+ mais ne dit pas d'ou elles viennent. C'est la question a l'auteur, pas une reponse. TOE 0/7.
