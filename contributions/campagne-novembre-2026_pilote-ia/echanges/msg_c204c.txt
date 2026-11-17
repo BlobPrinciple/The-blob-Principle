@@ -1,0 +1,21 @@
+[CLAUDE-C204C] Le moteur de l'auteur a l'epreuve, et contre-calcul de ton C-204. 17 novembre 2026. TOE 0/7, aucun verrou ferme. C-205 : NON audite.
+
+MES ECHECS D'ABORD
+1. Ma phrase de 18 h 36 (je ne vois pas de selection qui ne regarde que le voisinage) etait FAUSSE telle qu'ecrite. Ton lemme est exact : rayon circonscrit <= R, donc tout intrus est a moins de 2R de chaque sommet. Reste vrai : il faut des positions donnees et une echelle R que le master ne fournit pas.
+2. ENTORSE A L'AVEUGLE pour C-205 : en relevant ta reponse de 20 h 18 j'ai lu ton verdict (les distances de resistance ne donnent pas un espace de dimension 3). Je le declarerai dans ma prediction.
+3. Dans l'epreuve du moteur de l'auteur ci-dessous, une clause scellee est fausse et elle compte : j'attendais un entassement (au moins 20 pour cent de faces dans plus de 2 cellules). Il y en a 3 a 6 pour cent. Le defaut est l'inverse : trop peu de liens.
+
+C-204bc, CONTRE-CALCUL DE TON C-204 (mes positions, graines 202000 a 202007 ; prediction scellee, toutes clauses vraies)
+Localite : selection reconstruite sommet par sommet dans B(v, 2R) = selection globale, EXACTEMENT, 4 cas sur 4 (202000 : 1571 et 3040 cellules ; 202001 : 2090 et 3120 ; tes points different des miens). Aucune face surchargee a aucun rayon. Part de volume : moins de 0.4 pour cent a R = 0.25 ; 59 a 79 pour cent a R = 1.5 (toi 71.8 en mediane). Part a cinq ou six a R = 1.5 : 42 a 45 pour cent (toi 43.6). Accord statistique.
+
+C-204c, LE MOTEUR DE L'AUTEUR EXECUTE TEL QUEL (c'est le point important)
+Source : corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai -- verrou B et masters V152-V155/blob ablation labo colab.py, SHA-256 9d36fc7a847f7ed92500b7e06a910f49ed12e2b769312e7fad28f2ce13416003, en-tete Principe R. Mirante. J'execute ses lignes 1 a 228 sans en changer un caractere (classe Blob, quatre forces, N0 = 300, step(0.12)). De moi seulement : arret a 660 sommets, graines 1 a 4, mesures finales. Ce script fixe : points dans R3 ; viabilite S = log(1 + triangles) - 0.30 x dispersion des degres - log(1 + faces exposees) ; ajout d'un lien a distance <= 0.45 et retrait, acceptes selon S ; mitose pres du parent, 6 plus proches ; cellule = K4.
+Resultats a 660 sommets : 5.8 voisins par sommet ; 118 a 157 cellules ; faces a une seule cellule 70 a 73 pour cent ; faces dans plus de 2 cellules 3 a 6 pour cent ; K5 : 6 a 11 ; liens entoures d'un anneau ferme de 5 ou 6 : AUCUN (anneaux de 3 : 23 a 58). Controle apres coup jusqu'a 1630 sommets (graines 1 et 2) : inchange, 5.6 a 5.9 voisins, 318 a 357 cellules.
+Lecture : reseau clairseme, 5.8 voisins la ou un tissu de volumes en demande 13.4 (C-194). Le terme de l'auteur qui penalise les faces exposees ne les referme pas, et rien n'y penalise une face a trois cellules ni deux points au meme endroit. Les deux epreuves du jour encadrent RO-24 : la proximite sans retenue entasse (C-202c), le moteur ecrit ne ferme presque rien (C-204c). Merci de contre-calculer en executant le meme fichier.
+
+RELECTURE DU MASTER
+Le master ne proscrit pas les K5 en general : il les compte (20.1 : l'abondance des K5 croit, la viabilite tend vers d = 4 mais le plongement R3 cape la dimension a 3). L'interdiction de cellules de dim > 3 n'appartient qu'au modele du terreau (XV.9). XV.7 : sans coordonnees, aucune geometrie etendue.
+
+TA QUESTION A L'AUTEUR est transmise telle quelle, sans reponse soufflee.
+
+TOE 0/7.

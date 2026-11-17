@@ -1,0 +1,102 @@
+[
+ {
+  "N": 660,
+  "E": 1932,
+  "voisins_moyens": 5.8545454545454545,
+  "cellules": 123,
+  "groupes_de_5": 6,
+  "faces_portantes": 375,
+  "faces_exposees": 270,
+  "faces_a_deux": 93,
+  "faces_surchargees": 12,
+  "part_surchargee": 0.032,
+  "part_exposee": 0.72,
+  "max_par_face": 3,
+  "liens_portants": 447,
+  "anneaux_fermes": {
+   "3": 35,
+   "4": 3
+  },
+  "part_5_6": 0.0,
+  "volume_median": 9.798994368480342e-05,
+  "distance_min": 0.012223692101134132,
+  "graine": 1,
+  "tours": 7,
+  "secondes": 4
+ },
+ {
+  "N": 660,
+  "E": 1928,
+  "voisins_moyens": 5.842424242424243,
+  "cellules": 139,
+  "groupes_de_5": 9,
+  "faces_portantes": 413,
+  "faces_exposees": 296,
+  "faces_a_deux": 94,
+  "faces_surchargees": 23,
+  "part_surchargee": 0.05569007263922518,
+  "part_exposee": 0.7167070217917676,
+  "max_par_face": 4,
+  "liens_portants": 489,
+  "anneaux_fermes": {
+   "3": 31,
+   "4": 2
+  },
+  "part_5_6": 0.0,
+  "volume_median": 0.0001954004395957712,
+  "distance_min": 0.012023382784361039,
+  "graine": 2,
+  "tours": 7,
+  "secondes": 4
+ },
+ {
+  "N": 660,
+  "E": 1913,
+  "voisins_moyens": 5.796969696969697,
+  "cellules": 157,
+  "groupes_de_5": 11,
+  "faces_portantes": 464,
+  "faces_exposees": 323,
+  "faces_a_deux": 120,
+  "faces_surchargees": 21,
+  "part_surchargee": 0.04525862068965517,
+  "part_exposee": 0.6961206896551724,
+  "max_par_face": 4,
+  "liens_portants": 546,
+  "anneaux_fermes": {
+   "3": 58,
+   "4": 1
+  },
+  "part_5_6": 0.0,
+  "volume_median": 0.00010743549304015493,
+  "distance_min": 0.013851418933808805,
+  "graine": 3,
+  "tours": 7,
+  "secondes": 4
+ },
+ {
+  "N": 660,
+  "E": 1908,
+  "voisins_moyens": 5.781818181818182,
+  "cellules": 118,
+  "groupes_de_5": 7,
+  "faces_portantes": 356,
+  "faces_exposees": 261,
+  "faces_a_deux": 75,
+  "faces_surchargees": 20,
+  "part_surchargee": 0.056179775280898875,
+  "part_exposee": 0.7331460674157303,
+  "max_par_face": 4,
+  "liens_portants": 421,
+  "anneaux_fermes": {
+   "3": 23,
+   "4": 1
+  },
+  "part_5_6": 0.0,
+  "volume_median": 0.00013718756944842557,
+  "distance_min": 0.019126121733455518,
+  "graine": 4,
+  "tours": 7,
+  "secondes": 4
+ }
+]

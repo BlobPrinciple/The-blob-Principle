@@ -1,0 +1,19 @@
+C-204c -- le moteur de l'auteur, tel qu'il est ecrit dans son corpus, soumis au critere << spectre de tissu mur >> (volume d'abord) (Claude). Ecrit le 2026-11-17 21:11:50 UTC, avant toute execution de c204c.py.
+Recherche ouverte nommee : RO-24. Paroles de l'auteur (17 novembre) : une vraie cellule, c'est << le volume ! >> ; liaison par << proximite, bain, liants, frequences et autres >>.
+SOURCE : corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai -- verrou B et masters V152-V155/blob ablation labo colab.py
+ (SHA-256 9d36fc7a847f7ed92500b7e06a910f49ed12e2b769312e7fad28f2ce13416003 ; en-tete : << Principe R. Mirante >>). Les definitions (lignes 1 a 228, jusqu'a la classe Blob et ses fonctions) sont executees TELLES QUELLES,
+ sans en changer un caractere ; je n'execute pas sa partie finale (N = 5000, heures de calcul). TOUT ce qui suit est donc de ce script, pas de moi :
+ points dans R^3 ; depart : 300 points au hasard dans un cube, lies sous un rayon regle pour 6,6 voisins en moyenne ; viabilite S = log(1 + triangles) - 0,30 x dispersion des degres - log(1 + faces exposees) ;
+ ajout d'un lien entre deux points distants d'au plus 0,45 et retrait d'un lien, acceptes selon S ; mitose : 12 % de naissances par tour, enfant pose pres du parent (ecart 0,10), lie a ses 6 plus proches
+ parmi le parent et les voisins du parent a moins de 0,32 ; cellule = groupe de quatre sommets tous lies ; usure des cellules avec l'age ; les quatre << forces >> actives (reference du script).
+CE QUI EST DE MOI : seulement la taille d'arret (au moins 600 sommets), les graines (1 a 4) et les mesures finales. Si le temps de calcul l'impose : arret a la taille atteinte, declare.
+NON aveugle : C-181c et les jours precedents ont deja mesure un autre script de l'auteur (blob engine.py) et y ont trouve une forte condensation. Ce script-ci, avec son terme de faces exposees, n'a pas ete mesure.
+
+PREDICTIONS (etat final de chaque graine ; << faces portantes >> = faces appartenant a au moins une cellule)
+ M1 Volume NON certifie : des faces portees par plus de 2 cellules dans les 4 graines, et au moins 20 % des faces portantes.
+ M2 Des groupes de cinq sommets tous lies sont presents dans les 4 graines (le master les compte lui-meme : K5/N de 7 a 30).
+ M3 Part des liens entoures d'un anneau ferme de 5 ou 6 cellules, parmi les liens portant au moins une cellule : moins de 10 % dans les 4 graines.
+ M4 Des faces exposees (une seule cellule) subsistent en nombre dans les 4 graines : au moins 10 % des faces portantes, malgre le terme qui les penalise.
+ M5 Nombre moyen de voisins entre 5 et 14.
+Lecture annoncee si M1 a M3 tiennent : le moteur ecrit, a son point de travail, ne produit pas un tissu de volumes -- rien n'y empeche deux simplexes d'occuper le meme endroit, et son terme de bord compte les
+ faces a une cellule, pas celles a trois ou plus. Ce serait un constat sur CE script, pas sur la cosmogonie. Si M1 echoue (volume certifie), je le dirai en premier : ce serait le premier resultat positif pour RO-24. TOE 0/7.

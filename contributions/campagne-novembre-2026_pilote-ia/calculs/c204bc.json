@@ -1,0 +1,578 @@
+[
+ {
+  "graine": 202000,
+  "cellules": 3763,
+  "volume_enveloppe": 162.66438165630223,
+  "somme_volumes": 162.66438165630225,
+  "par_rho": {
+   "0.25": {
+    "retenues": 31,
+    "part_cellules": 0.008238107892638851,
+    "part_volume": 0.0004649672606851017,
+    "volume_min": 0.00036582667688492835,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 0,
+    "part_5_6": null,
+    "part_six_parmi_5_6": null,
+    "moyenne": null
+   },
+   "0.5": {
+    "retenues": 1571,
+    "part_cellules": 0.4174860483656657,
+    "part_volume": 0.14155800882370664,
+    "volume_min": 0.0002207159187177719,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 1044,
+    "part_5_6": 0.43103448275862066,
+    "part_six_parmi_5_6": 0.42,
+    "moyenne": 4.852490421455939
+   },
+   "0.75": {
+    "retenues": 3040,
+    "part_cellules": 0.8078660643103907,
+    "part_volume": 0.5040061658177559,
+    "volume_min": 0.00016521395851174048,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3096,
+    "part_5_6": 0.4528423772609819,
+    "part_six_parmi_5_6": 0.42938659058487877,
+    "moyenne": 5.092700258397933
+   },
+   "1.0": {
+    "retenues": 3298,
+    "part_cellules": 0.8764283816104173,
+    "part_volume": 0.6344099914650883,
+    "volume_min": 0.00016521395851174048,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3483,
+    "part_5_6": 0.45190927361469996,
+    "part_six_parmi_5_6": 0.4332909783989835,
+    "moyenne": 5.111398219925352
+   },
+   "1.5": {
+    "retenues": 3499,
+    "part_cellules": 0.929843210204624,
+    "part_volume": 0.7720163571095331,
+    "volume_min": 0.00016521395851174048,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3816,
+    "part_5_6": 0.45020964360587,
+    "part_six_parmi_5_6": 0.4359720605355064,
+    "moyenne": 5.131813417190775
+   }
+  },
+  "localite": {
+   "0.5": {
+    "globale": 1571,
+    "locale": 1571,
+    "identiques": true,
+    "seulement_globale": 0,
+    "seulement_locale": 0
+   },
+   "0.75": {
+    "globale": 3040,
+    "locale": 3040,
+    "identiques": true,
+    "seulement_globale": 0,
+    "seulement_locale": 0
+   }
+  }
+ },
+ {
+  "graine": 202001,
+  "cellules": 3838,
+  "volume_enveloppe": 169.4270480443275,
+  "somme_volumes": 169.42704804432748,
+  "par_rho": {
+   "0.25": {
+    "retenues": 93,
+    "part_cellules": 0.0242313705054716,
+    "part_volume": 0.0011732936143322146,
+    "volume_min": 2.6351046504868535e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 7,
+    "part_5_6": 0.0,
+    "part_six_parmi_5_6": null,
+    "moyenne": 3.142857142857143
+   },
+   "0.5": {
+    "retenues": 2090,
+    "part_cellules": 0.5445544554455446,
+    "part_volume": 0.14735322963007333,
+    "volume_min": 2.6351046504868535e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 1856,
+    "part_5_6": 0.43049568965517243,
+    "part_six_parmi_5_6": 0.409261576971214,
+    "moyenne": 5.037715517241379
+   },
+   "0.75": {
+    "retenues": 3120,
+    "part_cellules": 0.8129233976029182,
+    "part_volume": 0.3792669329146436,
+    "volume_min": 2.6351046504868535e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3229,
+    "part_5_6": 0.4245896562403221,
+    "part_six_parmi_5_6": 0.4215900802334063,
+    "moyenne": 5.106224837410963
+   },
+   "1.0": {
+    "retenues": 3429,
+    "part_cellules": 0.8934340802501303,
+    "part_volume": 0.5367964107300257,
+    "volume_min": 2.6351046504868535e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3676,
+    "part_5_6": 0.4208378672470076,
+    "part_six_parmi_5_6": 0.42921784098254684,
+    "moyenne": 5.13601741022851
+   },
+   "1.5": {
+    "retenues": 3595,
+    "part_cellules": 0.936685773840542,
+    "part_volume": 0.6770322097281195,
+    "volume_min": 2.6351046504868535e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3954,
+    "part_5_6": 0.4203338391502276,
+    "part_six_parmi_5_6": 0.43020457280385077,
+    "moyenne": 5.1545270612038445
+   }
+  },
+  "localite": {
+   "0.5": {
+    "globale": 2090,
+    "locale": 2090,
+    "identiques": true,
+    "seulement_globale": 0,
+    "seulement_locale": 0
+   },
+   "0.75": {
+    "globale": 3120,
+    "locale": 3120,
+    "identiques": true,
+    "seulement_globale": 0,
+    "seulement_locale": 0
+   }
+  }
+ },
+ {
+  "graine": 202002,
+  "cellules": 3770,
+  "volume_enveloppe": 121.95284053087772,
+  "somme_volumes": 121.9528405308777,
+  "par_rho": {
+   "0.25": {
+    "retenues": 177,
+    "part_cellules": 0.04694960212201592,
+    "part_volume": 0.003123490525033602,
+    "volume_min": 0.000160244170732416,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 30,
+    "part_5_6": 0.26666666666666666,
+    "part_six_parmi_5_6": 0.25,
+    "moyenne": 3.9
+   },
+   "0.5": {
+    "retenues": 2254,
+    "part_cellules": 0.5978779840848807,
+    "part_volume": 0.18724873715835816,
+    "volume_min": 0.00010642780322804796,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 2077,
+    "part_5_6": 0.43861338468945593,
+    "part_six_parmi_5_6": 0.407244785949506,
+    "moyenne": 5.06259027443428
+   },
+   "0.75": {
+    "retenues": 3190,
+    "part_cellules": 0.8461538461538461,
+    "part_volume": 0.4866835719014099,
+    "volume_min": 0.00010642780322804796,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3348,
+    "part_5_6": 0.4453405017921147,
+    "part_six_parmi_5_6": 0.409121395036888,
+    "moyenne": 5.123954599761051
+   },
+   "1.0": {
+    "retenues": 3425,
+    "part_cellules": 0.9084880636604774,
+    "part_volume": 0.6424980960570129,
+    "volume_min": 0.00010642780322804796,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3702,
+    "part_5_6": 0.44489465153970825,
+    "part_six_parmi_5_6": 0.4159077109896782,
+    "moyenne": 5.141274986493787
+   },
+   "1.5": {
+    "retenues": 3575,
+    "part_cellules": 0.9482758620689655,
+    "part_volume": 0.7855289669552364,
+    "volume_min": 0.00010642780322804796,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3950,
+    "part_5_6": 0.4470886075949367,
+    "part_six_parmi_5_6": 0.4161947904869762,
+    "moyenne": 5.149367088607595
+   }
+  }
+ },
+ {
+  "graine": 202003,
+  "cellules": 3780,
+  "volume_enveloppe": 188.8882742394186,
+  "somme_volumes": 188.8882742394186,
+  "par_rho": {
+   "0.25": {
+    "retenues": 38,
+    "part_cellules": 0.010052910052910053,
+    "part_volume": 0.000506609313333504,
+    "volume_min": 0.0007779528301031106,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 1,
+    "part_5_6": 0.0,
+    "part_six_parmi_5_6": null,
+    "moyenne": 4.0
+   },
+   "0.5": {
+    "retenues": 1653,
+    "part_cellules": 0.4373015873015873,
+    "part_volume": 0.11957508584905839,
+    "volume_min": 9.367664414832572e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 1275,
+    "part_5_6": 0.44862745098039214,
+    "part_six_parmi_5_6": 0.40034965034965037,
+    "moyenne": 4.940392156862745
+   },
+   "0.75": {
+    "retenues": 2926,
+    "part_cellules": 0.774074074074074,
+    "part_volume": 0.3767743882396529,
+    "volume_min": 9.367664414832572e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 2933,
+    "part_5_6": 0.44561882032049094,
+    "part_six_parmi_5_6": 0.4299923488905891,
+    "moyenne": 5.081145584725537
+   },
+   "1.0": {
+    "retenues": 3256,
+    "part_cellules": 0.8613756613756614,
+    "part_volume": 0.5345863661877381,
+    "volume_min": 9.367664414832572e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3428,
+    "part_5_6": 0.4451575262543757,
+    "part_six_parmi_5_6": 0.4259501965923984,
+    "moyenne": 5.113768961493582
+   },
+   "1.5": {
+    "retenues": 3494,
+    "part_cellules": 0.9243386243386243,
+    "part_volume": 0.6883587998377363,
+    "volume_min": 9.367664414832572e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3811,
+    "part_5_6": 0.4405667803726056,
+    "part_six_parmi_5_6": 0.43299583085169746,
+    "moyenne": 5.136447126738389
+   }
+  }
+ },
+ {
+  "graine": 202004,
+  "cellules": 3765,
+  "volume_enveloppe": 116.54401788304554,
+  "somme_volumes": 116.54401788304554,
+  "par_rho": {
+   "0.25": {
+    "retenues": 161,
+    "part_cellules": 0.042762284196547144,
+    "part_volume": 0.003128665770884566,
+    "volume_min": 1.3976498373765045e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 26,
+    "part_5_6": 0.2692307692307692,
+    "part_six_parmi_5_6": 0.14285714285714285,
+    "moyenne": 4.0
+   },
+   "0.5": {
+    "retenues": 2232,
+    "part_cellules": 0.5928286852589641,
+    "part_volume": 0.20846331071887295,
+    "volume_min": 1.3976498373765045e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 2027,
+    "part_5_6": 0.43167242229896396,
+    "part_six_parmi_5_6": 0.3977142857142857,
+    "moyenne": 5.044893931919092
+   },
+   "0.75": {
+    "retenues": 3252,
+    "part_cellules": 0.8637450199203187,
+    "part_volume": 0.5339901615351182,
+    "volume_min": 1.3976498373765045e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3425,
+    "part_5_6": 0.4303649635036496,
+    "part_six_parmi_5_6": 0.41383989145183175,
+    "moyenne": 5.117372262773722
+   },
+   "1.0": {
+    "retenues": 3442,
+    "part_cellules": 0.9142098273572378,
+    "part_volume": 0.6632320813447339,
+    "volume_min": 1.3976498373765045e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3740,
+    "part_5_6": 0.4355614973262032,
+    "part_six_parmi_5_6": 0.4198895027624309,
+    "moyenne": 5.131818181818182
+   },
+   "1.5": {
+    "retenues": 3556,
+    "part_cellules": 0.9444887118193891,
+    "part_volume": 0.7582224746333163,
+    "volume_min": 1.3976498373765045e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3921,
+    "part_5_6": 0.4371333843407294,
+    "part_six_parmi_5_6": 0.4218203033838973,
+    "moyenne": 5.145116041826065
+   }
+  }
+ },
+ {
+  "graine": 202005,
+  "cellules": 3787,
+  "volume_enveloppe": 152.41871001351885,
+  "somme_volumes": 152.4187100135188,
+  "par_rho": {
+   "0.25": {
+    "retenues": 81,
+    "part_cellules": 0.021388962239239504,
+    "part_volume": 0.0010551045010882062,
+    "volume_min": 0.00022089220678025163,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 10,
+    "part_5_6": 0.1,
+    "part_six_parmi_5_6": 1.0,
+    "moyenne": 3.6
+   },
+   "0.5": {
+    "retenues": 2070,
+    "part_cellules": 0.5466068127805651,
+    "part_volume": 0.1606494765797766,
+    "volume_min": 3.66550283741313e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 1811,
+    "part_5_6": 0.40198785201546106,
+    "part_six_parmi_5_6": 0.40934065934065933,
+    "moyenne": 5.013804527885147
+   },
+   "0.75": {
+    "retenues": 3140,
+    "part_cellules": 0.8291523633482968,
+    "part_volume": 0.4401798188553182,
+    "volume_min": 3.66550283741313e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3257,
+    "part_5_6": 0.42554498004298436,
+    "part_six_parmi_5_6": 0.4054834054834055,
+    "moyenne": 5.109610070617133
+   },
+   "1.0": {
+    "retenues": 3363,
+    "part_cellules": 0.8880380248217586,
+    "part_volume": 0.5574189604519032,
+    "volume_min": 3.66550283741313e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3598,
+    "part_5_6": 0.4260700389105058,
+    "part_six_parmi_5_6": 0.40574037834311805,
+    "moyenne": 5.1314619232907175
+   },
+   "1.5": {
+    "retenues": 3537,
+    "part_cellules": 0.9339846844467916,
+    "part_volume": 0.6860686669713093,
+    "volume_min": 3.66550283741313e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3874,
+    "part_5_6": 0.42746515229736703,
+    "part_six_parmi_5_6": 0.4076086956521739,
+    "moyenne": 5.144811564274652
+   }
+  }
+ },
+ {
+  "graine": 202006,
+  "cellules": 3819,
+  "volume_enveloppe": 192.50736886521673,
+  "somme_volumes": 192.50736886521673,
+  "par_rho": {
+   "0.25": {
+    "retenues": 152,
+    "part_cellules": 0.03980099502487562,
+    "part_volume": 0.0016288557043014048,
+    "volume_min": 8.218469423700107e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 35,
+    "part_5_6": 0.2,
+    "part_six_parmi_5_6": 0.2857142857142857,
+    "moyenne": 3.857142857142857
+   },
+   "0.5": {
+    "retenues": 2060,
+    "part_cellules": 0.5394082220476565,
+    "part_volume": 0.12083933026273297,
+    "volume_min": 7.976273853330347e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 1822,
+    "part_5_6": 0.43029637760702527,
+    "part_six_parmi_5_6": 0.4030612244897959,
+    "moyenne": 5.046652030735456
+   },
+   "0.75": {
+    "retenues": 3087,
+    "part_cellules": 0.8083267871170463,
+    "part_volume": 0.33301335457727826,
+    "volume_min": 7.976273853330347e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3208,
+    "part_5_6": 0.43516209476309226,
+    "part_six_parmi_5_6": 0.416189111747851,
+    "moyenne": 5.12001246882793
+   },
+   "1.0": {
+    "retenues": 3363,
+    "part_cellules": 0.8805970149253731,
+    "part_volume": 0.46467028954201645,
+    "volume_min": 7.976273853330347e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3613,
+    "part_5_6": 0.4373097149183504,
+    "part_six_parmi_5_6": 0.4291139240506329,
+    "moyenne": 5.135621367284805
+   },
+   "1.5": {
+    "retenues": 3539,
+    "part_cellules": 0.9266823775857554,
+    "part_volume": 0.5898794910825733,
+    "volume_min": 7.976273853330347e-05,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3882,
+    "part_5_6": 0.4356002060793405,
+    "part_six_parmi_5_6": 0.43406268480189236,
+    "moyenne": 5.145543534260691
+   }
+  }
+ },
+ {
+  "graine": 202007,
+  "cellules": 3822,
+  "volume_enveloppe": 208.05957595568393,
+  "somme_volumes": 208.05957595568387,
+  "par_rho": {
+   "0.25": {
+    "retenues": 34,
+    "part_cellules": 0.008895866038723181,
+    "part_volume": 0.0003415192782932039,
+    "volume_min": 0.00027131830834313287,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 2,
+    "part_5_6": 0.0,
+    "part_six_parmi_5_6": null,
+    "moyenne": 3.5
+   },
+   "0.5": {
+    "retenues": 1632,
+    "part_cellules": 0.42700156985871274,
+    "part_volume": 0.11151767892860269,
+    "volume_min": 0.00024949977321470703,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 1174,
+    "part_5_6": 0.39948892674616693,
+    "part_six_parmi_5_6": 0.4115138592750533,
+    "moyenne": 4.9224872231686545
+   },
+   "0.75": {
+    "retenues": 2999,
+    "part_cellules": 0.7846677132391419,
+    "part_volume": 0.3709845314462674,
+    "volume_min": 0.00024949977321470703,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3028,
+    "part_5_6": 0.4180977542932629,
+    "part_six_parmi_5_6": 0.42496050552922593,
+    "moyenne": 5.107661822985469
+   },
+   "1.0": {
+    "retenues": 3312,
+    "part_cellules": 0.8665620094191523,
+    "part_volume": 0.5015807425317702,
+    "volume_min": 0.00024949977321470703,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3496,
+    "part_5_6": 0.42219679633867274,
+    "part_six_parmi_5_6": 0.42140921409214094,
+    "moyenne": 5.128718535469107
+   },
+   "1.5": {
+    "retenues": 3514,
+    "part_cellules": 0.9194139194139194,
+    "part_volume": 0.6260462894388855,
+    "volume_min": 0.00024949977321470703,
+    "faces_surchargees": 0,
+    "emboitee": true,
+    "aretes_interieures": 3815,
+    "part_5_6": 0.4214941022280472,
+    "part_six_parmi_5_6": 0.42661691542288555,
+    "moyenne": 5.144429882044561
+   }
+  }
+ }
+]

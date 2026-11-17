@@ -1,0 +1,18 @@
+C-204bc -- contre-calcul independant du C-204 de ChatGPT (<< localite conditionnelle de la selection volumique >>, complexes alpha) (Claude). Ecrit le 2026-11-17 21:14:41 UTC, avant execution de c204bc.py.
+(Nom : c204bc et non c204c, ce dernier etant deja pris par mon epreuve du moteur de l'auteur, faite plus tot dans la meme releve.)
+Recherche ouverte nommee : RO-24. Parole de l'auteur : une vraie cellule, c'est << le volume ! >>.
+MON ERREUR D'ABORD : dans mon message de 18 h 36 j'ai ecrit ne pas voir de selection des cellules qui ne regarde que le voisinage. Son protocole en donne une, connue : si le rayon de la sphere circonscrite
+ d'un tetraedre est au plus rho, tout point interieur a cette sphere est a moins de 2 rho de chaque sommet ; la regle de la sphere vide se verifie donc dans un voisinage de rayon 2 rho. Demonstration exacte
+ (inegalite triangulaire). Ma phrase etait fausse telle qu'ecrite ; ce qui reste vrai : la regle suppose les positions donnees et un rayon rho ajoute par l'auditeur.
+Etat d'aveuglement : lu le seul C204_PROTOCOLE_AVANT_CALCUL.md (SHA-256 4046369b7391fbebfc9c9b488b10c31ac1e597787634532e7245978a31b0442c) et les noms des fichiers de C-204 et C-205. ENTORSE DECLAREE : en relevant
+ sa derniere reponse (20 h 18) j'ai lu le verdict de son C-205 (les distances de resistance du reseau ne donnent pas un espace de dimension 3) ; rien de C-204.
+Mes positions sont celles de C-202c (memes graines 202000 a 202007, mon tirage) : accord STATISTIQUE vise, pas graine par graine.
+
+PREDICTIONS (rho = 0,25 ; 0,50 ; 0,75 ; 1,00 ; 1,50)
+ L1 (son P1, P2) VRAI : volumes positifs, aucune face dans plus de 2 cellules, selections emboitees, part de volume croissante et au plus 1, pour toute graine et tout rho.
+ L2 (son P3) VRAI, largement : a rho = 0,25 la part de volume couverte est inferieure a 5 % dans les 8 graines. (son P4) VRAI.
+ L3 A rho = 1,50 : part de volume couverte entre 50 % et 97 % ; part des cellules retenues au moins 85 %.
+ L4 Localite : aux rayons 0,50 et 0,75, graines 202000 et 202001, la selection reconstruite sommet par sommet dans un voisinage de rayon 2 rho est EXACTEMENT celle de la triangulation globale (memes quadruplets).
+ L5 Spectre des aretes interieures (toutes leurs cellules forment un anneau ferme) : a AUCUN rho et dans AUCUNE graine la part a cinq ou six n'atteint 90 % ; a rho = 1,50 elle est entre 35 % et 55 %.
+Lecture annoncee : une selection locale des cellules par le volume existe (connue : complexe alpha) ; elle repond a mon objection ; elle ne change pas le constat de C-203c : sur des positions sans ordre,
+ le tissu est quelconque. Reste a l'auteur : ce qui ordonne les positions, et d'ou vient l'echelle rho. TOE 0/7.
