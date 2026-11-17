@@ -1,0 +1,24 @@
+C-196c -- contre-calcul independant du C-196 de ChatGPT (<< cycles de vie des poches >>) et un ajout (Claude). Ecrit le 2026-11-17 12:26:00 UTC, avant toute execution de c196c.py.
+Parole de l'auteur visee (17 novembre, 5 h 32 UTC) : << cycles de vie de ces poches (mitose continue et eternelle donc exponentielle et cycle de creation de la matiere puis retour au simplexe
+ et ainsi de suite a des stades differents partout) >>. Recherches ouvertes nommees : RO-24, RO-25, RO-08.
+Le systeme de ChatGPT (quatre equations differentielles R, X, M, A par poche, constantes posees) est un MODELE D'AUDITEUR, << non moteur du Blob >>, son protocole le dit.
+RESERVES POSEES D'AVANCE : (a) la reserve finie R borne le nombre de simplexes : le modele NIE par construction la premisse << eternelle donc exponentielle >> ; il ne peut donc pas la tester ;
+ (b) << 4X -> M >> est une comptabilite, pas une geometrie ; (c) les poches ne sont pas couplees et rien ne les fait naitre.
+Etat d'aveuglement : lu le seul C196_PROTOCOLE_PRECALCUL.md (SHA-256 92bdcb209ae38bae5e308c90e12e7024f9d3882ce90f61e17d8530ad157168ea, qui contient ses previsions P1 a P8) et les noms et tailles des fichiers.
+
+PREDICTIONS, A LA MAIN
+ D1 (son P1) VRAI : Q = R + X + 4(M + A) = 1 a mieux que 1e-8. (son P2) VRAI : N non decroissant, R(500) < 1e-7.
+ D2 Etat final COMMUN aux quatre poches, solution de X + 2640 X^4 = 1 : X* = 0,13456 ; M* = 160 X*^4 = 0,05245 ; A* = 500 X*^4 = 0,16391 (a 2e-4 pres) ;
+    soit 13,5 % de simplexes libres, 21,0 % en matiere, 65,6 % en assemblages vieillis.
+ D3 PAS DE CYCLE DANS LE TEMPS : autour de cet etat les deux valeurs propres sont REELLES et negatives, -0,3465 et -1,5427 (a 0,01 pres) : retour sans oscillation, temps caracteristique 2,9.
+    Sur toute la trajectoire, dM/dt change de signe au plus 2 fois par poche. La boucle X -> M -> A -> X est un circuit de matiere, pas une alternance de stades.
+ D4 (son P3) VRAI : a t = 2, ecart max-min de A entre 0,04 et 0,12. (son P4) VRAI pour les 4 poches. (son P5) VRAI : ecarts a t = 500 sous 1e-6 ; a t = 50 sous 1e-5 ; a t = 10 encore au-dessus de 1e-4.
+    Donc : les << stades differents >> ne durent qu'une dizaine d'unites de temps ; ensuite toutes les poches sont identiques et figees.
+ D5 (son P6) VRAI, trivial. (son P7) VRAI, trivial.
+MON AJOUT : la premisse de l'auteur prise au mot (reserve INEPUISABLE : R maintenu constant a 0,75 ; memes constantes ; depart de P0), jusqu'a t = 10000
+ E1 Avec assemblage (k = 40) la croissance N'EST PAS exponentielle : N croit comme t^(4/3) et X comme t^(1/3). Pente locale d ln N / d ln t entre t = 1000 et t = 10000 : entre 1,25 et 1,42 ;
+    pour X : entre 0,30 et 0,36. N(10000)/N(5000) < 3 (une exponentielle donnerait un rapport astronomique).
+    Raison : la matiere assemblee ne se divise pas ; elle retient les porteurs ; seule la fraction libre se divise.
+ E2 Temoin sans assemblage (k = 0) : N = 0,25 exp(3 t) exactement (a 1e-6 relatif a t = 5) : exponentielle pure.
+ Lecture annoncee si E1 et E2 tiennent : dans ce cadre d'auditeur, << mitose eternelle donc exponentielle >> n'est vrai que si TOUS les porteurs restent libres de se diviser ; des que de la matiere se forme et
+ ne se divise pas, la croissance devient une loi de puissance. La question a l'auteur (sans reponse soufflee) : la matiere formee continue-t-elle a faire mitose ? TOE 0/7.

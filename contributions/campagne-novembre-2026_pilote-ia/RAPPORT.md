@@ -366,7 +366,7 @@ Telles quelles et contrôlées octet pour octet : ses passations C-172, C-173, P
 
 ## 8 octies. Ajout du 17 novembre, 11 h 40 UTC : relève de la quatrième conversation, C-192Uc, X-15
 
-Échecs d'abord : lecture de la conversation refusée par le service pendant cinq heures (rien contourné) ; trois archives de ChatGPT sur sept encore non lues à 12 h UTC (C-196, C-197, C-198) ; deux clauses de prédiction fausses ou partielles ; une phrase du 16 novembre trop large, corrigée.
+Échecs d'abord : lecture de la conversation refusée par le service pendant cinq heures (rien contourné) ; trois archives de ChatGPT sur huit encore non lues à 12 h 30 UTC (C-197, C-198, C-199) ; deux clauses de prédiction fausses ou partielles ; une phrase du 16 novembre trop large, corrigée.
 
 | pièce | résultat | statut |
 |---|---|---|
@@ -375,6 +375,7 @@ Telles quelles et contrôlées octet pour octet : ses passations C-172, C-173, P
 | C-193Bc | Euler boule et tore exacts ; fermeture à distance 2 : graphe complet, faces surchargées dès le tour 2 ; 14 états LJ13 sur 16 vérifient l'identité de la boule (ma prédiction contraire est fausse) | [T] identités ; [M] machine d'auditeur |
 | C-194c | 6,70 arêtes par sommet pour une moyenne d★ ; la mitose en apporte 1 ; il en manque 5,70 par naissance ; accord exact | [T] conditionnel ; RO-24 chiffrée, non résolue |
 | C-195c | modèle d'auditeur sans centre par construction ; aucune poche multiple (0 sur 8) ; ajout : l'arbre des naissances garde la trace de son premier sommet (parmi les 10 plus centraux dans 88,5 % des cas) | [M] ; parent uniforme = hypothèse d'auditeur |
+| C-196c | modèle d'auditeur des cycles de poches : aucune oscillation, même état figé pour toutes les poches (accord à douze chiffres) ; ajout : avec réserve inépuisable, croissance en t^(4/3), exponentielle seulement si aucun porteur n'est retenu en matière | [M] ; ne teste pas la prémisse de l'auteur, la précise en une question |
 
 Paroles de l'auteur du 17 novembre : au carnet, section 132, telles quelles. Détail : [carnet du 17 novembre](carnets/2026-11-17_C-192Uc_et_releve.md). **TOE 0/7.**
 
