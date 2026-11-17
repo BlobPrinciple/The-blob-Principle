@@ -934,3 +934,6 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-192Uc (contre-calcul du C-192-U de ChatGPT : naissance minimale puis Lennard-Jones ; accord sur les comptes, écarts de bassin ; une clause fausse, une partielle) | `c192uc_prediction.txt` | 3 344 |
 | X-15 (contrôle après coup : le minimum local à 13 porteurs de ChatGPT, un lien entouré de 6 et deux de 4, confirmé) | `x15_six_dans_un_minimum_local.json` | 673 |
 | X-15 (contrôle après coup : le minimum local à 13 porteurs de ChatGPT, un lien entouré de 6 et deux de 4, confirmé) | `x15_six_dans_un_minimum_local.py` | 2 719 |
+| C-193Bc (contre-calcul du C-193B de ChatGPT : identités d'Euler boule et tore, fermeture à distance 2, bilan ; accord ; une prédiction fausse : 14 états LJ13 sur 16 vérifient l'identité de la boule) | `c193bc.json` | 21 029 |
+| C-193Bc (contre-calcul du C-193B de ChatGPT : identités d'Euler boule et tore, fermeture à distance 2, bilan ; accord ; une prédiction fausse : 14 états LJ13 sur 16 vérifient l'identité de la boule) | `c193bc.py` | 8 475 |
+| C-193Bc (contre-calcul du C-193B de ChatGPT : identités d'Euler boule et tore, fermeture à distance 2, bilan ; accord ; une prédiction fausse : 14 états LJ13 sur 16 vérifient l'identité de la boule) | `c193bc_prediction.txt` | 4 001 |

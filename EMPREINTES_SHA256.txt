@@ -243,11 +243,11 @@ b5c0a63c2528cec03e305103681a4005366f066a6b174fb1b13cb95d64570a3a  ./contribution
 989ebbd1f682f8163696153fa0bb58b2d079c881667f759d3e5b2883c0458a98  ./contributions/RO-25_pilote-ia/defi_m9_second_moteur.py
 e53239ed20a5159aa4e8d67afd2fe56d5b64a69b3f498568b5d387268b641c57  ./contributions/RO-25_pilote-ia/pont_croissance_gibbs.py
 b400aa55b87e1ebfffd700b8bf6d3aef820b7a5477c670db289305a02b2c2535  ./contributions/RO-25_pilote-ia/resultats.json
-ff713a96ac803abe461b3da5842cd9d45e38813250e657606be4e7793ef0d7f6  ./contributions/campagne-novembre-2026_pilote-ia/LISEZ-MOI.md
+9d7d767dd7451b21d990de9a6ee2241c41b2c050de8556f542ff1cf8d1d03244  ./contributions/campagne-novembre-2026_pilote-ia/LISEZ-MOI.md
 532fb90fe584b22e26d3848559633c48bef41e0e60913325822489f2280554c9  ./contributions/campagne-novembre-2026_pilote-ia/RAPPORT.md
 7a2fe791b990269f1be2fd603f3d6b8e6795bdeb71e99a8e51064220a37f3813  ./contributions/campagne-novembre-2026_pilote-ia/REPORT_EN.md
 ca4cb73e5844d59d05a38aa211131081a448547c5878ca941ee264f1eb87ea33  ./contributions/campagne-novembre-2026_pilote-ia/VERROUILLAGE_TOE_V2.md
-6e08643df1b2044c740d24cd6895c7a90b0e31f7394ba0a49120ad38743e810e  ./contributions/campagne-novembre-2026_pilote-ia/calculs/INDEX.md
+826de0bb9e9cad77f2fd7ab489b3e9f9aec59823565475840e275683a4a404f8  ./contributions/campagne-novembre-2026_pilote-ia/calculs/INDEX.md
 c167c336ff032b3b8b80ffcf0a7447d5f104842fc2017d4dbf1c1fbf77a36786  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/c120.cpython-313.pyc
 34e3943aa193f0469b184dcda2fbb4c787a634b5b8a67ed601c41c5b18c81add  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/c132_audit.cpython-313.pyc
 5e643cebe0e79739e06b32bdbe24d4269f05095088bc5c925170d9aee4c3f280  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/c152c.cpython-313.pyc
@@ -266,7 +266,7 @@ f61f7cad9dac0121b2738605a9340425fa807f06b6a8484fef7d2f60b28ecf81  ./contribution
 059831e871a7cd71c28e6d2a32c86176886d0936bdbfabceab16d839a1ef8a83  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/c189dc.cpython-313.pyc
 477d12e79caeb239965327a15c8e60400ccaa0a9c0c7d4fee187e51034ee5301  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/c190c.cpython-313.pyc
 1b85e0a953c4e8d62f51f8b99cf660fa024b7f30a2e85a4217157639d4ea9a73  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/c191c.cpython-313.pyc
-2f74c92eefa4375027b71dd2cc0838a9af7d6aedcaa1095c1e419e5c6693d91a  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/c192uc.cpython-313.pyc
+d9e9363fd2ac3446b25d2be01ad4608a9ae1bdc3e73c0000a25dceb1f62b2490  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/c192uc.cpython-313.pyc
 4bdfa168ea77f34d043daa9780bef77df708fe78ecfaa810ac57f21502aabb86  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/x11_additivite.cpython-313.pyc
 f517532f6f595cfc9dc6c74cf6ba8f1132335ed7117ec86fffccd661d62627e7  ./contributions/campagne-novembre-2026_pilote-ia/calculs/__pycache__/x1_regles.cpython-313.pyc
 623ba063dc0d666abf16b4346168fe69a65e19fadaa98bb73b2a47169fc149e2  ./contributions/campagne-novembre-2026_pilote-ia/calculs/bp_eq2_contre_audit.json
@@ -958,6 +958,9 @@ d0d08f9d86c8bcae5622e7b94798ec1a5baa0b0d14e0c71e1606a7fc987808ca  ./contribution
 382a77da34fbc8425763f3d5a6930ccea22532fae389b8dd1e8bb5c5259d5403  ./contributions/campagne-novembre-2026_pilote-ia/calculs/c192uc.json
 2e63a58fd4594b8e2e58fb9246a1c6c7075610d1fc5a1b7dee1847524fc611c4  ./contributions/campagne-novembre-2026_pilote-ia/calculs/c192uc.py
 deda674ad23d7f89fca7ad5eeb076a6305a8dacf50c8090a3f00168859b0ff4f  ./contributions/campagne-novembre-2026_pilote-ia/calculs/c192uc_prediction.txt
+553d989562657e4be4775f2096605328f21f86c469d7d1b4d765d8d7721a0bff  ./contributions/campagne-novembre-2026_pilote-ia/calculs/c193bc.json
+c5caa33617fa5b8057479acac454909a6b18215f98d8c7880df019827acd8654  ./contributions/campagne-novembre-2026_pilote-ia/calculs/c193bc.py
+671ddb965fbdd8445a08278b9c5de8fcc7a748621f7bf0b34eff7ed42351db56  ./contributions/campagne-novembre-2026_pilote-ia/calculs/c193bc_prediction.txt
 30bfa497bf803e04b82514fe706db0f7c619917abbcb6fec3a2081ae2c8cc68f  ./contributions/campagne-novembre-2026_pilote-ia/calculs/c47check.py
 a1163e265d5215febd2bb4ce2016292641b0bfa55719382b4eb1313f39f62090  ./contributions/campagne-novembre-2026_pilote-ia/calculs/c63.py
 09ae94104bfd336d8b0a97de7d5bf78980940fd6e986b021622ccea445ea34cc  ./contributions/campagne-novembre-2026_pilote-ia/calculs/c64_defi.py
@@ -1214,7 +1217,7 @@ c1ae8778ac23b2260e685b92d0a96bf2d2476a411f3f7d3e2de5886b605344bc  ./contribution
 444e1ea4a61b6dcc0d7c06f08a91421f7706442f72b9b2f579ecfb0ec331427c  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-14_releve_ChatGPT_BP-S2_a_GR-3.md
 9c9ad92cbdf0602687b8d24d2b350095503e8de1d0cee79a5f7ee8caf88f6f12  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-15_C-161_et_suite.md
 5e5a43ee214af4f2a7e791c95a170d50f152f32ae4a42e0270f07f49308036b4  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-16_C-172R_et_suite.md
-18d630915f6c4c4754c84415bd409b2af4f933d62acb0ef3e14f29b75d08e26d  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-17_C-192Uc_et_releve.md
+bfd3e449c9273bca9848ebd0b6b889be368e57a880e895b0f71352568f9cefbe  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-17_C-192Uc_et_releve.md
 27b7731b26da17ad1fb4a75ed1e33d37325e7b3d78665c88e502c1d207711773  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PASSATION_CLAUDE.md
 a68f895d76518e18ee6cc0073ebad716a920e5b6460abfcbf1e09e93c4ab04ae  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PREENREGISTRE.md
 e15934ae57c613f07b90ee6882ae1909f49df0d79771f9f1ce749ee5e12e74a3  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/C146_CAS1_PASSATION_CLAUDE.md
@@ -1236,7 +1239,8 @@ db880812a6cc69218b4d369348deb4ed8db4985acff2e7ed8ece91b320c20621  ./contribution
 64de7951bced4a71ff100909e744275658b4759b11515e1916f8b875511636d1  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/C190_PASSATION_CLAUDE.md
 c940323d02eac6236dc6a4f2a0b2e03c65d7e5fcbdf2a9ada645c6d9e8d33dc7  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/C191_PASSATION_CLAUDE.md
 5daeb9d33ba89cb1072ab9ce6354c3c039d542752f7aa1f7d01121d06a84ae06  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/C192U_PASSATION_CLAUDE.md
-e4dddef2750ac2fe00d9f7a84ec4cc5396a0adc9ef0bc20f8f3b9558d18416c0  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/EMPREINTES.md
+4c09bcce2988151b7507dbabf400836a86e271fb534316fe4b4dd8660767ea00  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/C193B_PASSATION_CLAUDE.md
+da07960a6a10e6ac0aef363a3a078c7c637b9dbed15d7cbabad10d65e618cba9  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/EMPREINTES.md
 fd876aef4634df31c627e40e049cf9b16612881b07c7e5b30a9ca3fbc3b2ff66  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/PHYS1_PASSATION_CLAUDE.md
 c815b99bd41a8cfd26e7a4f7be6d177c7ebe137c213e8b24806ebd3e78a672e9  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/PHYS2R_PASSATION_CLAUDE.md
 26570381882b456c3d62d9569788e5fc9df04040ceede62512ee7b94b7f07d57  ./contributions/campagne-novembre-2026_pilote-ia/echanges/msg_bpl1c.txt

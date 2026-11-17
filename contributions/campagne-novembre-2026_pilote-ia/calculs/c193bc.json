@@ -1,0 +1,1381 @@
+{
+ "boules": {
+  "tetraedre": {
+   "V": 4,
+   "E": 6,
+   "T": 1,
+   "F": 4,
+   "Fb": 4,
+   "surchargees": 0,
+   "exces": 3,
+   "T_plus_demi_Fb": 3.0,
+   "identite": true,
+   "euler": 1
+  },
+  "bipyramide LJ7": {
+   "V": 7,
+   "E": 16,
+   "T": 5,
+   "F": 15,
+   "Fb": 10,
+   "surchargees": 0,
+   "exces": 10,
+   "T_plus_demi_Fb": 10.0,
+   "identite": true,
+   "euler": 1
+  },
+  "icosaedre centre LJ13": {
+   "V": 13,
+   "E": 42,
+   "T": 20,
+   "F": 50,
+   "Fb": 20,
+   "surchargees": 0,
+   "exces": 30,
+   "T_plus_demi_Fb": 30.0,
+   "identite": true,
+   "euler": 1
+  }
+ },
+ "boules_empilees": {
+  "etats": 520,
+  "identite_vraie": 520,
+  "euler": [
+   1
+  ]
+ },
+ "tore_plein": {
+  "V": 21,
+  "E": 63,
+  "T": 21,
+  "F": 63,
+  "Fb": 42,
+  "surchargees": 0,
+  "exces": 43,
+  "T_plus_demi_Fb": 42.0,
+  "identite": false,
+  "euler": 0
+ },
+ "tore": {
+  "A15": {
+   "V": 8,
+   "E": 54,
+   "T": 46,
+   "identite": true
+  },
+  "C15": {
+   "V": 24,
+   "E": 160,
+   "T": 136,
+   "identite": true
+  },
+  "sigma": {
+   "V": 30,
+   "E": 202,
+   "T": 172,
+   "identite": true
+  }
+ },
+ "machine": {
+  "4": {
+   "N": 4,
+   "tours": 2,
+   "tours_predits": 2,
+   "M_final": 6,
+   "tetraedres_final": 1,
+   "surchargees_final": 0,
+   "journal": [
+    {
+     "etape": "naissance",
+     "N": 2,
+     "F": 2,
+     "M": 1,
+     "U": -1,
+     "B": 1,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 3,
+     "F": 1,
+     "M": 2,
+     "U": -2,
+     "B": 2,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 4,
+     "F": 0,
+     "M": 3,
+     "U": -3,
+     "B": 3,
+     "E_tot": 0
+    },
+    {
+     "etape": "tour 1",
+     "N": 4,
+     "F": 0,
+     "M": 5,
+     "M_predit": 5,
+     "neuves": 2,
+     "U": -5,
+     "B": 5,
+     "E_tot": 0,
+     "tetraedres": 0,
+     "triangles": 2,
+     "faces_surchargees": 0,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 2",
+     "N": 4,
+     "F": 0,
+     "M": 6,
+     "M_predit": 6,
+     "neuves": 1,
+     "U": -6,
+     "B": 6,
+     "E_tot": 0,
+     "tetraedres": 1,
+     "triangles": 4,
+     "faces_surchargees": 0,
+     "faces_a_un": 4,
+     "puissance_du_chemin": true
+    }
+   ]
+  },
+  "5": {
+   "N": 5,
+   "tours": 2,
+   "tours_predits": 2,
+   "M_final": 10,
+   "tetraedres_final": 5,
+   "surchargees_final": 0,
+   "journal": [
+    {
+     "etape": "naissance",
+     "N": 2,
+     "F": 3,
+     "M": 1,
+     "U": -1,
+     "B": 1,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 3,
+     "F": 2,
+     "M": 2,
+     "U": -2,
+     "B": 2,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 4,
+     "F": 1,
+     "M": 3,
+     "U": -3,
+     "B": 3,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 5,
+     "F": 0,
+     "M": 4,
+     "U": -4,
+     "B": 4,
+     "E_tot": 0
+    },
+    {
+     "etape": "tour 1",
+     "N": 5,
+     "F": 0,
+     "M": 7,
+     "M_predit": 7,
+     "neuves": 3,
+     "U": -7,
+     "B": 7,
+     "E_tot": 0,
+     "tetraedres": 0,
+     "triangles": 3,
+     "faces_surchargees": 0,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 2",
+     "N": 5,
+     "F": 0,
+     "M": 10,
+     "M_predit": 10,
+     "neuves": 3,
+     "U": -10,
+     "B": 10,
+     "E_tot": 0,
+     "tetraedres": 5,
+     "triangles": 10,
+     "faces_surchargees": 0,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    }
+   ]
+  },
+  "6": {
+   "N": 6,
+   "tours": 3,
+   "tours_predits": 3,
+   "M_final": 15,
+   "tetraedres_final": 15,
+   "surchargees_final": 20,
+   "journal": [
+    {
+     "etape": "naissance",
+     "N": 2,
+     "F": 4,
+     "M": 1,
+     "U": -1,
+     "B": 1,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 3,
+     "F": 3,
+     "M": 2,
+     "U": -2,
+     "B": 2,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 4,
+     "F": 2,
+     "M": 3,
+     "U": -3,
+     "B": 3,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 5,
+     "F": 1,
+     "M": 4,
+     "U": -4,
+     "B": 4,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 6,
+     "F": 0,
+     "M": 5,
+     "U": -5,
+     "B": 5,
+     "E_tot": 0
+    },
+    {
+     "etape": "tour 1",
+     "N": 6,
+     "F": 0,
+     "M": 9,
+     "M_predit": 9,
+     "neuves": 4,
+     "U": -9,
+     "B": 9,
+     "E_tot": 0,
+     "tetraedres": 0,
+     "triangles": 4,
+     "faces_surchargees": 0,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 2",
+     "N": 6,
+     "F": 0,
+     "M": 14,
+     "M_predit": 14,
+     "neuves": 5,
+     "U": -14,
+     "B": 14,
+     "E_tot": 0,
+     "tetraedres": 9,
+     "triangles": 16,
+     "faces_surchargees": 4,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 3",
+     "N": 6,
+     "F": 0,
+     "M": 15,
+     "M_predit": 15,
+     "neuves": 1,
+     "U": -15,
+     "B": 15,
+     "E_tot": 0,
+     "tetraedres": 15,
+     "triangles": 20,
+     "faces_surchargees": 20,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    }
+   ]
+  },
+  "7": {
+   "N": 7,
+   "tours": 3,
+   "tours_predits": 3,
+   "M_final": 21,
+   "tetraedres_final": 35,
+   "surchargees_final": 35,
+   "journal": [
+    {
+     "etape": "naissance",
+     "N": 2,
+     "F": 5,
+     "M": 1,
+     "U": -1,
+     "B": 1,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 3,
+     "F": 4,
+     "M": 2,
+     "U": -2,
+     "B": 2,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 4,
+     "F": 3,
+     "M": 3,
+     "U": -3,
+     "B": 3,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 5,
+     "F": 2,
+     "M": 4,
+     "U": -4,
+     "B": 4,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 6,
+     "F": 1,
+     "M": 5,
+     "U": -5,
+     "B": 5,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 7,
+     "F": 0,
+     "M": 6,
+     "U": -6,
+     "B": 6,
+     "E_tot": 0
+    },
+    {
+     "etape": "tour 1",
+     "N": 7,
+     "F": 0,
+     "M": 11,
+     "M_predit": 11,
+     "neuves": 5,
+     "U": -11,
+     "B": 11,
+     "E_tot": 0,
+     "tetraedres": 0,
+     "triangles": 5,
+     "faces_surchargees": 0,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 2",
+     "N": 7,
+     "F": 0,
+     "M": 18,
+     "M_predit": 18,
+     "neuves": 7,
+     "U": -18,
+     "B": 18,
+     "E_tot": 0,
+     "tetraedres": 13,
+     "triangles": 22,
+     "faces_surchargees": 7,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 3",
+     "N": 7,
+     "F": 0,
+     "M": 21,
+     "M_predit": 21,
+     "neuves": 3,
+     "U": -21,
+     "B": 21,
+     "E_tot": 0,
+     "tetraedres": 35,
+     "triangles": 35,
+     "faces_surchargees": 35,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    }
+   ]
+  },
+  "13": {
+   "N": 13,
+   "tours": 4,
+   "tours_predits": 4,
+   "M_final": 78,
+   "tetraedres_final": 715,
+   "surchargees_final": 286,
+   "journal": [
+    {
+     "etape": "naissance",
+     "N": 2,
+     "F": 11,
+     "M": 1,
+     "U": -1,
+     "B": 1,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 3,
+     "F": 10,
+     "M": 2,
+     "U": -2,
+     "B": 2,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 4,
+     "F": 9,
+     "M": 3,
+     "U": -3,
+     "B": 3,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 5,
+     "F": 8,
+     "M": 4,
+     "U": -4,
+     "B": 4,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 6,
+     "F": 7,
+     "M": 5,
+     "U": -5,
+     "B": 5,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 7,
+     "F": 6,
+     "M": 6,
+     "U": -6,
+     "B": 6,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 8,
+     "F": 5,
+     "M": 7,
+     "U": -7,
+     "B": 7,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 9,
+     "F": 4,
+     "M": 8,
+     "U": -8,
+     "B": 8,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 10,
+     "F": 3,
+     "M": 9,
+     "U": -9,
+     "B": 9,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 11,
+     "F": 2,
+     "M": 10,
+     "U": -10,
+     "B": 10,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 12,
+     "F": 1,
+     "M": 11,
+     "U": -11,
+     "B": 11,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 13,
+     "F": 0,
+     "M": 12,
+     "U": -12,
+     "B": 12,
+     "E_tot": 0
+    },
+    {
+     "etape": "tour 1",
+     "N": 13,
+     "F": 0,
+     "M": 23,
+     "M_predit": 23,
+     "neuves": 11,
+     "U": -23,
+     "B": 23,
+     "E_tot": 0,
+     "tetraedres": 0,
+     "triangles": 11,
+     "faces_surchargees": 0,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 2",
+     "N": 13,
+     "F": 0,
+     "M": 42,
+     "M_predit": 42,
+     "neuves": 19,
+     "U": -42,
+     "B": 42,
+     "E_tot": 0,
+     "tetraedres": 37,
+     "triangles": 58,
+     "faces_surchargees": 25,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 3",
+     "N": 13,
+     "F": 0,
+     "M": 68,
+     "M_predit": 68,
+     "neuves": 26,
+     "U": -68,
+     "B": 68,
+     "E_tot": 0,
+     "tetraedres": 350,
+     "triangles": 196,
+     "faces_surchargees": 196,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 4",
+     "N": 13,
+     "F": 0,
+     "M": 78,
+     "M_predit": 78,
+     "neuves": 10,
+     "U": -78,
+     "B": 78,
+     "E_tot": 0,
+     "tetraedres": 715,
+     "triangles": 286,
+     "faces_surchargees": 286,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    }
+   ]
+  },
+  "19": {
+   "N": 19,
+   "tours": 5,
+   "tours_predits": 5,
+   "M_final": 171,
+   "tetraedres_final": 3876,
+   "surchargees_final": 969,
+   "journal": [
+    {
+     "etape": "naissance",
+     "N": 2,
+     "F": 17,
+     "M": 1,
+     "U": -1,
+     "B": 1,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 3,
+     "F": 16,
+     "M": 2,
+     "U": -2,
+     "B": 2,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 4,
+     "F": 15,
+     "M": 3,
+     "U": -3,
+     "B": 3,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 5,
+     "F": 14,
+     "M": 4,
+     "U": -4,
+     "B": 4,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 6,
+     "F": 13,
+     "M": 5,
+     "U": -5,
+     "B": 5,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 7,
+     "F": 12,
+     "M": 6,
+     "U": -6,
+     "B": 6,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 8,
+     "F": 11,
+     "M": 7,
+     "U": -7,
+     "B": 7,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 9,
+     "F": 10,
+     "M": 8,
+     "U": -8,
+     "B": 8,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 10,
+     "F": 9,
+     "M": 9,
+     "U": -9,
+     "B": 9,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 11,
+     "F": 8,
+     "M": 10,
+     "U": -10,
+     "B": 10,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 12,
+     "F": 7,
+     "M": 11,
+     "U": -11,
+     "B": 11,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 13,
+     "F": 6,
+     "M": 12,
+     "U": -12,
+     "B": 12,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 14,
+     "F": 5,
+     "M": 13,
+     "U": -13,
+     "B": 13,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 15,
+     "F": 4,
+     "M": 14,
+     "U": -14,
+     "B": 14,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 16,
+     "F": 3,
+     "M": 15,
+     "U": -15,
+     "B": 15,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 17,
+     "F": 2,
+     "M": 16,
+     "U": -16,
+     "B": 16,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 18,
+     "F": 1,
+     "M": 17,
+     "U": -17,
+     "B": 17,
+     "E_tot": 0
+    },
+    {
+     "etape": "naissance",
+     "N": 19,
+     "F": 0,
+     "M": 18,
+     "U": -18,
+     "B": 18,
+     "E_tot": 0
+    },
+    {
+     "etape": "tour 1",
+     "N": 19,
+     "F": 0,
+     "M": 35,
+     "M_predit": 35,
+     "neuves": 17,
+     "U": -35,
+     "B": 35,
+     "E_tot": 0,
+     "tetraedres": 0,
+     "triangles": 17,
+     "faces_surchargees": 0,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 2",
+     "N": 19,
+     "F": 0,
+     "M": 66,
+     "M_predit": 66,
+     "neuves": 31,
+     "U": -66,
+     "B": 66,
+     "E_tot": 0,
+     "tetraedres": 61,
+     "triangles": 94,
+     "faces_surchargees": 43,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 3",
+     "N": 19,
+     "F": 0,
+     "M": 116,
+     "M_predit": 116,
+     "neuves": 50,
+     "U": -116,
+     "B": 116,
+     "E_tot": 0,
+     "tetraedres": 686,
+     "triangles": 364,
+     "faces_surchargees": 364,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 4",
+     "N": 19,
+     "F": 0,
+     "M": 168,
+     "M_predit": 168,
+     "neuves": 52,
+     "U": -168,
+     "B": 168,
+     "E_tot": 0,
+     "tetraedres": 3500,
+     "triangles": 920,
+     "faces_surchargees": 920,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    },
+    {
+     "etape": "tour 5",
+     "N": 19,
+     "F": 0,
+     "M": 171,
+     "M_predit": 171,
+     "neuves": 3,
+     "U": -171,
+     "B": 171,
+     "E_tot": 0,
+     "tetraedres": 3876,
+     "triangles": 969,
+     "faces_surchargees": 969,
+     "faces_a_un": 0,
+     "puissance_du_chemin": true
+    }
+   ]
+  }
+ },
+ "temoin": {
+  "4": {
+   "M": 3,
+   "tetraedres": 0,
+   "E_tot": 0
+  },
+  "5": {
+   "M": 4,
+   "tetraedres": 0,
+   "E_tot": 0
+  },
+  "6": {
+   "M": 5,
+   "tetraedres": 0,
+   "E_tot": 0
+  },
+  "7": {
+   "M": 6,
+   "tetraedres": 0,
+   "E_tot": 0
+  },
+  "13": {
+   "M": 12,
+   "tetraedres": 0,
+   "E_tot": 0
+  },
+  "19": {
+   "M": 18,
+   "tetraedres": 0,
+   "E_tot": 0
+  }
+ },
+ "relecture": {
+  "LJ": [
+   {
+    "graine": 192000,
+    "M": 36,
+    "g": 12,
+    "non_genealogiques": 24,
+    "deficit": 6,
+    "tetraedres": 13
+   },
+   {
+    "graine": 192001,
+    "M": 38,
+    "g": 12,
+    "non_genealogiques": 26,
+    "deficit": 4,
+    "tetraedres": 15
+   },
+   {
+    "graine": 192002,
+    "M": 39,
+    "g": 12,
+    "non_genealogiques": 27,
+    "deficit": 3,
+    "tetraedres": 16
+   },
+   {
+    "graine": 192003,
+    "M": 37,
+    "g": 12,
+    "non_genealogiques": 25,
+    "deficit": 5,
+    "tetraedres": 14
+   },
+   {
+    "graine": 192004,
+    "M": 35,
+    "g": 11,
+    "non_genealogiques": 24,
+    "deficit": 7,
+    "tetraedres": 8
+   },
+   {
+    "graine": 192005,
+    "M": 37,
+    "g": 12,
+    "non_genealogiques": 25,
+    "deficit": 5,
+    "tetraedres": 14
+   },
+   {
+    "graine": 192006,
+    "M": 36,
+    "g": 12,
+    "non_genealogiques": 24,
+    "deficit": 6,
+    "tetraedres": 13
+   },
+   {
+    "graine": 192007,
+    "M": 36,
+    "g": 12,
+    "non_genealogiques": 24,
+    "deficit": 6,
+    "tetraedres": 13
+   },
+   {
+    "graine": 192008,
+    "M": 39,
+    "g": 12,
+    "non_genealogiques": 27,
+    "deficit": 3,
+    "tetraedres": 16
+   },
+   {
+    "graine": 192009,
+    "M": 37,
+    "g": 12,
+    "non_genealogiques": 25,
+    "deficit": 5,
+    "tetraedres": 14
+   },
+   {
+    "graine": 192010,
+    "M": 37,
+    "g": 11,
+    "non_genealogiques": 26,
+    "deficit": 5,
+    "tetraedres": 11
+   },
+   {
+    "graine": 192011,
+    "M": 34,
+    "g": 12,
+    "non_genealogiques": 22,
+    "deficit": 8,
+    "tetraedres": 11
+   },
+   {
+    "graine": 192012,
+    "M": 37,
+    "g": 12,
+    "non_genealogiques": 25,
+    "deficit": 5,
+    "tetraedres": 14
+   },
+   {
+    "graine": 192013,
+    "M": 38,
+    "g": 12,
+    "non_genealogiques": 26,
+    "deficit": 4,
+    "tetraedres": 15
+   },
+   {
+    "graine": 192014,
+    "M": 36,
+    "g": 12,
+    "non_genealogiques": 24,
+    "deficit": 6,
+    "tetraedres": 13
+   },
+   {
+    "graine": 192015,
+    "M": 38,
+    "g": 12,
+    "non_genealogiques": 26,
+    "deficit": 4,
+    "tetraedres": 15
+   }
+  ],
+  "WCA": [
+   {
+    "graine": 192000,
+    "M": 19,
+    "g": 12,
+    "non_genealogiques": 7,
+    "deficit": 23,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192001,
+    "M": 17,
+    "g": 12,
+    "non_genealogiques": 5,
+    "deficit": 25,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192002,
+    "M": 18,
+    "g": 10,
+    "non_genealogiques": 8,
+    "deficit": 24,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192003,
+    "M": 17,
+    "g": 11,
+    "non_genealogiques": 6,
+    "deficit": 25,
+    "tetraedres": 1
+   },
+   {
+    "graine": 192004,
+    "M": 17,
+    "g": 12,
+    "non_genealogiques": 5,
+    "deficit": 25,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192005,
+    "M": 12,
+    "g": 9,
+    "non_genealogiques": 3,
+    "deficit": 30,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192006,
+    "M": 19,
+    "g": 9,
+    "non_genealogiques": 10,
+    "deficit": 23,
+    "tetraedres": 1
+   },
+   {
+    "graine": 192007,
+    "M": 21,
+    "g": 12,
+    "non_genealogiques": 9,
+    "deficit": 21,
+    "tetraedres": 2
+   },
+   {
+    "graine": 192008,
+    "M": 19,
+    "g": 12,
+    "non_genealogiques": 7,
+    "deficit": 23,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192009,
+    "M": 13,
+    "g": 10,
+    "non_genealogiques": 3,
+    "deficit": 29,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192010,
+    "M": 13,
+    "g": 9,
+    "non_genealogiques": 4,
+    "deficit": 29,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192011,
+    "M": 17,
+    "g": 12,
+    "non_genealogiques": 5,
+    "deficit": 25,
+    "tetraedres": 1
+   },
+   {
+    "graine": 192012,
+    "M": 12,
+    "g": 9,
+    "non_genealogiques": 3,
+    "deficit": 30,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192013,
+    "M": 10,
+    "g": 7,
+    "non_genealogiques": 3,
+    "deficit": 32,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192014,
+    "M": 10,
+    "g": 8,
+    "non_genealogiques": 2,
+    "deficit": 32,
+    "tetraedres": 0
+   },
+   {
+    "graine": 192015,
+    "M": 10,
+    "g": 7,
+    "non_genealogiques": 3,
+    "deficit": 32,
+    "tetraedres": 0
+   }
+  ]
+ },
+ "identite_sur_C192": [
+  {
+   "V": 13,
+   "E": 36,
+   "T": 13,
+   "F": 37,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 24,
+   "T_plus_demi_Fb": 24.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192000
+  },
+  {
+   "V": 13,
+   "E": 38,
+   "T": 15,
+   "F": 41,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 26,
+   "T_plus_demi_Fb": 26.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192001
+  },
+  {
+   "V": 13,
+   "E": 39,
+   "T": 16,
+   "F": 43,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 27,
+   "T_plus_demi_Fb": 27.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192002
+  },
+  {
+   "V": 13,
+   "E": 37,
+   "T": 14,
+   "F": 39,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 25,
+   "T_plus_demi_Fb": 25.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192003
+  },
+  {
+   "V": 13,
+   "E": 35,
+   "T": 8,
+   "F": 26,
+   "Fb": 20,
+   "surchargees": 0,
+   "exces": 23,
+   "T_plus_demi_Fb": 18.0,
+   "identite": false,
+   "euler": -4,
+   "graine": 192004
+  },
+  {
+   "V": 13,
+   "E": 37,
+   "T": 14,
+   "F": 39,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 25,
+   "T_plus_demi_Fb": 25.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192005
+  },
+  {
+   "V": 13,
+   "E": 36,
+   "T": 13,
+   "F": 37,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 24,
+   "T_plus_demi_Fb": 24.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192006
+  },
+  {
+   "V": 13,
+   "E": 36,
+   "T": 13,
+   "F": 37,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 24,
+   "T_plus_demi_Fb": 24.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192007
+  },
+  {
+   "V": 13,
+   "E": 39,
+   "T": 16,
+   "F": 43,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 27,
+   "T_plus_demi_Fb": 27.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192008
+  },
+  {
+   "V": 13,
+   "E": 37,
+   "T": 14,
+   "F": 39,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 25,
+   "T_plus_demi_Fb": 25.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192009
+  },
+  {
+   "V": 13,
+   "E": 37,
+   "T": 11,
+   "F": 32,
+   "Fb": 20,
+   "surchargees": 0,
+   "exces": 25,
+   "T_plus_demi_Fb": 21.0,
+   "identite": false,
+   "euler": -3,
+   "graine": 192010
+  },
+  {
+   "V": 13,
+   "E": 34,
+   "T": 11,
+   "F": 33,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 22,
+   "T_plus_demi_Fb": 22.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192011
+  },
+  {
+   "V": 13,
+   "E": 37,
+   "T": 14,
+   "F": 39,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 25,
+   "T_plus_demi_Fb": 25.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192012
+  },
+  {
+   "V": 13,
+   "E": 38,
+   "T": 15,
+   "F": 41,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 26,
+   "T_plus_demi_Fb": 26.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192013
+  },
+  {
+   "V": 13,
+   "E": 36,
+   "T": 13,
+   "F": 37,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 24,
+   "T_plus_demi_Fb": 24.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192014
+  },
+  {
+   "V": 13,
+   "E": 38,
+   "T": 15,
+   "F": 41,
+   "Fb": 22,
+   "surchargees": 0,
+   "exces": 26,
+   "T_plus_demi_Fb": 26.0,
+   "identite": true,
+   "euler": 1,
+   "graine": 192015
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+C-193Bc -- contre-calcul independant du C-193B de ChatGPT (Claude). Ecrit le 2026-11-17 11:46:35 UTC, avant toute execution de c193bc.py.
+Recherches ouvertes nommees : RO-24, RO-25. La << machine temoin >> (chemin, puis fermeture de toutes les paires a distance 2, registre B) est une HYPOTHESE D'AUDITEUR de ChatGPT, son protocole le dit ;
+elle n'est pas la mitose du master. Son critere E5 ecrit d'avance que RO-24 reste ouverte quel que soit le resultat : rien ne peut etre ferme ici.
+Etat d'aveuglement : lu le seul C193B_PROTOCOLE_SCELLE.md (SHA-256 55349392e04a456f46f10c9d315eb3c83e8cdf6eab91fcdca444304f4cf1b82f) et les noms et tailles des 13 fichiers de l'archive
+ (dont un C193B_POSTHOC_CONTRE_EXEMPLE.md : j'en deduis seulement qu'un de ses enonces a rencontre un contre-exemple ; contenu non lu). Rien d'autre.
+NON aveugle : mes propres etats C-192Uc (je sais que les contacts non genealogiques y valent 22 a 27 a 13 porteurs) ; A15, C15, sigma (C-189Dc, C-190c).
+
+PREDICTIONS, ETABLIES A LA MAIN
+ B1 (son T1) VRAI pour une vraie boule : E = V - 1 + T + Fb/2. Controles : tetraedre (4, 6, 1, 4) ; bipyramide pentagonale LJ7 : T = 5, Fb = 10, E = 16 ; icosaedre centre LJ13 : T = 20, Fb = 20, E = 42 ;
+    boules empilees au hasard : identite exacte a chaque etape. RESERVE que je pose d'avance : la condition << chaque face dans 1 ou 2 tetraedres, pas de chevauchement >> ne suffit PAS a faire une boule ;
+    pour un tore plein (caracteristique 0) on trouve E - (V - 1) = T + Fb/2 + 1. L'identite est donc necessaire, pas suffisante, et seulement pour une boule.
+ B2 (son T2) VRAI : sur le tore T^3, E = V + T. Controle sur mes cristaux : A15 : 8 + 46 = 54 ; C15 : 24 + 136 = 160 ; sigma : 30 + 172 = 202. Je predis donc T = 46, 136, 172 tetraedres par maille.
+ B3 (son T3) VRAI : apres t tours le graphe est la puissance 2^t du chemin ; nombre d'aretes k N - k(k+1)/2 avec k = min(2^t, N-1). Tours jusqu'au graphe complet : N = 4 : 2 ; 5 : 2 ; 6 : 3 ; 7 : 3 ; 13 : 4 ; 19 : 5.
+    Aretes par tour : N = 13 : 12, 23, 42, 68, 78 ; N = 19 : 18, 35, 66, 116, 168, 171. (Je note d'avance la coincidence : 42 aretes au tour 2 pour N = 13, le nombre de l'icosaedre, sans sa structure.)
+    Tetraedres (cliques de 4) : tour 1 : 0 partout ; tour 2 : 4N - 15 pour N >= 5 (N = 13 : 37 ; N = 19 : 61 ; N = 7 : 13 ; N = 6 : 9 ; N = 5 : 5) ; a la fin C(N,4) : 1, 5, 15, 35, 715, 3876.
+    Faces surchargees : aucune a aucun tour pour N = 4 et 5 ; pour tout N >= 6, il y en a DES LE TOUR 2, avant le graphe complet ; a la fin toutes les C(N,3) faces le sont (20, 35, 286, 969).
+    Pour N = 5 la fin est K5 = bord du 4-simplexe (chaque face dans exactement 2 tetraedres, aucun bord) : ce n'est pas une boule de dimension 3 ; E - (V-1) = 6 alors que T + Fb/2 = 5.
+ B4 Bilan : E_tot = U + B = 0 exactement (entiers) a chaque naissance et a chaque tour ; N + F = Nmax. Temoin sans fermeture : chemin, 0 tetraedre.
+ B5 (son T4) VRAI : dans le repere de repos, energie m avant, au moins 2m apres. Preuve, pas de calcul.
+ B6 Relecture de C-192 a 13 porteurs, bras LJ (mes trajectoires, seuil 1,30) : les 16 ont M < 42 ; M entre 32 et 40 ; M - g < 30 pour les 16 ; son critere E2 n'est pas declenche.
+    Bras WCA : M inferieur a celui du bras LJ pour chaque graine, et au plus 20.
+ B7 (mon ajout) l'identite de B1, appliquee a mes 16 etats LJ a 13 porteurs avec Fb = faces dans un seul tetraedre, est FAUSSE pour au moins 12 d'entre eux : leur complexe de tetraedres n'est pas une boule
+    (liens pendants, tetraedres joints par un sommet ou une arete).
+ B8 Ses criteres : E1 non declenche (aucun tissu valide non clique a N = 13) ; E3 non declenche ; E4 non declenche pour les vraies boules et pour T3.
+Lecture annoncee : identites vraies mais classiques (Euler) ; la machine ne selectionne aucun tissu : sans geometrie ni exclusion, la fermeture a distance 2 court au graphe complet. Cela dit ce qu'une fermeture
+ purement combinatoire NE PEUT PAS faire ; cela ne dit rien de la regle du master. TOE 0/7.
