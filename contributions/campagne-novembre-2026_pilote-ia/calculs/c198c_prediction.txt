@@ -1,0 +1,25 @@
+C-198c -- contre-calcul independant du C-198 de ChatGPT (<< cellules >> : mouvements de Pachner dans une boule) et un ajout (Claude). Ecrit le 2026-11-17 13:20:26 UTC, avant toute execution de c198c.py.
+Recherches ouvertes nommees : RO-24, RO-08. Le modele est une HYPOTHESE D'AUDITEUR de ChatGPT : la dimension 3 et le premier tetraedre y sont DONNES (son H1), le bord est fige (H2), les mouvements et leurs taux sont
+choisis par lui (H3), aucune energie (H5). Son protocole l'ecrit : aucune reussite ici ne peut fermer RO-24, RO-08 ni un verrou.
+RESERVE POSEE D'AVANCE : que le resultat soit un tissu de dimension 3 valide est GARANTI par theoreme (les mouvements de Pachner conservent le type de la boule) ; ce n'est pas une epreuve qui peut echouer,
+sauf faute de programme. Il identifie lui-meme que 1->4 (un sommet + QUATRE aretes) n'est pas la mitose du master (un sommet + UNE arete).
+Etat d'aveuglement : lu le seul C198_PROTOCOLE_AVANT_CALCUL.md (SHA-256 42fa57cfbc0b1bdfbdfa542b049213b2e7b84edde59e0e91b253a5074bb7ddeb) et les noms et tailles des fichiers de C-198 et de C-199. Rien d'autre.
+LIMITE DECLAREE : l'ordre des candidats n'est pas fixe par le protocole ; accord STATISTIQUE vise, exact seulement pour le bras ONLY14 (independant des tirages).
+
+PREDICTIONS (8 graines 198000 a 198007 ; bras GROW et BALANCED 240 tentatives ; ONLY14 120 mouvements)
+ G1 Tous les controles passent dans les 24 trajectoires : caracteristique 1 ; faces dans 1 ou 2 tetraedres ; les 4 faces du bord intactes ; E - (V - 1) = T + 2 ; liens des sommets (sphere ou disque) ;
+    nombres de Betti sur F2 = (1, 0, 0, 0).
+ G2 ONLY14, identique pour les 8 graines : V = 124, E = 486, F = 724, T = 361 ; cliques de 4 du graphe = 481, soit 120 << cellules >> fictives ; incidence moyenne 6T/E = 4,457.
+ G3 Acceptation : 1->4 toujours (100 %) ; 2->3 au moins 85 % dans GROW ; 3->2 entre 30 % et 95 % ; 4->1 au moins 50 %.
+ G4 Incidence moyenne 6T/E, toutes aretes : entre 4,30 et 4,95 dans les 16 trajectoires GROW et BALANCED ; AUCUNE n'atteint 5,0 ; d* = 5,104 n'est pas approchee. T/V final sous 4,5 partout (il faudrait 5,70).
+ G5 Spectre des incidences des aretes interieures, LARGE : incidence 3 au moins 20 % et incidences 5 et 6 ensemble moins de 45 %, dans chacun des trois bras (toutes graines reunies) ;
+    incidences superieures a 6 au moins 3 % dans ONLY14 et dans GROW.
+ G6 Cliques de 4 du graphe >= cellules dans les 24 trajectoires ; strictement plus dans au moins 20.
+ G7 Etiquettes reutilisees : au moins 5 par trajectoire dans au moins 6 trajectoires GROW sur 8.
+MON AJOUT : peut-on viser d* avec ces mouvements, et qu'obtient-on ?
+ Compte a la main : 1->4 apporte 4 aretes par sommet ; un tissu de moyenne d* en demande 6,70 (C-194c) ; il faut donc 2,70 mouvements 2->3 nets par insertion.
+ Bras CIBLE : seulement 1->4 et 2->3, poids 1 et 2,70, 400 tentatives, 8 graines 198100 a 198107.
+ G8 Incidence moyenne 6T/E entre 5,02 et 5,11 dans les 8 trajectoires (limite d* a taille infinie) -- MAIS le spectre n'a rien du motif cinq/six : incidences 5 et 6 ensemble moins de 50 % des aretes
+    interieures, incidence 3 presente (au moins 10 %), et incidence maximale au moins 9.
+ Lecture annoncee si G8 tient : la moyenne d* s'obtient par un simple reglage de taux, avec un tissu sans rapport avec A15, C15 ou sigma. La moyenne seule ne distingue rien ; ce qui distingue est le spectre
+ (rien que des 5 et des 6), et aucune regle ici ne le produit. TOE 0/7.

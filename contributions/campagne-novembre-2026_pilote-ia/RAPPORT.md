@@ -366,7 +366,7 @@ Telles quelles et contrôlées octet pour octet : ses passations C-172, C-173, P
 
 ## 8 octies. Ajout du 17 novembre, 11 h 40 UTC : relève de la quatrième conversation, C-192Uc, X-15
 
-Échecs d'abord : lecture de la conversation refusée par le service pendant cinq heures (rien contourné) ; deux archives de ChatGPT sur huit encore non lues à 13 h UTC (C-198, C-199) ; deux clauses de prédiction fausses ou partielles ; une phrase du 16 novembre trop large, corrigée.
+Échecs d'abord : lecture de la conversation refusée par le service pendant cinq heures (rien contourné) ; une archive de ChatGPT sur huit encore non lue à 13 h 30 UTC (C-199) ; deux clauses de prédiction fausses ou partielles ; une phrase du 16 novembre trop large, corrigée.
 
 | pièce | résultat | statut |
 |---|---|---|
@@ -377,6 +377,7 @@ Telles quelles et contrôlées octet pour octet : ses passations C-172, C-173, P
 | C-195c | modèle d'auditeur sans centre par construction ; aucune poche multiple (0 sur 8) ; ajout : l'arbre des naissances garde la trace de son premier sommet (parmi les 10 plus centraux dans 88,5 % des cas) | [M] ; parent uniforme = hypothèse d'auditeur |
 | C-196c | modèle d'auditeur des cycles de poches : aucune oscillation, même état figé pour toutes les poches (accord à douze chiffres) ; ajout : avec réserve inépuisable, croissance en t^(4/3), exponentielle seulement si aucun porteur n'est retenu en matière | [M] ; ne teste pas la prémisse de l'auteur, la précise en une question |
 | C-197c | graphe en croissance avec fermeture locale et rupture : populations identiques graine par graine, mêmes verdicts que ChatGPT, écart de 15 à 20 % sur les triangles ; les « poches » sont des débris de rupture qui ne se rejoignent jamais ; l'origine ne perd sa centralité que par usure | [M] générateur d'auditeur ; [T] non-rejonction |
+| C-198c | mouvements de Pachner dans une boule donnée : accord exact graine par graine ; tissu valide par théorème ; incidence moyenne 4,4 à 4,65, rien ne sélectionne 5 et 6 ; ajout : la moyenne d★ s'obtient par réglage de taux avec un spectre sans rapport avec les cristaux | [T] validité ; [M] ; la moyenne seule ne distingue rien |
 
 Paroles de l'auteur du 17 novembre : au carnet, section 132, telles quelles. Détail : [carnet du 17 novembre](carnets/2026-11-17_C-192Uc_et_releve.md). **TOE 0/7.**
 
