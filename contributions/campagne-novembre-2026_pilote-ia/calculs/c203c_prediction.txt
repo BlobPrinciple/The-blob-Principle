@@ -1,0 +1,15 @@
+C-203c -- temoin de Delaunay sur les positions de C-202c : un volume certifie par une selection geometrique des cellules passe-t-il le critere de spectre ? (Claude). Ecrit le 2026-11-17 18:33:59 UTC, avant execution de c203c.py.
+Recherche ouverte nommee : RO-24. Parole de l'auteur : une vraie cellule, c'est << le volume ! >>.
+Etat d'aveuglement : lu le seul C203_PROTOCOLE_AVANT_CALCUL.md de ChatGPT (SHA-256 88f957e4172a36ef44102a58607d300d33a8e14a46f9edbc6a295689b61c20cb) et les noms de ses fichiers. Son protocole annonce un temoin de
+ Delaunay et predit qu'il couvre le volume sans face surchargee ; aucune de ses valeurs n'est lue. Il recalcule aussi mon C-202c (rien a refaire de mon cote).
+La triangulation de Delaunay (regle de la sphere vide) est un TEMOIN GEOMETRIQUE D'AUDITEUR, pas une regle du Blob : elle choisit les cellules en regardant toutes les positions a la fois.
+Entree : les memes 600 positions par graine que C-202c (graines 202000 a 202007). Aretes interieures = aretes dont aucun sommet... dont tous les tetraedres forment un anneau ferme (non situees au bord).
+
+PREDICTIONS
+ V1 Volume certifie, 8 graines sur 8 : aucune face portee par plus de 2 cellules ; caracteristique d'Euler 1 (boule) ; tous les volumes positifs. (Theoreme, sauf faute de programme.)
+ V2 Incidence moyenne des aretes interieures : entre 5,0 et 5,4 dans les 8 graines (valeur connue pour des points au hasard : environ 5,23). Proche de d* = 5,104 SANS en etre : coincidence d'ordre de grandeur.
+ V3 Spectre LARGE : part des aretes interieures d'incidence 5 ou 6 entre 35 % et 60 % dans les 8 graines : le critere de spectre (au moins 90 %) ECHOUE. Incidences 3 et 4 presentes (au moins 15 % ensemble),
+    incidences de 8 ou plus presentes.
+ V4 Les aretes de Delaunay ne sont pas des liens de proximite : moins de 70 % d'entre elles ont une longueur d'au plus 1,30.
+Lecture annoncee si V1 a V3 tiennent : choisir les cellules par la geometrie donne bien un volume, comme l'auteur le demande, mais des points poses sans regle de distance donnent un tissu quelconque,
+ pas le motif cinq/six. Le volume est necessaire ; il ne suffit pas. Ce qui ordonne les positions reste a donner par l'auteur. TOE 0/7.

@@ -382,6 +382,7 @@ Telles quelles et contrôlées octet pour octet : ses passations C-172, C-173, P
 | C-200c, X-16 | canal généalogique « H » : recolle les morceaux, l'origine reste et tend à se renforcer (7 graines sur 12 chez moi, 8 chez ChatGPT ; seuil scellé non atteint) ; l'écart de C-197 vient d'une convention de tirage | [M] modèle d'auditeur ; non aveugle |
 | critère de spectre | ma proposition pour RO-24 prise en défaut par un contre-exemple exact de ChatGPT (deux A15 recollés par un sommet) ; critère amendé : volume certifié d'abord, spectre ensuite | proposition commune, non gelée |
 | C-202c | règle de liaison écrite au master V346 (XV.8, XV.9), valeurs numériques d'auditeur : aucun volume certifié (85 à 100 % de faces partagées par plus de deux cellules) ; il manque une longueur ou une exclusion | [M] ; lecture du pilote, à corriger par l'auteur |
+| C-203c | témoin de Delaunay sur les mêmes positions : volume certifié, incidence moyenne 5,18, 42 à 45 % d'arêtes à cinq ou six ; ma lecture de l'interdiction du master reconnue fautive (trop faible et trop forte) | [M] témoin d'auditeur ; le volume est nécessaire, non suffisant |
 
 Paroles de l'auteur du 17 novembre : au carnet, section 132, telles quelles. Détail : [carnet du 17 novembre](carnets/2026-11-17_C-192Uc_et_releve.md). **TOE 0/7.**
 
