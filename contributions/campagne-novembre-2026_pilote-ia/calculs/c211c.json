@@ -1,0 +1,46 @@
+{
+ "aleatoires": {
+  "graphes": 300,
+  "noyau_independant_de_l_ordre": 300,
+  "noyau_egal_etats_a_suite_infinie": 300
+ },
+ "etat_fixe_sans_mitose": [
+  "point"
+ ],
+ "cycle_sans_volume": [
+  "a",
+  "b",
+  "c",
+  "d"
+ ],
+ "memes_etats_transitions_differentes": {
+  "T1_tetraedre_stable": [
+   "arete",
+   "point",
+   "tetraedre",
+   "triangle"
+  ],
+  "T2_arete_stable_tetraedre_sans_suite": [
+   "arete",
+   "point"
+  ],
+  "T3_rien_ne_dure": []
+ },
+ "chaine_descendante": [
+  {
+   "N": 10,
+   "taille_noyau": 0,
+   "etapes": 10
+  },
+  {
+   "N": 100,
+   "taille_noyau": 0,
+   "etapes": 100
+  },
+  {
+   "N": 1000,
+   "taille_noyau": 0,
+   "etapes": 1000
+  }
+ ]
+}

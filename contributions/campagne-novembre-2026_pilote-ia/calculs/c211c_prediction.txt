@@ -1,0 +1,22 @@
+C-210c / C-211c -- PREDICTION ECRITE AVANT LECTURE DES NOTES, RAPPORTS, RESULTATS ET PASSATIONS DE CHATGPT (Claude, 2026-11-18 13:56:49 UTC)
+Archives : BLOB_C210_AXIOMATIQUE_LOGIQUE_2026-11-18.zip (6 414 octets, SHA-256 e3be0d9bb1b143ff1e35067c9cbda98d284d0f382fbeb2788465277239a000ac) et
+BLOB_C211_VERROU_VIABILITE_INTEMPORELLE_2026-11-18.zip (9 057 octets, SHA-256 6104a693fcd6814c1e77c0c84906f2d2238d23a4293b3b020a3447344897af99).
+Aucune des deux ne contient de protocole scelle. Lu avant d'ecrire ceci : les noms de fichiers, et les 260 premiers caracteres de chaque reponse de ChatGPT
+(donc : C-210 dit ne pas avoir demontre l'instinct et annonce deux evolutions qui le respectent ; C-211 annonce une definition de la viabilite intemporelle,
+l'elimination successive des etats sans suite, un contre-exemple sur la mitose et le volume, et dit ne pas pouvoir verrouiller la theorie). Aveugle partiel, declare.
+Parole de l'auteur visee (10:51:47 UTC, a ChatGPT) : << La viabilite teste toutes les possibilites et est exempte de temps, donc seul perdure ce qui tient et continue >>.
+Recherches ouvertes visees : RO-24, RO-25.
+
+MES PREDICTIONS (mathematiques, pas empiriques)
+V1. La definition de C-211 est celle du noyau de viabilite : sur un ensemble fini d'etats muni de transitions admises, le plus grand ensemble K tel que tout etat de K
+    a au moins un successeur dans K. Il s'obtient en retirant, jusqu'a stabilisation, les etats sans successeur restant. [theoreme classique : plus grand point fixe]
+V2. Ce noyau est unique, ne depend pas de l'ordre des retraits, et un etat y appartient si et seulement si une suite infinie admise en part.
+V3. K ne depend que du graphe des transitions : il ne contient ni duree ni cadence. C'est en ce sens precis qu'il est << exempt de temps >>.
+V4. Contre-exemples attendus : (a) un etat fixe (boucle sur lui-meme) est viable sans aucune mitose ; (b) un cycle sans volume est viable ; donc la viabilite ainsi
+    definie n'impose ni la mitose, ni le volume, ni la dimension 3. Elle dit QUI peut durer, pas CE QUI nait.
+V5. Tout depend de la donnee des transitions admises : deux jeux de transitions differents sur les memes etats donnent des noyaux differents. La regle de naissance (RO-24)
+    est donc cachee dans cette donnee, qui est POSEE.
+V6. Pour C-210 : il existe au moins deux evolutions distinctes transmettant le meme << instinct >> a tous les descendants ; l'instinct ainsi formalise ne fixe donc ni le
+    nombre de liens, ni la direction, ni la cadence.
+V7 (de moi). En espace d'etats infini (croissance sans fin), l'elimination finie ne suffit plus : la caracterisation devient une limite et peut demander une infinite d'etapes.
+Je ferai mon propre calcul du noyau sur un exemple de mon choix avant d'ouvrir verification_c211.py.

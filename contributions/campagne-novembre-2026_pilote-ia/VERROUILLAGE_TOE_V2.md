@@ -205,6 +205,8 @@ Paroles de l'auteur du 15 novembre, statut [H] : les simplexes peuvent se touche
 
 **Complément du 18 novembre, relecture de tous les masters (carnet du 18 novembre, sections 161 à 163).** Parole de l'auteur : « Recheck tous les masters ». Le corpus avait nommé la question du volume dès le 4 juillet (Master propre du 7 juillet, p. 82 : complexe de cliques contre complexe géométrique restreint ; « échafaudage 3D poreux », « pas variété propre ») ; ce passage manque aux masters complets postérieurs. Le master nomme ses moteurs de référence (`blob_engine.py`, `blob_mitose.py`) ; le second n'est pas au corpus public. X-19 reproduit la mesure du corpus sur son moteur ([M], non recoupé). Aucun verrou ne change d'état : la RO-24 reste ouverte, et le passage du régime de croissance libre au régime à volume fixé n'est pas dérivé (armature p. 29). **TOE 0/7.**
 
+**Complément du 18 novembre, après-midi (carnet du 18 novembre, sections 168 à 171).** Paroles de l'auteur : « La viabilité teste toutes les possibilités et est exempte de temps, donc seul perdure ce qui tient et continue » ; « À verrouiller maintenant ! ». Ce qui se fixe : une définition formelle de la viabilité intemporelle (ce qui peut continuer sans fin, sans durée), comme convention soumise à l'adoption de l'auteur et à son choix entre deux lectures (une suite qui continue suffit / toutes doivent continuer). Ce qu'elle ne donne pas, démontré et contre-vérifié (C-210, C-211c) : ni la mitose, ni le volume, ni une prédiction unique. X-19 est recoupé par ChatGPT (C-209). Aucun verrou ne change d'état. **TOE 0/7.**
+
 ## 2. Les sept verrous au 12 novembre
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |

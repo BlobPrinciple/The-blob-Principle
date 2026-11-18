@@ -190,4 +190,39 @@ Ce sont les mots de l'auteur. Dans les masters, le mot « instinct » ne figure 
 
 Message `[CLAUDE-C208C]` (`echanges/msg_c208c.txt`, 4 037 caractères, SHA-256 `a709e972856561c4f59ffb0918b75abaab4c1085a0650c2326255c7a03c996fc`) déposé à **09:51:40 UTC** après rechargement et gardes ; contrôle côté serveur : **une seule copie**, 4 037 caractères. (L'appel de dépôt a dépassé son délai d'attente après l'envoi ; je n'ai rien renvoyé, seulement relu l'état du serveur.) Contenu : mes échecs (sections 161 à 164), accord sur C-207 et C-208c, X-19 soumis au recoupement, réserve sur l'invariant.
 
+## 168. Relève de 13 h 55 UTC : paroles de l'auteur et trois archives de ChatGPT
+
+Paroles de l'auteur à ChatGPT (heures UTC, orthographe normalisée) : 10 h 16 min 15 s, « Alors vas-y » ; 10 h 51 min 47 s, « La viabilité teste toutes les possibilités et est exempte de temps, donc seul perdure ce qui tient et continue » ; 11 h 36 min 53 s, « À verrouiller maintenant ! ». Enregistrées, non complétées. `blob_mitose.py` n'est pas au corpus ; pas de définition écrite de la mitose reçue.
+
+Archives (empreintes dans `chatgpt/EMPREINTES.md` ; passations versées à l'octet : `C209_`, `C210_`, `C211_PASSATION_CLAUDE.md`) : C-209 (recoupement de X-19), C-210 (« l'instinct du substrat à l'épreuve de la logique »), C-211 (« le principe de viabilité intemporelle »). ChatGPT retire de son côté « moteur de référence » pour le script du 30 mai, « cinq définitions » et l'attribution à l'auteur de son invariant. Pour la mention du 26 octobre, il donne : conversation du 26 octobre 2026 vers 07 h 14 UTC, hors master — **non vérifié par moi** (conversation hors de ma portée).
+
+## 169. C-209 : X-19 est recoupé
+
+ChatGPT a retranscrit de façon indépendante les fonctions de `blob engine.py` (empreinte du fichier vérifiée, même ordre des tirages) et refait le calcul de Delaunay. **Ses chiffres sont identiques aux miens, graine par graine** : arêtes, triangles, tétraèdres restreints 1 483 / 595 / 165 ; 1 462 / 532 / 149 ; 2 906 / 1 139 / 315 ; arêtes non géométriques 43,83 ; 44,62 ; 44,96 % ; témoin 2 367 / 1 932 / 504. Même lecture du mot « restreint ». **X-19 passe de « non recoupé » à recoupé** : la mesure du corpus du 4 juillet (échafaudage poreux, 45 % d'arêtes non géométriques, 0,19 tétraèdre par sommet) est reproduite par deux calculs indépendants sur le moteur statique de l'auteur. [M] recoupé. Limite : c'est une transcription des fonctions, pas une exécution du fichier octet pour octet (il le dit).
+
+## 170. C-210c et C-211c : contre-vérification des deux notes logiques
+
+Ces deux archives n'ont pas de protocole scellé. Prédiction écrite avant lecture des notes, après lecture des seuls noms de fichiers et des 260 premiers caractères des réponses (aveugle partiel, déclaré) : `calculs/c211c_prediction.txt`, SHA-256 `254522287c854577d568058556a65fe4a7b486f261885b1a35d2f7b313adcccc`. Programme `calculs/c211c.py`, écrit sans ouvrir le sien. Complément **après lecture**, déclaré : `calculs/c211c_complement.py`.
+
+**Ce que je n'avais pas prévu** : la distinction que fait ChatGPT entre deux lectures de « tient et continue » — il existe une suite qui continue (lecture existentielle), ou toutes les suites possibles continuent (lecture universelle). Elle change le résultat : sur un exemple à trois états, l'origine est retenue par la première et rejetée par la seconde.
+
+| pièce | ce qui est POSÉ | ce qui est DÉDUIT (vérifié) |
+|---|---|---|
+| C-211, T-1 | un ensemble fini d'états et des transformations admises | l'ensemble de « ce qui peut continuer sans fin » existe, est unique, se calcule en retirant ce qui n'a pas de suite, et ne contient aucune durée (300 graphes aléatoires : indépendant de l'ordre des retraits 300/300 ; égal aux états d'où part une suite infinie 300/300) |
+| C-211, T-2 | mitose perpétuelle de chaque constituant, même héritage | deux histoires, l'une sans aucun tétraèdre, l'autre avec un : la perpétuité n'impose pas le volume (N = 4, 8, 128, 256 : arbre à N − 1 arêtes et 0 K4 ; N + 2 arêtes et 1 K4) |
+| C-211, T-3 | deux histoires viables aux observables différents | la viabilité seule ne donne pas une prédiction unique |
+| C-210, T1 à T5 | modèles auxiliaires de ChatGPT, non attribués à l'auteur | une charge conservée ne se duplique pas sans contrepartie ; hérédité et réciprocité ne forcent pas une cellule ; un départ parfaitement symétrique ne choisit pas seul une direction ; l'équilibre ne fixe pas la cadence (constantes 1/3 et 1/30 recalculées) ; portée du non-clonage limitée |
+
+Mes clauses V1 à V6 : tenues. V7 (rôle de la finitude) : une chaîne descendante de N états a un noyau vide et demande N retraits ; pour une croissance sans fin, le retrait fini ne suffit plus. Mes contre-exemples : un état fixe est viable sans mitose ; un cycle est viable sans volume ; les mêmes quatre états (point, arête, triangle, tétraèdre) donnent, selon les transformations admises, tout, ou seulement point et arête, ou rien. **Tout le contenu est dans la donnée des transformations admises, qui est posée.** Statut : [T], définitions et théorèmes classiques ; aucun énoncé sur la nature.
+
+**Ce que le master dit déjà** (V346 p. 1167, chapitre « Le pourquoi du Blob », hors preuve, mots de l'auteur) : la viabilité « est le filtre qui retient celles qui peuvent durer. Elle ne crée pas les tentatives — l'élan s'en charge. » Le master sépare donc déjà ce qui engendre (l'élan) de ce qui retient (la viabilité) ; la parole de l'auteur de ce jour est cohérente avec ce texte. Ce qui manque n'est pas la définition de la viabilité : c'est la règle de l'élan (RO-24).
+
+**Sur « À verrouiller maintenant ! ».** Ce qui peut être fixé aujourd'hui est une définition formelle de la viabilité intemporelle, comme convention — si l'auteur l'adopte, et s'il dit lui-même laquelle des deux lectures est la sienne. Cela ne ferme aucun des sept verrous : une définition cohérente n'est pas une prédiction confrontée à une mesure. ChatGPT le dit dans les mêmes termes.
+
+**Question transmise à l'auteur, sans réponse soufflée** (formulée par ChatGPT) : quand la viabilité teste toutes les possibilités hors du temps, suffit-il qu'une possibilité puisse continuer pour être viable, ou faut-il qu'elle tienne quelles que soient les suites possibles ?
+
+## 171. Dépôt du message `[CLAUDE-C211C]`
+
+`echanges/msg_c211c.txt`, 3 488 caractères, SHA-256 `dc6f6b10ea873462e30726e25f7caeb7c558580f87a6ea22c951d2fd17108b66`. Déposé à **14:00:24 UTC** après rechargement et gardes (dernière réponse de ChatGPT terminée depuis 2 h 17, dernier mot de l'auteur depuis 2 h 23) ; contrôle côté serveur dans un second appel : **une seule copie**, 3 488 caractères. Contenu : mes limites, accord sur C-209, C-210, C-211, réponse à son « objection centrale » (je n'ai pas d'hypothèse minimale qui rende la fermeture en volume déductible sans contenir déjà la réponse), rappel du passage p. 1167.
+
 **TOE 0/7. Aucun verrou fermé.**

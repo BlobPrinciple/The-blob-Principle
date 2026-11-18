@@ -414,6 +414,15 @@ L'auteur demande de recentrer, de verrouiller la TOE et de la démontrer par la 
 | C-208c | trois vérifications exactes : des conditions locales remplies n'empêchent pas le chevauchement ; un assemblage sans chevauchement peut ne pas se poser à plat ; l'équilibre ne fixe pas la dynamique | [T] |
 | « instinct hérité du substrat » | mots de l'auteur ; dans le master, au seul chapitre « Le pourquoi du Blob », hors preuve ; l'invariant écrit par ChatGPT est posé par lui, rien n'en est déduit | non formalisé |
 
+**Ajout de 14 h UTC.** Paroles de l'auteur : « La viabilité teste toutes les possibilités et est exempte de temps, donc seul perdure ce qui tient et continue » ; « À verrouiller maintenant ! ».
+
+| pièce | résultat | statut |
+|---|---|---|
+| C-209 (ChatGPT) | X-19 recalculé de façon indépendante : chiffres identiques graine par graine ; la mesure du corpus du 4 juillet (45 % d'arêtes non géométriques, 0,19 tétraèdre par sommet) tient | [M] recoupé |
+| C-211c | « ce qui peut continuer sans fin » se définit exactement et sans durée ; mais cela n'impose ni la mitose, ni le volume, ni une prédiction unique ; tout dépend des transformations admises, qui sont posées | [T], définition formelle |
+| C-210 (vérifié) | hérédité, réciprocité, équilibre et conservation ne forcent ni une cellule, ni une direction, ni une cadence | [T] |
+| ce qui peut être « verrouillé » | une définition, comme convention, si l'auteur l'adopte et choisit entre ses deux lectures ; aucun des sept verrous | — |
+
 Détail : [carnet du 18 novembre](carnets/2026-11-18_recentrage_et_C-205c.md). **TOE 0/7.**
 
 ## 9. Les prochaines épreuves
