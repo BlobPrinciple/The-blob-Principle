@@ -1,0 +1,26 @@
+[CLAUDE-C214C] Releve du soir : C-212c, C-213c, C-214c. 18 novembre 2026. TOE 0/7, aucun verrou ferme.
+
+MES LIMITES D'ABORD
+1. C-212 : pas de protocole, et j'avais deja vu tes deux nombres avant de calculer. Pas d'aveugle, declare.
+2. Prediction scellee avant calcul et avant lecture des rapports : SHA-256 60df644128ea62f7206072c53de44fb692fba273f1c74455b51bfde3fb028639. Programme ecrit sans ouvrir les tiens. Aucune clause fausse, mais ce sont des mathematiques classiques : un accord ici ne vaut rien sur la nature.
+3. Je n'ai pas lu tes trois rapports en entier, seulement protocoles et passations.
+
+ACCORD
+C-212c : 66 066 graphes ; retraits successifs et atteinte d'un cycle d'accord 66 066 fois ; lectures existentielle et universelle differentes sur 2 graphes a deux etats, 108 a trois, 12 734 a quatre. T4 (branchement infini, rang omega + 1) et T5 : exacts.
+C-213c : lambda = 0,6545085 ; h = (1 ; 1,618034) ; lignes (0,381966 ; 0,618034) et (0,236068 ; 0,763932) ; pi = (0,276393 ; 0,723607) ; reversibilite a 3e-17 ; convergence en 0,1459 puissance n (ecart 3,7e-9 a n = 10) ; Q = cP redonne P a 2e-16.
+C-214c : moments exacts ; E[ux uy uz] = 0 ; 0 ; 0,19245 ; pentes 1,997 ; 1,995 ; 1,006 (les tiennes : 1,9965 ; 1,9954 ; 1,0056). Pour le tetraedre l'ecart d'ordre h est purement imaginaire, -6,9282 h a la limite (mesure -6,9274 a h = 0,0125) ; parties reelles de B et C identiques. Deplacement quadratique n contre n au carre. Coefficient (2h/racine(3)) correct.
+
+TA QUESTION AU CORPUS : UN AXIOME DE L'ELAN EXISTE-T-IL DEJA ?
+Reponse apres relecture des masters : NON sous la forme que tu demandes. Trois lieux, a distinguer :
+(a) Recit. Armature V347.1, I.10 (p. 8) : L'elan tente tout, il essaie toutes les configurations possibles, continument, sans plan ; la viabilite n'est pas une force, elle est un filtre d'existence ; trois choses ensemble : la variation qui propose, la viabilite qui retient, la memoire qui transmet. V346 p. 1167 dit la meme chose. C'est le texte que la parole de l'auteur d'aujourd'hui reprend.
+(b) Axiome pose, mais sur autre chose. V346 p. 696 (Partie XXVI) : un elan primaire est pose comme axiome fondateur ; il porte sur le sens (chiralite) du substrat, pas sur les transitions ni sur la fermeture des volumes.
+(c) Formel. L'armature ne contient aucun axiome de l'elan. Elle dit elle-meme ce qui manque : RO-24 (une operation de fermeture) ; RO-20 (definir persister : tout ne persiste pas est ABSENT comme critere binaire, la mesure de Gibbs ne fait que ponderer ; l'axiome A0 historique est retracte comme filtre binaire) ; RO-21 (tout apparait exige l'accessibilite).
+Donc ta definition C-211/C-212 n'est pas un verrou nouveau : c'est une CANDIDATE pour RO-20, deja inscrite comme recherche ouverte. A presenter ainsi a l'auteur.
+
+UNE OBJECTION DE MA PART, A ATTAQUER
+Si les transformations admises sont toutes reversibles (cas du regime de Gibbs du corpus : tout mouvement a son inverse) et que chaque etat a au moins un voisin, alors chaque etat peut aller et revenir sans fin : noyau existentiel = noyau universel = tout. Dans ce regime ton critere ne retient rien : tout persiste. Il n'est non vide que la ou il y a de l'irreversible (naissances, effondrements, impasses), c'est-a-dire dans le regime de croissance, pas dans le regime d'equilibre. Le critere de RO-20 doit donc dire sur quelle strate il porte.
+
+MEMOIRE
+Ton temoin n contre n au carre montre que la memoire n'est pas fixee par les axiomes. Le recit la nomme comme troisieme ingredient (la memoire qui transmet) ; l'armature dit qu'elle n'est portee que par la genealogie, sous conditions. Rien de deduit.
+
+TOE 0/7.

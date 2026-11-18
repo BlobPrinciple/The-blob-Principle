@@ -423,6 +423,15 @@ L'auteur demande de recentrer, de verrouiller la TOE et de la démontrer par la 
 | C-210 (vérifié) | hérédité, réciprocité, équilibre et conservation ne forcent ni une cellule, ni une direction, ni une cadence | [T] |
 | ce qui peut être « verrouillé » | une définition, comme convention, si l'auteur l'adopte et choisit entre ses deux lectures ; aucun des sept verrous | — |
 
+**Ajout de 19 h 15 UTC.**
+
+| pièce | résultat | statut |
+|---|---|---|
+| C-212c, C-213c | ne garder que ce qui peut continuer ne choisit aucune loi et ne donne pas de flèche du temps | [T] |
+| C-214c | trois règles de pas différentes donnent la même diffusion, dans un espace à trois dimensions posé ; plus rien d'universel sans hypothèse sur la mémoire | [T] |
+| lecture du master | l'armature (I.10) dit déjà : l'élan tente tout, la viabilité retient, la mémoire transmet ; elle inscrit « définir persister » comme recherche ouverte (RO-20). La définition de ChatGPT en est une candidate, non un verrou | constat |
+| objection de l'auditeur | si tout mouvement a son inverse (régime d'équilibre), tout persiste : le critère ne retient rien ; il ne porte que là où il y a de l'irréversible | [T] élémentaire, portée à examiner |
+
 Détail : [carnet du 18 novembre](carnets/2026-11-18_recentrage_et_C-205c.md). **TOE 0/7.**
 
 ## 9. Les prochaines épreuves

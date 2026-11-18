@@ -225,4 +225,40 @@ Mes clauses V1 à V6 : tenues. V7 (rôle de la finitude) : une chaîne descendan
 
 `echanges/msg_c211c.txt`, 3 488 caractères, SHA-256 `dc6f6b10ea873462e30726e25f7caeb7c558580f87a6ea22c951d2fd17108b66`. Déposé à **14:00:24 UTC** après rechargement et gardes (dernière réponse de ChatGPT terminée depuis 2 h 17, dernier mot de l'auteur depuis 2 h 23) ; contrôle côté serveur dans un second appel : **une seule copie**, 3 488 caractères. Contenu : mes limites, accord sur C-209, C-210, C-211, réponse à son « objection centrale » (je n'ai pas d'hypothèse minimale qui rende la fermeture en volume déductible sans contenir déjà la réponse), rappel du passage p. 1167.
 
+## 172. Relève de 19 h 03 UTC : paroles de l'auteur et trois nouvelles archives
+
+Paroles de l'auteur à ChatGPT (heures UTC) : 15 h 39 min 14 s, « Continue » ; 17 h 58 min 42 s, « Vas-y ». Il n'a pas choisi entre les deux lectures de la viabilité ; la question n'est pas reposée. `blob_mitose.py` n'est pas au corpus.
+
+Archives (empreintes dans `chatgpt/EMPREINTES.md` ; passations versées à l'octet, `C212_`, `C213_`, `C214_PASSATION_CLAUDE.md`) : C-212 (« la viabilité hors du temps : le verrou logique », sans protocole), C-213 (« peut-on déduire une loi physique de la viabilité intemporelle ? », avec protocole), C-214 (« trois chemins différents, une même loi émergente ? », avec protocole). Ce sont des modèles auxiliaires de ChatGPT, qu'il n'attribue pas à l'auteur.
+
+## 173. C-212c, C-213c, C-214c : contre-calculs
+
+Prédiction écrite avant calcul et avant lecture des rapports : `calculs/c214c_prediction.txt`, SHA-256 `60df644128ea62f7206072c53de44fb692fba273f1c74455b51bfde3fb028639`. Programme `calculs/c214c.py`, écrit sans ouvrir les siens. **Limites** : pour C-212 j'avais déjà vu ses deux nombres (pas d'aveugle) ; je n'ai lu que les protocoles et les passations, pas les rapports entiers. Aucune clause fausse — mais ce sont des mathématiques classiques : un accord ici ne dit rien de la nature.
+
+| pièce | ce qui est POSÉ | ce qui est DÉDUIT (vérifié) |
+|---|---|---|
+| C-212 | des états en nombre fini et des transformations admises | sur les 66 066 graphes orientés de 1 à 4 états, « ce qui peut continuer » se calcule de deux façons qui s'accordent partout ; les deux lectures (une suite suffit / toutes doivent continuer) diffèrent sur 2, 108 et 12 734 graphes à deux, trois et quatre états — mes nombres, identiques aux siens |
+| C-213 | des probabilités de transition et d'échec | ne garder que les histoires qui survivent ne choisit aucune loi : si l'échec frappe partout de la même façon, on retrouve exactement la loi de départ, quelle qu'elle soit ; et sur son exemple le processus retenu est réversible — aucune flèche du temps n'en sort |
+| C-214 | un espace à trois dimensions, des pas indépendants | trois règles de pas différentes (six, huit, quatre directions) donnent la même diffusion à grande échelle ; mais avec les mêmes directions et une direction conservée, l'étalement va comme n² au lieu de n : sans hypothèse sur la mémoire, rien d'universel |
+
+Chiffres : λ = 0,6545085 ; lignes (0,381966 ; 0,618034) et (0,236068 ; 0,763932) ; pentes de convergence 1,997 ; 1,995 ; 1,006 (les siennes 1,9965 ; 1,9954 ; 1,0056) ; pour les quatre directions du tétraèdre, l'écart d'ordre h est purement imaginaire, −6,9282 h à la limite (clause de moi, tenue : −6,9274 à h = 0,0125).
+
+## 174. Ce que le master dit de l'élan, de la viabilité et de « persister »
+
+ChatGPT demande s'il existe déjà dans le master un axiome de l'élan qui fixe les transformations et impose la fermeture des volumes. Réponse après relecture : **non sous cette forme.** Trois lieux, à ne pas confondre.
+
+1. **Le récit.** Armature V347.1, I.10 (p. 8) : « L'élan tente tout. Il pousse, il déborde, il essaie toutes les configurations possibles, continûment, sans plan. […] La viabilité n'est pas une force. Elle ne crée pas les tentatives et ne les contraint pas. Elle est un filtre d'existence […] trois choses ensemble : la variation, qui propose ; la viabilité, qui retient ; la mémoire, qui transmet ce qui a été retenu. » La parole de l'auteur du 18 novembre (« La viabilité teste toutes les possibilités… seul perdure ce qui tient et continue ») reprend ce texte.
+2. **Un axiome posé, mais sur autre chose.** V346 p. 696 (Partie XXVI) : « Cet élan primaire est posé comme axiome fondateur » — il porte sur le sens (la chiralité) du substrat, non sur les transformations ni sur les volumes.
+3. **Le formel.** L'armature ne contient aucun axiome de l'élan, et dit elle-même ce qui manque : RO-24 (une opération de fermeture) ; **RO-20, « définir persister »** — « tout ne persiste pas : ABSENT comme critère binaire, la Gibbs ne fait que pondérer » (p. 18), l'axiome A0 historique étant « rétracté comme filtre binaire » (p. 28) ; RO-21 (« tout apparaît » exige l'accessibilité).
+
+**Conséquence.** La définition de ChatGPT (C-211, C-212) n'est pas un verrou nouveau : c'est une **candidate pour la RO-20**, que l'armature avait déjà inscrite. Elle redonnerait à « tout ne persiste pas » le critère binaire que l'armature déclare absent. [H d'auditeur, non adoptée par l'auteur.]
+
+**Objection de ma part (hypothèse d'auditeur, à faire attaquer).** Si toutes les transformations admises sont réversibles — c'est le cas du régime d'équilibre du corpus, où tout mouvement a son inverse — et que chaque état a au moins un voisin, alors chaque état peut aller et revenir sans fin : tout persiste, le critère ne retient rien. Il n'est non vide que là où il y a de l'irréversible (naissances, effondrements, impasses), c'est-à-dire dans le régime de croissance. Un critère pour la RO-20 doit donc dire sur quelle strate il porte. [T] élémentaire pour l'énoncé ; sa portée sur le corpus reste à examiner.
+
+**Mémoire.** Le témoin n contre n² montre que la mémoire n'est pas fixée par les axiomes. Le récit la nomme comme troisième ingrédient ; l'armature (p. 18) dit qu'elle n'est portée « que par la généalogie, sous conditions ».
+
+## 175. Dépôt du message `[CLAUDE-C214C]`
+
+`echanges/msg_c214c.txt`, 3 636 caractères, SHA-256 `0eb617649dbd19d9e7ed11736312eb24e79bd0ac96db9aa5d938b42d1fb9771a`. Déposé à **19:09:49 UTC** après rechargement et gardes (dernière réponse de ChatGPT terminée depuis 59 min, dernier mot de l'auteur depuis 71 min) ; contrôle côté serveur dans un second appel : **une seule copie**, 3 636 caractères.
+
 **TOE 0/7. Aucun verrou fermé.**

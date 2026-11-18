@@ -1,0 +1,26 @@
+C-212c / C-213c / C-214c -- PREDICTION ECRITE AVANT TOUT CALCUL ET AVANT LECTURE DES RAPPORTS, RESULTATS ET PASSATIONS DE CHATGPT (Claude, 2026-11-18 19:06:04 UTC)
+Archives : BLOB_C212_FORMALISATION_DES_HISTOIRES_2026-11-18.zip (9 173 octets, 6dbe545914f711d8f77022ec8952d9b241eaa63a7ba7bed7fc1d9fad3ba12bba, sans protocole) ;
+BLOB_C213_VIABILITE_ET_MESURE_2026-11-18.zip (14 511 octets, d6d99bbfa3808232df22538f3e811eb8aed729d44662258089bee60a9f76bc5d) ;
+BLOB_C214_UNIVERSALITE_ET_INSTINCT_2026-11-18.zip (182 703 octets, ed5d7959efd48b109a74e9117417123ce967fb21265f2195c8746ad2c00c69e9).
+Lu : les deux protocoles C213_ et C214_PROTOCOLE_AVANT_CALCUL.md, les noms de fichiers, et les 260 premiers caracteres de chaque reponse. Pour C-212 j'ai donc DEJA VU
+ses deux nombres (66 066 graphes ; 12 734 graphes a quatre etats ou les deux lectures different) : pas d'aveugle sur C-212, declare.
+Modeles auxiliaires de ChatGPT, non attribues a l'auteur. Mathematiques, pas d'epreuve empirique. Recherches ouvertes visees : RO-24, RO-25.
+
+C-212c. Je recalcule par mon programme, sur tous les graphes orientes de 1 a 4 etats (boucles permises : 2 + 16 + 512 + 65 536 = 66 066), le noyau existentiel
+ (retraits successifs) et, par une seconde methode (atteindre un cycle), le meme ensemble : accord partout. Le nombre de graphes a 4 etats ou noyau existentiel et noyau
+ universel different : je l'ai lu (12 734) ; je dis seulement que je le recalcule et rapporte mon nombre tel quel.
+C-213c.
+ P1. Un etat, survie 1/2 par pas : une histoire infinie existe, sa probabilite est 0.
+ P2. Q = [[1/4,1/4],[1/4,1/2]] : lambda = (3 + racine(5))/8 = 0,6545085 ; h = (1, phi) ; processus conditionne a survivre :
+     lignes (0,381966 ; 0,618034) et (0,236068 ; 0,763932), sommes 1 ; reversible pour pi proportionnelle a h au carre, soit (0,276393 ; 0,723607) : aucune fleche.
+ P3. La loi du premier pas conditionnee a n pas de survie converge vers ces lignes, ecart de l'ordre de (lambda2/lambda1)^n avec lambda2/lambda1 = 0,1459.
+ P4. Q = cP : h = 1, lambda = c, processus conditionne = P exactement, pour tout P et tout c : le filtrage par la survie ne determine pas P.
+ P5 (ce que cela dit, prevu avant lecture) : la viabilite seule ne donne ni probabilites ni fleche ; il faut POSER une mesure sur les histoires.
+C-214c.
+ U1. A, B, C : moyenne nulle, E[u u^T] = I/3 exactement. E[ux uy uz] = 0 pour A et B, 1/(3 racine(3)) = 0,19245 pour C.
+ U2. Symbole en k = (1,2,3) : limite -14 pour les trois. Ordres de convergence 2, 2, 1 (A, B, C).
+ U3 (de moi) : pour C, l'ecart d'ordre h est PUREMENT IMAGINAIRE, de valeur -(12/racine(3)) h = -6,9282 h ; la partie reelle converge a l'ordre 2. A h = 0,1 : partie imaginaire -0,69 a 2 % pres.
+ U4. Directions independantes : E|S_n|^2 = n ; direction conservee : n^2, exactement, pour n = 1 a 512.
+ U5. Q = 0,9 P : le premier pas conditionne a la survie a la meme loi que sans conditionnement.
+ U6 (portee, prevue avant lecture) : l'universalite obtenue est celle du theoreme central limite dans un espace R3 POSE ; elle ne dit rien de la naissance des volumes ;
+     le temoin D montre que la meme isotropie a un pas ne suffit pas sans independance.
