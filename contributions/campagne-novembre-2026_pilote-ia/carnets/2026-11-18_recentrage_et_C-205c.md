@@ -92,4 +92,64 @@ Déposé dans la quatrième conversation le 18 novembre à **06:43:56 UTC** (07 
 
 Contenu : réponse « non » à la démonstration par la logique pure ; contrôle des deux premiers pas de sa « preuve fondamentale » (exacts, avec réserves : la dimension 3 est posée, la limite vers le laplacien ne distingue pas le tétraèdre, erreur d'ordre h) ; mes échecs ; accord sur C-205c ; chemin du moteur de l'auteur dans le dépôt ; mesures X-18 ; recentrage sur la RO-24.
 
+## 161. « Recheck tous les masters » : relecture de tous les masters du corpus (demande de l'auteur, 18 novembre)
+
+Parole de l'auteur : « Recheck tous les masters ». Lecture retenue (hypothèse d'auditeur) : relire **tous** les masters du corpus, et non le seul V346, sur les quatre questions transmises le matin (volume exclusif ou superposé ; signatures et distance ; volume primitif ou né des relations ; moteur de référence) et sur la RO-24.
+
+**Ce qui a été relu** — vingt fichiers, texte extrait en entier (`pdftotext`, `.docx` décompressé), environ 30 millions de caractères :
+
+| master | pages | lieu dans le corpus |
+|---|---|---|
+| V346 complet (8 septembre) ; armature V347.1 ; section V345 | 1 918 ; 29 ; — | `00_master_courant/` |
+| V311, V315, V316, V319 | 1 529 à 1 599 | `01_masters_jalons/` |
+| V223, V230 | 734 ; 855 | `03_scripts/SCRIPTS DIVERS BLOB/` |
+| V139 (22 mai), V152 (25 et 29 mai), V155 (2 juin) | 244 à 388 | `03_scripts/…` |
+| « Blob MASTER PROPRE LIVRE » (version propre du 7 juillet) | 116 | `03_scripts/…/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/` |
+| V111 (18 mai, deux copies identiques) ; addenda VII 4 (deux) et VII 5 | — | `06_campagnes_et_sauts/Suite Cascade 17 mai/` |
+
+**Méthode et limite.** Recensement par mots (mitose, bain, liant, terreau, signature, fréquence, proximité, volume, chevauchement, plongement, Delaunay, Pachner…), lecture intégrale des passages retenus, puis comparaison automatique phrase à phrase de chaque ancien master avec le V346. Ce n'est pas une relecture ligne à ligne de plus de 11 000 pages : un passage qui n'emploie aucun de ces mots a pu m'échapper. [M]
+
+**Résultats, échecs d'abord.**
+
+1. **Mon erreur : j'avais lu le V346 et l'armature, pas le « Master propre » du 7 juillet.** Sur 2 176 phrases de ce document, 2 144 ne sont pas dans le V346. Il contient, page 82, la « Clarification n° 22 : Rips contre géométrique + escalier de R. » (4 juillet), née d'une intuition de l'auteur (« truc simple oublié qui bloque la continuité ») : *le choix du complexe*. Texte du corpus : le complexe de Rips (cliques) « invente des simplexes fantômes » (clique maximale K17, 2,9 fois trop de tétraèdres) ; « objet corrigé = complexe géométrique restreint (Delaunay ∩ arêtes Blob) » ; mesuré : E/V 1,81, F/V 0,71, T/V 0,19, tiers des sommets 55 % arête, 30 % triangle, 11 % tétraèdre ; « échafaudage 3D poreux […] pas variété propre » ; « 45 % des arêtes Blob non géométriques » ; « deux lectures explicites désormais : dynamique (cliques) contre géométrique (restreint) — toute mesure déclare son objet ». Page 83 : « Prop E (rigidité simpliciale → Delaunay) réfutée par mesure (45 % arêtes non géométriques = liants réels) » ; « dualité tissu/liant ». **Ces passages ne figurent dans aucun master complet postérieur (V311 à V346) : les mots « poreux », « fantômes », « restreint » n'y apparaissent pas.** La question du volume qui ne se chevauche pas (RO-24) était donc posée, mesurée et nommée dans le corpus de l'auteur le 4 juillet, avant mes épreuves C-193 à C-205.
+2. **Mon erreur : « le moteur de l'auteur » de C-204c n'est pas le moteur de référence du master.** V346 p. 83 (gravure V225 du 13 juin) : « Toutes les mesures de cette gravure proviennent d'un moteur unique (blob_engine.py statique, blob_mitose.py dynamique) ». V346 p. 88 : « Mitose canonique (enfant près d'un parent, ~κ/2 arêtes locales, relaxation de viabilité entre naissances) » ; en limite lente, le Blob grandi par division atteint les invariants du Blob à N fixé (triangles par sommet 4,95 contre 4,90). V346 p. 89 : « Le script historique connectait à κ → densité d'arêtes doublée, jamais détecté ». Le script que j'ai exécuté (session du 30 mai) est antérieur à cette correction. **`blob_mitose.py` n'est pas dans le corpus public sous ce nom** ; le Master propre (p. 69-70, 82) dit lui-même : « attendre upload du script, ne pas reconstruire de mémoire ». La question 4 du matin avait donc sa réponse dans le master ; ce qui manque est le fichier.
+3. **Le master contient au moins cinq définitions distinctes de la mitose**, non réconciliées entre elles : (a) l'opérateur formel μ, un sommet et une arête (chapitre 2 ; armature : « NO-GO μ-seule [T] : répétée seule, elle reste arborescente » — mon résultat « la mitose seule donne un arbre » y était déjà un théorème) ; (b) la subdivision d'arête avec fermeture occasionnelle de triangles et dissipation, paramètres posés (V346 p. 890) ; (c) la mitose canonique κ/2 (p. 88) ; (d) le « moteur-cycle », mitose continue à 15 % par balayage, effondrement vers un réservoir (p. 743) ; (e) la « mitose v3 » du script V286 du 18 juillet, qui retire un nouveau nuage de points à densité constante (v1 et v2 déclarées invalidées dans le script). [constat]
+4. **Deux régimes, et le passage de l'un à l'autre n'est pas dérivé.** V346 p. 1899 : la fonctionnelle du livre, S = log(1 + n_tri) − β·D, et celle du corpus technique, μN₃ − α·Σlog(1 + n_e) + b·Σ(n_e − d★)², sont « deux régimes du même cadre » : type 1 (croissance libre, avant Ω³) et type 2 (Gibbs à volume fixé). Le type 2 part d'une triangulation valide du tore T³ (mouvements 2↔3) : les volumes n'y chevauchent pas par construction. Armature p. 29 : V347 « ne dérive ni T³ depuis Ω⁰ […] ni le bain ». C'est la RO-24, dite par le master.
+5. **Le bain a deux sens dans le corpus.** Armature I.8 : réserve issue de l'annihilation, statut « ABSENT » (RO-10). V346 p. 1901 (section V344) : « les premiers simplexes sont nés dans le vide ; les suivants naissent dedans, dans un milieu déjà chargé, et ce milieu les oriente » — réalisé par un champ par arête qui biaise les mouvements 2→3 ; volume multiplié par 4,7, statut [T-num], « une taille, une graine, un μ » (réserve du master). Mon résumé « bain absent » ne valait que pour le premier sens.
+6. **Signature et fréquence** : chapitre « La résonance simpliciale » (V346 p. 1160-1166), statut [V] : mitose continue, ralentie mais jamais nulle pour un simplexe lié ; le sursaut « résonne sur les arêtes de proximité » ; la signature d'un tétraèdre est sa « fréquence personnelle », gravée par son histoire de construction, et « le positionne dans l'univers » ; un appui mesuré (rigidité de Hodge 12,8 contre 5,8 pour les témoins, [M]). Je n'y ai pas trouvé de règle qui transforme une proximité de signatures en distance.
+7. **Volume** : V346 pose ⟨V_K4⟩ ≡ V_Planck (Partie XXIX) ; XV.3 : « la viabilité seule, sans plongement, fait émerger une dimension finie ~4 (pas 3) » ; p. 722 : « K4 chevauchants » dans le tissu dense (14,5 K4 par sommet).
+8. **Anciens masters** : V311, V315, V316, V319 — aucune phrase clé absente du V346 (700 à 748 phrases comparées chacune). V111 à V230 — 18 à 67 phrases signalées, qui sont à l'examen des différences de typographie (ligatures, formules) ; je n'y ai rien trouvé de substantiel qui manque au V346. Addenda VII 4 et VII 5 : hors sujet (aucun des mots clés sauf « signature »).
+
+## 162. X-19 : contre-vérification de la « Clarification n° 22 » du corpus
+
+Prédiction écrite avant calcul : `calculs/x19_clarification22_prediction.txt`, SHA-256 `04e306f9cc123cb9c0c85cf22af1bdabf6fe77d57c9735e15f9f636c61fd9bc5`. Non aveugle (les chiffres du corpus sont l'objet du contrôle). Programme : `calculs/x19_clarification22.py` ; moteur `blob engine.py` du corpus importé sans modification ; états (N, graine) = (800, 0), (800, 1), (1 600, 0) ; témoin : nuage géométrique sans viabilité (`build_rgg`). **Ma lecture** de « restreint » : arêtes du Blob qui sont de Delaunay ; triangles et tétraèdres de Delaunay dont toutes les arêtes sont au Blob (le corpus ne donne pas l'algorithme).
+
+**Mes clauses fausses d'abord** : P6 (cliques K4 / tétraèdres de Delaunay entre 2,0 et 3,2) — vraie pour un état sur trois (1,88 ; 2,88 ; 1,64) ; le nombre de K4 par sommet varie beaucoup d'une graine à l'autre (11,8 ; 18,1 ; 10,6). P7 (moins de 2 % d'arêtes entourées d'un anneau fermé de 5 ou 6 tétraèdres dans chaque état) — fausse pour un état (1,5 % ; 2,2 % ; 1,9 %).
+
+| mesure | corpus (4 juillet) | X-19, trois états du Blob | témoin sans viabilité |
+|---|---|---|---|
+| arêtes du Blob non géométriques | 45 % | 43,8 ; 44,6 ; 45,0 % | 10,3 ; 10,2 ; 9,2 % |
+| E/V | 1,81 | 1,854 ; 1,828 ; 1,816 | 2,96 ; 2,96 ; 3,00 |
+| F/V | 0,71 | 0,744 ; 0,665 ; 0,712 | 2,42 ; 2,40 ; 2,42 |
+| T/V (tétraèdres par sommet) | 0,19 | 0,206 ; 0,186 ; 0,197 | 0,630 ; 0,628 ; 0,628 |
+| χ/V | −0,29 | −0,316 ; −0,349 ; −0,301 | −0,17 ; −0,19 ; −0,20 |
+| sommets dont le plus haut simplexe est une arête / un triangle / un tétraèdre | 55 / 30 / 11 % | 56 / 30 / 12 ; 58 / 30 / 10 ; 54 / 31 / 13 | 5 / 27 / 68 ; 5 / 24 / 71 ; 5 / 25 / 70 |
+| triangles sans tétraèdre | 31 % | 29,2 ; 29,5 ; 27,6 % | 22 % |
+| triangles entre deux tétraèdres | 40 % | 40,2 ; 41,5 ; 38,2 % | 26 % |
+| plus grande clique | K17 | 14 ; 16 ; 14 | 8 ; 9 ; 8 |
+
+**Verdict.** La mesure du corpus du 4 juillet est **reproduite** sur son propre moteur, avec ma lecture du mot « restreint » : P1 à P5 et P8 tenues. [M], un moteur, trois états, **non recoupé par ChatGPT**.
+
+**Ce que le témoin ajoute (constat, hors prédiction).** Le même nuage de points sans viabilité porte trois fois plus de tétraèdres géométriques (0,63 par sommet contre 0,20) et sept sommets sur dix y sont dans un tétraèdre, contre un sur dix dans le Blob. À ce point de travail, la fonctionnelle S = log(1 + n_tri) − β·CV déplace les arêtes vers des amas de cliques qui se chevauchent (11 à 18 K4 par sommet contre 2 à 2,7) et **retire** des cellules géométriques au lieu d'en former. Elle ne joue donc pas, dans ce moteur, le rôle de générateur de fermeture en volumes disjoints que cherche la RO-24. Portée : ce moteur, ce point de travail, ces tailles.
+
+## 163. Rétractations et précisions du 18 novembre (après relecture des masters)
+
+1. « Le moteur de l'auteur » (C-204c, X-17, X-18, message `[CLAUDE-C204C]`, notification du matin) : à lire désormais « un script historique de l'auteur, session du 30 mai, antérieur à la correction κ/2 du 13 juin ». Les chiffres mesurés restent ceux de ce script ; ils ne qualifient pas le moteur de référence du master (`blob_engine.py` + `blob_mitose.py`).
+2. La question « lequel de vos scripts tenez-vous pour le moteur de référence ? » était mal posée : le master le dit. Ce qui manque est le fichier `blob_mitose.py`.
+3. « Bain absent » : vrai du bain d'annihilation (RO-10) ; un bain « milieu qui oriente » est réalisé dans la section V344.
+4. « La mitose seule donne un arbre » : déjà un théorème de l'armature (NO-GO μ-seule).
+5. La question « volume exclusif ou superposé ? » : le corpus du 4 juillet distingue déjà les deux lectures (cliques / géométrique restreint) et demande que toute mesure déclare son objet. Mes épreuves C-193 à C-204 comptaient des cliques ; C-204bc et X-19 comptent des cellules géométriques. Savoir laquelle des deux lectures est la sienne reste la parole de l'auteur ; je ne la complète pas.
+
+Heure de clôture de ces sections : 06 h 54 UTC.
+
 **TOE 0/7. Aucun verrou fermé.**

@@ -1,0 +1,203 @@
+[
+ {
+  "N": 800,
+  "aretes_blob": 2640,
+  "degre_moyen": 6.6,
+  "part_non_geometrique": 0.43825757575757573,
+  "E_sur_V": 1.85375,
+  "F_sur_V": 0.74375,
+  "T_sur_V": 0.20625,
+  "chi_sur_V": -0.31625,
+  "tiers": {
+   "aucun": 0.01875,
+   "arete": 0.5625,
+   "triangle": 0.30125,
+   "tetraedre": 0.1175
+  },
+  "triangles_nus": 0.292436974789916,
+  "triangles_a_deux": 0.4016806722689076,
+  "K4_cliques_sur_N": 11.785,
+  "tetra_Delaunay_sur_N": 6.26375,
+  "K4_sur_tetra_Delaunay": 1.8814607862702055,
+  "plus_grande_clique": 14,
+  "part_cliques_maximales_au_dessus_de_4_parmi_celles_de_taille_au_moins_4": 0.8470588235294118,
+  "anneaux_fermes": {
+   "3": 25,
+   "4": 23,
+   "5": 13,
+   "6": 9,
+   "7": 6,
+   "8": 4
+  },
+  "part_aretes_anneau_5_ou_6": 0.014834794335805798,
+  "modele": "blob",
+  "graine": 0
+ },
+ {
+  "N": 800,
+  "aretes_blob": 2640,
+  "degre_moyen": 6.6,
+  "part_non_geometrique": 0.1034090909090909,
+  "E_sur_V": 2.95875,
+  "F_sur_V": 2.415,
+  "T_sur_V": 0.63,
+  "chi_sur_V": -0.17375,
+  "tiers": {
+   "aucun": 0.00375,
+   "arete": 0.04625,
+   "triangle": 0.27,
+   "tetraedre": 0.68
+  },
+  "triangles_nus": 0.2220496894409938,
+  "triangles_a_deux": 0.265527950310559,
+  "K4_cliques_sur_N": 2.53875,
+  "tetra_Delaunay_sur_N": 6.26375,
+  "K4_sur_tetra_Delaunay": 0.405308321692277,
+  "plus_grande_clique": 8,
+  "part_cliques_maximales_au_dessus_de_4_parmi_celles_de_taille_au_moins_4": 0.44469525959367945,
+  "anneaux_fermes": {
+   "3": 40,
+   "4": 46,
+   "5": 17,
+   "6": 11,
+   "7": 3
+  },
+  "part_aretes_anneau_5_ou_6": 0.011829319814110688,
+  "modele": "rgg",
+  "graine": 0
+ },
+ {
+  "N": 800,
+  "aretes_blob": 2640,
+  "degre_moyen": 6.6,
+  "part_non_geometrique": 0.44621212121212117,
+  "E_sur_V": 1.8275,
+  "F_sur_V": 0.665,
+  "T_sur_V": 0.18625,
+  "chi_sur_V": -0.34875,
+  "tiers": {
+   "aucun": 0.02375,
+   "arete": 0.57875,
+   "triangle": 0.3025,
+   "tetraedre": 0.095
+  },
+  "triangles_nus": 0.2951127819548872,
+  "triangles_a_deux": 0.41541353383458646,
+  "K4_cliques_sur_N": 18.14375,
+  "tetra_Delaunay_sur_N": 6.29125,
+  "K4_sur_tetra_Delaunay": 2.883965825551361,
+  "plus_grande_clique": 16,
+  "part_cliques_maximales_au_dessus_de_4_parmi_celles_de_taille_au_moins_4": 0.8316326530612245,
+  "anneaux_fermes": {
+   "3": 12,
+   "4": 27,
+   "5": 20,
+   "6": 12,
+   "7": 4
+  },
+  "part_aretes_anneau_5_ou_6": 0.02188782489740082,
+  "modele": "blob",
+  "graine": 1
+ },
+ {
+  "N": 800,
+  "aretes_blob": 2640,
+  "degre_moyen": 6.6,
+  "part_non_geometrique": 0.10189393939393943,
+  "E_sur_V": 2.96375,
+  "F_sur_V": 2.3975,
+  "T_sur_V": 0.6275,
+  "chi_sur_V": -0.19375,
+  "tiers": {
+   "aucun": 0.005,
+   "arete": 0.04625,
+   "triangle": 0.23625,
+   "tetraedre": 0.7125
+  },
+  "triangles_nus": 0.21949947862356622,
+  "triangles_a_deux": 0.2664233576642336,
+  "K4_cliques_sur_N": 2.68875,
+  "tetra_Delaunay_sur_N": 6.29125,
+  "K4_sur_tetra_Delaunay": 0.42737929664216173,
+  "plus_grande_clique": 9,
+  "part_cliques_maximales_au_dessus_de_4_parmi_celles_de_taille_au_moins_4": 0.4160919540229885,
+  "anneaux_fermes": {
+   "3": 29,
+   "4": 38,
+   "5": 29,
+   "6": 11,
+   "7": 5
+  },
+  "part_aretes_anneau_5_ou_6": 0.01687051876845213,
+  "modele": "rgg",
+  "graine": 1
+ },
+ {
+  "N": 1600,
+  "aretes_blob": 5280,
+  "degre_moyen": 6.6,
+  "part_non_geometrique": 0.4496212121212121,
+  "E_sur_V": 1.81625,
+  "F_sur_V": 0.711875,
+  "T_sur_V": 0.196875,
+  "chi_sur_V": -0.30125,
+  "tiers": {
+   "aucun": 0.0225,
+   "arete": 0.543125,
+   "triangle": 0.308125,
+   "tetraedre": 0.12625
+  },
+  "triangles_nus": 0.27568042142230026,
+  "triangles_a_deux": 0.38191395961369623,
+  "K4_cliques_sur_N": 10.581875,
+  "tetra_Delaunay_sur_N": 6.45,
+  "K4_sur_tetra_Delaunay": 1.6406007751937985,
+  "plus_grande_clique": 14,
+  "part_cliques_maximales_au_dessus_de_4_parmi_celles_de_taille_au_moins_4": 0.7885010266940452,
+  "anneaux_fermes": {
+   "3": 35,
+   "4": 50,
+   "5": 29,
+   "6": 27,
+   "7": 2,
+   "8": 3,
+   "9": 1
+  },
+  "part_aretes_anneau_5_ou_6": 0.019270474879559532,
+  "modele": "blob",
+  "graine": 0
+ },
+ {
+  "N": 1600,
+  "aretes_blob": 5280,
+  "degre_moyen": 6.6,
+  "part_non_geometrique": 0.09242424242424241,
+  "E_sur_V": 2.995,
+  "F_sur_V": 2.420625,
+  "T_sur_V": 0.6275,
+  "chi_sur_V": -0.201875,
+  "tiers": {
+   "aucun": 0.005,
+   "arete": 0.04625,
+   "triangle": 0.246875,
+   "tetraedre": 0.701875
+  },
+  "triangles_nus": 0.22205009036922282,
+  "triangles_a_deux": 0.2589723728375936,
+  "K4_cliques_sur_N": 2.0675,
+  "tetra_Delaunay_sur_N": 6.45,
+  "K4_sur_tetra_Delaunay": 0.3205426356589147,
+  "plus_grande_clique": 8,
+  "part_cliques_maximales_au_dessus_de_4_parmi_celles_de_taille_au_moins_4": 0.42280285035629456,
+  "anneaux_fermes": {
+   "3": 82,
+   "4": 74,
+   "5": 31,
+   "6": 15,
+   "7": 2
+  },
+  "part_aretes_anneau_5_ou_6": 0.009599332220367279,
+  "modele": "rgg",
+  "graine": 0
+ }
+]

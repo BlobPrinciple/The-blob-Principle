@@ -1,0 +1,29 @@
+X-19 -- PREDICTION ECRITE AVANT TOUT CALCUL (Claude, 2026-11-18 06:51:47 UTC)
+Objet : contre-verification d'une mesure du corpus de l'auteur, retrouvee en relisant tous les masters a sa demande
+(<< Recheck tous les masters >>, 18 novembre 2026). Source : << Blob MASTER PROPRE LIVRE.pdf >> (version propre du 7 juillet 2026),
+p. 82, << CLARIFICATION n 22 : Rips vs GEOMETRIQUE + ESCALIER DE R. VERIFIE (4 juillet, soir) >>. Ce passage est absent du master V346.
+Recherche ouverte visee : RO-24 (generateur de fermeture ; volumes qui ne se chevauchent pas).
+Non aveugle : j'ai lu les chiffres du corpus avant d'ecrire ceci (c'est l'objet meme du controle).
+
+PROTOCOLE FIGE
+Moteur : corpus/03_scripts/SCRIPTS DIVERS BLOB/blob engine.py, importe sans modification (kappa 6,6 ; beta 0,30 ; tau 0,50 ; POOL_FAC 1,6 ; THERM_FAC 120).
+Etats : build_blob(N, graine) pour (N, graine) = (800, 0), (800, 1), (1600, 0) [le corpus dit << 800x2, 1600 >>]. Temoin : build_rgg, memes (N, graine).
+Triangulation de Delaunay des memes points (scipy.spatial.Delaunay, cube unite, sans periodicite).
+MA LECTURE de << complexe geometrique restreint (Delaunay inter aretes Blob) >> (le corpus ne donne pas l'algorithme ; lecture d'auditeur) :
+ aretes = aretes du Blob qui sont aussi des aretes de Delaunay ; triangles = triangles de Delaunay dont les 3 aretes sont au Blob ;
+ tetraedres = tetraedres de Delaunay dont les 6 aretes sont au Blob ; V = N.
+Mesures : part des aretes du Blob non geometriques ; E/V, F/V, T/V ; chi/V ; tiers des sommets (plus haut simplexe restreint qui les contient) ;
+ part des triangles restreints sans tetraedre (<< nus >>) et a deux tetraedres ; cliques de Rips du Blob : K4/N, plus grande clique, K4/(tetraedres de Delaunay) ;
+ aretes restreintes entourees d'un anneau ferme de 5 ou 6 tetraedres restreints.
+
+PREDICTIONS (chiffres du corpus entre crochets)
+P1. Aretes du Blob non geometriques : 0,45 +/- 0,05 dans chacun des trois etats [45 %].
+P2. E/V = 1,81 +/- 0,17 ; F/V = 0,71 +/- 0,15 ; T/V = 0,19 +/- 0,06 [1,81 ; 0,71 ; 0,19].
+P3. E > F > T strict ; tiers : arete > triangle > tetraedre ; tiers tetraedre = 11 % +/- 5 points [55 / 30 / 11].
+P4. chi/V = -0,29 +/- 0,10 [-0,29].
+P5. Triangles restreints nus : 31 % +/- 8 points [31 %].
+P6. K4 (cliques) / tetraedres de Delaunay complets : entre 2,0 et 3,2 [2,9] ; plus grande clique >= 10 [K17].
+P7 (de moi, pas du corpus). Aretes restreintes entourees d'un anneau ferme de 5 ou 6 tetraedres : moins de 2 % dans chaque etat.
+P8 (de moi). Temoin RGG : part non geometrique inferieure a 30 %, donc nettement sous celle du Blob.
+Sans prediction : T/V du temoin.
+Si P1 ou P2 echoue hors tolerance, je le dis en premier et j'examine d'abord ma lecture de << restreint >> avant de mettre le corpus en cause.

@@ -398,6 +398,14 @@ L'auteur demande de recentrer, de verrouiller la TOE et de la démontrer par la 
 | X-18 | moteur du corpus : un tiers des sommets dans une cellule, paquets de 10 à 20 cellules au plus ; C-204c non encore recoupé | [M] après coup |
 | premiers pas de la « preuve fondamentale » de ChatGPT | exacts, vérifiés à la main ; la dimension 3 y est posée | [T] conditionnels |
 
+**Ajout du même jour, après la demande de l'auteur « Recheck tous les masters ».** Les vingt fichiers de masters du corpus ont été relus (carnet, section 161). Deux erreurs de ma part : je n'avais pas lu le « Master propre » du 7 juillet, dont presque rien n'est repris dans le V346 ; et le script exécuté en C-204c n'est pas le moteur de référence du master (`blob_engine.py` statique, `blob_mitose.py` dynamique — ce dernier absent du corpus public), mais un script historique antérieur à la correction du 13 juin.
+
+| pièce | résultat | statut |
+|---|---|---|
+| relecture des masters | le corpus avait posé et mesuré la question du volume le 4 juillet (« Clarification n° 22 » : les cliques inventent des tétraèdres fantômes ; objet corrigé = Delaunay ∩ arêtes du Blob ; échafaudage poreux, pas une variété) ; ce passage manque aux masters V311 à V346 | constat |
+| X-19 | cette mesure du corpus est reproduite sur son moteur : 44 à 45 % d'arêtes non géométriques (45 %), 0,19 à 0,21 tétraèdre par sommet (0,19) ; deux de mes clauses annexes fausses | [M], non recoupé |
+| X-19, témoin | sans viabilité, le même nuage porte trois fois plus de tétraèdres géométriques : à ce point de travail la fonctionnelle retire des cellules géométriques | [M], hors prédiction |
+
 Détail : [carnet du 18 novembre](carnets/2026-11-18_recentrage_et_C-205c.md). **TOE 0/7.**
 
 ## 9. Les prochaines épreuves
