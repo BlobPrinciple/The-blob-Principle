@@ -388,6 +388,18 @@ Telles quelles et contrôlées octet pour octet : ses passations C-172, C-173, P
 
 Paroles de l'auteur du 17 novembre : au carnet, section 132, telles quelles. Détail : [carnet du 17 novembre](carnets/2026-11-17_C-192Uc_et_releve.md). **TOE 0/7.**
 
+## 8 nonies. Ajout du 18 novembre, 6 h 50 UTC : recentrage demandé par l'auteur
+
+L'auteur demande de recentrer, de verrouiller la TOE et de la démontrer par la logique pure. Réponse : cela n'est pas possible — une théorie physique ne se démontre pas par la logique seule ; l'état reste TOE 0/7. Le recentrage : une seule question porte tout le reste, celle de la règle qui assemble les simplexes en volumes sans chevauchement (RO-24).
+
+| pièce | résultat | statut |
+|---|---|---|
+| C-205c | un réseau de liens ne porte pas par lui-même un espace à trois dimensions (N − 1 dimensions) ; deux fautes de programme corrigées et déclarées | [T] classique |
+| X-18 | moteur du corpus : un tiers des sommets dans une cellule, paquets de 10 à 20 cellules au plus ; C-204c non encore recoupé | [M] après coup |
+| premiers pas de la « preuve fondamentale » de ChatGPT | exacts, vérifiés à la main ; la dimension 3 y est posée | [T] conditionnels |
+
+Détail : [carnet du 18 novembre](carnets/2026-11-18_recentrage_et_C-205c.md). **TOE 0/7.**
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

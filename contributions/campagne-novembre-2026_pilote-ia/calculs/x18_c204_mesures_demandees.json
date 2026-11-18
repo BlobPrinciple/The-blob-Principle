@@ -1,0 +1,42 @@
+[
+ {
+  "graine": 1,
+  "N": 660,
+  "cellules": 123,
+  "sommets_dans_une_cellule": 217,
+  "part": 0.3287878787878788,
+  "plus_grande_composante_par_faces": 10,
+  "composantes": 47,
+  "cellules_volume_positif": 123
+ },
+ {
+  "graine": 2,
+  "N": 660,
+  "cellules": 139,
+  "sommets_dans_une_cellule": 240,
+  "part": 0.36363636363636365,
+  "plus_grande_composante_par_faces": 20,
+  "composantes": 53,
+  "cellules_volume_positif": 139
+ },
+ {
+  "graine": 3,
+  "N": 660,
+  "cellules": 157,
+  "sommets_dans_une_cellule": 262,
+  "part": 0.396969696969697,
+  "plus_grande_composante_par_faces": 11,
+  "composantes": 61,
+  "cellules_volume_positif": 157
+ },
+ {
+  "graine": 4,
+  "N": 660,
+  "cellules": 118,
+  "sommets_dans_une_cellule": 202,
+  "part": 0.30606060606060603,
+  "plus_grande_composante_par_faces": 13,
+  "composantes": 46,
+  "cellules_volume_positif": 118
+ }
+]

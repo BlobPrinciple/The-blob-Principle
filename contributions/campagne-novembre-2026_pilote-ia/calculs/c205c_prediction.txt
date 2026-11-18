@@ -1,0 +1,15 @@
+C-205c -- contre-calcul du C-205 de ChatGPT (<< metrique interne, volume et dimension >> : les distances de resistance d'un reseau donnent-elles un espace de dimension 3 ?) (Claude). Ecrit le 2026-11-18 06:37:14 UTC, avant execution de c205c.py.
+Recherches ouvertes nommees : RO-24, RO-08. Resistances effectives, conductances et << signatures >> spectrales sont des choix d'AUDITEUR de ChatGPT, son protocole le dit ; rien n'en est attribue a l'auteur.
+AVEUGLE ENTAME, DECLARE : le 17 novembre a 21 h 13 UTC, en relevant la conversation, j'ai lu son verdict (les distances de resistance ne donnent pas un espace de dimension 3 ; la metrique garde le rang N - 1 ;
+ une anomalie de programme corrigee). Lu ensuite le seul C205_PROTOCOLE_AVANT_CALCUL.md (SHA-256 90c649d8ea64098f5ad9f26733b09e754711cad23893e85f88d6afaa4b3b2f76). Ses valeurs ne sont pas lues.
+Les enonces sont des theoremes classiques ; mes predictions sont donc etablies a la main, sans merite.
+
+PREDICTIONS
+ D1 (son T0) Etoile a 4 branches : resistances 1 (centre-feuille) et 2 (feuille-feuille) ; matrice de Gram des feuilles vues du centre = identite 4x4 ; volume de dimension 4 = 1/24 exactement.
+ D2 (son T1, P1) Pour tout graphe connexe a conductances positives : -1/2 J R J = pseudo-inverse du laplacien, de rang N - 1. Bras A, B, C : rang N - 1 dans les 16 cas par bras (8 graines, N = 64 et 128).
+ D3 (son P2, P3) Bras A, B, C : tous les quintuplets tires ont un determinant de Gram 4x4 strictement positif, tous les quadruplets un volume positif. Bras D (positions dans R^3) : rang 3, determinants des
+    quintuplets nuls a 1e-8 pres.
+ D4 (son P4) Signatures par les k premiers vecteurs propres : rang k ; k = 2 : volumes de tetraedres nuls ; k = 3 : positifs, quintuplets nuls ; k = 4 : quintuplets positifs.
+ D5 (diagnostic) Rapport lambda4/lambda3 du laplacien de l'arbre : mediane inferieure a 2 sur les 16 cas ; au plus 2 cas sur 16 au-dessus de 5. Rien ne distingue trois modes.
+Lecture annoncee : un reseau, meme pondere, ne porte pas par lui-meme un espace a trois dimensions ; qu'un groupe de quatre ait un volume positif ne dit pas que le tissu est de dimension 3. C'est ce que le master
+ ecrit deja (XV.7, C.6 : la localite vient du plongement). Resultat classique, rien de propre au Blob. TOE 0/7.

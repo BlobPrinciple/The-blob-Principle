@@ -93,6 +93,10 @@ Failures first: the exchange with ChatGPT was unreadable for five hours (service
 
 **TOE 0/7. No lock closed.**
 
+## Additions of 18 November
+
+The author asked to refocus, to "lock" the theory and to prove it by pure logic. The pilot's answer, matching ChatGPT's: this is not possible — logic establishes what follows from a principle, not that nature obeys it; only a number predicted in advance and confronted with a measurement can do that. Status unchanged: TOE 0/7. Refocus: everything reduces to one question — which rule makes simplexes born by mitosis assemble into non-overlapping volumes (RO-24). **C-205c**: a network of links does not by itself carry a three-dimensional space (its resistance metric needs N − 1 dimensions); classical theorems; two program faults corrected and declared. The author's corpus engine yields small isolated packets of cells (one vertex in three belongs to a cell); that test has not yet been cross-checked.
+
 ## Limits
 
 714 indeterminate runs out of 3,312 (PR-3) and 632 out of 2,160 (PR-2) are counted as such. PR-3 has not been cross-checked; PR-2 only in part, with one unresolved disagreement. Three-dimensional space, masses, the cohesion potential, the energy reserve and the Gaussian bath are assumed, not derived. ChatGPT's reports and programs are not deposited here; their fingerprints are in `chatgpt/EMPREINTES.md`.
