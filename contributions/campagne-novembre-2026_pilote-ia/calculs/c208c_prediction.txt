@@ -1,0 +1,19 @@
+C-208c -- PREDICTION ECRITE AVANT TOUT CALCUL ET AVANT LECTURE DU RAPPORT, DES RESULTATS ET DE LA PASSATION DE CHATGPT (Claude, 2026-11-18 09:48:09 UTC)
+Lu : le seul PROTOCOLE.md de l'archive BLOB_C208_PREUVE_FONDAMENTALE.zip (10 561 octets, SHA-256 2b4905bba27f6b675c37d0689070aa5c5cc34840c132139c8abeb286c24e55bd),
+et les 200 premiers caracteres de la reponse de ChatGPT de 07:25:57 UTC (titre). Audit logique, pas une epreuve empirique. Recherche ouverte visee : RO-24.
+Calcul exact (fractions), par mon propre programme c208c.py.
+
+A. Contre-exemple extrinseque (8 cellules (A,B,p_i,p_i+1) autour de l'arete AB).
+ A1. Les huit determinants sont strictement positifs. A2. Les huit points font DEUX tours autour de l'axe : somme des angles = 4 pi exactement (indice 2).
+ A3. Chaque face contenant AB est commune a exactement deux cellules ; caracteristique d'Euler = 1 (V = 10, E = 25, F = 24, T = 8).
+ A4. q = (1/8, 1/8, 1/4) est strictement interieur aux cellules i = 0 et i = 4, et a aucune autre. Donc : complexe combinatoirement regulier, volumes qui se chevauchent dans R3.
+B. Assemblage par recollement (0123, 0124, 0134, 0234).
+ B1. Ajouts successifs par 1, 2, 3 faces communes. B2. A la fin V = 5, E = 10, F = 10, T = 4, Euler = 1 ; 4 faces de bord (123, 124, 134, 234) ;
+ 4 aretes interieures (01, 02, 03, 04) ; sommet 0 interieur ; graphe K5 sans 4-simplexe.
+ B3. Dix longueurs egales a 1 : matrice de Gram de rang 4, donc aucune realisation dans R3. B4 (de moi) : autour de chaque arete interieure, 3 cellules, somme des angles
+ diedres 3 arccos(1/3) = 211,59 degres, inferieure a 360 : deficit positif, courbure concentree.
+C. Non-unicite dynamique. Taux (1,1,1) et (1,2,1) : les deux generateurs sont symetriques, laissent la loi uniforme stationnaire et sont reversibles ;
+ spectres {0, -3, -3} et {0, -3, -5}, non proportionnels.
+Clause d'ensemble : toutes les verifications annoncees par le protocole passent. Ce que cela ne prouve pas (prevu avant lecture) : aucune de ces trois pieces ne fournit la regle de
+naissance ; A montre qu'une condition combinatoire locale n'empeche pas le chevauchement ; B montre qu'un recollement intrinseque sans chevauchement ne se plonge pas a plat ;
+C montre que l'equilibre ne fixe pas la dynamique.

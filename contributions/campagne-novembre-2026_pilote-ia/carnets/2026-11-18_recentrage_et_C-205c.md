@@ -164,4 +164,30 @@ Parole de l'auteur (18 novembre, en réponse à la section 161, point 3) : « No
 
 Heure : 06 h 58 UTC.
 
+## 165. Relève de 09 h 46 UTC : la quatrième conversation depuis le dépôt de 06 h 43
+
+Paroles de l'auteur à ChatGPT (heures UTC) : 07 h 25 min 35 s, « Parfait va au maximum du raisonnement stp. » ; 07 h 29 min 14 s, « L'instinct hérité du substrat ». Enregistrées, non complétées.
+
+Deux archives de ChatGPT : `BLOB_C207_REJEU_ET_PREUVE_AXIOMATIQUE.zip` (réponse de 06 h 44) et `BLOB_C208_PREUVE_FONDAMENTALE.zip` (réponse de 07 h 25) ; empreintes dans `chatgpt/EMPREINTES.md` ; passations versées à l'octet (`chatgpt/C207_PASSATION_CLAUDE.md`, `chatgpt/C208_PASSATION_CLAUDE.md`). Dernière réponse de ChatGPT à 07 h 29 : il propose de prendre « l'instinct hérité du substrat » comme « axiome zéro » et écrit un invariant I(s₁) = I(s₂) = I(s) transmis à chaque mitose, qu'il qualifie lui-même d'hypothèse.
+
+**C-207 (rejeu du script historique du 30 mai par ChatGPT, non aveugle).** Il retrouve exactement mes listes : cellules 123, 139, 157, 118 ; sommets couverts 217, 240, 262, 202 ; paquets 47, 53, 61, 46 ; plus gros paquet 10, 20, 11, 13 ; aucun anneau de 5 ou 6. **C-204c et X-18 sont donc recoupés** — pour ce script historique, qui n'est pas le moteur de référence (section 163). Son « théorème d'indétermination géométrique » (deux cellules collées par une face, sommet opposé d'un côté ou de l'autre : mêmes liens, mêmes longueurs, mêmes volumes non signés, mais chevauchement dans un cas et pas dans l'autre) est exact, vérifié à la main. Réserve : son exemple est dégénéré (D se trouve sur l'arête AE) ; la conclusion ne demande qu'un chevauchement de volume positif, qui vaut pour tout E du même côté.
+
+## 166. C-208c : contre-calcul exact du « C-208 » de ChatGPT
+
+Lu d'abord le seul `PROTOCOLE.md` ; prédiction écrite avant calcul et avant lecture du rapport : `calculs/c208c_prediction.txt`, SHA-256 `862c96e2895946f3720e1ed33ab6fda0b6acb1dfd68b3ec7c1d990a9c104c27c`. Programme `calculs/c208c.py` (fractions exactes). Aucune clause fausse ; ce sont des vérifications mathématiques, pas des épreuves empiriques.
+
+| pièce | ce qui est POSÉ | ce qui est DÉDUIT (vérifié) | statut |
+|---|---|---|---|
+| A. Huit cellules autour d'une arête, faisant deux tours | un plongement dans R³, des cellules orientées, des faces à deux cellules | toutes les conditions locales sont remplies (déterminants 1, 1, 1, 2, 5, 5, 5, 2 ; Euler 1) et pourtant un même point est à l'intérieur de deux cellules : les conditions locales n'empêchent pas le chevauchement | [T] |
+| B. Quatre tétraèdres réguliers recollés par leurs faces | des tétraèdres ayant chacun sa métrique, recollés sans espace extérieur | l'assemblage est valide sans chevauchement (5 sommets, 10 arêtes, 10 faces, 4 cellules), mais ne se pose pas à plat dans R³ (matrice de Gram de rang 4) ; trois cellules par arête intérieure, 211,59° au lieu de 360° | [T] |
+| C. Deux dynamiques pour un même équilibre | loi uniforme, réversibilité | vitesses de retour différentes (0, −3, −3 contre 0, −3, −5) : l'équilibre ne fixe pas la dynamique ; de même conservation et réciprocité des flux admettent une loi qui dissipe et une loi qui oscille | [T] |
+
+Comptes des ajouts d'une cellule par une, deux ou trois faces : vérifiés à la main ; pas de contre-exemple à son énoncé « par une seule face, aucun sommet ni arête ne devient intérieur ». Référence citée (Lipman, 2014) : vérifiée, elle existe. **Portée** : ces trois pièces disent ce que la logique seule ne donne pas — ni les conditions locales, ni l'équilibre, ni la conservation ne fournissent la règle de naissance des volumes. Elles n'établissent rien sur la nature. La dimension 3 y reste posée.
+
+## 167. Sur « l'instinct hérité du substrat », et dépôt du message `[CLAUDE-C208C]`
+
+Ce sont les mots de l'auteur. Dans les masters, le mot « instinct » ne figure qu'au chapitre annexe « Le pourquoi du Blob » (V346 p. 1167-1168 : « L'instinct premier ne disparaît pas en devenant matière » ; « L'instinct du substrat, parti de la potentialité pure… »), chapitre qui se déclare lui-même hors preuve ; l'armature V347.1 et le Master propre ne l'emploient pas. L'invariant écrit par ChatGPT est **posé par ChatGPT**, non par l'auteur, et rien n'en est encore déduit : une grandeur égale sur tous les simplexes ne distingue aucun état. Sa mention d'une formulation « du 26 octobre » n'est pas vérifiable de mon côté ; la source lui est demandée. Je ne formalise pas l'instinct à la place de l'auteur.
+
+Message `[CLAUDE-C208C]` (`echanges/msg_c208c.txt`, 4 037 caractères, SHA-256 `a709e972856561c4f59ffb0918b75abaab4c1085a0650c2326255c7a03c996fc`) déposé à **09:51:40 UTC** après rechargement et gardes ; contrôle côté serveur : **une seule copie**, 4 037 caractères. (L'appel de dépôt a dépassé son délai d'attente après l'envoi ; je n'ai rien renvoyé, seulement relu l'état du serveur.) Contenu : mes échecs (sections 161 à 164), accord sur C-207 et C-208c, X-19 soumis au recoupement, réserve sur l'invariant.
+
 **TOE 0/7. Aucun verrou fermé.**

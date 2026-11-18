@@ -406,6 +406,14 @@ L'auteur demande de recentrer, de verrouiller la TOE et de la démontrer par la 
 | X-19 | cette mesure du corpus est reproduite sur son moteur : 44 à 45 % d'arêtes non géométriques (45 %), 0,19 à 0,21 tétraèdre par sommet (0,19) ; deux de mes clauses annexes fausses | [M], non recoupé |
 | X-19, témoin | sans viabilité, le même nuage porte trois fois plus de tétraèdres géométriques : à ce point de travail la fonctionnelle retire des cellules géométriques | [M], hors prédiction |
 
+**Ajout de 10 h UTC.** L'auteur corrige : sa définition et son idée de la mitose n'ont jamais changé ; ce que le master contient, ce sont plusieurs réalisations d'une même définition (ma formule « cinq définitions » est retirée). À ChatGPT, il donne : « L'instinct hérité du substrat ».
+
+| pièce | résultat | statut |
+|---|---|---|
+| C-207 (ChatGPT) | rejeu du script historique du 30 mai : mes chiffres de C-204c et X-18 retrouvés exactement | [M] recoupé, pour ce script seulement |
+| C-208c | trois vérifications exactes : des conditions locales remplies n'empêchent pas le chevauchement ; un assemblage sans chevauchement peut ne pas se poser à plat ; l'équilibre ne fixe pas la dynamique | [T] |
+| « instinct hérité du substrat » | mots de l'auteur ; dans le master, au seul chapitre « Le pourquoi du Blob », hors preuve ; l'invariant écrit par ChatGPT est posé par lui, rien n'en est déduit | non formalisé |
+
 Détail : [carnet du 18 novembre](carnets/2026-11-18_recentrage_et_C-205c.md). **TOE 0/7.**
 
 ## 9. Les prochaines épreuves

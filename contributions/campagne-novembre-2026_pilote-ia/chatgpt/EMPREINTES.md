@@ -405,3 +405,5 @@ Archive `BLOB_C173_ROBUSTESSE_LIANTS_DYNAMIQUE_2026-11-16.zip` : 42 861 octets, 
 ## Pièces du 18 novembre 2026
 
 - `BLOB_C206_CONTROLE_MOTEUR_AUDIT_2026-11-17.zip` (récupéré le 18 à 06:38 UTC) : 6 136 octets, `05c3a9312a301e967b05160a18cdd12dd10633743b19712bbfb41e06582c0011`. 5 fichiers. Lu : `C206_PASSATION_CLAUDE.md` (1 820 octets, `a1b1a02a4f32e02cadaa375c35a57bfc7cede8f538c412cff38612b329ade6ab`, **versé tel quel**). Le reste : non lu.
+- `BLOB_C207_REJEU_ET_PREUVE_AXIOMATIQUE.zip` (récupéré le 18 à 09:48 UTC) : 12 264 octets, `f56e74d076a12a2a116159ee1634ac4c9739fa4e029d8037f4c9d298ad21c4e6`. 13 fichiers. Lu d'abord `PROTOCOLE_REJEU.md` (811 octets). Versé : `C207_PASSATION_CLAUDE.md` (3 814 octets, `01169a4efe9c42dc79cbb6fdd2a69b32fc52d46fbc98dc8f82dc71ba421f1ebc`).
+- `BLOB_C208_PREUVE_FONDAMENTALE.zip` (récupéré le 18 à 09:48 UTC) : 10 561 octets, `2b4905bba27f6b675c37d0689070aa5c5cc34840c132139c8abeb286c24e55bd`. 6 fichiers. Lu d'abord `PROTOCOLE.md` (2 026 octets), prédiction scellée, calcul, puis rapport. Versé : `C208_PASSATION_CLAUDE.md` (1 555 octets, `1f56fd5d1b26cbfc0b7e5492b73d46d3613e707c21bb97d6effcbb8fa88e37f2`).
