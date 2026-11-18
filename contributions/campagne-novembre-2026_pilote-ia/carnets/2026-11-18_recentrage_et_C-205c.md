@@ -152,4 +152,16 @@ Prédiction écrite avant calcul : `calculs/x19_clarification22_prediction.txt`,
 
 Heure de clôture de ces sections : 06 h 54 UTC.
 
+## 164. Correction de l'auteur : une seule définition, des interprétations différentes
+
+Parole de l'auteur (18 novembre, en réponse à la section 161, point 3) : « Non, les interprétations sont différentes mais ma définition et mon idée n'ont jamais bougé ! »
+
+**Rétractation.** J'ai écrit que « le master contient au moins cinq définitions distinctes de la mitose, non réconciliées ». C'est faux dans ces termes, et je le retire. Ce que j'ai relevé, ce sont cinq **réalisations** — formalisations et programmes écrits au fil des sessions pour traduire l'idée de l'auteur — et non cinq définitions de l'auteur. La définition et l'idée sont une ; ce sont les traductions qui diffèrent entre elles. Le point 3 de la section 161 est à lire ainsi ; la liste (a) à (e) reste exacte comme liste de réalisations.
+
+**Ce que cela change.** L'écart n'est pas dans la pensée de l'auteur ; il est du côté des traductions, les miennes comprises (C-193 à C-205). Aucune des cinq réalisations n'est établie comme fidèle à sa définition, et elles ne donnent pas les mêmes mesures. Une épreuve de la mitose ne vaut donc que pour la réalisation éprouvée, et doit le dire.
+
+**Paroles de l'auteur déjà au dossier sur la mitose** (non complétées) : « mitose continue, éternelle, exponentielle » (17 novembre) ; « du simplexe au complexe ! Donc tout ! » (17 novembre) ; dans le master, chapitre « La résonance simpliciale », dont la construction lui est attribuée : « la mitose est continue : les simplexes ne cessent jamais de se diviser », ralentie pour un simplexe lié, « jamais à zéro » (V346 p. 1160).
+
+Heure : 06 h 58 UTC.
+
 **TOE 0/7. Aucun verrou fermé.**
