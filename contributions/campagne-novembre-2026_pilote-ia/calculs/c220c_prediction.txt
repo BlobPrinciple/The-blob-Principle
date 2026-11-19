@@ -1,0 +1,23 @@
+C-219c / C-220c / C-221c -- PREDICTION ECRITE AVANT TOUT CALCUL ET AVANT LECTURE DES RAPPORTS, RESULTATS ET PASSATIONS DE CHATGPT (Claude, 2026-11-19 17:46:46 UTC)
+Archives : C-218 (13 700 octets, 0e69f49963d724eb5c3b3da84b4c5972a8db3e7a2136ddef131dd2af320e0e01) ; C-219 (9 790 octets, 39957174917477834664c421b47ee38c72e381b94d151751c7ec5f3da486ffb8, sans protocole) ;
+C-220 (11 070 octets, 1af1c4973b33e9c4364e10abeb1f4b64f013d04a582f403b0586f8eb2c259402) ; C-221 (16 384 octets, 19d6f5928e6cf26db8bed73bd80b32f166ac3fcfe8b74ed167209fb6a351310e).
+Lu : les deux protocoles (C220_PROTOCOLE_PRECALCUL.md, PROTOCOLE_AVANT_EXECUTION.md de C-221), les noms de fichiers et les 260 premiers caracteres de chaque reponse de ChatGPT.
+Pour C-219 je sais donc deja : cinq points, deux decoupages en 2 et en 3 tetraedres de meme volume. Aveugle partiel, declare. Modeles auxiliaires de ChatGPT, non attribues a l'auteur.
+Paroles de l'auteur visees (19 novembre, a ChatGPT) : << Peux-tu valider les fondamentaux de ma cosmogonie ? >> ; << Alors continuons pour en faire la TOE >> ;
+<< Verrouille et fais le necessaire pour valider toute ma cosmogonie >>. Recherches ouvertes visees : RO-24, RO-26 (lignee, chiralite).
+
+CALCULS FAITS A LA MAIN AVANT D'ECRIRE CECI, QUE MON PROGRAMME DEVRA RETROUVER
+C-220. Q1 : la rotation R envoie T+ sur T- ; l'application composee (-R) est une symetrie impropre du tetraedre, donc une permutation IMPAIRE des quatre sommets.
+ Q2 : somme des v v^T = (4/3) I pour T+ et pour T-. Q3 : le determinant oriente change de signe par inversion et par echange de deux etiquettes.
+ Q4 : developpement : terme d'ordre 2 = laplacien exactement ; ordre h : (2 epsilon h / racine(3)) d_xyz ; ordre h2 : (h2/36)[somme des d_i^4 + 6 somme des d_i^2 d_j^2].
+ Q5 : symbole sur |k| = kappa : partie reelle (diagonale moins axe) = h2 kappa^4 / 27 a l'ordre dominant ; partie imaginaire sur la diagonale = -(2 epsilon h / 9) kappa^3, nulle sur l'axe.
+ Q6 (de moi) : a epsilon = 0 l'anisotropie d'ordre h2 subsiste : rapport (diag - axe)/(h2 kappa^4) tend vers 1/27 = 0,037037 ; je le verifie a 1 % pres a h = 0,025.
+ Toutes les clauses P1 a P6 du protocole de ChatGPT sont donc, selon moi, exactes.
+C-221. S1 : sur les 24 ordres de naissance des 4 sommets, 12 determinants positifs et 12 negatifs, valeur absolue commune. S2 : 1 - e^-2 = 0,864665 contre 1 - e^-1/2 = 0,393469.
+ S3 (portee, prevue avant lecture) : si la dynamique ne lit pas l'ordre de naissance, rien d'observable n'en depend -- c'est vrai par construction, donc ce n'est pas un resultat
+ sur le Blob ; cela dit seulement qu'un heritage qui n'agit sur aucune transformation n'est pas mesurable.
+C-219. B1 : pour une bipyramide (triangle c, d, e ; sommets a, b de part et d'autre, le segment ab traversant le triangle), volume(a,c,d,e) + volume(b,c,d,e) =
+ volume(a,b,c,d) + volume(a,b,d,e) + volume(a,b,e,c), exactement. B2 : le premier decoupage n'utilise que 9 des 10 liens (ab n'est l'arete d'aucune cellule), le second les 10.
+ B3 : la triangulation de Delaunay retient l'un ou l'autre selon que b est hors ou dans la sphere circonscrite a (a,c,d,e) ; au cas limite (cinq points cospheriques) elle est indeterminee.
+ B4 (portee) : les distances mutuelles ne suffisent pas a dire quelles cellules sont constituees ; il faut une regle, POSEE.
+Clause d'ensemble : je prevois un accord complet avec ChatGPT sur les enonces mathematiques, et qu'aucun de ces trois dossiers ne valide un fondement comme loi de la nature.

@@ -452,6 +452,16 @@ Parole de l'auteur : « Il faut dériver toutes ses lois ». Constat partagé av
 | X-20 | sur le moteur statique du corpus, 1 à 2 % seulement des groupes de quatre sommets tous reliés sont des cellules géométriques, et l'accumulation de liens ne les distingue pas des autres (probabilité 0,47 à 0,50) ; la longueur des liens, si (0,82 à 0,89). Deux de mes quatre clauses fausses | [M], non recoupé |
 | C-217 (ChatGPT) | trois lectures possibles de « creux », aucune attribuée à l'auteur | question à l'auteur |
 
+**Ajout de 18 h UTC.** Paroles de l'auteur : « Peux-tu valider les fondamentaux de ma cosmogonie ? » ; « Verrouille et fais le nécessaire pour valider toute ma cosmogonie ». Verdict commun de ChatGPT et du pilote : socle conceptuel cohérent, formalisation mathématique partielle, validation physique 0/7.
+
+| pièce | résultat | statut |
+|---|---|---|
+| C-218 (ChatGPT) | X-20 recalculé de façon indépendante : chiffres identiques | [M] recoupé |
+| C-219c | même en connaissant toutes les distances entre cinq points, la région se découpe en deux cellules ou en trois : le nombre de cellules demande une règle | [T] |
+| C-220c | un tétraèdre dont les sommets ne sont pas étiquetés n'a pas de « sens » ; un sens demande un ordre porté par les sommets | [T] |
+| C-221c | un ordre de naissance que la dynamique ne lit pas ne change rien d'observable | [T], vrai par construction |
+| lecture du corpus | le corpus mesure déjà un lien entre orientation et fermeture (P = 0,516, V346 p. 59-61) et inscrit le couplage lignée–structure comme recherche ouverte (RO-09) | constat, non recoupé |
+
 Détail : [carnet du 19 novembre](carnets/2026-11-19_retractation_C-215_C-216.md). **TOE 0/7.**
 
 ## 9. Les prochaines épreuves
