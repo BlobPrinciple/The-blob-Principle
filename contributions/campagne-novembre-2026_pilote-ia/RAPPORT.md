@@ -445,6 +445,13 @@ Parole de l'auteur : « Il faut dériver toutes ses lois ». Constat partagé av
 | C-216 (vérifié en partie) | une loi qui ne voit que les liens et les faces ne distingue pas un tétraèdre creux d'un tétraèdre plein | [T] |
 | lecture du corpus | l'auteur a déjà écrit que « le tétraèdre naît creux et prend du poids en vieillissant » (V346, Partie XLI) ; le corpus contient une mesure de survie par niveau de fermeture (arête 92 %, triangle 99 %, tétraèdre 100 %, p. 891), non recoupée, scripts absents du corpus public | constat |
 
+**Ajout de 11 h 45 UTC.**
+
+| pièce | résultat | statut |
+|---|---|---|
+| X-20 | sur le moteur statique du corpus, 1 à 2 % seulement des groupes de quatre sommets tous reliés sont des cellules géométriques, et l'accumulation de liens ne les distingue pas des autres (probabilité 0,47 à 0,50) ; la longueur des liens, si (0,82 à 0,89). Deux de mes quatre clauses fausses | [M], non recoupé |
+| C-217 (ChatGPT) | trois lectures possibles de « creux », aucune attribuée à l'auteur | question à l'auteur |
+
 Détail : [carnet du 19 novembre](carnets/2026-11-19_retractation_C-215_C-216.md). **TOE 0/7.**
 
 ## 9. Les prochaines épreuves

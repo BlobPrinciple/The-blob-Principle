@@ -1004,3 +1004,7 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-216c (contrôles après lecture : contre-exemple réversible de ChatGPT ; tétraèdre creux contre plein ; sortie certaine d'une partie) | `c216c.json` | 679 |
 | C-216c (contrôles après lecture : contre-exemple réversible de ChatGPT ; tétraèdre creux contre plein ; sortie certaine d'une partie) | `c216c.out` | 538 |
 | C-216c (contrôles après lecture : contre-exemple réversible de ChatGPT ; tétraèdre creux contre plein ; sortie certaine d'une partie) | `c216c.py` | 2 688 |
+| X-20 (moteur statique du corpus : l'accumulation de liens ne distingue pas les groupes de quatre qui sont des cellules géométriques ; la longueur des liens, si ; deux clauses fausses) | `x20_cellules_et_calcification.json` | 2 527 |
+| X-20 (moteur statique du corpus : l'accumulation de liens ne distingue pas les groupes de quatre qui sont des cellules géométriques ; la longueur des liens, si ; deux clauses fausses) | `x20_cellules_et_calcification.out` | 2 300 |
+| X-20 (moteur statique du corpus : l'accumulation de liens ne distingue pas les groupes de quatre qui sont des cellules géométriques ; la longueur des liens, si ; deux clauses fausses) | `x20_cellules_et_calcification.py` | 2 599 |
+| X-20 (moteur statique du corpus : l'accumulation de liens ne distingue pas les groupes de quatre qui sont des cellules géométriques ; la longueur des liens, si ; deux clauses fausses) | `x20_cellules_et_calcification_prediction.txt` | 2 457 |

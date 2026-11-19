@@ -1,0 +1,83 @@
+[
+ {
+  "N": 800,
+  "graine": 0,
+  "K4": 9428,
+  "geometriques": 165,
+  "part_geometrique": 0.017501060670343658,
+  "calcification": {
+   "moyenne_geometriques": 15.401010101010103,
+   "moyenne_non_geometriques": 15.23239411277844,
+   "probabilite_non_geometrique_depasse": 0.4899996401453813
+  },
+  "degre": {
+   "moyenne_geometriques": 21.934848484848484,
+   "moyenne_non_geometriques": 22.296502213105907,
+   "probabilite_non_geometrique_depasse": 0.5455268435188547
+  },
+  "volume": {
+   "moyenne_geometriques": 6.294015635328837e-05,
+   "moyenne_non_geometriques": 9.600264371690681e-05,
+   "probabilite_non_geometrique_depasse": 0.5860382950742445
+  },
+  "longueur": {
+   "moyenne_geometriques": 0.09575296793561873,
+   "moyenne_non_geometriques": 0.12240251266142561,
+   "probabilite_non_geometrique_depasse": 0.8409776268569317
+  }
+ },
+ {
+  "N": 800,
+  "graine": 1,
+  "K4": 14515,
+  "geometriques": 149,
+  "part_geometrique": 0.010265242852221839,
+  "calcification": {
+   "moyenne_geometriques": 19.548098434004476,
+   "moyenne_non_geometriques": 18.85739477469952,
+   "probabilite_non_geometrique_depasse": 0.47150687632151606
+  },
+  "degre": {
+   "moyenne_geometriques": 27.395973154362416,
+   "moyenne_non_geometriques": 28.085462202422388,
+   "probabilite_non_geometrique_depasse": 0.5433134909326365
+  },
+  "volume": {
+   "moyenne_geometriques": 5.849970738669165e-05,
+   "moyenne_non_geometriques": 9.745916351897849e-05,
+   "probabilite_non_geometrique_depasse": 0.6050957377925321
+  },
+  "longueur": {
+   "moyenne_geometriques": 0.09231558176368404,
+   "moyenne_non_geometriques": 0.12559189718267377,
+   "probabilite_non_geometrique_depasse": 0.8874140751793711
+  }
+ },
+ {
+  "N": 1600,
+  "graine": 0,
+  "K4": 16931,
+  "geometriques": 315,
+  "part_geometrique": 0.01860492587561278,
+  "calcification": {
+   "moyenne_geometriques": 15.50952380952381,
+   "moyenne_non_geometriques": 15.280803643074947,
+   "probabilite_non_geometrique_depasse": 0.4946616762577283
+  },
+  "degre": {
+   "moyenne_geometriques": 22.326984126984126,
+   "moyenne_non_geometriques": 22.93959135772749,
+   "probabilite_non_geometrique_depasse": 0.5401216842056996
+  },
+  "volume": {
+   "moyenne_geometriques": 3.906379337769687e-05,
+   "moyenne_non_geometriques": 5.512097150791508e-05,
+   "probabilite_non_geometrique_depasse": 0.5640371491238125
+  },
+  "longueur": {
+   "moyenne_geometriques": 0.08075468163018301,
+   "moyenne_non_geometriques": 0.10146590370793349,
+   "probabilite_non_geometrique_depasse": 0.8203869286440302
+  }
+ }
+]

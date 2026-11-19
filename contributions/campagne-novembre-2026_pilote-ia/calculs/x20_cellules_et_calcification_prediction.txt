@@ -1,0 +1,21 @@
+X-20 -- PREDICTION ECRITE AVANT TOUT CALCUL (Claude, 2026-11-19 11:40:32 UTC)
+Objet : mesure neutre demandee par la situation (C-216 : une loi qui ne voit que liens et faces ne distingue pas le tetraedre creux du plein ; master V346, Partie XLI :
+<< le tetraedre nait creux et prend du poids en vieillissant >>, la calcification etant une accumulation de liens). Je NE DECIDE PAS ce que << creux >> veut dire : c'est a l'auteur.
+Question mesuree : sur le moteur statique du corpus, l'accumulation de liens distingue-t-elle les groupes de quatre qui sont des cellules geometriques de ceux qui ne le sont pas ?
+Recherche ouverte visee : RO-24. Exploratoire, sur un seul moteur ; non aveugle a X-19 (je connais les comptes de cellules restreintes : 165, 149, 315).
+
+PROTOCOLE FIGE
+Moteur : corpus/03_scripts/SCRIPTS DIVERS BLOB/blob engine.py, sans modification. Etats build_blob(N, graine) : (800, 0), (800, 1), (1600, 0).
+Pour chaque groupe de quatre sommets tous relies (K4 du Blob) : GEOMETRIQUE s'il est un tetraedre de la triangulation de Delaunay des memes points, NON GEOMETRIQUE sinon.
+Mesures par K4 : (c) calcification = moyenne, sur ses 6 liens, du nombre de triangles portes par le lien (voisins communs des deux bouts) ; (d) degre moyen de ses 4 sommets ;
+(v) volume ; (l) longueur moyenne de ses liens.
+Comparaison : moyennes des deux classes, et probabilite qu'un K4 non geometrique tire au hasard depasse un K4 geometrique tire au hasard (0,5 = aucune difference).
+
+PREDICTIONS
+G1. Part des K4 qui sont geometriques : moins de 3 % dans chaque etat.
+G2. Calcification : les non geometriques sont PLUS calcifies ; probabilite de depassement entre 0,55 et 0,80 dans chaque etat. Incertitude avouee : les cellules geometriques retenues
+    peuvent se trouver elles aussi dans les amas denses ; si la probabilite est sous 0,55, ma clause est fausse et la calcification ne distingue pas.
+G3. Volume : les geometriques sont plus petits ; probabilite qu'un non geometrique ait un volume superieur : plus de 0,70.
+G4. Longueur moyenne des liens : geometriques plus courts ; probabilite de depassement superieure a 0,65.
+G5 (lecture, ecrite d'avance) : si G2 tient, l'accumulation de liens va de pair avec MOINS de cellules geometriques, pas plus ; si la probabilite est proche de 0,5,
+    elle ne dit rien des cellules. Dans les deux cas elle ne suffit pas a les faire naitre dans ce moteur. Sans portee au-dela de ce moteur et de ce point de travail.
