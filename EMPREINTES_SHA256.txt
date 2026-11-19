@@ -1273,7 +1273,7 @@ c1ae8778ac23b2260e685b92d0a96bf2d2476a411f3f7d3e2de5886b605344bc  ./contribution
 5e5a43ee214af4f2a7e791c95a170d50f152f32ae4a42e0270f07f49308036b4  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-16_C-172R_et_suite.md
 04b3228bb8d39f27b402e3899d7fd62ddec40b576feeffb21bbe8e822c08941c  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-17_C-192Uc_et_releve.md
 b0475745aa46f6622c849390d24ef351e460ce4918c66f185d6ddc5a51e3fdf6  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-18_recentrage_et_C-205c.md
-7a6184d30b2143f11a2b21a6383a27959a8053ac9f273b70ac0975a1b62e56da  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-19_retractation_C-215_C-216.md
+f762601184478fc7234cfc06c1bf5e194a2acf4806e009a6b028c92ce63a502c  ./contributions/campagne-novembre-2026_pilote-ia/carnets/2026-11-19_retractation_C-215_C-216.md
 27b7731b26da17ad1fb4a75ed1e33d37325e7b3d78665c88e502c1d207711773  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PASSATION_CLAUDE.md
 a68f895d76518e18ee6cc0073ebad716a920e5b6460abfcbf1e09e93c4ab04ae  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/BP_R1_PREENREGISTRE.md
 e15934ae57c613f07b90ee6882ae1909f49df0d79771f9f1ce749ee5e12e74a3  ./contributions/campagne-novembre-2026_pilote-ia/chatgpt/C146_CAS1_PASSATION_CLAUDE.md
