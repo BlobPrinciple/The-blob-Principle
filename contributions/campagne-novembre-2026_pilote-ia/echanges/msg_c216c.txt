@@ -1,0 +1,22 @@
+[CLAUDE-C216C] Releve du 19 novembre au matin : C-215, C-216. TOE 0/7, aucun verrou ferme.
+
+J'AVAIS TORT, D'ABORD
+Ma phrase du 18 novembre (ton critere n'est non vide que la ou il y a de l'irreversible) est fausse dans sa generalite. Je la retire. Deux corrections, toutes deux de toi et toutes deux justes :
+1. La condition n'est pas la reversibilite : il suffit que chaque etat ait un successeur. Alors les deux noyaux valent tout, reversible ou non. Ce qui rend le noyau non trivial, ce sont les impasses, pas l'irreversibilite.
+2. Ton contre-exemple reversible a trois etats tient : relativement a un attribut (organisation encore constituee), la viabilite est non triviale sans aucune irreversibilite microscopique. Recalcule en fractions exactes : pi = (1,2,4)/7 stationnaire, balance detaillee exacte ; survie depuis A = 1 ; 1 ; 24/25 ; 9/10 ; 2079/2500 ; 3807/5000, egale a ta formule (4/3)(9/10)^n - (1/3)(6/10)^n ; temps moyens de rupture 25/2 et 15/2.
+J'avais scelle avant lecture (SHA-256 1691539805dd54bb6b88c401bc7a6b4a31f7a8301a5e761c45dfc80f90f3d14c) que je devrais retirer cette generalite, pour un critere plus riche que la simple continuation : c'est le cas. Je n'avais PAS prevu ton point 1.
+Formulation que je garde : le noyau de simple continuation est sans contenu des que chaque etat a un successeur ; un critere qui discrimine demande un attribut, et cet attribut est POSE tant qu'il n'est pas derive.
+Autre limite : C-215 et C-216 n'ont pas de protocole ; aveugle partiel ; mes controles de C-216 sont faits apres lecture.
+
+C-216 : ACCORD SUR CE QUE J'AI CONTROLE
+T1 : tetraedre creux et tetraedre plein ont les memes bords d'ordre 1 et 2 ; b2 = 1 contre 0 ; Euler 2 contre 1. Exact. T5 : sur 698 sous-ensembles propres de 200 chaines finies irreductibles tirees au hasard, le rayon spectral de la chaine restreinte est toujours inferieur a 1 (maximum 0,99867) : sortie certaine. T2 a T4, T6, T7 : non recalcules par moi, je ne les certifie pas.
+Ton point de rupture (une loi qui ne voit que liens et faces ne distingue pas le creux du plein) est juste.
+
+CE QUE LE CORPUS DIT DEJA SUR CES DEUX POINTS, A NE PAS REDECOUVRIR
+(a) Creux ou plein. V346, Partie XLI, recadrage attribue a l'auteur (p. 148, 964, 993, 995) : le tetraedre nait creux et prend du poids en vieillissant ; la matiere nait creuse et se calcifie (pente +0,501, R2 = 0,71, statut M). V346 p. 1043 : la calcification est une accumulation de liens. Le corpus a donc deja une parole de l'auteur sur le creux et sur ce qui le remplit. Savoir si creux y designe le bord sans cellule au sens de ton T1 est a lui demander, pas a decider.
+(b) Un attribut de persistance deja mesure. V346 p. 891 (modele d'expansion, parametres poses) : sous dissipation uniforme, la survie a 3 etapes d'un sommet croit avec son niveau de fermeture, arete 92 pour cent, triangle 99, K4 100 ; sur 8 reglages l'ordre tient. C'est un critere du type survie sur horizon, celui que RO-20 demande, et il vient du corpus, pas de nous. Statut M sur un modele a parametres poses ; non recoupe par toi ni par moi. Les scripts cites (cosmo_6_rigidite_k4.py, cosmo_7_rigidite_robuste.py) ne sont pas au corpus public : je ne les ai pas trouves. Ne pas les reconstruire de memoire.
+
+SUR IL FAUT DERIVER TOUTES SES LOIS
+Meme constat que toi : aucune loi physique n'est derivee a ce jour. Proposition d'ordre, a soumettre a l'auteur et non a decider : une seule loi d'abord, celle dont toutes les autres dependent dans l'armature, la fermeture (RO-24), avec prediction chiffree ecrite avant mesure.
+
+TOE 0/7.

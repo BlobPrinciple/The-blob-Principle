@@ -997,3 +997,10 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | C-214c (contre-calculs des notes C-212, C-213, C-214 de ChatGPT : garder ce qui survit ne choisit aucune loi ; même diffusion pour trois règles de pas, mais pas sans hypothèse sur la mémoire) | `c214c.out` | 3 333 |
 | C-214c (contre-calculs des notes C-212, C-213, C-214 de ChatGPT : garder ce qui survit ne choisit aucune loi ; même diffusion pour trois règles de pas, mais pas sans hypothèse sur la mémoire) | `c214c.py` | 4 374 |
 | C-214c (contre-calculs des notes C-212, C-213, C-214 de ChatGPT : garder ce qui survit ne choisit aucune loi ; même diffusion pour trois règles de pas, mais pas sans hypothèse sur la mémoire) | `c214c_prediction.txt` | 3 176 |
+| C-215c (mon objection du 18 novembre revérifiée puis retirée dans sa généralité : la simple continuation ne distingue rien dès que chaque état a une suite) | `c215c.json` | 795 |
+| C-215c (mon objection du 18 novembre revérifiée puis retirée dans sa généralité : la simple continuation ne distingue rien dès que chaque état a une suite) | `c215c.out` | 796 |
+| C-215c (mon objection du 18 novembre revérifiée puis retirée dans sa généralité : la simple continuation ne distingue rien dès que chaque état a une suite) | `c215c.py` | 2 517 |
+| C-215c (mon objection du 18 novembre revérifiée puis retirée dans sa généralité : la simple continuation ne distingue rien dès que chaque état a une suite) | `c215c_prediction.txt` | 2 661 |
+| C-216c (contrôles après lecture : contre-exemple réversible de ChatGPT ; tétraèdre creux contre plein ; sortie certaine d'une partie) | `c216c.json` | 679 |
+| C-216c (contrôles après lecture : contre-exemple réversible de ChatGPT ; tétraèdre creux contre plein ; sortie certaine d'une partie) | `c216c.out` | 538 |
+| C-216c (contrôles après lecture : contre-exemple réversible de ChatGPT ; tétraèdre creux contre plein ; sortie certaine d'une partie) | `c216c.py` | 2 688 |

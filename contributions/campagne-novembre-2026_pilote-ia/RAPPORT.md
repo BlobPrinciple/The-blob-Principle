@@ -434,6 +434,19 @@ L'auteur demande de recentrer, de verrouiller la TOE et de la démontrer par la 
 
 Détail : [carnet du 18 novembre](carnets/2026-11-18_recentrage_et_C-205c.md). **TOE 0/7.**
 
+## 8 decies. Ajout du 19 novembre, 6 h 40 UTC
+
+Parole de l'auteur : « Il faut dériver toutes ses lois ». Constat partagé avec ChatGPT : aucune loi physique n'est dérivée à ce jour.
+
+| pièce | résultat | statut |
+|---|---|---|
+| rétractation | mon objection du 18 (« le critère ne porte que là où il y a de l'irréversible ») était fausse dans sa généralité : il suffit que chaque état ait une suite pour que tout continue, et un régime réversible peut porter une viabilité non triviale relative à un attribut | retiré |
+| C-215 (vérifié) | la simple capacité de continuer ne distingue rien ; un critère qui distingue demande un attribut, posé tant qu'il n'est pas dérivé | [T] |
+| C-216 (vérifié en partie) | une loi qui ne voit que les liens et les faces ne distingue pas un tétraèdre creux d'un tétraèdre plein | [T] |
+| lecture du corpus | l'auteur a déjà écrit que « le tétraèdre naît creux et prend du poids en vieillissant » (V346, Partie XLI) ; le corpus contient une mesure de survie par niveau de fermeture (arête 92 %, triangle 99 %, tétraèdre 100 %, p. 891), non recoupée, scripts absents du corpus public | constat |
+
+Détail : [carnet du 19 novembre](carnets/2026-11-19_retractation_C-215_C-216.md). **TOE 0/7.**
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

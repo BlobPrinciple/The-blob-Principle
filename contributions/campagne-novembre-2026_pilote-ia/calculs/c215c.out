@@ -1,0 +1,39 @@
+{
+ "sans_contrainte": [
+  {
+   "etats": 1,
+   "graphes_symetriques": 1,
+   "existentiel_egal_non_isoles": 1,
+   "universel_egal_non_isoles": 1
+  },
+  {
+   "etats": 2,
+   "graphes_symetriques": 2,
+   "existentiel_egal_non_isoles": 2,
+   "universel_egal_non_isoles": 2
+  },
+  {
+   "etats": 3,
+   "graphes_symetriques": 8,
+   "existentiel_egal_non_isoles": 8,
+   "universel_egal_non_isoles": 8
+  },
+  {
+   "etats": 4,
+   "graphes_symetriques": 64,
+   "existentiel_egal_non_isoles": 64,
+   "universel_egal_non_isoles": 64
+  },
+  {
+   "etats": 5,
+   "graphes_symetriques": 1024,
+   "existentiel_egal_non_isoles": 1024,
+   "universel_egal_non_isoles": 1024
+  }
+ ],
+ "avec_contrainte": {
+  "cas": 256,
+  "existentiel_retire_des_etats_non_isoles": 76,
+  "universel_retire_des_etats_non_isoles": 224
+ }
+}

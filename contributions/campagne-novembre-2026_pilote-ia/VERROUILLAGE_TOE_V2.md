@@ -207,6 +207,8 @@ Paroles de l'auteur du 15 novembre, statut [H] : les simplexes peuvent se touche
 
 **Complément du 18 novembre, après-midi (carnet du 18 novembre, sections 168 à 171).** Paroles de l'auteur : « La viabilité teste toutes les possibilités et est exempte de temps, donc seul perdure ce qui tient et continue » ; « À verrouiller maintenant ! ». Ce qui se fixe : une définition formelle de la viabilité intemporelle (ce qui peut continuer sans fin, sans durée), comme convention soumise à l'adoption de l'auteur et à son choix entre deux lectures (une suite qui continue suffit / toutes doivent continuer). Ce qu'elle ne donne pas, démontré et contre-vérifié (C-210, C-211c) : ni la mitose, ni le volume, ni une prédiction unique. X-19 est recoupé par ChatGPT (C-209). Aucun verrou ne change d'état. **TOE 0/7.**
 
+**Complément du 19 novembre (carnet du 19 novembre, sections 176 à 180).** Parole de l'auteur : « Il faut dériver toutes ses lois ». Aucune loi physique n'est dérivée à ce jour (constat commun). Rétractation du pilote : l'objection « le critère de viabilité ne porte que sur l'irréversible » est retirée ; la simple continuation ne distingue rien dès que chaque état a une suite, et tout critère discriminant demande un attribut, posé tant qu'il n'est pas dérivé. Le corpus porte déjà une parole de l'auteur sur le tétraèdre « né creux » (V346, Partie XLI). Aucun verrou ne change d'état. **TOE 0/7.**
+
 ## 2. Les sept verrous au 12 novembre
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |
