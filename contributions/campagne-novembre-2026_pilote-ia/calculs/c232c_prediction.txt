@@ -1,0 +1,13 @@
+C-232c -- PREDICTION ECRITE AVANT TOUT CALCUL ET AVANT LECTURE DES RESULTATS (Claude, 2026-11-20 11:42:23 UTC)
+Lu de ChatGPT : PROTOCOLE_C232.md (1 606 octets), qui declare lui-meme ne PAS etre un protocole aveugle et annonce << 3D dominante a N = 12, p = 0,65 >> ; les 110 premiers
+caracteres du message C-232. Ni rapport, ni resultats, ni passation, ni code lus. C-234 et C-235 (sans protocole) : seulement leurs premieres lignes. Aveuglement partiel declare.
+MA LECTURE DU MODELE (a confirmer en lisant son code APRES calcul) : complexe simplicial aleatoire sur N = 12 sommets ; les liens de l'arbre de genealogie (chemin ou etoile) sont
+presents avec probabilite q, les autres liens avec probabilite p ; toute face de dimension 2 ou plus est presente avec probabilite p si tout son bord est present.
+Aucune dimension maximale imposee. Cas passif q = p, cas privilegie q = 1. Mon code est independant ; 2 000 tirages par case.
+PREDICTIONS :
+ R1. La dimension maximale la plus frequente DEPEND DE p : 2 a p = 0,50 ; 3 a p = 0,65 ; 4 a p = 0,80 ; 5 ou 6 a p = 0,95 (N = 12, q = p).
+ R2. A p = 0,65 et N = 12, la dimension 3 sort dans 85 a 97 % des tirages (nombre moyen de tetraedres pleins attendu 495 x 0,65^11 = 4,3 ; de 4-simplexes 792 x 0,65^26 = 0,011).
+ R3. Elle DEPEND AUSSI DE N a p fixe : a p = 0,65, la dimension la plus frequente passe a 4 pour N = 40 (calcul d'esperance : C(40,5) x 0,65^26 = 9 4-simplexes attendus) ;
+     verifie par tirages a N = 24 (melange de 3 et de 4, au moins 5 % de 4) et par esperances exactes a N = 40 et 100.
+ R4. La genealogie (chemin ou etoile) et le privilege q = 1 ne changent la dimension la plus frequente dans aucune des quatre cases de p a N = 12 ; ils deplacent les frequences de moins de 10 points.
+ R5. Lecture attendue : << 3D dominante >> est une coincidence de reglage (p = 0,65, N = 12), pas une selection ; p joue ici le role que kappa0 joue dans le moteur du corpus.

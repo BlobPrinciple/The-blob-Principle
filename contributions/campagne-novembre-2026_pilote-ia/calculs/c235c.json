@@ -1,0 +1,218 @@
+[
+ {
+  "n": 4,
+  "f": "t",
+  "b": 0.0,
+  "graphes": 64,
+  "maximum": 12.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 4,
+  "f": "t",
+  "b": 0.5,
+  "graphes": 64,
+  "maximum": 12.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 4,
+  "f": "t_plus_1",
+  "b": 0.0,
+  "graphes": 64,
+  "maximum": 18.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 4,
+  "f": "t_plus_1",
+  "b": 0.5,
+  "graphes": 64,
+  "maximum": 18.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 4,
+  "f": "t_carre_moins_1",
+  "b": 0.0,
+  "graphes": 64,
+  "maximum": 18.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 4,
+  "f": "t_carre_moins_1",
+  "b": 0.5,
+  "graphes": 64,
+  "maximum": 18.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 4,
+  "f": "constante",
+  "b": 0.0,
+  "graphes": 64,
+  "maximum": 6.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 4,
+  "f": "constante",
+  "b": 0.5,
+  "graphes": 64,
+  "maximum": 6.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 5,
+  "f": "t",
+  "b": 0.0,
+  "graphes": 1024,
+  "maximum": 30.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 5,
+  "f": "t",
+  "b": 0.5,
+  "graphes": 1024,
+  "maximum": 30.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 5,
+  "f": "t_plus_1",
+  "b": 0.0,
+  "graphes": 1024,
+  "maximum": 40.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 5,
+  "f": "t_plus_1",
+  "b": 0.5,
+  "graphes": 1024,
+  "maximum": 40.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 5,
+  "f": "t_carre_moins_1",
+  "b": 0.0,
+  "graphes": 1024,
+  "maximum": 80.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 5,
+  "f": "t_carre_moins_1",
+  "b": 0.5,
+  "graphes": 1024,
+  "maximum": 80.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 5,
+  "f": "constante",
+  "b": 0.0,
+  "graphes": 1024,
+  "maximum": 10.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 5,
+  "f": "constante",
+  "b": 0.5,
+  "graphes": 1024,
+  "maximum": 10.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 6,
+  "f": "t",
+  "b": 0.0,
+  "graphes": 32768,
+  "maximum": 60.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 6,
+  "f": "t",
+  "b": 0.5,
+  "graphes": 32768,
+  "maximum": 60.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 6,
+  "f": "t_plus_1",
+  "b": 0.0,
+  "graphes": 32768,
+  "maximum": 75.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 6,
+  "f": "t_plus_1",
+  "b": 0.5,
+  "graphes": 32768,
+  "maximum": 75.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 6,
+  "f": "t_carre_moins_1",
+  "b": 0.0,
+  "graphes": 32768,
+  "maximum": 225.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 6,
+  "f": "t_carre_moins_1",
+  "b": 0.5,
+  "graphes": 32768,
+  "maximum": 225.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 6,
+  "f": "constante",
+  "b": 0.0,
+  "graphes": 32768,
+  "maximum": 15.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ },
+ {
+  "n": 6,
+  "f": "constante",
+  "b": 0.5,
+  "graphes": 32768,
+  "maximum": 15.0,
+  "maximiseurs": 1,
+  "complet_seul": true
+ }
+]

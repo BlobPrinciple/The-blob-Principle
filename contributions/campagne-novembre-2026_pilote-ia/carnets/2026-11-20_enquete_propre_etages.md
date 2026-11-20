@@ -132,3 +132,53 @@ Sa phrase de 06:49 — la 3D plus facile que les étages au-dessus, plus diffici
 ## 200. État
 
 Aucun message envoyé à ChatGPT : il écrit, et l'auteur vient de lui parler (07:03). **TOE 0/7. Aucun verrou fermé.**
+
+## 201. Relève de 11 h 40 UTC : paroles de l'auteur et trois archives
+
+Paroles de l'auteur à ChatGPT (heures UTC, orthographe normalisée) :
+
+- 08:26:12 : « Vas-y et développe au maximum de tes possibilités ».
+- 08:48:31 : « Oui clairement et ça développe en vérité la cosmogonie en zoomant sur les détails. Ça accentue la mécanique et nous l'avions déjà abordé dans les premiers masters via des phases évolutives de cristallisation que je nommais par étape comme l'eau vapeur eau glace ! »
+- 09:01:00 : « Continue car du coup on n'avance pas au final on replonge dans les anciens travaux donc fouille à fond tous les anciens masters on gagnera du temps ! »
+
+Parole de l'auteur à Claude, vers 11 h 30 UTC, dans une autre discussion (rapportée par le document de passation du Projet) : « Récupère tout et relance une nouvelle discussion avec le modèle maximal. » Une nouvelle discussion Claude existe donc en parallèle de cette relève.
+
+Archives de ChatGPT (empreintes dans `chatgpt/EMPREINTES.md`) : C-232 (« mécanique de l'ascenseur dimensionnel » ; son protocole déclare lui-même n'être pas aveugle), C-234 (« cristallisation par paliers », sans protocole ni passation), C-235 (« archéologie des masters », sans protocole). C-233 n'a pas d'archive (interrompu). L'archive C-235 contient un index de 55 Mo d'extraits des masters que ChatGPT demande de ne pas publier : il n'est pas versé. Passations C-232 et C-235 versées à l'octet.
+
+## 202. C-232c — la « 3D dominante » de C-232 est un réglage [M]
+
+Prédiction scellée avant calcul et avant lecture des résultats : `calculs/c232c_prediction.txt`, SHA-256 `3a2b4757e6108133313a3abfe6b91bf211cea484754643bd1e8dc3e23d272d85`. Modèle de ChatGPT, relu dans son code après calcul et conforme à ma lecture : sur N constituants, chaque lien puis chaque face de toute dimension apparaît avec une probabilité p si son bord est là ; aucune dimension maximale n'est imposée (modèle connu de Costa et Farber, ce que ChatGPT signale lui-même).
+
+| p (N = 12) | Dimension maximale la plus fréquente | Fréquence |
+|---|---|---|
+| 0,50 | 2 | 80 % |
+| 0,65 | 3 | 90 % |
+| 0,80 | 4 | 73 % |
+| 0,95 | 6 | 56 % |
+
+À p = 0,65 : dimension 3 à N = 12 ; mélange 3 (62 %) et 4 (38 %) à N = 24 ; 9 simplexes de dimension 4 attendus à N = 40, 1 029 à N = 100 ; la dimension 5 arrive vers N = 1 000. Prédictions R1, R2, R3 tenues ; R4 : la dimension la plus fréquente ne change pas avec la généalogie ni avec le privilège des liens de parenté, mais **ma clause « moins de 10 points d'écart » est fausse** (jusqu'à 31 points à p = 0,50). Accord avec ChatGPT, qui écrit : 4-simplexes attendus 0,0108 à N = 12 et 74,655 à N = 60 (mes formules donnent les mêmes valeurs), « étage 3 transitoire, non phase fondamentale », aucun espace 3D pur produit (0 sur 350).
+
+Lecture : dans ce modèle, p joue le rôle que κ₀ joue dans le moteur du corpus — c'est le réglage qui choisit l'étage, et la taille le fait monter. Rien n'y désigne l'étage 3.
+
+## 203. C-235c — le théorème C-235-T1 [T], contrôle non aveugle
+
+Énoncé de ChatGPT : pour une action qui récompense les triangles portés par chaque lien et pénalise seulement l'inégalité des degrés, sans coût par lien, le graphe complet est l'unique maximum. Argument en une ligne (le score est borné par le nombre de liens fois la récompense maximale, atteinte seulement par le graphe complet) ; énumération de tous les graphes à 4, 5 et 6 constituants, quatre fonctions, deux pénalités : 24 cas sur 24, le graphe complet seul. Non aveugle, déclaré. Le master le dit déjà (V346 § C.6 : le Blob purement combinatoire s'effondre en clique) et C-228c le retrouvait.
+
+## 204. La « cristallisation par paliers » dans le corpus de l'auteur — relu dans le texte
+
+La parole de 08:48 est attestée par le corpus. Section **XV.13 — « Lecture structurante : cristallisation par paliers et construction micro→macro »**, statut [I] (interprétation, « ne prétend à aucune preuve nouvelle ») :
+
+- présente dans le master **V152 du 25 mai 2026**, p. 257, et dans V152 du 29 mai (p. 257), V155 du 2 juin (p. 260), V346 (p. 642-644) ; **absente** du V139 du 22 mai. ChatGPT, dans C-235, donne V153 du 30 mai comme plus ancienne source et demande s'il en existe une antérieure : oui, de cinq jours, dans le corpus public ;
+- le texte dit « transition de phase de type liquide→solide (eau→glace) » ; je n'y trouve pas le mot « vapeur » ;
+- il rattache lui-même le palier au paramètre : « running d_s(κ₀) franchissant 3 vers κ₀ ≈ 6,6 », « la structure abandonne un état diffus (basse dimension, peu contraint) pour un état ordonné stable (3D) » ;
+- et il énonce : « chaque palier doit se figer (se stabiliser) avant que le suivant ne croisse sur lui ».
+
+Ce dernier énoncé est de l'auteur et il est testable : c'est une règle d'ordre entre étages, que ni C-231 ni C-232 n'utilisent (leurs étages sont fournis ou tirés au sort d'un coup). Je le signale sans le compléter. Il rejoint la section 195 : dans le corpus, c'est κ₀ qui fait passer d'un palier à l'autre.
+
+C-234 (énergie de nucléation avec deux constantes posées égales à 1) et le reste de C-235 (registre de 27 mécanismes, pages citées de V293, V346, « V347.2 ») : **non contre-audités**. Je n'ai que l'armature V347.1 ; « V347.2 » n'est pas dans le corpus public que j'ai lu.
+
+## 205. État
+
+Message `[CLAUDE-C232C]` préparé pour ChatGPT : `echanges/msg_c232c.txt`  3 271 caractères  SHA-256 `21932cc760b0fbfa7fc058fb95e166503ca2aa41b39876690b0487aa9bd0270a`. Il dit mes échecs d'abord  les accords  la source du 25 mai pour la cristallisation par paliers  demande le recoupement de X-21 et de X-22  et pose une question : existe-t-il dans les masters une règle de l'auteur qui fixe κ₀ sans le poser ? L'envoi et son contrôle sont consignés à la relève suivante.
+
+**TOE 0/7. Aucun verrou fermé.**

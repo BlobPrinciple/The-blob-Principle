@@ -474,6 +474,8 @@ Le corpus de l'auteur contient déjà un fait qui rejoint sa réflexion : la dim
 
 Ajout de 7 h 30 UTC. Deux notes nouvelles de ChatGPT, C-230 et C-231, recalculées par un code indépendant : accord. Dans des tissus de d-simplexes empilés où d est fourni, le coût en liens et la résistance aux ruptures croissent ensemble avec d ; aucun étage n'est optimal sans un seuil posé de l'extérieur, et l'argument de stabilité des orbites laisse passer la dimension 2 et suppose un espace. La phrase de l'auteur — la 3D plus facile que les étages au-dessus, plus difficile que 1 ou 2 — est compatible avec cet ordre ; l'ordre ne désigne pas l'étage 3.
 
+Ajout de 12 h UTC. Note C-232 de ChatGPT recalculée : dans un complexe aléatoire sans dimension imposée, la dimension la plus fréquente vaut 2, 3, 4 ou 6 selon le réglage p, et monte avec la taille ; la « 3D dominante » y est un réglage, ce que ChatGPT écrit aussi. La « cristallisation par paliers » rappelée par l'auteur est attestée dans son corpus dès le master V152 du 25 mai 2026 (section XV.13, statut d'interprétation), qui rattache le palier 3D au paramètre κ₀ ≈ 6,6 et énonce que « chaque palier doit se figer avant que le suivant ne croisse sur lui ». C-234 et l'essentiel de C-235 ne sont pas contre-audités.
+
 Détail : [carnet du 20 novembre](carnets/2026-11-20_enquete_propre_etages.md). **TOE 0/7.**
 
 ## 9. Les prochaines épreuves

@@ -1,0 +1,20 @@
+{"p": 0.5, "arbre": "chemin", "q": "passif", "frequences": {"2": 0.8005, "3": 0.1995}, "dimension_la_plus_frequente": 2}
+{"p": 0.5, "arbre": "chemin", "q": "privilegie", "frequences": {"2": 0.645, "3": 0.355}, "dimension_la_plus_frequente": 2}
+{"p": 0.5, "arbre": "etoile", "q": "passif", "frequences": {"2": 0.8115, "3": 0.1885}, "dimension_la_plus_frequente": 2}
+{"p": 0.5, "arbre": "etoile", "q": "privilegie", "frequences": {"2": 0.5005, "3": 0.4995}, "dimension_la_plus_frequente": 2}
+{"p": 0.65, "arbre": "chemin", "q": "passif", "frequences": {"2": 0.092, "3": 0.8975, "4": 0.0105}, "dimension_la_plus_frequente": 3}
+{"p": 0.65, "arbre": "chemin", "q": "privilegie", "frequences": {"2": 0.0275, "3": 0.949, "4": 0.0235}, "dimension_la_plus_frequente": 3}
+{"p": 0.65, "arbre": "etoile", "q": "passif", "frequences": {"2": 0.09, "3": 0.8995, "4": 0.0105}, "dimension_la_plus_frequente": 3}
+{"p": 0.65, "arbre": "etoile", "q": "privilegie", "frequences": {"2": 0.009, "3": 0.958, "4": 0.033}, "dimension_la_plus_frequente": 3}
+{"p": 0.8, "arbre": "chemin", "q": "passif", "frequences": {"3": 0.271, "4": 0.7265, "5": 0.0025}, "dimension_la_plus_frequente": 4}
+{"p": 0.8, "arbre": "chemin", "q": "privilegie", "frequences": {"3": 0.1485, "4": 0.8475, "5": 0.004}, "dimension_la_plus_frequente": 4}
+{"p": 0.8, "arbre": "etoile", "q": "passif", "frequences": {"3": 0.2815, "4": 0.7135, "5": 0.005}, "dimension_la_plus_frequente": 4}
+{"p": 0.8, "arbre": "etoile", "q": "privilegie", "frequences": {"3": 0.147, "4": 0.849, "5": 0.004}, "dimension_la_plus_frequente": 4}
+{"p": 0.95, "arbre": "chemin", "q": "passif", "frequences": {"5": 0.436, "6": 0.561, "7": 0.003}, "dimension_la_plus_frequente": 6}
+{"p": 0.95, "arbre": "chemin", "q": "privilegie", "frequences": {"4": 0.0005, "5": 0.373, "6": 0.624, "7": 0.0025}, "dimension_la_plus_frequente": 6}
+{"p": 0.95, "arbre": "etoile", "q": "passif", "frequences": {"4": 0.0005, "5": 0.445, "6": 0.553, "7": 0.0015}, "dimension_la_plus_frequente": 6}
+{"p": 0.95, "arbre": "etoile", "q": "privilegie", "frequences": {"5": 0.3805, "6": 0.6185, "7": 0.001}, "dimension_la_plus_frequente": 6}
+{"p": 0.65, "frequences": {"3": 0.619, "4": 0.381}}
+{"2": 1763.6417500000002, "3": 799.7340742726634, "4": 8.99452941623514, "5": 8.321647135450742e-05, "6": 6.608937455577495e-16, "7": 4.7375290761171953e-39}
+{"2": 28864.460625000007, "3": 34313.78975150263, "4": 1029.1300612080574, "5": 0.02584381806847468, "6": 5.67450466239034e-13, "7": 1.1463499394863567e-35}
+{"2": 29661848.043750007, "3": 362432278.3781231, "4": 112775965.25031808, "5": 29662.137189003715, "6": 6.887034397521101e-06, "7": 1.4855518250763405e-27}
