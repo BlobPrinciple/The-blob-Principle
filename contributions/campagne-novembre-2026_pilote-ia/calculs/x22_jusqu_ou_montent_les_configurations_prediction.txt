@@ -1,0 +1,25 @@
+X-22 -- PREDICTION ECRITE AVANT TOUT CALCUL (Claude, 2026-11-20 06:40:12 UTC)
+Enquete propre demandee par l'auteur le 20 novembre (<< tu vas recuperer l'ensemble des travaux que j'ai realises sur OpenAI et faire ta propre enquete selon mes reflexions >>).
+Reflexion de l'auteur prise comme point de depart (20 novembre, 06:33:16 UTC, a ChatGPT, orthographe normalisee) : << C'est peut-etre la preuve formelle que la 3D n'est que
+l'etape accessible a l'observation pour des elements en faisant partie ! Nous ! On ne peut pas limiter a la 3D tout simplement car ce n'est pas le cas. Il faut envisager la 3D
+comme notre etage d'ascenseur vers des possibilites infinies. Mais la 3D reste la moins energivore quoi qu'il en soit. Le vrai test est peut-etre de savoir jusqu'ou les
+configurations peuvent monter et nous aurons une idee de la hierarchie reelle >>.
+Je mesure donc, sur SON moteur statique, jusqu'ou les configurations montent. Je ne definis pas << energivore >> a sa place.
+Non aveugle sur un point : X-19 m'a deja donne la plus grande clique (14, 16, 14) et le Master propre du 7 juillet donne << clique max K17 >>.
+Je n'ai lu ni le C-229 ni le C-230 de ChatGPT (en cours d'ecriture), seulement leurs premieres lignes.
+
+MA LECTURE, DECLAREE : un << etage k >> = un groupe de k+1 constituants tous relies entre eux (etage 1 = lien, 2 = triangle, 3 = groupe de quatre, 4 = groupe de cinq, etc.).
+C'est la lecture << dynamique (cliques) >> du corpus ; la lecture << geometrique >> (Clarification n 22 du 4 juillet) appelle fantomes les groupes au-dessus de quatre.
+PROTOCOLE FIGE : moteur corpus/03_scripts/SCRIPTS DIVERS BLOB/blob engine.py, sans modification ; build_blob(N, graine) pour (800,0), (800,1), (1600,0), (3200,0) ;
+temoin sans viabilite build_rgg, memes parametres. Pour chaque etat : plus haut etage atteint ; part des constituants selon leur plus haut etage ; nombre de groupes maximaux par etage ;
+liens necessaires par constituant a chaque etage (arithmetique : k/2 liens par constituant dans un groupe complet d'etage k) compares au budget du moteur (3,3 liens par constituant).
+PREDICTIONS :
+ M1. Plus haut etage atteint par le Blob : 13 a 17 (groupes de 14 a 18) a toutes les tailles ; il croit lentement ou pas du tout avec N (au plus +2 de 800 a 3200).
+ M2. Temoin : plus haut etage 7 a 9, nettement plus bas que le Blob dans chaque etat.
+ M3. Part des constituants du Blob dont le plus haut etage est au moins 3 (dans un groupe de quatre) : 55 a 80 % ; au moins 4 : 40 a 70 %. Incertain.
+ M4. Repartition tres inegale : au moins 20 % des constituants du Blob ne depassent pas l'etage 2 (triangle), pendant qu'au moins 10 % sont a l'etage 8 ou plus.
+ M5. Le plus haut etage du Blob depasse le << budget uniforme >> : avec 3,3 liens par constituant, un pavage uniforme par groupes complets ne peut pas depasser l'etage 6
+     (6/2 = 3 liens par constituant) ; le moteur n'atteint ses etages hauts qu'en concentrant les liens sur une minorite. Arithmetique + mesure de la concentration :
+     les 10 % de constituants les plus relies portent plus de 25 % des liens.
+ M6 (geometrie, par theoreme, verifie numeriquement) : dans ce moteur, les positions sont dans un espace a trois dimensions POSE ; tout groupe de cinq y a un volume a quatre
+     dimensions nul. Les etages au-dessus de 3 y sont donc des etages de LIENS, pas des etages de volume.

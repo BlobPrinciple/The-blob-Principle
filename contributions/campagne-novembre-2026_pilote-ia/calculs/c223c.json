@@ -1,0 +1,104 @@
+{
+ "C223c": {
+  "genealogies": 625,
+  "concordance_ordre_uniforme": "2/5",
+  "genealogies_par_ordre": [
+   24
+  ],
+  "taux_agrege_pondere": "2/5",
+  "minimum": "0",
+  "maximum": "1",
+  "a_zero": 104,
+  "a_un": 54,
+  "moyenne_non_ponderee": "2/5",
+  "moyenne_non_ponderee_decimale": 0.4
+ },
+ "C228c_spins": {
+  "dimension_spin_total_nul": 2,
+  "valeurs_propres_triple_produit": [
+   -0.43301270189221924,
+   0.43301270189221924
+  ],
+  "racine3_sur_4": 0.4330127018922193
+ },
+ "C228c_cout": {
+  "N4_a_egal_b": {
+   "minimum": 0,
+   "nombre_de_minimiseurs": 1,
+   "aretes_des_minimiseurs": [
+    0
+   ],
+   "seuil_2_plus_3b_sur_a": 5.0
+  },
+  "N4_a_egal_2b": {
+   "minimum": -2,
+   "nombre_de_minimiseurs": 1,
+   "aretes_des_minimiseurs": [
+    6
+   ],
+   "seuil_2_plus_3b_sur_a": 3.5
+  },
+  "N4_a_egal_b_sur_2": {
+   "minimum": 0,
+   "nombre_de_minimiseurs": 1,
+   "aretes_des_minimiseurs": [
+    0
+   ],
+   "seuil_2_plus_3b_sur_a": 8.0
+  },
+  "N5_a_egal_b": {
+   "minimum": 0,
+   "nombre_de_minimiseurs": 2,
+   "aretes_des_minimiseurs": [
+    0,
+    10
+   ],
+   "seuil_2_plus_3b_sur_a": 5.0
+  },
+  "N5_a_egal_2b": {
+   "minimum": -10,
+   "nombre_de_minimiseurs": 1,
+   "aretes_des_minimiseurs": [
+    10
+   ],
+   "seuil_2_plus_3b_sur_a": 3.5
+  },
+  "N5_a_egal_b_sur_2": {
+   "minimum": 0,
+   "nombre_de_minimiseurs": 1,
+   "aretes_des_minimiseurs": [
+    0
+   ],
+   "seuil_2_plus_3b_sur_a": 8.0
+  },
+  "N6_a_egal_b": {
+   "minimum": -5,
+   "nombre_de_minimiseurs": 1,
+   "aretes_des_minimiseurs": [
+    15
+   ],
+   "seuil_2_plus_3b_sur_a": 5.0
+  },
+  "N6_a_egal_2b": {
+   "minimum": -25,
+   "nombre_de_minimiseurs": 1,
+   "aretes_des_minimiseurs": [
+    15
+   ],
+   "seuil_2_plus_3b_sur_a": 3.5
+  },
+  "N6_a_egal_b_sur_2": {
+   "minimum": 0,
+   "nombre_de_minimiseurs": 1,
+   "aretes_des_minimiseurs": [
+    0
+   ],
+   "seuil_2_plus_3b_sur_a": 8.0
+  }
+ },
+ "C228c_CHSH": {
+  "strategies": 16,
+  "maximum_deterministe": 2,
+  "quantique": 2.8284271247461903
+ }
+}

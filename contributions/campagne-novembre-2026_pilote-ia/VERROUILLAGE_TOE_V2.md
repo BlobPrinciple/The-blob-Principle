@@ -209,6 +209,8 @@ Paroles de l'auteur du 15 novembre, statut [H] : les simplexes peuvent se touche
 
 **Complément du 19 novembre (carnet du 19 novembre, sections 176 à 180).** Parole de l'auteur : « Il faut dériver toutes ses lois ». Aucune loi physique n'est dérivée à ce jour (constat commun). Rétractation du pilote : l'objection « le critère de viabilité ne porte que sur l'irréversible » est retirée ; la simple continuation ne distingue rien dès que chaque état a une suite, et tout critère discriminant demande un attribut, posé tant qu'il n'est pas dérivé. Le corpus porte déjà une parole de l'auteur sur le tétraèdre « né creux » (V346, Partie XLI). Aucun verrou ne change d'état. **TOE 0/7.**
 
+**Ajout du 20 novembre.** Aucun verrou ne bouge. X-21 [M] : la « cohérence d'orientation » P = 0,516 se réduit, sous la convention testée, à la part des paires de tétraèdres qui se chevauchent ; elle n'établit pas d'orientation. X-22 [M] : dans le moteur statique, les groupes complets de liens montent à l'étage 13 à 15 (témoin : 7 à 8), pour une minorité de constituants ; ce sont des étages de liens, la 3D du moteur étant posée. Le corpus (V346 p. 256, 630, 640) laisse ouvert le choix de d = 3 et le fait dépendre de κ₀. Détail : carnet du 20 novembre.
+
 ## 2. Les sept verrous au 12 novembre
 
 | Verrou | Ce qu'il faut démontrer | Acquis | Manque | État |

@@ -464,6 +464,16 @@ Parole de l'auteur : « Il faut dériver toutes ses lois ». Constat partagé av
 
 Détail : [carnet du 19 novembre](carnets/2026-11-19_retractation_C-215_C-216.md). **TOE 0/7.**
 
+## 8 undecies. Ajout du 20 novembre, 7 h UTC : l'enquête propre demandée par l'auteur
+
+D'abord ce qui est faux ou affaibli. La piste donnée le 19 au soir — la « cohérence d'orientation » P = 0,516 de deux tétraèdres voisins comme trace d'une orientation — est **affaiblie** : sous la convention que j'ai pu tester (X-21), ce chiffre se réduit à un effet d'étiquetage et à la part, 0,539, des paires de tétraèdres qui se chevauchent ; il disparaît pour les cellules géométriques. Deux clauses de ma prédiction X-22 sont **fausses**. Les notes C-224 à C-227 de ChatGPT (comparaisons à Trugenberger, aux triangulations dynamiques causales, aux cordes, aux théories de l'émergence) ne sont **pas contre-auditées**.
+
+L'auteur a demandé à Claude de récupérer ses travaux menés avec ChatGPT et de mener sa propre enquête à partir de ses réflexions. Sa réflexion du 20 novembre : la 3D serait « notre étage d'ascenseur », et « le vrai test est peut-être de savoir jusqu'où les configurations peuvent monter ». Mesure X-22 sur le moteur statique du corpus, en lisant un étage k comme un groupe de k + 1 constituants tous reliés (lecture d'auditeur, déclarée) : avec viabilité, les configurations montent à l'étage 13 à 15 ; sans viabilité, à l'étage 7 à 8, à budget de liens égal. Mais elles ne montent que pour une minorité : un constituant sur dix environ est à l'étage 8 ou plus, trois sur quatre ne dépassent pas le triangle, et l'étage 3 n'est pas un palier. Ces étages sont des étages de liens : le moteur pose les positions en trois dimensions, tout groupe de cinq y a un volume à quatre dimensions nul par construction. Ce moteur ne peut donc pas dire si un étage de volume supérieur existe.
+
+Le corpus de l'auteur contient déjà un fait qui rejoint sa réflexion : la dimension lue change avec le paramètre κ₀ — trois à 6,6 (V346 p. 640), près de quatre à 8 (p. 630) — et « aucun principe de sélection n'est démontré » pour d = 3 (p. 256). Un seul moteur, non recoupé par ChatGPT à cette heure.
+
+Détail : [carnet du 20 novembre](carnets/2026-11-20_enquete_propre_etages.md). **TOE 0/7.**
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

@@ -1,0 +1,34 @@
+X-21 et C-223c / C-228c -- PREDICTIONS ECRITES AVANT TOUT CALCUL (Claude, 2026-11-20 06:33:53 UTC)
+Lu avant d'ecrire : les protocoles PROTOCOLE_C223.md et PROTOCOLE_AVANT_CALCUL.md (C-228), les noms de fichiers des archives C-222 a C-228 et les 260 premiers caracteres des
+reponses de ChatGPT (je sais donc : C-222 dit que le signe depend de la facon d'ordonner les sommets ; C-223 annonce une concordance variant de 0 a 100 % sur 625 genealogies ;
+C-228 annonce qu'une preference pour les triangles mene a la clique complete). Aveugle partiel, declare. Aucun rapport, resultat ni passation de ces archives n'est lu.
+Recherches ouvertes visees : RO-09 (couplage lignee-structure), RO-24.
+
+=== X-21 (de moi) : la << coherence d'orientation >> du corpus (P = 0,516, V346 p. 50, 59, 974 ; armature V347.1 p. 18) et le recouvrement des tetraedres ===
+MA LECTURE, DECLAREE : orientation d'un groupe de quatre = signe du determinant de ses sommets RANGES PAR NUMERO. Cette convention est attestee dans le corpus comme
+<< proxy >> (V346 p. 1074 : << signe du determinant a sommets tries >>) ; la convention << native >> (V175) ne m'est pas connue : si elle differe, X-21 ne juge pas le 0,516 du corpus.
+RAISONNEMENT FAIT A LA MAIN AVANT CALCUL : pour deux groupes de quatre partageant une face, de sommets opposes a et b, et des numeros echangeables,
+ - si a et b sont de part et d'autre de la face : meme signe si et seulement si le nombre de sommets de la face dont le numero tombe entre ceux de a et b est impair : probabilite 0,4 ;
+ - si a et b sont du meme cote (les deux tetraedres se chevauchent) : probabilite 0,6.
+ Donc P(meme orientation) = 0,4 + 0,2 x (part des paires du meme cote). La << coherence >> ne mesurerait alors que la part des paires qui se chevauchent.
+PROTOCOLE FIGE : moteur corpus/03_scripts/SCRIPTS DIVERS BLOB/blob engine.py sans modification ; etats build_blob (800,0), (800,1), (1600,0) ; temoin build_rgg memes parametres.
+ Toutes les paires de K4 du graphe partageant une face (a et b lies ou non). Mesures : part du meme cote ; P(meme signe) globale et par cote ; meme chose pour les seules paires
+ de cellules de Delaunay dont toutes les aretes sont au Blob.
+PREDICTIONS :
+ O1. P(meme signe | cotes opposes) = 0,40 +/- 0,02 et P(meme signe | meme cote) = 0,60 +/- 0,02, dans chaque etat, Blob et temoin.
+ O2. Identite P = 0,4 + 0,2 x part_meme_cote verifiee a 0,01 pres.
+ O3. Part du meme cote dans le Blob : entre 0,48 et 0,60 ; P globale entre 0,496 et 0,520.
+ O4. Paires de cellules geometriques : toujours de cotes opposes ; P = 0,40 +/- 0,05.
+ O5. Part du meme cote plus grande dans le Blob que dans le temoin (le corpus dit que la viabilite favorise ces paires). Incertain.
+
+=== C-223c ===
+ H1. 125 arbres etiquetes x 5 racines = 625 genealogies. Pour un ordre uniforme des 5 etiquettes, concordance = 0,4 exactement (48 ordres sur 120).
+ H2. Chaque ordre total est compatible avec exactement 24 genealogies ; donc le taux agrege pondere par les extensions vaut exactement 0,4.
+ H3. La concordance par genealogie va de 0 a 1 (exemples : chaine D-E-... donne 0 ; chaine D-A-E-B-C donne 1). La moyenne non ponderee sur les 625 : je ne la predis pas.
+ H4. La selection de Delaunay et les volumes ne dependent pas de la genealogie (evident : ils ne la lisent pas).
+=== C-228c ===
+ K1. Quatre spins 1/2 : espace de spin total nul de dimension 2 ; le triple produit S1.(S2 x S3) y a pour valeurs propres +/- racine(3)/4 = +/- 0,433013.
+ K2. F = b|E| - a T sur les graphes a N = 4, 5, 6 sommets : K_N est l'unique minimum si N > 2 + 3b/a ; a = b : K_6 seul pour N = 6, egalite K_5 / graphe vide pour N = 5,
+     graphe vide pour N = 4 ; a = 2b : K_N pour N = 4, 5, 6 ; a = b/2 : graphe vide seul pour N = 4, 5, 6.
+ K3. CHSH : 16 strategies deterministes, |S| <= 2 ; valeur quantique 2 racine(2).
+ K4 (rappel du corpus, a ne pas redecouvrir) : le master dit deja que le Blob purement combinatoire s'effondre en clique (V346, paragraphe C.6).
