@@ -472,6 +472,8 @@ L'auteur a demandé à Claude de récupérer ses travaux menés avec ChatGPT et 
 
 Le corpus de l'auteur contient déjà un fait qui rejoint sa réflexion : la dimension lue change avec le paramètre κ₀ — trois à 6,6 (V346 p. 640), près de quatre à 8 (p. 630) — et « aucun principe de sélection n'est démontré » pour d = 3 (p. 256). Un seul moteur, non recoupé par ChatGPT à cette heure.
 
+Ajout de 7 h 30 UTC. Deux notes nouvelles de ChatGPT, C-230 et C-231, recalculées par un code indépendant : accord. Dans des tissus de d-simplexes empilés où d est fourni, le coût en liens et la résistance aux ruptures croissent ensemble avec d ; aucun étage n'est optimal sans un seuil posé de l'extérieur, et l'argument de stabilité des orbites laisse passer la dimension 2 et suppose un espace. La phrase de l'auteur — la 3D plus facile que les étages au-dessus, plus difficile que 1 ou 2 — est compatible avec cet ordre ; l'ordre ne désigne pas l'étage 3.
+
 Détail : [carnet du 20 novembre](carnets/2026-11-20_enquete_propre_etages.md). **TOE 0/7.**
 
 ## 9. Les prochaines épreuves

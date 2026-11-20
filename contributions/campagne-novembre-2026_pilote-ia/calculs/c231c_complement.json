@@ -1,0 +1,67 @@
+[
+ {
+  "d": 2,
+  "M": 125,
+  "lam": 2,
+  "diametre": 32,
+  "distance_moyenne_bande": 11.087301587301587,
+  "distance_moyenne_hasard": 3.866443452380952,
+  "connexe_bande": {
+   "0.2": 0.5333333333333333,
+   "0.4": 0.00625,
+   "0.6": 0.0
+  }
+ },
+ {
+  "d": 3,
+  "M": 186,
+  "lam": 3,
+  "diametre": 21,
+  "distance_moyenne_bande": 7.5625,
+  "distance_moyenne_hasard": 2.5789930555555554,
+  "connexe_bande": {
+   "0.2": 0.9760416666666667,
+   "0.4": 0.5125,
+   "0.6": 0.0020833333333333333
+  }
+ },
+ {
+  "d": 4,
+  "M": 246,
+  "lam": 4,
+  "diametre": 16,
+  "distance_moyenne_bande": 5.801587301587301,
+  "distance_moyenne_hasard": 2.187251984126984,
+  "connexe_bande": {
+   "0.2": 0.9958333333333333,
+   "0.4": 0.8583333333333333,
+   "0.6": 0.140625
+  }
+ },
+ {
+  "d": 6,
+  "M": 363,
+  "lam": 6,
+  "diametre": 11,
+  "distance_moyenne_bande": 4.043154761904762,
+  "distance_moyenne_hasard": 1.8479662698412698,
+  "connexe_bande": {
+   "0.2": 1.0,
+   "0.4": 0.98125,
+   "0.6": 0.7302083333333333
+  }
+ },
+ {
+  "d": 12,
+  "M": 690,
+  "lam": 12,
+  "diametre": 6,
+  "distance_moyenne_bande": 2.294642857142857,
+  "distance_moyenne_hasard": 1.6577380952380953,
+  "connexe_bande": {
+   "0.2": 1.0,
+   "0.4": 1.0,
+   "0.6": 0.990625
+  }
+ }
+]

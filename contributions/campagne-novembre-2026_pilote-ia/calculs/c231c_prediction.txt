@@ -1,0 +1,20 @@
+C-231c et C-230c -- PREDICTION ECRITE AVANT TOUT CALCUL ET AVANT LECTURE DES RESULTATS (Claude, 2026-11-20 07:08:02 UTC)
+Lu de ChatGPT a cette heure : le protocole pre-calcul de C-231 (PROTOCOLE_PRECALCUL.md, 3 488 octets) ; de C-230 (sans protocole) et de C-231, seulement les premieres lignes des
+messages et trois annonces intermediaires (200 constituants / 400 liens : etage 2 contre etage 20 ; orbites stables en d = 2 et 3, marginales en d = 4). Aveuglement partiel declare pour C-230.
+Ni rapport, ni resultats, ni passation lus.
+PROTOCOLE REPRIS DE CHATGPT (C-231) : tissus de d-simplexes empiles, N = 64 sommets, d = 1..12 ; depart = un d-simplexe ; chaque nouveau sommet est colle sur une facette frontiere
+(d sommets) ; deux regles (facette au hasard / derniere facette creee) ; suppression independante de chaque lien avec probabilite p = 0,20, 0,40, 0,60. MON CODE EST INDEPENDANT du sien ;
+8 graines par cas, 120 suppressions par graine et par p.
+PREDICTIONS C-231c :
+ P1 [T]. Nombre de liens M = dN - d(d+1)/2 exactement (186 pour d = 3 ; 690 pour d = 12).
+ P2 [T]. Connectivite par liens = d dans tous les tissus (le dernier sommet colle n'a que d liens).
+ P3. Probabilite de rester connexe : croissante avec d a chaque p, sans rien de particulier a d = 3. A p = 0,20 : pratiquement 0 pour d = 1 ; 0,6 a 0,99 pour d = 3 ;
+     plus de 0,99 pour d >= 6. A p = 0,60 : moins de 0,05 pour d = 3 ; plus de 0,5 pour d = 12. La regle << derniere facette >> resiste mieux que << au hasard >> a d egal
+     (moins de sommets a d liens seulement).
+ P4. Diametre : regle << derniere facette >> = environ (N-1)/d (63 pour d = 1, 21 pour d = 3) ; regle << au hasard >> nettement plus court (moins de 10 pour d = 3) ; decroissant avec d.
+ P5. Aucun d n'est optimal sans regle de cout POSEE : avec un gain (probabilite de connexite) - epsilon x M, le d optimal se deplace avec epsilon et p ; on peut faire sortir
+     d = 3 comme n'importe quel autre d en choisissant epsilon. J'attends l'accord avec ChatGPT sur ce point.
+PREDICTIONS C-230c :
+ Q1 [T]. 200 constituants et 400 liens : un reseau a groupe complet de 21 (etage 20) existe (210 + 179 liens <= 400) ; un reseau sans groupe de quatre (etage 2) aussi.
+ Q2 [T]. Force centrale suivant la loi de Gauss en dimension d (force en r^-(d-1)) : orbite circulaire stable si et seulement si d < 4 ; marginale a d = 4 ; instable au-dela.
+     C'est l'argument d'Ehrenfest (1917) ; il SUPPOSE un espace et une loi de force, que le Blob n'a pas derives. Il ne distingue pas d = 3 de d = 2.
