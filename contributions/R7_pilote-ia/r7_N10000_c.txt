@@ -1,0 +1,4 @@
+N=10000 g=4 viab 324s acc 0.542 debord 0 | vides 0.754 kmax 5 k1 6.33 Smax 51.36
+N=10000 g=4 mobile 7s acc 0.500 debord 0 | vides 0.287 kmax 1 k1 2.35 Smax 1.87
+N=10000 g=5 viab 375s acc 0.541 debord 0 | vides 0.752 kmax 5 k1 6.42 Smax 53.53
+N=10000 g=5 mobile 6s acc 0.500 debord 0 | vides 0.288 kmax 2 k1 3.89 Smax 1.31

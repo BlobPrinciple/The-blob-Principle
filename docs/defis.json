@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.16",
- "updated": "2026-11-13",
+ "version": "1.17",
+ "updated": "2026-11-20",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -290,6 +290,32 @@
    "deliverable_en": "Periodic-box campaign, uniform start, at least 3 sizes N and 8 seeds per point, up to at least 1,280 sweeps: characteristic length L(t, N) with error bars, compared with r_N; or a proven argument that fixes it.",
    "open_research": [],
    "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/47",
+   "path_step": "T",
+   "state": "ouvert",
+   "history": [
+    {
+     "date": "2026-11-20",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/57",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[M] boîte périodique, départ uniforme, moteur relax_positions archivé : la condensation viable survit (N = 2 500 : vides 0,811 et 0,867 à 80 et 320 balayages, contre 0,806 et 0,858 en boîte rognée) ; [T] toute longueur propre à la règle est un multiple de r_N par construction ; [M] aucun effet de taille : L₁c/r_N = 2,73 à 2,75 à 80 balayages et 2,93 à 2,95 à 1 280 (N = 2 500, 5 000, 10 000 ; 8 graines) ; grossissement d'environ 7 % sur la fenêtre, sans ralentir (pente ≈ 0,026) ; [OPEN] arrêt ou mûrissement sans fin ; β et τ non variés",
+     "effect": "résultat partiel : la question de la boîte périodique est tranchée (la condensation survit, sans effet de taille) ; l'arrêt du grossissement et le rôle de β et τ restent ouverts ; DEFI-R7 reste ouvert ; DEFI-R8 ouvert ; aucun changement de statut",
+     "result_en": "[M] periodic box, uniform start, archived relax_positions engine: viable condensation survives (N = 2,500: voids 0.811 and 0.867 at 80 and 320 sweeps, against 0.806 and 0.858 in the clipped box); [T] any length intrinsic to the rule is a multiple of r_N by construction; [M] no size effect: L₁c/r_N = 2.73 to 2.75 at 80 sweeps and 2.93 to 2.95 at 1,280 (N = 2,500, 5,000, 10,000; 8 seeds); coarsening of about 7 % over the window, without slowing (slope ≈ 0.026); [OPEN] stop or endless coarsening; β and τ not varied",
+     "effect_en": "partial result: the periodic-box question is settled (condensation survives, with no size effect); whether coarsening stops and the role of β and τ remain open; DEFI-R7 stays open; DEFI-R8 opened; no status change"
+    }
+   ],
+   "derived": [
+    "DEFI-R8"
+   ]
+  },
+  {
+   "code": "DEFI-R8",
+   "level": 1,
+   "statement_fr": "La condensation viable s'arrête-t-elle ? En boîte périodique, sous le moteur de mobilité archivé (relax_positions, V346 XXV.1 p. 642), la viabilité seule condense depuis un départ uniforme ; la longueur L₁c/r_N, la même à N = 2 500, 5 000 et 10 000, passe d'environ 2,75 à 80 balayages à 2,95 à 1 280, sans ralentir par doublement du temps (contributions/R7_pilote-ia/NOTE.md). Ce grossissement s'arrête-t-il à une longueur finie en unités de r_N, ou continue-t-il jusqu'à la boîte ? Comment la longueur, la hauteur du pic et l'arrêt éventuel dépendent-ils de β, de τ et du pas σ/r_N ?",
+   "statement_en": "Does viable condensation stop? In a periodic box, under the archived mobility engine (relax_positions, V346 XXV.1 p. 642), viability alone condenses from a uniform start; the length L₁c/r_N, the same at N = 2,500, 5,000 and 10,000, goes from about 2.75 at 80 sweeps to 2.95 at 1,280, without slowing per doubling of time (contributions/R7_pilote-ia/NOTE_EN.md). Does this coarsening stop at a finite length in units of r_N, or go on up to the box? How do the length, the peak height and any stop depend on β, τ and the step σ/r_N?",
+   "deliverable_fr": "Campagne en boîte périodique au-delà de 10 000 balayages (au moins deux tailles, 8 graines), L(t)/r_N avec barres d'erreur et test d'un arrêt contre une croissance logarithmique ou en puissance, critère déposé publiquement avant la mesure ; et au moins deux valeurs de β et de τ ; ou argument démontré qui fixe la longueur limite.",
+   "deliverable_en": "Periodic-box campaign beyond 10,000 sweeps (at least two sizes, 8 seeds), L(t)/r_N with error bars and a test of a stop against logarithmic or power-law growth, with the criterion deposited publicly before the measurement; and at least two values of β and of τ; or a proven argument that fixes the limiting length.",
+   "open_research": [],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/58",
    "path_step": "T",
    "state": "ouvert",
    "history": [],

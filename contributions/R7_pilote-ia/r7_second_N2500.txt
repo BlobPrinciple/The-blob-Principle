@@ -1,0 +1,3 @@
+N=2500 g=0 118s t=0: vides 0.733 kmax 2 Smax 1.28 t=80: vides 0.809 kmax 4 Smax 11.44
+N=2500 g=1 118s t=0: vides 0.733 kmax 1 Smax 1.30 t=80: vides 0.814 kmax 4 Smax 13.35
+N=2500 g=2 115s t=0: vides 0.733 kmax 6 Smax 1.18 t=80: vides 0.806 kmax 4 Smax 11.95

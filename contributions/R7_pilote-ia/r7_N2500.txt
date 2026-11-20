@@ -1,0 +1,16 @@
+N=2500 g=0 viab 68s acc 0.542 debord 0 | vides 0.896 kmax 3 k1 4.02 Smax 52.02
+N=2500 g=0 mobile 1s acc 0.501 debord 0 | vides 0.732 kmax 4 k1 8.02 Smax 1.08
+N=2500 g=1 viab 99s acc 0.542 debord 0 | vides 0.891 kmax 3 k1 4.02 Smax 50.71
+N=2500 g=1 mobile 2s acc 0.500 debord 0 | vides 0.730 kmax 1 k1 5.93 Smax 1.22
+N=2500 g=2 viab 150s acc 0.543 debord 0 | vides 0.895 kmax 3 k1 3.90 Smax 57.94
+N=2500 g=2 mobile 2s acc 0.500 debord 0 | vides 0.733 kmax 2 k1 5.08 Smax 1.28
+N=2500 g=3 viab 141s acc 0.543 debord 0 | vides 0.898 kmax 3 k1 3.97 Smax 64.38
+N=2500 g=3 mobile 2s acc 0.500 debord 0 | vides 0.732 kmax 5 k1 6.63 Smax 1.10
+N=2500 g=4 viab 119s acc 0.542 debord 0 | vides 0.888 kmax 3 k1 4.03 Smax 44.37
+N=2500 g=4 mobile 2s acc 0.500 debord 0 | vides 0.730 kmax 2 k1 4.85 Smax 1.41
+N=2500 g=5 viab 138s acc 0.542 debord 0 | vides 0.895 kmax 3 k1 4.05 Smax 57.09
+N=2500 g=5 mobile 2s acc 0.499 debord 0 | vides 0.731 kmax 12 k1 9.57 Smax 1.04
+N=2500 g=6 viab 114s acc 0.541 debord 0 | vides 0.892 kmax 4 k1 3.99 Smax 44.64
+N=2500 g=6 mobile 2s acc 0.500 debord 0 | vides 0.734 kmax 7 k1 9.24 Smax 1.13
+N=2500 g=7 viab 116s acc 0.542 debord 0 | vides 0.894 kmax 3 k1 4.05 Smax 45.25
+N=2500 g=7 mobile 2s acc 0.500 debord 0 | vides 0.733 kmax 9 k1 9.74 Smax 1.08
