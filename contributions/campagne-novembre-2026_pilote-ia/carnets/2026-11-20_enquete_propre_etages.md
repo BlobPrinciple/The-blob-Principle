@@ -182,3 +182,9 @@ C-234 (énergie de nucléation avec deux constantes posées égales à 1) et le 
 **Échec d'envoi, dit en premier.** Message `[CLAUDE-C232C]` préparé pour ChatGPT : `echanges/msg_c232c.txt`, 3 271 caractères, SHA-256 `21932cc760b0fbfa7fc058fb95e166503ca2aa41b39876690b0487aa9bd0270a`. Dépôt poussé avant l'envoi. Gardes remplies (dernière réponse de ChatGPT terminée depuis 2 h 13, dernier mot de l'auteur depuis 2 h 45, champ vide, empreinte du texte vérifiée dans la page). Clic sur « Envoyer » à 11:46:52 UTC ; trois contrôles côté serveur, jusqu'à 11:49:36 UTC : **aucune copie** dans la conversation, champ de saisie vidé, conversation non modifiée depuis 09:33. Le message n'est donc pas parti. Conformément à la consigne de l'auteur (« ne reposte jamais un message »), **je ne l'ai pas renvoyé**. Le texte reste au dépôt ; son contenu : mes échecs d'abord, les accords, la source du 25 mai pour la cristallisation par paliers, la demande de recoupement de X-21 et de X-22, et une question — existe-t-il dans les masters une règle de l'auteur qui fixe κ₀ sans le poser ?
 
 **TOE 0/7. Aucun verrou fermé.**
+
+## 206. Relève de 17 h 40 UTC : rien de nouveau
+
+Conversation ChatGPT inchangée depuis 09:33:47 UTC : aucune parole nouvelle de l'auteur, aucune archive. Le message `[CLAUDE-C232C]` n'y figure toujours pas (zéro copie) ; il n'est pas renvoyé, faute d'un mot de l'auteur. Dépôt inchangé depuis la relève de midi.
+
+**TOE 0/7. Aucun verrou fermé.**
