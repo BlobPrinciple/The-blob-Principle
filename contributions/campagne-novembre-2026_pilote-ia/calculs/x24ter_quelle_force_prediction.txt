@@ -1,0 +1,19 @@
+X-24 ter -- A KAPPA = 8,6, QUELLE FORCE RETIENT LE MOTEUR COMPLET A L'ETAGE 3 ? PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-22 21:47:03 UTC)
+
+NON AVEUGLE, DECLARE. Decide en voyant X-24 B et X-24 bis (60 releves, tous verses) :
+ - H-QUATRE est REFUTEE par son propre critere scelle : avec des groupes de cinq et kappa = 8,6, sans force, l'etage 5 gele a 1037 constituants (66 % et 58 %) ;
+   et avec des groupes de quatre, kappa = 8,6, sans force, l'etage 4 gele (66 a 76 %) : le groupe de quatre ne plafonne pas le moteur a l'etage 3 ;
+ - Q1 : budget surestime (8,0-8,2 et non plus de 9 ; 10,0-10,7 et non plus de 12), etages annonces geles : tenu ; Q2 : tenu sauf l'etage 5 a kappa = 8,6 ;
+   Q3 tenu ; Q4 fausse ; Q5 fausse en partie (sans desintegration et avec les forces : etage 4 gele a 1037 constituants, pas a 660 ;
+   groupes de cinq avec les forces : etage 4 gele pour la graine 2, pas pour la graine 1) ; Q0 tenu.
+ - Ce qui reste a expliquer : a kappa = 8,6, les quatre forces ensemble ramenent le budget de 7,4-7,7 voisins (sans force, etage 4 gele) a 6,2-6,7 (etage 3,
+   etage 4 a 1-2 %). Laquelle ?
+RAPPEL (X-23 F, kappa = 6,6) : sans << bord >> 6,0-6,2 voisins ; sans force 6,3-6,5 ; complet 5,85. La force de bord retirait deja le plus de liens.
+PLAN FIGE : source de l'auteur, seule la valeur de KAPPA changee (8,6) ; D = 3 ; graines 1 et 2 ; releves a 660 et 1037 constituants ; quatre ablations simples :
+ sans << bord >>, sans << grav >>, sans << em >>, sans << weak >> (les trois autres forces actives). Etages 2 a 5, arithmetique exacte, gel = plus grand amas >= 50 %.
+PREDICTIONS :
+ F1. Sans << bord >> : au moins 7,0 voisins a chaque releve (65 %) et etage 4 gele a au moins 3 releves sur 4 (55 %).
+ F2. Sans << grav >>, sans << em >>, sans << weak >> : moins de 7,0 voisins et etage 4 < 10 % a chaque releve (60 % pour chacune).
+ H-BORD : a kappa = 8,6, c'est la force de bord (l'energie des faces exposees des groupes de quatre) qui retient le moteur a l'etage 3.
+   SOUTENUE si F1 et F2 tiennent. REFUTEE si, sans << bord >>, le moteur reste sous 7,0 voisins avec l'etage 4 sous 10 %.
+ Si elle est refutee, je dirai que la retenue vient de l'ensemble des forces et que je ne sais pas l'attribuer.
