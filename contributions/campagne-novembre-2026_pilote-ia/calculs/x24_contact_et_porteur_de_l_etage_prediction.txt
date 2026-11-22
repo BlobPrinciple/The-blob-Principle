@@ -1,0 +1,81 @@
+X-24 -- DU CONTACT AU GROUPE DE LORENTZ ; CE QUI PORTE L'ETAGE DANS LE MOTEUR COMPLET. PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-22 21:34:04 UTC)
+
+PAROLES DE L'AUTEUR PRISES COMME POINT DE DEPART (enregistrees, non completees) :
+ - 13 novembre : << Le simplexe est la forme la plus infinitesimale possible, avant meme la matiere ; ce n'est pas une notion de distance mais de contact. >>
+ - 12 novembre : << Un simplexe ne peut pas en chevaucher un autre a sa naissance >> (<< a tester >>) ; << La premiere fermeture bloque la mitose >>.
+ - 13 novembre : << La vitesse de la lumiere est liee a la causalite : la vitesse maximale est celle de la mitose. >>
+ - 22 novembre, 21 h 10 UTC : << Pousse au dela de tout, allons bien loin que tout ce que nous avons atteint a ce jour ! Ton fil conducteur la cosmogonie et le resultat est la validation de la toe. >>
+POINT FAIBLE DE X-23 QUE CE TRAVAIL ATTAQUE : son theoreme supposait << si un lien tient une distance >>, des positions generiques, et laissait l'espace a trois dimensions pose dans les moteurs.
+
+LECTURES DU PILOTE (hypotheses d'auditeur, non paroles de l'auteur) :
+ C1. Un lien est un contact, non une distance tenue : deux constituants lies se touchent, deux constituants non lies ne se touchent pas, aucun n'en chevauche un autre.
+ C2. Le contact d'un constituant est rond : un constituant n'a aucune direction privilegiee. Dans un espace de contacts de dimension k (la sphere S^k), un constituant est une calotte ronde.
+ C3. (= L3 de X-23) Coque fermee de rang k = sphere de cellules de dimension k ; la plus petite est le bord du simplexe : k+2 constituants tous en contact.
+ C4. (= L4 de X-23) Mitose de l'arete de C-116.
+ REALISATION PAR CONTACTS d'une coque de rang k : des calottes rondes de S^k, d'interieurs disjoints, tangentes exactement le long des liens.
+ Deux realisations sont LA MEME si une transformation conforme de S^k (groupe de Mobius) envoie l'une sur l'autre.
+
+PARTIE A -- ENONCES (mathematiques classiques assemblees ; le contre-audit a pour consigne de les refuter) :
+ K1. Rang 1 (polygone a V constituants) : des realisations existent, mais elles forment une famille a V-3 parametres ; unique pour le triangle seul.
+     (C'est le meme nombre que les V-3 mecanismes de X-23 A3.)
+ K2. Rang 2 (coque de triangles) : toute coque a une realisation, et une seule (theoreme de Koebe-Andreev-Thurston). Donc a chaque naissance, quel que soit le lien
+     qui se divise, et sans aucune hypothese de position generique.
+ K3. Rang k >= 3 : il existe des coques nees par mitose qui n'ont AUCUNE realisation, des la deuxieme naissance. Mitose du lien (1,2) puis du lien (3,4) : le reseau
+     obtenu est le graphe complet a k+4 constituants prive de deux liens disjoints, et aucune famille de calottes de S^k ne l'a pour graphe de contacts.
+     Preuve prevue : inversion au point de contact des deux nouveaux-nes ; il faudrait une chaine fermee de quatre boules egales la ou la geometrie n'en ferme aucune
+     (pour k = 3 : le sextuplet de Soddy, qui se ferme en six et jamais en quatre).
+ K4. Consequence : << toute coque nee par mitose a une realisation par contacts, et une seule >> est vrai au rang 2 et a lui seul.
+ K5. Le groupe : au rang 2 les realisations sont definies a une transformation de Mobius de S^2 pres, et ce groupe est le groupe de Lorentz de l'espace-temps a
+     3+1 dimensions (SO+(3,1), reflexions en plus). En general Mobius(S^k) est le groupe de Lorentz a (k+1)+1 dimensions : c'est le rang choisi qui fixe 3+1.
+ K6. Le nombre quatre : sur S^k, au plus k+2 calottes sont deux a deux en contact. Au rang 2 : quatre, jamais cinq.
+ K7. Forme canonique : la realisation du rang 2 donne un polyedre convexe dont toutes les aretes sont tangentes a la sphere (polyedre de Koebe), unique a une
+     transformation de Lorentz pres. Convexe a faces triangulaires, il est infinitesimalement rigide (Dehn 1916) : la coque y tient l'etage 3 sans lien superflu, sans
+     hypothese generique, et ses cellules ne se chevauchent a aucune naissance.
+ STATUT VISE : [T] sous C1-C4. Ce n'est PAS une derivation de l'espace-temps : c'est un groupe de symetrie ; ni dynamique, ni limite continue, ni temps.
+
+PARTIE A -- VERIFICATIONS NUMERIQUES PREDITES (programme x24_contacts.py). Elles decoulent des theoremes : un echec signalerait une erreur de programme ou
+d'enonce, et serait dit en premier.
+ N1. Coques de rang 2 nees par mitose uniforme, 6 graines, relevees a 4, 5, 6, 8, 12, 20, 40, 80, 150 et 300 constituants (60 coques) : un empilement de cercles
+     est trouve pour chacune, residu de tangence relatif < 1e-9, aucun chevauchement.
+ N2. Unicite : deux calculs partant de deux faces exterieures differentes donnent les memes produits inversifs pour TOUTES les paires de constituants, liees ou
+     non (ecart relatif < 1e-6).
+ N3. Les V constituants sont V vecteurs d'un espace de Minkowski a 3+1 dimensions, de carre 1, de produit -1 sur les liens et < -1 ailleurs : la matrice de ces
+     produits est de rang 4 et de signature (3,1). (Vrai par construction des que l'empilement existe ; controle de coherence.)
+ N4. Rigidite : le jacobien des conditions de contact a un noyau de dimension 6 exactement, et ce noyau est l'action des six generateurs du groupe de Lorentz
+     (ecart < 1e-6). En precision de 50 chiffres pour V <= 40.
+ N5. Polyedre de Koebe, apres centrage : convexe, ses faces sont les cellules de la coque, aretes tangentes a la sphere (1e-8), matrice de rigidite de rang 3V-6 a
+     l'etage 3 : aucun mecanisme, aucune auto-contrainte.
+ N6. Rang 1 : noyau de dimension V (3 de symetrie + V-3 libertes) pour V = 4 a 12 ; dimension 3 pour le triangle.
+ N7. Rang 3 : K5 et K6 moins un lien ont une realisation (noyau de dimension 10). K7 moins deux liens disjoints n'en a pas : sur 200 departs, le plus petit residu,
+     chevauchements comptes, reste > 1e-3 (confiance 85 % sur ce seuil). Meme echec aux rangs 4 et 5 pour K8 et K9 moins deux liens disjoints.
+
+PARTIE B -- CE QUI PORTE L'ETAGE DANS LE MOTEUR COMPLET DE L'AUTEUR (<< blob ablation labo colab.py >>)
+ NON AVEUGLE, DECLARE : X-23 E et F (ce jour) : a kappa = 6,6 et en dimension 3, ce moteur se defait de ses liens jusqu'a 5,6-5,9 voisins et reste gele a l'etage 3
+ (60 a 71 %), sans rien a l'etage 4 ; ce gel ne tient a aucune des quatre forces. J'ai relu le source avant d'ecrire ceci : le nouveau-ne y recoit au plus
+ int(kappa) = 6 liens, parmi son parent et les voisins de son parent.
+ VARIANTE D'AUDITEUR, DECLAREE : le source de l'auteur (lignes 1 a 228, empreinte verifiee) est execute apres remplacement de texte en six endroits : la valeur de
+ KAPPA ; la dimension D des points (au lieu de 3) au tirage de depart et au deplacement du nouveau-ne ; le volume de la boule unite dans le rayon de depart ; et les
+ trois longueurs absolues du source (ecart-type du deplacement 0,10 ; rayon de voisinage 0,32 ; portee des liens ajoutes 0,45), multipliees par r_D / r_3, rapport
+ des rayons de depart en dimension D et en dimension 3. Rien d'autre n'est touche.
+ PLAN FIGE : quatre forces ; N0 = 300 ; pas de 0,12 ; graines 1 et 2 ; releves a 660 et 1037 constituants ; (D ; kappa) = (2 ; 6,6), (4 ; 6,6), (5 ; 6,6),
+ (3 ; 4,6), (3 ; 8,6), et le controle (3 ; 6,6). Etages 2 a 5 en arithmetique exacte (x23_outils.analyse_exacte) : plus grand amas rigide, mecanismes,
+ auto-contraintes. << Gel >> = plus grand amas rigide >= 50 % des constituants (meme convention que X-23).
+ PREDICTIONS :
+ B0. Controle zero : a D = 3 et kappa = 6,6 la variante redonne exactement les liens du moteur non modifie (confiance 97 %).
+ B1. A kappa = 6,6, pour D = 2, 4 et 5 : entre 5,3 et 6,2 voisins a chaque releve (70 %).
+ B2. A kappa = 6,6 : etage 3 gele a chaque releve pour D = 4 et D = 5 (70 %) ; pour D = 2 (55 %).
+ B3. A kappa = 6,6 : etage 4 non gele, plus grand amas < 5 %, pour D = 4 et D = 5 comme pour D = 2 et 3 (75 %). Mettre les points dans un espace a quatre ou
+     cinq dimensions ne fait pas monter le moteur a l'etage 4.
+ B4. A D = 3, kappa = 8,6 : entre 7,0 et 8,3 voisins (60 %) ; etage 4 gele (60 %) ; etage 5 < 5 % (70 %).
+ B5. A D = 3, kappa = 4,6 : entre 3,6 et 4,5 voisins (60 %) ; etage 3 < 10 % (80 %) ; etage 2 gele ou non : je ne sais pas (50 %).
+ H-PORTE (enonce central) : dans ce moteur, l'etage le plus haut qui gele suit le nombre de liens donnes au nouveau-ne (int(kappa)/2), non la dimension de
+ l'espace des points.
+   REFUTEE si, a kappa = 6,6, l'etage le plus haut gele change entre D = 3, 4 et 5 (etage 4 gele en dimension 4 ou 5, ou etage 3 non gele).
+   SOUTENUE s'il vaut 3 pour D = 3, 4 et 5 et passe a 4 pour kappa = 8,6. Le cas D = 2 est rapporte a part.
+ SI ELLE EST SOUTENUE : dans le moteur complet, ce n'est pas l'espace a trois dimensions des points qui fait l'etage 3 ; c'est kappa_0, qui y reste pose. La
+ mitose de l'arete sur la coque creuse donne, elle, six voisins sans rien poser (X-23, A7).
+ SI ELLE EST REFUTEE : l'etage du moteur est herite du plongement, et X-23 E ne dit rien sur << pourquoi 3 >>.
+
+CE QUE CE TRAVAIL NE PEUT PAS DONNER, ECRIT D'AVANCE : aucune loi de la nature, aucune mesure exterieure, aucun temps, aucune dynamique lorentzienne, aucune
+limite continue. Au mieux, pour les noeuds << pourquoi 3 >> et << l'arret a quatre porteurs >> du verrou V1 : un theoreme conditionnel sans distance posee ni
+position generique, et l'apparition du groupe de Lorentz comme groupe de symetrie. TOE 0/7 avant ; je predis 0/7 apres.
