@@ -1,0 +1,39 @@
+X-24 bis -- QUELLE REGLE DU MOTEUR COMPLET FAIT L'ETAGE 3 ? LE GROUPE QUI SE DEFAIT. PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-22 21:41:02 UTC)
+
+NON AVEUGLE, DECLARE. Ce complement est decide en voyant les resultats de X-24 B (24 releves, tous verses) :
+ - mon enonce central H-PORTE est FAUX dans sa moitie kappa : avec 8 liens par nouveau-ne (kappa = 8,6) le moteur se defait de ses liens jusqu'a 6,2-6,7 voisins et
+   reste a l'etage 3 (etage 4 : 0,9 a 2,0 %) ; avec 4 liens (kappa = 4,6) il en AJOUTE jusqu'a 4,8-5,0 voisins et gele l'etage 2 ;
+ - en dimension 4 et 5 il reste a l'etage 3 (59 a 77 %), avec une exception partielle (dimension 5, graine 1 : 46 % et 37 % a l'etage 4) ;
+ - en dimension 2 il retombe a l'etage 2 (etage 3 : 10 a 17 %) ;
+ - B0 tenue (variante identique au moteur a D = 3) ; B1 fausse 1 fois sur 12 ; B2 tenue pour D = 4 et 5, fausse pour D = 2 ; B3 fausse en dimension 5, graine 1 ;
+   B4 fausse (budget et etage) ; B5 fausse (budget ; etage 3 a 11,2 % une fois).
+ Le budget de liens est donc REGULE par le moteur, autour de 5 a 6,7 voisins, quel que soit ce qu'on lui donne a la naissance (de 8 a 16 voisins bruts).
+ Lecture du source, faite apres ces resultats : le seul puits de liens systematique est la desintegration des groupes de quatre constituants tous lies (K4) : a
+ chaque tour, un groupe de quatre d'age a perd un lien tire au hasard avec la probabilite 0,236 exp(-a/8). C'est aussi la seule regle du socle qui nomme un nombre.
+
+HYPOTHESE H-QUATRE (hypothese d'auditeur) : dans ce moteur, l'etage le plus haut qui gele vaut (taille du groupe qui se defait) - 1. Le << 3 >> y serait pose par le
+choix du groupe de QUATRE comme groupe qui se defait, non par l'espace des points ni par kappa.
+
+VARIANTES D'AUDITEUR, DECLAREES (remplacements de texte, en plus des six de x24_moteur_dimension.py) :
+ (7) la recherche des groupes dans la partie << cycle + faible >> : groupes de n constituants tous lies, n = 3, 4 ou 5 (n = 4 : fonction de l'auteur, inchangee) ;
+ (8) le tirage du lien retire dans le groupe : parmi n constituants au lieu de 4 ;
+ (9) le taux 0,236 remplace par 0 pour la variante << sans desintegration >> (notee n = 0).
+ Controle zero : n = 4, taux 0,236, sans force, doit redonner exactement les liens du moteur non modifie lance sans force.
+PLAN FIGE : D = 3 ; N0 = 300 ; pas de 0,12 ; graines 1 et 2 ; releves a 660 et 1037 constituants ; etages 2 a 6 en arithmetique exacte ; gel = plus grand amas >= 50 %.
+ Famille (a), SANS FORCE (socle seul : viabilite, liens ajoutes et retires, mitose pres du parent, desintegration) :
+   (n ; kappa) = (4 ; 6,6) controle, (4 ; 8,6), (0 ; 6,6), (0 ; 8,6), (3 ; 6,6), (5 ; 6,6), (5 ; 8,6).
+ Famille (b), QUATRE FORCES (la force de bord reste definie sur les faces des groupes de quatre) : (0 ; 6,6) et (5 ; 8,6).
+PREDICTIONS :
+ Q0. Controle zero : liens identiques (95 %).
+ Q1. Sans desintegration (n = 0) : le budget ne se regule plus. A kappa = 6,6 : plus de 9 voisins a 1037 constituants (75 %) et etage 4 gele (75 %).
+     A kappa = 8,6 : plus de 12 voisins (65 %) et etage 5 gele (65 %).
+ Q2. Groupes de cinq (n = 5), sans force : entre 7,0 et 9,5 voisins (60 %) ; etage 4 gele a kappa = 8,6 (70 %) et a kappa = 6,6 (55 %) ; etage 5 non gele, < 10 %
+     (60 %). Si l'etage 4 gele ici, le moteur tient un etage PLUS HAUT que la dimension de l'espace de ses points.
+ Q3. Groupes de trois (n = 3), sans force, kappa = 6,6 : moins de 5 voisins (65 %) ; etage 3 non gele, < 10 % (75 %) ; etage 2 : je ne sais pas.
+ Q4. Groupes de quatre, sans force, kappa = 8,6 : entre 6,3 et 7,2 voisins, etage 3 gele, etage 4 < 5 % (70 %).
+ Q5. Famille (b) : memes verdicts que la famille (a) pour (0 ; 6,6) (etage 4 gele) et (5 ; 8,6) (etage 4 gele, etage 5 non) (60 %).
+ H-QUATRE est REFUTEE si : n = 5 ne gele pas l'etage 4 a kappa = 8,6, ou gele l'etage 5 ; ou n = 3 gele l'etage 3 ; ou n = 0 reste a l'etage 3.
+ H-QUATRE est SOUTENUE si : etage le plus haut gele = 2 (ou moins) pour n = 3, 3 pour n = 4, 4 pour n = 5, et au moins 4 sans desintegration.
+CE QUE CELA DIRAIT, ET NE DIRAIT PAS. Si H-QUATRE est soutenue : dans le moteur complet le << 3 >> est pose par la regle << les groupes de quatre se defont >>, c'est-a-dire
+par le choix du tetraedre comme premiere fermeture. Ce choix est le noeud N1 (l'arret a quatre porteurs), que la partie A attaque par les contacts. Cela ne
+demontre pas que la nature fait ce choix. Si elle est refutee : je ne sais pas ce qui regule le budget, et je le dirai.
