@@ -229,4 +229,12 @@ Non fait ce jour : C-224 à C-227 de ChatGPT toujours non contre-audités ; note
 
 Sources extérieures : Y. Peled, « On the d-rigidity phase transition in random graphs », arXiv:2605.25711 ; B. Schulze et W. Whiteley, « Rigidity and scene analysis », *Handbook of Discrete and Computational Geometry*, ch. 61 ; H. Gluck (1975) ; L. Asimow et B. Roth (1978) ; T.-S. Tay et W. Whiteley (1985) ; G. Kalai (1987).
 
+## 220. Versement (ajout de 21 h 15 UTC)
+
+Parole de l'auteur, 21 h 10 UTC, en réponse à ma demande d'accord (20 h 52, redite à 21 h 04 : « Dis "pousse" et c'est fait, sur cette branche seulement ») : « Pousse au delà de tout, allons bien loin que tout ce que nous avons atteint à ce jour ! Ton fil conducteur la cosmogonie et le résultat est la validation de la toe. » Je la lis comme l'accord demandé pour ce versement, et comme la demande d'une nouvelle recherche, qui aura ses propres sections.
+
+Versé sur la branche `versement/campagne-novembre-2026`, et sur elle seule. Ce que cela change aux phrases écrites plus haut : l'accès en écriture au dépôt a été obtenu à 20 h 53 UTC, après tous les calculs. Le point 16 de la section 207 reste donc vrai (le scellé d'origine n'a pas été poussé avant calcul), et le « rien de poussé au dépôt » de la section 218 décrit l'état d'avant ce versement. Entre 20 h 53 et 21 h 10, le contrôle automatique de fin de session demandait la poussée ; je l'ai préparée et retenue jusqu'à la parole de l'auteur.
+
+Écart déclaré : avec ce versement part une correction du registre des empreintes de la branche, qui inscrivait trois fichiers d'un cache local absents du dépôt (commit séparé).
+
 **TOE 0/7. Aucun verrou fermé.**
