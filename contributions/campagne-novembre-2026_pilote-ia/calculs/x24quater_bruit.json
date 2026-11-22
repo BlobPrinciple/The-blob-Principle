@@ -1,0 +1,184 @@
+[
+ {
+  "g": 6,
+  "constituants": 258,
+  "residus_de_tangence": [
+   1.9458878002477902e-11,
+   1.3236808661397426e-11
+  ],
+  "bruit_median": 2.817915358024261e-13,
+  "bruit_au_95e_centile": 1.2048152463602086e-11,
+  "bruit_maximal": 3.418197444043954e-11,
+  "par_distance": [
+   {
+    "distance_a_la_face_exterieure": 0,
+    "liens": 17,
+    "mediane": 8.979011998557434e-13,
+    "maximum": 1.2092376031688084e-11
+   },
+   {
+    "distance_a_la_face_exterieure": 1,
+    "liens": 42,
+    "mediane": 9.508293766228298e-13,
+    "maximum": 1.2996303430327355e-11
+   },
+   {
+    "distance_a_la_face_exterieure": 2,
+    "liens": 68,
+    "mediane": 3.195416556678032e-13,
+    "maximum": 1.3283715632758575e-11
+   },
+   {
+    "distance_a_la_face_exterieure": 3,
+    "liens": 92,
+    "mediane": 1.461478163943641e-13,
+    "maximum": 1.1682722527728668e-11
+   },
+   {
+    "distance_a_la_face_exterieure": 4,
+    "liens": 116,
+    "mediane": 1.6413452013520008e-13,
+    "maximum": 1.84741963255992e-11
+   },
+   {
+    "distance_a_la_face_exterieure": 5,
+    "liens": 140,
+    "mediane": 1.652238861469717e-13,
+    "maximum": 1.742700574029616e-11
+   },
+   {
+    "distance_a_la_face_exterieure": 6,
+    "liens": 164,
+    "mediane": 2.167933056901251e-13,
+    "maximum": 3.418197444043954e-11
+   },
+   {
+    "distance_a_la_face_exterieure": 7,
+    "liens": 115,
+    "mediane": 8.69623113693132e-13,
+    "maximum": 3.0154698654151856e-11
+   },
+   {
+    "distance_a_la_face_exterieure": 8,
+    "liens": 14,
+    "mediane": 9.442236686112792e-12,
+    "maximum": 3.0154698654151856e-11
+   }
+  ]
+ },
+ {
+  "g": 8,
+  "constituants": 1026,
+  "residus_de_tangence": [
+   2.1293651045257794e-10,
+   1.893893346456546e-10
+  ],
+  "bruit_median": 9.026882272649618e-13,
+  "bruit_au_95e_centile": 1.1503036156465239e-10,
+  "bruit_maximal": 4.553798938838787e-10,
+  "par_distance": [
+   {
+    "distance_a_la_face_exterieure": 0,
+    "liens": 17,
+    "mediane": 2.842329887631894e-12,
+    "maximum": 1.218061558519783e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 1,
+    "liens": 42,
+    "mediane": 2.8806702010379507e-12,
+    "maximum": 1.8057241020360737e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 2,
+    "liens": 68,
+    "mediane": 1.297441369007175e-12,
+    "maximum": 2.975294060570124e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 3,
+    "liens": 92,
+    "mediane": 7.68386805115958e-13,
+    "maximum": 1.917560114521238e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 4,
+    "liens": 116,
+    "mediane": 6.131918027802498e-13,
+    "maximum": 1.74917469212828e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 5,
+    "liens": 140,
+    "mediane": 5.568384435475484e-13,
+    "maximum": 1.908681987661541e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 6,
+    "liens": 164,
+    "mediane": 5.490677097974718e-13,
+    "maximum": 1.9286553179325937e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 7,
+    "liens": 188,
+    "mediane": 4.2932849768809213e-13,
+    "maximum": 1.7793965150630779e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 8,
+    "liens": 212,
+    "mediane": 4.622580205957349e-13,
+    "maximum": 1.469083609664364e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 9,
+    "liens": 236,
+    "mediane": 5.54901694353675e-13,
+    "maximum": 1.471841806967894e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 10,
+    "liens": 260,
+    "mediane": 6.940611130150288e-13,
+    "maximum": 1.761096911197127e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 11,
+    "liens": 284,
+    "mediane": 7.669662873691178e-13,
+    "maximum": 1.9218854863466257e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 12,
+    "liens": 308,
+    "mediane": 9.388254326745455e-13,
+    "maximum": 2.4081412060042763e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 13,
+    "liens": 332,
+    "mediane": 9.393417546870607e-13,
+    "maximum": 2.3934351360254853e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 14,
+    "liens": 356,
+    "mediane": 9.609660344451285e-13,
+    "maximum": 4.553798938838787e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 15,
+    "liens": 227,
+    "mediane": 4.593995804296734e-12,
+    "maximum": 3.3097072261142977e-10
+   },
+   {
+    "distance_a_la_face_exterieure": 16,
+    "liens": 30,
+    "mediane": 1.0104716686982866e-10,
+    "maximum": 3.3035821505762765e-10
+   }
+  ]
+ }
+]

@@ -1,0 +1,28 @@
+{"g": 6, "constituants": 258, "residus_de_tangence": [1.9458878002477902e-11, 1.3236808661397426e-11], "bruit_median": 2.817915358024261e-13, "bruit_au_95e_centile": 1.2048152463602086e-11, "bruit_maximal": 3.418197444043954e-11}
+   distance a la face exterieure  0 |   17 liens | mediane 8.98e-13 | max 1.21e-11
+   distance a la face exterieure  1 |   42 liens | mediane 9.51e-13 | max 1.30e-11
+   distance a la face exterieure  2 |   68 liens | mediane 3.20e-13 | max 1.33e-11
+   distance a la face exterieure  3 |   92 liens | mediane 1.46e-13 | max 1.17e-11
+   distance a la face exterieure  4 |  116 liens | mediane 1.64e-13 | max 1.85e-11
+   distance a la face exterieure  5 |  140 liens | mediane 1.65e-13 | max 1.74e-11
+   distance a la face exterieure  6 |  164 liens | mediane 2.17e-13 | max 3.42e-11
+   distance a la face exterieure  7 |  115 liens | mediane 8.70e-13 | max 3.02e-11
+   distance a la face exterieure  8 |   14 liens | mediane 9.44e-12 | max 3.02e-11
+{"g": 8, "constituants": 1026, "residus_de_tangence": [2.1293651045257794e-10, 1.893893346456546e-10], "bruit_median": 9.026882272649618e-13, "bruit_au_95e_centile": 1.1503036156465239e-10, "bruit_maximal": 4.553798938838787e-10}
+   distance a la face exterieure  0 |   17 liens | mediane 2.84e-12 | max 1.22e-10
+   distance a la face exterieure  1 |   42 liens | mediane 2.88e-12 | max 1.81e-10
+   distance a la face exterieure  2 |   68 liens | mediane 1.30e-12 | max 2.98e-10
+   distance a la face exterieure  3 |   92 liens | mediane 7.68e-13 | max 1.92e-10
+   distance a la face exterieure  4 |  116 liens | mediane 6.13e-13 | max 1.75e-10
+   distance a la face exterieure  5 |  140 liens | mediane 5.57e-13 | max 1.91e-10
+   distance a la face exterieure  6 |  164 liens | mediane 5.49e-13 | max 1.93e-10
+   distance a la face exterieure  7 |  188 liens | mediane 4.29e-13 | max 1.78e-10
+   distance a la face exterieure  8 |  212 liens | mediane 4.62e-13 | max 1.47e-10
+   distance a la face exterieure  9 |  236 liens | mediane 5.55e-13 | max 1.47e-10
+   distance a la face exterieure 10 |  260 liens | mediane 6.94e-13 | max 1.76e-10
+   distance a la face exterieure 11 |  284 liens | mediane 7.67e-13 | max 1.92e-10
+   distance a la face exterieure 12 |  308 liens | mediane 9.39e-13 | max 2.41e-10
+   distance a la face exterieure 13 |  332 liens | mediane 9.39e-13 | max 2.39e-10
+   distance a la face exterieure 14 |  356 liens | mediane 9.61e-13 | max 4.55e-10
+   distance a la face exterieure 15 |  227 liens | mediane 4.59e-12 | max 3.31e-10
+   distance a la face exterieure 16 |   30 liens | mediane 1.01e-10 | max 3.30e-10

@@ -1,0 +1,80 @@
+rang 2 | graine 0 | V   4 | tangence 3.8e-16 ; 3.8e-16 | unicite 4.4e-16 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.4e-15, rang 6/6 | haute precision : noyau 6, rigidite 6/6
+rang 2 | graine 0 | V   5 | tangence 5.1e-16 ; 2.4e-15 | unicite 5.9e-15 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.3e-14, rang 9/9 | haute precision : noyau 6, rigidite 9/9
+rang 2 | graine 0 | V   6 | tangence 7.9e-16 ; 1.1e-15 | unicite 5.7e-15 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.7e-14, rang 12/12 | haute precision : noyau 6, rigidite 12/12
+rang 2 | graine 0 | V   8 | tangence 7.3e-15 ; 8.9e-15 | unicite 5.0e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.2e-13, rang 18/18 | haute precision : noyau 6, rigidite 18/18
+rang 2 | graine 0 | V  12 | tangence 1.9e-14 ; 3.2e-14 | unicite 6.8e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 8.9e-14, rang 30/30 | haute precision : noyau 6, rigidite 30/30
+rang 2 | graine 0 | V  20 | tangence 4.9e-14 ; 2.2e-14 | unicite 1.2e-13 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 4.0e-13, rang 54/54 | haute precision : noyau 6, rigidite 54/54
+rang 2 | graine 0 | V  40 | tangence 1.0e-12 ; 1.4e-11 | unicite 5.2e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.9e-12, rang 114/114 | haute precision : noyau 6, rigidite 114/114
+rang 2 | graine 0 | V  80 | tangence 3.0e-12 ; 1.2e-11 | unicite 2.4e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.9e-12, rang 234/234 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 0 | V 150 | tangence 2.4e-11 ; 1.1e-11 | unicite 5.6e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 7.3e-12, rang 444/444 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 0 | V 300 | tangence 2.7e-10 ; 2.3e-09 | unicite 5.8e-09 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.9e-11, rang 894/894 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 1 | V   4 | tangence 3.8e-16 ; 3.8e-16 | unicite 4.4e-16 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.4e-15, rang 6/6 | haute precision : noyau 6, rigidite 6/6
+rang 2 | graine 1 | V   5 | tangence 6.4e-16 ; 4.0e-15 | unicite 9.3e-15 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.0e-14, rang 9/9 | haute precision : noyau 6, rigidite 9/9
+rang 2 | graine 1 | V   6 | tangence 1.1e-15 ; 5.7e-16 | unicite 3.8e-15 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.1e-14, rang 12/12 | haute precision : noyau 6, rigidite 12/12
+rang 2 | graine 1 | V   8 | tangence 1.4e-15 ; 2.6e-14 | unicite 7.0e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 8.4e-15, rang 18/18 | haute precision : noyau 6, rigidite 18/18
+rang 2 | graine 1 | V  12 | tangence 4.5e-14 ; 5.1e-14 | unicite 2.2e-13 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 3.0e-14, rang 30/30 | haute precision : noyau 6, rigidite 30/30
+rang 2 | graine 1 | V  20 | tangence 1.9e-13 ; 7.8e-14 | unicite 2.0e-12 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.2e-13, rang 54/54 | haute precision : noyau 6, rigidite 54/54
+rang 2 | graine 1 | V  40 | tangence 4.2e-13 ; 5.0e-13 | unicite 1.4e-12 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.4e-12, rang 114/114 | haute precision : noyau 6, rigidite 114/114
+rang 2 | graine 1 | V  80 | tangence 6.3e-12 ; 4.2e-11 | unicite 1.4e-10 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 3.3e-12, rang 234/234 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 1 | V 150 | tangence 1.6e-11 ; 5.3e-11 | unicite 1.1e-10 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.8e-12, rang 444/444 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 1 | V 300 | tangence 8.8e-11 ; 2.1e-11 | unicite 2.7e-10 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.6e-12, rang 894/894 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 2 | V   4 | tangence 3.8e-16 ; 3.8e-16 | unicite 4.4e-16 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.4e-15, rang 6/6 | haute precision : noyau 6, rigidite 6/6
+rang 2 | graine 2 | V   5 | tangence 1.4e-15 ; 4.0e-15 | unicite 9.3e-15 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.2e-14, rang 9/9 | haute precision : noyau 6, rigidite 9/9
+rang 2 | graine 2 | V   6 | tangence 9.8e-15 ; 1.2e-14 | unicite 2.3e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 7.0e-15, rang 12/12 | haute precision : noyau 6, rigidite 12/12
+rang 2 | graine 2 | V   8 | tangence 1.8e-15 ; 2.3e-15 | unicite 5.9e-15 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.4e-14, rang 18/18 | haute precision : noyau 6, rigidite 18/18
+rang 2 | graine 2 | V  12 | tangence 2.5e-14 ; 7.1e-15 | unicite 5.1e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 3.0e-14, rang 30/30 | haute precision : noyau 6, rigidite 30/30
+rang 2 | graine 2 | V  20 | tangence 7.1e-14 ; 7.3e-14 | unicite 2.5e-13 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 9.3e-14, rang 54/54 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 2 | V  40 | tangence 6.6e-14 ; 4.6e-13 | unicite 1.2e-12 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 5.8e-14, rang 114/114 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 2 | V  80 | tangence 8.8e-12 ; 9.7e-12 | unicite 2.2e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.5e-13, rang 234/234 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 2 | V 150 | tangence 2.8e-12 ; 6.6e-11 | unicite 1.4e-10 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.1e-13, rang 444/444 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 2 | V 300 | tangence 9.6e-11 ; 5.7e-10 | unicite 1.3e-09 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.1e-13, rang 894/894 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 3 | V   4 | tangence 3.8e-16 ; 3.8e-16 | unicite 4.4e-16 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.4e-15, rang 6/6 | haute precision : noyau 6, rigidite 6/6
+rang 2 | graine 3 | V   5 | tangence 1.4e-15 ; 4.0e-15 | unicite 9.3e-15 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.2e-14, rang 9/9 | haute precision : noyau 6, rigidite 9/9
+rang 2 | graine 3 | V   6 | tangence 1.1e-15 ; 2.3e-15 | unicite 5.8e-15 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 3.6e-14, rang 12/12 | haute precision : noyau 6, rigidite 12/12
+rang 2 | graine 3 | V   8 | tangence 1.2e-13 ; 2.6e-14 | unicite 2.9e-13 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 5.6e-14, rang 18/18 | haute precision : noyau 6, rigidite 18/18
+rang 2 | graine 3 | V  12 | tangence 1.7e-14 ; 1.0e-14 | unicite 6.0e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.8e-14, rang 30/30 | haute precision : noyau 6, rigidite 30/30
+rang 2 | graine 3 | V  20 | tangence 9.4e-14 ; 4.2e-13 | unicite 9.9e-13 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.0e-13, rang 54/54 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 3 | V  40 | tangence 1.7e-12 ; 9.2e-13 | unicite 5.4e-12 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.5e-13, rang 114/114 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 3 | V  80 | tangence 4.5e-11 ; 3.0e-12 | unicite 9.0e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.2e-12, rang 234/234 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 3 | V 150 | tangence 9.2e-12 ; 1.3e-11 | unicite 3.8e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.7e-12, rang 444/444 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 3 | V 300 | tangence 4.5e-11 ; 2.0e-10 | unicite 4.9e-10 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.0e-12, rang 894/894 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 4 | V   4 | tangence 3.8e-16 ; 3.8e-16 | unicite 4.4e-16 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.4e-15, rang 6/6 | haute precision : noyau 6, rigidite 6/6
+rang 2 | graine 4 | V   5 | tangence 2.2e-15 ; 4.1e-15 | unicite 1.0e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.4e-14, rang 9/9 | haute precision : noyau 6, rigidite 9/9
+rang 2 | graine 4 | V   6 | tangence 6.2e-15 ; 6.6e-16 | unicite 1.3e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.6e-14, rang 12/12 | haute precision : noyau 6, rigidite 12/12
+rang 2 | graine 4 | V   8 | tangence 1.3e-14 ; 1.5e-14 | unicite 3.7e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 8.4e-14, rang 18/18 | haute precision : noyau 6, rigidite 18/18
+rang 2 | graine 4 | V  12 | tangence 1.1e-14 ; 6.3e-14 | unicite 1.3e-13 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.8e-14, rang 30/30 | haute precision : noyau 6, rigidite 30/30
+rang 2 | graine 4 | V  20 | tangence 1.1e-13 ; 5.5e-12 | unicite 1.2e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.2e-13, rang 54/54 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 4 | V  40 | tangence 3.3e-12 ; 2.1e-13 | unicite 7.1e-12 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 8.7e-13, rang 114/114 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 4 | V  80 | tangence 6.9e-12 ; 4.6e-12 | unicite 1.6e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.1e-12, rang 234/234 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 4 | V 150 | tangence 8.4e-12 ; 5.7e-12 | unicite 3.4e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.7e-13, rang 444/444 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 4 | V 300 | tangence 8.2e-11 ; 1.2e-10 | unicite 3.4e-10 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 3.1e-12, rang 894/894 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 5 | V   4 | tangence 3.8e-16 ; 3.8e-16 | unicite 4.4e-16 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 6.4e-15, rang 6/6 | haute precision : noyau 6, rigidite 6/6
+rang 2 | graine 5 | V   5 | tangence 1.4e-15 ; 4.0e-15 | unicite 9.3e-15 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 2.2e-14, rang 9/9 | haute precision : noyau 6, rigidite 9/9
+rang 2 | graine 5 | V   6 | tangence 9.8e-15 ; 1.2e-14 | unicite 2.3e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 7.0e-15, rang 12/12 | haute precision : noyau 6, rigidite 12/12
+rang 2 | graine 5 | V   8 | tangence 1.6e-15 ; 6.5e-15 | unicite 1.2e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.1e-14, rang 18/18 | haute precision : noyau 6, rigidite 18/18
+rang 2 | graine 5 | V  12 | tangence 2.4e-14 ; 4.7e-15 | unicite 5.1e-14 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 5.3e-14, rang 30/30 | haute precision : noyau 6, rigidite 30/30
+rang 2 | graine 5 | V  20 | tangence 1.1e-13 ; 9.6e-14 | unicite 2.5e-13 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 9.4e-14, rang 54/54 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 5 | V  40 | tangence 2.8e-12 ; 5.2e-12 | unicite 1.0e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 8.3e-14, rang 114/114 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 5 | V  80 | tangence 2.4e-12 ; 3.1e-12 | unicite 5.4e-12 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.1e-13, rang 234/234 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 5 | V 150 | tangence 1.6e-11 ; 1.0e-11 | unicite 3.5e-11 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 1.6e-13, rang 444/444 | haute precision : noyau None, rigidite None/None
+rang 2 | graine 5 | V 300 | tangence 2.7e-10 ; 1.6e-10 | unicite 6.0e-10 | chevauchement False | signature (3,1) | noyau flottant 6 | Koebe convexe True, tangence 4.0e-13, rang 894/894 | haute precision : noyau None, rigidite None/None
+rang 1 | V  3 | residu 1.4e-15 | noyau 3 (attendu 3)
+rang 1 | V  4 | residu 2.5e-15 | noyau 4 (attendu 4)
+rang 1 | V  5 | residu 1.4e-15 | noyau 5 (attendu 5)
+rang 1 | V  6 | residu 1.6e-14 | noyau 6 (attendu 6)
+rang 1 | V  7 | residu 6.5e-15 | noyau 7 (attendu 7)
+rang 1 | V  8 | residu 3.6e-14 | noyau 8 (attendu 8)
+rang 1 | V  9 | residu 1.3e-13 | noyau 9 (attendu 9)
+rang 1 | V 10 | residu 8.7e-15 | noyau 10 (attendu 10)
+rang 1 | V 11 | residu 3.3e-14 | noyau 11 (attendu 11)
+rang 1 | V 12 | residu 9.5e-15 | noyau 12 (attendu 12)
+rang 3 | depart | 5 constituants, 10 liens (compte juste : 10) | plus petit residu 3.14e-16 (median 1.32e-15 ; 200 departs sous 1e-8) | noyau 10 | sans compter les chevauchements : 5.9e-16
+rang 3 | une_naissance | 6 constituants, 14 liens (compte juste : 14) | plus petit residu 5.09e-16 (median 1.48e+00 ; 93 departs sous 1e-8) | noyau 10 | sans compter les chevauchements : 4.6e-16
+rang 3 | deux_naissances | 7 constituants, 19 liens (compte juste : 18) | plus petit residu 9.02e-01 (median 1.51e+00 ; 0 departs sous 1e-8) | noyau None | sans compter les chevauchements : 4.6e-16
+rang 4 | depart | 6 constituants, 15 liens (compte juste : 15) | plus petit residu 4.30e-16 (median 1.42e-15 ; 200 departs sous 1e-8) | noyau 15 | sans compter les chevauchements : 6.7e-16
+rang 4 | une_naissance | 7 constituants, 20 liens (compte juste : 20) | plus petit residu 6.93e-16 (median 1.47e+00 ; 96 departs sous 1e-8) | noyau 15 | sans compter les chevauchements : 4.2e-16
+rang 4 | deux_naissances | 8 constituants, 26 liens (compte juste : 25) | plus petit residu 7.63e-01 (median 1.48e+00 ; 0 departs sous 1e-8) | noyau None | sans compter les chevauchements : 5.1e-16
+rang 5 | depart | 7 constituants, 21 liens (compte juste : 21) | plus petit residu 5.21e-16 (median 1.38e-15 ; 200 departs sous 1e-8) | noyau 21 | sans compter les chevauchements : 7.4e-16
+rang 5 | une_naissance | 8 constituants, 27 liens (compte juste : 27) | plus petit residu 7.45e-16 (median 2.56e-15 ; 113 departs sous 1e-8) | noyau 21 | sans compter les chevauchements : 4.2e-16
+rang 5 | deux_naissances | 9 constituants, 34 liens (compte juste : 33) | plus petit residu 6.58e-01 (median 1.47e+00 ; 0 departs sous 1e-8) | noyau None | sans compter les chevauchements : 6.8e-16
+duree 195.3 s

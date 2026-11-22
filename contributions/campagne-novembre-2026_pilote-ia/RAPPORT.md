@@ -492,6 +492,22 @@ Ce que cela ne donne pas : aucune loi physique, ni l'espace, ni le temps. Le seu
 
 Détail : [carnet du 22 novembre](carnets/2026-11-22_X-23_regle_de_l_etage.md). **TOE 0/7.**
 
+## 8 terdecies. Ajout du 22 novembre au soir : X-24, le contact, le groupe de Lorentz et la mécanique de l'étage dans le moteur complet
+
+D'abord ce qui est faux. Vingt-deux clauses scellées du pilote sont fausses ce soir, dont ses trois hypothèses sur le moteur complet de l'auteur : l'étage n'y suit pas le nombre de liens donnés au nouveau-né, il n'est pas fixé par la seule taille du groupe qui se défait, et ce n'est pas la force de bord qui le retient quand l'apport de liens augmente. Une phrase écrite sans mesure (« le changement passe sous le bruit au-delà de 13 liens ») a été démentie par la mesure du bruit, et corrigée.
+
+L'auteur avait demandé, le 22 novembre à 21 h 10 UTC, de pousser au-delà de tout ce qui avait été atteint, la cosmogonie pour fil conducteur. Le pilote est parti de sa phrase du 13 novembre : le simplexe « n'est pas une notion de distance mais de contact ».
+
+**Ce qui se démontre** (mathématiques classiques assemblées, contre-auditées par un agent indépendant). Si un lien est un contact entre constituants ronds, alors : un polygone a une forme qui n'est pas fixée (V − 3 libertés) ; une coque de triangles a toujours une forme et une seule, à chaque naissance et quel que soit le lien qui se divise (théorème de Koebe, Andreev et Thurston), sans hypothèse de position générique ; à partir du rang 3, certaines coques nées par mitose n'ont aucune forme, dès la deuxième naissance. Quatre constituants au plus se touchent tous. Les cellules sont les faces d'un polyèdre convexe et ne se chevauchent à aucune naissance. Cette forme n'est définie qu'à une transformation de Lorentz près, celles de l'espace-temps à 3+1 dimensions ; ce groupe vient avec la rondeur posée, et c'est le rang que le théorème choisit. C'est un troisième théorème conditionnel pour « pourquoi 3 » et « l'arrêt à quatre porteurs », sous des lectures qui sont celles du pilote (un lien est un contact ; un constituant est rond ; la fermeture est une sphère de cellules). Vérifié sur 60 coques ; 630 produits inversifs recoupés par un programme indépendant. Le contre-audit n'a réfuté aucun des sept énoncés, en a corrigé trois formulations, et a relevé sept points où la phrase de synthèse du pilote disait trop, dont celui-ci : ce groupe n'est pas le groupe de symétrie d'une coque.
+
+**Sa limite, mesurée.** La forme est fixée par toute la coque : une naissance la change partout, sans délai, avec une décroissance en loi de puissance de la distance. Aucune vitesse de propagation n'en sort. Le groupe de Lorentz obtenu est celui d'une géométrie de contacts, non celui d'un mouvement : ni temps, ni dynamique, ni limite continue.
+
+**Ce qui se mesure dans le moteur complet de l'auteur** (arithmétique exacte ; dix états recoupés nombre pour nombre, dont ceux de X-23 E). Avec des points à quatre ou cinq dimensions, le moteur reste à l'étage 3 ; avec des points dans un plan, il retombe à l'étage 2. Ce n'est donc pas l'espace à trois dimensions des points qui fait son étage 3. L'étage suit le budget de liens, et le moteur règle ce budget : de quatre à huit liens par naissance, il ne va que de 4,8 à 6,7 voisins. Ce réglage tient à la désintégration des groupes de quatre et aux forces : avec des groupes de trois le moteur gèle l'étage 2, avec des groupes de cinq l'étage 4, et des points à trois dimensions portent alors un étage plus haut que leur espace. Aucune règle ne porte le 3 à elle seule.
+
+Ce que cela ne donne pas : aucune loi physique. Deux nombres restent posés dans le moteur, κ₀ = 6,6 et le quatre des groupes qui se défont.
+
+Détail : [carnet X-24](carnets/2026-11-22_X-24_contact_lorentz_moteur.md). **TOE 0/7.**
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

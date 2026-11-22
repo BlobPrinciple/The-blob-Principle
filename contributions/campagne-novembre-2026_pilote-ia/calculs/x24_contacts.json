@@ -1,0 +1,6181 @@
+{
+ "rang2": [
+  {
+   "V": 4,
+   "liens": 6,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "calcul2": {
+    "face_exterieure": [
+     1,
+     0,
+     3
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "unicite_ecart_relatif_des_produits": 4.440892098500627e-16,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.439293542825908e-15,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 1.0,
+    "plus_grande": 2.0,
+    "rang_flottant": 6,
+    "rang_attendu": 6,
+    "rapidite_du_centrage": 2.077069624752261
+   },
+   "rayon_angulaire_min_max_deg": [
+    54.73561031724529,
+    54.73561031724552
+   ],
+   "rigidite_flottante": {
+    "lignes": 6,
+    "colonnes": 12,
+    "plus_petite_valeur_singuliere": 0.18145249756497586,
+    "plus_grande": 1.808569204764031,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 0.0,
+    "rang_du_jacobien": 10,
+    "lignes": 10,
+    "colonnes": 16,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.03589838486224541,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0,
+    "rang_de_rigidite_du_polyedre": 6,
+    "rang_attendu": 6,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 0
+  },
+  {
+   "V": 5,
+   "liens": 9,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     2,
+     4
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 5.104890078825659e-16,
+    "plus_grand_produit_hors_liens": -7.0,
+    "rapport_des_rayons": 15.928203230275509
+   },
+   "calcul2": {
+    "face_exterieure": [
+     0,
+     4,
+     1
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 2.4248227874421865e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999992,
+    "rapport_des_rayons": 15.928203230275502
+   },
+   "unicite_ecart_relatif_des_produits": 5.884182030513331e-15,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 3.944530791409608e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.2656542480726785e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.6861406616345068,
+    "plus_grande": 2.186140661634507,
+    "rang_flottant": 9,
+    "rang_attendu": 9,
+    "rapidite_du_centrage": 2.3828663154909937
+   },
+   "rayon_angulaire_min_max_deg": [
+    29.999999999999698,
+    59.99999999999997
+   ],
+   "rigidite_flottante": {
+    "lignes": 9,
+    "colonnes": 15,
+    "plus_petite_valeur_singuliere": 0.08798768845701489,
+    "plus_grande": 2.1814265435821314,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 1.5557538194652854e-61,
+    "residu_de_tangence_relatif": 1.7883686570013476e-61,
+    "rang_du_jacobien": 14,
+    "lignes": 14,
+    "colonnes": 20,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.007914283305386622,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 4.3998662706752603e-61,
+    "rang_de_rigidite_du_polyedre": 9,
+    "rang_attendu": 9,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -7.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -7.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 0
+  },
+  {
+   "V": 6,
+   "liens": 12,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     4,
+     5
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 7.860901432687031e-16,
+    "plus_grand_produit_hors_liens": -6.999999999999999,
+    "rapport_des_rayons": 45.78460969082654
+   },
+   "calcul2": {
+    "face_exterieure": [
+     3,
+     0,
+     1
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.100526200576184e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999992,
+    "rapport_des_rayons": 45.78460969082652
+   },
+   "unicite_ecart_relatif_des_produits": 5.662137425588298e-15,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.795042847446408e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.687538997430238e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.4587943846372606,
+    "plus_grande": 2.355067236672199,
+    "rang_flottant": 12,
+    "rang_attendu": 12,
+    "rapidite_du_centrage": 3.0806790104097344
+   },
+   "rayon_angulaire_min_max_deg": [
+    18.669138612536138,
+    64.41121859406417
+   ],
+   "rigidite_flottante": {
+    "lignes": 12,
+    "colonnes": 18,
+    "plus_petite_valeur_singuliere": 0.042709476914375426,
+    "plus_grande": 2.4971228207192104,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 2.333630729197928e-61,
+    "residu_de_tangence_relatif": 4.0216095146107907e-60,
+    "rang_du_jacobien": 18,
+    "lignes": 18,
+    "colonnes": 24,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.00046674786665723545,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 6.377041845702415e-61,
+    "rang_de_rigidite_du_polyedre": 12,
+    "rang_attendu": 12,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -7.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -17.0,
+      -1.0,
+      -1.0,
+      -7.0
+     ],
+     [
+      -7.0,
+      -17.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -7.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 0
+  },
+  {
+   "V": 8,
+   "liens": 18,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     4,
+     5
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 7.257828381231952e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999957,
+    "rapport_des_rayons": 228.13843876330577
+   },
+   "calcul2": {
+    "face_exterieure": [
+     7,
+     3,
+     0
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 8.899851104983676e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999976,
+    "rapport_des_rayons": 135.35382907247939
+   },
+   "unicite_ecart_relatif_des_produits": 5.001554725936607e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.303880197399437e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.2448709557920665e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.18244285361184653,
+    "plus_grande": 2.704094297185397,
+    "rang_flottant": 18,
+    "rang_attendu": 18,
+    "rapidite_du_centrage": 3.8469297571279686
+   },
+   "rayon_angulaire_min_max_deg": [
+    6.986225287047918,
+    70.91641913631322
+   ],
+   "rigidite_flottante": {
+    "lignes": 18,
+    "colonnes": 24,
+    "plus_petite_valeur_singuliere": 0.00868620340429621,
+    "plus_grande": 3.1620097145330064,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 5.2684424221560795e-59,
+    "rang_du_jacobien": 26,
+    "lignes": 26,
+    "colonnes": 32,
+    "noyau": 6,
+    "pivot_suivant_relatif": 1.5163708996139474e-05,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 1.8060149788506697e-60,
+    "rang_de_rigidite_du_polyedre": 18,
+    "rang_attendu": 18,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -17.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -7.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -127.0,
+      -7.0,
+      -1.0,
+      -17.0,
+      -49.0,
+      -1.0
+     ],
+     [
+      -17.0,
+      -127.0,
+      1.0,
+      -7.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -49.0
+     ],
+     [
+      -1.0,
+      -7.0,
+      -7.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -17.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -7.0
+     ],
+     [
+      -7.0,
+      -49.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -17.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -49.0,
+      -1.0,
+      -1.0,
+      -7.0,
+      -17.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 0
+  },
+  {
+   "V": 12,
+   "liens": 30,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     5,
+     10
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.9298777053640528e-14,
+    "plus_grand_produit_hors_liens": -2.060134542662564,
+    "rapport_des_rayons": 89.46617186595347
+   },
+   "calcul2": {
+    "face_exterieure": [
+     0,
+     1,
+     4
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 3.188219312814798e-14,
+    "plus_grand_produit_hors_liens": -2.060134542662578,
+    "rapport_des_rayons": 80.8053039237655
+   },
+   "unicite_ecart_relatif_des_produits": 6.777911565336578e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.0748310691445076e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 8.948397578478762e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.34926880942237154,
+    "plus_grande": 2.453663700348205,
+    "rang_flottant": 30,
+    "rang_attendu": 30,
+    "rapidite_du_centrage": 3.282389200342716
+   },
+   "rayon_angulaire_min_max_deg": [
+    12.30550456016603,
+    56.18000183230241
+   ],
+   "rigidite_flottante": {
+    "lignes": 30,
+    "colonnes": 36,
+    "plus_petite_valeur_singuliere": 0.046445293444627306,
+    "plus_grande": 2.8501535140266436,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 7.778769097326427e-61,
+    "residu_de_tangence_relatif": 2.1318842613505557e-59,
+    "rang_du_jacobien": 42,
+    "lignes": 42,
+    "colonnes": 48,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.00016694010542951996,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 1.1098062626401464e-60,
+    "rang_de_rigidite_du_polyedre": 30,
+    "rang_attendu": 30,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -4.228528281007761,
+      -2.965473752816017,
+      -1.0,
+      -1.0,
+      -9.234552613428509,
+      -2.3755025464351127,
+      -1.0,
+      -1.0,
+      -1.0,
+      -9.234552613428509
+     ],
+     [
+      -1.0,
+      1.0,
+      -17.949438578050497,
+      -5.871783497992915,
+      -1.0,
+      -7.987834282222962,
+      -26.203492339632113,
+      -1.0,
+      -3.740034936989661,
+      -1.0,
+      -11.723217539184262,
+      -31.85269733263443
+     ],
+     [
+      -4.228528281007761,
+      -17.949438578050497,
+      1.0,
+      -2.5762838873675085,
+      -1.0,
+      -1.0,
+      -1.0,
+      -10.34787097871186,
+      -7.802585661344404,
+      -22.914766260199006,
+      -1.0,
+      -1.0
+     ],
+     [
+      -2.965473752816017,
+      -5.871783497992915,
+      -2.5762838873675085,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -5.871783497992915,
+      -4.765854469834792,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -2.0601345426625706,
+      -1.0,
+      -1.0,
+      -2.753895727961968,
+      -3.740034936989661,
+      -1.0,
+      -3.473917760420734
+     ],
+     [
+      -1.0,
+      -7.987834282222962,
+      -1.0,
+      -1.0,
+      -2.0601345426625706,
+      1.0,
+      -3.473917760420734,
+      -4.332044781615433,
+      -1.0,
+      -7.2140233148144315,
+      -1.0,
+      -1.0
+     ],
+     [
+      -9.234552613428509,
+      -26.203492339632113,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.473917760420734,
+      1.0,
+      -11.793101076973073,
+      -11.152118303507327,
+      -33.61370318509013,
+      -7.141148147626764,
+      -1.0
+     ],
+     [
+      -2.3755025464351127,
+      -1.0,
+      -10.34787097871186,
+      -1.0,
+      -1.0,
+      -4.332044781615433,
+      -11.793101076973073,
+      1.0,
+      -1.0,
+      -1.0,
+      -9.366795832096262,
+      -14.486840404062717
+     ],
+     [
+      -1.0,
+      -3.740034936989661,
+      -7.802585661344404,
+      -1.0,
+      -2.753895727961968,
+      -1.0,
+      -11.152118303507327,
+      -1.0,
+      1.0,
+      -1.0,
+      -6.342138357202301,
+      -9.734208819189073
+     ],
+     [
+      -1.0,
+      -1.0,
+      -22.914766260199006,
+      -5.871783497992915,
+      -3.740034936989661,
+      -7.2140233148144315,
+      -33.61370318509013,
+      -1.0,
+      -1.0,
+      1.0,
+      -15.622538883656928,
+      -36.422194585575454
+     ],
+     [
+      -1.0,
+      -11.723217539184262,
+      -1.0,
+      -4.765854469834792,
+      -1.0,
+      -1.0,
+      -7.141148147626764,
+      -9.366795832096262,
+      -6.342138357202301,
+      -15.622538883656928,
+      1.0,
+      -7.141148147626764
+     ],
+     [
+      -9.234552613428509,
+      -31.85269733263443,
+      -1.0,
+      -1.0,
+      -3.473917760420734,
+      -1.0,
+      -1.0,
+      -14.486840404062717,
+      -9.734208819189073,
+      -36.422194585575454,
+      -7.141148147626764,
+      1.0
+     ]
+    ]
+   },
+   "graine": 0
+  },
+  {
+   "V": 20,
+   "liens": 54,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     10,
+     12
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 4.8892163197912626e-14,
+    "plus_grand_produit_hors_liens": -1.7879993721704892,
+    "rapport_des_rayons": 301.0083239158636
+   },
+   "calcul2": {
+    "face_exterieure": [
+     13,
+     4,
+     17
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 2.197661292342024e-14,
+    "plus_grand_produit_hors_liens": -1.7879993721704905,
+    "rapport_des_rayons": 118.68555415496498
+   },
+   "unicite_ecart_relatif_des_produits": 1.187938636349064e-13,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 3.4489895215561e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 4.0090153419214403e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.20893486956662238,
+    "plus_grande": 2.5261898453722726,
+    "rang_flottant": 54,
+    "rang_attendu": 54,
+    "rapidite_du_centrage": 3.8967515147575935
+   },
+   "rayon_angulaire_min_max_deg": [
+    7.37767941020467,
+    49.1388356086711
+   ],
+   "rigidite_flottante": {
+    "lignes": 54,
+    "colonnes": 60,
+    "plus_petite_valeur_singuliere": 0.014790544715543738,
+    "plus_grande": 3.4670573768438366,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 1.0890276736256998e-60,
+    "residu_de_tangence_relatif": 1.1753158824013933e-58,
+    "rang_du_jacobien": 74,
+    "lignes": 74,
+    "colonnes": 80,
+    "noyau": 6,
+    "pivot_suivant_relatif": 2.8812793754735007e-05,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 2.411779142911047e-60,
+    "rang_de_rigidite_du_polyedre": 54,
+    "rang_attendu": 54,
+    "produits_inversifs": null
+   },
+   "graine": 0
+  },
+  {
+   "V": 40,
+   "liens": 114,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     12,
+     31
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 1.0104704914985288e-12,
+    "plus_grand_produit_hors_liens": -1.3868167965778802,
+    "rapport_des_rayons": 2356.9295932767473
+   },
+   "calcul2": {
+    "face_exterieure": [
+     24,
+     0,
+     10
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.3847798158209048e-11,
+    "plus_grand_produit_hors_liens": -1.3868167965763851,
+    "rapport_des_rayons": 1202.2993264038996
+   },
+   "unicite_ecart_relatif_des_produits": 5.151351567542849e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 9.28904793666242e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.9331203304773226e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.05132566052743095,
+    "plus_grande": 3.0140378877563383,
+    "rang_flottant": 114,
+    "rang_attendu": 114,
+    "rapidite_du_centrage": 4.597219406238648
+   },
+   "rayon_angulaire_min_max_deg": [
+    1.7614787325222303,
+    48.078974600809026
+   ],
+   "rigidite_flottante": {
+    "lignes": 114,
+    "colonnes": 120,
+    "plus_petite_valeur_singuliere": 0.002798578308481195,
+    "plus_grande": 4.687084094508448,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 2.4892061111444567e-60,
+    "residu_de_tangence_relatif": 3.2201235336206073e-57,
+    "rang_du_jacobien": 154,
+    "lignes": 154,
+    "colonnes": 160,
+    "noyau": 6,
+    "pivot_suivant_relatif": 2.5282618558367537e-07,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 3.10741708343775e-60,
+    "rang_de_rigidite_du_polyedre": 114,
+    "rang_attendu": 114,
+    "produits_inversifs": null
+   },
+   "graine": 0
+  },
+  {
+   "V": 80,
+   "liens": 234,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     31,
+     55
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.952962676484387e-12,
+    "plus_grand_produit_hors_liens": -1.6485164469462357,
+    "rapport_des_rayons": 7484.902840943158
+   },
+   "calcul2": {
+    "face_exterieure": [
+     78,
+     41,
+     24
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 1.1627648158987874e-11,
+    "plus_grand_produit_hors_liens": -1.6485164469458269,
+    "rapport_des_rayons": 10241.5822036925
+   },
+   "unicite_ecart_relatif_des_produits": 2.439620727656331e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 4.5641706900109195e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.8528512057969238e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.017812692800900958,
+    "plus_grande": 3.151298577910318,
+    "rang_flottant": 234,
+    "rang_attendu": 234,
+    "rapidite_du_centrage": 4.546509934962368
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.6320410951992249,
+    49.46596514539914
+   ],
+   "rigidite_flottante": {
+    "lignes": 234,
+    "colonnes": 240,
+    "plus_petite_valeur_singuliere": 0.0008307573039803635,
+    "plus_grande": 5.465502286939128,
+    "noyau": 6
+   },
+   "graine": 0
+  },
+  {
+   "V": 150,
+   "liens": 444,
+   "calcul1": {
+    "face_exterieure": [
+     31,
+     55,
+     123
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.3659666373946383e-11,
+    "plus_grand_produit_hors_liens": -1.3955180287614481,
+    "rapport_des_rayons": 23929.424096436403
+   },
+   "calcul2": {
+    "face_exterieure": [
+     12,
+     5,
+     2
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 1.1331690532551584e-11,
+    "plus_grand_produit_hors_liens": -1.395518028772166,
+    "rapport_des_rayons": 5500.94248211984
+   },
+   "unicite_ecart_relatif_des_produits": 5.5732474194283114e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 3.4083386016358663e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 7.296163673231604e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.007129262972435041,
+    "plus_grande": 3.9963615978877454,
+    "rang_flottant": 444,
+    "rang_attendu": 444,
+    "rapidite_du_centrage": 5.314771562150373
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.24500515759822628,
+    52.60605888045166
+   ],
+   "rigidite_flottante": {
+    "lignes": 444,
+    "colonnes": 450,
+    "plus_petite_valeur_singuliere": 0.0012719880089314907,
+    "plus_grande": 5.891525708369764,
+    "noyau": 6
+   },
+   "graine": 0
+  },
+  {
+   "V": 300,
+   "liens": 894,
+   "calcul1": {
+    "face_exterieure": [
+     31,
+     55,
+     123
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.6680269365087407e-10,
+    "plus_grand_produit_hors_liens": -1.3091240807559255,
+    "rapport_des_rayons": 234910.52217480852
+   },
+   "calcul2": {
+    "face_exterieure": [
+     150,
+     156,
+     165
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.3165428951363584e-09,
+    "plus_grand_produit_hors_liens": -1.3091240808490223,
+    "rapport_des_rayons": 610280.7011525215
+   },
+   "unicite_ecart_relatif_des_produits": 5.767696986687311e-09,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 6.5299903723384466e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.89690485541405e-11,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.0014788470915149798,
+    "plus_grande": 4.440175451225876,
+    "rang_flottant": 894,
+    "rang_attendu": 894,
+    "rapidite_du_centrage": 5.628168493227998
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.054172064464118215,
+    49.349103596987156
+   ],
+   "rigidite_flottante": {
+    "lignes": 894,
+    "colonnes": 900,
+    "plus_petite_valeur_singuliere": 0.0002912606743583002,
+    "plus_grande": 7.128530646512406,
+    "noyau": 6
+   },
+   "graine": 0
+  },
+  {
+   "V": 4,
+   "liens": 6,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "calcul2": {
+    "face_exterieure": [
+     1,
+     0,
+     3
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "unicite_ecart_relatif_des_produits": 4.440892098500627e-16,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.439293542825908e-15,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 1.0,
+    "plus_grande": 2.0,
+    "rang_flottant": 6,
+    "rang_attendu": 6,
+    "rapidite_du_centrage": 2.077069624752261
+   },
+   "rayon_angulaire_min_max_deg": [
+    54.73561031724529,
+    54.73561031724552
+   ],
+   "rigidite_flottante": {
+    "lignes": 6,
+    "colonnes": 12,
+    "plus_petite_valeur_singuliere": 0.18145249756497586,
+    "plus_grande": 1.808569204764031,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 0.0,
+    "rang_du_jacobien": 10,
+    "lignes": 10,
+    "colonnes": 16,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.03589838486224541,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0,
+    "rang_de_rigidite_du_polyedre": 6,
+    "rang_attendu": 6,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 1
+  },
+  {
+   "V": 5,
+   "liens": 9,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     4
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 6.381112598532072e-16,
+    "plus_grand_produit_hors_liens": -6.9999999999999885,
+    "rapport_des_rayons": 15.928203230275495
+   },
+   "calcul2": {
+    "face_exterieure": [
+     4,
+     2,
+     0
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 3.9562898110898795e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999982,
+    "rapport_des_rayons": 15.92820323027548
+   },
+   "unicite_ecart_relatif_des_produits": 9.270362255620059e-15,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 4.440892098500627e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.042810365310288e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.6861406616345157,
+    "plus_grande": 2.186140661634506,
+    "rang_flottant": 9,
+    "rang_attendu": 9,
+    "rapidite_du_centrage": 2.5773054632391355
+   },
+   "rayon_angulaire_min_max_deg": [
+    29.999999999999996,
+    60.00000000000006
+   ],
+   "rigidite_flottante": {
+    "lignes": 9,
+    "colonnes": 15,
+    "plus_petite_valeur_singuliere": 0.08798768845701506,
+    "plus_grande": 2.1814265435821314,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 1.2446030555722283e-60,
+    "residu_de_tangence_relatif": 7.15347462800539e-61,
+    "rang_du_jacobien": 14,
+    "lignes": 14,
+    "colonnes": 20,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.0035760792449224927,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 6.40533017857973e-61,
+    "rang_de_rigidite_du_polyedre": 9,
+    "rang_attendu": 9,
+    "produits_inversifs": [
+     [
+      1.0,
+      -7.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -7.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 1
+  },
+  {
+   "V": 6,
+   "liens": 12,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     4
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.1468744863709847e-15,
+    "plus_grand_produit_hors_liens": -6.9999999999999964,
+    "rapport_des_rayons": 29.39230484541325
+   },
+   "calcul2": {
+    "face_exterieure": [
+     4,
+     2,
+     0
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 5.734372431854923e-16,
+    "plus_grand_produit_hors_liens": -6.999999999999993,
+    "rapport_des_rayons": 29.39230484541325
+   },
+   "unicite_ecart_relatif_des_produits": 3.830269434956805e-15,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.3586490429212355e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.1094237467877974e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.4587943846372525,
+    "plus_grande": 2.355067236672202,
+    "rang_flottant": 12,
+    "rang_attendu": 12,
+    "rapidite_du_centrage": 2.9272989957534334
+   },
+   "rayon_angulaire_min_max_deg": [
+    18.6691386125357,
+    64.411218594064
+   ],
+   "rigidite_flottante": {
+    "lignes": 12,
+    "colonnes": 18,
+    "plus_petite_valeur_singuliere": 0.047517024827065206,
+    "plus_grande": 2.5576808299887266,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 3.111507638930571e-61,
+    "residu_de_tangence_relatif": 3.31467150408276e-60,
+    "rang_du_jacobien": 18,
+    "lignes": 18,
+    "colonnes": 24,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.0007792878157294097,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 1.5741708207468486e-60,
+    "rang_de_rigidite_du_polyedre": 12,
+    "rang_attendu": 12,
+    "produits_inversifs": [
+     [
+      1.0,
+      -17.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -7.0
+     ],
+     [
+      -17.0,
+      1.0,
+      -1.0,
+      -7.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -7.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -7.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 1
+  },
+  {
+   "V": 8,
+   "liens": 18,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     4,
+     7
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.4335931079637322e-15,
+    "plus_grand_produit_hors_liens": -7.000000000000003,
+    "rapport_des_rayons": 46.85640646055104
+   },
+   "calcul2": {
+    "face_exterieure": [
+     7,
+     4,
+     1
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 2.649616599016428e-14,
+    "plus_grand_produit_hors_liens": -6.999999999999637,
+    "rapport_des_rayons": 225.99484522385643
+   },
+   "unicite_ecart_relatif_des_produits": 6.955547249276584e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.3786570137919317e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 8.43769498715119e-15,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.19688208392685028,
+    "plus_grande": 2.706404597912676,
+    "rang_flottant": 18,
+    "rang_attendu": 18,
+    "rapidite_du_centrage": 2.4858603585972676
+   },
+   "rayon_angulaire_min_max_deg": [
+    7.263317903721855,
+    70.79613981201769
+   ],
+   "rigidite_flottante": {
+    "lignes": 18,
+    "colonnes": 24,
+    "plus_petite_valeur_singuliere": 0.026976489715990756,
+    "plus_grande": 3.1192743800975484,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 1.2446030555722283e-60,
+    "residu_de_tangence_relatif": 1.3057796834265417e-60,
+    "rang_du_jacobien": 26,
+    "lignes": 26,
+    "colonnes": 32,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.00029141363400927945,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 2.7384378076961524e-60,
+    "rang_de_rigidite_du_polyedre": 18,
+    "rang_attendu": 18,
+    "produits_inversifs": [
+     [
+      1.0,
+      -97.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -17.0,
+      -7.0,
+      -31.0
+     ],
+     [
+      -97.0,
+      1.0,
+      -7.0,
+      -49.0,
+      -1.0,
+      -1.0,
+      -17.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -7.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -49.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -7.0,
+      -1.0,
+      -17.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -17.0,
+      -1.0,
+      -1.0,
+      -7.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -7.0,
+      -17.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -7.0
+     ],
+     [
+      -31.0,
+      -1.0,
+      -1.0,
+      -17.0,
+      -1.0,
+      -1.0,
+      -7.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 1
+  },
+  {
+   "V": 12,
+   "liens": 30,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     4,
+     7
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 4.5230539029878736e-14,
+    "plus_grand_produit_hors_liens": -2.999999999999845,
+    "rapport_des_rayons": 105.50375880871646
+   },
+   "calcul2": {
+    "face_exterieure": [
+     6,
+     9,
+     11
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 5.057968631314814e-14,
+    "plus_grand_produit_hors_liens": -2.9999999999999853,
+    "rapport_des_rayons": 453.22091208415316
+   },
+   "unicite_ecart_relatif_des_produits": 2.2309931679842753e-13,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 8.368626520263586e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.9753977059954195e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.08251705438944569,
+    "plus_grande": 3.1772353140812375,
+    "rang_flottant": 30,
+    "rang_attendu": 30,
+    "rapidite_du_centrage": 3.0364247445719963
+   },
+   "rayon_angulaire_min_max_deg": [
+    3.028491587247154,
+    71.51996766898138
+   ],
+   "rigidite_flottante": {
+    "lignes": 30,
+    "colonnes": 36,
+    "plus_petite_valeur_singuliere": 0.009744556429108698,
+    "plus_grande": 3.9344987293823133,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 2.4892061111444567e-60,
+    "residu_de_tangence_relatif": 1.0073128847501109e-58,
+    "rang_du_jacobien": 42,
+    "lignes": 42,
+    "colonnes": 48,
+    "noyau": 6,
+    "pivot_suivant_relatif": 4.417495834404315e-05,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 8.251616015349755e-60,
+    "rang_de_rigidite_du_polyedre": 30,
+    "rang_attendu": 30,
+    "produits_inversifs": [
+     [
+      1.0,
+      -278.82337649086287,
+      -1.0,
+      -7.0,
+      -1.0,
+      -57.62741699796952,
+      -17.0,
+      -81.2842712474619,
+      -1.0,
+      -53.97056274847714,
+      -37.97056274847714,
+      -53.97056274847714
+     ],
+     [
+      -278.82337649086287,
+      1.0,
+      -7.0,
+      -121.5685424949238,
+      -1.0,
+      -1.0,
+      -66.94112549695429,
+      -1.0,
+      -192.1959594928933,
+      -82.94112549695429,
+      -17.0,
+      -76.94112549695429
+     ],
+     [
+      -1.0,
+      -7.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.0
+     ],
+     [
+      -7.0,
+      -121.5685424949238,
+      -1.0,
+      1.0,
+      -1.0,
+      -22.31370849898476,
+      -1.0,
+      -37.97056274847714,
+      -1.0,
+      -10.65685424949238,
+      -10.65685424949238,
+      -10.65685424949238
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -57.62741699796952,
+      -1.0,
+      -1.0,
+      -22.31370849898476,
+      -1.0,
+      1.0,
+      -10.65685424949238,
+      -1.0,
+      -37.97056274847714,
+      -10.65685424949238,
+      -1.0,
+      -10.65685424949238
+     ],
+     [
+      -17.0,
+      -66.94112549695429,
+      -1.0,
+      -1.0,
+      -1.0,
+      -10.65685424949238,
+      1.0,
+      -22.31370849898476,
+      -7.0,
+      -1.0,
+      -3.0,
+      -1.0
+     ],
+     [
+      -81.2842712474619,
+      -1.0,
+      -1.0,
+      -37.97056274847714,
+      -1.0,
+      -1.0,
+      -22.31370849898476,
+      1.0,
+      -57.62741699796952,
+      -28.31370849898476,
+      -7.0,
+      -28.31370849898476
+     ],
+     [
+      -1.0,
+      -192.1959594928933,
+      -1.0,
+      -1.0,
+      -1.0,
+      -37.97056274847714,
+      -7.0,
+      -57.62741699796952,
+      1.0,
+      -28.31370849898476,
+      -22.31370849898476,
+      -28.31370849898476
+     ],
+     [
+      -53.97056274847714,
+      -82.94112549695429,
+      -1.0,
+      -10.65685424949238,
+      -3.0,
+      -10.65685424949238,
+      -1.0,
+      -28.31370849898476,
+      -28.31370849898476,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -37.97056274847714,
+      -17.0,
+      -1.0,
+      -10.65685424949238,
+      -1.0,
+      -1.0,
+      -3.0,
+      -7.0,
+      -22.31370849898476,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -53.97056274847714,
+      -76.94112549695429,
+      -3.0,
+      -10.65685424949238,
+      -1.0,
+      -10.65685424949238,
+      -1.0,
+      -28.31370849898476,
+      -28.31370849898476,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 1
+  },
+  {
+   "V": 20,
+   "liens": 54,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     4,
+     7
+    ],
+    "iterations": 8,
+    "residu_de_tangence_relatif": 1.9326287333175646e-13,
+    "plus_grand_produit_hors_liens": -1.6666666666666592,
+    "rapport_des_rayons": 272.9628389907888
+   },
+   "calcul2": {
+    "face_exterieure": [
+     11,
+     19,
+     9
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 7.84731539769167e-14,
+    "plus_grand_produit_hors_liens": -1.666666666665347,
+    "rapport_des_rayons": 1484.7154252735254
+   },
+   "unicite_ecart_relatif_des_produits": 1.973143870515066e-12,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.5197355295868635e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.1601830607332886e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.04866327867062932,
+    "plus_grande": 3.9071526018803904,
+    "rang_flottant": 54,
+    "rang_attendu": 54,
+    "rapidite_du_centrage": 3.4664436726989414
+   },
+   "rayon_angulaire_min_max_deg": [
+    1.7351909180793659,
+    76.13038557093478
+   ],
+   "rigidite_flottante": {
+    "lignes": 54,
+    "colonnes": 60,
+    "plus_petite_valeur_singuliere": 0.0028249005499901064,
+    "plus_grande": 5.024114762916905,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 5.600713750075028e-60,
+    "residu_de_tangence_relatif": 1.0757531213428744e-57,
+    "rang_du_jacobien": 74,
+    "lignes": 74,
+    "colonnes": 80,
+    "noyau": 6,
+    "pivot_suivant_relatif": 1.183285533925112e-06,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 1.4171811985284266e-59,
+    "rang_de_rigidite_du_polyedre": 54,
+    "rang_attendu": 54,
+    "produits_inversifs": null
+   },
+   "graine": 1
+  },
+  {
+   "V": 40,
+   "liens": 114,
+   "calcul1": {
+    "face_exterieure": [
+     7,
+     27,
+     34
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 4.1510544066772575e-13,
+    "plus_grand_produit_hors_liens": -1.1915351164602903,
+    "rapport_des_rayons": 1817.2556185053725
+   },
+   "calcul2": {
+    "face_exterieure": [
+     19,
+     24,
+     31
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 5.005532504185224e-13,
+    "plus_grand_produit_hors_liens": -1.1915351164602366,
+    "rapport_des_rayons": 3790.465633486868
+   },
+   "unicite_ecart_relatif_des_produits": 1.4331869024886562e-12,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.13195990657624e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.3502532425491154e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.06536092736605068,
+    "plus_grande": 4.301096633456308,
+    "rang_flottant": 114,
+    "rang_attendu": 114,
+    "rapidite_du_centrage": 4.530754589398307
+   },
+   "rayon_angulaire_min_max_deg": [
+    2.2857604355487857,
+    72.86064194822112
+   ],
+   "rigidite_flottante": {
+    "lignes": 114,
+    "colonnes": 120,
+    "plus_petite_valeur_singuliere": 0.00568900534207664,
+    "plus_grande": 5.1432450704648796,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 1.2446030555722283e-60,
+    "residu_de_tangence_relatif": 2.3333266315077289e-57,
+    "rang_du_jacobien": 154,
+    "lignes": 154,
+    "colonnes": 160,
+    "noyau": 6,
+    "pivot_suivant_relatif": 4.6578579120472026e-07,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 8.358293573693965e-60,
+    "rang_de_rigidite_du_polyedre": 114,
+    "rang_attendu": 114,
+    "produits_inversifs": null
+   },
+   "graine": 1
+  },
+  {
+   "V": 80,
+   "liens": 234,
+   "calcul1": {
+    "face_exterieure": [
+     7,
+     27,
+     34
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 6.3365087585577215e-12,
+    "plus_grand_produit_hors_liens": -1.176367009306357,
+    "rapport_des_rayons": 7790.994054964699
+   },
+   "calcul2": {
+    "face_exterieure": [
+     50,
+     41,
+     70
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 4.1535091382006265e-11,
+    "plus_grand_produit_hors_liens": -1.1763670093056566,
+    "rapport_des_rayons": 21204.055153997644
+   },
+   "unicite_ecart_relatif_des_produits": 1.4065987263846624e-10,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.8323363087994532e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 3.3283376055237568e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.01835743748461155,
+    "plus_grande": 4.905738045868417,
+    "rang_flottant": 234,
+    "rang_attendu": 234,
+    "rapidite_du_centrage": 4.780429156998602
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.6690384715331302,
+    73.21205210693236
+   ],
+   "rigidite_flottante": {
+    "lignes": 234,
+    "colonnes": 240,
+    "plus_petite_valeur_singuliere": 0.0015186474755897695,
+    "plus_grande": 6.215053238053019,
+    "noyau": 6
+   },
+   "graine": 1
+  },
+  {
+   "V": 150,
+   "liens": 444,
+   "calcul1": {
+    "face_exterieure": [
+     7,
+     27,
+     34
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 1.5583661404917185e-11,
+    "plus_grand_produit_hors_liens": -1.2289318511912861,
+    "rapport_des_rayons": 7851.552731231906
+   },
+   "calcul2": {
+    "face_exterieure": [
+     50,
+     41,
+     70
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 5.318701596412633e-11,
+    "plus_grand_produit_hors_liens": -1.2289318511903604,
+    "rapport_des_rayons": 22059.102745340464
+   },
+   "unicite_ecart_relatif_des_produits": 1.0881812118057582e-10,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.6917488475681657e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.825983808600995e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.0050366380591622345,
+    "plus_grande": 5.022170388982198,
+    "rang_flottant": 444,
+    "rang_attendu": 444,
+    "rapidite_du_centrage": 4.589539561614224
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.17510879101145274,
+    70.7845245809072
+   ],
+   "rigidite_flottante": {
+    "lignes": 444,
+    "colonnes": 450,
+    "plus_petite_valeur_singuliere": 0.0009251983487743571,
+    "plus_grande": 6.517095381068292,
+    "noyau": 6
+   },
+   "graine": 1
+  },
+  {
+   "V": 300,
+   "liens": 894,
+   "calcul1": {
+    "face_exterieure": [
+     7,
+     27,
+     34
+    ],
+    "iterations": 8,
+    "residu_de_tangence_relatif": 8.849488953652142e-11,
+    "plus_grand_produit_hors_liens": -1.2633273561563645,
+    "rapport_des_rayons": 67371.28388126296
+   },
+   "calcul2": {
+    "face_exterieure": [
+     231,
+     4,
+     1
+    ],
+    "iterations": 8,
+    "residu_de_tangence_relatif": 2.1335402144188582e-11,
+    "plus_grand_produit_hors_liens": -1.263327356157185,
+    "rapport_des_rayons": 20244.252303595622
+   },
+   "unicite_ecart_relatif_des_produits": 2.653447462537294e-10,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 5.487508783659866e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.603250948141067e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.0005454163540999272,
+    "plus_grande": 5.625570811210535,
+    "rang_flottant": 894,
+    "rang_attendu": 894,
+    "rapidite_du_centrage": 4.650920832389737
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.01884497816321434,
+    69.0651375769398
+   ],
+   "rigidite_flottante": {
+    "lignes": 894,
+    "colonnes": 900,
+    "plus_petite_valeur_singuliere": 0.0002694259362596004,
+    "plus_grande": 7.598456072551474,
+    "noyau": 6
+   },
+   "graine": 1
+  },
+  {
+   "V": 4,
+   "liens": 6,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "calcul2": {
+    "face_exterieure": [
+     1,
+     0,
+     3
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "unicite_ecart_relatif_des_produits": 4.440892098500627e-16,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.439293542825908e-15,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 1.0,
+    "plus_grande": 2.0,
+    "rang_flottant": 6,
+    "rang_attendu": 6,
+    "rapidite_du_centrage": 2.077069624752261
+   },
+   "rayon_angulaire_min_max_deg": [
+    54.73561031724529,
+    54.73561031724552
+   ],
+   "rigidite_flottante": {
+    "lignes": 6,
+    "colonnes": 12,
+    "plus_petite_valeur_singuliere": 0.18145249756497586,
+    "plus_grande": 1.808569204764031,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 0.0,
+    "rang_du_jacobien": 10,
+    "lignes": 10,
+    "colonnes": 16,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.03589838486224541,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0,
+    "rang_de_rigidite_du_polyedre": 6,
+    "rang_attendu": 6,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 2
+  },
+  {
+   "V": 5,
+   "liens": 9,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 1.4038447716770556e-15,
+    "plus_grand_produit_hors_liens": -6.9999999999999885,
+    "rapport_des_rayons": 15.928203230275495
+   },
+   "calcul2": {
+    "face_exterieure": [
+     1,
+     0,
+     3
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 3.9562898110898795e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999982,
+    "rapport_des_rayons": 15.92820323027548
+   },
+   "unicite_ecart_relatif_des_produits": 9.270362255620059e-15,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.8443366368799425e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.2093438190040615e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.6861406616345012,
+    "plus_grande": 2.186140661634508,
+    "rang_flottant": 9,
+    "rang_attendu": 9,
+    "rapidite_du_centrage": 2.382866315490997
+   },
+   "rayon_angulaire_min_max_deg": [
+    29.99999999999969,
+    60.00000000000016
+   ],
+   "rigidite_flottante": {
+    "lignes": 9,
+    "colonnes": 15,
+    "plus_petite_valeur_singuliere": 0.08798768845701498,
+    "plus_grande": 2.1814265435821305,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 3.111507638930571e-61,
+    "residu_de_tangence_relatif": 1.3473223296916064e-61,
+    "rang_du_jacobien": 14,
+    "lignes": 14,
+    "colonnes": 20,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.00579365748503716,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 4.3390946371023976e-61,
+    "rang_de_rigidite_du_polyedre": 9,
+    "rang_attendu": 9,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -7.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -7.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 2
+  },
+  {
+   "V": 6,
+   "liens": 12,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     5
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 9.753691513836443e-15,
+    "plus_grand_produit_hors_liens": -2.9999999999999805,
+    "rapport_des_rayons": 9.898979485566326
+   },
+   "calcul2": {
+    "face_exterieure": [
+     4,
+     3,
+     0
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 1.1539578692426209e-14,
+    "plus_grand_produit_hors_liens": -2.999999999999976,
+    "rapport_des_rayons": 9.898979485566326
+   },
+   "unicite_ecart_relatif_des_produits": 2.3092638912203256e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 3.7758643188653097e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.994405055138486e-15,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.9999999999999968,
+    "plus_grande": 2.0,
+    "rang_flottant": 12,
+    "rang_attendu": 12,
+    "rapidite_du_centrage": 2.551083074300342
+   },
+   "rayon_angulaire_min_max_deg": [
+    44.99999999999992,
+    45.00000000000031
+   ],
+   "rigidite_flottante": {
+    "lignes": 12,
+    "colonnes": 18,
+    "plus_petite_valeur_singuliere": 0.10494284952804214,
+    "plus_grande": 2.2460059113654376,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 9.334522916791713e-61,
+    "residu_de_tangence_relatif": 8.085196950326142e-60,
+    "rang_du_jacobien": 18,
+    "lignes": 18,
+    "colonnes": 24,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.017874894168565574,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 8.557819171321802e-62,
+    "rang_de_rigidite_du_polyedre": 12,
+    "rang_attendu": 12,
+    "produits_inversifs": [
+     [
+      1.0,
+      -3.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -3.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -3.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -3.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -3.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 2
+  },
+  {
+   "V": 8,
+   "liens": 18,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     5,
+     7
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.7523541858088053e-15,
+    "plus_grand_produit_hors_liens": -2.456326402664764,
+    "rapport_des_rayons": 21.094754854036708
+   },
+   "calcul2": {
+    "face_exterieure": [
+     6,
+     4,
+     3
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 2.2780604415514485e-15,
+    "plus_grand_produit_hors_liens": -2.4563264026647653,
+    "rapport_des_rayons": 21.09475485403672
+   },
+   "unicite_ecart_relatif_des_produits": 5.884182030513331e-15,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 8.85076858357308e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.3766765505351941e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.738437767348479,
+    "plus_grande": 2.048236650975077,
+    "rang_flottant": 18,
+    "rang_attendu": 18,
+    "rapidite_du_centrage": 2.7248197670865575
+   },
+   "rayon_angulaire_min_max_deg": [
+    29.287577458288855,
+    47.09069914930359
+   ],
+   "rigidite_flottante": {
+    "lignes": 18,
+    "colonnes": 24,
+    "plus_petite_valeur_singuliere": 0.0746845850728809,
+    "plus_grande": 2.5765590864006485,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 5.445138368128499e-61,
+    "residu_de_tangence_relatif": 2.8614766565253644e-60,
+    "rang_du_jacobien": 26,
+    "lignes": 26,
+    "colonnes": 32,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.0034518851565334993,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 3.6570451388813504e-61,
+    "rang_de_rigidite_du_polyedre": 18,
+    "rang_attendu": 18,
+    "produits_inversifs": [
+     [
+      1.0,
+      -6.357355625885887,
+      -1.0,
+      -3.629192424553504,
+      -1.0,
+      -1.0,
+      -1.0,
+      -6.357355625885887
+     ],
+     [
+      -6.357355625885887,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.629192424553504,
+      -6.357355625885887,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -2.456326402664766,
+      -1.0,
+      -1.0,
+      -3.629192424553504,
+      -1.0
+     ],
+     [
+      -3.629192424553504,
+      -1.0,
+      -2.456326402664766,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -2.456326402664766,
+      -1.0,
+      -3.629192424553504
+     ],
+     [
+      -1.0,
+      -3.629192424553504,
+      -1.0,
+      -1.0,
+      -2.456326402664766,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -6.357355625885887,
+      -3.629192424553504,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -6.357355625885887
+     ],
+     [
+      -6.357355625885887,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.629192424553504,
+      -1.0,
+      -6.357355625885887,
+      1.0
+     ]
+    ]
+   },
+   "graine": 2
+  },
+  {
+   "V": 12,
+   "liens": 30,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     5,
+     7
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 2.519863566104458e-14,
+    "plus_grand_produit_hors_liens": -2.172741510865664,
+    "rapport_des_rayons": 42.0657727379186
+   },
+   "calcul2": {
+    "face_exterieure": [
+     3,
+     6,
+     4
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 7.0797487097843855e-15,
+    "plus_grand_produit_hors_liens": -2.1727415108656802,
+    "rapport_des_rayons": 33.949989046679576
+   },
+   "unicite_ecart_relatif_des_produits": 5.1070259132759795e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.3683177142853198e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.9753977059954195e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.5085703319586238,
+    "plus_grande": 2.3578744910982383,
+    "rang_flottant": 30,
+    "rang_attendu": 30,
+    "rapidite_du_centrage": 2.907196628362765
+   },
+   "rayon_angulaire_min_max_deg": [
+    18.49857452884743,
+    52.066579684264845
+   ],
+   "rigidite_flottante": {
+    "lignes": 30,
+    "colonnes": 36,
+    "plus_petite_valeur_singuliere": 0.05148760581733802,
+    "plus_grande": 2.866175805816356,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 1.0890276736256998e-60,
+    "residu_de_tangence_relatif": 1.9634744178316599e-59,
+    "rang_du_jacobien": 42,
+    "lignes": 42,
+    "colonnes": 48,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.0014616509975565785,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 5.83851292114865e-61,
+    "rang_de_rigidite_du_polyedre": 30,
+    "rang_attendu": 30,
+    "produits_inversifs": [
+     [
+      1.0,
+      -6.655425223351847,
+      -1.0,
+      -4.561538278225787,
+      -2.6181369153482974,
+      -1.0,
+      -1.0,
+      -5.34227745363375,
+      -5.932932606310013,
+      -1.0,
+      -11.447626909548886,
+      -1.0
+     ],
+     [
+      -6.655425223351847,
+      1.0,
+      -1.0,
+      -3.4221654333000195,
+      -1.0,
+      -4.512607014331887,
+      -6.59799833557569,
+      -1.0,
+      -1.0,
+      -4.042957311588354,
+      -1.0,
+      -10.316175960510781
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -3.4879126517716186,
+      -2.1727415108656873,
+      -1.0,
+      -3.4879126517716186,
+      -1.0,
+      -1.0,
+      -1.0,
+      -4.644225296097889,
+      -4.644225296097889
+     ],
+     [
+      -4.561538278225787,
+      -3.4221654333000195,
+      -3.4879126517716186,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -8.364821340534387,
+      -6.59799833557569,
+      -1.0,
+      -6.866918220939896
+     ],
+     [
+      -2.6181369153482974,
+      -1.0,
+      -2.1727415108656873,
+      -1.0,
+      1.0,
+      -2.9550933521743556,
+      -1.0,
+      -2.6181369153482974,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -4.512607014331887,
+      -1.0,
+      -1.0,
+      -2.9550933521743556,
+      1.0,
+      -1.0,
+      -1.0,
+      -7.745038553730068,
+      -4.512607014331887,
+      -5.401142052559422,
+      -5.401142052559422
+     ],
+     [
+      -1.0,
+      -6.59799833557569,
+      -3.4879126517716186,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -4.561538278225787,
+      -8.364821340534387,
+      -3.4221654333000195,
+      -6.866918220939896,
+      -1.0
+     ],
+     [
+      -5.34227745363375,
+      -1.0,
+      -1.0,
+      -1.0,
+      -2.6181369153482974,
+      -1.0,
+      -4.561538278225787,
+      1.0,
+      -5.932932606310013,
+      -6.655425223351847,
+      -1.0,
+      -11.447626909548886
+     ],
+     [
+      -5.932932606310013,
+      -1.0,
+      -1.0,
+      -8.364821340534387,
+      -1.0,
+      -7.745038553730068,
+      -8.364821340534387,
+      -5.932932606310013,
+      1.0,
+      -1.0,
+      -8.054556226873446,
+      -8.054556226873446
+     ],
+     [
+      -1.0,
+      -4.042957311588354,
+      -1.0,
+      -6.59799833557569,
+      -1.0,
+      -4.512607014331887,
+      -3.4221654333000195,
+      -6.655425223351847,
+      -1.0,
+      1.0,
+      -10.316175960510781,
+      -1.0
+     ],
+     [
+      -11.447626909548886,
+      -1.0,
+      -4.644225296097889,
+      -1.0,
+      -1.0,
+      -5.401142052559422,
+      -6.866918220939896,
+      -1.0,
+      -8.054556226873446,
+      -10.316175960510781,
+      1.0,
+      -16.210364705598277
+     ],
+     [
+      -1.0,
+      -10.316175960510781,
+      -4.644225296097889,
+      -6.866918220939896,
+      -1.0,
+      -5.401142052559422,
+      -1.0,
+      -11.447626909548886,
+      -8.054556226873446,
+      -1.0,
+      -16.210364705598277,
+      1.0
+     ]
+    ]
+   },
+   "graine": 2
+  },
+  {
+   "V": 20,
+   "liens": 54,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     5,
+     7
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 7.056299351606753e-14,
+    "plus_grand_produit_hors_liens": -2.0983445198194515,
+    "rapport_des_rayons": 94.29211475048447
+   },
+   "calcul2": {
+    "face_exterieure": [
+     14,
+     6,
+     13
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 7.308037025072613e-14,
+    "plus_grand_produit_hors_liens": -2.0983445198196797,
+    "rapport_des_rayons": 104.85189397205102
+   },
+   "unicite_ecart_relatif_des_produits": 2.459699111057306e-13,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 6.739283087368599e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 9.325873406851315e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.25709845170106327,
+    "plus_grande": 2.323486737033015,
+    "rang_flottant": 54,
+    "rang_attendu": 54,
+    "rapidite_du_centrage": 3.19026719038405
+   },
+   "rayon_angulaire_min_max_deg": [
+    9.00907028006211,
+    44.46393409020762
+   ],
+   "rigidite_flottante": {
+    "lignes": 54,
+    "colonnes": 60,
+    "plus_petite_valeur_singuliere": 0.039105805378970016,
+    "plus_grande": 3.173893416555668,
+    "noyau": 6
+   },
+   "graine": 2
+  },
+  {
+   "V": 40,
+   "liens": 114,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     5,
+     7
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 6.637996273262566e-14,
+    "plus_grand_produit_hors_liens": -1.927228812913124,
+    "rapport_des_rayons": 282.03333547686464
+   },
+   "calcul2": {
+    "face_exterieure": [
+     19,
+     26,
+     39
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 4.577391000712654e-13,
+    "plus_grand_produit_hors_liens": -1.9272288129131394,
+    "rapport_des_rayons": 2382.08892314528
+   },
+   "unicite_ecart_relatif_des_produits": 1.175004538112044e-12,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 5.866419722165592e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 5.773159728050814e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.07182759179839002,
+    "plus_grande": 2.616160486833547,
+    "rang_flottant": 114,
+    "rang_attendu": 114,
+    "rapidite_du_centrage": 3.2720882502530046
+   },
+   "rayon_angulaire_min_max_deg": [
+    2.438644778412592,
+    43.86727870990773
+   ],
+   "rigidite_flottante": {
+    "lignes": 114,
+    "colonnes": 120,
+    "plus_petite_valeur_singuliere": 0.011056894802092787,
+    "plus_grande": 4.44254827806719,
+    "noyau": 6
+   },
+   "graine": 2
+  },
+  {
+   "V": 80,
+   "liens": 234,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     5,
+     7
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 8.839866230876674e-12,
+    "plus_grand_produit_hors_liens": -1.7436544786306063,
+    "rapport_des_rayons": 2634.487660619471
+   },
+   "calcul2": {
+    "face_exterieure": [
+     19,
+     46,
+     26
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 9.746395023148839e-12,
+    "plus_grand_produit_hors_liens": -1.7436544786302923,
+    "rapport_des_rayons": 3788.678883749417
+   },
+   "unicite_ecart_relatif_des_produits": 2.2218671347698178e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 6.672011621728923e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.4521717162097048e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.012299423769099057,
+    "plus_grande": 3.0205133801973933,
+    "rang_flottant": 234,
+    "rang_attendu": 234,
+    "rapidite_du_centrage": 3.4467089519689327
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.4268037420510561,
+    49.86425868339193
+   ],
+   "rigidite_flottante": {
+    "lignes": 234,
+    "colonnes": 240,
+    "plus_petite_valeur_singuliere": 0.0018424815664847057,
+    "plus_grande": 4.661801287063107,
+    "noyau": 6
+   },
+   "graine": 2
+  },
+  {
+   "V": 150,
+   "liens": 444,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     5,
+     7
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.831978711603413e-12,
+    "plus_grand_produit_hors_liens": -1.3850150701270263,
+    "rapport_des_rayons": 7650.312406547186
+   },
+   "calcul2": {
+    "face_exterieure": [
+     20,
+     82,
+     19
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 6.64468521763563e-11,
+    "plus_grand_produit_hors_liens": -1.3850150701278385,
+    "rapport_des_rayons": 10216.60288798979
+   },
+   "unicite_ecart_relatif_des_produits": 1.3572198920288396e-10,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 7.749620419077593e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.107203300738547e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.004438267886292127,
+    "plus_grande": 3.4267455031924197,
+    "rang_flottant": 444,
+    "rang_attendu": 444,
+    "rapidite_du_centrage": 3.493970131431691
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.15261813810746214,
+    49.14671116440406
+   ],
+   "rigidite_flottante": {
+    "lignes": 444,
+    "colonnes": 450,
+    "plus_petite_valeur_singuliere": 0.0010066398597676962,
+    "plus_grande": 5.2665642333257185,
+    "noyau": 6
+   },
+   "graine": 2
+  },
+  {
+   "V": 300,
+   "liens": 894,
+   "calcul1": {
+    "face_exterieure": [
+     2,
+     7,
+     266
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 9.575302538841323e-11,
+    "plus_grand_produit_hors_liens": -1.336917453113018,
+    "rapport_des_rayons": 31601.552203838903
+   },
+   "calcul2": {
+    "face_exterieure": [
+     192,
+     243,
+     82
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 5.714939289234331e-10,
+    "plus_grand_produit_hors_liens": -1.3369174531096466,
+    "rapport_des_rayons": 106712.82461256877
+   },
+   "unicite_ecart_relatif_des_produits": 1.3028043643886763e-09,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.8402465768697075e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.072919944699606e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.0017415058944701422,
+    "plus_grande": 4.02625206351441,
+    "rang_flottant": 894,
+    "rang_attendu": 894,
+    "rapidite_du_centrage": 3.9523635305820926
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.06075876438136467,
+    49.78577318776624
+   ],
+   "rigidite_flottante": {
+    "lignes": 894,
+    "colonnes": 900,
+    "plus_petite_valeur_singuliere": 0.00041536543308673266,
+    "plus_grande": 5.640678816050346,
+    "noyau": 6
+   },
+   "graine": 2
+  },
+  {
+   "V": 4,
+   "liens": 6,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "calcul2": {
+    "face_exterieure": [
+     1,
+     0,
+     3
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "unicite_ecart_relatif_des_produits": 4.440892098500627e-16,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.439293542825908e-15,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 1.0,
+    "plus_grande": 2.0,
+    "rang_flottant": 6,
+    "rang_attendu": 6,
+    "rapidite_du_centrage": 2.077069624752261
+   },
+   "rayon_angulaire_min_max_deg": [
+    54.73561031724529,
+    54.73561031724552
+   ],
+   "rigidite_flottante": {
+    "lignes": 6,
+    "colonnes": 12,
+    "plus_petite_valeur_singuliere": 0.18145249756497586,
+    "plus_grande": 1.808569204764031,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 0.0,
+    "rang_du_jacobien": 10,
+    "lignes": 10,
+    "colonnes": 16,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.03589838486224541,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0,
+    "rang_de_rigidite_du_polyedre": 6,
+    "rang_attendu": 6,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 3
+  },
+  {
+   "V": 5,
+   "liens": 9,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 1.4038447716770556e-15,
+    "plus_grand_produit_hors_liens": -6.9999999999999885,
+    "rapport_des_rayons": 15.928203230275495
+   },
+   "calcul2": {
+    "face_exterieure": [
+     1,
+     0,
+     3
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 3.9562898110898795e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999982,
+    "rapport_des_rayons": 15.92820323027548
+   },
+   "unicite_ecart_relatif_des_produits": 9.270362255620059e-15,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.8443366368799425e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.2093438190040615e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.6861406616345012,
+    "plus_grande": 2.186140661634508,
+    "rang_flottant": 9,
+    "rang_attendu": 9,
+    "rapidite_du_centrage": 2.382866315490997
+   },
+   "rayon_angulaire_min_max_deg": [
+    29.99999999999969,
+    60.00000000000016
+   ],
+   "rigidite_flottante": {
+    "lignes": 9,
+    "colonnes": 15,
+    "plus_petite_valeur_singuliere": 0.08798768845701498,
+    "plus_grande": 2.1814265435821305,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 3.111507638930571e-61,
+    "residu_de_tangence_relatif": 1.3473223296916064e-61,
+    "rang_du_jacobien": 14,
+    "lignes": 14,
+    "colonnes": 20,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.00579365748503716,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 4.3390946371023976e-61,
+    "rang_de_rigidite_du_polyedre": 9,
+    "rang_attendu": 9,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -7.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -7.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 3
+  },
+  {
+   "V": 6,
+   "liens": 12,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.100526200576184e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999992,
+    "rapport_des_rayons": 45.78460969082652
+   },
+   "calcul2": {
+    "face_exterieure": [
+     3,
+     4,
+     5
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 2.2959331602770346e-15,
+    "plus_grand_produit_hors_liens": -6.9999999999999964,
+    "rapport_des_rayons": 45.78460969082652
+   },
+   "unicite_ecart_relatif_des_produits": 5.7731597280508156e-15,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.1411737335650184e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 3.6193270602780103e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.458794384637256,
+    "plus_grande": 2.355067236672196,
+    "rang_flottant": 12,
+    "rang_attendu": 12,
+    "rapidite_du_centrage": 2.821265482889722
+   },
+   "rayon_angulaire_min_max_deg": [
+    18.669138612535843,
+    64.41121859406402
+   ],
+   "rigidite_flottante": {
+    "lignes": 12,
+    "colonnes": 18,
+    "plus_petite_valeur_singuliere": 0.04270947691437531,
+    "plus_grande": 2.49712282071921,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 3.111507638930571e-61,
+    "residu_de_tangence_relatif": 1.7624750569332944e-60,
+    "rang_du_jacobien": 18,
+    "lignes": 18,
+    "colonnes": 24,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.0008762825236439902,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 1.0260683585886731e-60,
+    "rang_de_rigidite_du_polyedre": 12,
+    "rang_attendu": 12,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -7.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -17.0,
+      -1.0,
+      -7.0
+     ],
+     [
+      -1.0,
+      -7.0,
+      -17.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -7.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 3
+  },
+  {
+   "V": 8,
+   "liens": 18,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     7
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 1.2033218765865924e-13,
+    "plus_grand_produit_hors_liens": -2.9999999999999654,
+    "rapport_des_rayons": 157.67295701842804
+   },
+   "calcul2": {
+    "face_exterieure": [
+     3,
+     5,
+     6
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 2.6237001839645184e-14,
+    "plus_grand_produit_hors_liens": -2.9999999999999227,
+    "rapport_des_rayons": 77.4521108960026
+   },
+   "unicite_ecart_relatif_des_produits": 2.9293234504743333e-13,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 4.695765408070605e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 5.6288307348495437e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.2249912177258616,
+    "plus_grande": 2.46927936460786,
+    "rang_flottant": 18,
+    "rang_attendu": 18,
+    "rapidite_du_centrage": 3.292967592641753
+   },
+   "rayon_angulaire_min_max_deg": [
+    8.22663408525256,
+    60.368674708388845
+   ],
+   "rigidite_flottante": {
+    "lignes": 18,
+    "colonnes": 24,
+    "plus_petite_valeur_singuliere": 0.07489056296232717,
+    "plus_grande": 2.252020342843415,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 7.778769097326427e-60,
+    "residu_de_tangence_relatif": 3.1223709723414775e-58,
+    "rang_du_jacobien": 26,
+    "lignes": 26,
+    "colonnes": 32,
+    "noyau": 6,
+    "pivot_suivant_relatif": 5.105157106130849e-05,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 7.451417592862124e-61,
+    "rang_de_rigidite_du_polyedre": 18,
+    "rang_attendu": 18,
+    "produits_inversifs": [
+     [
+      1.0,
+      -3.0,
+      -1.0,
+      -7.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -3.0,
+      1.0,
+      -1.0,
+      -22.31370849898476,
+      -1.0,
+      -1.0,
+      -10.65685424949238,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -28.31370849898476,
+      -1.0,
+      -3.0,
+      -10.65685424949238,
+      -1.0
+     ],
+     [
+      -7.0,
+      -22.31370849898476,
+      -28.31370849898476,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -28.31370849898476
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -3.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -3.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -10.65685424949238,
+      -10.65685424949238,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -10.65685424949238
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -28.31370849898476,
+      -3.0,
+      -1.0,
+      -10.65685424949238,
+      1.0
+     ]
+    ]
+   },
+   "graine": 3
+  },
+  {
+   "V": 12,
+   "liens": 30,
+   "calcul1": {
+    "face_exterieure": [
+     7,
+     8,
+     9
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.743571477891926e-14,
+    "plus_grand_produit_hors_liens": -2.1583886412192728,
+    "rapport_des_rayons": 148.6406366710265
+   },
+   "calcul2": {
+    "face_exterieure": [
+     5,
+     3,
+     6
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.0030332598125978e-14,
+    "plus_grand_produit_hors_liens": -2.1583886412192927,
+    "rapport_des_rayons": 113.61237558097969
+   },
+   "unicite_ecart_relatif_des_produits": 6.022959908591839e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 9.971108871634147e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.772360450213455e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.1933156673099753,
+    "plus_grande": 2.321836235574824,
+    "rang_flottant": 30,
+    "rang_attendu": 30,
+    "rapidite_du_centrage": 3.1657805820384763
+   },
+   "rayon_angulaire_min_max_deg": [
+    7.12532751802477,
+    49.15314545936396
+   ],
+   "rigidite_flottante": {
+    "lignes": 30,
+    "colonnes": 36,
+    "plus_petite_valeur_singuliere": 0.03981105081742325,
+    "plus_grande": 2.86128662834415,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 2.022479965304871e-60,
+    "residu_de_tangence_relatif": 1.5185564658315336e-59,
+    "rang_du_jacobien": 42,
+    "lignes": 42,
+    "colonnes": 48,
+    "noyau": 6,
+    "pivot_suivant_relatif": 9.825884951546034e-05,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 5.4687009123538606e-61,
+    "rang_de_rigidite_du_polyedre": 30,
+    "rang_attendu": 30,
+    "produits_inversifs": [
+     [
+      1.0,
+      -3.6997927602528247,
+      -4.065874348453578,
+      -9.185028585531445,
+      -1.0,
+      -2.1583886412192994,
+      -1.0,
+      -1.0,
+      -1.0,
+      -4.715977968327166,
+      -1.0,
+      -1.0
+     ],
+     [
+      -3.6997927602528247,
+      1.0,
+      -1.0,
+      -17.187814444325376,
+      -1.0,
+      -1.0,
+      -7.125372089868173,
+      -3.4897099073022675,
+      -1.0,
+      -1.0,
+      -4.065874348453578,
+      -8.749515563691928
+     ],
+     [
+      -4.065874348453578,
+      -1.0,
+      1.0,
+      -41.37468873347538,
+      -1.0,
+      -5.9042461305464435,
+      -14.069855325325822,
+      -8.749515563691928,
+      -1.0,
+      -8.168101033600387,
+      -1.0,
+      -19.12519333524836
+     ],
+     [
+      -9.185028585531445,
+      -17.187814444325376,
+      -41.37468873347538,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -18.524470229420054,
+      -23.707945243961245,
+      -32.58830551327422,
+      -36.15413175740066,
+      -12.431955936654331
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -3.6997927602528247,
+      -2.1583886412192994,
+      -4.715977968327166,
+      -1.0,
+      -4.065874348453578
+     ],
+     [
+      -2.1583886412192994,
+      -1.0,
+      -5.9042461305464435,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -2.563704633561486,
+      -1.0,
+      -6.659912220908946,
+      -1.0
+     ],
+     [
+      -1.0,
+      -7.125372089868173,
+      -14.069855325325822,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -4.065874348453578,
+      -6.659912220908946,
+      -10.5921912251645,
+      -10.074015056817883,
+      -1.0
+     ],
+     [
+      -1.0,
+      -3.4897099073022675,
+      -8.749515563691928,
+      -18.524470229420054,
+      -3.6997927602528247,
+      -1.0,
+      -4.065874348453578,
+      1.0,
+      -1.0,
+      -1.0,
+      -7.125372089868173,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -23.707945243961245,
+      -2.1583886412192994,
+      -2.563704633561486,
+      -6.659912220908946,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -5.9042461305464435
+     ],
+     [
+      -4.715977968327166,
+      -1.0,
+      -8.168101033600387,
+      -32.58830551327422,
+      -4.715977968327166,
+      -1.0,
+      -10.5921912251645,
+      -1.0,
+      -1.0,
+      1.0,
+      -10.5921912251645,
+      -8.168101033600387
+     ],
+     [
+      -1.0,
+      -4.065874348453578,
+      -1.0,
+      -36.15413175740066,
+      -1.0,
+      -6.659912220908946,
+      -10.074015056817883,
+      -7.125372089868173,
+      -1.0,
+      -10.5921912251645,
+      1.0,
+      -14.069855325325822
+     ],
+     [
+      -1.0,
+      -8.749515563691928,
+      -19.12519333524836,
+      -12.431955936654331,
+      -4.065874348453578,
+      -1.0,
+      -1.0,
+      -1.0,
+      -5.9042461305464435,
+      -8.168101033600387,
+      -14.069855325325822,
+      1.0
+     ]
+    ]
+   },
+   "graine": 3
+  },
+  {
+   "V": 20,
+   "liens": 54,
+   "calcul1": {
+    "face_exterieure": [
+     7,
+     8,
+     9
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 9.37808183427691e-14,
+    "plus_grand_produit_hors_liens": -1.7837118529521088,
+    "rapport_des_rayons": 152.20968960706958
+   },
+   "calcul2": {
+    "face_exterieure": [
+     16,
+     2,
+     1
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 4.2356175919172226e-13,
+    "plus_grand_produit_hors_liens": -1.7837118529520355,
+    "rapport_des_rayons": 523.9086884388985
+   },
+   "unicite_ecart_relatif_des_produits": 9.924283617124236e-13,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.0811614873349965e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.0369483049998962e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.21024810042914183,
+    "plus_grande": 2.6626486085282495,
+    "rang_flottant": 54,
+    "rang_attendu": 54,
+    "rapidite_du_centrage": 3.1443462995847957
+   },
+   "rayon_angulaire_min_max_deg": [
+    7.24042955156508,
+    51.955530133372896
+   ],
+   "rigidite_flottante": {
+    "lignes": 54,
+    "colonnes": 60,
+    "plus_petite_valeur_singuliere": 0.0274727909768782,
+    "plus_grande": 3.185902973661819,
+    "noyau": 6
+   },
+   "graine": 3
+  },
+  {
+   "V": 40,
+   "liens": 114,
+   "calcul1": {
+    "face_exterieure": [
+     8,
+     9,
+     36
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.7496770136052926e-12,
+    "plus_grand_produit_hors_liens": -1.6640115307862617,
+    "rapport_des_rayons": 335.73499198770776
+   },
+   "calcul2": {
+    "face_exterieure": [
+     16,
+     1,
+     20
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 9.24872849775847e-13,
+    "plus_grand_produit_hors_liens": -1.6640115307869574,
+    "rapport_des_rayons": 714.6357151492044
+   },
+   "unicite_ecart_relatif_des_produits": 5.367262190266885e-12,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 3.3708459322974784e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.48245868306185e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.07307737733438478,
+    "plus_grande": 3.1819442619591314,
+    "rang_flottant": 114,
+    "rang_attendu": 114,
+    "rapidite_du_centrage": 3.488313888601623
+   },
+   "rayon_angulaire_min_max_deg": [
+    2.548054791602993,
+    51.791243790106876
+   ],
+   "rigidite_flottante": {
+    "lignes": 114,
+    "colonnes": 120,
+    "plus_petite_valeur_singuliere": 0.01725428816487247,
+    "plus_grande": 3.733032001138931,
+    "noyau": 6
+   },
+   "graine": 3
+  },
+  {
+   "V": 80,
+   "liens": 234,
+   "calcul1": {
+    "face_exterieure": [
+     8,
+     36,
+     41
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 4.467771285823428e-11,
+    "plus_grand_produit_hors_liens": -1.3956247544359623,
+    "rapport_des_rayons": 1258.4052255640624
+   },
+   "calcul2": {
+    "face_exterieure": [
+     62,
+     7,
+     55
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.98423941400312e-12,
+    "plus_grand_produit_hors_liens": -1.3956247544333116,
+    "rapport_des_rayons": 2386.5938857716424
+   },
+   "unicite_ecart_relatif_des_produits": 8.975425958818604e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 4.703191718487018e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.2494449919131512e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.0382653611834314,
+    "plus_grande": 3.2584441028818145,
+    "rang_flottant": 234,
+    "rang_attendu": 234,
+    "rapidite_du_centrage": 4.035305332449429
+   },
+   "rayon_angulaire_min_max_deg": [
+    1.3195680152848104,
+    45.8095295095689
+   ],
+   "rigidite_flottante": {
+    "lignes": 234,
+    "colonnes": 240,
+    "plus_petite_valeur_singuliere": 0.003216191413166615,
+    "plus_grande": 4.016101859742928,
+    "noyau": 6
+   },
+   "graine": 3
+  },
+  {
+   "V": 150,
+   "liens": 444,
+   "calcul1": {
+    "face_exterieure": [
+     36,
+     41,
+     100
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 9.247516684325879e-12,
+    "plus_grand_produit_hors_liens": -1.295001590579034,
+    "rapport_des_rayons": 6998.501039575902
+   },
+   "calcul2": {
+    "face_exterieure": [
+     62,
+     119,
+     7
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 1.3162657544465586e-11,
+    "plus_grand_produit_hors_liens": -1.2950015905794237,
+    "rapport_des_rayons": 7654.77890252607
+   },
+   "unicite_ecart_relatif_des_produits": 3.828865002829847e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 3.0659041310286782e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.6735280655998395e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.017275968478915164,
+    "plus_grande": 3.6001570665897225,
+    "rang_flottant": 444,
+    "rang_attendu": 444,
+    "rapidite_du_centrage": 4.882728432119129
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.5953101786297448,
+    45.48258602276346
+   ],
+   "rigidite_flottante": {
+    "lignes": 444,
+    "colonnes": 450,
+    "plus_petite_valeur_singuliere": 0.0038663407771140574,
+    "plus_grande": 4.332052108720222,
+    "noyau": 6
+   },
+   "graine": 3
+  },
+  {
+   "V": 300,
+   "liens": 894,
+   "calcul1": {
+    "face_exterieure": [
+     36,
+     41,
+     100
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 4.4714560242008635e-11,
+    "plus_grand_produit_hors_liens": -1.199906703862648,
+    "rapport_des_rayons": 44046.29101728732
+   },
+   "calcul2": {
+    "face_exterieure": [
+     170,
+     62,
+     199
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.0121264085196252e-10,
+    "plus_grand_produit_hors_liens": -1.1999067038564326,
+    "rapport_des_rayons": 72901.52317566152
+   },
+   "unicite_ecart_relatif_des_produits": 4.918513929469865e-10,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.4004877697980178e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.015077325116636e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.004565309755282329,
+    "plus_grande": 4.0021626394464995,
+    "rang_flottant": 894,
+    "rang_attendu": 894,
+    "rapidite_du_centrage": 5.153755164403475
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.1611883610932495,
+    44.41162497951085
+   ],
+   "rigidite_flottante": {
+    "lignes": 894,
+    "colonnes": 900,
+    "plus_petite_valeur_singuliere": 0.000941837155280863,
+    "plus_grande": 5.382651970399023,
+    "noyau": 6
+   },
+   "graine": 3
+  },
+  {
+   "V": 4,
+   "liens": 6,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "calcul2": {
+    "face_exterieure": [
+     1,
+     0,
+     3
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "unicite_ecart_relatif_des_produits": 4.440892098500627e-16,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.439293542825908e-15,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 1.0,
+    "plus_grande": 2.0,
+    "rang_flottant": 6,
+    "rang_attendu": 6,
+    "rapidite_du_centrage": 2.077069624752261
+   },
+   "rayon_angulaire_min_max_deg": [
+    54.73561031724529,
+    54.73561031724552
+   ],
+   "rigidite_flottante": {
+    "lignes": 6,
+    "colonnes": 12,
+    "plus_petite_valeur_singuliere": 0.18145249756497586,
+    "plus_grande": 1.808569204764031,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 0.0,
+    "rang_du_jacobien": 10,
+    "lignes": 10,
+    "colonnes": 16,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.03589838486224541,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0,
+    "rang_de_rigidite_du_polyedre": 6,
+    "rang_attendu": 6,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 4
+  },
+  {
+   "V": 5,
+   "liens": 9,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 2.169578283500904e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999992,
+    "rapport_des_rayons": 15.928203230275502
+   },
+   "calcul2": {
+    "face_exterieure": [
+     0,
+     3,
+     4
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 4.083912063060521e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999977,
+    "rapport_des_rayons": 15.92820323027548
+   },
+   "unicite_ecart_relatif_des_produits": 1.0047518372857668e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 3.8184245262223894e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.4210854715202004e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.686140661634502,
+    "plus_grande": 2.186140661634508,
+    "rang_flottant": 9,
+    "rang_attendu": 9,
+    "rapidite_du_centrage": 2.3828663154909937
+   },
+   "rayon_angulaire_min_max_deg": [
+    29.99999999999998,
+    60.00000000000049
+   ],
+   "rigidite_flottante": {
+    "lignes": 9,
+    "colonnes": 15,
+    "plus_petite_valeur_singuliere": 0.08798768845701498,
+    "plus_grande": 2.181426543582131,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 9.334522916791713e-61,
+    "residu_de_tangence_relatif": 4.470921642503369e-61,
+    "rang_du_jacobien": 14,
+    "lignes": 14,
+    "colonnes": 20,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.007914283305386622,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 4.946810972831025e-61,
+    "rang_de_rigidite_du_polyedre": 9,
+    "rang_attendu": 9,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -7.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -7.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 4
+  },
+  {
+   "V": 6,
+   "liens": 12,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 6.164450364244037e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999958,
+    "rapport_des_rayons": 29.39230484541322
+   },
+   "calcul2": {
+    "face_exterieure": [
+     0,
+     3,
+     4
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 6.559809029362957e-16,
+    "plus_grand_produit_hors_liens": -6.999999999999999,
+    "rapport_des_rayons": 45.78460969082654
+   },
+   "unicite_ecart_relatif_des_produits": 1.3100631690577022e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 9.971648748860231e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.5654144647214707e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.45879438463725664,
+    "plus_grande": 2.3550672366722014,
+    "rang_flottant": 12,
+    "rang_attendu": 12,
+    "rapidite_du_centrage": 2.617115462325916
+   },
+   "rayon_angulaire_min_max_deg": [
+    18.66913861253609,
+    64.41121859406408
+   ],
+   "rigidite_flottante": {
+    "lignes": 12,
+    "colonnes": 18,
+    "plus_petite_valeur_singuliere": 0.047517024827065255,
+    "plus_grande": 2.5576808299887257,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 3.111507638930571e-61,
+    "residu_de_tangence_relatif": 1.7883686570013476e-61,
+    "rang_du_jacobien": 18,
+    "lignes": 18,
+    "colonnes": 24,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.0012970112876841166,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 7.604300602387865e-61,
+    "rang_de_rigidite_du_polyedre": 12,
+    "rang_attendu": 12,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -17.0,
+      -7.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -17.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -7.0
+     ],
+     [
+      -1.0,
+      -7.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -7.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 4
+  },
+  {
+   "V": 8,
+   "liens": 18,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     6
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.2922229967672147e-14,
+    "plus_grand_produit_hors_liens": -2.0557280900008337,
+    "rapport_des_rayons": 63.00081568787904
+   },
+   "calcul2": {
+    "face_exterieure": [
+     3,
+     4,
+     0
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.503932860400394e-14,
+    "plus_grand_produit_hors_liens": -2.0557280900008266,
+    "rapport_des_rayons": 52.15971355660304
+   },
+   "unicite_ecart_relatif_des_produits": 3.7192471324944126e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 8.873810915126454e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 8.37108160567368e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.3063965469270851,
+    "plus_grande": 2.3543058412365756,
+    "rang_flottant": 18,
+    "rang_attendu": 18,
+    "rapidite_du_centrage": 2.953223384297412
+   },
+   "rayon_angulaire_min_max_deg": [
+    11.232071473720154,
+    58.862368935607144
+   ],
+   "rigidite_flottante": {
+    "lignes": 18,
+    "colonnes": 24,
+    "plus_petite_valeur_singuliere": 0.0319593844203342,
+    "plus_grande": 2.84674364237155,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 8.218201227320907e-60,
+    "rang_du_jacobien": 26,
+    "lignes": 26,
+    "colonnes": 32,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.0003204695238536996,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 6.682990721003237e-61,
+    "rang_de_rigidite_du_polyedre": 18,
+    "rang_attendu": 18,
+    "produits_inversifs": [
+     [
+      1.0,
+      -4.23606797749979,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -4.23606797749979
+     ],
+     [
+      -4.23606797749979,
+      1.0,
+      -1.0,
+      -19.94427190999916,
+      -4.23606797749979,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -2.0557280900008412,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -19.94427190999916,
+      -1.0,
+      1.0,
+      -1.0,
+      -9.0,
+      -12.70820393249937,
+      -12.70820393249937
+     ],
+     [
+      -1.0,
+      -4.23606797749979,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -4.23606797749979,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -2.0557280900008412,
+      -9.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -12.70820393249937,
+      -4.23606797749979,
+      -1.0,
+      1.0,
+      -4.23606797749979
+     ],
+     [
+      -4.23606797749979,
+      -1.0,
+      -1.0,
+      -12.70820393249937,
+      -1.0,
+      -1.0,
+      -4.23606797749979,
+      1.0
+     ]
+    ]
+   },
+   "graine": 4
+  },
+  {
+   "V": 12,
+   "liens": 30,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     6
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.1059071582408147e-14,
+    "plus_grand_produit_hors_liens": -1.5653318021944238,
+    "rapport_des_rayons": 159.30771139356477
+   },
+   "calcul2": {
+    "face_exterieure": [
+     8,
+     4,
+     0
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 6.335382295081137e-14,
+    "plus_grand_produit_hors_liens": -1.5653318021943836,
+    "rapport_des_rayons": 71.53551511564774
+   },
+   "unicite_ecart_relatif_des_produits": 1.2939649352006205e-13,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 5.0445101676497344e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.772360450213455e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.12362435228229206,
+    "plus_grande": 2.9251643539521104,
+    "rang_flottant": 30,
+    "rang_attendu": 30,
+    "rapidite_du_centrage": 3.4588174784429926
+   },
+   "rayon_angulaire_min_max_deg": [
+    4.587517079089129,
+    65.47096006129587
+   ],
+   "rigidite_flottante": {
+    "lignes": 30,
+    "colonnes": 36,
+    "plus_petite_valeur_singuliere": 0.01090934398338751,
+    "plus_grande": 3.175087619034347,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 6.9623470150884e-59,
+    "rang_du_jacobien": 42,
+    "lignes": 42,
+    "colonnes": 48,
+    "noyau": 6,
+    "pivot_suivant_relatif": 2.5615573128014182e-05,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 2.8582182408116226e-60,
+    "rang_de_rigidite_du_polyedre": 30,
+    "rang_attendu": 30,
+    "produits_inversifs": [
+     [
+      1.0,
+      -3.2650968200915504,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.5653318021944267,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -3.2650968200915504,
+      1.0,
+      -1.0,
+      -50.87788591019985,
+      -8.438463950042852,
+      -1.0,
+      -1.0,
+      -1.0,
+      -25.3930781100298,
+      -15.088826786449616,
+      -8.438463950042852,
+      -15.088826786449616
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -2.7513802558077827,
+      -1.0,
+      -1.0,
+      -1.0,
+      -7.976126698932181,
+      -6.802832452518621,
+      -5.237009959613544
+     ],
+     [
+      -1.0,
+      -50.87788591019985,
+      -1.0,
+      1.0,
+      -7.0,
+      -43.449570299858166,
+      -33.81749862983365,
+      -20.321714489143908,
+      -1.0,
+      -71.07055058404929,
+      -72.6632298872208,
+      -40.075471264854144
+     ],
+     [
+      -1.0,
+      -8.438463950042852,
+      -1.0,
+      -7.0,
+      1.0,
+      -6.802832452518621,
+      -8.438463950042852,
+      -1.0,
+      -1.0,
+      -5.237009959613544,
+      -7.976126698932181,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -2.7513802558077827,
+      -43.449570299858166,
+      -6.802832452518621,
+      1.0,
+      -1.0,
+      -1.0,
+      -21.374821120380613,
+      -5.237009959613544,
+      -1.0,
+      -7.976126698932181
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -33.81749862983365,
+      -8.438463950042852,
+      -1.0,
+      1.0,
+      -3.2650968200915504,
+      -19.12798128993825,
+      -15.088826786449616,
+      -8.438463950042852,
+      -15.088826786449616
+     ],
+     [
+      -1.5653318021944267,
+      -1.0,
+      -1.0,
+      -20.321714489143908,
+      -1.0,
+      -1.0,
+      -3.2650968200915504,
+      1.0,
+      -8.095525442377527,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -25.3930781100298,
+      -1.0,
+      -1.0,
+      -1.0,
+      -21.374821120380613,
+      -19.12798128993825,
+      -8.095525442377527,
+      1.0,
+      -29.17765357289923,
+      -32.51684584055786,
+      -14.300725672813527
+     ],
+     [
+      -1.0,
+      -15.088826786449616,
+      -7.976126698932181,
+      -71.07055058404929,
+      -5.237009959613544,
+      -5.237009959613544,
+      -15.088826786449616,
+      -1.0,
+      -29.17765357289923,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -8.438463950042852,
+      -6.802832452518621,
+      -72.6632298872208,
+      -7.976126698932181,
+      -1.0,
+      -8.438463950042852,
+      -1.0,
+      -32.51684584055786,
+      -1.0,
+      1.0,
+      -5.237009959613544
+     ],
+     [
+      -1.0,
+      -15.088826786449616,
+      -5.237009959613544,
+      -40.075471264854144,
+      -1.0,
+      -7.976126698932181,
+      -15.088826786449616,
+      -1.0,
+      -14.300725672813527,
+      -1.0,
+      -5.237009959613544,
+      1.0
+     ]
+    ]
+   },
+   "graine": 4
+  },
+  {
+   "V": 20,
+   "liens": 54,
+   "calcul1": {
+    "face_exterieure": [
+     6,
+     13,
+     15
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.141015766530638e-13,
+    "plus_grand_produit_hors_liens": -1.5087822146513408,
+    "rapport_des_rayons": 319.4158559821813
+   },
+   "calcul2": {
+    "face_exterieure": [
+     8,
+     4,
+     0
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 5.45469613647373e-12,
+    "plus_grand_produit_hors_liens": -1.5087822146497272,
+    "rapport_des_rayons": 141.15643681454583
+   },
+   "unicite_ecart_relatif_des_produits": 1.219718770428844e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.3993620430057535e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.2248869413488137e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.08658333562192473,
+    "plus_grande": 3.0589607180455824,
+    "rang_flottant": 54,
+    "rang_attendu": 54,
+    "rapidite_du_centrage": 3.628880277109582
+   },
+   "rayon_angulaire_min_max_deg": [
+    3.215055001785385,
+    59.623540626293504
+   ],
+   "rigidite_flottante": {
+    "lignes": 54,
+    "colonnes": 60,
+    "plus_petite_valeur_singuliere": 0.028108488689018236,
+    "plus_grande": 3.1180369245379485,
+    "noyau": 6
+   },
+   "graine": 4
+  },
+  {
+   "V": 40,
+   "liens": 114,
+   "calcul1": {
+    "face_exterieure": [
+     6,
+     15,
+     32
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 3.3495404592376107e-12,
+    "plus_grand_produit_hors_liens": -1.6825745305775193,
+    "rapport_des_rayons": 661.3394252555552
+   },
+   "calcul2": {
+    "face_exterieure": [
+     23,
+     0,
+     14
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.1414784722956937e-13,
+    "plus_grand_produit_hors_liens": -1.682574530578248,
+    "rapport_des_rayons": 576.0719701247673
+   },
+   "unicite_ecart_relatif_des_produits": 7.1275207958417735e-12,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 4.1412025655800335e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 8.72413252750448e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.09021369399476152,
+    "plus_grande": 3.539860366842332,
+    "rang_flottant": 114,
+    "rang_attendu": 114,
+    "rapidite_du_centrage": 3.8403349921687737
+   },
+   "rayon_angulaire_min_max_deg": [
+    3.105926160906156,
+    60.69783168041021
+   ],
+   "rigidite_flottante": {
+    "lignes": 114,
+    "colonnes": 120,
+    "plus_petite_valeur_singuliere": 0.0058124210339598635,
+    "plus_grande": 3.9900999580670855,
+    "noyau": 6
+   },
+   "graine": 4
+  },
+  {
+   "V": 80,
+   "liens": 234,
+   "calcul1": {
+    "face_exterieure": [
+     15,
+     32,
+     74
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 6.935223572331504e-12,
+    "plus_grand_produit_hors_liens": -1.635024574584509,
+    "rapport_des_rayons": 3880.548878954482
+   },
+   "calcul2": {
+    "face_exterieure": [
+     6,
+     13,
+     65
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 4.555402434667988e-12,
+    "plus_grand_produit_hors_liens": -1.6350245745856429,
+    "rapport_des_rayons": 3208.6769912464333
+   },
+   "unicite_ecart_relatif_des_produits": 1.6134482639079062e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 6.057079020035652e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.1159961843532074e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.02251135066984758,
+    "plus_grande": 4.008167207513236,
+    "rang_flottant": 234,
+    "rang_attendu": 234,
+    "rapidite_du_centrage": 4.312505949397129
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.7874307075189504,
+    59.50421428400036
+   ],
+   "rigidite_flottante": {
+    "lignes": 234,
+    "colonnes": 240,
+    "plus_petite_valeur_singuliere": 0.007022038200298515,
+    "plus_grande": 4.614624443953512,
+    "noyau": 6
+   },
+   "graine": 4
+  },
+  {
+   "V": 150,
+   "liens": 444,
+   "calcul1": {
+    "face_exterieure": [
+     15,
+     32,
+     74
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 8.370093139396108e-12,
+    "plus_grand_produit_hors_liens": -1.4236783245898437,
+    "rapport_des_rayons": 10289.25952587119
+   },
+   "calcul2": {
+    "face_exterieure": [
+     6,
+     13,
+     65
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 5.717481649823724e-12,
+    "plus_grand_produit_hors_liens": -1.4236783246025833,
+    "rapport_des_rayons": 26819.03840451242
+   },
+   "unicite_ecart_relatif_des_produits": 3.3812563861066044e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.033814324433684e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.7390537594747e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.004140121982820907,
+    "plus_grande": 4.389526269371291,
+    "rang_flottant": 444,
+    "rang_attendu": 444,
+    "rapidite_du_centrage": 4.139230763907021
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.14199138853793924,
+    59.27609671626327
+   ],
+   "rigidite_flottante": {
+    "lignes": 444,
+    "colonnes": 450,
+    "plus_petite_valeur_singuliere": 0.0029212611094389376,
+    "plus_grande": 4.712200597307886,
+    "noyau": 6
+   },
+   "graine": 4
+  },
+  {
+   "V": 300,
+   "liens": 894,
+   "calcul1": {
+    "face_exterieure": [
+     32,
+     74,
+     236
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 8.16632325350587e-11,
+    "plus_grand_produit_hors_liens": -1.3298092341392314,
+    "rapport_des_rayons": 67364.64818088948
+   },
+   "calcul2": {
+    "face_exterieure": [
+     234,
+     124,
+     182
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 1.173752595783164e-10,
+    "plus_grand_produit_hors_liens": -1.3298092341393686,
+    "rapport_des_rayons": 281991.3913207367
+   },
+   "unicite_ecart_relatif_des_produits": 3.4299374451760725e-10,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 3.2846330146376673e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 3.071320975323033e-12,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.0016631573757300584,
+    "plus_grande": 4.886301045966746,
+    "rang_flottant": 894,
+    "rang_attendu": 894,
+    "rapidite_du_centrage": 4.735999304461074
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.05663948760236122,
+    55.72137259238593
+   ],
+   "rigidite_flottante": {
+    "lignes": 894,
+    "colonnes": 900,
+    "plus_petite_valeur_singuliere": 0.0007942502884322914,
+    "plus_grande": 5.517343505622753,
+    "noyau": 6
+   },
+   "graine": 4
+  },
+  {
+   "V": 4,
+   "liens": 6,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "calcul2": {
+    "face_exterieure": [
+     1,
+     0,
+     3
+    ],
+    "iterations": 4,
+    "residu_de_tangence_relatif": 3.845925372767127e-16,
+    "plus_grand_produit_hors_liens": null,
+    "rapport_des_rayons": 6.464101615137752
+   },
+   "unicite_ecart_relatif_des_produits": 4.440892098500627e-16,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.439293542825908e-15,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 1.0,
+    "plus_grande": 2.0,
+    "rang_flottant": 6,
+    "rang_attendu": 6,
+    "rapidite_du_centrage": 2.077069624752261
+   },
+   "rayon_angulaire_min_max_deg": [
+    54.73561031724529,
+    54.73561031724552
+   ],
+   "rigidite_flottante": {
+    "lignes": 6,
+    "colonnes": 12,
+    "plus_petite_valeur_singuliere": 0.18145249756497586,
+    "plus_grande": 1.808569204764031,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 0.0,
+    "rang_du_jacobien": 10,
+    "lignes": 10,
+    "colonnes": 16,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.03589838486224541,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 0.0,
+    "rang_de_rigidite_du_polyedre": 6,
+    "rang_attendu": 6,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 5
+  },
+  {
+   "V": 5,
+   "liens": 9,
+   "calcul1": {
+    "face_exterieure": [
+     0,
+     1,
+     2
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 1.4038447716770556e-15,
+    "plus_grand_produit_hors_liens": -6.9999999999999885,
+    "rapport_des_rayons": 15.928203230275495
+   },
+   "calcul2": {
+    "face_exterieure": [
+     1,
+     0,
+     3
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 3.9562898110898795e-15,
+    "plus_grand_produit_hors_liens": -6.999999999999982,
+    "rapport_des_rayons": 15.92820323027548
+   },
+   "unicite_ecart_relatif_des_produits": 9.270362255620059e-15,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.8443366368799425e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 2.2093438190040615e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.6861406616345012,
+    "plus_grande": 2.186140661634508,
+    "rang_flottant": 9,
+    "rang_attendu": 9,
+    "rapidite_du_centrage": 2.382866315490997
+   },
+   "rayon_angulaire_min_max_deg": [
+    29.99999999999969,
+    60.00000000000016
+   ],
+   "rigidite_flottante": {
+    "lignes": 9,
+    "colonnes": 15,
+    "plus_petite_valeur_singuliere": 0.08798768845701498,
+    "plus_grande": 2.1814265435821305,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 3.111507638930571e-61,
+    "residu_de_tangence_relatif": 1.3473223296916064e-61,
+    "rang_du_jacobien": 14,
+    "lignes": 14,
+    "colonnes": 20,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.00579365748503716,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 4.3390946371023976e-61,
+    "rang_de_rigidite_du_polyedre": 9,
+    "rang_attendu": 9,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -7.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -7.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 5
+  },
+  {
+   "V": 6,
+   "liens": 12,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     5
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 9.753691513836443e-15,
+    "plus_grand_produit_hors_liens": -2.9999999999999805,
+    "rapport_des_rayons": 9.898979485566326
+   },
+   "calcul2": {
+    "face_exterieure": [
+     4,
+     3,
+     0
+    ],
+    "iterations": 5,
+    "residu_de_tangence_relatif": 1.1539578692426209e-14,
+    "plus_grand_produit_hors_liens": -2.999999999999976,
+    "rapport_des_rayons": 9.898979485566326
+   },
+   "unicite_ecart_relatif_des_produits": 2.3092638912203256e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 3.7758643188653097e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 6.994405055138486e-15,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.9999999999999968,
+    "plus_grande": 2.0,
+    "rang_flottant": 12,
+    "rang_attendu": 12,
+    "rapidite_du_centrage": 2.551083074300342
+   },
+   "rayon_angulaire_min_max_deg": [
+    44.99999999999992,
+    45.00000000000031
+   ],
+   "rigidite_flottante": {
+    "lignes": 12,
+    "colonnes": 18,
+    "plus_petite_valeur_singuliere": 0.10494284952804214,
+    "plus_grande": 2.2460059113654376,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 9.334522916791713e-61,
+    "residu_de_tangence_relatif": 8.085196950326142e-60,
+    "rang_du_jacobien": 18,
+    "lignes": 18,
+    "colonnes": 24,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.017874894168565574,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 8.557819171321802e-62,
+    "rang_de_rigidite_du_polyedre": 12,
+    "rang_attendu": 12,
+    "produits_inversifs": [
+     [
+      1.0,
+      -3.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -3.0,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -3.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -3.0,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -3.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 5
+  },
+  {
+   "V": 8,
+   "liens": 18,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     5
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.5816484386241689e-15,
+    "plus_grand_produit_hors_liens": -2.456326402664765,
+    "rapport_des_rayons": 21.094754854036697
+   },
+   "calcul2": {
+    "face_exterieure": [
+     3,
+     6,
+     7
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 6.4814988515688324e-15,
+    "plus_grand_produit_hors_liens": -2.456326402664747,
+    "rapport_des_rayons": 32.55131904485006
+   },
+   "unicite_ecart_relatif_des_produits": 1.2267964422107991e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 6.974062565471291e-16
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.1213252548714081e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.7384377673484909,
+    "plus_grande": 2.0482366509750753,
+    "rang_flottant": 18,
+    "rang_attendu": 18,
+    "rapidite_du_centrage": 2.724819767086551
+   },
+   "rayon_angulaire_min_max_deg": [
+    29.28757745828903,
+    47.09069914930271
+   ],
+   "rigidite_flottante": {
+    "lignes": 18,
+    "colonnes": 24,
+    "plus_petite_valeur_singuliere": 0.07468458507288096,
+    "plus_grande": 2.5765590864006485,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 7.778769097326427e-61,
+    "residu_de_tangence_relatif": 5.029435775407761e-60,
+    "rang_du_jacobien": 26,
+    "lignes": 26,
+    "colonnes": 32,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.003679327584712121,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 5.8785832985571e-61,
+    "rang_de_rigidite_du_polyedre": 18,
+    "rang_attendu": 18,
+    "produits_inversifs": [
+     [
+      1.0,
+      -2.456326402664766,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.629192424553504,
+      -1.0
+     ],
+     [
+      -2.456326402664766,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.629192424553504
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -3.629192424553504,
+      -1.0,
+      -1.0,
+      -6.357355625885887,
+      -6.357355625885887
+     ],
+     [
+      -1.0,
+      -1.0,
+      -3.629192424553504,
+      1.0,
+      -1.0,
+      -2.456326402664766,
+      -1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      1.0,
+      -3.629192424553504,
+      -6.357355625885887,
+      -6.357355625885887
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -2.456326402664766,
+      -3.629192424553504,
+      1.0,
+      -1.0,
+      -1.0
+     ],
+     [
+      -3.629192424553504,
+      -1.0,
+      -6.357355625885887,
+      -1.0,
+      -6.357355625885887,
+      -1.0,
+      1.0,
+      -1.0
+     ],
+     [
+      -1.0,
+      -3.629192424553504,
+      -6.357355625885887,
+      -1.0,
+      -6.357355625885887,
+      -1.0,
+      -1.0,
+      1.0
+     ]
+    ]
+   },
+   "graine": 5
+  },
+  {
+   "V": 12,
+   "liens": 30,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     5
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 2.3770877593280674e-14,
+    "plus_grand_produit_hors_liens": -1.907292002983487,
+    "rapport_des_rayons": 45.82200423609745
+   },
+   "calcul2": {
+    "face_exterieure": [
+     6,
+     9,
+     11
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 4.680195150874039e-15,
+    "plus_grand_produit_hors_liens": -1.9072920029834952,
+    "rapport_des_rayons": 160.15421302785734
+   },
+   "unicite_ecart_relatif_des_produits": 5.062616992290966e-14,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.8296531817401178e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 5.3290705182007514e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.34692870632905126,
+    "plus_grande": 2.4619091731713474,
+    "rang_flottant": 30,
+    "rang_attendu": 30,
+    "rapidite_du_centrage": 2.867179940282518
+   },
+   "rayon_angulaire_min_max_deg": [
+    12.325095641964726,
+    54.42741980791277
+   ],
+   "rigidite_flottante": {
+    "lignes": 30,
+    "colonnes": 36,
+    "plus_petite_valeur_singuliere": 0.03362832245916889,
+    "plus_grande": 3.2214037262335338,
+    "noyau": 6
+   },
+   "haute_precision": {
+    "erreur_des_sommes_d_angles": 6.223015277861142e-61,
+    "residu_de_tangence_relatif": 1.958909688765719e-59,
+    "rang_du_jacobien": 42,
+    "lignes": 42,
+    "colonnes": 48,
+    "noyau": 6,
+    "pivot_suivant_relatif": 0.0007978695102606941,
+    "champs_de_lorentz_dans_le_noyau_ecart": 0.0,
+    "rang_des_six_champs": 6,
+    "valeurs_propres_positives": 3,
+    "valeurs_propres_negatives": 1,
+    "cinquieme_sur_quatrieme": 6.744276561183897e-61,
+    "rang_de_rigidite_du_polyedre": 30,
+    "rang_attendu": 30,
+    "produits_inversifs": [
+     [
+      1.0,
+      -1.9072920029834952,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -6.428319756089796,
+      -4.145146282433218,
+      -1.0,
+      -10.488908850338948,
+      -1.0,
+      -12.023943253169467
+     ],
+     [
+      -1.9072920029834952,
+      1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -1.0,
+      -3.2506698661595226,
+      -4.515385968739208,
+      -1.0,
+      -1.0,
+      -3.915705700567025
+     ],
+     [
+      -1.0,
+      -1.0,
+      1.0,
+      -5.136916855253316,
+      -1.0,
+      -1.0,
+      -12.458479909367798,
+      -11.897884728844273,
+      -8.739583876322824,
+      -14.874528893814432,
+      -4.503403161285699,
+      -22.34982705351891
+     ],
+     [
+      -1.0,
+      -1.0,
+      -5.136916855253316,
+      1.0,
+      -4.503403161285699,
+      -2.109726939081965,
+      -1.0,
+      -1.0,
+      -1.0,
+      -5.204538310103754,
+      -1.0,
+      -5.204538310103754
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -4.503403161285699,
+      1.0,
+      -4.503403161285699,
+      -17.33044519191989,
+      -18.11919825009194,
+      -13.157907158010167,
+      -25.988231202467702,
+      -1.0,
+      -37.730978933668915
+     ],
+     [
+      -1.0,
+      -1.0,
+      -1.0,
+      -2.109726939081965,
+      -4.503403161285699,
+      1.0,
+      -2.2548734555354697,
+      -1.0,
+      -1.0,
+      -1.0,
+      -5.136916855253316,
+      -1.0
+     ],
+     [
+      -6.428319756089796,
+      -1.0,
+      -12.458479909367798,
+      -1.0,
+      -17.33044519191989,
+      -2.2548734555354697,
+      1.0,
+      -1.0,
+      -5.661494589699495,
+      -1.0,
+      -10.78910274181906,
+      -1.0
+     ],
+     [
+      -4.145146282433218,
+      -3.2506698661595226,
+      -11.897884728844273,
+      -1.0,
+      -18.11919825009194,
+      -1.0,
+      -1.0,
+      1.0,
+      -1.0,
+      -3.915705700567025,
+      -11.897884728844273,
+      -1.0
+     ],
+     [
+      -1.0,
+      -4.515385968739208,
+      -8.739583876322824,
+      -1.0,
+      -13.157907158010167,
+      -1.0,
+      -5.661494589699495,
+      -1.0,
+      1.0,
+      -11.219178447919194,
+      -8.739583876322824,
+      -8.807833593700497
+     ],
+     [
+      -10.488908850338948,
+      -1.0,
+      -14.874528893814432,
+      -5.204538310103754,
+      -25.988231202467702,
+      -1.0,
+      -1.0,
+      -3.915705700567025,
+      -11.219178447919194,
+      1.0,
+      -20.46788990086202,
+      -1.0
+     ],
+     [
+      -1.0,
+      -1.0,
+      -4.503403161285699,
+      -1.0,
+      -1.0,
+      -5.136916855253316,
+      -10.78910274181906,
+      -11.897884728844273,
+      -8.739583876322824,
+      -20.46788990086202,
+      1.0,
+      -27.943188060566502
+     ],
+     [
+      -12.023943253169467,
+      -3.915705700567025,
+      -22.34982705351891,
+      -5.204538310103754,
+      -37.730978933668915,
+      -1.0,
+      -1.0,
+      -1.0,
+      -8.807833593700497,
+      -1.0,
+      -27.943188060566502,
+      1.0
+     ]
+    ]
+   },
+   "graine": 5
+  },
+  {
+   "V": 20,
+   "liens": 54,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     5
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.1234332119221392e-13,
+    "plus_grand_produit_hors_liens": -1.554629931488338,
+    "rapport_des_rayons": 173.09977924998
+   },
+   "calcul2": {
+    "face_exterieure": [
+     12,
+     14,
+     17
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 9.607539736693601e-14,
+    "plus_grand_produit_hors_liens": -1.5546299314882528,
+    "rapport_des_rayons": 742.2011784779103
+   },
+   "unicite_ecart_relatif_des_produits": 2.535749388244501e-13,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 4.2216137507786614e-15
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 9.370282327836321e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.11124990400981134,
+    "plus_grande": 2.494728943675767,
+    "rang_flottant": 54,
+    "rang_attendu": 54,
+    "rapidite_du_centrage": 3.1034244444074064
+   },
+   "rayon_angulaire_min_max_deg": [
+    4.137641926766517,
+    49.48256327010452
+   ],
+   "rigidite_flottante": {
+    "lignes": 54,
+    "colonnes": 60,
+    "plus_petite_valeur_singuliere": 0.017365202426224684,
+    "plus_grande": 3.4672168911477166,
+    "noyau": 6
+   },
+   "graine": 5
+  },
+  {
+   "V": 40,
+   "liens": 114,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     5
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.79693986969149e-12,
+    "plus_grand_produit_hors_liens": -1.4472849075852339,
+    "rapport_des_rayons": 1092.957755480423
+   },
+   "calcul2": {
+    "face_exterieure": [
+     30,
+     26,
+     24
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 5.1940528651240464e-12,
+    "plus_grand_produit_hors_liens": -1.447284907586754,
+    "rapport_des_rayons": 6435.649646913519
+   },
+   "unicite_ecart_relatif_des_produits": 1.0426270957708528e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.599169465698623e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 8.348877145181177e-14,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.02502869040528003,
+    "plus_grande": 2.6773205941866975,
+    "rang_flottant": 114,
+    "rang_attendu": 114,
+    "rapidite_du_centrage": 3.299538628359862
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.8625740479051117,
+    46.430694873464816
+   ],
+   "rigidite_flottante": {
+    "lignes": 114,
+    "colonnes": 120,
+    "plus_petite_valeur_singuliere": 0.00646406832531815,
+    "plus_grande": 3.9900614260594534,
+    "noyau": 6
+   },
+   "graine": 5
+  },
+  {
+   "V": 80,
+   "liens": 234,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     5
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.4347882121997744e-12,
+    "plus_grand_produit_hors_liens": -1.4080859160980397,
+    "rapport_des_rayons": 3978.9601130170986
+   },
+   "calcul2": {
+    "face_exterieure": [
+     60,
+     28,
+     71
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 3.1389684157003943e-12,
+    "plus_grand_produit_hors_liens": -1.4080859160979355,
+    "rapport_des_rayons": 54198.64240819192
+   },
+   "unicite_ecart_relatif_des_produits": 5.418665516283277e-12,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.165964077378884e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.149080830487037e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.007478931715573399,
+    "plus_grande": 3.362715396132425,
+    "rang_flottant": 234,
+    "rang_attendu": 234,
+    "rapidite_du_centrage": 3.29925777188201
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.2573507058450458,
+    51.45438071252745
+   ],
+   "rigidite_flottante": {
+    "lignes": 234,
+    "colonnes": 240,
+    "plus_petite_valeur_singuliere": 0.0013502676936863773,
+    "plus_grande": 5.084236912102056,
+    "noyau": 6
+   },
+   "graine": 5
+  },
+  {
+   "V": 150,
+   "liens": 444,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     5
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 1.59368646629752e-11,
+    "plus_grand_produit_hors_liens": -1.5333035944871707,
+    "rapport_des_rayons": 11349.255218857466
+   },
+   "calcul2": {
+    "face_exterieure": [
+     60,
+     28,
+     71
+    ],
+    "iterations": 6,
+    "residu_de_tangence_relatif": 1.0453698971261855e-11,
+    "plus_grand_produit_hors_liens": -1.5333035944867617,
+    "rapport_des_rayons": 139223.9792767483
+   },
+   "unicite_ecart_relatif_des_produits": 3.529271319751831e-11,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 1.8411815978457085e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 1.6231460620019789e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.003026603915903922,
+    "plus_grande": 3.857666637549044,
+    "rang_flottant": 444,
+    "rang_attendu": 444,
+    "rapidite_du_centrage": 3.412703217868201
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.10902780251478922,
+    55.640695162423995
+   ],
+   "rigidite_flottante": {
+    "lignes": 444,
+    "colonnes": 450,
+    "plus_petite_valeur_singuliere": 0.0007206748816170491,
+    "plus_grande": 5.0805014377929165,
+    "noyau": 6
+   },
+   "graine": 5
+  },
+  {
+   "V": 300,
+   "liens": 894,
+   "calcul1": {
+    "face_exterieure": [
+     1,
+     2,
+     5
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 2.6592735501547193e-10,
+    "plus_grand_produit_hors_liens": -1.2566406268585026,
+    "rapport_des_rayons": 51425.74429036379
+   },
+   "calcul2": {
+    "face_exterieure": [
+     71,
+     152,
+     28
+    ],
+    "iterations": 7,
+    "residu_de_tangence_relatif": 1.5709780269692987e-10,
+    "plus_grand_produit_hors_liens": -1.2566406268959125,
+    "rapport_des_rayons": 989171.8297529884
+   },
+   "unicite_ecart_relatif_des_produits": 6.021804169782106e-10,
+   "aucun_chevauchement": true,
+   "signature_flottante": {
+    "positives": 3,
+    "negatives": 1,
+    "cinquieme_sur_quatrieme": 2.3869017822357303e-14
+   },
+   "koebe": {
+    "ecart_de_tangence_des_aretes": 4.0101255649460654e-13,
+    "convexe_et_memes_faces": true,
+    "plus_petite_valeur_singuliere": 0.0007496015130604766,
+    "plus_grande": 4.45356622320386,
+    "rang_flottant": 894,
+    "rang_attendu": 894,
+    "rapidite_du_centrage": 3.4590170812347236
+   },
+   "rayon_angulaire_min_max_deg": [
+    0.02586305256891389,
+    56.133700579226655
+   ],
+   "rigidite_flottante": {
+    "lignes": 894,
+    "colonnes": 900,
+    "plus_petite_valeur_singuliere": 0.00015980855350752716,
+    "plus_grande": 5.547506884223327,
+    "noyau": 6
+   },
+   "graine": 5
+  }
+ ],
+ "rang1": [
+  {
+   "V": 3,
+   "residu": 1.3956197194008032e-15,
+   "rang": 6,
+   "colonnes": 9,
+   "noyau": 3,
+   "attendu": 3
+  },
+  {
+   "V": 4,
+   "residu": 2.499015755471322e-15,
+   "rang": 8,
+   "colonnes": 12,
+   "noyau": 4,
+   "attendu": 4
+  },
+  {
+   "V": 5,
+   "residu": 1.4342335270141966e-15,
+   "rang": 10,
+   "colonnes": 15,
+   "noyau": 5,
+   "attendu": 5
+  },
+  {
+   "V": 6,
+   "residu": 1.5768078263526133e-14,
+   "rang": 12,
+   "colonnes": 18,
+   "noyau": 6,
+   "attendu": 6
+  },
+  {
+   "V": 7,
+   "residu": 6.477995604912458e-15,
+   "rang": 14,
+   "colonnes": 21,
+   "noyau": 7,
+   "attendu": 7
+  },
+  {
+   "V": 8,
+   "residu": 3.649557846120674e-14,
+   "rang": 16,
+   "colonnes": 24,
+   "noyau": 8,
+   "attendu": 8
+  },
+  {
+   "V": 9,
+   "residu": 1.2792642242882581e-13,
+   "rang": 18,
+   "colonnes": 27,
+   "noyau": 9,
+   "attendu": 9
+  },
+  {
+   "V": 10,
+   "residu": 8.746346719967225e-15,
+   "rang": 20,
+   "colonnes": 30,
+   "noyau": 10,
+   "attendu": 10
+  },
+  {
+   "V": 11,
+   "residu": 3.3494685817829954e-14,
+   "rang": 22,
+   "colonnes": 33,
+   "noyau": 11,
+   "attendu": 11
+  },
+  {
+   "V": 12,
+   "residu": 9.492676996169594e-15,
+   "rang": 24,
+   "colonnes": 36,
+   "noyau": 12,
+   "attendu": 12
+  }
+ ],
+ "rangs_superieurs": {
+  "3": {
+   "depart": {
+    "constituants": 5,
+    "liens": 10,
+    "compte_juste": 10,
+    "departs": 200,
+    "plus_petit_residu": 3.1401849173675503e-16,
+    "residu_median": 1.3183085098018697e-15,
+    "departs_sous_1e_8": 200,
+    "rang_du_jacobien": 15,
+    "noyau": 10,
+    "noyau_du_groupe": 10,
+    "plus_petit_residu_sans_compter_les_chevauchements": 5.874748045952207e-16
+   },
+   "une_naissance": {
+    "constituants": 6,
+    "liens": 14,
+    "compte_juste": 14,
+    "departs": 200,
+    "plus_petit_residu": 5.087681048627601e-16,
+    "residu_median": 1.4770978917519935,
+    "departs_sous_1e_8": 93,
+    "rang_du_jacobien": 20,
+    "noyau": 10,
+    "noyau_du_groupe": 10,
+    "plus_petit_residu_sans_compter_les_chevauchements": 4.577566798522237e-16
+   },
+   "deux_naissances": {
+    "constituants": 7,
+    "liens": 19,
+    "compte_juste": 18,
+    "departs": 200,
+    "plus_petit_residu": 0.9024208890301605,
+    "residu_median": 1.5069465474491652,
+    "departs_sous_1e_8": 0,
+    "plus_petit_residu_sans_compter_les_chevauchements": 4.577566798522237e-16
+   }
+  },
+  "4": {
+   "depart": {
+    "constituants": 6,
+    "liens": 15,
+    "compte_juste": 15,
+    "departs": 200,
+    "plus_petit_residu": 4.2998752849492583e-16,
+    "residu_median": 1.4239432440682946e-15,
+    "departs_sous_1e_8": 200,
+    "rang_du_jacobien": 21,
+    "noyau": 15,
+    "noyau_du_groupe": 15,
+    "plus_petit_residu_sans_compter_les_chevauchements": 6.661338147750939e-16
+   },
+   "une_naissance": {
+    "constituants": 7,
+    "liens": 20,
+    "compte_juste": 20,
+    "departs": 200,
+    "plus_petit_residu": 6.933340566559918e-16,
+    "residu_median": 1.4725448710088476,
+    "departs_sous_1e_8": 96,
+    "rang_du_jacobien": 27,
+    "noyau": 15,
+    "noyau_du_groupe": 15,
+    "plus_petit_residu_sans_compter_les_chevauchements": 4.1540741810552243e-16
+   },
+   "deux_naissances": {
+    "constituants": 8,
+    "liens": 26,
+    "compte_juste": 25,
+    "departs": 200,
+    "plus_petit_residu": 0.7629049665250827,
+    "residu_median": 1.4770978917519941,
+    "departs_sous_1e_8": 0,
+    "plus_petit_residu_sans_compter_les_chevauchements": 5.087681048627601e-16
+   }
+  },
+  "5": {
+   "depart": {
+    "constituants": 7,
+    "liens": 21,
+    "compte_juste": 21,
+    "departs": 200,
+    "plus_petit_residu": 5.20740757162067e-16,
+    "residu_median": 1.3799835298910817e-15,
+    "departs_sous_1e_8": 200,
+    "rang_du_jacobien": 28,
+    "noyau": 21,
+    "noyau_du_groupe": 21,
+    "plus_petit_residu_sans_compter_les_chevauchements": 7.364386412590295e-16
+   },
+   "une_naissance": {
+    "constituants": 8,
+    "liens": 27,
+    "compte_juste": 27,
+    "departs": 200,
+    "plus_petit_residu": 7.447602459741819e-16,
+    "residu_median": 2.5595167303426283e-15,
+    "departs_sous_1e_8": 113,
+    "rang_du_jacobien": 35,
+    "noyau": 21,
+    "noyau_du_groupe": 21,
+    "plus_petit_residu_sans_compter_les_chevauchements": 4.1540741810552243e-16
+   },
+   "deux_naissances": {
+    "constituants": 9,
+    "liens": 34,
+    "compte_juste": 33,
+    "departs": 200,
+    "plus_petit_residu": 0.6578617239856809,
+    "residu_median": 1.4726993157843085,
+    "departs_sous_1e_8": 0,
+    "plus_petit_residu_sans_compter_les_chevauchements": 6.753223014464259e-16
+   }
+  }
+ },
+ "duree_s": 195.3
+}
