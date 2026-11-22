@@ -1,0 +1,19 @@
+===== A7
+budget rang 1 graine 0 [(2500, 1.0, 0.0), (5000, 1.0, 0.0), (10000, 1.0, 0.0), (20000, 1.0, 0.0)] limite predite 1 0s
+budget rang 1 graine 1 [(2500, 1.0, 0.0), (5000, 1.0, 0.0), (10000, 1.0, 0.0), (20000, 1.0, 0.0)] limite predite 1 0s
+budget rang 2 graine 0 [(2500, 2.998, 2.0), (5000, 2.999, 2.0), (10000, 2.999, 2.0), (20000, 3.0, 2.0)] limite predite 3 0s
+budget rang 2 graine 1 [(2500, 2.998, 2.0), (5000, 2.999, 2.0), (10000, 2.999, 2.0), (20000, 3.0, 2.0)] limite predite 3 0s
+budget rang 3 graine 0 [(2500, 5.927, 4.984), (5000, 5.939, 4.944), (10000, 5.956, 5.02), (20000, 5.971, 5.024)] limite predite 6 1s
+budget rang 3 graine 1 [(2500, 5.922, 4.986), (5000, 5.955, 4.92), (10000, 5.986, 5.036), (20000, 5.992, 5.002)] limite predite 6 1s
+budget rang 4 graine 0 [(1500, 9.631, 8.814), (3000, 9.776, 8.961), (6000, 9.746, 8.903), (12000, 9.886, 8.951)] limite predite 10 1s
+budget rang 4 graine 1 [(1500, 9.822, 9.073), (3000, 9.886, 8.966), (6000, 9.892, 8.99), (12000, 9.92, 9.072)] limite predite 10 1s
+budget rang 5 graine 0 [(375, 13.549, 13.325), (750, 14.179, 13.634), (1500, 14.343, 13.756), (3000, 14.383, 13.745)] limite predite 15 1s
+budget rang 5 graine 1 [(375, 13.664, 13.415), (750, 14.185, 13.735), (1500, 14.611, 13.905), (3000, 14.837, 14.021)] limite predite 15 1s
+budget rang 5 graine 2 [(375, 13.736, 13.547), (750, 13.992, 13.598), (1500, 14.177, 13.647), (3000, 14.521, 13.937)] limite predite 15 1s
+===== A7 termine en 8s
+===== C
+sphere_rang3 graine 0 V 300 E 1747 liens/constituant 5.823 {3: (0, 853, 1.0, True), 4: (0, 557, 1.0, True), 5: (0, 262, 1.0, True), 6: (56, 24, 0.35, True), 7: (325, 0, 0.017, True)}
+sphere_rang3 graine 1 V 300 E 1702 liens/constituant 5.673 {3: (0, 808, 1.0, True), 4: (0, 512, 1.0, True), 5: (0, 217, 0.997, True), 6: (79, 2, 0.013, False), 7: (370, 0, 0.013, True)}
+boule_de_tetraedres graine 0 V 300 E 1668 liens/constituant 5.56 {3: (0, 774, 1.0, True), 4: (2, 480, 0.99, True), 5: (15, 198, 0.773, True), 6: (111, 0, 0.013, True), 7: (404, 0, 0.013, True)}
+boule_de_tetraedres graine 1 V 300 E 1633 liens/constituant 5.443 {3: (0, 739, 1.0, True), 4: (0, 443, 1.0, True), 5: (18, 166, 0.91, True), 6: (146, 0, 0.013, True), 7: (439, 0, 0.013, True)}
+===== C termine en 62s

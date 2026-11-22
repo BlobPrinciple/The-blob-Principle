@@ -1,0 +1,69 @@
+X-23 -- PREDICTION ECRITE AVANT TOUT CALCUL DE RIGIDITE (Claude, modele claude-fable-5-2, 2026-11-22 20:18:34 UTC)
+Demandes de l'auteur prises comme point de depart :
+ - 20 novembre, 07:03:37 UTC, a ChatGPT (orthographe normalisee) : << Tu dois definir chaque regle de ces evolutions et etages pour en comprendre la mecanique et la logique. Je crois que c'est la mecanique du reel. >>
+ - 20 novembre, 06:49:31 UTC : << La 3D est plus facile que les autres mais plus difficile que la 1 ou 2D. >> ; 06:33:16 UTC : << la 3D reste la moins energivore >>.
+ - 12 novembre, 19:29 UTC : << la 3D est le premier niveau qui permet toutes les structures avec un minimum d'energie >> (statut [H], << a tester >>).
+ - 13 novembre, 08:29 UTC : << La solution la plus viable et la moins energivore est toujours privilegiee >>.
+ - corpus, V346 p. 643 (XV.13, statut [I]) : << chaque palier doit se figer (se stabiliser) avant que le suivant ne croisse sur lui >> ; p. 148 et 993 : le tetraedre << nait creux et prend du poids en vieillissant >>.
+ - 22 novembre, a Claude : << a toi de jouer [...] Donne 100 % pour valider la TOE du blob >>.
+Manque nomme le 20 novembre (carnet, section 199) : la regle qui fixe ce qu'un etage doit supporter, sans seuil pose.
+
+NON AVEUGLE, DECLARE : (a) V346 p. 1096-1097 (PARTIE CXIX, section 7) donne deja, a l'etage 3 et sur les positions reelles, N = 400 : 177 a 243 mecanismes et 303 a 369 auto-contraintes
+au point de travail ; mecanismes 600 / 439 / 234 / 177 / 81 pour kappa = 4 / 5 / 6 / 6,6 / 8 ; << seuil isostatique kappa_iso = 2d = 6 >> ; << isostatique 6 =/= 6,6 >> (p. 1250). Le corpus
+n'y balaie pas les etages (d = 3 y est pose par les positions). (b) X-22 (parts par cliques) m'est connu. (c) J'ai calcule avant ce scelle, sans aucune mesure, les seuils theoriques
+du temoin aleatoire (densite du (d+1)-coeur egale a d) : 3,588 ; 5,755 ; 7,843 ; 9,896 pour d = 2, 3, 4, 5. (d) Controle zero-bis fait avant ce scelle : le moteur de l'auteur, importe
+sans modification, redonne son point de travail (triangles par constituant 5,2 et 6,2 ; dispersion des degres 0,83 et 0,95 pour (800, 0) et (800, 1)). Aucune rigidite calculee.
+
+MA LECTURE, DECLAREE (hypotheses d'auditeur, NON paroles de l'auteur) :
+ L1. << Tenir l'etage d >> = etre generiquement rigide en dimension d. C'est une propriete du reseau seul (Gluck 1975, Asimow-Roth 1978) : aucune position n'est posee, on balaie d.
+ L2. << Juste >> = tenir sans lien superflu : zero mecanisme (ca tient) et zero auto-contrainte (rien de gaspille). Je lis ainsi << viable et moins energivore >>. A l'auteur d'adopter ou non.
+ L3. << Coque fermee de rang k >> = sphere simpliciale de dimension k : chaque face de dimension k-1 appartient a exactement deux cellules de dimension k.
+     Rang 1 = polygone ; rang 2 = surface fermee de triangles (la plus petite : la surface du tetraedre, << nait creux >>) ; rang 3 = sphere de tetraedres ; etc. Son etage naturel est k+1.
+ L4. << Mitose de l'arete >> = celle de C-116 : le porteur nait sur un lien, chaque cellule qui porte ce lien se divise en deux.
+ L5. << Poids >> d'un corps rigide a l'etage d = nombre de ses auto-contraintes (liens au-dela du compte juste). Lecture du << prend du poids >> ; le corpus ecrit deja (p. 1097) :
+     << auto-contrainte <-> signature mecanique de la matiere >>.
+
+PARTIE A -- ENONCES QUE JE TIENS POUR DES THEOREMES (mathematiques classiques assemblees : Maxwell 1864, Cauchy-Dehn, Gluck 1975, extensions de Henneberg, Barnette 1973, Kalai 1987).
+Toute violation numerique = erreur de ma demonstration ou de mon programme, a declarer.
+ A1 (emboitement). Un reseau d'au moins d+1 constituants rigide a l'etage d est rigide a l'etage d-1. Zero violation sur tous les reseaux testes.
+ A2 (rang 2, mitose de l'arete). Chaque naissance apporte exactement 3 liens, quel que soit le lien choisi ; la coque reste JUSTE a l'etage 3 a chaque pas :
+     (mecanismes, auto-contraintes) = (0, 0). A l'etage 2 : (0, V-3). A l'etage 4 : (V-4, 0). La mitose de l'arete sur une coque de triangles est la scission de Henneberg de dimension 3.
+ A3 (rang 1). Un polygone gagne 1 lien par naissance : etage 1 : (0, 1) ; etage 2 : (V-3, 0), un mecanisme de plus a chaque naissance : il ne tient pas.
+ A4 (rangs 3 et 4). Une naissance sur un lien entoure de n_e sommets apporte 1 + n_e liens, avec n_e >= k. Rang 3, etage 4 : 0 mecanisme, auto-contraintes = E - 4V + 10
+     = somme des (n_e - 3) sur les naissances ; rang 4, etage 5 : 0 mecanisme, auto-contraintes = E - 5V + 15 = somme des (n_e - 4). Elles croissent sans borne sous mitose uniforme.
+ A5 (naissance dans le volume, 1 -> k+1). La coque reste juste a l'etage k+1 pour TOUT k : aucune selection (c'est le << aucun etage ne domine >> de C-231).
+ A6 (toutes les coques). Toute sphere de rang 2 (enveloppes convexes aleatoires, retournements d'aretes) : (0, 0) a l'etage 3. Spheres de rang 3 aleatoires (enveloppes de points sur S^3) :
+     rigides a l'etage 4 avec E - 4V + 10 > 0 auto-contraintes.
+ A7 (budget). Sous mitose uniforme de l'arete, les liens par constituant tendent vers k(k+1)/2 : 1 ; 3 ; 6 ; 10 pour k = 1, 2, 3, 4 (demontre par Dehn-Sommerville jusqu'a k = 4) ;
+     k = 5 : je predis 15, INCERTAIN (l'equation ne se ferme plus). Au rang 3, le nombre moyen de cellules autour d'un lien tend vers 5.
+ CONSEQUENCE ANNONCEE : l'offre de liens de la mitose de l'arete (k(k+1)/2 par constituant) egale le cout de l'etage (k+1 par constituant) pour k = 2 seulement.
+     Sous mitose eternelle de l'arete, une coque fermee reste juste, pour tout choix de lien, au seul couple (rang 2, etage 3). En dessous elle ne tient pas ; au-dessus elle accumule de la tension.
+
+PARTIE B -- MOTEUR DE L'AUTEUR (blob engine.py, sans modification) : predictions INCERTAINES.
+Protocole fige : build_blob, build_rgg, build_er ; N = 800, graines 0 et 1 (temoin aleatoire : graine 0 ; doublons de liens retires, declare) ; kappa = 4 ; 5 ; 6 ; 6,6 ; 7 ; 8 ; 9 ; 10 ;
+etages d = 1 a 5 ; positions tirees au hasard dans R^d (loi normale) ; pour d = 3, aussi les positions reelles du moteur. Pour chaque cas : mecanismes, auto-contraintes,
+plus grand amas rigide (part des constituants), part des constituants dans un amas rigide d'au moins d+1 constituants (<< fige a l'etage d >>). << Gel global >> = plus grand amas >= 50 %.
+Complement : (1600, 0) au point de travail, etages 2, 3, 4.
+ B1 (temoin aleatoire). Gel global a l'etage 2 pour tout kappa >= 4 ; a l'etage 3 : non a 5, oui a partir de 6 ; a l'etage 4 : non jusqu'a 7, oui a 9 et 10 (8 : incertain) ;
+     a l'etage 5 : non jusqu'a 9 (10 : incertain). L'etage du reseau sans structure suit son budget de liens (environ kappa/2).
+ B2 (terreau, build_rgg). Seuils plus hauts que ceux du temoin aleatoire (liens gaspilles localement). A kappa = 6,6 : gel global a l'etage 2 (confiance 80 %), PAS a l'etage 3 (65 %).
+     Gel a l'etage 3 atteint a kappa = 10 (85 %) ; seuil de l'etage 3 entre 7 et 9,5. A kappa = 4 : pas de gel a l'etage 2 (85 %).
+ B3 (Blob). Au point de travail : aucun gel global a l'etage 3 ; le plus grand amas rigide de l'etage 3 contient entre 3 % et 20 % des constituants (le coeur dense).
+     A l'etage 2 : moins de 50 % (confiance 60 %). Aucun gel global de l'etage 3 pour le Blob entre kappa = 4 et kappa = 8 (75 %).
+     HYPOTHESE EPROUVEE (H-FIGE) : << kappa_0 = 6,6 est le point ou l'etage 3 se fige dans le moteur >>. JE PREDIS QU'ELLE EST FAUSSE, pour le Blob comme pour son terreau.
+     Elle serait soutenue si un gel global de l'etage 3 apparaissait entre kappa = 6 (absent) et kappa = 7 (present).
+ B4. Blob (800, graines 0 et 1), etage 3 : entre 250 et 450 mecanismes ; auto-contraintes = mecanismes + 246 (identite de Maxwell-Calladine). Positions reelles et positions
+     tirees au hasard donnent les memes nombres.
+ B5. Part des constituants du Blob figes a l'etage 3 au point de travail : entre 20 % et 45 % ; jamais inferieure a la part par cliques de X-22 (21,6 % et 17,2 %), par theoreme.
+     La part figee decroit avec l'etage dans tous les cas (consequence de A1).
+ B6 (dictionnaire du poids). Blob, etage 3 : la part d'auto-contrainte portee par chaque constituant suit sa << masse >> au sens du corpus (triangles incidents) :
+     correlation de rangs superieure a 0,8 (confiance 80 %).
+ B7. Les 10 % de constituants les plus charges portent plus de 80 % des auto-contraintes du Blob a l'etage 3 (confiance 70 %).
+
+PARTIE C -- JUSQU'OU TIENT UN TISSU NE PAR MITOSE DE L'ARETE (incertain).
+ C1. Sphere de rang 3 sous mitose uniforme de l'arete, V = 300 : rigide a l'etage 4 (theoreme) ; rigide a l'etage 5 (confiance 60 %) ; PAS rigide a l'etage 6 (80 %).
+ C2. Boule de tetraedres (un tetraedre plein, mitose uniforme de l'arete, V = 300) : rigide a l'etage 3 avec E - 3V + 6 auto-contraintes (theoreme) ; a l'etage 4, plus grand amas
+     rigide >= 50 % avec quelques mecanismes de bord (70 %) ; etage 5 : incertain, je penche pour non.
+
+CE QUE CETTE EPREUVE NE PEUT PAS DONNER, DIT D'AVANCE : aucune loi physique, ni l'espace, ni le temps. La partie A, si elle tient, donnerait un second theoreme conditionnel pour
+<< pourquoi 3 >> (noeud N1), sous les lectures L1 a L4 ; elle ne fermerait aucun des sept verrous. Etat de depart : TOE 0/7.

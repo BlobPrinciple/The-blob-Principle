@@ -1,0 +1,18 @@
+X-23 ter -- BALAYAGE FIN DU SEUIL DE GEL, PREDICTION ECRITE AVANT SON CALCUL (Claude, 2026-11-22 20:34:41 UTC)
+NON AVEUGLE, DECLARE : X-23 bis (grille de pas 0,4) vient de donner, a l'etage 3, un seuil a 50 % de 6,48 ; 6,50 ; 6,48 pour le terreau du moteur a N = 400 ; 800 ; 1600, et de 6,46 ; 6,45
+pour le temoin sans bord a N = 800 ; 1600. MES PREDICTIONS S2, S3 ET S4 DE X-23 bis SONT DONC FAUSSES a ces tailles (je predisais un seuil qui monte avec la taille et un temoin sans bord
+entre 7,3 et 8,1). Les N = 3200 de X-23 bis sont en cours ; je n'en ai vu qu'une ligne (55 % a kappa = 6,6, graine 3).
+PROTOCOLE FIGE : meme programme (x23bis_seuil_de_gel.py, mode << ter >>), arithmetique exacte, etage 3.
+ - terreau du moteur et temoin sans bord : kappa de 6,0 a 7,0 par pas de 0,1 ; N = 800 et 1600 (16 graines), 3200 (8 graines).
+ - Blob (build_blob, sans modification) : etage 3, kappa = 6,8 ; 7,0 ; 7,2 ; 7,4 ; 7,6 ; 7,8 ; 8,0 ; etage 2, kappa = 4,8 ; 5,0 ; 5,2 ; 5,4 ; 5,6 ; 5,8 ; N = 800 et 1600, 8 graines.
+ - si la memoire le permet : temoin sans bord a N = 4800, 4 graines, kappa = 6,2 ; 6,4 ; 6,6 ; 6,8.
+PREDICTIONS :
+ T1. Seuil a 50 % de l'etage 3 : entre 6,40 et 6,58 pour le terreau du moteur aux trois tailles ; entre 6,38 et 6,52 pour le temoin sans bord aux trois tailles.
+ T2. La transition se raidit quand la taille grandit : la pente de la courbe moyenne au seuil est plus forte a N = 3200 qu'a N = 800 (temoin sans bord) (confiance 75 %).
+ T3. Les courbes des trois tailles du temoin sans bord se croisent entre 6,35 et 6,55.
+ T4. Blob, etage 3 : seuil a 50 % entre 7,1 et 7,5 a N = 800 ; a N = 1600 je ne sais pas (le moteur regle sa temperature sur la taille) : je predis un ecart inferieur a 0,3 avec N = 800 (confiance 55 %).
+ T5. Blob, etage 2 : seuil entre 5,2 et 5,6 aux deux tailles.
+ T6. A kappa_0 = 6,6 exactement : terreau au-dessus de 50 % en moyenne aux trois tailles (gele, de peu) ; Blob en dessous de 20 % aux deux tailles (non gele).
+CE QUE CELA ETABLIRAIT, DIT D'AVANCE : que le terreau du moteur a une vraie transition de gel de l'etage 3 vers kappa = 6,5, independante de la taille et des bords, et que la valeur
+canonique kappa_0 = 6,6 du corpus se trouve a environ 2 % au-dessus. Cela ne dirait PAS pourquoi l'auteur est arrive a 6,6 (il y est arrive par la dimension spectrale, V346 p. 630-631),
+ni que le Blob lui-meme y est gele (X-23 B : il ne l'est pas), ni rien sur la nature. TOE 0/7.

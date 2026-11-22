@@ -1,0 +1,12 @@
+X-23 D -- COQUES DE TRIANGLES SOUS LA REGLE U (longueur naturelle commune), EXPLORATOIRE, PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-22 20:38:58 UTC)
+POURQUOI : << juste >> (zero auto-contrainte) est un enonce pour des longueurs quelconques. La regle U de l'auteur (12 novembre) donne a tous les liens LA MEME longueur naturelle :
+cas particulier, que le decompte ne tranche pas. Question : une coque fermee de triangles nee par mitose de l'arete a-t-elle, a l'etage 3, une forme ou TOUS ses liens ont la longueur 1
+(energie de ressorts exactement nulle) ? Les chevauchements ne sont pas interdits ici (reseau de barres), declare.
+PROTOCOLE : coques de rang 2 nees du tetraedre par mitose uniforme de l'arete, V = 5 a 20, 12 coques par taille ; minimisation de la somme des (longueur - 1)^2 dans R^3,
+40 departs aleatoires par coque (moindres carres, scipy) ; << forme trouvee >> si le plus grand ecart de longueur est inferieur a 1e-9.
+Temoins : memes coques dans R^2 (redondantes) et dans R^4 (flottantes) ; spheres de rang 3 (V = 6 a 12) dans R^4.
+PREDICTIONS (confiance faible) :
+ U1. Etage 3 : une forme a liens tous egaux est trouvee pour au moins 80 % des coques jusqu'a V = 12 ; la part baisse quand V grandit (recherche plus difficile, ou formes inexistantes).
+ U2. Etage 4 : forme trouvee pour toutes les coques (plus de liberte).
+ U3. Etage 2 : presque jamais (moins de 20 % des coques ; les exceptions seraient des pliages ou des sommets confondus).
+ U4. Spheres de rang 3 dans R^4 : forme trouvee pour les empilees (justes), rarement pour les autres.

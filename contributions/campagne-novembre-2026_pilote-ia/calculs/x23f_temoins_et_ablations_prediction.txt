@@ -1,0 +1,17 @@
+X-23 F -- TEMOINS ET ABLATIONS DU MOTEUR COMPLET, PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-22 20:44:52 UTC)
+NON AVEUGLE, DECLARE : X-23 E vient de donner, contre ma prediction E2, un moteur complet GELE a l'etage 3 a chaque releve (60 a 71 % des constituants dans un seul amas rigide,
+12 releves sur 12 en comptant l'etat initial) avec 5,6 a 5,9 voisins par constituant, et aucun lien superflu a l'etage 4 (0 auto-contrainte dans 7 releves sur 8).
+Or le seuil connu du reseau aleatoire sans structure est 5,755 voisins (Peled 2026 ; recoupe ici) et celui du terreau 6,45. Avant d'en dire quoi que ce soit, il faut des temoins.
+PROTOCOLE FIGE : etats du moteur complet (charge comme dans c204c.py), graines 1 et 2, a 600, 1000 et 1500 constituants ; pour chacun, etage 3 en arithmetique exacte sur :
+ (a) le reseau du moteur ; (b) TEMOIN ALEATOIRE : meme nombre de constituants et de liens, liens tires au hasard (2 tirages) ; (c) TEMOIN A DEGRES CONSERVES : le reseau du moteur
+ dont on echange les bouts de liens au hasard (10 echanges par lien, 2 tirages), ce qui garde le nombre de liens de chaque constituant et detruit l'organisation ;
+ (d) TERREAU DES MEMES POINTS : les memes positions, les liens les plus courts, en meme nombre.
+ABLATIONS (principe de l'auteur, en tete de son script : << si on coupe une branche la magie ne prend pas >>) : memes graines, 600 constituants, forces completes ; sans << bord >> ;
+sans << grav >> ; sans << weak >> ; sans << em >> ; aucune force (viabilite seule). Etages 2, 3, 4.
+PREDICTIONS :
+ F1. Temoin aleatoire : a 600 et 1000 constituants (5,7 a 5,9 voisins, juste au-dessus ou au niveau du seuil 5,755), plus grand amas tres variable ; a 1500 (5,62 a 5,65 voisins, sous le seuil) :
+     moins de 10 % (confiance 70 %). Le moteur complet tiendrait donc l'etage 3 la ou un reseau tire au hasard avec le meme budget ne le tient pas.
+ F2. Temoin a degres conserves : plus grand amas inferieur a celui du moteur dans au moins 4 etats sur 6 (confiance 55 %).
+ F3. Terreau des memes points : plus grand amas inferieur a 30 % (confiance 60 % ; les points nes par mitose sont groupes, les liens courts se gaspillent dans les paquets).
+ F4. Ablations : sans << bord >>, le gel de l'etage 3 tombe sous 50 % dans les deux graines (confiance 50 %) ; sans em, sans weak : ecart inferieur a 15 points avec le moteur complet (60 %) ;
+     sans grav : je ne sais pas.

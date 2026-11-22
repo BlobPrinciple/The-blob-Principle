@@ -1,0 +1,16 @@
+X-23 E -- L'ETAGE DU MOTEUR COMPLET DE L'AUTEUR (avec mitose) LE LONG DE SA CROISSANCE, PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-22 20:42:41 UTC)
+OBJET : le moteur << blob ablation labo colab.py >> du corpus (points dans l'espace, viabilite, liens ajoutes et retires, mitose pres du parent), deja execute tel quel dans C-204c et X-17.
+Il GRANDIT par mitose, a la difference de blob engine.py dont le nombre de liens est pose par kappa. Question : a quel etage ce moteur se fige-t-il de lui-meme, et son budget de liens
+s'arrete-t-il a un seuil de gel ?
+NON AVEUGLE, DECLARE : C-204c et X-17 donnent 5,6 a 5,9 voisins par constituant a 660, 1037 et 1630 constituants. X-23 bis et ter donnent, pour le terreau, un gel de l'etage 2 vers
+kappa = 4,7 et de l'etage 3 vers 6,45 ; pour le Blob de blob engine.py, 5,3 et 7,1 a 7,2.
+PROTOCOLE FIGE : chargement identique a c204c.py (lignes 1 a 228 du moteur, empreinte verifiee) ; Blob(N0=300, graine, forces=("grav","em","weak","bord")), pas de 0,12 ;
+graines 1 et 2 relevees a l'etat initial puis a 600, 1000 et 1500 constituants (comme X-17) ; graines 3 et 4 a 600. A chaque releve : voisins moyens ; etages 2, 3 et 4 en arithmetique
+exacte (x23_outils.analyse_exacte) : mecanismes, auto-contraintes, plus grand amas rigide, part des constituants figes.
+PREDICTIONS :
+ E1. Etage 2 : plus grand amas rigide >= 50 % a chaque releve apres l'etat initial (confiance 75 %).
+ E2. Etage 3 : plus grand amas rigide < 30 % a chaque releve (confiance 70 %). Ce moteur, laisse libre, reste SOUS le gel de l'etage 3.
+ E3. Mecanismes de l'etage 3 : entre 0,4 et 0,9 par constituant.
+ E4. Etage 4 : plus grand amas rigide < 10 %.
+ Si E1 et E2 tiennent : le moteur complet de l'auteur se place de lui-meme entre le gel de l'etage 2 et celui de l'etage 3, comme le Blob de blob engine.py a son point de travail.
+ Je ne sais pas predire l'etat initial (300 constituants).

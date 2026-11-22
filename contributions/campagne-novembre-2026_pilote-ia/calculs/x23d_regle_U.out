@@ -1,0 +1,17 @@
+rang 2, V = 5 | forme a liens tous egaux trouvee (ecart < 1e-9) : etage 2 : 0 / 12 ; etage 3 : 12 / 12 (dont sans sommets confondus : 12 ) ; etage 4 : 12 / 12
+rang 2, V = 6 | forme a liens tous egaux trouvee (ecart < 1e-9) : etage 2 : 3 / 12 ; etage 3 : 12 / 12 (dont sans sommets confondus : 12 ) ; etage 4 : 12 / 12
+rang 2, V = 7 | forme a liens tous egaux trouvee (ecart < 1e-9) : etage 2 : 0 / 12 ; etage 3 : 12 / 12 (dont sans sommets confondus : 12 ) ; etage 4 : 12 / 12
+rang 2, V = 8 | forme a liens tous egaux trouvee (ecart < 1e-9) : etage 2 : 2 / 12 ; etage 3 : 12 / 12 (dont sans sommets confondus : 9 ) ; etage 4 : 12 / 12
+rang 2, V = 10 | forme a liens tous egaux trouvee (ecart < 1e-9) : etage 2 : 0 / 12 ; etage 3 : 12 / 12 (dont sans sommets confondus : 7 ) ; etage 4 : 12 / 12
+rang 2, V = 12 | forme a liens tous egaux trouvee (ecart < 1e-9) : etage 2 : 1 / 12 ; etage 3 : 12 / 12 (dont sans sommets confondus : 3 ) ; etage 4 : 12 / 12
+rang 2, V = 14 | forme a liens tous egaux trouvee (ecart < 1e-9) : etage 2 : 0 / 12 ; etage 3 : 12 / 12 (dont sans sommets confondus : 3 ) ; etage 4 : 12 / 12
+rang 2, V = 16 | forme a liens tous egaux trouvee (ecart < 1e-9) : etage 2 : 0 / 12 ; etage 3 : 12 / 12 (dont sans sommets confondus : 2 ) ; etage 4 : 12 / 12
+rang 2, V = 20 | forme a liens tous egaux trouvee (ecart < 1e-9) : etage 2 : 0 / 12 ; etage 3 : 12 / 12 (dont sans sommets confondus : 1 ) ; etage 4 : 12 / 12
+rang 3, empilee V = 6 : forme trouvee dans R^4 : 8 / 8 | coques justes (E = 4V - 10) : 8
+rang 3, mitose V = 6 : forme trouvee dans R^4 : 8 / 8 | coques justes (E = 4V - 10) : 8
+rang 3, empilee V = 8 : forme trouvee dans R^4 : 8 / 8 | coques justes (E = 4V - 10) : 8
+rang 3, mitose V = 8 : forme trouvee dans R^4 : 8 / 8 | coques justes (E = 4V - 10) : 5
+rang 3, empilee V = 10 : forme trouvee dans R^4 : 8 / 8 | coques justes (E = 4V - 10) : 8
+rang 3, mitose V = 10 : forme trouvee dans R^4 : 7 / 8 | coques justes (E = 4V - 10) : 1
+rang 3, empilee V = 12 : forme trouvee dans R^4 : 8 / 8 | coques justes (E = 4V - 10) : 8
+rang 3, mitose V = 12 : forme trouvee dans R^4 : 3 / 8 | coques justes (E = 4V - 10) : 0

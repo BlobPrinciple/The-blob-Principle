@@ -1,0 +1,50 @@
+===== mitose
+rang1_uniforme_graine0 violations 0 | fin : V 43 E 43 {'etage1': [0, 1], 'etage2': [40, 0], 'etage3': [80, 0]} 0s
+rang1_uniforme_graine1 violations 0 | fin : V 43 E 43 {'etage1': [0, 1], 'etage2': [40, 0], 'etage3': [80, 0]} 0s
+rang1_uniforme_graine2 violations 0 | fin : V 43 E 43 {'etage1': [0, 1], 'etage2': [40, 0], 'etage3': [80, 0]} 0s
+rang2_uniforme_graine0 violations 0 | fin : V 64 E 186 {'etage1': [0, 123], 'etage2': [0, 61], 'etage3': [0, 0], 'etage4': [60, 0]} 0s
+rang2_uniforme_graine1 violations 0 | fin : V 64 E 186 {'etage1': [0, 123], 'etage2': [0, 61], 'etage3': [0, 0], 'etage4': [60, 0]} 0s
+rang2_uniforme_graine2 violations 0 | fin : V 64 E 186 {'etage1': [0, 123], 'etage2': [0, 61], 'etage3': [0, 0], 'etage4': [60, 0]} 0s
+rang3_uniforme_graine0 violations 0 | fin : V 50 E 261 {'etage1': [0, 212], 'etage2': [0, 164], 'etage3': [0, 117], 'etage4': [0, 71], 'etage5': [1, 27]} 0s
+rang3_uniforme_graine1 violations 0 | fin : V 50 E 269 {'etage1': [0, 220], 'etage2': [0, 172], 'etage3': [0, 125], 'etage4': [0, 79], 'etage5': [4, 38]} 0s
+rang3_uniforme_graine2 violations 0 | fin : V 50 E 261 {'etage1': [0, 212], 'etage2': [0, 164], 'etage3': [0, 117], 'etage4': [0, 71], 'etage5': [0, 26]} 0s
+rang3_entourage_minimal_graine0 violations 0 | fin : V 35 E 130 {'etage1': [0, 96], 'etage2': [0, 63], 'etage3': [0, 31], 'etage4': [0, 0], 'etage5': [30, 0]} 0s
+rang3_entourage_minimal_graine1 violations 0 | fin : V 35 E 130 {'etage1': [0, 96], 'etage2': [0, 63], 'etage3': [0, 31], 'etage4': [0, 0], 'etage5': [30, 0]} 0s
+rang3_entourage_minimal_graine2 violations 0 | fin : V 35 E 130 {'etage1': [0, 96], 'etage2': [0, 63], 'etage3': [0, 31], 'etage4': [0, 0], 'etage5': [30, 0]} 0s
+rang3_entourage_maximal_graine0 violations 0 | fin : V 35 E 355 {'etage1': [0, 321], 'etage2': [0, 288], 'etage3': [0, 256], 'etage4': [0, 225], 'etage5': [0, 195]} 0s
+rang3_entourage_maximal_graine1 violations 0 | fin : V 35 E 355 {'etage1': [0, 321], 'etage2': [0, 288], 'etage3': [0, 256], 'etage4': [0, 225], 'etage5': [0, 195]} 0s
+rang3_entourage_maximal_graine2 violations 0 | fin : V 35 E 355 {'etage1': [0, 321], 'etage2': [0, 288], 'etage3': [0, 256], 'etage4': [0, 225], 'etage5': [0, 195]} 0s
+rang4_uniforme_graine0 violations 0 | fin : V 32 E 204 {'etage1': [0, 173], 'etage2': [0, 143], 'etage3': [0, 114], 'etage4': [0, 86], 'etage5': [0, 59], 'etage6': [0, 33]} 0s
+rang4_uniforme_graine1 violations 0 | fin : V 32 E 224 {'etage1': [0, 193], 'etage2': [0, 163], 'etage3': [0, 134], 'etage4': [0, 106], 'etage5': [0, 79], 'etage6': [0, 53]} 0s
+rang4_uniforme_graine2 violations 0 | fin : V 32 E 204 {'etage1': [0, 173], 'etage2': [0, 143], 'etage3': [0, 114], 'etage4': [0, 86], 'etage5': [0, 59], 'etage6': [2, 35]} 0s
+rang4_entourage_minimal_graine0 violations 0 | fin : V 32 E 145 {'etage1': [0, 114], 'etage2': [0, 84], 'etage3': [0, 55], 'etage4': [0, 27], 'etage5': [0, 0], 'etage6': [26, 0]} 0s
+rang4_entourage_minimal_graine1 violations 0 | fin : V 32 E 145 {'etage1': [0, 114], 'etage2': [0, 84], 'etage3': [0, 55], 'etage4': [0, 27], 'etage5': [0, 0], 'etage6': [26, 0]} 0s
+rang4_entourage_minimal_graine2 violations 0 | fin : V 32 E 145 {'etage1': [0, 114], 'etage2': [0, 84], 'etage3': [0, 55], 'etage4': [0, 27], 'etage5': [0, 0], 'etage6': [26, 0]} 0s
+rang4_entourage_maximal_graine0 violations 0 | fin : V 32 E 370 {'etage1': [0, 339], 'etage2': [0, 309], 'etage3': [0, 280], 'etage4': [0, 252], 'etage5': [0, 225], 'etage6': [0, 199]} 0s
+rang4_entourage_maximal_graine1 violations 0 | fin : V 32 E 370 {'etage1': [0, 339], 'etage2': [0, 309], 'etage3': [0, 280], 'etage4': [0, 252], 'etage5': [0, 225], 'etage6': [0, 199]} 0s
+rang4_entourage_maximal_graine2 violations 0 | fin : V 32 E 315 {'etage1': [0, 284], 'etage2': [0, 254], 'etage3': [0, 225], 'etage4': [0, 197], 'etage5': [0, 170], 'etage6': [0, 144]} 0s
+===== mitose termine en 5s
+===== volume
+naissance en volume, rang 1 graine 0 : juste a chaque pas a l'etage 2 : False | fin {'etage1': [0, 1], 'etage2': [30, 0], 'etage3': [60, 0]}
+naissance en volume, rang 1 graine 1 : juste a chaque pas a l'etage 2 : False | fin {'etage1': [0, 1], 'etage2': [30, 0], 'etage3': [60, 0]}
+naissance en volume, rang 2 graine 0 : juste a chaque pas a l'etage 3 : True | fin {'etage1': [0, 63], 'etage2': [0, 31], 'etage3': [0, 0], 'etage4': [30, 0]}
+naissance en volume, rang 2 graine 1 : juste a chaque pas a l'etage 3 : True | fin {'etage1': [0, 63], 'etage2': [0, 31], 'etage3': [0, 0], 'etage4': [30, 0]}
+naissance en volume, rang 3 graine 0 : juste a chaque pas a l'etage 4 : True | fin {'etage1': [0, 96], 'etage2': [0, 63], 'etage3': [0, 31], 'etage4': [0, 0], 'etage5': [30, 0]}
+naissance en volume, rang 3 graine 1 : juste a chaque pas a l'etage 4 : True | fin {'etage1': [0, 96], 'etage2': [0, 63], 'etage3': [0, 31], 'etage4': [0, 0], 'etage5': [30, 0]}
+naissance en volume, rang 4 graine 0 : juste a chaque pas a l'etage 5 : True | fin {'etage1': [0, 130], 'etage2': [0, 96], 'etage3': [0, 63], 'etage4': [0, 31], 'etage5': [0, 0], 'etage6': [30, 0]}
+naissance en volume, rang 4 graine 1 : juste a chaque pas a l'etage 5 : True | fin {'etage1': [0, 130], 'etage2': [0, 96], 'etage3': [0, 63], 'etage4': [0, 31], 'etage5': [0, 0], 'etage6': [30, 0]}
+===== volume termine en 1s
+===== A6
+enveloppe rang 2, V = 12 E = 30 {2: (0, 9, True), 3: (0, 0, True), 4: (8, 0, True)}
+enveloppe rang 2, V = 30 E = 84 {2: (0, 27, True), 3: (0, 0, True), 4: (26, 0, True)}
+enveloppe rang 2, V = 80 E = 234 {2: (0, 77, True), 3: (0, 0, True), 4: (76, 0, True)}
+enveloppe rang 2, V = 200 E = 594 {2: (0, 197, True), 3: (0, 0, True), 4: (196, 0, True)}
+rang 2, 300 retournements, V = 44 : juste a l'etage 3 a chaque controle : True
+enveloppe rang 3, V = 12 E = 47 attendu etage 4 : (0, 9) {3: (0, 17, True), 4: (0, 9, True), 5: (0, 2, True), 6: (4, 0, True)}
+enveloppe rang 3, V = 30 E = 167 attendu etage 4 : (0, 57) {3: (0, 83, True), 4: (0, 57, True), 5: (0, 32, True), 6: (0, 8, True)}
+enveloppe rang 3, V = 60 E = 373 attendu etage 4 : (0, 143) {3: (0, 199, True), 4: (0, 143, True), 5: (0, 88, True), 6: (0, 34, True)}
+===== A6 termine en 0s
+
+real	0m6.422s
+user	0m6.349s
+sys	0m0.032s

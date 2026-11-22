@@ -478,6 +478,20 @@ Ajout de 12 h UTC. Note C-232 de ChatGPT recalculée : dans un complexe aléatoi
 
 Détail : [carnet du 20 novembre](carnets/2026-11-20_enquete_propre_etages.md). **TOE 0/7.**
 
+## 8 duodecies. Ajout du 22 novembre : X-23, la règle de l'étage
+
+D'abord ce qui est faux. Vingt clauses scellées du pilote sont fausses ce jour, dont les plus lourdes : il annonçait le terreau du moteur non gelé à l'étage 3 à κ = 6,6 (il l'est, de peu), un seuil qui monterait avec la taille (il ne monte pas), le Blob non gelé à l'étage 2 (il l'est à 91–94 %), le moteur complet de l'auteur sous le gel de l'étage 3 (il est au-dessus à chaque relevé). Une faute de méthode : la première lecture, en virgule flottante, donnait des rangs faux de 1 à 3 unités et des amas incohérents ; tout a été refait en arithmétique entière exacte.
+
+L'auteur avait demandé le 20 novembre de « définir chaque règle de ces évolutions et étages », et le 22 de donner toute la puissance disponible. Réponse en deux parties.
+
+**Ce qui se démontre** (mathématiques classiques assemblées, contre-auditées par un agent indépendant). On dit qu'un réseau *tient l'étage d* s'il est génériquement rigide en dimension d : c'est une propriété du réseau seul, aucune dimension n'est posée. Alors : les étages s'emboîtent (tenir d entraîne tenir d − 1) ; chaque étage coûte un lien de plus par constituant ; la mitose de l'arête sur une coque fermée de triangles apporte exactement trois liens par naissance et la garde *juste* à l'étage 3 — aucun mécanisme, aucun lien superflu — quel que soit le lien qui se divise ; un polygone ne tient pas ; une coque de tétraèdres ou au-delà accumule des liens superflus ; sous mitose uniforme le budget tend vers k(k+1)/2 liens par constituant, égal au coût k+1 de l'étage pour k = 2 seulement. C'est un second théorème conditionnel pour « pourquoi 3 », sous des lectures qui sont celles du pilote (tenir = rigidité ; moins énergivore = sans lien superflu ; fermeture = sphère de cellules). Il vaut pour les coques creuses, pas pour un tissu de volumes, qui tient jusqu'à l'étage 5 et dont les liens superflus diminuent quand l'étage monte.
+
+**Ce qui se mesure dans les moteurs de l'auteur** (arithmétique exacte). Le terreau du moteur canonique a une transition de gel de l'étage 3 à κ = 6,45 ± 0,05, la même de 400 à 4 800 constituants, avec ou sans bord ; la valeur canonique κ₀ = 6,6 est 2 % au-dessus. Ce seuil a été recoupé par un second agent sur 32 états, tous identiques. Le corpus avait cherché un seuil à cet endroit sans en trouver (V346 p. 631) et relevé l'écart au seuil de champ moyen, 6 (p. 1250). Échelle complète du terreau : étage 2 à 4,7 ; étage 3 à 6,45 ; étage 4 à 8,2–8,3 ; étage 5 vers 10. Le Blob de `blob engine.py`, lui, est gelé à l'étage 2 à son point de travail et ne gèle à l'étage 3 qu'à 7,1–7,2 : l'étage 3 y est en grains (un cinquième à un quart des constituants). Le moteur complet avec mitose, laissé libre, ramène son budget de 6,6 à 5,6–5,9 voisins et reste gelé à l'étage 3 à chaque relevé, sans rien à l'étage 4 ; ce gel ne dépend d'aucune de ses quatre forces ; un réseau de mêmes degrés aux liens rebattus tient mieux que lui (non recoupé).
+
+Ce que cela ne donne pas : aucune loi physique, ni l'espace, ni le temps. Le seuil dit quel étage correspond à κ₀ ; il ne dit pas pourquoi celui-là, et le pilote n'a aucun lien démontré entre ce gel et la dimension spectrale par laquelle l'auteur était arrivé à 6,6. Dans les moteurs, l'espace à trois dimensions des points reste posé.
+
+Détail : [carnet du 22 novembre](carnets/2026-11-22_X-23_regle_de_l_etage.md). **TOE 0/7.**
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

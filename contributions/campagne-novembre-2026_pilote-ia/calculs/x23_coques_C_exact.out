@@ -1,0 +1,6 @@
+===== C
+sphere_rang3 graine 0 V 300 E 1747 liens/constituant 5.823 {3: (0, 853, 1.0, True), 4: (0, 557, 1.0, True), 5: (0, 262, 1.0, True), 6: (56, 24, 0.353, True), 7: (325, 0, 0.017, True)}
+sphere_rang3 graine 1 V 300 E 1702 liens/constituant 5.673 {3: (0, 808, 1.0, True), 4: (0, 512, 1.0, True), 5: (0, 217, 1.0, True), 6: (77, 0, 0.013, True), 7: (370, 0, 0.013, True)}
+boule_de_tetraedres graine 0 V 300 E 1668 liens/constituant 5.56 {3: (0, 774, 1.0, True), 4: (2, 480, 0.99, True), 5: (15, 198, 0.773, True), 6: (111, 0, 0.013, True), 7: (404, 0, 0.013, True)}
+boule_de_tetraedres graine 1 V 300 E 1633 liens/constituant 5.443 {3: (0, 739, 1.0, True), 4: (0, 443, 1.0, True), 5: (18, 166, 0.92, True), 6: (146, 0, 0.013, True), 7: (439, 0, 0.013, True)}
+===== C termine en 47s
