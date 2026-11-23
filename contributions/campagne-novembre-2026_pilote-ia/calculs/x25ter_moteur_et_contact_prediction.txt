@@ -1,0 +1,31 @@
+X-25 ter -- LE MOTEUR COMPLET DE L'AUTEUR EST-IL UN TISSU DE CONTACT ? QUELLE REGLE LE REND COMPATIBLE ? PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-23 05:44:15 UTC)
+
+ETAT DES CONNAISSANCES AU MOMENT D'ECRIRE. X-25 B est lu : mes predictions B1, B2 et B3 sont FAUSSES. Le moteur complet de l'auteur (quatre forces, kappa = 6,6)
+satisfait les trois conditions necessaires (N1), (N2), (N3) dans ses quatre etats : aucun groupe de six, 100 % des triples tous lies en regle. Le moteur statique
+et le temoin sans viabilite les violent (B4 vraie). X-25 A et X-25 bis sont lus. Rien n'est calcule sur ce qui suit.
+
+QUESTIONS. (a) Quelle regle du moteur complet le rend compatible : la regle qui defait les groupes de quatre ? (b) Cette compatibilite depend-elle de la dimension
+ou vivent les points ? (c) Les conditions (N1) a (N3) sont necessaires, pas suffisantes : peut-on CONSTRUIRE des boules rondes de l'espace a trois dimensions,
+d'interieurs disjoints, dont les contacts soient exactement les liens du moteur ?
+
+ETATS. Ceux de X-24 B, bis et ter, regeneres par les memes programmes (x24_moteur_dimension.py, x24bis_groupe_qui_se_defait.py), graines 1 et 2, releves a 660 et
+1 037 constituants. Conditions de rang 3 : (N1) aucun groupe de six tous lies ; (N2) un triple tous lies a au plus six voisins communs, chacun lie a au plus deux
+des autres ; (N3) pour un lien, chaque voisin commun est lie a au plus six autres voisins communs.
+
+PREDICTIONS
+T1. Regle de l'auteur (les groupes de quatre se defont), quatre forces, kappa = 4,6 et 8,6 : (N1) a (N3) satisfaites dans 8 etats sur 8.
+T2. Regle de l'auteur, points en dimension 2, 4 et 5 (kappa = 6,6) : (N1) a (N3) satisfaites dans 12 etats sur 12. La compatibilite ne depend pas de la dimension
+    des points.
+T3. Sans la regle (taux nul), avec ou sans forces, kappa = 6,6 : (N1) violee (un groupe de six existe) dans 8 etats sur 8.
+T4. Groupes de cinq qui se defont (kappa = 6,6, sans force) : (N1) satisfaite dans au moins 3 etats sur 4 ; (N2) violee dans au moins 3 etats sur 4.
+T5. Groupes de trois qui se defont (kappa = 6,6, sans force) : (N1) a (N3) satisfaites dans 4 etats sur 4.
+T6. Regle de l'auteur sans force (kappa = 6,6) : (N1) a (N3) satisfaites dans 4 etats sur 4.
+T7. Points en dimension 2, conditions du rang 2 (aucun groupe de cinq ; un triple tous lies a au plus deux voisins communs, non lies entre eux) : violees dans au
+    moins 3 etats sur 4.
+T8. CONSTRUCTION. Pour les quatre etats de reference (quatre forces, kappa = 6,6, dimension 3), recherche numerique de boules (centre, rayon) de R^3 telles que :
+    pour chaque lien, |distance - somme des rayons| <= 1e-9 x somme des rayons ; pour chaque paire non liee, distance - somme des rayons >= 1e-6 x somme des rayons ;
+    tous les rayons positifs. Depart : positions du moteur, puis minimisation et polissage (declares dans le programme). Controle separe par les produits inversifs.
+    Je predis qu'une telle construction est trouvee pour au moins 3 etats sur 4. Si aucune n'est trouvee, le resultat est NON CONCLUANT (un echec de l'optimiseur
+    ne refute rien) ; si elle est trouvee, c'est un certificat numerique que le tissu du moteur complet admet la lecture de contact a trois dimensions.
+
+CE QUE CELA NE DONNERA PAS : aucun verrou ferme. Une construction montre que la lecture est POSSIBLE pour le moteur de l'auteur, pas que le moteur la contient.
