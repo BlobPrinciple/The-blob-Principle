@@ -1,0 +1,14 @@
+X-25 quater -- DEUX CONDITIONS NECESSAIRES DE PLUS, ET L'ETAT DE LA CONSTRUCTION. PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-23 06:09:37 UTC)
+
+ETAT DES CONNAISSANCES AU MOMENT D'ECRIRE. X-25 ter, premiere partie, est lue (40 etats : la regle qui defait les groupes de quatre rend le tissu compatible avec
+(N1) a (N3) a un groupe de six pres dans 3 etats, et deux etats ou (N2) tient a 99,76 % ; sans elle, violations massives). La CONSTRUCTION (T8) a echoue par trois
+procedes, dits ici avant toute suite : (1) minimisation en distances depuis les positions du moteur : des rayons s'effondrent (2,9e-5), energie 1,7e-3, un
+chevauchement ; (2) minimisation en produits inversifs, rayons bornes : plus aucun chevauchement mais les liens ne sont pas tenus (energie 1,9e3) ; (3) pose des
+constituants un a un avec retour a zero : echec des la douzieme pose, rayons qui s'effondrent. T8 est donc, a cette heure, NON CONCLUANTE.
+DEUX CONDITIONS NECESSAIRES QUE JE N'AVAIS PAS ECRITES [T, a demontrer dans le carnet] :
+ (N4) un groupe de quatre constituants tous lies a au plus DEUX voisins communs (une cellule a deux cotes) ;
+ (N7) deux constituants lies a et b, et deux de leurs voisins communs x et y : au plus DEUX constituants sont lies a la fois a a, b, x et y
+      (deux disques egaux ont au plus deux voisins communs de meme taille).
+PREDICTION. Sur les quatre etats de reference (moteur complet, quatre forces, kappa = 6,6, graines 1 et 2, 660 et 1 037 constituants) : (N4) et (N7) satisfaites
+dans les quatre etats. Si l'une est violee, la construction est IMPOSSIBLE pour cet etat (theoreme) et ma phrase << le moteur complet satisfait les conditions de
+contact >> devra etre corrigee : il satisfait (N1) a (N3), pas toutes les conditions.
