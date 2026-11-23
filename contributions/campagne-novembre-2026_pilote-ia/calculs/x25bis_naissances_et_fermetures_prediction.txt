@@ -1,0 +1,38 @@
+X-25 bis -- NAISSANCES ET FERMETURES : LE TISSU DE CONTACT DE RANG 3 EST-IL UNE SPHERE TRIANGULEE QUI EVOLUE PAR LES DEUX MOUVEMENTS DU SECTEUR CANONIQUE ?
+PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-23 05:39:47 UTC)
+
+ETAT DES CONNAISSANCES AU MOMENT D'ECRIRE. Connu : la sortie d'essai de x25_cellule.py (rangs 2 a 5, petites profondeurs), qui confirme l'anneau de six au rang 3,
+160 contacts de fermeture a la profondeur 4, aucun chevauchement aux rangs 2 et 3, le chevauchement aux rangs 4 et 5. Le calcul complet de X-25 A et celui de X-25 B
+tournent ; je n'ai pas lu leurs sorties. Rien n'est calcule sur ce qui suit : c'est un raisonnement au crayon.
+UNE FAUTE DE CRAYON DEJA VUE, DITE ICI : la clause A7 de X-25 (<< 5, 10, 30, 90 constituants aux paliers 0 a 3 >>) compte les paliers comme le programme x25_cellule.py
+(profondeur dans la suite des configurations), ou une cellule creee par un contact de fermeture n'enfante qu'un palier plus tard. Sous la regle ecrite dans la
+prediction elle-meme (toute cellule ayant un cote libre enfante a chaque palier), je predis maintenant un autre nombre au palier 3 : 120. Si c'est vrai, A7 est
+vraie pour le programme et fausse pour la regle. Les deux nombres seront donnes.
+
+IDEE. Une configuration = n+2 constituants tous lies. Le tissu grandit en accolant des configurations. Sa surface (les cellules qui ont encore un cote libre) est,
+au rang 3, un assemblage de tetraedres. Accoler une configuration par UNE cellule, avec un constituant nouveau, c'est le mouvement 1 -> 4 (naissance). L'accoler
+par DEUX cellules, sans constituant nouveau, c'est le mouvement 2 -> 3 : un lien de plus, aucun constituant de plus (fermeture d'un anneau de six). Ce sont les
+deux mouvements du secteur canonique B du corpus (armature V347.1 : triangulations, mouvements de Pachner 1 <-> 4 et 2 <-> 3).
+
+PROCEDE (regle a la lettre). A chaque palier : (1) chaque cellule de surface enfante de son cote libre, toutes ensemble ; (2) puis toute configuration dont les
+cinq constituants existent et qui touche la surface par une cellule est accolee, jusqu'a epuisement (fermetures). Mesures a la fin de chaque palier.
+
+PREDICTIONS (rang 3, paliers 0 a 6 ; temoin au rang 2, paliers 0 a 6)
+Q1. Toute configuration est accolee par exactement 1 cellule quand son cinquieme constituant est nouveau, par exactement 2 quand il existe deja. Jamais 3, 4 ou 5.
+    Au rang 2 : toujours 1 ; aucune fermeture.
+Q2. A la fin de chaque palier la surface est une sphere triangulee de dimension 3 : chaque triangle dans exactement deux tetraedres, caracteristique d'Euler nulle,
+    le voisinage de chaque constituant est une sphere (caracteristique 2, connexe). Comptes : constituants 5 + B, liens 10 + 4B + C, tetraedres 5 + 3B + C
+    (B naissances, C fermetures cumulees).
+Q3. A la fin de chaque palier, les contacts sont exactement les liens de la surface (aucun contact hors surface, aucun lien de surface sans contact), et aucun
+    groupe de quatre constituants tous lies n'a ses deux cotes libres.
+Q4. Constituants aux paliers 0 a 6 : 5, 10, 30, 120, 510, 2 220, 9 690. Fermetures par palier : 0, 0, 10, 30, 150, 630, 2 790.
+    (Recurrence au crayon : naissances du palier g+1 = tetraedres de surface au palier g ; un triple cree au palier g se ferme au palier g+2 ;
+    une naissance cree 6 triples, une fermeture 3.)
+Q5. Facteur de croissance par palier tendant vers la racine 4,1055 de x^4 - 4x^3 - 3x^2 + 12x - 6 ; au palier 6 : rapport des constituants 9 690 / 2 220 = 4,365.
+    Rapport fermetures / naissances tendant vers 0,433 ; nombre moyen de tetraedres autour d'un lien de la surface tendant vers 4,647 (au palier 6 : entre 4,60 et
+    4,70). Ce n'est pas le d* = 5,1043 du master : je predis qu'aucune coincidence n'apparait la.
+Q6. Temoin, rang 2 : 4, 8, 20, 56, 164, 488, 1 460 constituants ; surface = sphere triangulee de dimension 2 ; contacts = liens de la surface.
+
+CE QUI REFUTERAIT : une configuration accolee par 3 cellules ou plus ; un triangle de surface dans plus ou moins de deux tetraedres ; un contact qui n'est pas un
+lien de la surface. CE QUE CELA NE DONNERA PAS : aucun verrou ferme. C'est un pont de structure entre la lecture de contact et le secteur canonique du corpus ; il
+ne dit pas que la nature suit cette lecture.
