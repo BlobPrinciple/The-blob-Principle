@@ -1,0 +1,28 @@
+rang 2 | paliers [(0, 4), (1, 8), (2, 20), (3, 56), (4, 164), (5, 488), (6, 1460), (7, 4376), (8, 13124)] | contacts 39366 dont fermeture 0 | chevauchements 0 | produit max -1 | anneaux {'16': 12, '18': 6}
+   anneau : [(2, '-7'), (3, '-17'), (4, '-31'), (5, '-49'), (6, '-71'), (7, '-97'), (8, '-127')]
+   murs : {'duale_duale': '-1', 'duale_et_son_occupant_au_carre': '4', 'duale_et_constituant_de_sa_cellule': '0', 'constituant_constituant': '-1', 'cosh_tau_au_carre': '4', 'cosh_tau': 2.0, 'tau': 1.3169578969248166, 'angle_entre_duales_en_degres': 0.0, 'tours_pour_fermer': None}
+rang 3 | paliers [(0, 5), (1, 10), (2, 30), (3, 90), (4, 300), (5, 990), (6, 3330), (7, 11160)] | contacts 51030 dont fermeture 6400 | chevauchements 0 | produit max -1 | anneaux {'6': 40}
+   anneau : [(2, '-5'), (3, '-7'), (4, '-5'), (5, '-1'), (6, '1'), (7, '-1'), (8, '-5')]
+   murs : {'duale_duale': '-1/2', 'duale_et_son_occupant_au_carre': '3', 'duale_et_constituant_de_sa_cellule': '0', 'constituant_constituant': '-1', 'cosh_tau_au_carre': '3', 'cosh_tau': 1.7320508075688772, 'tau': 1.1462158347805889, 'angle_entre_duales_en_degres': 60.00000000000001, 'tours_pour_fermer': 5.999999999999999}
+rang 4 | paliers [(0, 6), (1, 12), (2, 42), (3, 192), (4, 942)] | contacts 4695 dont fermeture 0 | chevauchements 7815 | produit max 79/81 | anneaux {'8': 60, '10': 15}
+   anneau : [(2, '-13/3'), (3, '-41/9'), (4, '-37/27'), (5, '79/81'), (6, '-157/243'), (7, '-2969/729'), (8, '-10357/2187')]
+   premier chevauchement : [(1, 6, 0, 0, None), (2, 45, 0, 0, None), (3, 380, 0, 0, None), (4, 3450, 75, 0, '79/81')]
+   murs : {'duale_duale': '-1/3', 'duale_et_son_occupant_au_carre': '8/3', 'duale_et_constituant_de_sa_cellule': '0', 'constituant_constituant': '-1', 'cosh_tau_au_carre': '8/3', 'cosh_tau': 1.632993161855452, 'tau': 1.0729483047346626, 'angle_entre_duales_en_degres': 70.52877936550931, 'tours_pour_fermer': 5.10429931211954}
+rang 5 | paliers [(0, 7), (1, 14), (2, 56), (3, 308), (4, 1820)] | contacts 10899 dont fermeture 0 | chevauchements 75012 | produit max 59/64 | anneaux {'8': 105, '10': 21}
+   anneau : [(2, '-4'), (3, '-7/2'), (4, '-1/4'), (5, '7/8'), (6, '-29/16'), (7, '-137/32'), (8, '-181/64')]
+   premier chevauchement : [(1, 7, 0, 0, None), (2, 63, 0, 0, None), (3, 644, 84, 0, '-1/4')]
+   murs : {'duale_duale': '-1/4', 'duale_et_son_occupant_au_carre': '5/2', 'duale_et_constituant_de_sa_cellule': '0', 'constituant_constituant': '-1', 'cosh_tau_au_carre': '5/2', 'cosh_tau': 1.5811388300841898, 'tau': 1.0317185344477804, 'angle_entre_duales_en_degres': 75.52248781407008, 'tours_pour_fermer': 4.766792122715677}
+rang 6 | paliers [(0, 8), (1, 16), (2, 72), (3, 464)] | contacts 3220 dont fermeture 0 | chevauchements 9268 | produit max 15527/15625 | anneaux {'6': 168, '8': 28}
+   anneau : [(2, '-19/5'), (3, '-73/25'), (4, '29/125'), (5, '383/625'), (6, '-7459/3125'), (7, '-61993/15625'), (8, '-125011/78125')]
+   premier chevauchement : [(1, 8, 0, 0, None), (2, 84, 0, 0, None), (3, 1008, 112, 0, '29/125')]
+   murs : {'duale_duale': '-1/5', 'duale_et_son_occupant_au_carre': '12/5', 'duale_et_constituant_de_sa_cellule': '0', 'constituant_constituant': '-1', 'cosh_tau_au_carre': '12/5', 'cosh_tau': 1.5491933384829668, 'tau': 1.0051837456787631, 'angle_entre_duales_en_degres': 78.46304096718453, 'tours_pour_fermer': 4.588147433013235}
+rang 7 | paliers [(0, 9), (1, 18), (2, 90), (3, 666)] | contacts 5292 dont fermeture 0 | chevauchements 18396 | produit max 631/729 | anneaux {'6': 252, '8': 36}
+   anneau : [(2, '-11/3'), (3, '-23/9'), (4, '13/27'), (5, '31/81'), (6, '-653/243'), (7, '-2633/729'), (8, '-1859/2187')]
+   premier chevauchement : [(1, 9, 0, 0, None), (2, 108, 0, 0, None), (3, 1488, 144, 0, '13/27')]
+   murs : {'duale_duale': '-1/6', 'duale_et_son_occupant_au_carre': '7/3', 'duale_et_constituant_de_sa_cellule': '0', 'constituant_constituant': '-1', 'cosh_tau_au_carre': '7/3', 'cosh_tau': 1.5275252316519468, 'tau': 0.9866469610448342, 'angle_entre_duales_en_degres': 80.40593177313954, 'tours_pour_fermer': 4.477281614193815}
+rang 8 | paliers [(0, 10), (1, 20), (2, 110), (3, 920)] | contacts 8235 dont fermeture 0 | chevauchements 46755 | produit max 109457/117649 | anneaux {'6': 360, '8': 45}
+   anneau : [(2, '-25/7'), (3, '-113/49'), (4, '215/343'), (5, '479/2401'), (6, '-47993/16807'), (7, '-388369/117649'), (8, '-307465/823543')]
+   premier chevauchement : [(1, 10, 0, 0, None), (2, 135, 0, 0, None), (3, 2100, 180, 0, '215/343')]
+   murs : {'duale_duale': '-1/7', 'duale_et_son_occupant_au_carre': '16/7', 'duale_et_constituant_de_sa_cellule': '0', 'constituant_constituant': '-1', 'cosh_tau_au_carre': '16/7', 'cosh_tau': 1.5118578920369088, 'tau': 0.9729550745276565, 'angle_entre_duales_en_degres': 81.78678929826181, 'tours_pour_fermer': 4.401688867955732}
+exposant : {"borne": 128, "constituants": 37071, "comptage": [{"courbure_max": 8, "constituants": 44}, {"courbure_max": 16, "constituants": 212}, {"courbure_max": 32, "constituants": 1214}, {"courbure_max": 64, "constituants": 6662}, {"courbure_max": 128, "constituants": 37070}], "pentes_successives": [2.2684888359259014, 2.517632251692483, 2.4561869324186705, 2.4762248560321654], "exposant_ajuste_de_32_a_la_borne": 2.4662058942254155, "valeur_de_la_litterature": 2.473946}
+duree 182.7 s

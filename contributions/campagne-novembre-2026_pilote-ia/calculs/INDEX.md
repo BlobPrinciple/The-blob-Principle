@@ -1091,3 +1091,40 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-24 ter (à κ = 8,6, ablation d'une force à la fois : H-BORD réfutée, c'est sans « grav » que l'étage 4 gèle ; non recoupé) | `x24ter_quelle_force.json` | 31 295 |
 | X-24 ter (à κ = 8,6, ablation d'une force à la fois : H-BORD réfutée, c'est sans « grav » que l'étage 4 gèle ; non recoupé) | `x24ter_quelle_force.out` | 26 320 |
 | X-24 ter (à κ = 8,6, ablation d'une force à la fois : H-BORD réfutée, c'est sans « grav » que l'étage 4 gèle ; non recoupé) | `x24ter_quelle_force_prediction.txt` | 2 230 |
+| X-25 (naissance dans la cellule sous la lecture de contact : rien ne se chevauche aux rangs 2 et 3, anneau de six au rang 3, chevauchement dès le rang 4 ; calcul exact ; contre-audité) | `x25_cellule.json` | 32 131 |
+| X-25 (naissance dans la cellule sous la lecture de contact : rien ne se chevauche aux rangs 2 et 3, anneau de six au rang 3, chevauchement dès le rang 4 ; calcul exact ; contre-audité) | `x25_cellule.out` | 5 309 |
+| X-25 (naissance dans la cellule sous la lecture de contact : rien ne se chevauche aux rangs 2 et 3, anneau de six au rang 3, chevauchement dès le rang 4 ; calcul exact ; contre-audité) | `x25_cellule.py` | 14 313 |
+| X-25 B (conditions nécessaires du contact de rang 3 sur les moteurs de l’auteur : le moteur complet les tient, le moteur statique non ; non recoupé) | `x25_moteurs_contact.json` | 10 101 |
+| X-25 B (conditions nécessaires du contact de rang 3 sur les moteurs de l’auteur : le moteur complet les tient, le moteur statique non ; non recoupé) | `x25_moteurs_contact.out` | 8 302 |
+| X-25 B (conditions nécessaires du contact de rang 3 sur les moteurs de l’auteur : le moteur complet les tient, le moteur statique non ; non recoupé) | `x25_moteurs_contact.py` | 6 311 |
+| X-25 (naissance dans la cellule sous la lecture de contact : rien ne se chevauche aux rangs 2 et 3, anneau de six au rang 3, chevauchement dès le rang 4 ; calcul exact ; contre-audité) | `x25_naissance_dans_la_cellule_prediction.txt` | 6 274 |
+| X-25, rejeu de contrôle (80 programmes à sortie conservée ; 61 rejoués, une divergence sur deux champs de X-23) | `x25_rejeu.json` | 15 884 |
+| X-25, rejeu de contrôle (80 programmes à sortie conservée ; 61 rejoués, une divergence sur deux champs de X-23) | `x25_rejeu.py` | 2 726 |
+| X-25, scan des masters (seize masters, comparaison phrase par phrase, rangement par verrou ; programmes et bilan) | `x25_scan_0_extraction.sh` | 1 388 |
+| X-25, scan des masters (seize masters, comparaison phrase par phrase, rangement par verrou ; programmes et bilan) | `x25_scan_1_blocs.py` | 2 268 |
+| X-25, scan des masters (seize masters, comparaison phrase par phrase, rangement par verrou ; programmes et bilan) | `x25_scan_2_phrases.py` | 2 356 |
+| X-25, scan des masters (seize masters, comparaison phrase par phrase, rangement par verrou ; programmes et bilan) | `x25_scan_3_verrous.py` | 3 175 |
+| X-25, scan des masters (seize masters, comparaison phrase par phrase, rangement par verrou ; programmes et bilan) | `x25_scan_des_masters.json` | 48 456 |
+| X-25 bis (surface du tissu de contact de rang 3 : sphère triangulée, mouvements 1 → 4 et 2 → 3 seulement, paliers 0 à 6 ; contre-audité) | `x25bis_naissances_et_fermetures.json` | 10 482 |
+| X-25 bis (surface du tissu de contact de rang 3 : sphère triangulée, mouvements 1 → 4 et 2 → 3 seulement, paliers 0 à 6 ; contre-audité) | `x25bis_naissances_et_fermetures.out` | 7 974 |
+| X-25 bis (surface du tissu de contact de rang 3 : sphère triangulée, mouvements 1 → 4 et 2 → 3 seulement, paliers 0 à 6 ; contre-audité) | `x25bis_naissances_et_fermetures.py` | 8 855 |
+| X-25 bis (surface du tissu de contact de rang 3 : sphère triangulée, mouvements 1 → 4 et 2 → 3 seulement, paliers 0 à 6 ; contre-audité) | `x25bis_naissances_et_fermetures_prediction.txt` | 4 283 |
+| X-25 quater (deux conditions nécessaires de plus ; une violation dans un état de référence sur quatre ; non recoupé) | `x25quater_cellule_a_deux_cotes.json` | 4 077 |
+| X-25 quater (deux conditions nécessaires de plus ; une violation dans un état de référence sur quatre ; non recoupé) | `x25quater_cellule_a_deux_cotes.out` | 3 691 |
+| X-25 quater (deux conditions nécessaires de plus ; une violation dans un état de référence sur quatre ; non recoupé) | `x25quater_cellule_a_deux_cotes.py` | 3 254 |
+| X-25 quater (deux conditions nécessaires de plus ; une violation dans un état de référence sur quatre ; non recoupé) | `x25quater_cellule_a_deux_cotes_prediction.txt` | 1 751 |
+| X-25 quinquies (la mitose du moteur complet est une mitose du constituant avec héritage ; comptage des naissances ; non recoupé) | `x25quinquies_quelle_naissance.json` | 3 246 |
+| X-25 quinquies (la mitose du moteur complet est une mitose du constituant avec héritage ; comptage des naissances ; non recoupé) | `x25quinquies_quelle_naissance.out` | 2 808 |
+| X-25 quinquies (la mitose du moteur complet est une mitose du constituant avec héritage ; comptage des naissances ; non recoupé) | `x25quinquies_quelle_naissance.py` | 3 470 |
+| X-25 quinquies (la mitose du moteur complet est une mitose du constituant avec héritage ; comptage des naissances ; non recoupé) | `x25quinquies_quelle_naissance_prediction.txt` | 2 127 |
+| X-25 ter (construction d’un tissu de contact à partir des liens du moteur : trois procédés, non concluant) | `x25ter_construction.out` | 2 251 |
+| X-25 ter (construction d’un tissu de contact à partir des liens du moteur : trois procédés, non concluant) | `x25ter_construction.py` | 8 033 |
+| X-25 ter (construction d’un tissu de contact à partir des liens du moteur : trois procédés, non concluant) | `x25ter_construction_essai2.py` | 2 968 |
+| X-25 ter (construction d’un tissu de contact à partir des liens du moteur : trois procédés, non concluant) | `x25ter_construction_essai3.py` | 4 234 |
+| X-25 ter (quelle règle du moteur complet le rend compatible : celle qui défait les groupes de quatre ; 40 états ; non recoupé) | `x25ter_moteur_et_contact_prediction.txt` | 3 395 |
+| X-25 ter (quelle règle du moteur complet le rend compatible : celle qui défait les groupes de quatre ; 40 états ; non recoupé) | `x25ter_variantes.json` | 54 661 |
+| X-25 ter (quelle règle du moteur complet le rend compatible : celle qui défait les groupes de quatre ; 40 états ; non recoupé) | `x25ter_variantes.out` | 12 841 |
+| X-25 ter (quelle règle du moteur complet le rend compatible : celle qui défait les groupes de quatre ; 40 états ; non recoupé) | `x25ter_variantes.py` | 4 820 |
+| X-25 bis (surface du tissu de contact de rang 3 : sphère triangulée, mouvements 1 → 4 et 2 → 3 seulement, palier 7 ajouté après coup, surface seule) | `x25bis_palier_7.json` | 489 |
+| X-25 bis (surface du tissu de contact de rang 3 : sphère triangulée, mouvements 1 → 4 et 2 → 3 seulement, palier 7 ajouté après coup, surface seule) | `x25bis_palier_7.py` | 1 095 |
+| X-25, contre-audit indépendant (rapport versé tel quel : aucun écart numérique, une preuve fautive, un compte et trois formulations à corriger) | `x25_contre_audit_rapport.md` | 5 028 |

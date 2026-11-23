@@ -1,0 +1,121 @@
+{
+ "etats": [
+  {
+   "graine": 1,
+   "constituants": 660,
+   "empreinte_des_liens": "3b85f7c1f30035fd642c152e6bfd73f082bfc9c9cec8f4dfd7440ab631823ee3",
+   "empreinte_de_X24_retrouvee": true,
+   "naissances": 360,
+   "par_nombre_de_constituants_lies": {
+    "1": 15,
+    "2": 16,
+    "3": 40,
+    "4": 51,
+    "5": 51,
+    "6": 187
+   },
+   "groupes_complets_par_taille": {
+    "1": 15,
+    "2": 16,
+    "3": 32,
+    "4": 16,
+    "5": 7,
+    "6": 12
+   },
+   "part_a_cinq_ou_six": 0.6611111111111111,
+   "part_dans_un_groupe_complet_d_au_moins_trois": 0.18611111111111112,
+   "part_dans_un_groupe_complet_de_quatre": 0.044444444444444446,
+   "part_avec_le_parent": 0.9888888888888889,
+   "liens_moyens_par_naissance": 4.855555555555555,
+   "part_des_paires_liees_parmi_les_constituants_lies": 0.7255789193505456
+  },
+  {
+   "graine": 1,
+   "constituants": 1037,
+   "empreinte_des_liens": "c0e1a4275f32ff9d5ea851c938a2db91c314a134430c2eed9ac8173670e33b3c",
+   "empreinte_de_X24_retrouvee": true,
+   "naissances": 737,
+   "par_nombre_de_constituants_lies": {
+    "1": 34,
+    "2": 43,
+    "3": 87,
+    "4": 109,
+    "5": 111,
+    "6": 353
+   },
+   "groupes_complets_par_taille": {
+    "1": 34,
+    "2": 43,
+    "3": 70,
+    "4": 34,
+    "5": 12,
+    "6": 14
+   },
+   "part_a_cinq_ou_six": 0.6295793758480326,
+   "part_dans_un_groupe_complet_d_au_moins_trois": 0.17639077340569878,
+   "part_dans_un_groupe_complet_de_quatre": 0.04613297150610583,
+   "part_avec_le_parent": 0.9810040705563093,
+   "liens_moyens_par_naissance": 4.735413839891452,
+   "part_des_paires_liees_parmi_les_constituants_lies": 0.7119380687219883
+  },
+  {
+   "graine": 2,
+   "constituants": 660,
+   "empreinte_des_liens": "c7f34aa111a149dc14c8e6ec308ef51237e1c7a710b11f099b8f143add7039eb",
+   "empreinte_de_X24_retrouvee": true,
+   "naissances": 360,
+   "par_nombre_de_constituants_lies": {
+    "1": 9,
+    "2": 15,
+    "3": 52,
+    "4": 57,
+    "5": 63,
+    "6": 164
+   },
+   "groupes_complets_par_taille": {
+    "1": 9,
+    "2": 15,
+    "3": 45,
+    "4": 17,
+    "5": 10,
+    "6": 7
+   },
+   "part_a_cinq_ou_six": 0.6305555555555555,
+   "part_dans_un_groupe_complet_d_au_moins_trois": 0.21944444444444444,
+   "part_dans_un_groupe_complet_de_quatre": 0.04722222222222222,
+   "part_avec_le_parent": 0.9833333333333333,
+   "liens_moyens_par_naissance": 4.783333333333333,
+   "part_des_paires_liees_parmi_les_constituants_lies": 0.7446572300860395
+  },
+  {
+   "graine": 2,
+   "constituants": 1037,
+   "empreinte_des_liens": "3b663cb72881cbcfc334bb993856cfeabdd5163591164438bd6e4b6d74d9080f",
+   "empreinte_de_X24_retrouvee": true,
+   "naissances": 737,
+   "par_nombre_de_constituants_lies": {
+    "1": 30,
+    "2": 49,
+    "3": 107,
+    "4": 124,
+    "5": 116,
+    "6": 311
+   },
+   "groupes_complets_par_taille": {
+    "1": 30,
+    "2": 49,
+    "3": 91,
+    "4": 35,
+    "5": 15,
+    "6": 11
+   },
+   "part_a_cinq_ou_six": 0.5793758480325645,
+   "part_dans_un_groupe_complet_d_au_moins_trois": 0.2062415196743555,
+   "part_dans_un_groupe_complet_de_quatre": 0.04748982360922659,
+   "part_avec_le_parent": 0.9823609226594301,
+   "liens_moyens_par_naissance": 4.601085481682497,
+   "part_des_paires_liees_parmi_les_constituants_lies": 0.7297881539126675
+  }
+ ],
+ "duree_s": 43.4
+}

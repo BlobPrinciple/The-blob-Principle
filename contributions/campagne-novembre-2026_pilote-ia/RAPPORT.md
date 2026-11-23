@@ -508,6 +508,26 @@ Ce que cela ne donne pas : aucune loi physique. Deux nombres restent posés dans
 
 Détail : [carnet X-24](carnets/2026-11-22_X-24_contact_lorentz_moteur.md). **TOE 0/7.**
 
+## 8 quaterdecies. Ajout du 23 novembre : X-25, scan de tous les masters, vérification de l'acquis, et la naissance dans la cellule lue comme un contact
+
+**Aucun verrou ne bouge : TOE 0/7.** Carnet : [`carnets/2026-11-23_X-25_scan_des_masters_et_naissance_dans_la_cellule.md`](carnets/2026-11-23_X-25_scan_des_masters_et_naissance_dans_la_cellule.md), sections 236 à 250. Cinq prédictions scellées, déposées sur la branche avant leur calcul.
+
+**Ce qui est faux, d'abord.** Quatorze clauses de prédiction fausses, dont trois dans le sens favorable à la cosmogonie : je prédisais que le moteur complet de l'auteur violerait les conditions de contact, il les respecte presque partout. La construction de boules rondes dont les contacts seraient exactement les liens du moteur a échoué par trois procédés ; pour un des quatre états de référence elle est impossible par théorème.
+
+**Scan des masters** (seize masters, 16 704 pages, 43,2 millions de caractères, par programme, puis lecture ciblée). Le V346 porte 100 % des phrases des jalons V311 à V319 et 0 % du Master propre du 7 juillet. La prédiction phare du master (P1, parité de la corrélation à quatre points) n'est ni dérivée ni confirmée : le Master propre l'avait déclarée non dérivable du moteur le 5 juillet, l'audit du V319 y avait relevé une rupture de chaîne, X-21 a ramené son estimateur à une part de chevauchements, et trois analyses du premier jeu de données de DESI concluent à un signal compatible avec zéro. Le levier que le corpus s'était donné le 7 juillet (une prédiction de parité paire, l'asymétrie S₃ des comptages) est absent du V346 ; la piste est rouverte, non traitée.
+
+**Vérification de l'acquis.** Registre des 1 999 empreintes : aucun écart. 80 programmes ont une sortie conservée du même nom ; 61 ont été rejoués : 60 sont reproduits, un seul diverge, sur deux champs de corrélation de rangs de X-23 qui ne sont pas reproductibles au chiffre près (le verdict qu'ils portaient tient) ; 8 dépassent trois minutes et 11 demandent un argument, non rejoués. Les 44 états du moteur complet de X-24 sont retrouvés à l'empreinte.
+
+**X-25 [T, théorèmes connus appliqués à la lecture de contact].** Lectures posées : un lien est un contact, un constituant est rond, la naissance se fait dans la cellule (mouvement 1 → 4 du secteur canonique). Alors : au rang 2, rien ne se chevauche et rien ne se ferme ; au rang 3, rien ne se chevauche jamais (résultat de Boyd) et tout anneau autour de trois constituants liés se ferme à six exactement, et le tissu y crée des liens qu'aucune naissance n'a posés ; au rang 4, la quatrième naissance d'un anneau recouvre un constituant (produit exact 79/81), parce qu'il faudrait 5,1043 places — le d★ du master ; aux rangs 5 à 8, la troisième. Calcul exact : 62 millions de paires au rang 3, aucun chevauchement, 6 400 contacts hors naissance.
+
+**X-25 bis [CERT jusqu'au palier 6].** La surface du tissu de rang 3 est une sphère triangulée qui évolue par deux mouvements seulement : 1 → 4 (une naissance, 7 285 fois) et 2 → 3 (une fermeture d'anneau, 3 250 fois, un lien de plus sans constituant de plus ; 2 290 de ces liens ne sont posés par aucune naissance). Ce sont les deux mouvements du secteur canonique du corpus ; le second cesse d'être posé.
+
+**Lecture lorentzienne [T, connu].** L'ensemble des boules rondes d'un espace de rang n se lit comme un espace de de Sitter de dimension n + 1, soit 3 + 1 au rang 3 ; tout lien y est de genre lumière, et deux constituants qui ne se chevauchent pas n'y sont jamais de genre espace (les réciproques sont fausses). C'est une cinématique apportée par la rondeur posée, valable à tout rang, non une dynamique.
+
+**Contre-audit indépendant.** Aucun écart numérique. Une preuve fautive (elle n'excluait pas l'emboîtement), un compte à ramener de 3 250 à 2 290, trois mots de trop : corrigés au carnet, section 247 ; son rapport est versé tel quel.
+
+**Moteurs de l'auteur [M].** Le moteur complet de référence satisfait quatre des cinq conditions nécessaires du contact de rang 3 dans ses quatre états, la cinquième dans trois ; sans la règle qui défait les groupes de quatre, ou dans le moteur statique, elles sont violées massivement (jusqu'à 56 980 groupes de six). Cela tient en dimension 2, 4 et 5 des points. La mitose du moteur est une mitose du constituant avec héritage (le nouveau-né est lié à son parent dans 98 à 99 % des cas et reçoit 4,6 à 4,9 liens) : la parole de l'auteur du 12 novembre, ni la mitose de l'arête de X-24 ni la naissance dans la cellule de X-25 (4,4 à 4,8 % des naissances seulement).
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

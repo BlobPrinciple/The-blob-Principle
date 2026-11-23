@@ -1,0 +1,724 @@
+{
+ "note": "X-25 : rejeu de controle des programmes de la campagne qui ont une sortie conservee du meme nom (x25_rejeu.py, delai 180 s, sans argument). 'complement' : les six programmes que la premiere passe n'avait pas pu charger (cache de compilation partage, faute de l'outil), rejoues un par un ; la passe rejeu6 partageait encore le cache (un seul charge), la passe rejeu5 utilise un cache neuf par programme. x23_moteur_etages.py : 40 lignes, toutes identiques hors durees SAUF deux champs de correlation de rangs (ecart median 0,01, maximal 0,21 sur 64 valeurs) : chiffres non reproductibles au chiffre pres.",
+ "premiere_passe": [
+  {
+   "programme": "bp_r1_eq1_im1_contre_audit.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 15.5,
+   "note": "",
+   "octets_reference": 3585
+  },
+  {
+   "programme": "bpl1d_c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 75.3,
+   "note": "",
+   "octets_reference": 6804
+  },
+  {
+   "programme": "bps1c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 10.4,
+   "note": "",
+   "octets_reference": 11920
+  },
+  {
+   "programme": "bps2c_bis.py",
+   "verdict": "DELAI",
+   "duree_s": 180.0,
+   "note": "",
+   "octets_reference": 918
+  },
+  {
+   "programme": "c116.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.5,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 6989
+  },
+  {
+   "programme": "c116c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 135.6,
+   "note": "",
+   "octets_reference": 111
+  },
+  {
+   "programme": "c142c.py",
+   "verdict": "PROCHE",
+   "duree_s": 120.8,
+   "note": "ecart relatif maximal 0.0e+00",
+   "octets_reference": 12243
+  },
+  {
+   "programme": "c144.py",
+   "verdict": "DELAI",
+   "duree_s": 180.0,
+   "note": "",
+   "octets_reference": 18872
+  },
+  {
+   "programme": "c145b.py",
+   "verdict": "DELAI",
+   "duree_s": 180.0,
+   "note": "",
+   "octets_reference": 425113
+  },
+  {
+   "programme": "c145c.py",
+   "verdict": "DELAI",
+   "duree_s": 180.0,
+   "note": "",
+   "octets_reference": 686348
+  },
+  {
+   "programme": "c145c_tolerance.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 7.8,
+   "note": "",
+   "octets_reference": 1906
+  },
+  {
+   "programme": "c147c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 5.0,
+   "note": "",
+   "octets_reference": 4170
+  },
+  {
+   "programme": "c148c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 1.6,
+   "note": "",
+   "octets_reference": 7064
+  },
+  {
+   "programme": "c149c_quater.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.8,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 1391
+  },
+  {
+   "programme": "c154c_kasner.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 1.6,
+   "note": "",
+   "octets_reference": 126
+  },
+  {
+   "programme": "c156c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 10.6,
+   "note": "",
+   "octets_reference": 6436
+  },
+  {
+   "programme": "c158c_kkt.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 11.1,
+   "note": "",
+   "octets_reference": 1627
+  },
+  {
+   "programme": "c165c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 117.2,
+   "note": "",
+   "octets_reference": 5722
+  },
+  {
+   "programme": "c171r_c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 3.5,
+   "note": "",
+   "octets_reference": 3139
+  },
+  {
+   "programme": "c172c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 25.6,
+   "note": "",
+   "octets_reference": 18805
+  },
+  {
+   "programme": "c180c.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.4,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 4185
+  },
+  {
+   "programme": "c182c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 4.9,
+   "note": "",
+   "octets_reference": 2185
+  },
+  {
+   "programme": "c184c.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.3,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 2117
+  },
+  {
+   "programme": "c208c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.1,
+   "note": "",
+   "octets_reference": 1460
+  },
+  {
+   "programme": "c214c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.9,
+   "note": "",
+   "octets_reference": 3333
+  },
+  {
+   "programme": "c216c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.1,
+   "note": "",
+   "octets_reference": 538
+  },
+  {
+   "programme": "c223c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.2,
+   "note": "",
+   "octets_reference": 1960
+  },
+  {
+   "programme": "c231c_complement.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 6.0,
+   "note": "",
+   "octets_reference": 1063
+  },
+  {
+   "programme": "c235c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 2.3,
+   "note": "",
+   "octets_reference": 2638
+  },
+  {
+   "programme": "x10_cube_spectral.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.1,
+   "note": "",
+   "octets_reference": 285
+  },
+  {
+   "programme": "x13_deux_moteurs.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 18.0,
+   "note": "",
+   "octets_reference": 4269
+  },
+  {
+   "programme": "x20_cellules_et_calcification.py",
+   "verdict": "ERREUR",
+   "duree_s": 1.2,
+   "note": "ModuleNotFoundError: No module named '<dynamic>'",
+   "octets_reference": 2300
+  },
+  {
+   "programme": "x22_jusqu_ou_montent_les_configurations.py",
+   "verdict": "ERREUR",
+   "duree_s": 1.1,
+   "note": "ModuleNotFoundError: No module named '<dynamic>'",
+   "octets_reference": 7793
+  },
+  {
+   "programme": "x23_moteur_etages.py",
+   "verdict": "ERREUR",
+   "duree_s": 1.5,
+   "note": "ModuleNotFoundError: No module named '<dynamic>'",
+   "octets_reference": 88112
+  },
+  {
+   "programme": "x23d_regle_U.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 179.1,
+   "note": "",
+   "octets_reference": 2142
+  },
+  {
+   "programme": "x23f_temoins_et_ablations.py",
+   "verdict": "DELAI",
+   "duree_s": 180.0,
+   "note": "",
+   "octets_reference": 20756
+  },
+  {
+   "programme": "x24_moteur_dimension.py",
+   "verdict": "ERREUR",
+   "duree_s": 1.0,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 33917
+  },
+  {
+   "programme": "x24quater_localite_d_une_naissance.py",
+   "verdict": "PROCHE",
+   "duree_s": 2.8,
+   "note": "ecart relatif maximal 0.0e+00",
+   "octets_reference": 10921
+  },
+  {
+   "programme": "x5_contacts.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.9,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 2892
+  },
+  {
+   "programme": "x8_distincts.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 14.2,
+   "note": "",
+   "octets_reference": 605
+  },
+  {
+   "programme": "bpl1c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 3.6,
+   "note": "",
+   "octets_reference": 3462
+  },
+  {
+   "programme": "bpl1e_c.py",
+   "verdict": "DIFFERENT",
+   "duree_s": 81.2,
+   "note": "nombre de lignes 37 contre 4",
+   "octets_reference": 1771
+  },
+  {
+   "programme": "bps2c.py",
+   "verdict": "DELAI",
+   "duree_s": 180.0,
+   "note": "",
+   "octets_reference": 11710
+  },
+  {
+   "programme": "c114.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.3,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 7090
+  },
+  {
+   "programme": "c116b.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 84.1,
+   "note": "",
+   "octets_reference": 334
+  },
+  {
+   "programme": "c142b_audit.py",
+   "verdict": "PROCHE",
+   "duree_s": 117.3,
+   "note": "ecart relatif maximal 0.0e+00",
+   "octets_reference": 32900
+  },
+  {
+   "programme": "c143.py",
+   "verdict": "DELAI",
+   "duree_s": 180.0,
+   "note": "",
+   "octets_reference": 18649
+  },
+  {
+   "programme": "c145.py",
+   "verdict": "DELAI",
+   "duree_s": 180.0,
+   "note": "",
+   "octets_reference": 58542
+  },
+  {
+   "programme": "c145b_orientation.py",
+   "verdict": "DELAI",
+   "duree_s": 180.1,
+   "note": "",
+   "octets_reference": 924
+  },
+  {
+   "programme": "c145c_ensemble.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 35.2,
+   "note": "",
+   "octets_reference": 8250
+  },
+  {
+   "programme": "c146_contre_audit.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 1.9,
+   "note": "",
+   "octets_reference": 7979
+  },
+  {
+   "programme": "c147c_bis.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 11.6,
+   "note": "",
+   "octets_reference": 7986
+  },
+  {
+   "programme": "c149c_bis.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 136.0,
+   "note": "",
+   "octets_reference": 18553
+  },
+  {
+   "programme": "c154c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 2.6,
+   "note": "",
+   "octets_reference": 3244
+  },
+  {
+   "programme": "c155c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.2,
+   "note": "",
+   "octets_reference": 1396
+  },
+  {
+   "programme": "c157c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 4.8,
+   "note": "",
+   "octets_reference": 2596
+  },
+  {
+   "programme": "c160c_kkt.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 22.5,
+   "note": "",
+   "octets_reference": 3565
+  },
+  {
+   "programme": "c171c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 17.0,
+   "note": "",
+   "octets_reference": 7962
+  },
+  {
+   "programme": "c172ab_c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 5.7,
+   "note": "",
+   "octets_reference": 3032
+  },
+  {
+   "programme": "c176c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 9.8,
+   "note": "",
+   "octets_reference": 2080
+  },
+  {
+   "programme": "c181c.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.6,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 4518
+  },
+  {
+   "programme": "c183c.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.1,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 5581
+  },
+  {
+   "programme": "c185c.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.4,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 1738
+  },
+  {
+   "programme": "c211c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.2,
+   "note": "",
+   "octets_reference": 659
+  },
+  {
+   "programme": "c215c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.0,
+   "note": "",
+   "octets_reference": 796
+  },
+  {
+   "programme": "c220c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.3,
+   "note": "",
+   "octets_reference": 3840
+  },
+  {
+   "programme": "c231c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 30.3,
+   "note": "",
+   "octets_reference": 7593
+  },
+  {
+   "programme": "c232c.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 24.8,
+   "note": "",
+   "octets_reference": 2659
+  },
+  {
+   "programme": "releve14_controles.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 2.9,
+   "note": "",
+   "octets_reference": 5645
+  },
+  {
+   "programme": "x12_bis_pool.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 28.9,
+   "note": "",
+   "octets_reference": 3390
+  },
+  {
+   "programme": "x19_clarification22.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.9,
+   "note": "ModuleNotFoundError: No module named '<dynamic>'",
+   "octets_reference": 4318
+  },
+  {
+   "programme": "x21_orientation_et_recouvrement.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.8,
+   "note": "ModuleNotFoundError: No module named '<dynamic>'",
+   "octets_reference": 2187
+  },
+  {
+   "programme": "x23_coques.py",
+   "verdict": "DIFFERENT",
+   "duree_s": 78.5,
+   "note": "nombre de lignes 65 contre 50",
+   "octets_reference": 6172
+  },
+  {
+   "programme": "x23bis_seuil_de_gel.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.9,
+   "note": "ModuleNotFoundError: No module named '<dynamic>'",
+   "octets_reference": 113838
+  },
+  {
+   "programme": "x23e_moteur_complet.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 83.7,
+   "note": "",
+   "octets_reference": 10402
+  },
+  {
+   "programme": "x24_contacts.py",
+   "verdict": "DELAI",
+   "duree_s": 180.1,
+   "note": "",
+   "octets_reference": 16103
+  },
+  {
+   "programme": "x24bis_groupe_qui_se_defait.py",
+   "verdict": "ERREUR",
+   "duree_s": 0.5,
+   "note": "IndexError: list index out of range",
+   "octets_reference": 60170
+  },
+  {
+   "programme": "x4_couronnes.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 0.8,
+   "note": "",
+   "octets_reference": 1500
+  },
+  {
+   "programme": "x6_bouts.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 98.4,
+   "note": "",
+   "octets_reference": 1514
+  },
+  {
+   "programme": "x9_controles_phys.py",
+   "verdict": "IDENTIQUE",
+   "duree_s": 1.8,
+   "note": "",
+   "octets_reference": 1295
+  }
+ ],
+ "complement": [
+  {
+   "programme": "x19_clarification22.py",
+   "code": 0,
+   "duree_s": 4,
+   "lignes_conservees": 6,
+   "identiques": 6,
+   "identiques_hors_durees": 6,
+   "lignes_rejouees": 6,
+   "erreur": "",
+   "passe": "rejeu6"
+  },
+  {
+   "programme": "x20_cellules_et_calcification.py",
+   "code": 1,
+   "duree_s": 2,
+   "lignes_conservees": 3,
+   "identiques": 0,
+   "identiques_hors_durees": 0,
+   "lignes_rejouees": 1,
+   "erreur": "ModuleNotFoundError: No module named '<dynamic>'",
+   "passe": "rejeu6"
+  },
+  {
+   "programme": "x21_orientation_et_recouvrement.py",
+   "code": 1,
+   "duree_s": 0,
+   "lignes_conservees": 6,
+   "identiques": 0,
+   "identiques_hors_durees": 0,
+   "lignes_rejouees": 1,
+   "erreur": "ModuleNotFoundError: No module named '<dynamic>'",
+   "passe": "rejeu6"
+  },
+  {
+   "programme": "x22_jusqu_ou_montent_les_configurations.py",
+   "code": 1,
+   "duree_s": 0,
+   "lignes_conservees": 8,
+   "identiques": 0,
+   "identiques_hors_durees": 0,
+   "lignes_rejouees": 1,
+   "erreur": "ModuleNotFoundError: No module named '<dynamic>'",
+   "passe": "rejeu6"
+  },
+  {
+   "programme": "x23_moteur_etages.py",
+   "code": 1,
+   "duree_s": 2,
+   "lignes_conservees": 40,
+   "identiques": 0,
+   "identiques_hors_durees": 0,
+   "lignes_rejouees": 1,
+   "erreur": "ModuleNotFoundError: No module named '<dynamic>'",
+   "passe": "rejeu6"
+  },
+  {
+   "programme": "x23bis_seuil_de_gel.py",
+   "code": 1,
+   "duree_s": 1,
+   "lignes_conservees": 632,
+   "identiques": 0,
+   "identiques_hors_durees": 0,
+   "lignes_rejouees": 1,
+   "erreur": "ModuleNotFoundError: No module named '<dynamic>'",
+   "passe": "rejeu6"
+  },
+  {
+   "programme": "x20_cellules_et_calcification.py",
+   "code": 0,
+   "duree_s": 6,
+   "lignes_conservees": 3,
+   "identiques": 3,
+   "identiques_hors_durees": 3,
+   "lignes_rejouees": 3,
+   "erreur": "",
+   "passe": "rejeu5"
+  },
+  {
+   "programme": "x21_orientation_et_recouvrement.py",
+   "code": 0,
+   "duree_s": 31,
+   "lignes_conservees": 6,
+   "identiques": 6,
+   "identiques_hors_durees": 6,
+   "lignes_rejouees": 6,
+   "erreur": "",
+   "passe": "rejeu5"
+  },
+  {
+   "programme": "x22_jusqu_ou_montent_les_configurations.py",
+   "code": 0,
+   "duree_s": 4,
+   "lignes_conservees": 8,
+   "identiques": 8,
+   "identiques_hors_durees": 8,
+   "lignes_rejouees": 8,
+   "erreur": "",
+   "passe": "rejeu5"
+  },
+  {
+   "programme": "x23_moteur_etages.py",
+   "code": 0,
+   "duree_s": 262,
+   "lignes_conservees": 40,
+   "identiques": 0,
+   "identiques_hors_durees": 8,
+   "lignes_rejouees": 40,
+   "erreur": "",
+   "passe": "rejeu5"
+  },
+  {
+   "programme": "x23bis_seuil_de_gel.py",
+   "code": 0,
+   "duree_s": 283,
+   "lignes_conservees": 632,
+   "identiques": 371,
+   "identiques_hors_durees": 632,
+   "lignes_rejouees": 632,
+   "erreur": "",
+   "passe": "rejeu5"
+  }
+ ],
+ "x23_moteur_etages": {
+  "champs_instables": [
+   "correlation_de_rangs_poids_liberte",
+   "correlation_de_rangs_avec_la_masse_du_corpus"
+  ],
+  "valeurs_comparees": 64,
+  "ecart_absolu_median": 0.01,
+  "ecart_absolu_maximal": 0.206,
+  "part_au_dela_de_0_05": 0.22,
+  "autres_ecarts": "arrondis de 1e-14 au plus"
+ },
+ "x24_contacts_delai_long": {
+  "programme": "x24_contacts.py",
+  "duree_s": 318,
+  "lignes_conservees": 80,
+  "identiques": 79,
+  "identiques_hors_durees": 80,
+  "note": "rejoue a part avec un delai de 585 s (la premiere passe l'avait arrete a 180 s)"
+ },
+ "x23f_temoins_et_ablations_delai_long": {
+  "programme": "x23f_temoins_et_ablations.py",
+  "duree_s": 133,
+  "lignes_conservees": 18,
+  "identiques": 18,
+  "identiques_hors_durees": 18,
+  "note": "rejoue a part, seul sur la machine"
+ },
+ "bps2c_delai_long": {
+  "programme": "bps2c.py",
+  "duree_s": 560,
+  "termine": false,
+  "lignes_conservees": 14,
+  "lignes_rejouees": 12,
+  "identiques_une_fois_ote_le_champ_ajoute_depuis": 12,
+  "note": "la sortie conservee est plus ancienne que le programme : champ 'erreur_deux_K4' ajoute depuis"
+ }
+}

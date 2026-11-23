@@ -1,0 +1,2655 @@
+{
+ "note": "X-25 : bilan du scan des masters. Sources = tous les PDF et DOCX de corpus/, livres/ et docs/. Les seize masters et leur ordre sont dans x25_scan_1_blocs.py (table ORDRE).",
+ "sources": [
+  {
+   "identifiant": "S001",
+   "pages": "1918",
+   "caracteres": 4130087,
+   "sha256_debut": "e815a2896495026b",
+   "chemin": "corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V346_complet.pdf"
+  },
+  {
+   "identifiant": "S002",
+   "pages": "29",
+   "caracteres": 114629,
+   "sha256_debut": "9fba7d69d2d778ad",
+   "chemin": "corpus/00_master_courant/BLOB_PRINCIPLE_MASTER_V347_1_ARMATURE_CANONIQUE.pdf"
+  },
+  {
+   "identifiant": "S003",
+   "pages": "33",
+   "caracteres": 106295,
+   "sha256_debut": "372b022315aa19db",
+   "chemin": "corpus/00_master_courant/EN/armature_V347-1_EN.pdf"
+  },
+  {
+   "identifiant": "S004",
+   "pages": "7",
+   "caracteres": 15350,
+   "sha256_debut": "4a7937491bd7625a",
+   "chemin": "corpus/00_master_courant/V345_section.pdf"
+  },
+  {
+   "identifiant": "S005",
+   "pages": "1529",
+   "caracteres": 3238166,
+   "sha256_debut": "0b243fa22ece5063",
+   "chemin": "corpus/01_masters_jalons/master_V311_complet.pdf"
+  },
+  {
+   "identifiant": "S006",
+   "pages": "1560",
+   "caracteres": 3287014,
+   "sha256_debut": "5442668db25391af",
+   "chemin": "corpus/01_masters_jalons/master_V315_complet.pdf"
+  },
+  {
+   "identifiant": "S007",
+   "pages": "1585",
+   "caracteres": 3361298,
+   "sha256_debut": "27599df9d2c74aa7",
+   "chemin": "corpus/01_masters_jalons/master_V316_complet.pdf"
+  },
+  {
+   "identifiant": "S008",
+   "pages": "1599",
+   "caracteres": 3412599,
+   "sha256_debut": "e751465a04d6d84a",
+   "chemin": "corpus/01_masters_jalons/master_V319_complet.pdf"
+  },
+  {
+   "identifiant": "S009",
+   "pages": "5442",
+   "caracteres": 14269782,
+   "sha256_debut": "205dfef8e4dd5f93",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_CORPUS_MAITRE_UNIQUE_100_PERCENT_AVEC_SOURCES_2026-08-03.pdf"
+  },
+  {
+   "identifiant": "S010",
+   "pages": "docx",
+   "caracteres": 53992,
+   "sha256_debut": "5f41bf48c7e290ed",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_TOE_Candidate_beta1_attaque_7_portes.docx"
+  },
+  {
+   "identifiant": "S011",
+   "pages": "8",
+   "caracteres": 18525,
+   "sha256_debut": "be7a6172d4864fd9",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_TOE_D1_4_OBS_SCALE_calibration_U19.pdf"
+  },
+  {
+   "identifiant": "S012",
+   "pages": "14",
+   "caracteres": 28456,
+   "sha256_debut": "94f85d518870ddac",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_TOE_D1_FESHBACH_ATLAS_certificat_entree.pdf"
+  },
+  {
+   "identifiant": "S013",
+   "pages": "docx",
+   "caracteres": 57026,
+   "sha256_debut": "4ddb073b5df95103",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/BLOB_TOE_V317_RIGOR_renforcement_mathematique.docx"
+  },
+  {
+   "identifiant": "S014",
+   "pages": "2",
+   "caracteres": 6589,
+   "sha256_debut": "f45087c0aaa9599a",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D110 CLOCK 2.pdf"
+  },
+  {
+   "identifiant": "S015",
+   "pages": "2",
+   "caracteres": 6589,
+   "sha256_debut": "f45087c0aaa9599a",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D110 CLOCK.pdf"
+  },
+  {
+   "identifiant": "S016",
+   "pages": "4",
+   "caracteres": 14150,
+   "sha256_debut": "166b7c03dd930add",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D12 U19.pdf"
+  },
+  {
+   "identifiant": "S017",
+   "pages": "3",
+   "caracteres": 9984,
+   "sha256_debut": "35aa77e11726b6bd",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D15 GEO0.pdf"
+  },
+  {
+   "identifiant": "S018",
+   "pages": "3",
+   "caracteres": 8631,
+   "sha256_debut": "bd572064a311fcf4",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D16 GEO0F.pdf"
+  },
+  {
+   "identifiant": "S019",
+   "pages": "2",
+   "caracteres": 7212,
+   "sha256_debut": "672855c9d0d98edb",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D18 TRI0.pdf"
+  },
+  {
+   "identifiant": "S020",
+   "pages": "2",
+   "caracteres": 5811,
+   "sha256_debut": "e4a0d69e2451603f",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D20 G0FIX.pdf"
+  },
+  {
+   "identifiant": "S021",
+   "pages": "2",
+   "caracteres": 7084,
+   "sha256_debut": "98529a23547b2138",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D22 A.pdf"
+  },
+  {
+   "identifiant": "S022",
+   "pages": "2",
+   "caracteres": 5653,
+   "sha256_debut": "b23e4038ea3253d9",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/D25.pdf"
+  },
+  {
+   "identifiant": "S023",
+   "pages": "docx",
+   "caracteres": 14299,
+   "sha256_debut": "fe05c145cb73ff3d",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_GEN-WELLPOSED_exist_selfadjoint_v1.docx"
+  },
+  {
+   "identifiant": "S024",
+   "pages": "docx",
+   "caracteres": 16144,
+   "sha256_debut": "0654811f912bf6f2",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_H-LOCAL_limites_et_quasi-localite_v1.docx"
+  },
+  {
+   "identifiant": "S025",
+   "pages": "docx",
+   "caracteres": 14931,
+   "sha256_debut": "49f55103b9736b81",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_Q-TIME_non-unicite_dynamique_v1.docx"
+  },
+  {
+   "identifiant": "S026",
+   "pages": "docx",
+   "caracteres": 8946,
+   "sha256_debut": "44e6f399109db2b6",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_RG-RAY_non-invariance_v1.docx"
+  },
+  {
+   "identifiant": "S027",
+   "pages": "docx",
+   "caracteres": 12596,
+   "sha256_debut": "acd35cd347d93af2",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_VOL-COVER_confinement_doux_v1.docx"
+  },
+  {
+   "identifiant": "S028",
+   "pages": "7",
+   "caracteres": 16804,
+   "sha256_debut": "ba3ec4c85c70e7c6",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_VOL-COVER_confinement_doux_v1.pdf"
+  },
+  {
+   "identifiant": "S029",
+   "pages": "docx",
+   "caracteres": 11519,
+   "sha256_debut": "dc6fecfe38a82e86",
+   "chemin": "corpus/02_portes_et_audits/RELEVE GO BLOB PORTES/M2-W_Theoreme_VOL-RATIO_flux_groupoide_v1.docx"
+  },
+  {
+   "identifiant": "S030",
+   "pages": "116",
+   "caracteres": 348195,
+   "sha256_debut": "1da5cdab83ed83a9",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/BLOB — SIMULATION AUTONOME DE LA CLEF DE VOÛTE/Blob MASTER PROPRE LIVRE.pdf"
+  },
+  {
+   "identifiant": "S031",
+   "pages": "4",
+   "caracteres": 7965,
+   "sha256_debut": "4894dc639ac731e4",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/Blob Kit Brainstorm MultiIA 11juillet.pdf"
+  },
+  {
+   "identifiant": "S032",
+   "pages": "734",
+   "caracteres": 2347685,
+   "sha256_debut": "c4de67a4fc9303e1",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/Blob Master V223.pdf"
+  },
+  {
+   "identifiant": "S033",
+   "pages": "855",
+   "caracteres": 2459394,
+   "sha256_debut": "3f2c9b41e731b74a",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/Blob Master V230 complet.pdf"
+  },
+  {
+   "identifiant": "S034",
+   "pages": "244",
+   "caracteres": 965626,
+   "sha256_debut": "c0190d96758d5b5a",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/BlobPrinciple Master V139 22mai2026.pdf"
+  },
+  {
+   "identifiant": "S035",
+   "pages": "347",
+   "caracteres": 1504569,
+   "sha256_debut": "197a721db057c71e",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/BlobPrinciple Master V152 25mai2026.pdf"
+  },
+  {
+   "identifiant": "S036",
+   "pages": "351",
+   "caracteres": 1531067,
+   "sha256_debut": "151c788c2d27811a",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/BlobPrinciple Master V152 29mai2026.pdf"
+  },
+  {
+   "identifiant": "S037",
+   "pages": "388",
+   "caracteres": 1709085,
+   "sha256_debut": "8730f569013fabb8",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/BlobPrinciple Master V155 2juin2026.pdf"
+  },
+  {
+   "identifiant": "S038",
+   "pages": "2",
+   "caracteres": 4762,
+   "sha256_debut": "d2bf481e629fbe0d",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/Session 30 mai — verrou B et masters V152-V155/FICHE RELANCE IA suite.pdf"
+  },
+  {
+   "identifiant": "S039",
+   "pages": "26",
+   "caracteres": 40654,
+   "sha256_debut": "13115f631d78cac1",
+   "chemin": "corpus/03_scripts/SCRIPTS DIVERS BLOB/UnificationArchimedesconstantgoldenratioEulersnumbereandimaginarynumberi.pdf"
+  },
+  {
+   "identifiant": "S040",
+   "pages": "docx",
+   "caracteres": 12097,
+   "sha256_debut": "e6a0e95b9b128462",
+   "chemin": "corpus/03_scripts/simulations/M2-W_Theoreme_RG-1CELL_non-fermeture_v1.docx"
+  },
+  {
+   "identifiant": "S041",
+   "pages": "docx",
+   "caracteres": 11578,
+   "sha256_debut": "980e63d7656a3cf5",
+   "chemin": "corpus/03_scripts/simulations/M2-W_Theoreme_RP_cutoff_v1.docx"
+  },
+  {
+   "identifiant": "S042",
+   "pages": "docx",
+   "caracteres": 14981,
+   "sha256_debut": "d59354d399cd7d57",
+   "chemin": "corpus/03_scripts/simulations/M2-W_Theoreme_TOP-KIN_f-vecteur_v1.docx"
+  },
+  {
+   "identifiant": "S043",
+   "pages": "15",
+   "caracteres": 31799,
+   "sha256_debut": "448207de499ca9f5",
+   "chemin": "corpus/05_paradigmes_technologiques/Les Paradigmes technologiques du Blob/dossier HYDROSCOPE-IT.pdf"
+  },
+  {
+   "identifiant": "S044",
+   "pages": "17",
+   "caracteres": 40556,
+   "sha256_debut": "edb9734ba5d3879a",
+   "chemin": "corpus/05_paradigmes_technologiques/Les Paradigmes technologiques du Blob/dossier SILENTIA-PS.pdf"
+  },
+  {
+   "identifiant": "S045",
+   "pages": "28",
+   "caracteres": 65394,
+   "sha256_debut": "124a1d12c801d74f",
+   "chemin": "corpus/05_paradigmes_technologiques/Les Paradigmes technologiques du Blob/dossier VIATRON-S.pdf"
+  },
+  {
+   "identifiant": "S046",
+   "pages": "2",
+   "caracteres": 6104,
+   "sha256_debut": "ce2ae1b121da06dd",
+   "chemin": "corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/AUDIT 4fichiers satellites 25mai2026.pdf"
+  },
+  {
+   "identifiant": "S047",
+   "pages": "2",
+   "caracteres": 5451,
+   "sha256_debut": "a4ca83cc0e6f0d08",
+   "chemin": "corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/Bilan et tests multi IA/appel gravite multiIA.pdf"
+  },
+  {
+   "identifiant": "S048",
+   "pages": "3",
+   "caracteres": 12051,
+   "sha256_debut": "77fa52be28e8c2da",
+   "chemin": "corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/Bilan et tests multi IA/bilan gravite.pdf"
+  },
+  {
+   "identifiant": "S049",
+   "pages": "2",
+   "caracteres": 7221,
+   "sha256_debut": "71576b6186058565",
+   "chemin": "corpus/06_campagnes_et_sauts/Audit 25 mai — paliers et gravite/appel final multiIA.pdf"
+  },
+  {
+   "identifiant": "S050",
+   "pages": "docx",
+   "caracteres": 9158,
+   "sha256_debut": "b9492ee9a2c31c78",
+   "chemin": "corpus/06_campagnes_et_sauts/BLOB SCALING V30 DU 23 AVRIL 2026/blob_corpus_consolidation.docx"
+  },
+  {
+   "identifiant": "S051",
+   "pages": "8",
+   "caracteres": 24301,
+   "sha256_debut": "0901d20f40bf32d2",
+   "chemin": "corpus/06_campagnes_et_sauts/BLOB SCALING V30 DU 23 AVRIL 2026/blob_paper_v30.pdf"
+  },
+  {
+   "identifiant": "S052",
+   "pages": "5",
+   "caracteres": 5796,
+   "sha256_debut": "580e445ef0ccec52",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob Defi ER/README er blob challenge.pdf"
+  },
+  {
+   "identifiant": "S053",
+   "pages": "6",
+   "caracteres": 10656,
+   "sha256_debut": "25e6eea88568bfbe",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob Defi ER/er blob replication 2.pdf"
+  },
+  {
+   "identifiant": "S054",
+   "pages": "6",
+   "caracteres": 10656,
+   "sha256_debut": "e5a3faca61fcfc56",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob Defi ER/er blob replication.pdf"
+  },
+  {
+   "identifiant": "S055",
+   "pages": "9",
+   "caracteres": 15533,
+   "sha256_debut": "c95de3fd094c62ea",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob Defi ER/er scaling palier.pdf"
+  },
+  {
+   "identifiant": "S056",
+   "pages": "4",
+   "caracteres": 9334,
+   "sha256_debut": "c4d363c656d5ee43",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob Defi ER/thread x er blob.pdf"
+  },
+  {
+   "identifiant": "S057",
+   "pages": "14",
+   "caracteres": 23032,
+   "sha256_debut": "f91239e3a6bfc995",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob campaign v2.pdf"
+  },
+  {
+   "identifiant": "S058",
+   "pages": "13",
+   "caracteres": 22298,
+   "sha256_debut": "efeb8383811a2482",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob caracterisation transition.pdf"
+  },
+  {
+   "identifiant": "S059",
+   "pages": "7",
+   "caracteres": 11556,
+   "sha256_debut": "2d14c6aa8786683c",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob colab v4.pdf"
+  },
+  {
+   "identifiant": "S060",
+   "pages": "docx",
+   "caracteres": 14061,
+   "sha256_debut": "09cc5ec7c1f77b34",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob manifeste v93 5.docx"
+  },
+  {
+   "identifiant": "S061",
+   "pages": "docx",
+   "caracteres": 10875,
+   "sha256_debut": "0c4d321ac7e03b22",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob paper enrichment.docx"
+  },
+  {
+   "identifiant": "S062",
+   "pages": "10",
+   "caracteres": 16677,
+   "sha256_debut": "a01cb060f53f55bd",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob protocole D.pdf"
+  },
+  {
+   "identifiant": "S063",
+   "pages": "11",
+   "caracteres": 17594,
+   "sha256_debut": "cd22118272c79b51",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob protocole E.pdf"
+  },
+  {
+   "identifiant": "S064",
+   "pages": "16",
+   "caracteres": 25715,
+   "sha256_debut": "d7da7f88658519a8",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob protocole F v2.pdf"
+  },
+  {
+   "identifiant": "S065",
+   "pages": "18",
+   "caracteres": 30137,
+   "sha256_debut": "c543a0aad5f8db6c",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob protocole F.pdf"
+  },
+  {
+   "identifiant": "S066",
+   "pages": "14",
+   "caracteres": 22735,
+   "sha256_debut": "e0b6c8a6bb9f6f2d",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Protocoles/blob v2 mitose.pdf"
+  },
+  {
+   "identifiant": "S067",
+   "pages": "docx",
+   "caracteres": 19496,
+   "sha256_debut": "1410cf3b3c8bf9ff",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob manifeste v96 COMPLET.docx"
+  },
+  {
+   "identifiant": "S068",
+   "pages": "17",
+   "caracteres": 27447,
+   "sha256_debut": "b3b0662e771c71ee",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut2 Q3 fleche temps.pdf"
+  },
+  {
+   "identifiant": "S069",
+   "pages": "16",
+   "caracteres": 25740,
+   "sha256_debut": "501556bf870df0d4",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut3 chaleur reformulee.pdf"
+  },
+  {
+   "identifiant": "S070",
+   "pages": "11",
+   "caracteres": 17169,
+   "sha256_debut": "ddeb3b9f32e5f4b5",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut35 invariants grande echelle.pdf"
+  },
+  {
+   "identifiant": "S071",
+   "pages": "13",
+   "caracteres": 20144,
+   "sha256_debut": "1d90286e8a047507",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut35v2 asymptotes propres.pdf"
+  },
+  {
+   "identifiant": "S072",
+   "pages": "14",
+   "caracteres": 21868,
+   "sha256_debut": "9954e6934a0a2f87",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut35v3 extension 5000.pdf"
+  },
+  {
+   "identifiant": "S073",
+   "pages": "13",
+   "caracteres": 21242,
+   "sha256_debut": "645fd7e0bf22fa65",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut36 exposants critiques.pdf"
+  },
+  {
+   "identifiant": "S074",
+   "pages": "12",
+   "caracteres": 19670,
+   "sha256_debut": "b5852b8b608b9bc1",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut36b scan etendu.pdf"
+  },
+  {
+   "identifiant": "S075",
+   "pages": "12",
+   "caracteres": 19592,
+   "sha256_debut": "2ee2c75522d60638",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut36c etendu FSS.pdf"
+  },
+  {
+   "identifiant": "S076",
+   "pages": "13",
+   "caracteres": 20067,
+   "sha256_debut": "6f7d52c8381f7e8f",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut36c scaling N exposants.pdf"
+  },
+  {
+   "identifiant": "S077",
+   "pages": "16",
+   "caracteres": 25943,
+   "sha256_debut": "7c796b4a0c210ca5",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut37 thermodynamique NE.pdf"
+  },
+  {
+   "identifiant": "S078",
+   "pages": "12",
+   "caracteres": 19007,
+   "sha256_debut": "2ecb0ef6b6a6b1f1",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob saut4 sens depassement.pdf"
+  },
+  {
+   "identifiant": "S079",
+   "pages": "2",
+   "caracteres": 5710,
+   "sha256_debut": "0b8ca06987d8f313",
+   "chemin": "corpus/06_campagnes_et_sauts/Blob scripts et Rapports json des 6 sauts/Sauts 2 a 35 — rapports et manifeste v96/blob v96 LIGHT.pdf"
+  },
+  {
+   "identifiant": "S080",
+   "pages": "7",
+   "caracteres": 23720,
+   "sha256_debut": "1d9bad5014dc33c3",
+   "chemin": "corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob Q1 L1 closed.pdf"
+  },
+  {
+   "identifiant": "S081",
+   "pages": "docx",
+   "caracteres": 12624,
+   "sha256_debut": "b5b83090fde6d528",
+   "chemin": "corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob addendum v102.docx"
+  },
+  {
+   "identifiant": "S082",
+   "pages": "docx",
+   "caracteres": 44113,
+   "sha256_debut": "b2367354fcf55651",
+   "chemin": "corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob manifeste v99 1 COMPLET.docx"
+  },
+  {
+   "identifiant": "S083",
+   "pages": "docx",
+   "caracteres": 7146,
+   "sha256_debut": "e3b552a7334504b9",
+   "chemin": "corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob manifeste v99 1 LIGHT.docx"
+  },
+  {
+   "identifiant": "S084",
+   "pages": "docx",
+   "caracteres": 8017,
+   "sha256_debut": "020bd5d7c7864b68",
+   "chemin": "corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob_corpus_consolidation.docx"
+  },
+  {
+   "identifiant": "S085",
+   "pages": "8",
+   "caracteres": 24301,
+   "sha256_debut": "0901d20f40bf32d2",
+   "chemin": "corpus/06_campagnes_et_sauts/SAUT 9 et 10 et 11/Manifestes v99 et addendum v102/blob_paper_v30 3.pdf"
+  },
+  {
+   "identifiant": "S086",
+   "pages": "docx",
+   "caracteres": 530188,
+   "sha256_debut": "7ed25286f83ffd5b",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/BlobPrinciple Master V111 18mai2026 2.docx"
+  },
+  {
+   "identifiant": "S087",
+   "pages": "docx",
+   "caracteres": 530188,
+   "sha256_debut": "7ed25286f83ffd5b",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/BlobPrinciple Master V111 18mai2026.docx"
+  },
+  {
+   "identifiant": "S088",
+   "pages": "4",
+   "caracteres": 5804,
+   "sha256_debut": "fcd484e803e4355e",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/README V111 PhaseMaximalite.pdf"
+  },
+  {
+   "identifiant": "S089",
+   "pages": "docx",
+   "caracteres": 22977,
+   "sha256_debut": "d4aaa3991a1cd253",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/master VII 5 addendum.docx"
+  },
+  {
+   "identifiant": "S090",
+   "pages": "14",
+   "caracteres": 27631,
+   "sha256_debut": "58f6e3306096d714",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/Suite blob graal 18 mai/master VII 5 addendum.pdf"
+  },
+  {
+   "identifiant": "S091",
+   "pages": "9",
+   "caracteres": 24135,
+   "sha256_debut": "ebd8059c7a4698f2",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/master VII 4 addendum 2.pdf"
+  },
+  {
+   "identifiant": "S092",
+   "pages": "11",
+   "caracteres": 23381,
+   "sha256_debut": "064fc08e7689934f",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/master VII 4 addendum.pdf"
+  },
+  {
+   "identifiant": "S093",
+   "pages": "8",
+   "caracteres": 13281,
+   "sha256_debut": "6790d77aa4a92eec",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 1 sweep.pdf"
+  },
+  {
+   "identifiant": "S094",
+   "pages": "6",
+   "caracteres": 11058,
+   "sha256_debut": "ed9a99588a3d444d",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 2.pdf"
+  },
+  {
+   "identifiant": "S095",
+   "pages": "10",
+   "caracteres": 17654,
+   "sha256_debut": "497a66aba9ff53b5",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 3 dobrushin.pdf"
+  },
+  {
+   "identifiant": "S096",
+   "pages": "7",
+   "caracteres": 11888,
+   "sha256_debut": "9b66e71bde3a1817",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 3 v2 autocorrelation.pdf"
+  },
+  {
+   "identifiant": "S097",
+   "pages": "8",
+   "caracteres": 14042,
+   "sha256_debut": "3618aeeca9f02830",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 4 heisenberg.pdf"
+  },
+  {
+   "identifiant": "S098",
+   "pages": "6",
+   "caracteres": 8590,
+   "sha256_debut": "1381627a8674ca4e",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 5 lyapunov.pdf"
+  },
+  {
+   "identifiant": "S099",
+   "pages": "6",
+   "caracteres": 10087,
+   "sha256_debut": "bb2fbfb00e040cfb",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 1 5 v2 strict.pdf"
+  },
+  {
+   "identifiant": "S100",
+   "pages": "7",
+   "caracteres": 12761,
+   "sha256_debut": "11d59d17c2a2e40a",
+   "chemin": "corpus/06_campagnes_et_sauts/Suite Cascade 17 mai/verrouillage 3 3 confinement.pdf"
+  },
+  {
+   "identifiant": "S101",
+   "pages": "6",
+   "caracteres": 9024,
+   "sha256_debut": "647a3abce965b67b",
+   "chemin": "corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/calibration ds.pdf"
+  },
+  {
+   "identifiant": "S102",
+   "pages": "12",
+   "caracteres": 18760,
+   "sha256_debut": "f4b6e2ffe9c378c2",
+   "chemin": "corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/d3 singularites catalogue.pdf"
+  },
+  {
+   "identifiant": "S103",
+   "pages": "13",
+   "caracteres": 24712,
+   "sha256_debut": "228f9ccd1bf32edb",
+   "chemin": "corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/rapport complet 17mai2026.pdf"
+  },
+  {
+   "identifiant": "S104",
+   "pages": "22",
+   "caracteres": 37293,
+   "sha256_debut": "a594b24be2da16ba",
+   "chemin": "corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/rapport unifie 17mai2026.pdf"
+  },
+  {
+   "identifiant": "S105",
+   "pages": "5",
+   "caracteres": 8785,
+   "sha256_debut": "d94aed32188fa994",
+   "chemin": "corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test blob scout.pdf"
+  },
+  {
+   "identifiant": "S106",
+   "pages": "7",
+   "caracteres": 11078,
+   "sha256_debut": "ed9c75e73cac663a",
+   "chemin": "corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test dh ds convergence.pdf"
+  },
+  {
+   "identifiant": "S107",
+   "pages": "7",
+   "caracteres": 12555,
+   "sha256_debut": "4c8a66e8d8e027b2",
+   "chemin": "corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test local collapse.pdf"
+  },
+  {
+   "identifiant": "S108",
+   "pages": "7",
+   "caracteres": 11323,
+   "sha256_debut": "d203336aa9ec99b3",
+   "chemin": "corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test loi aire.pdf"
+  },
+  {
+   "identifiant": "S109",
+   "pages": "7",
+   "caracteres": 11743,
+   "sha256_debut": "c202868247c7d641",
+   "chemin": "corpus/06_campagnes_et_sauts/Test O2v4 projection 3D à 2D trou noir/test o2v4 replication.pdf"
+  },
+  {
+   "identifiant": "S110",
+   "pages": "docx",
+   "caracteres": 18956,
+   "sha256_debut": "ab1f8d42e36f7c66",
+   "chemin": "corpus/06_campagnes_et_sauts/Thermodynamique exploratoire V94/blob_annexe_origines_complet.docx"
+  },
+  {
+   "identifiant": "S111",
+   "pages": "16",
+   "caracteres": 25715,
+   "sha256_debut": "d7da7f88658519a8",
+   "chemin": "corpus/07_complements/blob protocole F v2.pdf"
+  },
+  {
+   "identifiant": "S112",
+   "pages": "28",
+   "caracteres": 48410,
+   "sha256_debut": "caafc44fe487f5dd",
+   "chemin": "corpus/07_complements/blob validation gpu.pdf"
+  },
+  {
+   "identifiant": "S113",
+   "pages": "29",
+   "caracteres": 114629,
+   "sha256_debut": "9fba7d69d2d778ad",
+   "chemin": "docs/armature/blob-principle-armature-V347-1.pdf"
+  },
+  {
+   "identifiant": "S114",
+   "pages": "33",
+   "caracteres": 106295,
+   "sha256_debut": "372b022315aa19db",
+   "chemin": "docs/armature/blob-principle-armature-V347-1_EN.pdf"
+  },
+  {
+   "identifiant": "S115",
+   "pages": "docx",
+   "caracteres": 528736,
+   "sha256_debut": "c35eef9378d5b870",
+   "chemin": "livres/du-simplexe-au-complexe/livre-1_mai-2026/Du-simplexe-au-complexe_Livre-1.docx"
+  },
+  {
+   "identifiant": "S116",
+   "pages": "211",
+   "caracteres": 524191,
+   "sha256_debut": "dd6d68a23ca25470",
+   "chemin": "livres/du-simplexe-au-complexe/livre-1_mai-2026/Du-simplexe-au-complexe_Livre-1.pdf"
+  },
+  {
+   "identifiant": "S117",
+   "pages": "160",
+   "caracteres": 525679,
+   "sha256_debut": "432fbcb8b14e2e5d",
+   "chemin": "livres/du-simplexe-au-complexe/livre-1_mai-2026/Du-simplexe-au-complexe_Livre-1_revision-17-mai.pdf"
+  },
+  {
+   "identifiant": "S118",
+   "pages": "docx",
+   "caracteres": 645371,
+   "sha256_debut": "982dc3a78640ffbd",
+   "chemin": "livres/du-simplexe-au-complexe/livre-2_juin-2026/Du-simplexe-au-complexe_Livre-2.docx"
+  },
+  {
+   "identifiant": "S119",
+   "pages": "196",
+   "caracteres": 644657,
+   "sha256_debut": "dc515c82eecba92e",
+   "chemin": "livres/du-simplexe-au-complexe/livre-2_juin-2026/Du-simplexe-au-complexe_Livre-2.pdf"
+  },
+  {
+   "identifiant": "S120",
+   "pages": "docx",
+   "caracteres": 661968,
+   "sha256_debut": "e30606bad15c33c7",
+   "chemin": "livres/du-simplexe-au-complexe/livre-3_juillet-2026/Du-simplexe-au-complexe_Livre-3.docx"
+  },
+  {
+   "identifiant": "S121",
+   "pages": "223",
+   "caracteres": 689668,
+   "sha256_debut": "792e00ca2a4086ba",
+   "chemin": "livres/du-simplexe-au-complexe/livre-3_juillet-2026/Du-simplexe-au-complexe_Livre-3.pdf"
+  },
+  {
+   "identifiant": "S122",
+   "pages": "2",
+   "caracteres": 6330,
+   "sha256_debut": "4cd15e50591efdde",
+   "chemin": "livres/du-simplexe-au-complexe/version-mathematique_livre-annexe/Chapitre-annexe_Le-pourquoi-du-Blob.pdf"
+  },
+  {
+   "identifiant": "S123",
+   "pages": "docx",
+   "caracteres": 325570,
+   "sha256_debut": "05f3ea5686b49c78",
+   "chemin": "livres/du-simplexe-au-complexe/version-mathematique_livre-annexe/Livre-annexe_demonstrations.docx"
+  },
+  {
+   "identifiant": "S124",
+   "pages": "89",
+   "caracteres": 325533,
+   "sha256_debut": "a416f7c28ba30391",
+   "chemin": "livres/du-simplexe-au-complexe/version-mathematique_livre-annexe/Livre-annexe_demonstrations.pdf"
+  },
+  {
+   "identifiant": "S125",
+   "pages": "106",
+   "caracteres": 171973,
+   "sha256_debut": "ee61c149bfa9e847",
+   "chemin": "livres/edition-2026_grand-public/Le-Blob-Principle_edition-2026_FINALE.pdf"
+  },
+  {
+   "identifiant": "S126",
+   "pages": "docx",
+   "caracteres": 85056,
+   "sha256_debut": "acd7a54806374294",
+   "chemin": "livres/le-blob-surnaturel/v1_chapitres/Livre-du-Surnaturel_V1.docx"
+  },
+  {
+   "identifiant": "S127",
+   "pages": "147",
+   "caracteres": 323656,
+   "sha256_debut": "d48b513f84bcc60a",
+   "chemin": "livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_1.pdf"
+  },
+  {
+   "identifiant": "S128",
+   "pages": "176",
+   "caracteres": 382538,
+   "sha256_debut": "d5566adfc690cab6",
+   "chemin": "livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_2.pdf"
+  },
+  {
+   "identifiant": "S129",
+   "pages": "212",
+   "caracteres": 459401,
+   "sha256_debut": "21c3db1bdf610be3",
+   "chemin": "livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_3.pdf"
+  },
+  {
+   "identifiant": "S130",
+   "pages": "223",
+   "caracteres": 471698,
+   "sha256_debut": "17d1f9c51b4b614b",
+   "chemin": "livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_4.pdf"
+  },
+  {
+   "identifiant": "S131",
+   "pages": "168",
+   "caracteres": 353294,
+   "sha256_debut": "590682ad66fa8b78",
+   "chemin": "livres/le-blob-surnaturel/v2_tomes/Blob_Surnaturel_Tome_5.pdf"
+  },
+  {
+   "identifiant": "S132",
+   "pages": "docx",
+   "caracteres": 900061,
+   "sha256_debut": "b33d6ebe731fc283",
+   "chemin": "livres/le-blob-surnaturel/v3_version-finale/Le-Blob-Surnaturel_V3_livre-complet.docx"
+  },
+  {
+   "identifiant": "S133",
+   "pages": "269",
+   "caracteres": 916149,
+   "sha256_debut": "ec1be830f3518b08",
+   "chemin": "livres/le-blob-surnaturel/v3_version-finale/Le-Blob-Surnaturel_V3_livre-complet.pdf"
+  }
+ ],
+ "caracteres_au_total": 54713997,
+ "blocs_par_master": [
+  {
+   "master": "V111",
+   "source": "S087",
+   "pages": 0,
+   "caracteres": 510730,
+   "blocs": 159,
+   "deja_vus": 0,
+   "blocs_nouveaux": 150,
+   "caracteres_nouveaux": 492620
+  },
+  {
+   "master": "V139",
+   "source": "S034",
+   "pages": 244,
+   "caracteres": 924740,
+   "blocs": 1345,
+   "deja_vus": 110,
+   "blocs_nouveaux": 1211,
+   "caracteres_nouveaux": 781600
+  },
+  {
+   "master": "V152a",
+   "source": "S035",
+   "pages": 347,
+   "caracteres": 1438643,
+   "blocs": 1926,
+   "deja_vus": 767,
+   "blocs_nouveaux": 1158,
+   "caracteres_nouveaux": 989683
+  },
+  {
+   "master": "V152b",
+   "source": "S036",
+   "pages": 351,
+   "caracteres": 1463678,
+   "blocs": 1943,
+   "deja_vus": 1350,
+   "blocs_nouveaux": 593,
+   "caracteres_nouveaux": 527225
+  },
+  {
+   "master": "V155",
+   "source": "S037",
+   "pages": 388,
+   "caracteres": 1633134,
+   "blocs": 2179,
+   "deja_vus": 1460,
+   "blocs_nouveaux": 719,
+   "caracteres_nouveaux": 626557
+  },
+  {
+   "master": "PROPRE",
+   "source": "S030",
+   "pages": 116,
+   "caracteres": 327359,
+   "blocs": 331,
+   "deja_vus": 0,
+   "blocs_nouveaux": 331,
+   "caracteres_nouveaux": 307396
+  },
+  {
+   "master": "V223",
+   "source": "S032",
+   "pages": 734,
+   "caracteres": 2212974,
+   "blocs": 4600,
+   "deja_vus": 377,
+   "blocs_nouveaux": 4171,
+   "caracteres_nouveaux": 1888987
+  },
+  {
+   "master": "V230",
+   "source": "S033",
+   "pages": 855,
+   "caracteres": 2349629,
+   "blocs": 6125,
+   "deja_vus": 1348,
+   "blocs_nouveaux": 4633,
+   "caracteres_nouveaux": 1716549
+  },
+  {
+   "master": "V311",
+   "source": "S005",
+   "pages": 1529,
+   "caracteres": 3033804,
+   "blocs": 4415,
+   "deja_vus": 1290,
+   "blocs_nouveaux": 3091,
+   "caracteres_nouveaux": 2113054
+  },
+  {
+   "master": "V315",
+   "source": "S006",
+   "pages": 1560,
+   "caracteres": 3080415,
+   "blocs": 4546,
+   "deja_vus": 4415,
+   "blocs_nouveaux": 131,
+   "caracteres_nouveaux": 35222
+  },
+  {
+   "master": "V316",
+   "source": "S007",
+   "pages": 1585,
+   "caracteres": 3151216,
+   "blocs": 4668,
+   "deja_vus": 4546,
+   "blocs_nouveaux": 122,
+   "caracteres_nouveaux": 58580
+  },
+  {
+   "master": "V319",
+   "source": "S008",
+   "pages": 1599,
+   "caracteres": 3199370,
+   "blocs": 4721,
+   "deja_vus": 4668,
+   "blocs_nouveaux": 52,
+   "caracteres_nouveaux": 44724
+  },
+  {
+   "master": "MAITRE_UNIQUE",
+   "source": "S009",
+   "pages": 5442,
+   "caracteres": 14050750,
+   "blocs": 9413,
+   "deja_vus": 4721,
+   "blocs_nouveaux": 4650,
+   "caracteres_nouveaux": 7197269
+  },
+  {
+   "master": "V345s",
+   "source": "S004",
+   "pages": 7,
+   "caracteres": 14243,
+   "blocs": 27,
+   "deja_vus": 0,
+   "blocs_nouveaux": 27,
+   "caracteres_nouveaux": 12465
+  },
+  {
+   "master": "V346",
+   "source": "S001",
+   "pages": 1918,
+   "caracteres": 3884076,
+   "blocs": 5949,
+   "deja_vus": 4748,
+   "blocs_nouveaux": 1193,
+   "caracteres_nouveaux": 584575
+  },
+  {
+   "master": "V347.1",
+   "source": "S002",
+   "pages": 29,
+   "caracteres": 109106,
+   "blocs": 270,
+   "deja_vus": 0,
+   "blocs_nouveaux": 270,
+   "caracteres_nouveaux": 82815
+  }
+ ],
+ "phrases_par_master": [
+  {
+   "master": "V111",
+   "phrases": 2669,
+   "phrases_distinctes": 2647,
+   "presentes_dans_le_master_courant": 1100,
+   "absentes": 1547,
+   "part_portee": 0.4156,
+   "caracteres_absents": 312642
+  },
+  {
+   "master": "V139",
+   "phrases": 4595,
+   "phrases_distinctes": 4511,
+   "presentes_dans_le_master_courant": 2604,
+   "absentes": 1907,
+   "part_portee": 0.5773,
+   "caracteres_absents": 403509
+  },
+  {
+   "master": "V152a",
+   "phrases": 7710,
+   "phrases_distinctes": 7622,
+   "presentes_dans_le_master_courant": 5643,
+   "absentes": 1979,
+   "part_portee": 0.7404,
+   "caracteres_absents": 440948
+  },
+  {
+   "master": "V152b",
+   "phrases": 7853,
+   "phrases_distinctes": 7769,
+   "presentes_dans_le_master_courant": 5762,
+   "absentes": 2007,
+   "part_portee": 0.7417,
+   "caracteres_absents": 448777
+  },
+  {
+   "master": "V155",
+   "phrases": 8807,
+   "phrases_distinctes": 8720,
+   "presentes_dans_le_master_courant": 6589,
+   "absentes": 2131,
+   "part_portee": 0.7556,
+   "caracteres_absents": 475407
+  },
+  {
+   "master": "PROPRE",
+   "phrases": 2107,
+   "phrases_distinctes": 2098,
+   "presentes_dans_le_master_courant": 0,
+   "absentes": 2098,
+   "part_portee": 0.0,
+   "caracteres_absents": 278373
+  },
+  {
+   "master": "V223",
+   "phrases": 12361,
+   "phrases_distinctes": 12251,
+   "presentes_dans_le_master_courant": 5947,
+   "absentes": 6304,
+   "part_portee": 0.4854,
+   "caracteres_absents": 1141293
+  },
+  {
+   "master": "V230",
+   "phrases": 13135,
+   "phrases_distinctes": 12856,
+   "presentes_dans_le_master_courant": 9720,
+   "absentes": 3136,
+   "part_portee": 0.7561,
+   "caracteres_absents": 659637
+  },
+  {
+   "master": "V311",
+   "phrases": 16569,
+   "phrases_distinctes": 16299,
+   "presentes_dans_le_master_courant": 16299,
+   "absentes": 0,
+   "part_portee": 1.0,
+   "caracteres_absents": 0
+  },
+  {
+   "master": "V315",
+   "phrases": 16783,
+   "phrases_distinctes": 16512,
+   "presentes_dans_le_master_courant": 16512,
+   "absentes": 0,
+   "part_portee": 1.0,
+   "caracteres_absents": 0
+  },
+  {
+   "master": "V316",
+   "phrases": 17186,
+   "phrases_distinctes": 16914,
+   "presentes_dans_le_master_courant": 16914,
+   "absentes": 0,
+   "part_portee": 1.0,
+   "caracteres_absents": 0
+  },
+  {
+   "master": "V319",
+   "phrases": 17424,
+   "phrases_distinctes": 17151,
+   "presentes_dans_le_master_courant": 17151,
+   "absentes": 0,
+   "part_portee": 1.0,
+   "caracteres_absents": 0
+  },
+  {
+   "master": "MAITRE_UNIQUE",
+   "phrases": 28857,
+   "phrases_distinctes": 24784,
+   "presentes_dans_le_master_courant": 17152,
+   "absentes": 7632,
+   "part_portee": 0.6921,
+   "caracteres_absents": 1148835
+  },
+  {
+   "master": "V345s",
+   "phrases": 89,
+   "phrases_distinctes": 89,
+   "presentes_dans_le_master_courant": 89,
+   "absentes": 0,
+   "part_portee": 1.0,
+   "caracteres_absents": 0
+  },
+  {
+   "master": "V346",
+   "phrases": 21224,
+   "phrases_distinctes": 20842,
+   "presentes_dans_le_master_courant": 20842,
+   "absentes": 0,
+   "part_portee": 1.0,
+   "caracteres_absents": 0
+  },
+  {
+   "master": "V347.1",
+   "phrases": 596,
+   "phrases_distinctes": 596,
+   "presentes_dans_le_master_courant": 596,
+   "absentes": 0,
+   "part_portee": 1.0,
+   "caracteres_absents": 0
+  }
+ ],
+ "phrases_par_verrou": [
+  {
+   "master": "V111",
+   "V1": 111,
+   "V1_absentes": 68,
+   "V2": 142,
+   "V2_absentes": 88,
+   "V3": 109,
+   "V3_absentes": 65,
+   "V4": 30,
+   "V4_absentes": 20,
+   "V5": 199,
+   "V5_absentes": 153,
+   "V6": 99,
+   "V6_absentes": 62,
+   "V7": 241,
+   "V7_absentes": 162
+  },
+  {
+   "master": "V139",
+   "V1": 206,
+   "V1_absentes": 89,
+   "V2": 302,
+   "V2_absentes": 131,
+   "V3": 262,
+   "V3_absentes": 116,
+   "V4": 36,
+   "V4_absentes": 20,
+   "V5": 248,
+   "V5_absentes": 173,
+   "V6": 211,
+   "V6_absentes": 108,
+   "V7": 473,
+   "V7_absentes": 230
+  },
+  {
+   "master": "V152a",
+   "V1": 458,
+   "V1_absentes": 111,
+   "V2": 670,
+   "V2_absentes": 165,
+   "V3": 379,
+   "V3_absentes": 119,
+   "V4": 189,
+   "V4_absentes": 45,
+   "V5": 513,
+   "V5_absentes": 196,
+   "V6": 521,
+   "V6_absentes": 141,
+   "V7": 677,
+   "V7_absentes": 225
+  },
+  {
+   "master": "V152b",
+   "V1": 465,
+   "V1_absentes": 114,
+   "V2": 676,
+   "V2_absentes": 169,
+   "V3": 391,
+   "V3_absentes": 127,
+   "V4": 189,
+   "V4_absentes": 42,
+   "V5": 512,
+   "V5_absentes": 195,
+   "V6": 526,
+   "V6_absentes": 142,
+   "V7": 682,
+   "V7_absentes": 227
+  },
+  {
+   "master": "V155",
+   "V1": 543,
+   "V1_absentes": 132,
+   "V2": 810,
+   "V2_absentes": 189,
+   "V3": 447,
+   "V3_absentes": 136,
+   "V4": 213,
+   "V4_absentes": 50,
+   "V5": 606,
+   "V5_absentes": 209,
+   "V6": 669,
+   "V6_absentes": 167,
+   "V7": 730,
+   "V7_absentes": 241
+  },
+  {
+   "master": "PROPRE",
+   "V1": 126,
+   "V1_absentes": 126,
+   "V2": 103,
+   "V2_absentes": 102,
+   "V3": 107,
+   "V3_absentes": 106,
+   "V4": 99,
+   "V4_absentes": 98,
+   "V5": 36,
+   "V5_absentes": 36,
+   "V6": 95,
+   "V6_absentes": 95,
+   "V7": 91,
+   "V7_absentes": 91
+  },
+  {
+   "master": "V223",
+   "V1": 782,
+   "V1_absentes": 444,
+   "V2": 1168,
+   "V2_absentes": 652,
+   "V3": 591,
+   "V3_absentes": 314,
+   "V4": 742,
+   "V4_absentes": 375,
+   "V5": 836,
+   "V5_absentes": 457,
+   "V6": 917,
+   "V6_absentes": 523,
+   "V7": 894,
+   "V7_absentes": 538
+  },
+  {
+   "master": "V230",
+   "V1": 860,
+   "V1_absentes": 227,
+   "V2": 1198,
+   "V2_absentes": 321,
+   "V3": 619,
+   "V3_absentes": 183,
+   "V4": 812,
+   "V4_absentes": 188,
+   "V5": 947,
+   "V5_absentes": 314,
+   "V6": 1110,
+   "V6_absentes": 293,
+   "V7": 1051,
+   "V7_absentes": 295
+  },
+  {
+   "master": "V311",
+   "V1": 1153,
+   "V1_absentes": 0,
+   "V2": 1439,
+   "V2_absentes": 0,
+   "V3": 818,
+   "V3_absentes": 0,
+   "V4": 1016,
+   "V4_absentes": 0,
+   "V5": 1072,
+   "V5_absentes": 0,
+   "V6": 1392,
+   "V6_absentes": 0,
+   "V7": 1246,
+   "V7_absentes": 0
+  },
+  {
+   "master": "V315",
+   "V1": 1173,
+   "V1_absentes": 0,
+   "V2": 1450,
+   "V2_absentes": 0,
+   "V3": 826,
+   "V3_absentes": 0,
+   "V4": 1025,
+   "V4_absentes": 0,
+   "V5": 1078,
+   "V5_absentes": 0,
+   "V6": 1409,
+   "V6_absentes": 0,
+   "V7": 1263,
+   "V7_absentes": 0
+  },
+  {
+   "master": "V316",
+   "V1": 1225,
+   "V1_absentes": 0,
+   "V2": 1497,
+   "V2_absentes": 0,
+   "V3": 835,
+   "V3_absentes": 0,
+   "V4": 1071,
+   "V4_absentes": 0,
+   "V5": 1104,
+   "V5_absentes": 0,
+   "V6": 1464,
+   "V6_absentes": 0,
+   "V7": 1293,
+   "V7_absentes": 0
+  },
+  {
+   "master": "V319",
+   "V1": 1249,
+   "V1_absentes": 0,
+   "V2": 1505,
+   "V2_absentes": 0,
+   "V3": 836,
+   "V3_absentes": 0,
+   "V4": 1076,
+   "V4_absentes": 0,
+   "V5": 1110,
+   "V5_absentes": 0,
+   "V6": 1485,
+   "V6_absentes": 0,
+   "V7": 1303,
+   "V7_absentes": 0
+  },
+  {
+   "master": "MAITRE_UNIQUE",
+   "V1": 1282,
+   "V1_absentes": 33,
+   "V2": 1525,
+   "V2_absentes": 19,
+   "V3": 840,
+   "V3_absentes": 4,
+   "V4": 1093,
+   "V4_absentes": 17,
+   "V5": 1230,
+   "V5_absentes": 113,
+   "V6": 1893,
+   "V6_absentes": 367,
+   "V7": 1357,
+   "V7_absentes": 49
+  },
+  {
+   "master": "V345s",
+   "V1": 9,
+   "V1_absentes": 0,
+   "V2": 1,
+   "V2_absentes": 0,
+   "V3": 0,
+   "V3_absentes": 0,
+   "V4": 0,
+   "V4_absentes": 0,
+   "V5": 0,
+   "V5_absentes": 0,
+   "V6": 0,
+   "V6_absentes": 0,
+   "V7": 7,
+   "V7_absentes": 0
+  },
+  {
+   "master": "V346",
+   "V1": 1479,
+   "V1_absentes": 0,
+   "V2": 1547,
+   "V2_absentes": 0,
+   "V3": 858,
+   "V3_absentes": 0,
+   "V4": 1145,
+   "V4_absentes": 0,
+   "V5": 1198,
+   "V5_absentes": 0,
+   "V6": 1567,
+   "V6_absentes": 0,
+   "V7": 1436,
+   "V7_absentes": 0
+  },
+  {
+   "master": "V347.1",
+   "V1": 22,
+   "V1_absentes": 0,
+   "V2": 7,
+   "V2_absentes": 0,
+   "V3": 3,
+   "V3_absentes": 0,
+   "V4": 20,
+   "V4_absentes": 0,
+   "V5": 10,
+   "V5_absentes": 0,
+   "V6": 13,
+   "V6_absentes": 0,
+   "V7": 32,
+   "V7_absentes": 0
+  }
+ ],
+ "pages_les_plus_denses_du_V346_par_verrou": {
+  "V1": [
+   [
+    1062,
+    16
+   ],
+   [
+    1089,
+    13
+   ],
+   [
+    1088,
+    12
+   ],
+   [
+    1723,
+    12
+   ],
+   [
+    1484,
+    11
+   ],
+   [
+    1897,
+    11
+   ],
+   [
+    253,
+    10
+   ],
+   [
+    1090,
+    10
+   ],
+   [
+    1623,
+    10
+   ],
+   [
+    63,
+    9
+   ],
+   [
+    108,
+    9
+   ],
+   [
+    1140,
+    9
+   ],
+   [
+    644,
+    8
+   ],
+   [
+    1087,
+    8
+   ],
+   [
+    1093,
+    8
+   ],
+   [
+    1773,
+    8
+   ],
+   [
+    252,
+    7
+   ],
+   [
+    1085,
+    7
+   ],
+   [
+    1192,
+    7
+   ],
+   [
+    1351,
+    7
+   ],
+   [
+    1433,
+    7
+   ],
+   [
+    1904,
+    7
+   ],
+   [
+    105,
+    6
+   ],
+   [
+    107,
+    6
+   ],
+   [
+    113,
+    6
+   ],
+   [
+    275,
+    6
+   ],
+   [
+    656,
+    6
+   ],
+   [
+    853,
+    6
+   ],
+   [
+    1052,
+    6
+   ],
+   [
+    1066,
+    6
+   ],
+   [
+    1162,
+    6
+   ],
+   [
+    1507,
+    6
+   ],
+   [
+    1616,
+    6
+   ],
+   [
+    1626,
+    6
+   ],
+   [
+    1707,
+    6
+   ],
+   [
+    1724,
+    6
+   ],
+   [
+    1898,
+    6
+   ],
+   [
+    24,
+    5
+   ],
+   [
+    28,
+    5
+   ],
+   [
+    155,
+    5
+   ]
+  ],
+  "V2": [
+   [
+    883,
+    24
+   ],
+   [
+    1056,
+    21
+   ],
+   [
+    667,
+    17
+   ],
+   [
+    747,
+    15
+   ],
+   [
+    1017,
+    15
+   ],
+   [
+    1057,
+    15
+   ],
+   [
+    748,
+    14
+   ],
+   [
+    1226,
+    14
+   ],
+   [
+    888,
+    13
+   ],
+   [
+    253,
+    12
+   ],
+   [
+    260,
+    12
+   ],
+   [
+    1045,
+    12
+   ],
+   [
+    1091,
+    12
+   ],
+   [
+    115,
+    11
+   ],
+   [
+    265,
+    11
+   ],
+   [
+    616,
+    11
+   ],
+   [
+    681,
+    11
+   ],
+   [
+    1026,
+    11
+   ],
+   [
+    1235,
+    11
+   ],
+   [
+    1248,
+    11
+   ],
+   [
+    261,
+    10
+   ],
+   [
+    316,
+    10
+   ],
+   [
+    745,
+    10
+   ],
+   [
+    826,
+    10
+   ],
+   [
+    894,
+    10
+   ],
+   [
+    1024,
+    10
+   ],
+   [
+    1058,
+    10
+   ],
+   [
+    1205,
+    10
+   ],
+   [
+    114,
+    9
+   ],
+   [
+    117,
+    9
+   ],
+   [
+    121,
+    9
+   ],
+   [
+    676,
+    9
+   ],
+   [
+    746,
+    9
+   ],
+   [
+    789,
+    9
+   ],
+   [
+    886,
+    9
+   ],
+   [
+    889,
+    9
+   ],
+   [
+    1014,
+    9
+   ],
+   [
+    1027,
+    9
+   ],
+   [
+    1225,
+    9
+   ],
+   [
+    143,
+    8
+   ]
+  ],
+  "V3": [
+   [
+    717,
+    19
+   ],
+   [
+    618,
+    16
+   ],
+   [
+    268,
+    14
+   ],
+   [
+    732,
+    14
+   ],
+   [
+    267,
+    13
+   ],
+   [
+    269,
+    12
+   ],
+   [
+    1362,
+    12
+   ],
+   [
+    266,
+    11
+   ],
+   [
+    270,
+    11
+   ],
+   [
+    574,
+    11
+   ],
+   [
+    617,
+    10
+   ],
+   [
+    1453,
+    10
+   ],
+   [
+    420,
+    9
+   ],
+   [
+    878,
+    9
+   ],
+   [
+    1435,
+    9
+   ],
+   [
+    1466,
+    9
+   ],
+   [
+    1147,
+    8
+   ],
+   [
+    465,
+    7
+   ],
+   [
+    718,
+    7
+   ],
+   [
+    868,
+    7
+   ],
+   [
+    913,
+    7
+   ],
+   [
+    933,
+    7
+   ],
+   [
+    1045,
+    7
+   ],
+   [
+    1361,
+    7
+   ],
+   [
+    1418,
+    7
+   ],
+   [
+    1434,
+    7
+   ],
+   [
+    1593,
+    7
+   ],
+   [
+    136,
+    6
+   ],
+   [
+    647,
+    6
+   ],
+   [
+    736,
+    6
+   ],
+   [
+    880,
+    6
+   ],
+   [
+    932,
+    6
+   ],
+   [
+    955,
+    6
+   ],
+   [
+    1064,
+    6
+   ],
+   [
+    1236,
+    6
+   ],
+   [
+    1494,
+    6
+   ],
+   [
+    246,
+    5
+   ],
+   [
+    253,
+    5
+   ],
+   [
+    397,
+    5
+   ],
+   [
+    426,
+    5
+   ]
+  ],
+  "V4": [
+   [
+    1019,
+    19
+   ],
+   [
+    998,
+    18
+   ],
+   [
+    1022,
+    17
+   ],
+   [
+    122,
+    16
+   ],
+   [
+    999,
+    16
+   ],
+   [
+    799,
+    14
+   ],
+   [
+    950,
+    14
+   ],
+   [
+    1026,
+    14
+   ],
+   [
+    848,
+    13
+   ],
+   [
+    1191,
+    13
+   ],
+   [
+    126,
+    12
+   ],
+   [
+    972,
+    12
+   ],
+   [
+    1001,
+    12
+   ],
+   [
+    1016,
+    12
+   ],
+   [
+    821,
+    11
+   ],
+   [
+    822,
+    11
+   ],
+   [
+    1000,
+    11
+   ],
+   [
+    127,
+    10
+   ],
+   [
+    137,
+    10
+   ],
+   [
+    949,
+    10
+   ],
+   [
+    974,
+    10
+   ],
+   [
+    1020,
+    10
+   ],
+   [
+    1025,
+    10
+   ],
+   [
+    56,
+    9
+   ],
+   [
+    108,
+    9
+   ],
+   [
+    123,
+    9
+   ],
+   [
+    125,
+    9
+   ],
+   [
+    132,
+    9
+   ],
+   [
+    865,
+    9
+   ],
+   [
+    942,
+    9
+   ],
+   [
+    1118,
+    9
+   ],
+   [
+    1196,
+    9
+   ],
+   [
+    1473,
+    9
+   ],
+   [
+    91,
+    8
+   ],
+   [
+    120,
+    8
+   ],
+   [
+    121,
+    8
+   ],
+   [
+    128,
+    8
+   ],
+   [
+    138,
+    8
+   ],
+   [
+    695,
+    8
+   ],
+   [
+    824,
+    8
+   ]
+  ],
+  "V5": [
+   [
+    817,
+    30
+   ],
+   [
+    814,
+    23
+   ],
+   [
+    816,
+    19
+   ],
+   [
+    1022,
+    18
+   ],
+   [
+    821,
+    16
+   ],
+   [
+    936,
+    15
+   ],
+   [
+    236,
+    14
+   ],
+   [
+    133,
+    13
+   ],
+   [
+    195,
+    13
+   ],
+   [
+    238,
+    13
+   ],
+   [
+    815,
+    13
+   ],
+   [
+    820,
+    13
+   ],
+   [
+    838,
+    13
+   ],
+   [
+    1064,
+    13
+   ],
+   [
+    739,
+    12
+   ],
+   [
+    1218,
+    12
+   ],
+   [
+    965,
+    11
+   ],
+   [
+    970,
+    11
+   ],
+   [
+    1057,
+    11
+   ],
+   [
+    1061,
+    11
+   ],
+   [
+    1216,
+    11
+   ],
+   [
+    81,
+    10
+   ],
+   [
+    122,
+    10
+   ],
+   [
+    134,
+    10
+   ],
+   [
+    818,
+    10
+   ],
+   [
+    819,
+    10
+   ],
+   [
+    826,
+    10
+   ],
+   [
+    829,
+    10
+   ],
+   [
+    1016,
+    10
+   ],
+   [
+    1755,
+    10
+   ],
+   [
+    719,
+    9
+   ],
+   [
+    822,
+    9
+   ],
+   [
+    1528,
+    9
+   ],
+   [
+    1620,
+    9
+   ],
+   [
+    1753,
+    9
+   ],
+   [
+    52,
+    8
+   ],
+   [
+    53,
+    8
+   ],
+   [
+    77,
+    8
+   ],
+   [
+    720,
+    8
+   ],
+   [
+    756,
+    8
+   ]
+  ],
+  "V6": [
+   [
+    803,
+    22
+   ],
+   [
+    801,
+    16
+   ],
+   [
+    790,
+    15
+   ],
+   [
+    1527,
+    15
+   ],
+   [
+    802,
+    14
+   ],
+   [
+    837,
+    14
+   ],
+   [
+    145,
+    13
+   ],
+   [
+    831,
+    13
+   ],
+   [
+    1190,
+    13
+   ],
+   [
+    351,
+    12
+   ],
+   [
+    789,
+    12
+   ],
+   [
+    823,
+    12
+   ],
+   [
+    825,
+    12
+   ],
+   [
+    1072,
+    12
+   ],
+   [
+    832,
+    11
+   ],
+   [
+    833,
+    11
+   ],
+   [
+    850,
+    11
+   ],
+   [
+    1122,
+    11
+   ],
+   [
+    1614,
+    11
+   ],
+   [
+    1620,
+    11
+   ],
+   [
+    56,
+    10
+   ],
+   [
+    440,
+    10
+   ],
+   [
+    807,
+    10
+   ],
+   [
+    971,
+    10
+   ],
+   [
+    1276,
+    10
+   ],
+   [
+    1443,
+    10
+   ],
+   [
+    1454,
+    10
+   ],
+   [
+    111,
+    9
+   ],
+   [
+    139,
+    9
+   ],
+   [
+    598,
+    9
+   ],
+   [
+    806,
+    9
+   ],
+   [
+    808,
+    9
+   ],
+   [
+    110,
+    8
+   ],
+   [
+    144,
+    8
+   ],
+   [
+    223,
+    8
+   ],
+   [
+    235,
+    8
+   ],
+   [
+    612,
+    8
+   ],
+   [
+    678,
+    8
+   ],
+   [
+    751,
+    8
+   ],
+   [
+    799,
+    8
+   ]
+  ],
+  "V7": [
+   [
+    551,
+    15
+   ],
+   [
+    1066,
+    15
+   ],
+   [
+    560,
+    13
+   ],
+   [
+    1038,
+    13
+   ],
+   [
+    112,
+    12
+   ],
+   [
+    118,
+    12
+   ],
+   [
+    868,
+    12
+   ],
+   [
+    870,
+    11
+   ],
+   [
+    1067,
+    11
+   ],
+   [
+    168,
+    10
+   ],
+   [
+    1049,
+    10
+   ],
+   [
+    130,
+    9
+   ],
+   [
+    175,
+    9
+   ],
+   [
+    196,
+    9
+   ],
+   [
+    585,
+    9
+   ],
+   [
+    981,
+    9
+   ],
+   [
+    1041,
+    9
+   ],
+   [
+    1069,
+    9
+   ],
+   [
+    51,
+    8
+   ],
+   [
+    231,
+    8
+   ],
+   [
+    237,
+    8
+   ],
+   [
+    293,
+    8
+   ],
+   [
+    440,
+    8
+   ],
+   [
+    493,
+    8
+   ],
+   [
+    553,
+    8
+   ],
+   [
+    559,
+    8
+   ],
+   [
+    904,
+    8
+   ],
+   [
+    908,
+    8
+   ],
+   [
+    912,
+    8
+   ],
+   [
+    979,
+    8
+   ],
+   [
+    982,
+    8
+   ],
+   [
+    1065,
+    8
+   ],
+   [
+    1225,
+    8
+   ],
+   [
+    1622,
+    8
+   ],
+   [
+    131,
+    7
+   ],
+   [
+    205,
+    7
+   ],
+   [
+    228,
+    7
+   ],
+   [
+    229,
+    7
+   ],
+   [
+    398,
+    7
+   ],
+   [
+    422,
+    7
+   ]
+  ]
+ }
+}

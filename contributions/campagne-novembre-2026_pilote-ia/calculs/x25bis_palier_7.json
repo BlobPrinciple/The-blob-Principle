@@ -1,0 +1,24 @@
+{
+ "palier": 7,
+ "constituants": 29160,
+ "naissances": 21870,
+ "accolements_du_palier": {
+  "naissance:1": 21870,
+  "fermeture:2": 9990
+ },
+ "liens": 129870,
+ "cellules": 100710,
+ "faces_hors_de_deux_cellules": 0,
+ "caracteristique_d_Euler": 0,
+ "comptes_attendus": {
+  "constituants": 29160,
+  "liens": 129870,
+  "tetraedres": 100710
+ },
+ "tetraedres_par_lien": 4.652806652806653,
+ "fermetures_sur_naissances": 0.4541245069456354,
+ "accolements_cumules": {
+  "1": 29155,
+  "2": 13240
+ }
+}

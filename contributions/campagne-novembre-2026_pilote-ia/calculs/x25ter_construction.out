@@ -1,0 +1,24 @@
+X-25 ter, construction (T8) : journal des trois procedes, etat de reference graine 1, 660 constituants, 1 932 liens (empreinte 3b85f7c1f30035fd...). NON CONCLUANT.
+Positions du moteur mises a l'echelle : longueur des liens min 0,143 / mediane 2 / max 5,262 ; 2 463 paires non liees sur 215 538 plus proches que la longueur mediane d'un lien.
+
+PROCEDE 1 (x25ter_construction.py, energie en distances, rayons libres ; essai a iterations bornees apres un premier lancement sans suivi, arrete apres 14 minutes)
+mu 1    : energie 2,17e-03 | 1 360 paires non liees se chevauchent | rayon minimal 2,93e-05 | residu relatif maximal sur les liens 0,985
+mu 10   : energie 1,88e-03 |   638                                 | rayon minimal 2,93e-05 | residu 1,39
+mu 100  : energie 1,67e-03 |     1                                 | rayon minimal 2,93e-05 | residu 1,48
+Lecture : des rayons s'effondrent ; l'energie en distances ne voit pas l'erreur relative.
+
+PROCEDE 2 (x25ter_construction_essai2.py, energie en produits inversifs, rayons bornes entre 0,05 et 30 ; gradient controle : 2953,0002015 analytique, 2953,0002003 numerique)
+mu 0,1  : energie 1,771e+02 | 1 917 chevauchements | ecart maximal des liens a -1 : 1,02
+mu 1    : energie 8,160e+02 | 1 181                | 2,00
+mu 10   : energie 1,574e+03 |   553                | 4,11
+mu 100  : energie 1,869e+03 |    38                | 5,33
+mu 1000 : energie 1,905e+03 |     0                | 5,51   (produit inversif maximal des paires non liees -1,035)
+Lecture : plus aucun chevauchement, mais les liens ne sont pas tenus.
+
+PROCEDE 3 (x25ter_construction_essai3.py, pose un a un dans l'ordre de degenerescence inverse (degenerescence 5), retour a zero apres chaque pose)
+poses 12 | liens 26 | energie 8,61e-01 | rayons 2,6e-04 a 1,06
+poses 16 | liens 41 | energie 1,18e+03 | rayons 2,5e-06 a 1,06
+poses 52 | liens 177 | energie 2,40e+36 | rayons 5,2e-22 a 1,01 | abandon : 26 poses sans retour a zero
+Lecture : echec des la douzieme pose ; mon point de depart pour chaque nouveau-ne (au milieu de ses voisins) est mauvais.
+
+Un echec de l'optimiseur ne refute rien. Pour l'etat graine 1 a 1 037 constituants, la construction est impossible par la condition (N7) : voir x25quater_cellule_a_deux_cotes.out.

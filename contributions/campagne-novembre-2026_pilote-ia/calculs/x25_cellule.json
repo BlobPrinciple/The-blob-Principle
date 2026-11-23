@@ -1,0 +1,1789 @@
+{
+ "rang_2": {
+  "rang": 2,
+  "paliers": [
+   {
+    "palier": 0,
+    "constituants": 4,
+    "configurations": 1,
+    "naissances": 0,
+    "coincidences": 0
+   },
+   {
+    "palier": 1,
+    "constituants": 8,
+    "configurations": 5,
+    "naissances": 4,
+    "coincidences": 0
+   },
+   {
+    "palier": 2,
+    "constituants": 20,
+    "configurations": 17,
+    "naissances": 12,
+    "coincidences": 0
+   },
+   {
+    "palier": 3,
+    "constituants": 56,
+    "configurations": 53,
+    "naissances": 36,
+    "coincidences": 0
+   },
+   {
+    "palier": 4,
+    "constituants": 164,
+    "configurations": 161,
+    "naissances": 108,
+    "coincidences": 0
+   },
+   {
+    "palier": 5,
+    "constituants": 488,
+    "configurations": 485,
+    "naissances": 324,
+    "coincidences": 0
+   },
+   {
+    "palier": 6,
+    "constituants": 1460,
+    "configurations": 1457,
+    "naissances": 972,
+    "coincidences": 0
+   },
+   {
+    "palier": 7,
+    "constituants": 4376,
+    "configurations": 4373,
+    "naissances": 2916,
+    "coincidences": 0
+   },
+   {
+    "palier": 8,
+    "constituants": 13124,
+    "configurations": 13121,
+    "naissances": 8748,
+    "coincidences": 0
+   }
+  ],
+  "paires": {
+   "constituants": 13124,
+   "contacts": 39366,
+   "contacts_du_germe": 6,
+   "contacts_de_naissance": 39360,
+   "contacts_de_fermeture": 0,
+   "chevauchements": 0,
+   "produit_max_hors_identite": "-1",
+   "exemples": []
+  },
+  "murs": {
+   "duale_duale": "-1",
+   "duale_et_son_occupant_au_carre": "4",
+   "duale_et_constituant_de_sa_cellule": "0",
+   "constituant_constituant": "-1",
+   "cosh_tau_au_carre": "4",
+   "cosh_tau": 2.0,
+   "tau": 1.3169578969248166,
+   "angle_entre_duales_en_degres": 0.0,
+   "tours_pour_fermer": null
+  },
+  "anneau": [
+   {
+    "pas": 2,
+    "naissance": 1,
+    "produit_avec_s0": "-7",
+    "produit_avec_s1": "-1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "None"
+   },
+   {
+    "pas": 3,
+    "naissance": 2,
+    "produit_avec_s0": "-17",
+    "produit_avec_s1": "-7",
+    "produit_avec_le_precedent": "-1",
+    "formule": "None"
+   },
+   {
+    "pas": 4,
+    "naissance": 3,
+    "produit_avec_s0": "-31",
+    "produit_avec_s1": "-17",
+    "produit_avec_le_precedent": "-1",
+    "formule": "None"
+   },
+   {
+    "pas": 5,
+    "naissance": 4,
+    "produit_avec_s0": "-49",
+    "produit_avec_s1": "-31",
+    "produit_avec_le_precedent": "-1",
+    "formule": "None"
+   },
+   {
+    "pas": 6,
+    "naissance": 5,
+    "produit_avec_s0": "-71",
+    "produit_avec_s1": "-49",
+    "produit_avec_le_precedent": "-1",
+    "formule": "None"
+   },
+   {
+    "pas": 7,
+    "naissance": 6,
+    "produit_avec_s0": "-97",
+    "produit_avec_s1": "-71",
+    "produit_avec_le_precedent": "-1",
+    "formule": "None"
+   },
+   {
+    "pas": 8,
+    "naissance": 7,
+    "produit_avec_s0": "-127",
+    "produit_avec_s1": "-97",
+    "produit_avec_le_precedent": "-1",
+    "formule": "None"
+   }
+  ],
+  "anneaux_autour_des_groupes_de_n_des_paliers_0_et_1": {
+   "16": 12,
+   "18": 6
+  },
+  "temps_de_de_sitter_par_palier": [
+   {
+    "palier": 0,
+    "constituants": 4,
+    "tau_min": 0.6584789484624083,
+    "tau_mediane": 0.6584789484624083,
+    "tau_max": 0.6584789484624083
+   },
+   {
+    "palier": 1,
+    "constituants": 4,
+    "tau_min": 1.975436845387225,
+    "tau_mediane": 1.975436845387225,
+    "tau_max": 1.975436845387225
+   },
+   {
+    "palier": 2,
+    "constituants": 12,
+    "tau_min": 2.914468483489463,
+    "tau_mediane": 2.914468483489463,
+    "tau_max": 2.914468483489463
+   },
+   {
+    "palier": 3,
+    "constituants": 36,
+    "tau_min": 3.5662484568512642,
+    "tau_mediane": 3.957856533091865,
+    "tau_max": 3.957856533091865
+   },
+   {
+    "palier": 4,
+    "constituants": 108,
+    "tau_min": 4.060442966363126,
+    "tau_mediane": 4.690463332721177,
+    "tau_max": 5.037963553852434
+   },
+   {
+    "palier": 5,
+    "constituants": 324,
+    "tau_min": 4.457581799857939,
+    "tau_mediane": 5.7264815618424025,
+    "tau_max": 6.092781884436293
+   },
+   {
+    "palier": 6,
+    "constituants": 972,
+    "tau_min": 4.789294043739821,
+    "tau_mediane": 6.661933226805769,
+    "tau_max": 7.154509144461315
+   },
+   {
+    "palier": 7,
+    "constituants": 2916,
+    "tau_min": 5.074000564026736,
+    "tau_mediane": 7.571327261281676,
+    "tau_max": 8.216357565816784
+   },
+   {
+    "palier": 8,
+    "constituants": 8748,
+    "tau_min": 5.323331113065114,
+    "tau_mediane": 8.462990707654138,
+    "tau_max": 9.277332334584283
+   }
+  ],
+  "cot_r_du_germe": 0.7071067811865475
+ },
+ "rang_3": {
+  "rang": 3,
+  "paliers": [
+   {
+    "palier": 0,
+    "constituants": 5,
+    "configurations": 1,
+    "naissances": 0,
+    "coincidences": 0
+   },
+   {
+    "palier": 1,
+    "constituants": 10,
+    "configurations": 6,
+    "naissances": 5,
+    "coincidences": 0
+   },
+   {
+    "palier": 2,
+    "constituants": 30,
+    "configurations": 26,
+    "naissances": 20,
+    "coincidences": 0
+   },
+   {
+    "palier": 3,
+    "constituants": 90,
+    "configurations": 96,
+    "naissances": 60,
+    "coincidences": 10
+   },
+   {
+    "palier": 4,
+    "constituants": 300,
+    "configurations": 336,
+    "naissances": 210,
+    "coincidences": 30
+   },
+   {
+    "palier": 5,
+    "constituants": 990,
+    "configurations": 1146,
+    "naissances": 690,
+    "coincidences": 120
+   },
+   {
+    "palier": 6,
+    "constituants": 3330,
+    "configurations": 3876,
+    "naissances": 2340,
+    "coincidences": 390
+   },
+   {
+    "palier": 7,
+    "constituants": 11160,
+    "configurations": 13056,
+    "naissances": 7830,
+    "coincidences": 1350
+   }
+  ],
+  "paires": {
+   "constituants": 11160,
+   "contacts": 51030,
+   "contacts_du_germe": 10,
+   "contacts_de_naissance": 44620,
+   "contacts_de_fermeture": 6400,
+   "chevauchements": 0,
+   "produit_max_hors_identite": "-1",
+   "exemples": [
+    {
+     "fermeture": [
+      [
+       2,
+       2,
+       2,
+       0,
+       -1
+      ],
+      [
+       2,
+       2,
+       2,
+       -1,
+       0
+      ]
+     ],
+     "paliers": [
+      2,
+      2
+     ]
+    },
+    {
+     "fermeture": [
+      [
+       2,
+       2,
+       0,
+       2,
+       -1
+      ],
+      [
+       2,
+       2,
+       -1,
+       2,
+       0
+      ]
+     ],
+     "paliers": [
+      2,
+      2
+     ]
+    },
+    {
+     "fermeture": [
+      [
+       2,
+       0,
+       2,
+       2,
+       -1
+      ],
+      [
+       2,
+       -1,
+       2,
+       2,
+       0
+      ]
+     ],
+     "paliers": [
+      2,
+      2
+     ]
+    }
+   ]
+  },
+  "murs": {
+   "duale_duale": "-1/2",
+   "duale_et_son_occupant_au_carre": "3",
+   "duale_et_constituant_de_sa_cellule": "0",
+   "constituant_constituant": "-1",
+   "cosh_tau_au_carre": "3",
+   "cosh_tau": 1.7320508075688772,
+   "tau": 1.1462158347805889,
+   "angle_entre_duales_en_degres": 60.00000000000001,
+   "tours_pour_fermer": 5.999999999999999
+  },
+  "anneau": [
+   {
+    "pas": 2,
+    "naissance": 1,
+    "produit_avec_s0": "-5",
+    "produit_avec_s1": "-1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-5"
+   },
+   {
+    "pas": 3,
+    "naissance": 2,
+    "produit_avec_s0": "-7",
+    "produit_avec_s1": "-5",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-7"
+   },
+   {
+    "pas": 4,
+    "naissance": 3,
+    "produit_avec_s0": "-5",
+    "produit_avec_s1": "-7",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-5"
+   },
+   {
+    "pas": 5,
+    "naissance": 4,
+    "produit_avec_s0": "-1",
+    "produit_avec_s1": "-5",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-1"
+   },
+   {
+    "pas": 6,
+    "naissance": 5,
+    "produit_avec_s0": "1",
+    "produit_avec_s1": "-1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "1"
+   },
+   {
+    "pas": 7,
+    "naissance": 6,
+    "produit_avec_s0": "-1",
+    "produit_avec_s1": "1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-1"
+   },
+   {
+    "pas": 8,
+    "naissance": 7,
+    "produit_avec_s0": "-5",
+    "produit_avec_s1": "-1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-5"
+   }
+  ],
+  "anneaux_autour_des_groupes_de_n_des_paliers_0_et_1": {
+   "6": 40
+  },
+  "temps_de_de_sitter_par_palier": [
+   {
+    "palier": 0,
+    "constituants": 5,
+    "tau_min": 0.7127084715353063,
+    "tau_mediane": 0.7127084715353063,
+    "tau_max": 0.7127084715353063
+   },
+   {
+    "palier": 1,
+    "constituants": 5,
+    "tau_min": 1.5797231980258712,
+    "tau_mediane": 1.5797231980258712,
+    "tau_max": 1.5797231980258712
+   },
+   {
+    "palier": 2,
+    "constituants": 20,
+    "tau_min": 2.0634370688955603,
+    "tau_mediane": 2.0634370688955603,
+    "tau_max": 2.0634370688955603
+   },
+   {
+    "palier": 3,
+    "constituants": 60,
+    "tau_min": 2.640063735007773,
+    "tau_mediane": 2.640063735007773,
+    "tau_max": 2.640063735007773
+   },
+   {
+    "palier": 4,
+    "constituants": 210,
+    "tau_min": 2.839055515728778,
+    "tau_mediane": 3.2723863578787373,
+    "tau_max": 3.2723863578787373
+   },
+   {
+    "palier": 5,
+    "constituants": 690,
+    "tau_min": 3.2723863578787373,
+    "tau_mediane": 3.7341423044963693,
+    "tau_max": 3.9346243247586963
+   },
+   {
+    "palier": 6,
+    "constituants": 2340,
+    "tau_min": 3.4832002925442795,
+    "tau_mediane": 4.199159755271139,
+    "tau_max": 4.548720191113741
+   },
+   {
+    "palier": 7,
+    "constituants": 7830,
+    "tau_min": 3.8055252728084126,
+    "tau_mediane": 4.728271989184944,
+    "tau_max": 5.182698001537501
+   }
+  ],
+  "cot_r_du_germe": 0.7745966692414833
+ },
+ "rang_4": {
+  "rang": 4,
+  "paliers": [
+   {
+    "palier": 0,
+    "constituants": 6,
+    "configurations": 1,
+    "naissances": 0,
+    "coincidences": 0
+   },
+   {
+    "palier": 1,
+    "constituants": 12,
+    "configurations": 7,
+    "naissances": 6,
+    "coincidences": 0
+   },
+   {
+    "palier": 2,
+    "constituants": 42,
+    "configurations": 37,
+    "naissances": 30,
+    "coincidences": 0
+   },
+   {
+    "palier": 3,
+    "constituants": 192,
+    "configurations": 187,
+    "naissances": 150,
+    "coincidences": 0
+   },
+   {
+    "palier": 4,
+    "constituants": 942,
+    "configurations": 937,
+    "naissances": 750,
+    "coincidences": 0
+   }
+  ],
+  "paires": {
+   "constituants": 942,
+   "contacts": 4695,
+   "contacts_du_germe": 15,
+   "contacts_de_naissance": 4680,
+   "contacts_de_fermeture": 0,
+   "chevauchements": 7815,
+   "produit_max_hors_identite": "79/81",
+   "exemples": [
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "28/27",
+       "4/81",
+       "4/81",
+       "4/81",
+       "4/81",
+       "-11/81"
+      ]
+     ],
+     "produit": "79/81",
+     "paliers": [
+      0,
+      4
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "28/27",
+       "4/81",
+       "4/81",
+       "4/81",
+       "-11/81",
+       "4/81"
+      ]
+     ],
+     "produit": "79/81",
+     "paliers": [
+      0,
+      4
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "28/27",
+       "4/81",
+       "4/81",
+       "-11/81",
+       "4/81",
+       "4/81"
+      ]
+     ],
+     "produit": "79/81",
+     "paliers": [
+      0,
+      4
+     ]
+    }
+   ]
+  },
+  "murs": {
+   "duale_duale": "-1/3",
+   "duale_et_son_occupant_au_carre": "8/3",
+   "duale_et_constituant_de_sa_cellule": "0",
+   "constituant_constituant": "-1",
+   "cosh_tau_au_carre": "8/3",
+   "cosh_tau": 1.632993161855452,
+   "tau": 1.0729483047346626,
+   "angle_entre_duales_en_degres": 70.52877936550931,
+   "tours_pour_fermer": 5.10429931211954
+  },
+  "anneau": [
+   {
+    "pas": 2,
+    "naissance": 1,
+    "produit_avec_s0": "-13/3",
+    "produit_avec_s1": "-1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-13/3"
+   },
+   {
+    "pas": 3,
+    "naissance": 2,
+    "produit_avec_s0": "-41/9",
+    "produit_avec_s1": "-13/3",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-41/9"
+   },
+   {
+    "pas": 4,
+    "naissance": 3,
+    "produit_avec_s0": "-37/27",
+    "produit_avec_s1": "-41/9",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-37/27"
+   },
+   {
+    "pas": 5,
+    "naissance": 4,
+    "produit_avec_s0": "79/81",
+    "produit_avec_s1": "-37/27",
+    "produit_avec_le_precedent": "-1",
+    "formule": "79/81"
+   },
+   {
+    "pas": 6,
+    "naissance": 5,
+    "produit_avec_s0": "-157/243",
+    "produit_avec_s1": "79/81",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-157/243"
+   },
+   {
+    "pas": 7,
+    "naissance": 6,
+    "produit_avec_s0": "-2969/729",
+    "produit_avec_s1": "-157/243",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-2969/729"
+   },
+   {
+    "pas": 8,
+    "naissance": 7,
+    "produit_avec_s0": "-10357/2187",
+    "produit_avec_s1": "-2969/729",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-10357/2187"
+   }
+  ],
+  "anneaux_autour_des_groupes_de_n_des_paliers_0_et_1": {
+   "8": 60,
+   "10": 15
+  },
+  "premier_chevauchement": [
+   {
+    "naissances": 1,
+    "etats": 6,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 2,
+    "etats": 45,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 3,
+    "etats": 380,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 4,
+    "etats": 3450,
+    "etats_ou_paires_qui_chevauchent": 75,
+    "contacts_hors_naissance": 0,
+    "temoin": {
+     "produit": "79/81",
+     "nouveau_ne": [
+      "5/9",
+      "20/27",
+      "20/27",
+      "-28/27",
+      "20/27",
+      "20/27"
+     ],
+     "autre": [
+      "2/3",
+      "2/3",
+      "2/3",
+      "-1",
+      "2/3",
+      "2/3"
+     ]
+    }
+   }
+  ]
+ },
+ "rang_5": {
+  "rang": 5,
+  "paliers": [
+   {
+    "palier": 0,
+    "constituants": 7,
+    "configurations": 1,
+    "naissances": 0,
+    "coincidences": 0
+   },
+   {
+    "palier": 1,
+    "constituants": 14,
+    "configurations": 8,
+    "naissances": 7,
+    "coincidences": 0
+   },
+   {
+    "palier": 2,
+    "constituants": 56,
+    "configurations": 50,
+    "naissances": 42,
+    "coincidences": 0
+   },
+   {
+    "palier": 3,
+    "constituants": 308,
+    "configurations": 302,
+    "naissances": 252,
+    "coincidences": 0
+   },
+   {
+    "palier": 4,
+    "constituants": 1820,
+    "configurations": 1814,
+    "naissances": 1512,
+    "coincidences": 0
+   }
+  ],
+  "paires": {
+   "constituants": 1820,
+   "contacts": 10899,
+   "contacts_du_germe": 21,
+   "contacts_de_naissance": 10878,
+   "contacts_de_fermeture": 0,
+   "chevauchements": 75012,
+   "produit_max_hors_identite": "59/64",
+   "exemples": [
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "3/4",
+       "3/8",
+       "3/8",
+       "3/8",
+       "3/8",
+       "3/8",
+       "-7/8"
+      ]
+     ],
+     "produit": "-1/4",
+     "paliers": [
+      0,
+      3
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "3/4",
+       "3/8",
+       "3/8",
+       "3/8",
+       "3/8",
+       "-7/8",
+       "3/8"
+      ]
+     ],
+     "produit": "-1/4",
+     "paliers": [
+      0,
+      3
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "3/4",
+       "3/8",
+       "3/8",
+       "3/8",
+       "-7/8",
+       "3/8",
+       "3/8"
+      ]
+     ],
+     "produit": "-1/4",
+     "paliers": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "murs": {
+   "duale_duale": "-1/4",
+   "duale_et_son_occupant_au_carre": "5/2",
+   "duale_et_constituant_de_sa_cellule": "0",
+   "constituant_constituant": "-1",
+   "cosh_tau_au_carre": "5/2",
+   "cosh_tau": 1.5811388300841898,
+   "tau": 1.0317185344477804,
+   "angle_entre_duales_en_degres": 75.52248781407008,
+   "tours_pour_fermer": 4.766792122715677
+  },
+  "anneau": [
+   {
+    "pas": 2,
+    "naissance": 1,
+    "produit_avec_s0": "-4",
+    "produit_avec_s1": "-1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-4"
+   },
+   {
+    "pas": 3,
+    "naissance": 2,
+    "produit_avec_s0": "-7/2",
+    "produit_avec_s1": "-4",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-7/2"
+   },
+   {
+    "pas": 4,
+    "naissance": 3,
+    "produit_avec_s0": "-1/4",
+    "produit_avec_s1": "-7/2",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-1/4"
+   },
+   {
+    "pas": 5,
+    "naissance": 4,
+    "produit_avec_s0": "7/8",
+    "produit_avec_s1": "-1/4",
+    "produit_avec_le_precedent": "-1",
+    "formule": "7/8"
+   },
+   {
+    "pas": 6,
+    "naissance": 5,
+    "produit_avec_s0": "-29/16",
+    "produit_avec_s1": "7/8",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-29/16"
+   },
+   {
+    "pas": 7,
+    "naissance": 6,
+    "produit_avec_s0": "-137/32",
+    "produit_avec_s1": "-29/16",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-137/32"
+   },
+   {
+    "pas": 8,
+    "naissance": 7,
+    "produit_avec_s0": "-181/64",
+    "produit_avec_s1": "-137/32",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-181/64"
+   }
+  ],
+  "anneaux_autour_des_groupes_de_n_des_paliers_0_et_1": {
+   "8": 105,
+   "10": 21
+  },
+  "premier_chevauchement": [
+   {
+    "naissances": 1,
+    "etats": 7,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 2,
+    "etats": 63,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 3,
+    "etats": 644,
+    "etats_ou_paires_qui_chevauchent": 84,
+    "contacts_hors_naissance": 0,
+    "temoin": {
+     "produit": "-1/4",
+     "nouveau_ne": [
+      "-7/8",
+      "3/8",
+      "3/8",
+      "3/4",
+      "3/8",
+      "3/8",
+      "3/8"
+     ],
+     "autre": [
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "0",
+      "0"
+     ]
+    }
+   }
+  ]
+ },
+ "rang_6": {
+  "rang": 6,
+  "paliers": [
+   {
+    "palier": 0,
+    "constituants": 8,
+    "configurations": 1,
+    "naissances": 0,
+    "coincidences": 0
+   },
+   {
+    "palier": 1,
+    "constituants": 16,
+    "configurations": 9,
+    "naissances": 8,
+    "coincidences": 0
+   },
+   {
+    "palier": 2,
+    "constituants": 72,
+    "configurations": 65,
+    "naissances": 56,
+    "coincidences": 0
+   },
+   {
+    "palier": 3,
+    "constituants": 464,
+    "configurations": 457,
+    "naissances": 392,
+    "coincidences": 0
+   }
+  ],
+  "paires": {
+   "constituants": 464,
+   "contacts": 3220,
+   "contacts_du_germe": 28,
+   "contacts_de_naissance": 3192,
+   "contacts_de_fermeture": 0,
+   "chevauchements": 9268,
+   "produit_max_hors_identite": "15527/15625",
+   "exemples": [
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "21/25",
+       "28/125",
+       "28/125",
+       "28/125",
+       "28/125",
+       "28/125",
+       "28/125",
+       "-92/125"
+      ]
+     ],
+     "produit": "29/125",
+     "paliers": [
+      0,
+      3
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "21/25",
+       "28/125",
+       "28/125",
+       "28/125",
+       "28/125",
+       "28/125",
+       "-92/125",
+       "28/125"
+      ]
+     ],
+     "produit": "29/125",
+     "paliers": [
+      0,
+      3
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "21/25",
+       "28/125",
+       "28/125",
+       "28/125",
+       "28/125",
+       "-92/125",
+       "28/125",
+       "28/125"
+      ]
+     ],
+     "produit": "29/125",
+     "paliers": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "murs": {
+   "duale_duale": "-1/5",
+   "duale_et_son_occupant_au_carre": "12/5",
+   "duale_et_constituant_de_sa_cellule": "0",
+   "constituant_constituant": "-1",
+   "cosh_tau_au_carre": "12/5",
+   "cosh_tau": 1.5491933384829668,
+   "tau": 1.0051837456787631,
+   "angle_entre_duales_en_degres": 78.46304096718453,
+   "tours_pour_fermer": 4.588147433013235
+  },
+  "anneau": [
+   {
+    "pas": 2,
+    "naissance": 1,
+    "produit_avec_s0": "-19/5",
+    "produit_avec_s1": "-1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-19/5"
+   },
+   {
+    "pas": 3,
+    "naissance": 2,
+    "produit_avec_s0": "-73/25",
+    "produit_avec_s1": "-19/5",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-73/25"
+   },
+   {
+    "pas": 4,
+    "naissance": 3,
+    "produit_avec_s0": "29/125",
+    "produit_avec_s1": "-73/25",
+    "produit_avec_le_precedent": "-1",
+    "formule": "29/125"
+   },
+   {
+    "pas": 5,
+    "naissance": 4,
+    "produit_avec_s0": "383/625",
+    "produit_avec_s1": "29/125",
+    "produit_avec_le_precedent": "-1",
+    "formule": "383/625"
+   },
+   {
+    "pas": 6,
+    "naissance": 5,
+    "produit_avec_s0": "-7459/3125",
+    "produit_avec_s1": "383/625",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-7459/3125"
+   },
+   {
+    "pas": 7,
+    "naissance": 6,
+    "produit_avec_s0": "-61993/15625",
+    "produit_avec_s1": "-7459/3125",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-61993/15625"
+   },
+   {
+    "pas": 8,
+    "naissance": 7,
+    "produit_avec_s0": "-125011/78125",
+    "produit_avec_s1": "-61993/15625",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-125011/78125"
+   }
+  ],
+  "anneaux_autour_des_groupes_de_n_des_paliers_0_et_1": {
+   "6": 168,
+   "8": 28
+  },
+  "premier_chevauchement": [
+   {
+    "naissances": 1,
+    "etats": 8,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 2,
+    "etats": 84,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 3,
+    "etats": 1008,
+    "etats_ou_paires_qui_chevauchent": 112,
+    "contacts_hors_naissance": 0,
+    "temoin": {
+     "produit": "29/125",
+     "nouveau_ne": [
+      "14/25",
+      "14/25",
+      "14/25",
+      "-21/25",
+      "-2/5",
+      "14/25",
+      "14/25",
+      "14/25"
+     ],
+     "autre": [
+      "2/5",
+      "2/5",
+      "2/5",
+      "-1",
+      "2/5",
+      "2/5",
+      "2/5",
+      "2/5"
+     ]
+    }
+   }
+  ]
+ },
+ "rang_7": {
+  "rang": 7,
+  "paliers": [
+   {
+    "palier": 0,
+    "constituants": 9,
+    "configurations": 1,
+    "naissances": 0,
+    "coincidences": 0
+   },
+   {
+    "palier": 1,
+    "constituants": 18,
+    "configurations": 10,
+    "naissances": 9,
+    "coincidences": 0
+   },
+   {
+    "palier": 2,
+    "constituants": 90,
+    "configurations": 82,
+    "naissances": 72,
+    "coincidences": 0
+   },
+   {
+    "palier": 3,
+    "constituants": 666,
+    "configurations": 658,
+    "naissances": 576,
+    "coincidences": 0
+   }
+  ],
+  "paires": {
+   "constituants": 666,
+   "contacts": 5292,
+   "contacts_du_germe": 36,
+   "contacts_de_naissance": 5256,
+   "contacts_de_fermeture": 0,
+   "chevauchements": 18396,
+   "produit_max_hors_identite": "631/729",
+   "exemples": [
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "8/9",
+       "4/27",
+       "4/27",
+       "4/27",
+       "4/27",
+       "4/27",
+       "4/27",
+       "4/27",
+       "-17/27"
+      ]
+     ],
+     "produit": "13/27",
+     "paliers": [
+      0,
+      3
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "8/9",
+       "4/27",
+       "4/27",
+       "4/27",
+       "4/27",
+       "4/27",
+       "4/27",
+       "-17/27",
+       "4/27"
+      ]
+     ],
+     "produit": "13/27",
+     "paliers": [
+      0,
+      3
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "8/9",
+       "4/27",
+       "4/27",
+       "4/27",
+       "4/27",
+       "4/27",
+       "-17/27",
+       "4/27",
+       "4/27"
+      ]
+     ],
+     "produit": "13/27",
+     "paliers": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "murs": {
+   "duale_duale": "-1/6",
+   "duale_et_son_occupant_au_carre": "7/3",
+   "duale_et_constituant_de_sa_cellule": "0",
+   "constituant_constituant": "-1",
+   "cosh_tau_au_carre": "7/3",
+   "cosh_tau": 1.5275252316519468,
+   "tau": 0.9866469610448342,
+   "angle_entre_duales_en_degres": 80.40593177313954,
+   "tours_pour_fermer": 4.477281614193815
+  },
+  "anneau": [
+   {
+    "pas": 2,
+    "naissance": 1,
+    "produit_avec_s0": "-11/3",
+    "produit_avec_s1": "-1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-11/3"
+   },
+   {
+    "pas": 3,
+    "naissance": 2,
+    "produit_avec_s0": "-23/9",
+    "produit_avec_s1": "-11/3",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-23/9"
+   },
+   {
+    "pas": 4,
+    "naissance": 3,
+    "produit_avec_s0": "13/27",
+    "produit_avec_s1": "-23/9",
+    "produit_avec_le_precedent": "-1",
+    "formule": "13/27"
+   },
+   {
+    "pas": 5,
+    "naissance": 4,
+    "produit_avec_s0": "31/81",
+    "produit_avec_s1": "13/27",
+    "produit_avec_le_precedent": "-1",
+    "formule": "31/81"
+   },
+   {
+    "pas": 6,
+    "naissance": 5,
+    "produit_avec_s0": "-653/243",
+    "produit_avec_s1": "31/81",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-653/243"
+   },
+   {
+    "pas": 7,
+    "naissance": 6,
+    "produit_avec_s0": "-2633/729",
+    "produit_avec_s1": "-653/243",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-2633/729"
+   },
+   {
+    "pas": 8,
+    "naissance": 7,
+    "produit_avec_s0": "-1859/2187",
+    "produit_avec_s1": "-2633/729",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-1859/2187"
+   }
+  ],
+  "anneaux_autour_des_groupes_de_n_des_paliers_0_et_1": {
+   "6": 252,
+   "8": 36
+  },
+  "premier_chevauchement": [
+   {
+    "naissances": 1,
+    "etats": 9,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 2,
+    "etats": 108,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 3,
+    "etats": 1488,
+    "etats_ou_paires_qui_chevauchent": 144,
+    "contacts_hors_naissance": 0,
+    "temoin": {
+     "produit": "13/27",
+     "nouveau_ne": [
+      "4/9",
+      "-1/3",
+      "4/9",
+      "4/9",
+      "4/9",
+      "-8/9",
+      "4/9",
+      "4/9",
+      "4/9"
+     ],
+     "autre": [
+      "1/3",
+      "1/3",
+      "1/3",
+      "1/3",
+      "1/3",
+      "-1",
+      "1/3",
+      "1/3",
+      "1/3"
+     ]
+    }
+   }
+  ]
+ },
+ "rang_8": {
+  "rang": 8,
+  "paliers": [
+   {
+    "palier": 0,
+    "constituants": 10,
+    "configurations": 1,
+    "naissances": 0,
+    "coincidences": 0
+   },
+   {
+    "palier": 1,
+    "constituants": 20,
+    "configurations": 11,
+    "naissances": 10,
+    "coincidences": 0
+   },
+   {
+    "palier": 2,
+    "constituants": 110,
+    "configurations": 101,
+    "naissances": 90,
+    "coincidences": 0
+   },
+   {
+    "palier": 3,
+    "constituants": 920,
+    "configurations": 911,
+    "naissances": 810,
+    "coincidences": 0
+   }
+  ],
+  "paires": {
+   "constituants": 920,
+   "contacts": 8235,
+   "contacts_du_germe": 45,
+   "contacts_de_naissance": 8190,
+   "contacts_de_fermeture": 0,
+   "chevauchements": 46755,
+   "produit_max_hors_identite": "109457/117649",
+   "exemples": [
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "45/49",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "-188/343"
+      ]
+     ],
+     "produit": "215/343",
+     "paliers": [
+      0,
+      3
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "45/49",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "-188/343",
+       "36/343"
+      ]
+     ],
+     "produit": "215/343",
+     "paliers": [
+      0,
+      3
+     ]
+    },
+    {
+     "chevauchement": [
+      [
+       "1",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0",
+       "0"
+      ],
+      [
+       "45/49",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "36/343",
+       "-188/343",
+       "36/343",
+       "36/343"
+      ]
+     ],
+     "produit": "215/343",
+     "paliers": [
+      0,
+      3
+     ]
+    }
+   ]
+  },
+  "murs": {
+   "duale_duale": "-1/7",
+   "duale_et_son_occupant_au_carre": "16/7",
+   "duale_et_constituant_de_sa_cellule": "0",
+   "constituant_constituant": "-1",
+   "cosh_tau_au_carre": "16/7",
+   "cosh_tau": 1.5118578920369088,
+   "tau": 0.9729550745276565,
+   "angle_entre_duales_en_degres": 81.78678929826181,
+   "tours_pour_fermer": 4.401688867955732
+  },
+  "anneau": [
+   {
+    "pas": 2,
+    "naissance": 1,
+    "produit_avec_s0": "-25/7",
+    "produit_avec_s1": "-1",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-25/7"
+   },
+   {
+    "pas": 3,
+    "naissance": 2,
+    "produit_avec_s0": "-113/49",
+    "produit_avec_s1": "-25/7",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-113/49"
+   },
+   {
+    "pas": 4,
+    "naissance": 3,
+    "produit_avec_s0": "215/343",
+    "produit_avec_s1": "-113/49",
+    "produit_avec_le_precedent": "-1",
+    "formule": "215/343"
+   },
+   {
+    "pas": 5,
+    "naissance": 4,
+    "produit_avec_s0": "479/2401",
+    "produit_avec_s1": "215/343",
+    "produit_avec_le_precedent": "-1",
+    "formule": "479/2401"
+   },
+   {
+    "pas": 6,
+    "naissance": 5,
+    "produit_avec_s0": "-47993/16807",
+    "produit_avec_s1": "479/2401",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-47993/16807"
+   },
+   {
+    "pas": 7,
+    "naissance": 6,
+    "produit_avec_s0": "-388369/117649",
+    "produit_avec_s1": "-47993/16807",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-388369/117649"
+   },
+   {
+    "pas": 8,
+    "naissance": 7,
+    "produit_avec_s0": "-307465/823543",
+    "produit_avec_s1": "-388369/117649",
+    "produit_avec_le_precedent": "-1",
+    "formule": "-307465/823543"
+   }
+  ],
+  "anneaux_autour_des_groupes_de_n_des_paliers_0_et_1": {
+   "6": 360,
+   "8": 45
+  },
+  "premier_chevauchement": [
+   {
+    "naissances": 1,
+    "etats": 10,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 2,
+    "etats": 135,
+    "etats_ou_paires_qui_chevauchent": 0,
+    "contacts_hors_naissance": 0,
+    "temoin": null
+   },
+   {
+    "naissances": 3,
+    "etats": 2100,
+    "etats_ou_paires_qui_chevauchent": 180,
+    "contacts_hors_naissance": 0,
+    "temoin": {
+     "produit": "215/343",
+     "nouveau_ne": [
+      "2/7",
+      "2/7",
+      "2/7",
+      "2/7",
+      "2/7",
+      "2/7",
+      "2/7",
+      "2/7",
+      "-1",
+      "2/7"
+     ],
+     "autre": [
+      "18/49",
+      "18/49",
+      "18/49",
+      "18/49",
+      "-2/7",
+      "18/49",
+      "18/49",
+      "18/49",
+      "-45/49",
+      "18/49"
+     ]
+    }
+   }
+  ]
+ },
+ "exposant_rang_3": {
+  "borne": 128,
+  "constituants": 37071,
+  "comptage": [
+   {
+    "courbure_max": 8,
+    "constituants": 44
+   },
+   {
+    "courbure_max": 16,
+    "constituants": 212
+   },
+   {
+    "courbure_max": 32,
+    "constituants": 1214
+   },
+   {
+    "courbure_max": 64,
+    "constituants": 6662
+   },
+   {
+    "courbure_max": 128,
+    "constituants": 37070
+   }
+  ],
+  "pentes_successives": [
+   2.2684888359259014,
+   2.517632251692483,
+   2.4561869324186705,
+   2.4762248560321654
+  ],
+  "exposant_ajuste_de_32_a_la_borne": 2.4662058942254155,
+  "valeur_de_la_litterature": 2.473946
+ },
+ "duree_s": 182.7
+}
