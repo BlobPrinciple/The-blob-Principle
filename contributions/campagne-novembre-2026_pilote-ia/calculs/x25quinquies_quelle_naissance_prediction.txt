@@ -1,0 +1,19 @@
+X-25 quinquies -- QUELLE NAISSANCE LE MOTEUR COMPLET DE L'AUTEUR PRATIQUE-T-IL ? PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-23 06:23:09 UTC)
+
+ETAT DES CONNAISSANCES AU MOMENT D'ECRIRE. X-25 A, bis, B, ter et quater sont lus. Je viens de lire les lignes 164 a 182 du source de l'auteur (<< blob ablation labo
+colab.py >>) : a chaque mitose, un parent est choisi, le nouveau-ne est pose pres de lui, et il est lie aux int(kappa) = 6 plus proches parmi le parent et les voisins
+du parent situes a moins de 0,32 ; s'il y en a moins de deux, au parent seul. LECTURE DU SOURCE, sans calcul : ce n'est ni la mitose de l'arete (X-24) ni la
+naissance dans la cellule (X-25) ; c'est une mitose du constituant avec heritage : le nouveau-ne est lie a son parent et herite d'une partie de ses liens. C'est la
+parole de l'auteur du 12 novembre : << les descendants sont lies et heritent des liens du parent >> (<< je pense que oui, a tester >>). Aucun comptage n'est fait.
+
+MESURE. Une ligne d'enregistrement est ajoutee au source par remplacement de texte compte (apres le choix des liens du nouveau-ne) ; elle ne tire aucun nombre au
+hasard et ne change aucun etat. Controle zero : les empreintes des liens des quatre etats de reference de X-24 B doivent etre retrouvees. Pour chaque naissance :
+nombre k de constituants auxquels le nouveau-ne est lie, nombre de liens entre eux a cet instant, groupe complet ou non.
+
+PREDICTIONS (quatre etats de reference : quatre forces, kappa = 6,6, graines 1 et 2, 660 et 1 037 constituants)
+U1. Controle zero : 4 empreintes sur 4 retrouvees.
+U2. Plus de 60 % des naissances lient le nouveau-ne a cinq ou six constituants.
+U3. Moins de 15 % des naissances lient le nouveau-ne a un groupe complet (tous lies entre eux) d'au moins trois constituants ; moins de 3 % a un groupe complet de
+    quatre exactement, c'est-a-dire une naissance dans une cellule au sens de X-25.
+U4. Le parent fait partie des constituants lies dans plus de 90 % des naissances.
+Si U3 est fausse dans l'autre sens (la plupart des naissances se font dans un groupe complet), le moteur pratique de fait la naissance de X-25.
