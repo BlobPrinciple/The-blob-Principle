@@ -1,0 +1,100 @@
+X-27 — LA MITOSE D'UN CONSTITUANT AVEC HÉRITAGE, LUE COMME UN CONTACT
+PRÉDICTION SCELLÉE AVANT CALCUL
+Claude, pilote IA et contre-auditeur, 23 novembre 2026. Auteur du Blob Principle : Rudolphe Mirante.
+
+TOE 0/7. Aucun verrou fermé.
+
+PAROLE DE L'AUTEUR (23 novembre, 8 h 55, heure de Paris)
+« Go », en réponse à la suite proposée au carnet X-26, section 260 : éprouver dans la lecture de contact la
+réalisation de la mitose que pratique son moteur complet, celle d'un constituant dont le nouveau-né hérite
+des liens.
+
+OBJET
+Le registre (VALIDATION_DE_LA_COSMOGONIE.md, section 5) nomme le premier manque : une seule réalisation de la
+mitose tenue de bout en bout. Le tissu de contact de X-25 repose sur une lecture posée, « la naissance a lieu
+dans la cellule ». Question : cette lecture peut-elle être remplacée par la parole de l'auteur du 12 novembre,
+« les descendants sont liés et héritent des liens du parent » ? Et le moteur complet pratique-t-il la
+naissance qui en sort ?
+
+CE QUI EST FAIT AVANT D'ÉCRIRE CECI
+Calculs à la main (K18, K19, le rang 2). Relecture du programme et de la sortie de X-25 quinquies : j'y ai
+vu, pour un état du moteur, la répartition du nombre de liens par naissance (15, 16, 40, 51, 51, 187 pour
+1 à 6 liens) et les parts déjà publiées. Aucun programme de X-27 n'est lancé.
+
+LECTURES (les miennes)
+C1, C2 de X-24 et X-25 : un lien est un contact ; les constituants sont ronds et ne se chevauchent pas.
+C7, reprise de X-24 : à chaque naissance, la forme du tissu reste fixée par ses seuls contacts.
+La lecture C5 de X-25 (naissance dans la cellule) n'est PAS posée ici.
+Parole de l'auteur prise comme règle : le nouveau-né est lié à son parent et hérite de liens du parent.
+
+DÉFINITION
+Naissance héritée et fixée : un nouveau-né rond qui (1) touche son parent ; (2) touche des voisins de son
+parent ; (3) ne chevauche aucun constituant ; (4) a sa place fixée par ses contacts. Au rang 3, dès que le
+tissu compte quatre constituants indépendants, (4) veut dire : il touche quatre constituants indépendants,
+dont son parent et trois voisins du parent. Deux places au plus ont alors ces quatre contacts.
+Place admissible : une place où une telle naissance est possible. Place sans cellule : place admissible qui
+n'est le côté d'aucune cellule (ses contacts ne contiennent aucun groupe de quatre tous liés).
+Empilement : l'empilement complet né d'un germe de cinq constituants tous liés (celui de X-25).
+
+ÉNONCÉS
+K18 [à démontrer]. Du premier au cinquième constituant, la forme n'est fixée que si le nouveau-né hérite de
+    tous les liens : un, deux, trois, quatre, cinq constituants tous liés. Au rang 3 il ne peut pas y en
+    avoir six.
+K19 [à démontrer]. Au rang 2, quel que soit l'ordre des naissances, toute place admissible est le côté d'une
+    cellule : la naissance dans la cellule y découle des lectures C1, C2, C7 et de la parole de l'auteur.
+K20 [conjecture à éprouver]. Au rang 3, quel que soit l'ordre des naissances, toute place admissible
+    appartient à l'empilement. Le tissu ne peut pas en sortir. Si c'est vrai, la naissance dans la cellule
+    cesse d'être une lecture posée, et l'ordre des naissances ne change pas ce qui peut exister.
+K21 [à exhiber]. Au rang 3, contrairement au rang 2, il existe des places sans cellule (dans l'empilement).
+
+PRÉDICTIONS CHIFFRÉES
+
+A. Tous les tissus atteignables depuis le germe en cinq naissances au plus (six si le calcul tient),
+   toutes les places admissibles de chacun
+M1. Aucune place admissible hors de l'empilement : ni irrationnelle, ni rationnelle non entière, ni entière
+    hors de l'empilement.
+M2. Aucune place sans cellule.
+
+B. Croissances longues (toutes les places admissibles contrôlées à chaque naissance)
+M3. Ordre tiré au hasard, 20 graines, 70 naissances : aucune place hors de l'empilement.
+M4. Ordre adverse (une place sans cellule est prise dès qu'il en existe une), 20 graines, 70 naissances :
+    aucune place hors de l'empilement.
+M5. Croissance tenue dans une couche (constituants touchant deux mêmes constituants liés), ordre adverse
+    (la place la moins attachée d'abord), 20 graines, 40 naissances : aucune place hors de l'empilement ;
+    des places sans cellule apparaissent dans au moins 15 graines sur 20.
+M6. Ordre tiré au hasard sans contrainte : des places sans cellule apparaissent dans au moins 3 graines sur 20.
+
+C. Règle à la lettre de X-25 (toutes les cellules enfantent ensemble), germe, paliers 0 à 3
+M7. Les places admissibles sont exactement les côtés libres des cellules de surface. Aucune place sans cellule.
+
+D. Le moteur complet de l'auteur (quatre états de référence de X-24 et X-25, empreintes contrôlées)
+M8. Contrôle (lu dans le code de l'auteur, fonction vg) : tous les liens d'un nouveau-né vont à son parent
+    ou à des voisins de son parent, dans 100 % des naissances.
+M9. Part des naissances où le nouveau-né est lié à son parent et à trois voisins du parent au moins :
+    entre 70 % et 88 %.
+M10. Part des naissances où le nouveau-né est lié aux quatre membres d'un groupe de quatre tous liés
+    (naissance dans une cellule, au sens des liens) : entre 45 % et 70 %.
+M11. Part des naissances où le nouveau-né est lié aux cinq membres d'un groupe de cinq tous liés (ce qu'un
+    tissu de contact de rang 3 interdit) : entre 4 % et 20 %.
+
+E. L'empilement, règle à la lettre, paliers 1 à 6
+M12. Nombre moyen de constituants auxquels un nouveau-né est lié à la fin de son palier : entre 4,70 et 4,85
+    aux paliers 5 et 6 (calcul à la main : 4,80 et 4,75) ; dont 4,10 à 4,20 liens à des constituants plus
+    anciens.
+    Moteur complet, déjà mesuré : 4,60 à 4,86.
+
+VERDICT ATTENDU
+K20 vraie dans tous les essais, sans démonstration. La naissance dans la cellule ne serait alors plus posée :
+elle sortirait de « lié au parent, hérite de ses liens » et de la forme fixée par les contacts, à l'ordre
+près. Le moteur complet pratique cette naissance dans une moitié environ de ses naissances, et en pratique
+d'autres qu'un tissu de contact interdit. V1 ne bouge pas. TOE 0/7.
+
+CE QUI ME DONNERAIT TORT
+Une seule place admissible hors de l'empilement : le tissu pourrait alors en sortir, la naissance dans la
+cellule resterait une lecture de plus, et l'ordre des naissances compterait.
+
+CE QUE CELA NE DONNERA PAS
+Ni temps, ni matière, ni loi. La rondeur reste posée. C7 est une lecture. Si K20 n'est que constatée, ce
+n'est pas un théorème.
+
+TOE 0/7. Aucun verrou fermé.
