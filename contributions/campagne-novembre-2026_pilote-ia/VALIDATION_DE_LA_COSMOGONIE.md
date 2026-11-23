@@ -4,6 +4,8 @@
 
 **Parole de l'auteur (23 novembre, 8 h 02, heure de Paris ; orthographe normalisée) :** « Continue et concentre-toi sur la validation complète de la cosmogonie. »
 
+**Mise à jour du 23 novembre, après X-27.** Les lignes B14, D8 et G3 changent de texte ; aucune ne change d'état, les comptes sont inchangés. Les sections 4 et 5 reçoivent chacune une phrase.
+
 **TOE 0/7. Aucun verrou fermé.**
 
 ## 1. Verdict
@@ -58,7 +60,7 @@ Les numéros C- et X- renvoient aux carnets et à `VERROUILLAGE_TOE_V2.md`, qui 
 | B11 | « La mitose est emprisonnée dans la structure fermée » | Sous condition | Règle généalogique sélectionnée dans une famille de 15 552 (C-136c, C-137c) | tient : une cellule dont les deux côtés sont occupés n'enfante plus (X-25) |
 | B12 | « Symbiose entre porteurs en décalage » | Établi | Aucun fil entre porteurs du même âge (C-136c) | — |
 | B13 | Le tétraèdre, première fermeture, donne les trois dimensions | Sous condition | Cinq énoncés conditionnels (C-135c, X-23, X-24, X-25, X-26) ; aucun ne dérive ses lectures | tient, sous ses lectures : le rang 3 est le plus grand qui ne se chevauche pas (X-25) |
-| B14 | Les descendants sont liés et héritent des liens du parent | Établi | Seule loi de la famille éprouvée qui ferme (C-138c) ; le moteur complet la pratique (X-25) | ne tient pas à la lettre : le nouveau-né est lié aux quatre membres de la cellule, sans parent unique |
+| B14 | Les descendants sont liés et héritent des liens du parent | Établi | Seule loi de la famille éprouvée qui ferme (C-138c) ; le moteur complet la pratique (X-25), dans toutes ses naissances (X-27) | ne tient pas à la lettre : le nouveau-né est lié aux quatre membres de la cellule, sans parent unique ; au rang 2 l'héritage impose la naissance dans la cellule, au rang 3 non (X-27, contre-exemple exact) |
 | B15 | La première fermeture bloque la mitose ; usure, effondrement, reprise | Sous condition | Cycle obtenu en automate, sans espace (C-140c) | tient en partie : le blocage ; ni usure ni reprise |
 | B16 | Le lien usé se divise (« il y a clairement les deux ») | Sous condition | Un seul tissu en automate ; localité perdue (C-141c) | — |
 | B17 | « Cette fréquence est ce qui use les liens » | Sous condition | Quatre critères sur cinq en automate ; capacité de liens posée (C-142c) | — |
@@ -113,7 +115,7 @@ Les numéros C- et X- renvoient aux carnets et à `VERROUILLAGE_TOE_V2.md`, qui 
 | D5 | Complémentarité des lois locales | Sous condition | Sur exemples (C-57, C-59, C-60) | — |
 | D6 | Le coût d'une naissance | Établi | Borne 6,1694 dans l'action canonique (C-58, C-123) | — |
 | D7 | « La première bonne solution est validée » | Sous condition | Fausse comme règle universelle ; vraie au-dessus d'un seuil de coût (BP-S1c) | — |
-| D8 | « La viabilité teste toutes les possibilités et est exempte de temps » | Sous condition | Définition formelle proposée ; seule, elle ne donne ni la mitose, ni le volume, ni une prédiction (C-210, C-211c) | tient en partie : des rangs, seuls 2 et 3 continuent sans chevauchement (X-25) |
+| D8 | « La viabilité teste toutes les possibilités et est exempte de temps » | Sous condition | Définition formelle proposée ; seule, elle ne donne ni la mitose, ni le volume, ni une prédiction (C-210, C-211c) | tient en partie : des rangs, seuls 2 et 3 continuent sans chevauchement (X-25) ; au rang 3, un tissu qui laisse vides des places libres peut sortir de l'empilement, et la règle où toutes les cellules enfantent ensemble n'offre que des côtés de cellule, paliers 0 à 3 (X-27) |
 | D9 | « Il faut dériver toutes ses lois » | Ouvert | Aucune loi physique dérivée | — |
 | D10 | Le sens est le constat des informations empilées et retenues | Ouvert | Non traduit | — |
 | D11 | Sa règle prédit « du simplexe au complexe ! Donc tout ! » | Ouvert | Aucune prédiction dérivée de la règle | — |
@@ -151,7 +153,7 @@ Les numéros C- et X- renvoient aux carnets et à `VERROUILLAGE_TOE_V2.md`, qui 
 |---|---|---|---|---|
 | G1 | d★ = 5,1043 dans l'action du master | Sous condition | Zéro exact de l'énergie d'une couronne sous la règle U (C-176c) ; encadré par trois cristaux réels (C-189Dc, C-190c) | tient en partie : comme nombre, les places qu'il faudrait à l'anneau du rang 4 (X-25) |
 | G2 | Le terme en b empêche la condensation | Sous condition | Vrai dans les deux moteurs du corpus (C-180c, C-181c) ; ce n'est pas un tissu à trois dimensions | — |
-| G3 | Le moteur complet de l'auteur | Mesuré | Gelé à l'étage 3 (X-23, X-24) ; respecte presque partout les conditions du contact de rang 3 (X-25) ; clairsemé, peu de volumes (C-204c) | ne tient pas : la construction d'un tissu de contact à partir de ses liens a échoué, et elle est impossible pour un état sur quatre (X-25) |
+| G3 | Le moteur complet de l'auteur | Mesuré | Gelé à l'étage 3 (X-23, X-24) ; respecte presque partout les conditions du contact de rang 3 (X-25) ; clairsemé, peu de volumes (C-204c) ; hérite dans toutes ses naissances, naît dans une cellule dans 36 à 43 % des cas, et dans 10 à 15 % fait ce que le contact de rang 3 interdit (X-27) | ne tient pas : la construction d'un tissu de contact à partir de ses liens a échoué, et elle est impossible pour un état sur quatre (X-25) |
 
 ### H. Prédictions
 
@@ -169,7 +171,7 @@ Il porte ensemble, sans distance posée : le contact, le non-chevauchement à to
 
 Il ne porte pas : le parent qui devient deux filles ; N = 2^g ; l'héritage des liens d'un parent unique ; l'effacement du point de départ ; la persistance du bain ; le temps ; le partage arête, triangle, tétraèdre ; le moteur complet de l'auteur. Et rien de ce qui touche l'énergie, la matière, la gravité, le quantique, les masses, la jauge.
 
-Trois réserves. Ses trois lectures sont posées, non dérivées de la cosmogonie. La rondeur des constituants est une hypothèse forte. Ce qu'il établit est de la géométrie connue des empilements de sphères, appliquée à une lecture : ce n'est pas une démonstration du Blob.
+Trois réserves. Ses trois lectures sont posées, non dérivées de la cosmogonie. X-27 l'a éprouvé pour la troisième : au rang 2, la naissance dans la cellule découle de l'héritage des liens et de la forme fixée par les contacts ; au rang 3 elle n'en découle pas, sauf à poser en plus qu'aucune place libre n'est laissée de côté, ce qui n'est que constaté. La rondeur des constituants est une hypothèse forte. Ce qu'il établit est de la géométrie connue des empilements de sphères, appliquée à une lecture : ce n'est pas une démonstration du Blob.
 
 ### La trame régulière née de la division de l'arête (rappel de la grille ; compte non refait)
 
@@ -179,11 +181,11 @@ Elle ne porte pas : l'espace né des seuls contacts (les trois dimensions et les
 
 ### Où ils s'excluent
 
-Sur la réalisation de la mitose. Dans la trame régulière, un porteur naît sur un fil et chaque cellule voisine se divise en deux. Dans le tissu de contact, un constituant naît dans une cellule, qui devient quatre. Le moteur complet de l'auteur en pratique une troisième : la mitose d'un constituant, dont le nouveau-né hérite des liens (X-25). Aucun des deux modèles n'est le moteur de l'auteur.
+Sur la réalisation de la mitose. Dans la trame régulière, un porteur naît sur un fil et chaque cellule voisine se divise en deux. Dans le tissu de contact, un constituant naît dans une cellule, qui devient quatre. Le moteur complet de l'auteur en pratique une troisième : la mitose d'un constituant, dont le nouveau-né hérite des liens (X-25). Lue comme un contact (X-27), cette troisième redonne la naissance dans la cellule au rang 2 et ne la redonne pas au rang 3. Aucun des deux modèles n'est le moteur de l'auteur.
 
 ## 5. Ce qui manque pour une validation complète, dans l'ordre
 
-1. **Une seule réalisation de la mitose.** La définition de l'auteur est une ; ce sont ses réalisations dans les calculs qui diffèrent : la division de l'arête, la naissance dans la cellule, la mitose d'un constituant avec héritage (celle du moteur complet). Chacune valide des principes que les autres contredisent. Tant qu'une seule n'est pas tenue de bout en bout, aucun modèle ne peut porter toute la cosmogonie.
+1. **Une seule réalisation de la mitose.** La définition de l'auteur est une ; ce sont ses réalisations dans les calculs qui diffèrent : la division de l'arête, la naissance dans la cellule, la mitose d'un constituant avec héritage (celle du moteur complet). Chacune valide des principes que les autres contredisent. Tant qu'une seule n'est pas tenue de bout en bout, aucun modèle ne peut porter toute la cosmogonie. X-27 a éprouvé la troisième dans la lecture de contact : au rang 2 elle se ramène à la deuxième, quel que soit l'ordre des naissances ; au rang 3 non, un contre-exemple exact le montre.
 2. **Le temps.** Aucun modèle ne donne une durée. Sans lui : ni cadence, ni dynamique, ni causalité, ni gravitation.
 3. **Ce que la matière émet et qui se conserve.** C'est la condition de la loi en 1/r et de la loi de frein.
 4. **Une interaction de mesure.** Sans elle, la règle de Born reste hors d'atteinte.

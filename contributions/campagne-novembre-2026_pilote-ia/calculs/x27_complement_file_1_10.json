@@ -1,0 +1,152 @@
+[
+ {
+  "strategie": "file d'attente",
+  "graine": 1,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 34.2
+ },
+ {
+  "strategie": "file d'attente",
+  "graine": 2,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 20.4
+ },
+ {
+  "strategie": "file d'attente",
+  "graine": 3,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 9.3
+ },
+ {
+  "strategie": "file d'attente",
+  "graine": 4,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 1.3
+ },
+ {
+  "strategie": "file d'attente",
+  "graine": 5,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 20.3
+ },
+ {
+  "strategie": "file d'attente",
+  "graine": 6,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 11.8
+ },
+ {
+  "strategie": "file d'attente",
+  "graine": 7,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 1.8
+ },
+ {
+  "strategie": "file d'attente",
+  "graine": 8,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 1.4
+ },
+ {
+  "strategie": "file d'attente",
+  "graine": 9,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 1.8
+ },
+ {
+  "strategie": "file d'attente",
+  "graine": 10,
+  "naissances": 70,
+  "quadruples_examines": 46564,
+  "places_admissibles_rencontrees": 295,
+  "par_classe": {
+   "empilement": 295
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "plus_longue_attente_d_une_place_en_naissances": 52,
+  "places_sans_cellule_a_la_fin": 0,
+  "duree_s": 1.7
+ }
+]

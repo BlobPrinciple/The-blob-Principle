@@ -9,9 +9,11 @@
      l'univers et chacune de ses solutions x qui n'est PAS dans l'empilement : x chevauche certains constituants de l'univers (ensemble O) ; si O ne contient aucun
      constituant du germe, on fait croitre un tissu depuis le germe en prenant toutes les places admissibles de l'univers hors de O, jusqu'a epuisement ; si les
      quatre contacts de x finissent tous dans ce tissu, x y est une place admissible hors de l'empilement : contre-exemple. Recherche, non preuve (l'univers est borne).
-Usage : python3 x27_complement.py | python3 x27_complement.py mixte graine_debut graine_fin | python3 x27_complement.py cible g [budget_s]
+ (5) FILE D'ATTENTE, ajoutee apres le contre-exemple a K20 : on occupe toujours la place libre depuis le plus longtemps ; aucune place n'est laissee de cote.
+ (6) GENRE des places sans cellule des croissances en couche : sont-elles toutes couvertes par K20a ?
+Usage : python3 x27_complement.py | python3 x27_complement.py mixte graine_debut graine_fin | python3 x27_complement.py cible g [budget_s] | python3 x27_complement.py file graine_debut graine_fin | python3 x27_complement.py genre graine_debut graine_fin
 Meme outil que x27_mitose_avec_heritage.py, importe tel quel.     Claude, 23 novembre 2026."""
-import json, os, random
+import itertools, json, os, random
 import x27_mitose_avec_heritage as m
 from x25bis_naissances_et_fermetures import Tissu
 
@@ -79,6 +81,48 @@ def mixte(graine, n_couche=25, n_libre=45):
                 naissances_dans_une_place_sans_cellule=nais_sans, deux_places=quadruples_a_deux_places(T), duree_s=round(time.time() - t0, 1))
 
 
+def file_d_attente(graine, naissances=70):
+    """Ajout fait apres le contre-exemple a K20 : ordre ou l'on occupe toujours la place libre depuis le plus longtemps (a egalite, tirage au hasard).
+    Aucune place libre n'y est laissee de cote. Toutes les places admissibles sont controlees a chaque naissance."""
+    import time
+    rng = random.Random(graine); T = m.Tissu27(m.G5); t0 = time.time(); vue_a = {}; attente_max = 0
+    for k in range(naissances):
+        cles = sorted((c for c in T.places if T.vues[c] == 'empilement'), key=repr)
+        for c in cles: vue_a.setdefault(c, k)
+        plus_vieux = min(vue_a[c] for c in cles); choix = [c for c in cles if vue_a[c] == plus_vieux]
+        c = rng.choice(choix); attente_max = max(attente_max, k - vue_a[c]); T.naissance(c)
+    b = m.bilan_des_vues(T.vues)
+    return dict(strategie='file d\'attente', graine=graine, naissances=len(T.S) - 5, quadruples_examines=len(T.quads), places_admissibles_rencontrees=len(T.vues), par_classe=b,
+                hors_de_l_empilement=sum(v for c, v in b.items() if c != 'empilement'), exemples_hors=T.hors[:5], plus_longue_attente_d_une_place_en_naissances=attente_max,
+                places_sans_cellule_a_la_fin=sum(1 for c in T.places if T.vues[c] == 'empilement' and T.sans_cellule(c)), duree_s=round(time.time() - t0, 1))
+
+
+def genre_des_places_sans_cellule(g0, g1, naissances=40):
+    """Ajout : dans les croissances en couche de la partie B (memes tirages), chaque place sans cellule est-elle du genre couvert par K20a, c'est-a-dire
+    a-t-elle parmi ses contacts deux constituants lies a et b et deux autres lies a la fois a a et a b ?"""
+    def genre(T, cle):
+        c = sorted(T.places[cle][1])
+        for a, b in itertools.combinations(c, 2):
+            if b in T.adj[a] and sum(1 for r in c if r not in (a, b) and r in T.adj[a] and r in T.adj[b]) >= 2: return True
+        return False
+    tot = k20a = 0; autres = []
+    for graine in range(g0, g1 + 1):
+        rng = random.Random(graine); T = m.Tissu27(m.G5); vus = set()
+        for k in range(naissances + 1):
+            cles = sorted((c for c in T.places if T.vues[c] == 'empilement'), key=repr)
+            for c in cles:
+                if c not in vus and T.sans_cellule(c):
+                    vus.add(c); tot += 1
+                    if genre(T, c): k20a += 1
+                    elif len(autres) < 5: autres.append(dict(graine=graine, naissances=k, place=list(c), touche=[list(T.S[i]) for i in sorted(T.places[c][1])]))
+            if k == naissances: break
+            choix = [c for c in cles if 0 in T.places[c][1] and 1 in T.places[c][1]]
+            mn = min(len(T.places[c][1]) for c in choix); choix = [c for c in choix if len(T.places[c][1]) == mn]
+            T.naissance(rng.choice(choix))
+        print(json.dumps(dict(graine=graine, places_sans_cellule_cumulees=tot, du_genre_K20a=k20a)), flush=True)
+    return dict(croissances=g1 - g0 + 1, naissances=naissances, places_sans_cellule=tot, du_genre_K20a=k20a, autres=autres)
+
+
 def recherche_ciblee(g, budget_s=1500):
     import time
     import numpy as np
@@ -141,6 +185,16 @@ if __name__ == '__main__':
         g = int(sys.argv[2]); budget = int(sys.argv[3]) if len(sys.argv) > 3 else 1500
         r = recherche_ciblee(g, budget); print(json.dumps(r), flush=True)
         json.dump(r, open(os.path.join(ICI, 'x27_complement_cible_%d.json' % g), 'w'), indent=1)
+        sys.exit(0)
+    if len(sys.argv) > 1 and sys.argv[1] == 'genre':
+        r = genre_des_places_sans_cellule(int(sys.argv[2]), int(sys.argv[3])); print(json.dumps(r), flush=True)
+        json.dump(r, open(os.path.join(ICI, 'x27_complement_genre.json'), 'w'), indent=1)
+        sys.exit(0)
+    if len(sys.argv) > 1 and sys.argv[1] == 'file':
+        g0, g1 = int(sys.argv[2]), int(sys.argv[3]); res = []
+        for g in range(g0, g1 + 1):
+            r = file_d_attente(g); res.append(r); print(json.dumps(r), flush=True)
+        json.dump(res, open(os.path.join(ICI, 'x27_complement_file_%d_%d.json' % (g0, g1)), 'w'), indent=1)
         sys.exit(0)
     if len(sys.argv) > 1 and sys.argv[1] == 'mixte':
         g0, g1 = int(sys.argv[2]), int(sys.argv[3]); res = []

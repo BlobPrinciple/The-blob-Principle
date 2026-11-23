@@ -1,0 +1,9 @@
+{"naissances": 0, "tissus_a_symetrie_pres": 1, "tissus_examines": 1, "complet": true, "places_admissibles": 5, "places_par_classe": {"empilement": 5}, "duree_s": 0.0}
+{"naissances": 1, "tissus_a_symetrie_pres": 1, "tissus_examines": 1, "complet": true, "places_admissibles": 8, "places_par_classe": {"empilement": 8}, "duree_s": 0.0}
+{"naissances": 2, "tissus_a_symetrie_pres": 2, "tissus_examines": 2, "complet": true, "places_admissibles": 22, "places_par_classe": {"empilement": 22}, "duree_s": 0.0}
+{"naissances": 3, "tissus_a_symetrie_pres": 6, "tissus_examines": 6, "complet": true, "places_admissibles": 82, "places_par_classe": {"empilement": 82}, "duree_s": 0.1}
+{"naissances": 4, "tissus_a_symetrie_pres": 23, "tissus_examines": 23, "complet": true, "places_admissibles": 382, "places_par_classe": {"empilement": 382}, "duree_s": 0.7}
+{"naissances": 5, "tissus_a_symetrie_pres": 117, "tissus_examines": 117, "complet": true, "places_admissibles": 2260, "places_par_classe": {"empilement": 2260}, "duree_s": 2.7}
+{"naissances": 6, "tissus_a_symetrie_pres": 704, "tissus_examines": 704, "complet": true, "places_admissibles": 15549, "places_par_classe": {"empilement": 15549}, "duree_s": 17.3}
+{"naissances": 7, "tissus_a_symetrie_pres": 4783, "tissus_examines": 4783, "complet": true, "places_admissibles": 118820, "places_par_classe": {"empilement": 118820}, "duree_s": 130.9}
+{"naissances": 8, "tissus_a_symetrie_pres": 34668, "tissus_examines": 34668, "complet": true, "places_admissibles": 956840, "places_par_classe": {"empilement": 956840}, "duree_s": 1244.5}
