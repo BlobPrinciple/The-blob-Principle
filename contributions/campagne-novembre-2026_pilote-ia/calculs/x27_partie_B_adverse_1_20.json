@@ -1,0 +1,502 @@
+[
+ {
+  "strategie": "adverse",
+  "graine": 1,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 297,
+  "quadruples_examines": 25971,
+  "places_admissibles_rencontrees": 267,
+  "par_classe": {
+   "empilement": 267
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   39,
+   33,
+   31,
+   26,
+   23
+  ],
+  "arret": null,
+  "duree_s": 13.5
+ },
+ {
+  "strategie": "adverse",
+  "graine": 2,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 299,
+  "quadruples_examines": 24931,
+  "places_admissibles_rencontrees": 273,
+  "par_classe": {
+   "empilement": 273
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   37,
+   30,
+   30,
+   29,
+   27
+  ],
+  "arret": null,
+  "duree_s": 12.7
+ },
+ {
+  "strategie": "adverse",
+  "graine": 3,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 297,
+  "quadruples_examines": 22355,
+  "places_admissibles_rencontrees": 268,
+  "par_classe": {
+   "empilement": 268
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   33,
+   32,
+   29,
+   25,
+   24
+  ],
+  "arret": null,
+  "duree_s": 10.1
+ },
+ {
+  "strategie": "adverse",
+  "graine": 4,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 300,
+  "quadruples_examines": 23554,
+  "places_admissibles_rencontrees": 271,
+  "par_classe": {
+   "empilement": 271
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   39,
+   30,
+   28,
+   25,
+   23
+  ],
+  "arret": null,
+  "duree_s": 12.0
+ },
+ {
+  "strategie": "adverse",
+  "graine": 5,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 303,
+  "quadruples_examines": 27185,
+  "places_admissibles_rencontrees": 277,
+  "par_classe": {
+   "empilement": 277
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   40,
+   32,
+   30,
+   30,
+   26
+  ],
+  "arret": null,
+  "duree_s": 11.6
+ },
+ {
+  "strategie": "adverse",
+  "graine": 6,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 296,
+  "quadruples_examines": 26321,
+  "places_admissibles_rencontrees": 264,
+  "par_classe": {
+   "empilement": 264
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   43,
+   33,
+   29,
+   23,
+   20
+  ],
+  "arret": null,
+  "duree_s": 13.0
+ },
+ {
+  "strategie": "adverse",
+  "graine": 7,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 298,
+  "quadruples_examines": 26365,
+  "places_admissibles_rencontrees": 271,
+  "par_classe": {
+   "empilement": 271
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   39,
+   33,
+   31,
+   26,
+   26
+  ],
+  "arret": null,
+  "duree_s": 11.1
+ },
+ {
+  "strategie": "adverse",
+  "graine": 8,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 299,
+  "quadruples_examines": 26907,
+  "places_admissibles_rencontrees": 274,
+  "par_classe": {
+   "empilement": 274
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   36,
+   36,
+   35,
+   23,
+   23
+  ],
+  "arret": null,
+  "duree_s": 11.7
+ },
+ {
+  "strategie": "adverse",
+  "graine": 9,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 297,
+  "quadruples_examines": 22035,
+  "places_admissibles_rencontrees": 270,
+  "par_classe": {
+   "empilement": 270
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   41,
+   26,
+   24,
+   23,
+   23
+  ],
+  "arret": null,
+  "duree_s": 7.4
+ },
+ {
+  "strategie": "adverse",
+  "graine": 10,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 300,
+  "quadruples_examines": 30738,
+  "places_admissibles_rencontrees": 271,
+  "par_classe": {
+   "empilement": 271
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   45,
+   32,
+   32,
+   28,
+   23
+  ],
+  "arret": null,
+  "duree_s": 10.7
+ },
+ {
+  "strategie": "adverse",
+  "graine": 11,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 299,
+  "quadruples_examines": 25537,
+  "places_admissibles_rencontrees": 271,
+  "par_classe": {
+   "empilement": 271
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   42,
+   29,
+   28,
+   27,
+   21
+  ],
+  "arret": null,
+  "duree_s": 9.9
+ },
+ {
+  "strategie": "adverse",
+  "graine": 12,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 302,
+  "quadruples_examines": 26760,
+  "places_admissibles_rencontrees": 271,
+  "par_classe": {
+   "empilement": 271
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   35,
+   32,
+   32,
+   29,
+   28
+  ],
+  "arret": null,
+  "duree_s": 10.3
+ },
+ {
+  "strategie": "adverse",
+  "graine": 13,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 297,
+  "quadruples_examines": 21477,
+  "places_admissibles_rencontrees": 267,
+  "par_classe": {
+   "empilement": 267
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   35,
+   31,
+   30,
+   26,
+   21
+  ],
+  "arret": null,
+  "duree_s": 7.4
+ },
+ {
+  "strategie": "adverse",
+  "graine": 14,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 297,
+  "quadruples_examines": 24314,
+  "places_admissibles_rencontrees": 267,
+  "par_classe": {
+   "empilement": 267
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   43,
+   30,
+   29,
+   19,
+   18
+  ],
+  "arret": null,
+  "duree_s": 9.4
+ },
+ {
+  "strategie": "adverse",
+  "graine": 15,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 298,
+  "quadruples_examines": 24149,
+  "places_admissibles_rencontrees": 272,
+  "par_classe": {
+   "empilement": 272
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   39,
+   30,
+   30,
+   25,
+   22
+  ],
+  "arret": null,
+  "duree_s": 9.0
+ },
+ {
+  "strategie": "adverse",
+  "graine": 16,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 300,
+  "quadruples_examines": 23045,
+  "places_admissibles_rencontrees": 273,
+  "par_classe": {
+   "empilement": 273
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   36,
+   33,
+   27,
+   26,
+   25
+  ],
+  "arret": null,
+  "duree_s": 9.1
+ },
+ {
+  "strategie": "adverse",
+  "graine": 17,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 296,
+  "quadruples_examines": 25310,
+  "places_admissibles_rencontrees": 270,
+  "par_classe": {
+   "empilement": 270
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   45,
+   27,
+   26,
+   24,
+   19
+  ],
+  "arret": null,
+  "duree_s": 7.7
+ },
+ {
+  "strategie": "adverse",
+  "graine": 18,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 302,
+  "quadruples_examines": 30182,
+  "places_admissibles_rencontrees": 277,
+  "par_classe": {
+   "empilement": 277
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   40,
+   39,
+   35,
+   23,
+   19
+  ],
+  "arret": null,
+  "duree_s": 9.3
+ },
+ {
+  "strategie": "adverse",
+  "graine": 19,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 301,
+  "quadruples_examines": 34995,
+  "places_admissibles_rencontrees": 271,
+  "par_classe": {
+   "empilement": 271
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   51,
+   32,
+   30,
+   25,
+   20
+  ],
+  "arret": null,
+  "duree_s": 10.3
+ },
+ {
+  "strategie": "adverse",
+  "graine": 20,
+  "naissances": 70,
+  "constituants": 75,
+  "liens": 298,
+  "quadruples_examines": 23350,
+  "places_admissibles_rencontrees": 265,
+  "par_classe": {
+   "empilement": 265
+  },
+  "hors_de_l_empilement": 0,
+  "exemples_hors": [],
+  "places_sans_cellule_rencontrees": 0,
+  "naissances_dans_une_place_sans_cellule": 0,
+  "plus_grands_degres": [
+   36,
+   31,
+   29,
+   28,
+   26
+  ],
+  "arret": null,
+  "duree_s": 8.4
+ }
+]

@@ -1,0 +1,9 @@
+{"naissances_avant": 15, "constituants": 20, "place": [6, 6, 0, 3, -2], "dans_l_empilement": true, "touche": [[1, 0, 0, 0, 0], [0, 1, 0, 0, 0], [4, 4, 1, 2, -2], [5, 5, -1, 3, -1]], "produits_entre_les_constituants_touches": [[1, -1, -1, -1], [-1, 1, -1, -1], [-1, -1, 1, -5], [-1, -1, -5, 1]], "produits_de_la_place_avec_le_tissu": [-5, -5, -1, -1, -1, -1]}
+{"tissu": "regle a la lettre, palier 0", "quadruples": 5, "sans_place": 0, "une_place": 5, "deux_places": 0, "dont_cellules_aux_deux_cotes_libres": 0}
+{"tissu": "regle a la lettre, palier 1", "quadruples": 165, "sans_place": 145, "une_place": 20, "deux_places": 0, "dont_cellules_aux_deux_cotes_libres": 0}
+{"tissu": "regle a la lettre, palier 2", "quadruples": 5175, "sans_place": 5085, "une_place": 90, "deux_places": 0, "dont_cellules_aux_deux_cotes_libres": 0}
+{"tissu": "hasard, graine 1, 70 naissances", "constituants": 75, "quadruples": 25971, "sans_place": 25645, "une_place": 326, "deux_places": 0, "dont_cellules_aux_deux_cotes_libres": 0}
+{"tissu": "hasard, graine 2, 70 naissances", "constituants": 75, "quadruples": 24931, "sans_place": 24639, "une_place": 292, "deux_places": 0, "dont_cellules_aux_deux_cotes_libres": 0}
+{"tissu": "couche, graine 1, 40 naissances", "constituants": 45, "quadruples": 25779, "sans_place": 25465, "une_place": 314, "deux_places": 0, "dont_cellules_aux_deux_cotes_libres": 0}
+{"tissu": "couche, graine 2, 40 naissances", "constituants": 45, "quadruples": 25783, "sans_place": 25525, "une_place": 257, "deux_places": 1, "dont_cellules_aux_deux_cotes_libres": 1}
+code 0

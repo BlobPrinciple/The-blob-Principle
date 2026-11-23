@@ -1133,3 +1133,34 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-26 (les deux côtés du tétraèdre dans le tissu de contact : miroir, deux lignées, tissu de rang 2 sur le miroir du rang 3 ; calcul exact ; contre-audité) | `x26_deux_cotes_du_tetraedre.py` | 11 633 |
 | X-26 (les deux côtés du tétraèdre dans le tissu de contact : miroir, deux lignées, tissu de rang 2 sur le miroir du rang 3 ; calcul exact ; contre-audité) | `x26_deux_cotes_du_tetraedre_prediction.txt` | 6 813 |
 | X-26, contre-audit indépendant (rapport versé tel quel : aucun écart numérique, cinq corrections) | `x26_contre_audit_rapport.md` | 5 886 |
+| X-27, ajouts non prédits (exemple de place sans cellule, croissances mixtes, recherche ciblée bornée au palier 3, aveugle au contre-exemple) | `x27_complement.json` | 2 102 |
+| X-27, ajouts non prédits (exemple de place sans cellule, croissances mixtes, recherche ciblée bornée au palier 3, aveugle au contre-exemple) | `x27_complement.out` | 1 571 |
+| X-27, ajouts non prédits (exemple de place sans cellule, croissances mixtes, recherche ciblée bornée au palier 3, aveugle au contre-exemple) | `x27_complement.py` | 10 566 |
+| X-27, ajouts non prédits (exemple de place sans cellule, croissances mixtes, recherche ciblée bornée au palier 3, aveugle au contre-exemple) | `x27_complement_cible_2.json` | 450 |
+| X-27, ajouts non prédits (exemple de place sans cellule, croissances mixtes, recherche ciblée bornée au palier 3, aveugle au contre-exemple) | `x27_complement_cible_3.json` | 486 |
+| X-27, ajouts non prédits (exemple de place sans cellule, croissances mixtes, recherche ciblée bornée au palier 3, aveugle au contre-exemple) | `x27_complement_cible_3.out` | 733 |
+| X-27, ajouts non prédits (exemple de place sans cellule, croissances mixtes, recherche ciblée bornée au palier 3, aveugle au contre-exemple) | `x27_complement_mixte.out` | 8 878 |
+| X-27, ajouts non prédits (exemple de place sans cellule, croissances mixtes, recherche ciblée bornée au palier 3, aveugle au contre-exemple) | `x27_complement_mixte_1_20.json` | 9 973 |
+| X-27, contre-exemple à K20 (17 naissances dans la cellule, place admissible hors de l'empilement ; contrôle direct, contrôle de géométrie ordinaire ; tous les tissus à la symétrie près) | `x27_contre_exemple.py` | 16 377 |
+| X-27, contre-exemple à K20 (17 naissances dans la cellule, place admissible hors de l'empilement ; contrôle direct, contrôle de géométrie ordinaire ; tous les tissus à la symétrie près) | `x27_contre_exemple_court.json` | 8 980 |
+| X-27, contre-exemple à K20 (17 naissances dans la cellule, place admissible hors de l'empilement ; contrôle direct, contrôle de géométrie ordinaire ; tous les tissus à la symétrie près) | `x27_contre_exemple_court.out` | 4 493 |
+| X-27, figure du contre-exemple (vue de dessus de la couche entre deux constituants du germe) | `x27_contre_exemple_figure.py` | 4 416 |
+| X-27, contre-exemple à K20 (17 naissances dans la cellule, place admissible hors de l'empilement ; contrôle direct, contrôle de géométrie ordinaire ; tous les tissus à la symétrie près) | `x27_contre_exemple_toit.json` | 13 104 |
+| X-27, contre-exemple à K20 (17 naissances dans la cellule, place admissible hors de l'empilement ; contrôle direct, contrôle de géométrie ordinaire ; tous les tissus à la symétrie près) | `x27_contre_exemple_toit.out` | 9 015 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_mitose_avec_heritage.py` | 16 581 |
+| X-27 (la mitose d'un constituant avec héritage, lue comme un contact ; prédiction scellée avant calcul ; la conjecture K20 qu'elle porte est réfutée) | `x27_mitose_avec_heritage_prediction.txt` | 6 570 |
+| X-27, moteur complet de l'auteur : relevé de chaque naissance (parent, liens, groupes de constituants tous liés) | `x27_moteur_naissances.json` | 4 969 |
+| X-27, moteur complet de l'auteur : relevé de chaque naissance (parent, liens, groupes de constituants tous liés) | `x27_moteur_naissances.out` | 4 274 |
+| X-27, moteur complet de l'auteur : relevé de chaque naissance (parent, liens, groupes de constituants tous liés) | `x27_moteur_naissances.py` | 5 208 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_A.json` | 1 318 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_A.out` | 1 032 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_B_adverse.out` | 8 029 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_B_adverse_1_20.json` | 9 244 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_B_couche.out` | 7 943 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_B_couche_1_20.json` | 9 158 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_B_hasard.out` | 8 012 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_B_hasard_1_20.json` | 9 227 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_C.json` | 1 341 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_C.out` | 1 210 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_E.json` | 1 052 |
+| X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_E.out` | 913 |

@@ -1,0 +1,19 @@
+{
+ "palier": 2,
+ "univers": 30,
+ "quadruples": 5175,
+ "solutions": 9270,
+ "solutions_dans_l_empilement": 4570,
+ "places_hors_empilement_distinctes": 2240,
+ "dont_chevauchent_le_germe": 2240,
+ "a_tester": 0,
+ "ensembles_O_distincts": 0,
+ "duree_preparation_s": 2.4,
+ "places_testees": 0,
+ "fermetures_calculees": 0,
+ "ensembles_O_restants": 0,
+ "contre_exemples": 0,
+ "exemples": [],
+ "taille_du_tissu_atteint_min_mediane_max": null,
+ "duree_s": 2.4
+}

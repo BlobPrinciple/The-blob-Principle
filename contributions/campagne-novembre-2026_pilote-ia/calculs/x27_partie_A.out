@@ -1,0 +1,8 @@
+{"naissances": 0, "tissus": 1, "places_admissibles": 5, "places_par_classe": {"empilement": 5}, "places_sans_cellule": 0, "duree_s": 0.0}
+{"naissances": 1, "tissus": 5, "places_admissibles": 40, "places_par_classe": {"empilement": 40}, "places_sans_cellule": 0, "duree_s": 0.0}
+{"naissances": 2, "tissus": 30, "places_admissibles": 330, "places_par_classe": {"empilement": 330}, "places_sans_cellule": 0, "duree_s": 0.3}
+{"naissances": 3, "tissus": 200, "places_admissibles": 2760, "places_par_classe": {"empilement": 2760}, "places_sans_cellule": 0, "duree_s": 2.2}
+{"naissances": 4, "tissus": 1385, "places_admissibles": 22955, "places_par_classe": {"empilement": 22955}, "places_sans_cellule": 0, "duree_s": 14.4}
+{"naissances": 5, "tissus": 9876, "places_admissibles": 190890, "places_par_classe": {"empilement": 190890}, "places_sans_cellule": 0, "duree_s": 96.6}
+{"naissances": 6, "tissus": 72020, "places_admissibles": 1590420, "places_par_classe": {"empilement": 1590420}, "places_sans_cellule": 0, "duree_s": 580.0}
+code 0
