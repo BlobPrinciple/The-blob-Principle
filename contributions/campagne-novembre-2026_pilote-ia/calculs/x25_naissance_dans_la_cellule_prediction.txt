@@ -1,0 +1,51 @@
+X-25 -- LA NAISSANCE DANS LA CELLULE SOUS LA LECTURE DE CONTACT : POURQUOI TROIS, ET CE QUE DEVIENT LE LIEN. PREDICTION ECRITE AVANT CALCUL (Claude, 2026-11-23 05:28:25 UTC)
+
+POURQUOI. X-24 a lu le lien comme un contact entre constituants ronds et la naissance comme la mitose de l'arete : la forme n'existe et n'est unique qu'au rang 2,
+elle change partout a chaque naissance, et aucune causalite n'en sort. Le corpus porte une autre naissance : dans la cellule (mouvement 1 -> 4 du secteur canonique,
+<< naissance dans le volume >>). Je l'eprouve sous la meme lecture de contact. Trois choses sont cherchees : le << exactement 3 >> du noeud N1 de V1, une naissance
+qui ne deplace rien (<< rien ne se deplace >>), et la dimension temporelle avec la causalite que V1 demande.
+ETAT DES CONNAISSANCES AU MOMENT D'ECRIRE : raisonnement au crayon seulement, aucun programme lance. Litterature connue de memoire et non reverifiee a cette heure
+(Soddy 1936, Boyd 1973, Graham-Lagarias-Mallows-Wilks-Yan 2006, Chen 2016, Niven). Scan des masters fait avant : il ne contient aucun de ces enonces.
+
+LECTURES POSEES (elles restent des lectures) : C1 un lien est un contact ; C2 un constituant est rond : une boule de la sphere S^n (rang n) ; C5 NAISSANCE DANS LA
+CELLULE : une cellule est un groupe de n+1 constituants tous lies ; le nouveau-ne touche les n+1 ; il nait du cote libre de la cellule. Germe : n+2 constituants tous
+lies. Ecriture : u dans R^(n+1,1), <u,u> = 1 ; contact <u,v> = -1 ; separes <u,v> < -1 ; se chevauchent -1 < <u,v> < 1 ; meme constituant <u,v> = 1.
+
+PARTIE A -- ENONCES QUE LE CALCUL EXACT (entiers et fractions) DOIT CONFIRMER OU REFUTER
+A1. Le nouveau-ne existe et il est unique : u' = -u0 + (2/(n-1)) x (somme des n+1 constituants de la cellule), u0 etant l'occupant de l'autre cote.
+A2. Autour de n constituants tous lies, ceux qui les touchent tous forment un ANNEAU ou chacun touche le suivant, de pas angulaire arccos(1/(n-1)).
+A3. Trichotomie.
+    n = 2 : aucun chevauchement, a toute profondeur calculee ; AUCUN contact de fermeture (contact entre deux constituants dont aucun n'est ne dans une cellule
+            contenant l'autre) : l'anneau ne se referme jamais.
+    n = 3 : aucun chevauchement, a toute profondeur calculee ; l'anneau autour de trois constituants tous lies se ferme a SIX exactement : la quatrieme naissance
+            d'un anneau touche le premier constituant de l'anneau (produit -1 exact). Des contacts de fermeture existent donc, sans etre poses.
+    n = 4 : la quatrieme naissance d'un anneau chevauche un constituant du germe ; produit exact 79/81.
+    n >= 5 : la troisieme naissance d'un anneau chevauche ; produit exact 1 - 16n/(n-1)^3 (n = 5 : -1/4 ; n = 6 : 29/125 ; n = 7 : 13/27 ; n = 8 : 215/343).
+A4. Nombre minimal de naissances avant le premier chevauchement, toutes suites de naissances confondues : 4 pour n = 4 ; 3 pour n = 5, 6, 7, 8.
+    (Confiance moyenne pour n = 4 : une paire hors anneau pourrait chevaucher des la troisieme naissance.)
+A5. n = 3, argument de non-chevauchement : les dix murs (cinq constituants du germe, cinq spheres duales des cellules) ont pour produits deux a deux
+    -1 (constituants), -1/2 (duales : angle pi/3), 0 (duale et constituant de sa cellule), -racine(3) (duale et occupant) : tous d'un polytope de Coxeter.
+    Pour n >= 4 l'angle entre duales est arccos(1/(n-1)), qui n'est pas une part entiere de pi (Niven).
+A6. Chiffres de la lecture lorentzienne (cinematique) : entre la sphere duale d'une cellule et chacun de ses deux occupants, cosh(tau) = racine(2n/(n-1)),
+    soit racine(3) pour n = 3 ; produit entre un occupant et son vis-a-vis (deux pas d'anneau) : -(3n+1)/(n-1), soit -5 pour n = 3 ; entre deux nouveau-nes de
+    cellules voisines du germe (trois pas d'anneau) : -7 pour n = 3. Formule generale a k pas : 1 - (2(n-1)/(n-2)) x (1 - cos(k arccos(1/(n-1)))).
+    (Phrase corrigee au crayon avant scellement : la premiere redaction donnait la meme valeur aux deux produits.)
+A7. n = 3, naissances synchrones (tous les cotes libres remplis a chaque palier) : 5, 10, 30, 90 constituants aux paliers 0, 1, 2, 3. Au-dela je ne sais pas ;
+    je predis seulement un facteur de croissance par palier strictement entre 2 et 4.
+A8. n = 3 : exposant de comptage des constituants par taille (nombre de courbure inferieure a x proportionnel a x^delta) entre 2,40 et 2,55 sur l'echantillon
+    calcule ; valeur de la litterature 2,4739 (Borkovec, de Paris, Peikert 1994), a reverifier.
+
+PARTIE B -- LES MOTEURS DE L'AUTEUR SONT-ILS COMPATIBLES AVEC << LIEN = CONTACT DE CONSTITUANTS RONDS >> EN TROIS DIMENSIONS ?
+Conditions necessaires [T, a redemontrer dans le carnet] : (N1) aucun groupe de six constituants tous lies ; (N2) trois constituants tous lies ont au plus six
+voisins communs, et chacun de ces voisins est lie a au plus deux des autres ; (N3) deux constituants lies : chaque voisin commun est lie a au plus six autres
+voisins communs. Etats : moteur complet (<< blob ablation labo colab.py >>, quatre forces, kappa = 6,6, graines 1 et 2, releves a 660 et 1 037 constituants, les
+etats de X-24 B, empreintes des liens a retrouver) ; moteur statique (<< blob engine.py >>, 800 constituants, graines 0 et 1, etats de X-21).
+B1. Moteur complet : (N1) violee (au moins un groupe de six) dans au moins 2 etats sur 4.
+B2. Moteur complet : (N2) violee dans 4 etats sur 4 par sa seconde clause ; sa premiere clause (plus de six voisins communs) violee dans au plus 1 etat sur 4.
+B3. Moteur complet : part des triples tous lies qui satisfont (N2) entre 60 % et 95 %.
+B4. Moteur statique : plus de la moitie des triples tous lies ont plus de six voisins communs.
+Si le moteur complet satisfaisait (N1), (N2) et (N3) partout, B1 et B2 seraient fausses et la lecture de contact gagnerait un appui dans le moteur de l'auteur.
+
+CE QUI REFUTERAIT : un chevauchement pour n = 2 ou n = 3 ; une fermeture pour n = 2 ; un anneau de n = 3 qui ne se ferme pas a six ; l'absence de chevauchement
+pour n = 4 aux profondeurs calculees. CE QUE CELA NE POURRA PAS DONNER, quel que soit le resultat : aucun verrou ferme. C1, C2 et C5 sont des lectures ; le choix
+entre la mitose de l'arete (parole de l'auteur du 12 novembre) et la naissance dans la cellule ne m'appartient pas.
