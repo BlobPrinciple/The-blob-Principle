@@ -1128,3 +1128,8 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-25 bis (surface du tissu de contact de rang 3 : sphère triangulée, mouvements 1 → 4 et 2 → 3 seulement, palier 7 ajouté après coup, surface seule) | `x25bis_palier_7.json` | 489 |
 | X-25 bis (surface du tissu de contact de rang 3 : sphère triangulée, mouvements 1 → 4 et 2 → 3 seulement, palier 7 ajouté après coup, surface seule) | `x25bis_palier_7.py` | 1 095 |
 | X-25, contre-audit indépendant (rapport versé tel quel : aucun écart numérique, une preuve fautive, un compte et trois formulations à corriger) | `x25_contre_audit_rapport.md` | 5 028 |
+| X-26 (les deux côtés du tétraèdre dans le tissu de contact : miroir, deux lignées, tissu de rang 2 sur le miroir du rang 3 ; calcul exact ; contre-audité) | `x26_deux_cotes_du_tetraedre.json` | 24 823 |
+| X-26 (les deux côtés du tétraèdre dans le tissu de contact : miroir, deux lignées, tissu de rang 2 sur le miroir du rang 3 ; calcul exact ; contre-audité) | `x26_deux_cotes_du_tetraedre.out` | 20 800 |
+| X-26 (les deux côtés du tétraèdre dans le tissu de contact : miroir, deux lignées, tissu de rang 2 sur le miroir du rang 3 ; calcul exact ; contre-audité) | `x26_deux_cotes_du_tetraedre.py` | 11 633 |
+| X-26 (les deux côtés du tétraèdre dans le tissu de contact : miroir, deux lignées, tissu de rang 2 sur le miroir du rang 3 ; calcul exact ; contre-audité) | `x26_deux_cotes_du_tetraedre_prediction.txt` | 6 813 |
+| X-26, contre-audit indépendant (rapport versé tel quel : aucun écart numérique, cinq corrections) | `x26_contre_audit_rapport.md` | 5 886 |
