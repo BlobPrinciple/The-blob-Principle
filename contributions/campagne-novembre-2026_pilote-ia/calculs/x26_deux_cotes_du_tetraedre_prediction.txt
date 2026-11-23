@@ -1,0 +1,89 @@
+X-26 — LES DEUX CÔTÉS DU TÉTRAÈDRE : LIGNÉES JUMELLES, MIROIR, RENCONTRES
+PRÉDICTION SCELLÉE AVANT CALCUL
+Claude, pilote IA et contre-auditeur, 23 novembre 2026. Auteur du Blob Principle : Rudolphe Mirante.
+
+TOE 0/7. Aucun verrou fermé.
+
+PAROLE DE L'AUTEUR (23 novembre, 8 h 02, heure de Paris ; orthographe normalisée)
+« Continue et concentre-toi sur la validation complète de la cosmogonie. »
+
+OBJET
+La grille des verrous (version 2, section 1) tient la cosmogonie principe par principe. Deux de ses chapitres
+n'ont jamais été éprouvés dans le même modèle : « Origine et lignées » et « Matière, antimatière, bain » ne
+sont établis que dans un modèle d'opérateur (H = D + gΣΓ), sans géométrie ; « Mitose et espace » ne l'est que
+dans des modèles de tissu, sans lignées. Une validation complète demande un seul modèle où les principes
+tiennent ensemble. J'éprouve ici le tissu de contact de rang 3 de X-25 sur les principes des lignées :
+scission en deux lignées jumelles, miroir, naissance des jumeaux au tétraèdre, rencontres.
+
+CE QUI EST FAIT AVANT D'ÉCRIRE CECI
+Relecture de la grille des verrous, version 2. Calculs à la main, ci-dessous. Aucun programme lancé.
+Un brouillon de prédiction sur le levier S₃ du Master propre (ancien moteur à points tirés au hasard) a été
+écrit ce matin, non scellé, non exécuté, puis mis de côté sur la consigne de l'auteur.
+
+LECTURES (les miennes ; ce ne sont pas des paroles de l'auteur)
+C1, C2, C5 de X-25 : un lien est un contact ; les constituants sont ronds et ne se chevauchent pas ; la
+naissance a lieu dans la cellule (n + 1 constituants tous liés), du côté libre. Règle à la lettre : à chaque
+palier, toutes les cellules de surface enfantent ensemble, puis les fermetures jusqu'à épuisement.
+C6 (nouvelle). Le départ est une seule cellule, dont les deux côtés sont libres : ses deux premières
+naissances sont jumelles.
+Lecture vers la cosmogonie, à adopter ou non par l'auteur : côté A et côté B = les deux lignées ;
+miroir = l'inversion dans la sphère orthogonale aux constituants de la cellule de départ ;
+rencontre = un constituant qui est son propre reflet.
+
+NOTATIONS
+Rang n ; constituant = vecteur u de produit ⟨u,u⟩ = 1 ; lien ⟺ ⟨u,v⟩ = −1 ; base du germe e₀ … e₍n+1₎.
+Cellule de départ : e₀ … eₙ. Sphère miroir : w̃ = e₀ + e₁ + e₂ − e₃ au rang 2 (⟨w̃,w̃⟩ = 4) ;
+w̃ = e₀ + e₁ + e₂ + e₃ − 2 e₄ au rang 3 (⟨w̃,w̃⟩ = 12). Miroir : R(x) = x − 2 ⟨x,w̃⟩ w̃ / ⟨w̃,w̃⟩.
+Côté A : ⟨u,w̃⟩ < 0 ; côté B : ⟨u,w̃⟩ > 0 ; son propre reflet : ⟨u,w̃⟩ = 0.
+
+ÉNONCÉS À DÉMONTRER
+K14. Le miroir fixe les constituants de la cellule de départ, échange ses deux côtés, renverse l'orientation,
+     et conserve le tissu à chaque palier.
+K15. Rang 2 : les deux lignées ne se retrouvent jamais. Aucun constituant n'est son propre reflet hors de la
+     cellule de départ ; aucun lien ne joint A et B.
+     Rang 3 : les deux lignées se retrouvent, sans jamais se toucher. Aucun lien ne joint A et B (⟨u,w̃⟩ est
+     un multiple de 6, et le contact avec le miroir demanderait ⟨u,w̃⟩² = 12). Elles se rejoignent en des
+     constituants qui sont leur propre reflet, nés deux fois : une naissance double, de deux cellules images
+     l'une de l'autre.
+     Rang 4 et au-delà : chevauchement (K10 de X-25).
+K16. Au rang 3, les constituants qui sont leur propre reflet forment, avec leurs liens mutuels, le tissu de
+     contact de rang 2 né d'un germe de quatre (un empilement de cercles sur la sphère miroir) ; sa génération k
+     apparaît au palier 2k + 1. Chaque cellule faite de quatre de ces constituants a un côté dans A et un côté
+     dans B. Le sous-groupe de O(4,1) qui fixe le miroir agit sur lui comme O(3,1), le groupe de Lorentz.
+K17. Aucune cellule ne contient à la fois un constituant de A et un constituant de B.
+
+PRÉDICTIONS CHIFFRÉES
+J1. Rangs 2 et 3, paliers 1 à 6 (7 au rang 3 si le calcul tient) : l'ensemble des constituants est conservé par
+    le miroir à chaque palier ; A et B ont le même effectif.
+J2. Rang 2 : effectifs 3, 5, 11, 29, 83, 245, 731 (3^g + 2) ; trois constituants seulement sont leur propre
+    reflet, à tout palier ; aucun lien entre A et B ; hors de la cellule de départ, |⟨u,w̃⟩| ≥ 4.
+J3. Rang 3 : effectifs 4, 6, 14, 42 aux paliers 0 à 3 ; au palier 3, 28 naissances dont 4 doubles de part et
+    d'autre du miroir, et 12 liens qu'aucune naissance n'a posés.
+J4. Rang 3 : constituants qui sont leur propre reflet : 4, 4, 4, 8, 8, 20, 20, 56 aux paliers 0 à 7 ; les
+    nouveaux (4, 12, 36) n'apparaissent qu'aux paliers 3, 5 et 7, chacun par une naissance double.
+J5. Rang 3 : ⟨u,w̃⟩ multiple de 6 pour tout constituant ; aucun lien entre A et B, vérifié sur toutes les
+    paires jusqu'au palier 6.
+J6. Rang 3 : au palier 2k + 1 (k = 0, 1, 2, 3), les constituants qui sont leur propre reflet sont exactement
+    ceux du tissu de rang 2 à la génération k, mêmes coordonnées dans la base e₀ … e₃ ; leurs liens mutuels
+    sont ceux de ce tissu ; quatre d'entre eux au plus sont tous liés.
+J7. Rang 3, palier 7 : 53 cellules faites de quatre constituants qui sont leur propre reflet (1 + 4 + 12 + 36),
+    chacune avec un côté dans A et un côté dans B ; aucune cellule mêlant A et B (K17).
+J8. Le point de départ reste lisible : aux paliers 2 à 6, les quatre constituants de la cellule de départ sont
+    les quatre qui portent le plus de liens ; les deux premiers-nés sont cinquième et sixième.
+J9. Liens portés par un constituant de la cellule de départ : 5, 11 et 26 aux paliers 1, 2 et 3 ; plus de 400
+    au palier 6 ; multipliés par 2,3 à 3 d'un palier au suivant, du palier 2 au palier 6. Moyenne sur tous les
+    constituants au palier 6 : entre 8,5 et 9,2.
+J10. Effectif total multiplié par 3,7 à 4,3 d'un palier au suivant, aux paliers 5 et 6.
+
+CE QUI ME DONNERAIT TORT
+Un lien direct entre A et B ; un constituant qui serait son propre reflet au rang 2 hors de la cellule de
+départ ; au rang 3, des constituants qui sont leur propre reflet et qui ne forment pas le tissu de rang 2.
+
+CE QUE CELA NE DONNERA PAS, QUEL QUE SOIT LE RÉSULTAT
+Ni temps, ni matière, ni annihilation au sens d'une dynamique (aucun opérateur n'est construit ici), ni loi.
+La naissance dans la cellule est une lecture ; la rondeur est posée ; J8 et J9, si elles sont vraies, disent
+que ce tissu garde la trace de son départ et n'a pas de nombre de liens borné, deux choses que la grille
+tenait pour des défauts. Des résultats connus sur les empilements de sphères seront appliqués à une lecture ;
+ce ne sera pas une démonstration de la cosmogonie.
+
+TOE 0/7. Aucun verrou fermé.
