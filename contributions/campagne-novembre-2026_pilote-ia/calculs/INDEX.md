@@ -1179,3 +1179,4 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-27 bis, exploration non scellée : les voisins d'un constituant sont les sphères de Ford des entiers d'Eisenstein ; lecture des trois places hors de l'empilement | `x27bis_ford_eisenstein.out` | 637 |
 | X-27 bis, exploration non scellée : les voisins d'un constituant sont les sphères de Ford des entiers d'Eisenstein ; lecture des trois places hors de l'empilement | `x27bis_gonflee.py` | 1 993 |
 | X-27 bis, exploration non scellée : les voisins d'un constituant sont les sphères de Ford des entiers d'Eisenstein ; lecture des trois places hors de l'empilement | `x27bis_gonflee.out` | 2 195 |
+| X-28 (quelle propriété d'un tissu interdit une place hors de l'empilement ; la règle à la lettre aux paliers 4 à 6 ; prédiction scellée avant calcul) | `x28_tissu_convexe_prediction.txt` | 7 045 |

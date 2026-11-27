@@ -1,0 +1,65 @@
+X-28 -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 27 novembre 2026.
+Parole de l'auteur, 27 novembre, 7 h 08 : << Depose et pousse a l'extreme ensuite toutes les recherches. >>
+
+TOE 0/7. Aucun verrou ferme. Rien de ce qui suit ne peut en fermer un : c'est de la geometrie de la lecture de contact, rang 3.
+
+QUESTION (suite proposee aux carnets X-27 et X-27 bis)
+La regle a la lettre de X-25 garde-t-elle le tissu dans l'empilement a tout palier ? Plus largement : quelle propriete d'un tissu
+interdit une place admissible hors de l'empilement ?
+
+VOCABULAIRE
+Produit, germe, empilement P, lien, place admissible (naissance heritee et fixee), cellule (quatre constituants tous lies), cote d'une cellule :
+ceux de X-27. Tuile : cinq constituants tous lies. Tuile nee d'un tissu S : tuile dont les cinq constituants sont dans S.
+Mur d'une cellule : la sphere orthogonale a ses quatre constituants ; les deux cotes de la cellule sont images l'un de l'autre dans ce mur.
+Tissu a tuiles convexes : tout constituant est dans une tuile nee, les tuiles nees se tiennent de proche en proche par des cellules, et pour toute
+cellule d'une tuile nee dont l'autre cote t' n'est pas ne (cote ne : t), aucun constituant ne u n'est au-dela du mur : <u, t - t'> >= 0 pour tout u ne.
+Pour un parent p et deux de ses voisins nes q et r : le milieu de q et r vu de p est le vecteur q + r + 2p. Il est << dans la tuile nee T >>
+(T contient p) si ses coordonnees dans la base T sont positives ou nulles sur les quatre constituants de T autres que p.
+nu(q, r) = (1 - <q, r>)/2 : entier, 1 si q et r sont lies.
+
+A. ENONCES QUE J'ANNONCE DEMONTRER (raisonnement fait avant tout calcul ; preuves a ecrire au carnet et a faire contre-auditer)
+T1 (miroir). Les places (deux au plus) qui touchent quatre constituants independants sont images l'une de l'autre dans la sphere orthogonale aux quatre.
+T2 (pont). Soit T = {p, a, b, c, d} une tuile, x une boule ronde liee a p qui ne chevauche ni a, ni b, ni c, ni d, et q, r deux constituants de P
+   lies a p et a x. Si le milieu de q et r vu de p est dans T, alors q et r sont lies.
+T3 (tissu a tuiles convexes). Dans un tissu a tuiles convexes, toute place admissible est le cote d'une cellule nee ; elle est donc dans l'empilement.
+   (Preuve annoncee : T2, plus les faits classiques sur le groupe d'Apollonius de rang 3 vu comme groupe de Coxeter : murs, galeries minimales, projections.)
+T4 (hexagone). Autour de trois constituants tous lies p, a, b, six constituants forment un anneau. Si q et r y sont separes par un seul constituant m,
+   toute boule liee a p, q et r qui ne chevauche ni a ni b est m.
+T5 (gonflee). Si une boule x est liee a un constituant p au point ou un constituant F de P touche p, et liee a un autre voisin q de p,
+   alors x = (F - (nu - 1) p)/nu avec nu = nu(F, q). C'est le constat a 9 cas de X-27 bis, devenu algebre.
+Si un calcul ci-dessous contredit T1 a T5, c'est une erreur de preuve : elle sera declaree en tete du carnet.
+
+B. PREDICTIONS CHIFFREES (calcul exact ; chaque clause est jugee vraie ou fausse)
+N1. Tissu de la regle a la lettre apres le palier 4 (450 constituants attendus) : les places admissibles sont exactement les cotes libres des
+    cellules de surface. Zero place hors de l'empilement, zero place sans cellule. Leur nombre : entre 1 200 et 1 380.
+N2. Meme enonce apres le palier 5. Zero hors de l'empilement, zero sans cellule. (Confiance annoncee : 80 %.)
+N3. Meme enonce apres le palier 6 (7 290 constituants attendus), SI le calcul tient dans le budget ; sinon declare non fait. (Confiance : 70 %.)
+N4. Convexite des tuiles sous la regle a la lettre : convexe aux paliers 0, 1 et 2 ; PAS convexe au palier 3 (temoin attendu : autour de trois
+    constituants tous lies dont deux du germe et un ne au palier 2, quatre tuiles nees sur six). Pas convexe non plus aux paliers 4 et 5.
+    Consequence annoncee : T3 ne suffit pas a prouver la regle a la lettre ; si N1 et N2 sont vraies, la propriete tient au-dela des tissus convexes.
+N5. Le tissu du contre-exemple de X-27 (22 constituants) n'est pas a tuiles convexes. Pour sa place hors de l'empilement, parent (1,0,0,0,0) :
+    parmi ses trois autres contacts, exactement deux paires ne sont pas liees, et pour chacune le milieu vu du parent n'est dans aucune tuile nee.
+N6. Epreuve de T2 sur donnees : dans tous les tissus calcules ici, pour toute place admissible, tout parent possible et toute paire de ses
+    autres contacts, si le milieu vu du parent est dans une tuile nee alors la paire est liee. Zero exception. Le nombre de paires controlees sera donne.
+N7. Paliers incomplets. (a) File d'attente (la place libre depuis le plus longtemps nait d'abord ; a egalite, tirage) : 2 tirages jusqu'a 445 naissances
+    (fin du palier 4), toutes les places controlees a chaque naissance : zero place hors de l'empilement. (b) Tissu du palier 4 plus une partie tiree
+    au hasard des naissances du palier 5 (un quart, la moitie, trois quarts ; 2 tirages chacun) : zero place hors de l'empilement.
+    Places sans cellule : je predis zero en (a) et en (b). (Confiance : 60 %.)
+N8. La troisieme place hors de l'empilement de X-27, (226, 220, 208, -92, -19)/91 : sa jumelle (l'autre boule qui touche les memes quatre contacts,
+    pour chaque quadruple parent + trois voisins du parent) est dans l'empilement, comme pour les deux premieres. (Confiance : 60 %. En general je
+    tiens cet enonce pour FAUX : rien ne l'impose hors des petits exemples.)
+N9. Outil. Le nouvel enumerateur (filtre en nombres flottants sur tous les triplets de voisins d'un parent, puis controle exact des survivants avec
+    la classe Place de X-27) doit redonner exactement les places de l'outil de X-27 aux paliers 0 a 3 (5, 20, 90, 330). S'il ne les redonne pas,
+    N2, N3 et N7(b) ne comptent pas. Au palier 4, il doit redonner les places de l'outil de X-27 obtenues par la file d'attente menee a son terme.
+
+C. PROTOCOLE
+Programmes : x28_tissu_convexe.py (nouveau), l'outil x27_mitose_avec_heritage.py importe tel quel, le tissu de X-25 importe tel quel.
+Garde-fou de l'enumerateur : coordonnees de valeur absolue < 100 000 (sinon arret), seuil du filtre 1e-6, controle exact de tout survivant.
+Symetrie : aux paliers complets, le tissu est invariant par les 120 permutations du germe ; les parents sont pris a symetrie pres et les places
+trouvees sont completees par symetrie. Aux paliers incomplets, tous les parents.
+Budget : 2 coeurs ; un calcul qui depasse 100 minutes est arrete et declare non fait.
+Ce qui serait un echec : toute clause N1 a N9 fausse ; toute exception a T1-T5. Les echecs sont declares en premier.
+Ce qui n'est PAS predit et sera rendu comme mesure ou comme non fait : le plus petit contre-exemple (toujours entre 9 et 17 naissances) ;
+une preuve de la regle a la lettre a tout palier ; un controle par Lean des enonces T1 a T5 (tente si le temps le permet).
+Contre-audit independant demande sur les preuves de T1 a T5 et sur le calcul.
