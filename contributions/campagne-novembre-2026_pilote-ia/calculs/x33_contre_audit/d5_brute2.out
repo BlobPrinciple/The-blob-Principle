@@ -1,0 +1,1 @@
+{"partie": "D5-brute2", "departs": 44, "deroulements": 2598156, "groupes_disjoints": true, "tailles_des_groupes": [[2, 2, 2, 2, 2]], "tissus_par_depart": [7776], "tous_les_departs_memes_tissus": true, "tissus_obtenus": 7776, "tissus_annonces_T30": 7776, "egalite": true, "duree_s": 4.8}

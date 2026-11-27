@@ -1316,3 +1316,34 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_premier_44departs.out` | 37 071 |
 | X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_priver_fille_44departs.out` | 32 638 |
 | X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_priver_mere_44departs.out` | 32 552 |
+| X-33 (ce qui fixe le choix de la fille ; prédiction scellée avant calcul) | `x33_ce_qui_fixe_le_choix_prediction.txt` | 6 932 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_choix.py` | 33 391 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_D1_5.out` | 820 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_D2.out` | 597 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_D3_0.out` | 489 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_D3_tous.out` | 11 750 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_D4_10.out` | 3 747 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_D5_1_20.out` | 2 579 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_D6.out` | 578 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_hasard_1_10.out` | 2 943 |
+| X-33 (cousins et murs sur la règle à la lettre ; générations 2 et 3 énumérées ; la règle de T32 ; tirages de X-32 rejoués ; variante plus libre) | `x33_cellules_8.out` | 373 |
+| X-33, rapport du contre-audit indépendant (septième passage), versé tel quel | `x33_contre_audit_rapport.md` | 3 811 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/alib.py` | 6 347 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d1.py` | 3 922 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d1_5.out` | 786 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d2d3.out` | 10 443 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d2d3.py` | 6 500 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d4.py` | 7 889 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d4_hasard_1_6_10.out` | 858 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d4_regle_10.out` | 1 732 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d5.py` | 10 461 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d5_brute2.out` | 287 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d5_brute3_8.out` | 1 242 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d5_hasard_1_20_10.out` | 742 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d6.out` | 490 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/d6.py` | 2 829 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/rule.py` | 3 027 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/synthese.out` | 571 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/synthese.py` | 1 531 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/v0_criterion.out` | 293 |
+| X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/v0_criterion.py` | 1 547 |

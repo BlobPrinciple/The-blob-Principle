@@ -1,0 +1,1 @@
+{"partie": "cellules", "generation": 8, "constituants": 1280, "cellules": 5105, "cellules_du_germe": 5, "cellules_d_une_tuile_porte_qui_contiennent_son_constituant": 5100, "cellules_avec_au_plus_un_constituant_du_germe": 4800, "dont_quatre_ages_differents": 4800, "cellules_attendues": 5105, "cellules_selon_le_nombre_de_cotes_nes": {"1": 3830, "2": 1275}, "duree_s": 0.2}

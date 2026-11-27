@@ -1,0 +1,1 @@
+{"partie": "V0", "rayon": 7, "tuiles_par_distance": {"0": 1, "1": 5, "2": 20, "3": 70, "4": 240, "5": 810, "6": 2730, "7": 9180}, "tuiles_controlees": 3876, "desaccords_critere_vs_BFS": 0, "desaccords_distance": 0, "descentes_testees": 65250, "portes_dependant_de_l_ordre": 0, "duree_s": 9.8}

@@ -1,0 +1,21 @@
+{"graine": 1, "constituants": 5120, "liens_de_meme_generation": 582, "duree_s": 1.0}
+{"graine": 2, "constituants": 5120, "liens_de_meme_generation": 607, "duree_s": 1.0}
+{"graine": 3, "constituants": 5120, "liens_de_meme_generation": 586, "duree_s": 1.0}
+{"graine": 4, "constituants": 5120, "liens_de_meme_generation": 582, "duree_s": 1.0}
+{"graine": 5, "constituants": 5120, "liens_de_meme_generation": 579, "duree_s": 0.9}
+{"graine": 6, "constituants": 5120, "liens_de_meme_generation": 585, "duree_s": 0.9}
+{"graine": 7, "constituants": 5120, "liens_de_meme_generation": 557, "duree_s": 0.9}
+{"graine": 8, "constituants": 5120, "liens_de_meme_generation": 590, "duree_s": 1.0}
+{"graine": 9, "constituants": 5120, "liens_de_meme_generation": 589, "duree_s": 0.9}
+{"graine": 10, "constituants": 5120, "liens_de_meme_generation": 572, "duree_s": 0.9}
+{"graine": 11, "constituants": 5120, "liens_de_meme_generation": 610, "duree_s": 0.7}
+{"graine": 12, "constituants": 5120, "liens_de_meme_generation": 604, "duree_s": 0.8}
+{"graine": 13, "constituants": 5120, "liens_de_meme_generation": 562, "duree_s": 0.9}
+{"graine": 14, "constituants": 5120, "liens_de_meme_generation": 573, "duree_s": 1.0}
+{"graine": 15, "constituants": 5120, "liens_de_meme_generation": 578, "duree_s": 0.9}
+{"graine": 16, "constituants": 5120, "liens_de_meme_generation": 597, "duree_s": 1.0}
+{"graine": 17, "constituants": 5120, "liens_de_meme_generation": 593, "duree_s": 0.9}
+{"graine": 18, "constituants": 5120, "liens_de_meme_generation": 617, "duree_s": 0.9}
+{"graine": 19, "constituants": 5120, "liens_de_meme_generation": 621, "duree_s": 0.8}
+{"graine": 20, "constituants": 5120, "liens_de_meme_generation": 589, "duree_s": 0.8}
+{"bilan": true, "partie": "D5", "graines": [1, 20], "generations": 10, "tirages": 20, "constituants_des_generations_1_a_avant_derniere": 51100, "sans_deux_filles_propres_nees_exactement": 0, "fille_propre_nee_a_une_autre_generation": 0, "constituants_du_germe": 100, "filles_propres_nees_d_un_constituant_du_germe": {"4": 100}, "nes_sans_mere_propre_nee_a_la_generation_precedente": 0, "mere_de_regle_differente_de_la_mere_propre": 51100, "nees_depuis_la_generation_2": 102200, "liens": 421173, "liens_dans_le_germe": 200, "liens_de_parent_a_enfant": 409200, "liens_de_meme_generation_hors_du_germe": 11773, "liens_entre_generations_differentes_hors_parente": 0, "chevauchements": 0, "liens_de_meme_generation_cumules_sur_les_tirages": [0, 0, 55, 48, 89, 189, 403, 712, 1456, 2923, 5898], "rappel_X32_meme_mesure": [0, 0, 55, 48, 89, 189, 403, 712, 1456, 2923, 5898]}
