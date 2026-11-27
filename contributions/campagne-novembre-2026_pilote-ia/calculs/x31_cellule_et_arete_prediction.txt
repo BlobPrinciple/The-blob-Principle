@@ -1,0 +1,73 @@
+X-31 -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 27 novembre 2026.
+Parole de l'auteur, 27 novembre, 17 h 04, heure de Paris : << Continue et reste sur la ligne precise de la cosmogonie et rien d'autre ! >>
+
+TOE 0/7. Aucun verrou ferme. Rien de ce qui suit ne peut en fermer un : geometrie de la lecture de contact, rangs 2 et 3.
+La ligne suivie : point 1 de la section 5 de VALIDATION_DE_LA_COSMOGONIE.md, << une seule realisation de la mitose >>. Il y reste, dans l'ordre :
+(a) demontrer que la place du nouveau-ne est le cote d'une cellule nee ; (b) le lien avec la division de l'arete, pas entame. Rien d'autre ici.
+
+CE QUI EST DEJA CONNU AU MOMENT DU SCELLEMENT
+X-30 bis : (G1) et (C*) demontres sous des faits classiques admis : dans tout tissu clos par plancher, toute place admissible est dans
+l'empilement. T15 : la porte d'une paire de constituants lies est faite de parents de l'un des deux ; trois cas (la tuile de la paire est la
+tuile-porte de l'un, ou de l'autre, ou des deux << cousins >> qui ferment ensemble un anneau de six).
+X-29 bis, clause R4, deja mesuree : sur 150 tissus clos par plancher tires au hasard, les places admissibles sont les cotes libres des
+cellules nees. La clause A2 (b) ci-dessous refait donc une mesure connue ; les autres clauses sont nouvelles.
+Aucun calcul n'a ete fait pour ce qui suit. Les raisonnements sont faits ; les preuves seront au carnet et soumises au contre-audit.
+
+VOCABULAIRE (celui de X-27 a X-30 bis)
+Tissu clos par plancher : il contient le germe, et tout constituant ne a ses quatre parents nes. Cellule nee : quatre constituants nes tous
+lies. Ses deux cotes : les deux constituants de l'empilement lies aux quatre. Place admissible : boule ronde liee a un constituant ne et a
+trois de ses voisins nes, les quatre independants, qui ne chevauche aucun constituant ne. Fil : deux constituants lies. Palier : celui de la
+regle a la lettre (S(0) est le germe ; S(n+1) est S(n) plus tous les cotes non nes des cellules nees de S(n)).
+
+PARTIE A. LA PLACE DU NOUVEAU-NE EST LE COTE D'UNE CELLULE NEE
+
+Enonces que j'annonce demontrer, sous les faits admis de X-30 bis (confiance : 85 %)
+T20 (parent ou cousin). Dans un tissu clos par plancher, soit p un constituant ne et x un constituant de l'empilement, non ne, lie a p.
+     Alors de deux choses l'une : p est un parent de x ; ou bien x est le cote non ne de la cellule nee {p, a, b, c}, ou a, b, c sont les
+     trois autres constituants de la tuile de la paire (p, x), tous parents de p, l'autre cote de cette cellule etant le quatrieme parent de p.
+T21 ((C) en entier). Dans un tissu clos par plancher, les places admissibles sont exactement les cotes non nes des cellules nees.
+     La conjecture (C) de X-29 le demandait pour les tissus clos par pliage, qui en sont un cas particulier (T10).
+T22 (aucune cellule sans cote ne). Dans un tissu clos par plancher, toute cellule nee a un cote ne : celui qui est du cote du germe.
+Si un calcul ci-dessous contredit T20, T21 ou T22, c'est une erreur de preuve : elle sera declaree en tete du carnet.
+
+Clauses chiffrees
+A1. Regle a la lettre, n = 2, 3, 4. Pour tout p de S(n) et tout x de S(n+2) hors de S(n) lie a p : T20 sans exception. Le cas du parent se
+    produit aux trois paliers. Le cas du cousin se produit pour n = 3 et n = 4 (pour n = 2 je ne predis rien).
+A2. 200 tissus clos par plancher tires au hasard (le tirage de R4 de X-29 bis, graines 1 a 200 : germe, 2 a 8 constituants tires dans le
+    palier 5, et leurs ancetres). (a) T20 sans exception pour tout p ne et tout x non ne de palier au plus 6 lie a p. (b) Toute place
+    admissible est le cote non ne d'une cellule nee, et inversement : egalite des deux ensembles dans les 200 tissus. (c) Aucune cellule nee
+    sans cote ne. (d) Il existe des places admissibles dont le plancher n'est pas ne en entier (cas du cousin) : au moins une sur l'ensemble
+    des 200 tissus (confiance : 70 %).
+A3. Regle a la lettre, paliers 2 a 5 : aucune cellule nee sans cote ne.
+
+PARTIE B. LE LIEN AVEC LA DIVISION DE L'ARETE (ENTAME, NON CLOS)
+
+Enonces que j'annonce
+T23 (vue d'un fil). Quand x nait, cote non ne de la cellule nee {a, b, c, d}, quatre cellules nouvelles apparaissent. Deux contiennent le fil
+     (a, b) : {a, b, c, x} et {a, b, d, x}. Ce sont les deux cellules filles que donne la division de l'arete (c, d) par un porteur ne sur
+     elle. Les deux autres contiennent le fil (c, d), qui demeure : c'est ce qui separe les deux realisations. (Elementaire.)
+T24 (rang 2, vue du parent : la division du fil, exactement). Disques, regle a la lettre. Pour tout disque p ne au palier n0 et tout g >= 0 :
+     p a exactement 3 x 2^g voisins nes au palier n0 + g ; ses voisins sont ranges en anneau, chaque fil de l'anneau se divise en deux a
+     chaque palier par un nouveau-ne lie a ses deux bouts, et la cellule {p, q, r} devient deux cellules contenant p ; deux voisins de p nes
+     au meme palier ne sont jamais lies ; deux disques nes au meme palier, a partir du palier 1, ne sont jamais lies.
+T25 (rang 3, vue d'un fil : pas de doublement). Pour deux constituants p, q du germe, les constituants lies aux deux et nes au palier g au
+     plus sont au nombre de 3 + 3 g (g + 1) / 2 : croissance quadratique. Raison : ils sont ranges en reseau triangulaire.
+T26 (rang 3, liens entre constituants du meme age). Sous la regle a la lettre, deux constituants lies nes au meme palier, a partir du
+     palier 1, sont toujours des cousins au sens de T15 : aucun n'est parent de l'autre, ils ont trois parents communs.
+
+Clauses chiffrees
+B1. Rang 2, programme independant, paliers 0 a 8 : nombres de disques 4, 8, 20, 56, 164, 488, 1 460, 4 376, 13 124. Pour tout disque et tout
+    age : 3 x 2^g voisins, sans exception. Aucun lien entre deux disques nes au meme palier, a partir du palier 1.
+B2. Rang 3, les dix fils du germe, paliers 0 a 6 : 3, 6, 12, 21, 33, 48, 66 voisins communs nes.
+B3. Rang 3, toutes les paires liees nees au palier 5 au plus : au palier 6, au plus 66 voisins communs nes (confiance : 75 %).
+B4. Rang 3, paliers 1 a 5 : aucune paire liee de meme palier au palier 1 ; il y en a a chacun des paliers 2 a 5 ; toutes sont des cousins.
+B5. Rang 3, vue du parent : un constituant du germe a 4, 8, 20 voisins nes aux paliers 0, 1, 2, et 979 au palier 6 (deja mesure, X-30 bis).
+    Ce n'est pas un doublement.
+
+CE QUE JE NE PROMETS PAS
+Une seule realisation tenue de bout en bout : la partie B dit ou la division de l'arete et la naissance dans la cellule coincident et ou
+elles se separent ; elle ne les unifie pas. Aucune formalisation Lean de T20 a T26. Aucune relecture humaine. Aucun verrou.
+
+PROTOCOLE
+Deux coeurs, 30 minutes de calcul au plus. Echecs en tete du carnet. Contre-audit independant, avec son propre code. Jamais main.
