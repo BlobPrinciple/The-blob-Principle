@@ -1,0 +1,67 @@
+X-33 -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 27 novembre 2026.
+Parole de l'auteur, 27 novembre, 19 h 36, heure de Paris : << Non, continue, elle n'est pas longue. >>
+Rappel de 17 h 04 : << Continue et reste sur la ligne precise de la cosmogonie et rien d'autre ! >>
+
+TOE 0/7. Aucun verrou ferme. Rien de ce qui suit ne peut en fermer un : geometrie de la lecture de contact, rang 3.
+La ligne suivie : point 1 de la section 5 de VALIDATION_DE_LA_COSMOGONIE.md, << une seule realisation de la mitose >>. Apres X-32 il y reste,
+dans l'ordre : ce qui fixe le choix de la fille ; ce que la fermeture bloque ; le rapport avec la trame reguliere. Ici : le premier, rien d'autre.
+L'epreuve : imposer a la regle de X-32 une ligne de la cosmogonie elle-meme, la ligne B12 du registre, << symbiose entre porteurs en decalage :
+aucun fil entre porteurs du meme age >>, et voir ce qu'elle fixe.
+
+CE QUI EST DEJA CONNU AU MOMENT DU SCELLEMENT
+X-32 : T27 (filles propres : 4, 3 ou 2 ; les autres cotes sont des cousins) ; T28 (la regle des deux filles tient, N = 5 x 2^g, elle laisse des
+choix). Mesure dans X-32 : avec des choix au hasard, des constituants de la meme generation se lient. Contre-audit de X-32 : une facon de choisir
+donne exactement un lien de ce genre par paire de soeurs. Aucun calcul n'a ete fait pour ce qui suit. Les raisonnements sont faits ; les preuves
+seront au carnet et soumises au contre-audit.
+
+VOCABULAIRE
+Mere propre, fille propre, cousins, generation : ceux de X-32. Soeurs : deux filles propres nees de la meme mere. Les cinq constituants du
+palier 1 sont notes M_v, v parcourant le germe : M_v est le cote au-dela de la cellule du germe qui ne contient pas v. Ses quatre filles
+propres sont notees X(v, w), w dans le germe et different de v : X(v, w) est le cote au-dela de la cellule de T(M_v) qui ne contient pas w.
+Symetries du germe : les 120 permutations des cinq constituants du germe ; les 60 paires conservent l'orientation de l'espace, les 60 impaires
+la renversent (ce sont des reflets).
+
+ENONCES QUE J'ANNONCE DEMONTRER, sous les faits admis de X-30 bis (confiance : 80 %)
+T29 (les cousins). Un constituant qui a une mere propre a exactement un cousin : l'autre cote de la cellule formee par sa tuile-porte privee de
+     sa mere. Un constituant du palier 1 n'en a aucun. Les autres, hors du germe, en ont deux.
+T30 (la regle, dite sans mere de regle). Les tissus de la regle de T28 sont exactement ceux-ci : la generation 1 est le palier 1 ; ensuite tout
+     constituant ne a exactement deux filles propres, nees a la generation qui suit la sienne, et n'en a plus d'autre. Le seul choix est : lesquelles
+     (deux parmi quatre pour un constituant du palier 1, deux parmi trois ensuite). Chaque fille nait sur le fil qui lie sa mere a sa grand-mere.
+T31 (les liens). Dans un tel tissu, deux constituants lies sont mere et fille (ou parent et enfant), ou bien cousins nes a la meme generation.
+     Au palier 1 : X(v, w) et X(w, v) sont cousins. Ensuite : deux soeurs ont chacune trois filles propres, dont une seule a pour cousine une
+     fille propre de l'autre ; les deux autres n'ont pas de cousine qui puisse naitre.
+T32 (ce que fixe la symbiose des ages). Dans un tel tissu, << aucun lien entre constituants de la meme generation >> equivaut a : tous les liens
+     sont de parent a enfant. Cette condition peut toujours etre tenue. Elle impose a la generation 2 un tournoi regulier sur le germe (X(v, w)
+     nait si v bat w ; chacun bat deux autres) : 24 tissus possibles, tous echanges par les symetries du germe ; ils forment deux classes de 12
+     sous les symetries qui conservent l'orientation, images l'une de l'autre dans un reflet ; chacun a exactement cinq symetries, aucune n'est
+     un reflet. Ensuite elle laisse cinq choix par paire de soeurs, a chaque generation. Un seul de ces cinq fait faire la meme chose aux deux
+     soeurs : chacune garde ses deux filles sans cousine possible. Avec lui, le tissu entier est fixe par sa generation 2.
+Si un calcul ci-dessous contredit T29 a T32, c'est une erreur de preuve : elle sera declaree en tete du carnet.
+
+CLAUSES CHIFFREES
+D1. T29 sur la regle a la lettre, palier 5 : les 820 paires de cousins (X-30 bis) ; pour chacune, chacun des deux est l'autre cote de la cellule
+    formee par la tuile-porte de l'autre privee d'un de ses parents, et le mur oppose a ce parent separe du germe la tuile voisine. Aucune exception.
+D2. Generation 2, enumeration complete : chaque M_v garde deux de ses quatre filles propres, 6^5 = 7 776 tissus. Sans lien entre constituants de
+    la meme generation : exactement 24. Une seule classe sous les 120 symetries du germe ; deux classes de 12 sous les 60 paires ; chacun des 24
+    est conserve par exactement 5 symetries, toutes paires.
+D3. Generation 3, enumeration complete au-dessus d'un des 24 : chaque constituant de la generation 2 garde deux de ses trois filles propres,
+    3^10 = 59 049 tissus. Nombre de liens entre constituants de la generation 3 : 0 pour 3 125 tissus, 1 pour 12 500, 2 pour 20 000, 3 pour
+    16 000, 4 pour 6 400, 5 pour 1 024.
+D4. La regle de T32 (chacune garde ses deux filles sans cousine possible), depuis un tissu de chacune des deux classes, 10 generations :
+    N = 5 x 2^g ; a chaque generation chaque constituent ne a la precedente a exactement deux filles sans cousine possible ; a la generation 10,
+    4 x 5 120 - 10 = 20 470 liens, tous de parent a enfant, aucun entre constituants de la meme generation, aucun chevauchement ; le tissu est
+    conserve par exactement 5 des 120 symetries du germe ; les deux tissus sont echanges par une symetrie impaire et par aucune symetrie paire.
+D5. T30 sur les 20 tirages de X-32 (memes graines) : tout constituant ne avant la generation 10 a exactement deux filles propres nees, toutes
+    deux a la generation qui suit la sienne ; aucune exception.
+D6. Variante plus libre (chaque constituant prend pour fille n'importe quel constituant non ne dont il est un parent et dont le plancher est
+    ne), generation 2, enumeration complete : les ensembles de dix naissances sans lien entre elles sont au nombre de 704, en 8 classes sous les
+    120 symetries (confiance : 65 %). La symbiose des ages ne fixe donc la generation 2 que sous la regle de T28.
+
+CE QUE JE NE PROMETS PAS
+Que la symbiose des ages soit ce qui fixe le choix dans le Blob : le registre porte aussi la ligne B27, << la mitose cree des connexions
+nouvelles >>, que cette condition interdit ici. Que << faire la meme chose aux deux soeurs >> soit un principe de l'auteur : c'est une condition
+que je pose. Aucune lecture physique des deux classes en miroir. Aucune formalisation Lean. Aucune relecture humaine. Aucun verrou.
+
+PROTOCOLE
+Deux coeurs, 30 minutes de calcul au plus. Echecs en tete du carnet. Contre-audit independant, avec son propre code. Jamais main.
