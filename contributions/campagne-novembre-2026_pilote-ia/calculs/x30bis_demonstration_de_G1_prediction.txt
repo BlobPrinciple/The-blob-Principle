@@ -1,0 +1,81 @@
+X-30 (seconde partie) -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 27 novembre 2026, 11 h 55, heure de Paris.
+Parole de l'auteur, rapportee dans le relais de session du 27 novembre, 11 h 03 : << Je veux demontrer la cosmogonie les details viendront ! Vas y >>
+
+TOE 0/7. Aucun verrou ferme. Rien de ce qui suit ne peut en fermer un : geometrie de la lecture de contact, rang 3.
+Ce que je ne ferai pas : dire que la cosmogonie est demontree. Ce qui est vise ici est un seul enonce, (G1), sur l'empilement.
+
+CE QUI EST DEJA CONNU AU MOMENT DU SCELLEMENT
+(G1), X-30 : toute boule ronde hors de l'empilement, liee a un constituant p et a trois de ses voisins q, r, s, chevauche un parent de l'un des
+quatre. Verifie sans exception (889 224 boules aux paliers 3 et 4 ; 1 302 727 boules du contre-auditeur), non demontre.
+T13 (fenetre) et T12 (descente), X-30. K20a, X-27 : une boule liee a deux constituants lies et a deux autres constituants lies aux deux premiers
+est dans l'empilement.
+Travail fait avant ce scellement : raisonnement seul, distances du reseau triangulaire calculees a la main. Aucun calcul sur machine. Le depot
+a ete clone au commit 840d943 et Lean 4.35.0 installe ; rien n'a ete execute sur la question.
+
+VOCABULAIRE
+nu(a, b) = (1 - <a, b>)/2. Lies : nu = 1. Chevauchement : nu < 1.
+T(u) : la tuile-porte de u ; pour un constituant du germe, la tuile du germe. F(u) = T(u) prive de u. Parents de u : F(u) si u est hors du germe.
+T0(p, q), pour p et q lies : la tuile contenant p et q la plus proche du germe. Porte de q vue de p : les trois autres constituants de T0(p, q).
+Vu de p, un voisin u de p porte le vecteur u + p (X-28). Vu de p et d'un voisin c mis a l'infini, les voisins de p lies a c sont des boules
+egales rangees en reseau triangulaire de pas 1, et une boule x liee a p et a c est une boule egale, posee en un point xi du plan.
+
+A. ENONCES QUE J'ANNONCE DEMONTRER (raisonnement fait avant tout calcul ; preuves au carnet, a faire contre-auditer)
+T15 (parents d'une paire liee). Soient p, q lies et T0(p, q) = {p, q, a, b, c}. Alors a, b, c sont tous dans T(p), ou tous dans T(q).
+     Plus precisement : T0 = T(p), ou T0 = T(q), ou bien T(p) = {p, q', a, b, c}, ou q' est l'autre cote de la cellule {p, a, b, c}.
+T16 (les trois quarts). Soit {p, c, a, b, d} une tuile, x une boule ronde liee a p et a c qui ne chevauche ni a, ni b, ni d, et w un constituant
+     lie a p, autre que c, dont les coordonnees dans la base de cette tuile sont positives ou nulles sur a, b, d. Alors
+     nu(x, w) >= (3/4) nu(c, w), et l'egalite n'a lieu que si x est un constituant. (Vu de p et de c : tout point d'un triangle du reseau dont les
+     trois sommets sont a distance au moins 1 de xi est a distance au moins racine(3)/2 de xi.)
+T17 (cone). Soit x liee a p et a trois voisins distincts q, r, s de p, et w lie a p, autre que q, r, s, tel que nu(x, w) > (3/4) nu(c, w) pour
+     c = q, r, s. Alors nu(q, r), nu(q, s), nu(r, s) sont chacun < 16/3, et leur somme est < 12. (Le vecteur (3/4)(somme des c + p) - k (x + p),
+     k = 2 ou 3, serait de genre temps ou lumiere, du meme cote que w + p : produit negatif ou nul.)
+T18 (arithmetique d'Eisenstein). Admis (C6) : vus de p, les voisins de p sont les spheres de Ford des entiers d'Eisenstein, nu = norme du
+     determinant ; les valeurs de nu sont 1, 3, 4, 7, 9, ... Alors, pour trois voisins de p de nu deux a deux dans {1, 3, 4} dont aucun n'est
+     lie aux deux autres : les types (1,3,3), (1,4,4), (3,3,4), (3,4,4) n'existent pas ; pour les types (3,3,3) et (1,3,4), toute boule liee a
+     p et aux trois est un constituant ; reste le type (4,4,4), de somme 12.
+T19 = (G1), demontre sous les faits classiques (C1) a (C5) de X-28 et X-29, (C6), et le fait classique de K20a. Schema : si x, hors de
+     l'empilement, ne chevauche aucun parent, alors par T15 les portes de q, r, s vues de p ne sont pas chevauchees ; par T16, un parent w de p
+     (ou un constituant du germe si p en est) verifie nu(x, w) > (3/4) nu(c, w) pour c = q, r, s ; T17 et T18 ne laissent aucun cas.
+     Si p et un des trois sont dans le germe : T16 applique a ce constituant du germe donne que les deux autres lui sont lies, et K20a conclut.
+Consequences, par T11 puis T10 : (G) ; dans tout tissu clos par plancher, toute place admissible est dans l'empilement ; en particulier le
+tissu de la regle a la lettre, a tout palier. La moitie << exactement les cotes libres >> de (C) n'en decoule pas.
+Si un calcul ci-dessous contredit T15 a T18, c'est une erreur de preuve : elle sera declaree en tete du carnet, et (G1) restera [H].
+Confiance que la preuve tienne apres contre-audit : 80 %.
+
+B. PREDICTIONS CHIFFREES (calcul exact ; chaque clause est jugee vraie ou fausse)
+V1. T15 sur donnees. Palier 5 (1 800 constituants), toutes les paires liees : a, b, c tous dans T(p) ou tous dans T(q). Zero exception.
+    Les trois cas se produisent, y compris celui ou T0 n'est la tuile-porte ni de p ni de q (au moins une paire).
+V2. T16 sur donnees. Palier 3, tous les parents p, toutes les boules liees a un quadruple (237 300 boules, dans l'empilement ou non) : pour chaque
+    boule x, chaque contact c parmi q, r, s dont la porte vue de p n'est pas chevauchee, et chaque w de F(p) autre que c :
+    nu(x, w) >= (3/4) nu(c, w), avec egalite seulement si x est dans l'empilement. Zero exception. Je donnerai le nombre de triplets controles et
+    la plus petite valeur du rapport pour les boules hors de l'empilement. Boules irrationnelles : comparaison exacte si l'outil la permet,
+    sinon en nombres flottants avec une marge de 1e-9, comptees a part.
+V3. Types sur donnees. Palier 3, les 148 320 quadruples (p ; q, r, s), tries par (nu(q,r), nu(q,s), nu(r,s)) :
+    (a) aucun quadruple de type (1,3,3), (1,4,4), (3,3,4), (3,4,4) ;
+    (b) types (3,3,3) et (1,3,4) : toutes les boules liees au quadruple sont dans l'empilement ;
+    (c) type (4,4,4) : il y en a au moins un ; chacun porte deux boules, une dans l'empilement, une hors ;
+    (d) toute boule hors de l'empilement liee a un quadruple dont les trois nu sont < 16/3 et dont aucun des q, r, s n'est lie aux deux autres
+        est de type (4,4,4) ;
+    (e) aucune valeur de nu egale a 2, 5 ou 6 entre deux voisins d'un meme constituant.
+V4. Modele de Ford-Eisenstein, programme nouveau, calcul exact dans Z[omega], sans l'outil de X-27. q a l'infini ; r et s parmi les sommets de
+    denominateur de norme 1, 3 ou 4 a distance au plus 3 de l'origine ; pour chaque triplet avec nu(r, s) dans {1, 3, 4}, les boules unite
+    tangentes a r et s : memes conclusions (a) a (d). Zero exception.
+V5. (C6) sur donnees. Les voisins du premier constituant du germe au palier 6, vus de lui et du deuxieme constituant du germe : chacun se place
+    en un point alpha/beta de Q(omega), fraction reduite, avec norme(beta) = nu(q, u) et diametre 1/norme(beta). Zero exception.
+V6. Cas critique, dans le modele de Ford. x = la boule unite posee au milieu d'une arete du reseau (type (4,4,4)) ; pour tous les tetraedres-bases
+    a distance au plus 7 du tetraedre (infini, 0, 1, zeta), x chevauche un sommet de la porte de q, r ou s. Zero exception.
+    Tirage : 20 000 cas (q a l'infini, r et s de denominateur de norme au plus 13, une boule tangente aux trois hors de l'empilement, une base
+    tiree par une marche de 1 a 30 pas) : x chevauche toujours un sommet d'une des trois portes. Zero exception.
+V7. Lean. T16 et T17, pour des donnees rationnelles, acceptes par Lean 4.35.0 sans autre axiome que les trois usuels.
+    Si je n'y parviens pas dans la session, la clause est declaree non faite, pas vraie.
+
+C. PROTOCOLE
+Programmes nouveaux : x30bis_G1.py (donnees des paliers, avec l'outil de X-27 et x29bis_plancher.py importes tels quels) ; x30bis_ford.py
+(modele de Ford-Eisenstein, independant). Fichiers Lean : lean_x30bis/.
+Budget : 2 coeurs ; un calcul qui depasse 40 minutes est arrete et declare non fait.
+Ce qui serait un echec : toute clause fausse ; toute exception a T15, T16, T17 ou T18 ; une faille de preuve que le contre-audit trouve et que je
+ne sais pas reparer.
+Ce qui n'est PAS predit ni promis : T15 et T18 devant Lean ; la moitie << exactement les cotes libres >> de (C) ; le palier 7 ; le plus petit
+contre-exemple a K20 ; le lien avec la division de l'arete ; le temps ; tout travail sur un verrou.
+Contre-audit independant demande : relecture des preuves, recalcul avec un code propre, tentative de casser T15 a T18.
