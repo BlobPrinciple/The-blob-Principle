@@ -1170,3 +1170,12 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_C.out` | 1 210 |
 | X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_E.json` | 1 052 |
 | X-27, essais prédits (tous les tissus de six naissances au plus, croissances longues, règle à la lettre, liens des nouveau-nés ; calcul exact) | `x27_partie_E.out` | 913 |
+| X-27 bis, contre-exemple de X-27 au noyau de Lean (énoncé écrit à la main, preuve engendrée, script qui rejoue tous les contrôles et sa sortie) | `lean_x27/Enonce.lean` | 7 390 |
+| X-27 bis, contre-exemple de X-27 au noyau de Lean (énoncé écrit à la main, preuve engendrée, script qui rejoue tous les contrôles et sa sortie) | `lean_x27/Preuve.lean` | 20 934 |
+| X-27 bis, contre-exemple de X-27 au noyau de Lean (énoncé écrit à la main, preuve engendrée, script qui rejoue tous les contrôles et sa sortie) | `lean_x27/genere.py` | 6 361 |
+| X-27 bis, contre-exemple de X-27 au noyau de Lean (énoncé écrit à la main, preuve engendrée, script qui rejoue tous les contrôles et sa sortie) | `lean_x27/controle.sh` | 3 243 |
+| X-27 bis, contre-exemple de X-27 au noyau de Lean (énoncé écrit à la main, preuve engendrée, script qui rejoue tous les contrôles et sa sortie) | `lean_x27/controle.out` | 2 422 |
+| X-27 bis, exploration non scellée : les voisins d'un constituant sont les sphères de Ford des entiers d'Eisenstein ; lecture des trois places hors de l'empilement | `x27bis_ford_eisenstein.py` | 3 396 |
+| X-27 bis, exploration non scellée : les voisins d'un constituant sont les sphères de Ford des entiers d'Eisenstein ; lecture des trois places hors de l'empilement | `x27bis_ford_eisenstein.out` | 637 |
+| X-27 bis, exploration non scellée : les voisins d'un constituant sont les sphères de Ford des entiers d'Eisenstein ; lecture des trois places hors de l'empilement | `x27bis_gonflee.py` | 1 993 |
+| X-27 bis, exploration non scellée : les voisins d'un constituant sont les sphères de Ford des entiers d'Eisenstein ; lecture des trois places hors de l'empilement | `x27bis_gonflee.out` | 2 195 |

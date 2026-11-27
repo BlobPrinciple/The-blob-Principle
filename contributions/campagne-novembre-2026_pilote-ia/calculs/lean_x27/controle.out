@@ -1,0 +1,52 @@
+== outils
+Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+nanoda_bin 0.4.19
+== empreintes
+2a4a84c4f94f9b540baf94fb8676deb77a2012b6310134efe108d6633319cbf2  Enonce.lean
+5bca8203e7791299cf7cf9b9b234cd470119d0d4cf6e16b7a688b539e068db3e  genere.py
+== 1. la preuve est regeneree, puis Lean compile l'enonce et la preuve
+aa239497e26e28311dbdf08fd375c768720783850e33005d5227a8d8a2189685  Preuve.lean
+lean Enonce : code 0
+'X27.K20_est_fausse' depends on axioms: [propext, Classical.choice, Quot.sound]
+lean Preuve : code 0
+== 2. mots interdits dans les deux fichiers (attendu : 0 partout)
+sorry : 0 dans l'enonce, 0
+native_decide : 0 dans l'enonce, 0
+axiom : 0 dans l'enonce, 0
+unsafe : 0 dans l'enonce, 0
+implemented_by : 0 dans l'enonce, 0
+extern : 0 dans l'enonce, 0
+opaque : 0 dans l'enonce, 0
+== 3. rejeu par les verificateurs de Lean
+leanchecker : code 0
+leanchecker-paranoid : code 0
+leanchecker --fresh : code 0
+== 4. export du theoreme et de tout ce dont il depend, puis trois noyaux independants
+leanexport : code 0 ; 146267 lignes ; sha256 b8df0a1b14cbcff1bae911759ca248c341a2149152c695213c0c9465fcaf937d
+theorem X27.K20_est_fausse : X27.EnonceK20Fausse := _
+
+def X27.EnonceK20Fausse :
+  Prop :=
+  And (X27.Tissu X27.germe X27.naissances17)
+    (And (X27.TissuDeCellules X27.germe X27.naissances17)
+      (And (forall (u : X27.Vec), Membership.mem X27.tissu22 u → X27.DansEmpilement u)
+        (And (X27.PlaceAdmissible X27.tissu22 X27.place) (Not (X27.BouleDansEmpilement X27.place)))))
+
+axiom propext {a b : Prop} : Iff a b → Eq a b
+
+axiom Classical.choice.{u} {α : Sort u} : Nonempty α → α
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Prop} {a b : α} : r a b → Eq (Quot.mk r a) (Quot.mk r b)
+
+Checked 2177 declarations with no errors
+nanoda : code 0
+con-ron: accepted 1924 declarations (--verified)
+con-ron : code 0
+con-leche: accepted 1924 declarations (--verified)
+con-leche : code 0
+== 5. essais de mutation : quatre versions faussees, Lean doit les refuser toutes (code 1) ; la version intacte doit passer (code 0)
+M0_intacte : code 0 ; 0 erreurs ; fichier modifie : non
+M1_place_faussee : code 1 ; 6 erreurs ; fichier modifie : oui
+M2_naissance_faussee : code 1 ; 27 erreurs ; fichier modifie : oui
+M3_place_de_l_empilement : code 1 ; 1 erreurs ; fichier modifie : oui
+M4_temoin_fausse : code 1 ; 2 erreurs ; fichier modifie : oui

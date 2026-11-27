@@ -562,6 +562,18 @@ Détail : [carnet X-24](carnets/2026-11-22_X-24_contact_lorentz_moteur.md). **TO
 
 **Suite proposée, une seule.** Démontrer, ou faire tomber, que la règle à la lettre garde le tissu dans l'empilement à tout palier.
 
+## 8 septdecies. Ajout du 26 novembre : veille (Riemann, Euler, Navier–Stokes) et contre-exemple de X-27 contrôlé par le noyau de Lean
+
+**Aucun verrou ne bouge : TOE 0/7.** Carnet : [`carnets/2026-11-26_X-27bis_veille_Riemann_et_contre_exemple_au_noyau_de_Lean.md`](carnets/2026-11-26_X-27bis_veille_Riemann_et_contre_exemple_au_noyau_de_Lean.md), sections 275 à 282. Versé le 27 novembre à la demande de l'auteur.
+
+**Ce qui manque, d'abord.** Aucun des résultats annoncés le 20 novembre (hypothèse de Riemann et fonctions L de Dirichlet en Lean, explosion d'Euler et de Navier–Stokes) ne ferme ni ne déplace un verrou. Je n'ai pas rejoué la preuve de Riemann : mon contrôle est une lecture du dépôt de la version courte et des énoncés. Rien n'y est encore relu par des pairs. L'énoncé Lean du contre-exemple de X-27 est de ma main et n'est pas contre-audité. Un vérificateur (lean4lean) n'a pas pu lire mes fichiers. Le dictionnaire d'Eisenstein et la lecture des trois places sont des explorations, ni scellées ni contre-auditées.
+
+**Ce qui est certifié [CERT, pour l'énoncé formel].** Le contre-exemple à K20 (17 naissances dans la cellule, place (18, 18, 16, −6, −3)/7 admissible et hors de l'empilement) est accepté par Lean 4.35.0 avec les trois axiomes usuels, rejoué par `leanchecker`, et accepté par trois vérificateurs extérieurs (nanoda, con-ron, con-leche). Quatre versions volontairement faussées sont refusées. Fichiers : [`calculs/lean_x27/`](calculs/lean_x27/).
+
+**Ce qui est mesuré [M, exploration].** Au rang 3, les voisins d'un constituant de l'empilement sont les sphères de Ford des entiers d'Eisenstein : 48 381 vecteurs contrôlés, aucun désaccord (construction connue, Northshield 2015). Les trois places hors de l'empilement connues sont chacune un constituant de l'empilement, pas encore né, gonflé autour de son point de contact (9 cas).
+
+**Piste, pas résultat.** D'après une remarque de la littérature (Romero et Verjovsky, 2017), la régularité du voisinage d'un constituant dépend de deux fonctions que l'annonce du 20 novembre couvre. Aucune preuve du laboratoire ne s'en sert.
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

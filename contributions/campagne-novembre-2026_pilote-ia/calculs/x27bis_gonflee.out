@@ -1,0 +1,12 @@
+{"place": "x  (toit, 26 naissances)", "numerateur": [8, 8, 7, -2, -2], "denominateur": 3, "q": [10, 8, 7, -2, -2], "q_rond": true, "q_lie_a_p": true, "x_contient_q_tangent": true, "courbure_de_q": 3, "norme_du_denominateur_d_Eisenstein": 3, "q_sphere_de_Ford": true, "q_dans_l_empilement": true, "courbure_de_x": "3/3"}
+{"place": "x' (17 naissances)", "numerateur": [18, 18, 16, -6, -3], "denominateur": 7, "q": [24, 18, 16, -6, -3], "q_rond": true, "q_lie_a_p": true, "x_contient_q_tangent": true, "courbure_de_q": 7, "norme_du_denominateur_d_Eisenstein": 7, "q_sphere_de_Ford": true, "q_dans_l_empilement": true, "courbure_de_x": "7/7"}
+{"place": "x'' (23 naissances)", "numerateur": [226, 220, 208, -92, -19], "denominateur": 91, "q": [316, 220, 208, -92, -19], "q_rond": true, "q_lie_a_p": true, "x_contient_q_tangent": true, "courbure_de_q": 97, "norme_du_denominateur_d_Eisenstein": 97, "q_sphere_de_Ford": true, "q_dans_l_empilement": true, "courbure_de_x": "97/91"}
+--- la meme lecture depuis chacun des quatre contacts de la place (q_c = v + (d-1)c)
+{"place": "x  (toit, 26 naissances)", "contact": [1, 0, 0, 0, 0], "q_c": [10, 8, 7, -2, -2], "q_c_rond": true, "q_c_dans_l_empilement": true}
+{"place": "x  (toit, 26 naissances)", "contact": [0, 1, 0, 0, 0], "q_c": [8, 10, 7, -2, -2], "q_c_rond": true, "q_c_dans_l_empilement": true}
+{"place": "x  (toit, 26 naissances)", "contact": [5, 3, 5, -1, -1], "q_c": [18, 14, 17, -4, -4], "q_c_rond": true, "q_c_dans_l_empilement": true}
+{"place": "x  (toit, 26 naissances)", "contact": [14, 12, 8, -4, -1], "q_c": [36, 32, 23, -10, -4], "q_c_rond": true, "q_c_dans_l_empilement": true}
+{"place": "x' (17 naissances)", "contact": [1, 0, 0, 0, 0], "q_c": [24, 18, 16, -6, -3], "q_c_rond": true, "q_c_dans_l_empilement": true}
+{"place": "x' (17 naissances)", "contact": [0, 1, 0, 0, 0], "q_c": [18, 24, 16, -6, -3], "q_c_rond": true, "q_c_dans_l_empilement": true}
+{"place": "x' (17 naissances)", "contact": [5, 3, 5, -1, -1], "q_c": [48, 36, 46, -12, -9], "q_c_rond": true, "q_c_dans_l_empilement": true}
+{"place": "x' (17 naissances)", "contact": [6, 6, 3, -2, 0], "q_c": [54, 54, 34, -18, -3], "q_c_rond": true, "q_c_dans_l_empilement": true}
