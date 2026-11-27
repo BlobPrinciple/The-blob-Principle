@@ -28,17 +28,17 @@ Prédiction scellée avant tout calcul : `calculs/x30_fenetre_prediction.txt`, S
 
 **T13 (fenêtre). [T, contrôlé par Lean pour une boule rationnelle]** Soit {f₁, f₂, f₃, f₄, u} une tuile et x une boule ronde liée à u qui ne chevauche aucun des f. Alors x est tout entière au-delà du mur opposé à u, du côté de u : ⟨x, n⟩ ≥ 6. L'égalité n'a lieu que si x est l'un des quatre constituants obtenus en retournant un f.
 
-Preuve. Écrivons x = Σ a_j f_j + b u et A = Σ a_j. Dans la base d'une tuile, ⟨x, u⟩ = b − A, ⟨x, f_j⟩ = 2a_j − A − b, ⟨x, x⟩ = 2 Σ a_j² + b² − 2Ab − A², et ⟨x, n⟩ = 6b. Le contact donne b = A − 1. Le non-chevauchement donne a_j ≤ A − 1. La rondeur donne Σ a_j² = A². Posons c_j = A − 1 − a_j ≥ 0. Alors Σ c_j = 3A − 4 et Σ c_j² = 3A² − 6A + 4, donc 2 Σ_{i<j} c_i c_j = (3A − 4)² − (3A² − 6A + 4) = 6 (A − 1)(A − 2). Le membre de gauche est positif ou nul, et A ≥ 4/3 > 1 : donc A ≥ 2, b ≥ 1, ⟨x, n⟩ ≥ 6. Comme 6 > √12, la boule ne coupe pas le mur. Égalité : tous les produits c_i c_j sont nuls, un seul c_j est non nul et vaut 2 ; x = u + Σ_{k≠j} f_k − f_j, le retourné de f_j.
+Preuve. Écrivons x = Σ a_j f_j + b u et A = Σ a_j. Dans la base d'une tuile, ⟨x, u⟩ = b − A, ⟨x, f_j⟩ = 2a_j − A − b, ⟨x, x⟩ = 2 Σ a_j² + b² − 2Ab − A², et ⟨x, n⟩ = 6b. Le contact donne b = A − 1. Le non-chevauchement donne a_j ≤ A − 1. La rondeur donne Σ a_j² = A². Posons c_j = A − 1 − a_j ≥ 0. Alors Σ c_j = 3A − 4 et Σ c_j² = 3A² − 6A + 4, donc 2 Σ_{i<j} c_i c_j = (3A − 4)² − (3A² − 6A + 4) = 6 (A − 1)(A − 2). Le membre de gauche est positif ou nul, et A ≥ 4/3 > 1 : donc A ≥ 2, b ≥ 1, ⟨x, n⟩ ≥ 6. Comme 6 > √12, la boule ne coupe pas le mur. Égalité : tous les produits c_i c_j sont nuls, un seul c_j est non nul et vaut 2 ; x = u + Σ_{k≠j} f_k − f_j, le retourné de f_j. « Au-delà » veut dire ici : du côté de u. Ce côté n'est celui qui s'éloigne du germe que si la tuile est la tuile-porte de u ; l'énoncé, lui, vaut pour toute tuile.
 
 **T12 (descente). [T]** Soit x une boule ronde dont la descente s'achève, dans une tuile T. Si x n'est pas dans l'empilement, elle chevauche un constituant de T, et tout constituant lié à x est dans T. Par conséquent une boule liée à quatre constituants indépendants dont la descente s'achève est dans l'empilement : **la descente d'une place hors de l'empilement ne s'achève jamais.**
 
 Preuve. Dans la base de T, x = Σ y_k u_k avec y_k ≥ 0 ; posons s = Σ y_k. La rondeur donne 2 Σ y_k² − s² = 1 ; comme Σ y_k² ≤ s², s ≥ 1. Si s = 1, Σ y_k² = s² : une seule coordonnée est non nulle, x est un constituant de T. Si s > 1 : pour un constituant v hors de T, ⟨u_k, v⟩ ≤ −1 pour tout k, donc ⟨x, v⟩ ≤ −s < −1 : v n'est pas lié à x. Et x chevauche un constituant de T : sinon 2y_k − s ≤ −1 pour tout k, donc y_k ≤ (s − 1)/2 et 1 + s² = 2 Σ y_k² ≤ (s − 1) s, soit 1 ≤ −s. Enfin, quatre constituants de T sont tous liés : c'est une cellule, et une boule liée aux quatre en est un côté (X-28, T1), donc un constituant.
 
-À chaque retournement la somme des coordonnées diminue de deux fois la coordonnée retournée ; une descente qui s'achève finit avec une somme au moins égale à 1. Une somme négative ou nulle certifie donc qu'elle ne s'achèvera pas.
+À chaque retournement la somme des coordonnées diminue de deux fois la valeur absolue de la coordonnée retournée ; la descente n'impose pas l'ordre des retournements, et la preuve vaut pour tout ordre ; une descente qui s'achève finit avec une somme au moins égale à 1. Une somme négative ou nulle certifie donc qu'elle ne s'achèvera pas.
 
 **T14 (conséquences). [T, sous les faits de X-28 et X-29]**
 - Les ancêtres de u sont tous du côté du germe du mur de son plancher, ou sur ce mur. Preuve : le plancher est sur le mur. Un constituant du mur a sa tuile-porte du côté du germe (C3 bis), donc son plancher aussi. Un constituant strictement du côté du germe n'a que des tuiles de ce côté (C2). On conclut de génération en génération.
-- Dans un tissu clos par plancher, toute place admissible est au-delà du mur du plancher de chacun de ses contacts hors du germe (T13, le plancher étant né), et tous ses contacts sont sur ce mur ou au-delà (deux boules liées ne sont pas strictement de part et d'autre d'un mur, X-28, C4).
+- Dans un tissu clos par plancher, toute place admissible est au-delà du mur du plancher de chacun de ses contacts hors du germe (T13, le plancher étant né), et tous ses contacts sont sur ce mur ou au-delà : par T13, ⟨x, n⟩ ≥ 6 > √12, la boule fermée de la place est strictement au-delà du mur ; un contact la touche, il n'est donc pas strictement de l'autre côté, et un constituant est sur un mur ou strictement d'un côté (X-28, C4).
 
 ## 315. Le lemme de la fenêtre devant Lean
 
@@ -73,7 +73,15 @@ Avec T13, (G1) se redit ainsi : une boule liée aux quatre, et située au-delà 
 
 ## 318. Contre-audit indépendant
 
-**En cours au moment de ce versement.** Le sous-agent indépendant des passages précédents relit les preuves de T12, T13 et T14, l'énoncé Lean, refait U1, U2 et U3 au palier 3 avec son propre code, et cherche à casser (G1) dans des tuiles profondes. Tant que son rapport n'est pas versé, aucun résultat de ce carnet n'a été contrôlé par un autre que moi, sauf T13 par Lean.
+Le sous-agent indépendant des passages précédents (Claude Opus) a relu ce carnet et refait les calculs avec son propre code. Son rapport est versé tel quel : `calculs/x30_contre_audit_rapport.md`.
+
+Il n'a rien trouvé de faux. Trois imprécisions, corrigées en section 314 : dans T14, l'argument sur les contacts devait passer par la borne stricte de T13 et non par (C4) seul ; dans T13, « au-delà » ne veut dire « loin du germe » que pour la tuile-porte ; dans T12, la somme diminue de deux fois la valeur absolue de la coordonnée.
+
+Ce qu'il a confirmé : les trois preuves, y compris les pas dont je doutais ; la fidélité de l'énoncé Lean à T13 pour une boule rationnelle (hypothèses satisfaisables : le retourné de f₄) ; au palier 3, le partage 47 100 / 190 200 et les clauses U1, U2 et U3, chiffre pour chiffre ; la précision apportée à X-29 bis (43 900 boules égales à un ancêtre, 3 200 constituants qui ne le sont pas).
+
+Ce qu'il a tenté de casser, sans y parvenir : (G1), sur 2 419 980 quadruples pris dans des tuiles de longueur jusqu'à 20 ; 1 302 727 boules hors de l'empilement, toutes chevauchent un parent d'un contact.
+
+Ce qu'il n'a pas contrôlé : le palier 4 ; les vérificateurs extérieurs de Lean et les énoncés modifiés ; T12 en calcul pour les boules irrationnelles. Il rappelle que des tirages ne sont pas une preuve de (G1).
 
 ## 319. Ce que cela donne, et ce que cela ne donne pas
 
@@ -90,6 +98,6 @@ Cela ne valide pas la TOE. Cela ne donne ni l'espace-temps, ni la gravitation, n
 - `calculs/x30_fenetre_prediction.txt` : prédiction scellée.
 - `calculs/x30_fenetre_descente.py` ; sorties `x30_tout_3.out`, `x30_tout_4_sym.out`.
 - `calculs/lean_x30/` : `Fenetre.lean`, `controle.sh`, `controle.out`.
-- `calculs/x30_contre_audit_rapport.md` : rapport du contre-audit, à verser tel quel dès réception.
+- `calculs/x30_contre_audit_rapport.md` : rapport du contre-audit, versé tel quel.
 
 TOE 0/7. Aucun verrou fermé.

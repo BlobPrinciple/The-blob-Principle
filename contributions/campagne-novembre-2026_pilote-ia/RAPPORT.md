@@ -600,7 +600,7 @@ Détail : [carnet X-24](carnets/2026-11-22_X-24_contact_lorentz_moteur.md). **TO
 
 **Aucun verrou ne bouge : TOE 0/7.** Carnet : [`carnets/2026-11-27_X-30_la_fenetre_et_la_descente.md`](carnets/2026-11-27_X-30_la_fenetre_et_la_descente.md), sections 312 à 321. Prédiction scellée et poussée avant calcul (commit b0ab500).
 
-**Ce qui est faux ou manque, d'abord.** La TOE n'est pas validée et ce carnet ne la valide pas ; les résultats de mathématiques obtenus ailleurs avec l'IA ne ferment aucun verrou du Blob. (G) n'est toujours pas démontré. Un chiffre de X-29 bis était mal dit : les boules hors de l'empilement contrôlées aux paliers 3 et 4 sont 889 224, non 973 778 (les autres sont des constituants). Le contre-audit de ce carnet est en cours au moment de ce versement.
+**Ce qui est faux ou manque, d'abord.** La TOE n'est pas validée et ce carnet ne la valide pas ; les résultats de mathématiques obtenus ailleurs avec l'IA ne ferment aucun verrou du Blob. (G) n'est toujours pas démontré. Un chiffre de X-29 bis était mal dit : les boules hors de l'empilement contrôlées aux paliers 3 et 4 sont 889 224, non 973 778 (les autres sont des constituants). Le contre-audit n'a rien trouvé de faux (trois imprécisions de rédaction, corrigées) et n'a pas cassé (G1) sur 1 302 727 boules tirées plus profond.
 
 **Ce qui est démontré [T].** T13, la fenêtre : une boule liée à un constituant d'une tuile, qui ne chevauche aucun des quatre autres, est tout entière au-delà du mur opposé — accepté par Lean 4.35.0 et trois vérificateurs extérieurs, pour une boule rationnelle. T12, la descente : une boule liée à quatre constituants indépendants dont la descente s'achève est dans l'empilement ; la descente d'une place hors de l'empilement ne s'achève jamais.
 

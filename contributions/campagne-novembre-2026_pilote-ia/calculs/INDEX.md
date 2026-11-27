@@ -1230,3 +1230,4 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-30 (la fenêtre et la descente ; prédiction scellée avant calcul) | `x30_fenetre_prediction.txt` | 4 675 |
 | X-30 (T13 et T12 sur données, énoncé (G1) aux paliers 3 et 4) | `x30_tout_3.out` | 672 |
 | X-30 (T13 et T12 sur données, énoncé (G1) aux paliers 3 et 4) | `x30_tout_4_sym.out` | 650 |
+| X-30, rapport du contre-audit indépendant (troisième passage), versé tel quel | `x30_contre_audit_rapport.md` | 3 486 |
