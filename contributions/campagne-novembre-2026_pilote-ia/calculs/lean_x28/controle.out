@@ -1,0 +1,61 @@
+== outils
+Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+nanoda_bin 0.4.19
+== empreinte
+8cf097a07620e3b8582a2869923a4046c5786d3ace7a60a52c29d7f46b891ea3  Pont.lean
+== 1. Lean compile l'enonce et la preuve
+'X28.pont' depends on axioms: [propext, Classical.choice, Quot.sound]
+lean Pont : code 0
+== 2. mots interdits (attendu : 0 partout)
+sorry : 0
+native_decide : 0
+axiom : 0
+unsafe : 0
+implemented_by : 0
+extern : 0
+opaque : 0
+== 3. rejeu par les verificateurs de Lean
+leanchecker : code 0
+leanchecker-paranoid : code 0
+== 4. export du theoreme et de tout ce dont il depend, puis trois noyaux independants
+leanexport : code 0 ; 213147 lignes ; sha256 c91bce63a2aaea7fa3ec96d03d95168b9cfe386fb1e69bde2ad2ecb94a44d831
+theorem X28.pont (p a b c d q r v : X28.Vec) (D N π αa αb αc αd : Int) (hpp : Eq (X28.prod p p) (OfNat.ofNat 1))
+  (haa : Eq (X28.prod a a) (OfNat.ofNat 1)) (hbb : Eq (X28.prod b b) (OfNat.ofNat 1))
+  (hcc : Eq (X28.prod c c) (OfNat.ofNat 1)) (hdd : Eq (X28.prod d d) (OfNat.ofNat 1))
+  (hpa : Eq (X28.prod p a) (Neg.neg (OfNat.ofNat 1))) (hpb : Eq (X28.prod p b) (Neg.neg (OfNat.ofNat 1)))
+  (hpc : Eq (X28.prod p c) (Neg.neg (OfNat.ofNat 1))) (hpd : Eq (X28.prod p d) (Neg.neg (OfNat.ofNat 1)))
+  (hab : Eq (X28.prod a b) (Neg.neg (OfNat.ofNat 1))) (hac : Eq (X28.prod a c) (Neg.neg (OfNat.ofNat 1)))
+  (had : Eq (X28.prod a d) (Neg.neg (OfNat.ofNat 1))) (hbc : Eq (X28.prod b c) (Neg.neg (OfNat.ofNat 1)))
+  (hbd : Eq (X28.prod b d) (Neg.neg (OfNat.ofNat 1))) (hcd : Eq (X28.prod c d) (Neg.neg (OfNat.ofNat 1)))
+  (hD : LT.lt (OfNat.ofNat 0) D) (hvp : Eq (X28.prod v p) (Neg.neg D)) (hva : LE.le (X28.prod v a) (Neg.neg D))
+  (hvb : LE.le (X28.prod v b) (Neg.neg D)) (hvc : LE.le (X28.prod v c) (Neg.neg D))
+  (hvd : LE.le (X28.prod v d) (Neg.neg D)) (hqq : Eq (X28.prod q q) (OfNat.ofNat 1))
+  (hrr : Eq (X28.prod r r) (OfNat.ofNat 1)) (hqp : Eq (X28.prod q p) (Neg.neg (OfNat.ofNat 1)))
+  (hrp : Eq (X28.prod r p) (Neg.neg (OfNat.ofNat 1))) (hvq : Eq (X28.prod v q) (Neg.neg D))
+  (hvr : Eq (X28.prod v r) (Neg.neg D)) (hN : LT.lt (OfNat.ofNat 0) N) (h0a : LE.le (OfNat.ofNat 0) αa)
+  (h0b : LE.le (OfNat.ofNat 0) αb) (h0c : LE.le (OfNat.ofNat 0) αc) (h0d : LE.le (OfNat.ofNat 0) αd)
+  (hmil :
+    Eq (X28.fois N (X28.plus (X28.plus q r) (X28.fois (OfNat.ofNat 2) p)))
+      (X28.plus (X28.fois π p)
+        (X28.plus (X28.fois αa a) (X28.plus (X28.fois αb b) (X28.plus (X28.fois αc c) (X28.fois αd d)))))) :
+  LE.le (Neg.neg (OfNat.ofNat 2)) (X28.prod q r) :=
+  _
+
+axiom Classical.choice.{u} {α : Sort u} : Nonempty α → α
+
+axiom propext {a b : Prop} : Iff a b → Eq a b
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Prop} {a b : α} : r a b → Eq (Quot.mk r a) (Quot.mk r b)
+
+Checked 2699 declarations with no errors
+nanoda : code 0
+con-ron: accepted 2415 declarations (--verified)
+con-ron : code 0
+con-leche: accepted 2415 declarations (--verified)
+con-leche : code 0
+== 5. quatre enonces modifies : le script de preuve ne doit plus passer (code 1) ; l'enonce intact doit passer (code 0)
+M0_intact : code 0 ; 0 erreurs ; fichier modifie : non
+M1_conclusion_moins_un : code 1 ; 1 erreurs ; fichier modifie : oui
+M2_contact_de_r_affaibli : code 1 ; 2 erreurs ; fichier modifie : oui
+M3_coefficient_negatif_permis : code 1 ; 2 erreurs ; fichier modifie : oui
+M4_chevauchement_de_a_permis : code 1 ; 1 erreurs ; fichier modifie : oui

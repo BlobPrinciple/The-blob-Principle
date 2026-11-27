@@ -1,0 +1,14 @@
+{"graine": 1, "naissances": 5, "places_presentes": 20, "places_rencontrees": 25, "par_classe": {"empilement": 25}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 0.1}
+{"graine": 1, "naissances": 25, "places_presentes": 90, "places_rencontrees": 115, "par_classe": {"empilement": 115}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 1.7}
+{"graine": 1, "naissances": 50, "places_presentes": 167, "places_rencontrees": 217, "par_classe": {"empilement": 217}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 8.3}
+{"graine": 1, "naissances": 100, "places_presentes": 291, "places_rencontrees": 391, "par_classe": {"empilement": 391}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 40.4}
+{"graine": 1, "naissances": 115, "places_presentes": 330, "places_rencontrees": 445, "par_classe": {"empilement": 445}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 55.3}
+{"graine": 1, "naissances": 150, "places_presentes": 443, "places_rencontrees": 593, "par_classe": {"empilement": 593}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 94.6}
+{"graine": 1, "naissances": 200, "places_presentes": 599, "places_rencontrees": 799, "par_classe": {"empilement": 799}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 171.8}
+{"graine": 1, "naissances": 250, "places_presentes": 750, "places_rencontrees": 1000, "par_classe": {"empilement": 1000}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 270.4}
+{"graine": 1, "naissances": 300, "places_presentes": 892, "places_rencontrees": 1192, "par_classe": {"empilement": 1192}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 398.1}
+{"graine": 1, "naissances": 350, "places_presentes": 1061, "places_rencontrees": 1411, "par_classe": {"empilement": 1411}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 547.1}
+{"graine": 1, "naissances": 400, "places_presentes": 1221, "places_rencontrees": 1621, "par_classe": {"empilement": 1621}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 725.0}
+{"graine": 1, "naissances": 445, "places_presentes": 1350, "places_rencontrees": 1795, "par_classe": {"empilement": 1795}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 912.5}
+{"strategie": "file d'attente", "graine": 1, "naissances": 445, "quadruples_examines": 2419155, "places_rencontrees": 1795, "par_classe": {"empilement": 1795}, "hors_de_l_empilement": 0, "exemples_hors": [], "places_sans_cellule_rencontrees": 0, "places_a_la_fin": 1350, "duree_s": 912.5, "tissu_final_egal_au_palier_4": true, "places_finales_egales_a_celles_de_l_enumerateur": true}
+code 0

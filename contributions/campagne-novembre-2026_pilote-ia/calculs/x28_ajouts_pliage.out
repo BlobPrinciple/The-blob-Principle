@@ -1,0 +1,8 @@
+{"palier": 0, "constituants": 5, "murs_de_surface": 5, "constituants_au_dela_d_un_mur": 0, "image_non_entiere": 0, "image_nee": 0, "palier_de_l_image_au_plus_egal": 0}
+{"palier": 1, "constituants": 10, "murs_de_surface": 20, "constituants_au_dela_d_un_mur": 0, "image_non_entiere": 0, "image_nee": 0, "palier_de_l_image_au_plus_egal": 0}
+{"palier": 2, "constituants": 30, "murs_de_surface": 90, "constituants_au_dela_d_un_mur": 0, "image_non_entiere": 0, "image_nee": 0, "palier_de_l_image_au_plus_egal": 0}
+{"palier": 3, "constituants": 120, "murs_de_surface": 390, "constituants_au_dela_d_un_mur": 180, "image_non_entiere": 0, "image_nee": 180, "palier_de_l_image_au_plus_egal": 180}
+{"palier": 4, "constituants": 450, "murs_de_surface": 1530, "constituants_au_dela_d_un_mur": 720, "image_non_entiere": 0, "image_nee": 720, "palier_de_l_image_au_plus_egal": 720}
+{"palier": 5, "constituants": 1800, "murs_de_surface": 6210, "constituants_au_dela_d_un_mur": 2880, "image_non_entiere": 0, "image_nee": 2880, "palier_de_l_image_au_plus_egal": 2880}
+{"palier": 6, "constituants": 7290, "murs_de_surface": 25110, "constituants_au_dela_d_un_mur": 16200, "image_non_entiere": 0, "image_nee": 16200, "palier_de_l_image_au_plus_egal": 16200}
+code 0

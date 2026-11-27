@@ -1,0 +1,7 @@
+{"graine": 1, "fraction": 0.25, "constituants": 788, "tuiles_nees": 1047, "triplets": 12505, "images_non_nees": 326, "images_distinctes_manquantes": 258, "clos_par_pliage": false}
+{"graine": 1, "fraction": 0.5, "constituants": 1125, "tuiles_nees": 1509, "triplets": 19847, "images_non_nees": 521, "images_distinctes_manquantes": 297, "clos_par_pliage": false}
+{"graine": 1, "fraction": 0.75, "constituants": 1462, "tuiles_nees": 2043, "triplets": 28354, "images_non_nees": 449, "images_distinctes_manquantes": 201, "clos_par_pliage": false}
+{"graine": 2, "fraction": 0.25, "constituants": 788, "tuiles_nees": 1036, "triplets": 12330, "images_non_nees": 296, "images_distinctes_manquantes": 251, "clos_par_pliage": false}
+{"graine": 2, "fraction": 0.5, "constituants": 1125, "tuiles_nees": 1506, "triplets": 19793, "images_non_nees": 516, "images_distinctes_manquantes": 318, "clos_par_pliage": false}
+{"graine": 2, "fraction": 0.75, "constituants": 1462, "tuiles_nees": 2046, "triplets": 28337, "images_non_nees": 421, "images_distinctes_manquantes": 187, "clos_par_pliage": false}
+code 0

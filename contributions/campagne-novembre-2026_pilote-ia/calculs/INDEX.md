@@ -1180,3 +1180,45 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-27 bis, exploration non scellée : les voisins d'un constituant sont les sphères de Ford des entiers d'Eisenstein ; lecture des trois places hors de l'empilement | `x27bis_gonflee.py` | 1 993 |
 | X-27 bis, exploration non scellée : les voisins d'un constituant sont les sphères de Ford des entiers d'Eisenstein ; lecture des trois places hors de l'empilement | `x27bis_gonflee.out` | 2 195 |
 | X-28 (quelle propriété d'un tissu interdit une place hors de l'empilement ; la règle à la lettre aux paliers 4 à 6 ; prédiction scellée avant calcul) | `x28_tissu_convexe_prediction.txt` | 7 045 |
+| X-28, le lemme du pont (T2) devant Lean 4.35.0 : énoncé et preuve écrits à la main, contrôles, sortie | `lean_x28/Pont.lean` | 11 858 |
+| X-28, le lemme du pont (T2) devant Lean 4.35.0 : énoncé et preuve écrits à la main, contrôles, sortie | `lean_x28/controle.out` | 3 442 |
+| X-28, le lemme du pont (T2) devant Lean 4.35.0 : énoncé et preuve écrits à la main, contrôles, sortie | `lean_x28/controle.sh` | 2 611 |
+| X-28, ajouts non prédits : contacts des places, pliage aux murs de surface, tissu comblé (faux au palier 6) | `x28_ajouts.py` | 4 466 |
+| X-28, ajouts non prédits : contacts des places, pliage aux murs de surface, tissu comblé (faux au palier 6) | `x28_ajouts_comble.out` | 1 649 |
+| X-28, ajouts non prédits : contacts des places, pliage aux murs de surface, tissu comblé (faux au palier 6) | `x28_ajouts_contacts.out` | 1 592 |
+| X-28, ajouts non prédits : contacts des places, pliage aux murs de surface, tissu comblé (faux au palier 6) | `x28_ajouts_pliage.out` | 1 242 |
+| X-28, rapport du contre-audit indépendant (premier passage), versé tel quel | `x28_contre_audit_rapport.md` | 6 367 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_file_1_445.out` | 2 751 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_file_1_places_finales.json` | 27 900 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_file_2_445.out` | 2 751 |
+| X-28, clause N7 : sortie de la seconde file d'attente tuée par le système à 400 naissances (gardée telle quelle) | `x28_file_2_445_interrompu.out` | 2 169 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_file_2_places_finales.json` | 27 900 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_paliers_3.json` | 5 352 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_paliers_5.json` | 8 655 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_paliers_5.out` | 7 569 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_paliers_6.json` | 10 342 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_paliers_6.out` | 9 398 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_partiel.out` | 6 425 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_places_palier_4.json` | 27 900 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_temoin_palier_3.json` | 651 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_tissu_convexe.py` | 22 217 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_x27.json` | 6 905 |
+| X-28 (tissu à tuiles convexes ; règle à la lettre aux paliers 4 à 6 ; file d'attente ; paliers incomplets ; tissus de X-27) | `x28_x27.out` | 3 972 |
+| X-29, ajouts non scellés : les 83 tirages écartés par la clause Q3 ; le programme de X-25 suit l'énoncé de la règle à la lettre | `x29_ecartes_101_200.out` | 12 041 |
+| X-29, ajouts non scellés : les 83 tirages écartés par la clause Q3 ; le programme de X-25 suit l'énoncé de la règle à la lettre | `x29_ecartes_1_100.out` | 11 727 |
+| X-29 (tissu clos par pliage, tuiles-portes, intervalles de Bruhat, clôture par pliage du contre-exemple de X-27) | `x29_hasard_101_200.out` | 32 209 |
+| X-29 (tissu clos par pliage, tuiles-portes, intervalles de Bruhat, clôture par pliage du contre-exemple de X-27) | `x29_hasard_1_100.out` | 32 457 |
+| X-29 (tissu clos par pliage, tuiles-portes, intervalles de Bruhat, clôture par pliage du contre-exemple de X-27) | `x29_paliers_6.out` | 2 479 |
+| X-29 (tissu clos par pliage, tuiles-portes, intervalles de Bruhat, clôture par pliage du contre-exemple de X-27) | `x29_partiel.out` | 1 089 |
+| X-29 (tissu clos par pliage, tuiles-portes, intervalles de Bruhat, clôture par pliage du contre-exemple de X-27) | `x29_pliage.py` | 13 224 |
+| X-29 (le pliage vers le germe ; prédiction scellée avant calcul) | `x29_pliage_prediction.txt` | 7 053 |
+| X-29, ajouts non scellés : les 83 tirages écartés par la clause Q3 ; le programme de X-25 suit l'énoncé de la règle à la lettre | `x29_regle_6.out` | 669 |
+| X-29 (tissu clos par pliage, tuiles-portes, intervalles de Bruhat, clôture par pliage du contre-exemple de X-27) | `x29_x27.out` | 1 357 |
+| X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_G_3.out` | 421 |
+| X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_G_4_sym.out` | 422 |
+| X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_hasard_1_75.out` | 22 166 |
+| X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_hasard_76_150.out` | 22 268 |
+| X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_partiel.out` | 729 |
+| X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_plancher.py` | 8 768 |
+| X-29 bis (nul ne naît avant son plancher ; prédiction scellée avant calcul) | `x29bis_plancher_prediction.txt` | 4 788 |
+| X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_x27.out` | 926 |

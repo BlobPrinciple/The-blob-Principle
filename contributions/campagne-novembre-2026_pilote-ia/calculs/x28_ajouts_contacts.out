@@ -1,0 +1,8 @@
+{"palier": 0, "places_types": 4, "nombre_de_contacts": {"4": 4}, "cellules_nees_parmi_les_contacts": {"1": 4}, "paires_non_liees_par_produit": {}, "paires_non_liees_par_nombre_de_contacts_communs": {}}
+{"palier": 1, "places_types": 13, "nombre_de_contacts": {"4": 13}, "cellules_nees_parmi_les_contacts": {"1": 13}, "paires_non_liees_par_produit": {}, "paires_non_liees_par_nombre_de_contacts_communs": {}}
+{"palier": 2, "places_types": 43, "nombre_de_contacts": {"4": 43}, "cellules_nees_parmi_les_contacts": {"1": 43}, "paires_non_liees_par_produit": {}, "paires_non_liees_par_nombre_de_contacts_communs": {}}
+{"palier": 3, "places_types": 116, "nombre_de_contacts": {"4": 91, "5": 25}, "cellules_nees_parmi_les_contacts": {"1": 91, "2": 25}, "paires_non_liees_par_produit": {"-5": 25}, "paires_non_liees_par_nombre_de_contacts_communs": {"3": 25}}
+{"palier": 4, "places_types": 336, "nombre_de_contacts": {"4": 270, "5": 66}, "cellules_nees_parmi_les_contacts": {"1": 270, "2": 66}, "paires_non_liees_par_produit": {"-5": 66}, "paires_non_liees_par_nombre_de_contacts_communs": {"3": 66}}
+{"palier": 5, "places_types": 964, "nombre_de_contacts": {"4": 784, "5": 180}, "cellules_nees_parmi_les_contacts": {"1": 784, "2": 180}, "paires_non_liees_par_produit": {"-5": 180}, "paires_non_liees_par_nombre_de_contacts_communs": {"3": 180}}
+{"palier": 6, "places_types": 2671, "nombre_de_contacts": {"4": 2091, "5": 580}, "cellules_nees_parmi_les_contacts": {"1": 2091, "2": 580}, "paires_non_liees_par_produit": {"-5": 580}, "paires_non_liees_par_nombre_de_contacts_communs": {"3": 580}}
+code 0

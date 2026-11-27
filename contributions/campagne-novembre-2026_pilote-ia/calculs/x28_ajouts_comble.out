@@ -1,0 +1,8 @@
+{"palier": 0, "constituants": 5, "derniers_membres_d_anneau_ajoutes": 0, "tuiles_nees_apres_ajout": 1, "murs_de_surface": 5, "murs_avec_un_constituant_au_dela": 0, "convexe": true, "temoin": null}
+{"palier": 1, "constituants": 10, "derniers_membres_d_anneau_ajoutes": 0, "tuiles_nees_apres_ajout": 6, "murs_de_surface": 20, "murs_avec_un_constituant_au_dela": 0, "convexe": true, "temoin": null}
+{"palier": 2, "constituants": 30, "derniers_membres_d_anneau_ajoutes": 0, "tuiles_nees_apres_ajout": 36, "murs_de_surface": 90, "murs_avec_un_constituant_au_dela": 0, "convexe": true, "temoin": null}
+{"palier": 3, "constituants": 120, "derniers_membres_d_anneau_ajoutes": 60, "tuiles_nees_apres_ajout": 276, "murs_de_surface": 630, "murs_avec_un_constituant_au_dela": 0, "convexe": true, "temoin": null}
+{"palier": 4, "constituants": 450, "derniers_membres_d_anneau_ajoutes": 180, "tuiles_nees_apres_ajout": 996, "murs_de_surface": 2250, "murs_avec_un_constituant_au_dela": 0, "convexe": true, "temoin": null}
+{"palier": 5, "constituants": 1800, "derniers_membres_d_anneau_ajoutes": 720, "tuiles_nees_apres_ajout": 4056, "murs_de_surface": 9090, "murs_avec_un_constituant_au_dela": 0, "convexe": true, "temoin": null}
+{"palier": 6, "constituants": 7290, "derniers_membres_d_anneau_ajoutes": 3240, "tuiles_nees_apres_ajout": 17016, "murs_de_surface": 38070, "murs_avec_un_constituant_au_dela": 360, "convexe": false, "temoin": {"cellule": [[-6, 0, 10, 15, 18], [-1, 0, 2, 2, 2], [0, 0, 0, 0, 1], [-10, 1, 16, 22, 28]], "cote_ne": [-5, 1, 7, 11, 13], "cote_libre": [-12, 0, 21, 28, 36], "constituant_au_dela": [-8, -2, 17, 22, 28], "produit": -6}}
+code 0

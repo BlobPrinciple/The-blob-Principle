@@ -6,6 +6,8 @@
 
 **Mise à jour du 23 novembre, après X-27.** Les lignes B14, D8 et G3 changent de texte ; aucune ne change d'état, les comptes sont inchangés. Les sections 4 et 5 reçoivent chacune une phrase.
 
+**Mise à jour du 27 novembre, après X-28, X-29 et X-29 bis.** Les lignes B14 et D8 changent de texte ; aucune ne change d'état, les comptes sont inchangés.
+
 **TOE 0/7. Aucun verrou fermé.**
 
 ## 1. Verdict
@@ -60,7 +62,7 @@ Les numéros C- et X- renvoient aux carnets et à `VERROUILLAGE_TOE_V2.md`, qui 
 | B11 | « La mitose est emprisonnée dans la structure fermée » | Sous condition | Règle généalogique sélectionnée dans une famille de 15 552 (C-136c, C-137c) | tient : une cellule dont les deux côtés sont occupés n'enfante plus (X-25) |
 | B12 | « Symbiose entre porteurs en décalage » | Établi | Aucun fil entre porteurs du même âge (C-136c) | — |
 | B13 | Le tétraèdre, première fermeture, donne les trois dimensions | Sous condition | Cinq énoncés conditionnels (C-135c, X-23, X-24, X-25, X-26) ; aucun ne dérive ses lectures | tient, sous ses lectures : le rang 3 est le plus grand qui ne se chevauche pas (X-25) |
-| B14 | Les descendants sont liés et héritent des liens du parent | Établi | Seule loi de la famille éprouvée qui ferme (C-138c) ; le moteur complet la pratique (X-25), dans toutes ses naissances (X-27) | ne tient pas à la lettre : le nouveau-né est lié aux quatre membres de la cellule, sans parent unique ; au rang 2 l'héritage impose la naissance dans la cellule, au rang 3 non (X-27, contre-exemple exact) |
+| B14 | Les descendants sont liés et héritent des liens du parent | Établi | Seule loi de la famille éprouvée qui ferme (C-138c) ; le moteur complet la pratique (X-25), dans toutes ses naissances (X-27) | ne tient pas à la lettre : le nouveau-né est lié aux quatre membres de la cellule, sans parent unique ; au rang 2 l'héritage impose la naissance dans la cellule, au rang 3 non (X-27, contre-exemple exact) ; au rang 3 il l'impose dans tout tissu à tuiles convexes (X-28, démontré) |
 | B15 | La première fermeture bloque la mitose ; usure, effondrement, reprise | Sous condition | Cycle obtenu en automate, sans espace (C-140c) | tient en partie : le blocage ; ni usure ni reprise |
 | B16 | Le lien usé se divise (« il y a clairement les deux ») | Sous condition | Un seul tissu en automate ; localité perdue (C-141c) | — |
 | B17 | « Cette fréquence est ce qui use les liens » | Sous condition | Quatre critères sur cinq en automate ; capacité de liens posée (C-142c) | — |
@@ -115,7 +117,7 @@ Les numéros C- et X- renvoient aux carnets et à `VERROUILLAGE_TOE_V2.md`, qui 
 | D5 | Complémentarité des lois locales | Sous condition | Sur exemples (C-57, C-59, C-60) | — |
 | D6 | Le coût d'une naissance | Établi | Borne 6,1694 dans l'action canonique (C-58, C-123) | — |
 | D7 | « La première bonne solution est validée » | Sous condition | Fausse comme règle universelle ; vraie au-dessus d'un seuil de coût (BP-S1c) | — |
-| D8 | « La viabilité teste toutes les possibilités et est exempte de temps » | Sous condition | Définition formelle proposée ; seule, elle ne donne ni la mitose, ni le volume, ni une prédiction (C-210, C-211c) | tient en partie : des rangs, seuls 2 et 3 continuent sans chevauchement (X-25) ; au rang 3, un tissu qui laisse vides des places libres peut sortir de l'empilement, et la règle où toutes les cellules enfantent ensemble n'offre que des côtés de cellule, paliers 0 à 3 (X-27) |
+| D8 | « La viabilité teste toutes les possibilités et est exempte de temps » | Sous condition | Définition formelle proposée ; seule, elle ne donne ni la mitose, ni le volume, ni une prédiction (C-210, C-211c) | tient en partie : des rangs, seuls 2 et 3 continuent sans chevauchement (X-25) ; au rang 3, un tissu qui laisse vides des places libres peut sortir de l'empilement, et la règle où toutes les cellules enfantent ensemble n'offre que des côtés de cellule, paliers 0 à 6 (X-28) ; son tissu se replie sur lui-même vers le germe et nul n'y naît avant ses quatre parents, à tout palier (X-29, démontré) ; qu'un tel tissu reste toujours dans l'empilement est vérifié sur 973 778 boules et 350 tissus tirés au hasard, non démontré (X-29 bis) |
 | D9 | « Il faut dériver toutes ses lois » | Ouvert | Aucune loi physique dérivée | — |
 | D10 | Le sens est le constat des informations empilées et retenues | Ouvert | Non traduit | — |
 | D11 | Sa règle prédit « du simplexe au complexe ! Donc tout ! » | Ouvert | Aucune prédiction dérivée de la règle | — |

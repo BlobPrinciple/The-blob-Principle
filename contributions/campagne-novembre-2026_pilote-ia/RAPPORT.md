@@ -574,6 +574,28 @@ Détail : [carnet X-24](carnets/2026-11-22_X-24_contact_lorentz_moteur.md). **TO
 
 **Piste, pas résultat.** D'après une remarque de la littérature (Romero et Verjovsky, 2017), la régularité du voisinage d'un constituant dépend de deux fonctions que l'annonce du 20 novembre couvre. Aucune preuve du laboratoire ne s'en sert.
 
+## 8 octodecies. Ajout du 27 novembre : X-28, les tuiles convexes et la règle à la lettre jusqu'au palier 6
+
+**Aucun verrou ne bouge : TOE 0/7.** Carnet : [`carnets/2026-11-27_X-28_tuiles_convexes_et_regle_a_la_lettre_jusqu_au_palier_6.md`](carnets/2026-11-27_X-28_tuiles_convexes_et_regle_a_la_lettre_jusqu_au_palier_6.md), sections 283 à 295. Prédiction scellée et poussée avant calcul (commit 58934bb).
+
+**Ce qui est faux ou manque, d'abord.** La voie que je proposais pour démontrer la règle à la lettre à tout palier (un « tissu comblé » à tuiles convexes) est fausse au palier 6. Le contre-audit a trouvé des trous dans trois preuves (T1, T3, T6) ; elles sont réécrites. Une file d'attente a été tuée par le système et relancée. Lean ne contrôle qu'un énoncé, et pour une boule à coordonnées rationnelles.
+
+**Ce qui est démontré [T].** Dans un tissu à tuiles convexes, toute place admissible est le côté d'une cellule née (T3, sous des faits classiques sur les groupes de Coxeter). Son lemme central, le pont (T2), est accepté par Lean 4.35.0 et par trois vérificateurs extérieurs. Des constituants tous liés sont dans une même tuile (C4).
+
+**Ce qui est mesuré [M].** Les neuf clauses sont vraies. La règle à la lettre n'offre que des côtés de cellule jusqu'au palier 6 (7 290 constituants, 21 870 places) et dans huit tissus à palier incomplet. Ses tuiles ne sont plus convexes dès le palier 3 : T3 ne l'explique pas.
+
+## 8 novemdecies. Ajout du 27 novembre : X-29 et X-29 bis, le pliage vers le germe, puis le plancher
+
+**Aucun verrou ne bouge : TOE 0/7.** Carnet : [`carnets/2026-11-27_X-29_le_pliage_vers_le_germe.md`](carnets/2026-11-27_X-29_le_pliage_vers_le_germe.md), sections 296 à 311. Deux prédictions scellées et poussées avant calcul (commits d3c1008 et 19ddb75).
+
+**Ce qui est faux ou manque, d'abord.** La règle à la lettre n'est toujours pas démontrée à tout palier : elle est ramenée à un énoncé sur l'empilement seul, (G), vérifié et non démontré. Une équivalence que j'avais annoncée (T11) n'est exacte que dans un sens. Le pliage, premier candidat, était trop fort. Un programme a planté et a été corrigé. Le contre-audit indépendant de ce carnet est en cours au moment de ce versement.
+
+**Ce qui est démontré [T].** Sous la règle à la lettre, à tout palier : le tissu est clos par pliage vers le germe (T6) ; le palier d'un constituant vaut un de plus que le plus grand palier de son plancher (T7) ; nul ne naît avant ses quatre parents (T10). Un tissu est clos par pliage si et seulement si ses tuiles nées forment une partie commençante de l'ordre de Bruhat (T8, sous un fait classique).
+
+**Ce qui est mesuré [M].** Les onze clauses sont vraies. Pliage : 203 925 contrôles au palier 6, aucune exception. Le contre-exemple de X-27 n'est clos ni par pliage ni par plancher : deux constituants y sont nés avant leur parent, et sa place hors de l'empilement chevauche précisément ces deux parents absents. 200 tissus clos par pliage et 150 tissus clos par plancher tirés au hasard : 212 551 places, aucune hors de l'empilement.
+
+**Ce qui est conjecturé [H].** (G) : toute boule hors de l'empilement, liée à un constituant et à trois de ses voisins, chevauche un ancêtre de l'un des quatre. Vérifié sur 973 778 boules aux paliers 3 et 4. S'il est vrai, toute croissance où nul ne naît avant ses quatre parents reste dans l'empilement, la règle à la lettre en particulier.
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

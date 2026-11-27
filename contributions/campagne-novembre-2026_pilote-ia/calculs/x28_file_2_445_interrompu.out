@@ -1,0 +1,12 @@
+{"graine": 2, "naissances": 5, "places_presentes": 20, "places_rencontrees": 25, "par_classe": {"empilement": 25}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 0.0}
+{"graine": 2, "naissances": 25, "places_presentes": 90, "places_rencontrees": 115, "par_classe": {"empilement": 115}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 1.8}
+{"graine": 2, "naissances": 50, "places_presentes": 175, "places_rencontrees": 225, "par_classe": {"empilement": 225}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 7.6}
+{"graine": 2, "naissances": 100, "places_presentes": 290, "places_rencontrees": 390, "par_classe": {"empilement": 390}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 35.6}
+{"graine": 2, "naissances": 115, "places_presentes": 330, "places_rencontrees": 445, "par_classe": {"empilement": 445}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 49.6}
+{"graine": 2, "naissances": 150, "places_presentes": 443, "places_rencontrees": 593, "par_classe": {"empilement": 593}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 85.9}
+{"graine": 2, "naissances": 200, "places_presentes": 592, "places_rencontrees": 792, "par_classe": {"empilement": 792}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 158.4}
+{"graine": 2, "naissances": 250, "places_presentes": 750, "places_rencontrees": 1000, "par_classe": {"empilement": 1000}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 247.7}
+{"graine": 2, "naissances": 300, "places_presentes": 895, "places_rencontrees": 1195, "par_classe": {"empilement": 1195}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 390.5}
+{"graine": 2, "naissances": 350, "places_presentes": 1061, "places_rencontrees": 1411, "par_classe": {"empilement": 1411}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 529.2}
+{"graine": 2, "naissances": 400, "places_presentes": 1221, "places_rencontrees": 1621, "par_classe": {"empilement": 1621}, "hors_de_l_empilement": 0, "places_sans_cellule_rencontrees": 0, "t": 703.8}
+code 137

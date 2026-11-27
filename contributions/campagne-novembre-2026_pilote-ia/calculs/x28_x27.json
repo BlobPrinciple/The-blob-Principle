@@ -1,0 +1,572 @@
+{
+ "tissu_de_22": {
+  "tuiles_nees": 18,
+  "cellules_nees": 73,
+  "cellules_sans_cote_ne": 0,
+  "places_admissibles": 52,
+  "par_classe": {
+   "empilement": 51,
+   "rationnelle non entiere": 1
+  },
+  "places_sans_cellule": 1,
+  "meme_ensemble_que_l_outil_X27": true,
+  "convexite": {
+   "murs_de_surface": 56,
+   "murs_avec_un_constituant_au_dela": 7,
+   "convexe": false,
+   "temoin": {
+    "cellule": [
+     [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      1,
+      1,
+      1,
+      1,
+      -1
+     ]
+    ],
+    "cote_ne": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cote_libre": [
+     2,
+     2,
+     2,
+     0,
+     -1
+    ],
+    "constituant_au_dela": [
+     4,
+     2,
+     4,
+     1,
+     -2
+    ],
+    "produit": -6
+   }
+  },
+  "pont": {
+   "paires_controlees": 694,
+   "paires_non_liees": 31,
+   "milieu_dans_une_tuile_nee": 663,
+   "dont_paires_liees": 663,
+   "exceptions_a_T2": 0,
+   "exemples": [],
+   "paires_non_liees_dont_le_milieu_n_est_dans_aucune_tuile_nee": 31
+  },
+  "exemples_hors_empilement": [
+   {
+    "classe": "rationnelle non entiere",
+    "place": [
+     "18/7",
+     "18/7",
+     "16/7",
+     "-6/7",
+     "-3/7"
+    ],
+    "touche": [
+     [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      5,
+      3,
+      5,
+      -1,
+      -1
+     ],
+     [
+      6,
+      6,
+      3,
+      -2,
+      0
+     ]
+    ]
+   }
+  ]
+ },
+ "place_hors_empilement_parent_e0": {
+  "contacts": [
+   [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   [
+    5,
+    3,
+    5,
+    -1,
+    -1
+   ],
+   [
+    6,
+    6,
+    3,
+    -2,
+    0
+   ]
+  ],
+  "paires": [
+   {
+    "q": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "r": [
+     5,
+     3,
+     5,
+     -1,
+     -1
+    ],
+    "produit": -5,
+    "lies": false,
+    "tuiles_nees_au_parent": 18,
+    "tuiles_nees_contenant_le_milieu": 0
+   },
+   {
+    "q": [
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    "r": [
+     6,
+     6,
+     3,
+     -2,
+     0
+    ],
+    "produit": -1,
+    "lies": true,
+    "tuiles_nees_au_parent": 18,
+    "tuiles_nees_contenant_le_milieu": 1
+   },
+   {
+    "q": [
+     5,
+     3,
+     5,
+     -1,
+     -1
+    ],
+    "r": [
+     6,
+     6,
+     3,
+     -2,
+     0
+    ],
+    "produit": -13,
+    "lies": false,
+    "tuiles_nees_au_parent": 18,
+    "tuiles_nees_contenant_le_milieu": 0
+   }
+  ]
+ },
+ "jumelles": [
+  {
+   "place": "x_prime (17 naissances)",
+   "x": [
+    "18/7",
+    "18/7",
+    "16/7",
+    "-6/7",
+    "-3/7"
+   ],
+   "quadruples": 1,
+   "jumelles_dans_l_empilement": 1,
+   "detail": [
+    {
+     "parent": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "voisins": [
+      [
+       0,
+       1,
+       0,
+       0,
+       0
+      ],
+      [
+       5,
+       3,
+       5,
+       -1,
+       -1
+      ],
+      [
+       6,
+       6,
+       3,
+       -2,
+       0
+      ]
+     ],
+     "jumelle": [
+      "2",
+      "2",
+      "2",
+      "-1",
+      "0"
+     ],
+     "jumelle_dans_l_empilement": true,
+     "jumelle_nee": false
+    }
+   ]
+  },
+  {
+   "place": "place vue a 22 constituants",
+   "x": [
+    "18/7",
+    "18/7",
+    "16/7",
+    "-6/7",
+    "-3/7"
+   ],
+   "quadruples": 1,
+   "jumelles_dans_l_empilement": 1,
+   "detail": [
+    {
+     "parent": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "voisins": [
+      [
+       0,
+       1,
+       0,
+       0,
+       0
+      ],
+      [
+       5,
+       3,
+       5,
+       -1,
+       -1
+      ],
+      [
+       6,
+       6,
+       3,
+       -2,
+       0
+      ]
+     ],
+     "jumelle": [
+      "2",
+      "2",
+      "2",
+      "-1",
+      "0"
+     ],
+     "jumelle_dans_l_empilement": true,
+     "jumelle_nee": false
+    }
+   ]
+  },
+  {
+   "place": "place vue a 28 constituants",
+   "x": [
+    "226/91",
+    "220/91",
+    "16/7",
+    "-92/91",
+    "-19/91"
+   ],
+   "quadruples": 1,
+   "jumelles_dans_l_empilement": 1,
+   "detail": [
+    {
+     "parent": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "voisins": [
+      [
+       5,
+       3,
+       5,
+       -1,
+       -1
+      ],
+      [
+       6,
+       6,
+       3,
+       -2,
+       0
+      ],
+      [
+       18,
+       15,
+       10,
+       -6,
+       0
+      ]
+     ],
+     "jumelle": [
+      "2",
+      "2",
+      "2",
+      "-1",
+      "0"
+     ],
+     "jumelle_dans_l_empilement": true,
+     "jumelle_nee": false
+    }
+   ]
+  },
+  {
+   "place": "place vue a 31 constituants",
+   "x": [
+    "8/3",
+    "8/3",
+    "7/3",
+    "-2/3",
+    "-2/3"
+   ],
+   "quadruples": 1,
+   "jumelles_dans_l_empilement": 1,
+   "detail": [
+    {
+     "parent": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "voisins": [
+      [
+       0,
+       1,
+       0,
+       0,
+       0
+      ],
+      [
+       5,
+       3,
+       5,
+       -1,
+       -1
+      ],
+      [
+       14,
+       12,
+       8,
+       -4,
+       -1
+      ]
+     ],
+     "jumelle": [
+      "2",
+      "2",
+      "2",
+      "-1",
+      "0"
+     ],
+     "jumelle_dans_l_empilement": true,
+     "jumelle_nee": false
+    }
+   ]
+  },
+  {
+   "place": "x du toit (26 naissances)",
+   "x": [
+    "8/3",
+    "8/3",
+    "7/3",
+    "-2/3",
+    "-2/3"
+   ],
+   "quadruples": 1,
+   "jumelles_dans_l_empilement": 1,
+   "detail": [
+    {
+     "parent": [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     "voisins": [
+      [
+       0,
+       1,
+       0,
+       0,
+       0
+      ],
+      [
+       5,
+       3,
+       5,
+       -1,
+       -1
+      ],
+      [
+       14,
+       12,
+       8,
+       -4,
+       -1
+      ]
+     ],
+     "jumelle": [
+      "2",
+      "2",
+      "2",
+      "-1",
+      "0"
+     ],
+     "jumelle_dans_l_empilement": true,
+     "jumelle_nee": false
+    }
+   ]
+  }
+ ],
+ "tissu_du_toit": {
+  "constituants": 31,
+  "places_admissibles": 77,
+  "par_classe": {
+   "empilement": 76,
+   "rationnelle non entiere": 1
+  },
+  "places_sans_cellule": 2,
+  "convexite": {
+   "murs_de_surface": 83,
+   "murs_avec_un_constituant_au_dela": 10,
+   "convexe": false,
+   "temoin": {
+    "cellule": [
+     [
+      1,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      1,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      1,
+      0,
+      0
+     ],
+     [
+      1,
+      1,
+      1,
+      1,
+      -1
+     ]
+    ],
+    "cote_ne": [
+     0,
+     0,
+     0,
+     1,
+     0
+    ],
+    "cote_libre": [
+     2,
+     2,
+     2,
+     0,
+     -1
+    ],
+    "constituant_au_dela": [
+     4,
+     2,
+     4,
+     1,
+     -2
+    ],
+    "produit": -6
+   }
+  },
+  "pont": {
+   "paires_controlees": 1040,
+   "paires_non_liees": 59,
+   "milieu_dans_une_tuile_nee": 981,
+   "dont_paires_liees": 981,
+   "exceptions_a_T2": 0,
+   "exemples": [],
+   "paires_non_liees_dont_le_milieu_n_est_dans_aucune_tuile_nee": 59
+  }
+ }
+}

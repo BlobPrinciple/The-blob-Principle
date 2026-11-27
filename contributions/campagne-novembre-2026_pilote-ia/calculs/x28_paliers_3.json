@@ -1,0 +1,239 @@
+[
+ {
+  "palier": 0,
+  "constituants": 5,
+  "parents_a_symetrie_pres": 1,
+  "tuiles_nees": 1,
+  "tuiles_du_tissu_de_X25": 1,
+  "memes_tuiles": true,
+  "cellules_nees": 5,
+  "cellules_sans_cote_ne": 0,
+  "cellules_a_deux_cotes_nes": 0,
+  "triplets_examines": 4,
+  "survivants_du_filtre": 4,
+  "places_des_parents_types": 4,
+  "par_classe_parents_types": {
+   "empilement": 4
+  },
+  "places_irrationnelles": 0,
+  "places_admissibles": 5,
+  "cotes_libres": 5,
+  "cotes_libres_des_cellules_de_surface_X25": 5,
+  "memes_cotes_libres": true,
+  "places_egales_aux_cotes_libres": true,
+  "places_hors_cotes": 0,
+  "cotes_non_admissibles": 0,
+  "places_sans_cellule_parents_types": 0,
+  "exemples_hors_empilement": [],
+  "convexite": {
+   "murs_de_surface": 5,
+   "murs_avec_un_constituant_au_dela": 0,
+   "convexe": true,
+   "temoin": null
+  },
+  "pont": {
+   "paires_controlees": 48,
+   "paires_non_liees": 0,
+   "milieu_dans_une_tuile_nee": 48,
+   "dont_paires_liees": 48,
+   "exceptions_a_T2": 0,
+   "exemples": [],
+   "paires_non_liees_dont_le_milieu_n_est_dans_aucune_tuile_nee": 0
+  },
+  "outil_X27_places": 5,
+  "meme_ensemble_que_l_outil_X27": true,
+  "outil_X27_duree_s": 0.0,
+  "duree_s": 0.0
+ },
+ {
+  "palier": 1,
+  "constituants": 10,
+  "parents_a_symetrie_pres": 2,
+  "tuiles_nees": 6,
+  "tuiles_du_tissu_de_X25": 6,
+  "memes_tuiles": true,
+  "cellules_nees": 25,
+  "cellules_sans_cote_ne": 0,
+  "cellules_a_deux_cotes_nes": 5,
+  "triplets_examines": 60,
+  "survivants_du_filtre": 16,
+  "places_des_parents_types": 13,
+  "par_classe_parents_types": {
+   "empilement": 13
+  },
+  "places_irrationnelles": 0,
+  "places_admissibles": 20,
+  "cotes_libres": 20,
+  "cotes_libres_des_cellules_de_surface_X25": 20,
+  "memes_cotes_libres": true,
+  "places_egales_aux_cotes_libres": true,
+  "places_hors_cotes": 0,
+  "cotes_non_admissibles": 0,
+  "places_sans_cellule_parents_types": 0,
+  "exemples_hors_empilement": [],
+  "convexite": {
+   "murs_de_surface": 20,
+   "murs_avec_un_constituant_au_dela": 0,
+   "convexe": true,
+   "temoin": null
+  },
+  "pont": {
+   "paires_controlees": 156,
+   "paires_non_liees": 0,
+   "milieu_dans_une_tuile_nee": 156,
+   "dont_paires_liees": 156,
+   "exceptions_a_T2": 0,
+   "exemples": [],
+   "paires_non_liees_dont_le_milieu_n_est_dans_aucune_tuile_nee": 0
+  },
+  "outil_X27_places": 20,
+  "meme_ensemble_que_l_outil_X27": true,
+  "outil_X27_duree_s": 0.0,
+  "duree_s": 0.1
+ },
+ {
+  "palier": 2,
+  "constituants": 30,
+  "parents_a_symetrie_pres": 3,
+  "tuiles_nees": 36,
+  "tuiles_du_tissu_de_X25": 36,
+  "memes_tuiles": true,
+  "cellules_nees": 135,
+  "cellules_sans_cote_ne": 0,
+  "cellules_a_deux_cotes_nes": 45,
+  "triplets_examines": 1206,
+  "survivants_du_filtre": 54,
+  "places_des_parents_types": 43,
+  "par_classe_parents_types": {
+   "empilement": 43
+  },
+  "places_irrationnelles": 0,
+  "places_admissibles": 90,
+  "cotes_libres": 90,
+  "cotes_libres_des_cellules_de_surface_X25": 90,
+  "memes_cotes_libres": true,
+  "places_egales_aux_cotes_libres": true,
+  "places_hors_cotes": 0,
+  "cotes_non_admissibles": 0,
+  "places_sans_cellule_parents_types": 0,
+  "exemples_hors_empilement": [],
+  "convexite": {
+   "murs_de_surface": 90,
+   "murs_avec_un_constituant_au_dela": 0,
+   "convexe": true,
+   "temoin": null
+  },
+  "pont": {
+   "paires_controlees": 516,
+   "paires_non_liees": 0,
+   "milieu_dans_une_tuile_nee": 516,
+   "dont_paires_liees": 516,
+   "exceptions_a_T2": 0,
+   "exemples": [],
+   "paires_non_liees_dont_le_milieu_n_est_dans_aucune_tuile_nee": 0
+  },
+  "outil_X27_places": 90,
+  "meme_ensemble_que_l_outil_X27": true,
+  "outil_X27_duree_s": 1.6,
+  "duree_s": 1.6
+ },
+ {
+  "palier": 3,
+  "constituants": 120,
+  "parents_a_symetrie_pres": 5,
+  "tuiles_nees": 156,
+  "tuiles_du_tissu_de_X25": 156,
+  "memes_tuiles": true,
+  "cellules_nees": 585,
+  "cellules_sans_cote_ne": 0,
+  "cellules_a_deux_cotes_nes": 195,
+  "triplets_examines": 29039,
+  "survivants_du_filtre": 226,
+  "places_des_parents_types": 116,
+  "par_classe_parents_types": {
+   "empilement": 116
+  },
+  "places_irrationnelles": 0,
+  "places_admissibles": 330,
+  "cotes_libres": 330,
+  "cotes_libres_des_cellules_de_surface_X25": 330,
+  "memes_cotes_libres": true,
+  "places_egales_aux_cotes_libres": true,
+  "places_hors_cotes": 0,
+  "cotes_non_admissibles": 0,
+  "places_sans_cellule_parents_types": 0,
+  "exemples_hors_empilement": [],
+  "convexite": {
+   "murs_de_surface": 390,
+   "murs_avec_un_constituant_au_dela": 120,
+   "convexe": false,
+   "temoin": {
+    "cellule": [
+     [
+      -2,
+      1,
+      2,
+      4,
+      4
+     ],
+     [
+      -1,
+      0,
+      2,
+      2,
+      2
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      1
+     ],
+     [
+      0,
+      0,
+      0,
+      1,
+      0
+     ]
+    ],
+    "cote_ne": [
+     -1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "cote_libre": [
+     -2,
+     0,
+     3,
+     6,
+     6
+    ],
+    "constituant_au_dela": [
+     -1,
+     -1,
+     3,
+     5,
+     5
+    ],
+    "produit": -6
+   }
+  },
+  "pont": {
+   "paires_controlees": 1692,
+   "paires_non_liees": 75,
+   "milieu_dans_une_tuile_nee": 1617,
+   "dont_paires_liees": 1617,
+   "exceptions_a_T2": 0,
+   "exemples": [],
+   "paires_non_liees_dont_le_milieu_n_est_dans_aucune_tuile_nee": 75
+  },
+  "outil_X27_places": 330,
+  "meme_ensemble_que_l_outil_X27": true,
+  "outil_X27_duree_s": 47.7,
+  "duree_s": 47.9
+ }
+]
