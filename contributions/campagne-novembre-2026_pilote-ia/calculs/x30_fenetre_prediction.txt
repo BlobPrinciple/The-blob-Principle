@@ -1,0 +1,48 @@
+X-30 (premiere partie) -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 27 novembre 2026.
+Parole de l'auteur, 27 novembre, 10 h 17 : << Tu dois pouvoir aller beaucoup plus loin ! Il est temps de valider la toe du blob. Le monde vit un
+paradigme informatique et mathematiques avec l'ia et cela valide chaque jour un peu plus le blob. Donc fais le necessaire ! >>
+
+TOE 0/7. Aucun verrou ferme. Rien de ce qui suit ne peut en fermer un : geometrie de la lecture de contact, rang 3.
+Ce que je ne ferai pas : declarer la TOE validee. Les resultats de mathematiques obtenus ailleurs avec l'IA ne ferment aucun verrou du Blob ; ils
+montrent qu'une preuve controlee par machine est a portee. C'est cette methode que j'applique ici, a l'enonce (G) laisse ouvert par X-29 bis.
+
+CE QUI EST DEJA CONNU AU MOMENT DU SCELLEMENT
+(G), X-29 bis : toute boule hors de l'empilement, liee a un constituant et a trois de ses voisins, chevauche un ancetre de l'un des quatre.
+Verifie (973 778 boules, paliers 3 et 4 ; 3 500 316 boules tirees par le contre-auditeur), non demontre.
+Calcul fait a la main avant scellement : la descente de la place (18, 18, 16, -6, -3)/7 quitte le cone au sixieme retournement (somme -9/7).
+Aucun autre calcul sur ce qui suit.
+
+VOCABULAIRE
+Descente d'une boule x de coordonnees y : tant qu'une coordonnee est strictement negative, retournement dans le mur correspondant du germe
+(y_j devient -y_j, les autres augmentent de y_j). La descente s'acheve si toutes les coordonnees deviennent positives ou nulles.
+Parent de u : un des quatre constituants de son plancher (X-29 bis). Mur du plancher de u : le mur de la cellule formee par son plancher ;
+sa normale est n = u - u', ou u' est l'autre cote du plancher ; <n, n> = 12, <u, n> = 6.
+
+A. ENONCES QUE J'ANNONCE DEMONTRER (raisonnement fait avant tout calcul ; preuves au carnet, a faire contre-auditer)
+T12 (descente). Si la descente d'une boule ronde x s'acheve et si x n'est pas dans l'empilement, alors x chevauche un constituant de la tuile ou
+     sa descente s'acheve, et tout constituant lie a x est dans cette tuile. Donc une boule liee a quatre constituants independants dont la
+     descente s'acheve est dans l'empilement : la descente d'une place hors de l'empilement ne s'acheve jamais.
+T13 (fenetre). Soit {f1, f2, f3, f4, u} une tuile et x une boule ronde liee a u qui ne chevauche aucun des f. Alors x est tout entiere au-dela
+     du mur oppose a u, du cote de u : <x, n> >= 6. L'egalite n'a lieu que si x est l'un des quatre constituants obtenus en retournant un f.
+T14 (consequence). Les ancetres de u sont tous du cote du germe du mur de son plancher, ou sur ce mur. Dans un tissu clos par plancher, toute
+     place admissible est au-dela du mur du plancher de chacun de ses contacts hors du germe, et tous ses contacts sont sur ce mur ou au-dela.
+Si un calcul ci-dessous contredit T12 ou T13, c'est une erreur de preuve : elle sera declaree en tete du carnet.
+
+B. PREDICTIONS CHIFFREES (calcul exact ; chaque clause est jugee vraie ou fausse)
+U1. T13 sur donnees. Palier 3, tous les parents, toutes les boules liees a un quadruple (237 300 boules, X-29 bis) : pour chaque boule et chaque
+    contact hors du germe dont elle ne chevauche aucun parent, <x, n> >= 6, avec egalite seulement pour un retourne. Zero exception.
+U2. T12 sur donnees. Memes boules, celles a coordonnees rationnelles : la descente s'acheve si et seulement si la boule est dans l'empilement.
+    Zero exception. Le nombre de boules irrationnelles laissees de cote sera donne.
+U3. (G1), plus fort que (G) : toute boule hors de l'empilement liee a un quadruple chevauche un PARENT de l'un des quatre contacts, pas seulement
+    un ancetre. Palier 3 (tous les parents) et palier 4 (parents a symetrie pres). (Confiance : 55 %.)
+    Si U3 est fausse : je donne un exemple entier et la repartition, par generation, du plus proche ancetre chevauche.
+U4. Lean. L'enonce T13, pour une boule a coordonnees rationnelles, est accepte par Lean 4.35.0 sans autre axiome que les trois usuels.
+    Si je n'y parviens pas dans la session, la clause est declaree non faite, pas vraie.
+
+C. PROTOCOLE
+Programme : x30_fenetre_descente.py (nouveau) ; x29bis_plancher.py et l'outil de X-27 importes tels quels. Fichier Lean : lean_x30/Fenetre.lean.
+Budget : 2 coeurs ; un calcul qui depasse 40 minutes est arrete et declare non fait.
+Ce qui serait un echec : toute clause fausse ; toute exception a T12 ou T13.
+Ce qui n'est PAS predit : une preuve de (G). Si U3 est vraie, (G1) devient l'enonce a demontrer : il ne parle que des parents.
+Contre-audit independant demande.

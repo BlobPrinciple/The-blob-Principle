@@ -1435,6 +1435,7 @@ c38eea1a306412f83300cfacddc685ab50d9fc6f1d6f92fde27f9cd27bd77dee  ./contribution
 b88a01839ba9462bec909ae41350004699f60c89c3bee33fce27a33ee0d217ea  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x2_b.json.gz
 ce85e17bf30eb95b6d37050cd0ea2e91eeb49d3c1ea790417bb3fe7a43e56371  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x2_b.out
 ae53e3a817cac0c6ede2cc74ed66fe6b5ef98dc358e04126e0f5bd18385c788b  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x2_tension_nulle.py
+ae760b44d3c476596eae0262b4dae846e92e15e42618fca3095cfb6e2d2f4325  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x30_fenetre_prediction.txt
 1ff05d2b3d82a7408bae3b3ad4596cea6fecd208e67eb19f9b206af4a1d62537  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x3_a.json.gz
 a837f810da6f2f56f3bf9b8a58ef4d5e36daa8dc052ed5d970440a784d76735a  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x3_a.out
 21e2f910a3c18553b26e5cf6efae0fda90a292afa85e2b4cfe54b7b544f8ea53  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x3_anneaux.py
