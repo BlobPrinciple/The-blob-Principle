@@ -3,8 +3,8 @@
  "author": "Rudolphe Mirante",
  "orcid": "0009-0001-0990-7122",
  "doi": "10.5281/zenodo.23188586",
- "version": "1.17",
- "updated": "2026-11-20",
+ "version": "1.18",
+ "updated": "2026-11-27",
  "status": {
   "toe_demonstrated": false,
   "physical_gates_passed": "0/7",
@@ -744,8 +744,35 @@
      "effect": "travail fondateur sur RO-08 : la voie « mise en faces du graphe » est exclue ; RO-08 reste ouvert pour les autres voies ; aucun changement de statut",
      "result_en": "[T] at κ = 6.6 (|E| = round(3.3·N), preserved), Walkup's bound f₁ ≥ 4f₀ − 10 excludes, for N ≥ 16, that the A_Gibbs graph be the 1-skeleton of a connected closed 3-manifold, whatever the faces; [M] canonical engine, N = 500 to 4,000: 96 to 97.5 % of vertices violate a necessary local condition (92 % without viability), 65 % of edges have fewer than 3 common neighbours; the Blob crosses the global threshold n_tri/N ≥ κ − 2 but concentrates triangles (aristocracy)",
      "effect_en": "founding work on RO-08: the route \"choice of faces on the graph\" is excluded; RO-08 stays open for the other routes; no status change"
+    },
+    {
+     "date": "2026-11-27",
+     "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/59",
+     "by": "pilote IA du laboratoire (Claude, Anthropic)",
+     "result": "[M] variante à κ seul changé (β, τ, therm_fac canoniques), κ = 6,6 à 14, N = 1 000 à 4 000, 4 graines, critère déposé d'avance : l'aristocratie est gardée à tous les κ (écarts Blob − RGG ≥ 0,37 en Gini des triangles, ≥ 0,43 en part du décile supérieur) ; 97 à 98 % des sommets du Blob violent une condition de link, tous par (C3), contre 0,92 → 0,47 sans viabilité ; à κ ≥ 12 la chaîne perd des triangles par rapport à son état initial (n_tri/N 12,04 contre 16,42 à κ = 14, N = 4 000)",
+     "effect": "troisième livrable traité (variante à κ ≥ 8) : relever κ lève le verrou de Walkup mais pas l'obstacle local ; DEFI-M20 reste ouvert (algorithme de complétion, coût par sommet) ; aucun changement de statut",
+     "result_en": "[M] variant with κ alone changed (canonical β, τ, therm_fac), κ = 6.6 to 14, N = 1,000 to 4,000, 4 seeds, criterion filed in advance: the aristocracy is kept at every κ (Blob − RGG gaps ≥ 0.37 in triangle Gini, ≥ 0.43 in top-decile share); 97 to 98 % of Blob vertices violate a link condition, all through (C3), against 0.92 → 0.47 without viability; at κ ≥ 12 the chain loses triangles relative to its initial state (n_tri/N 12.04 against 16.42 at κ = 14, N = 4,000)",
+     "effect_en": "third deliverable addressed (variant with κ ≥ 8): raising κ lifts Walkup's lock but not the local obstacle; DEFI-M20 stays open (completion algorithm, cost per vertex); no status change"
     }
    ],
+   "derived": [
+    "DEFI-M21"
+   ]
+  },
+  {
+   "code": "DEFI-M21",
+   "level": 2,
+   "statement_fr": "Aristocratie et link de 2-sphère (RO-08). Sous une variante du moteur canonique à κ seul changé (κ = 6,6 à 14, β = 0,30, τ = 0,50), l'aristocratie des triangles est gardée et 97 à 98 % des sommets violent une condition locale nécessaire de link, tous par (C3), alors que le témoin sans viabilité recule de 0,92 à 0,47 (contributions/DEFI-M20_pilote-ia/NOTE.md). Existe-t-il un réglage (κ, β, τ, durée de la chaîne) de la mesure de viabilité qui garde l'aristocratie et fait tomber la fraction de sommets en violation sous 0,5, ou l'aristocratie est-elle incompatible par nature avec le 1-squelette d'une 3-variété ?",
+   "statement_en": "Aristocracy and 2-sphere link (RO-08). Under a variant of the canonical engine with κ alone changed (κ = 6.6 to 14, β = 0.30, τ = 0.50), the triangle aristocracy is kept and 97 to 98 % of vertices violate a necessary local link condition, all through (C3), while the control without viability recedes from 0.92 to 0.47 (contributions/DEFI-M20_pilote-ia/NOTE_EN.md). Is there a setting (κ, β, τ, chain length) of the viability measure that keeps the aristocracy and brings the violating fraction below 0.5, or is the aristocracy incompatible by nature with the 1-skeleton of a 3-manifold?",
+   "deliverable_fr": "Balayage d'au moins deux valeurs de β et de τ à κ ≥ 10, relaxation au moins quatre fois plus longue, au moins deux tailles et 4 graines, critère déposé publiquement avant la mesure ; ou argument démontré reliant une mesure de concentration des triangles à la condition (C3).",
+   "deliverable_en": "A sweep of at least two values of β and τ at κ ≥ 10, relaxation at least four times longer, at least two sizes and 4 seeds, criterion publicly filed before the measurement; or a proven argument linking a measure of triangle concentration to condition (C3).",
+   "open_research": [
+    "RO-08"
+   ],
+   "issue": "https://github.com/BlobPrinciple/The-blob-Principle/issues/60",
+   "path_step": "P1",
+   "state": "ouvert",
+   "history": [],
    "derived": []
   },
   {
