@@ -6,7 +6,7 @@
 
 **Mise à jour du 23 novembre, après X-27.** Les lignes B14, D8 et G3 changent de texte ; aucune ne change d'état, les comptes sont inchangés. Les sections 4 et 5 reçoivent chacune une phrase.
 
-**Mise à jour du 27 novembre, après X-28, X-29 et X-29 bis.** Les lignes B14 et D8 changent de texte ; aucune ne change d'état, les comptes sont inchangés.
+**Mise à jour du 27 novembre, après X-28, X-29 et X-29 bis.** Les lignes B14 et D8 changent de texte ; aucune ne change d'état, les comptes sont inchangés. Après X-30, la troisième réserve de la section 4 et le point 1 de la section 5 reçoivent chacun une phrase.
 
 **TOE 0/7. Aucun verrou fermé.**
 
@@ -173,7 +173,7 @@ Il porte ensemble, sans distance posée : le contact, le non-chevauchement à to
 
 Il ne porte pas : le parent qui devient deux filles ; N = 2^g ; l'héritage des liens d'un parent unique ; l'effacement du point de départ ; la persistance du bain ; le temps ; le partage arête, triangle, tétraèdre ; le moteur complet de l'auteur. Et rien de ce qui touche l'énergie, la matière, la gravité, le quantique, les masses, la jauge.
 
-Trois réserves. Ses trois lectures sont posées, non dérivées de la cosmogonie. X-27 l'a éprouvé pour la troisième : au rang 2, la naissance dans la cellule découle de l'héritage des liens et de la forme fixée par les contacts ; au rang 3 elle n'en découle pas, sauf à poser en plus qu'aucune place libre n'est laissée de côté, ce qui n'est que constaté. La rondeur des constituants est une hypothèse forte. Ce qu'il établit est de la géométrie connue des empilements de sphères, appliquée à une lecture : ce n'est pas une démonstration du Blob.
+Trois réserves. Ses trois lectures sont posées, non dérivées de la cosmogonie. X-27 l'a éprouvé pour la troisième : au rang 2, la naissance dans la cellule découle de l'héritage des liens et de la forme fixée par les contacts ; au rang 3 elle n'en découle pas, sauf à poser en plus qu'aucune place libre n'est laissée de côté, ce qui n'est que constaté. X-29 bis et X-30 ont trouvé une condition plus faible, et locale, sous laquelle elle en découle dans toutes les données : nul ne naît avant ses quatre parents. Sous la règle où toutes les cellules enfantent ensemble, cette condition est démontrée à tout palier ; que la naissance dans la cellule en découle ne l'est pas (énoncé (G1) de X-30). La rondeur des constituants est une hypothèse forte. Ce qu'il établit est de la géométrie connue des empilements de sphères, appliquée à une lecture : ce n'est pas une démonstration du Blob.
 
 ### La trame régulière née de la division de l'arête (rappel de la grille ; compte non refait)
 
@@ -187,7 +187,7 @@ Sur la réalisation de la mitose. Dans la trame régulière, un porteur naît su
 
 ## 5. Ce qui manque pour une validation complète, dans l'ordre
 
-1. **Une seule réalisation de la mitose.** La définition de l'auteur est une ; ce sont ses réalisations dans les calculs qui diffèrent : la division de l'arête, la naissance dans la cellule, la mitose d'un constituant avec héritage (celle du moteur complet). Chacune valide des principes que les autres contredisent. Tant qu'une seule n'est pas tenue de bout en bout, aucun modèle ne peut porter toute la cosmogonie. X-27 a éprouvé la troisième dans la lecture de contact : au rang 2 elle se ramène à la deuxième, quel que soit l'ordre des naissances ; au rang 3 non, un contre-exemple exact le montre.
+1. **Une seule réalisation de la mitose.** La définition de l'auteur est une ; ce sont ses réalisations dans les calculs qui diffèrent : la division de l'arête, la naissance dans la cellule, la mitose d'un constituant avec héritage (celle du moteur complet). Chacune valide des principes que les autres contredisent. Tant qu'une seule n'est pas tenue de bout en bout, aucun modèle ne peut porter toute la cosmogonie. X-27 a éprouvé la troisième dans la lecture de contact : au rang 2 elle se ramène à la deuxième, quel que soit l'ordre des naissances ; au rang 3 non, un contre-exemple exact le montre. X-28 à X-30 : au rang 3 elle s'y ramène tant que nul ne naît avant ses quatre parents, sans exception dans les données (350 tissus tirés au hasard, 889 224 boules contrôlées une à une, plus les tirages du contre-auditeur) ; le contre-exemple de X-27 viole exactement cette condition. Ce n'est pas démontré : il reste l'énoncé (G1), puis le lien de ces deux réalisations avec la division de l'arête, qui n'est pas entamé.
 2. **Le temps.** Aucun modèle ne donne une durée. Sans lui : ni cadence, ni dynamique, ni causalité, ni gravitation.
 3. **Ce que la matière émet et qui se conserve.** C'est la condition de la loi en 1/r et de la loi de frein.
 4. **Une interaction de mesure.** Sans elle, la règle de Born reste hors d'atteinte.
