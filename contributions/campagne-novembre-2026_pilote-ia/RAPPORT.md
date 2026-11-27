@@ -608,6 +608,18 @@ Détail : [carnet X-24](carnets/2026-11-22_X-24_contact_lorentz_moteur.md). **TO
 
 **Ce qui est conjecturé [H].** (G1) : toute boule hors de l'empilement, liée à un constituant et à trois de ses voisins, chevauche un parent de l'un des quatre. Il entraîne (G) et donne un critère local.
 
+## 8 unvicies. Ajout du 27 novembre : X-30, seconde partie — (G1) démontré sous des faits classiques admis
+
+**Aucun verrou ne bouge : TOE 0/7.** Carnet : [`carnets/2026-11-27_X-30bis_G1_demontre_les_trois_quarts_et_le_cone.md`](carnets/2026-11-27_X-30bis_G1_demontre_les_trois_quarts_et_le_cone.md), sections 322 à 333. Prédiction scellée et poussée avant calcul (commit e3fb3fc).
+
+**Ce qui est faux ou manque, d'abord.** La cosmogonie n'est pas démontrée et ce carnet ne la démontre pas. (G1) est démontré sous des faits classiques admis, non redémontrés : la structure de groupe de Coxeter de l'empilement, les sphères de Ford des entiers d'Eisenstein, le réseau triangulaire vu de deux constituants liés. Aucun humain n'a lu la preuve. Lean n'en contrôle qu'une partie : T16 et T17 en entier, l'arithmétique de T18 ; T15, la partie géométrique de T18 et l'assemblage restent hors de Lean. Le point dur annoncé (le plancher d'un constituant replié dans un mur) est contourné, non résolu. Un calcul non scellé, mal dimensionné, a été arrêté après 17 minutes et relancé plus petit. La moitié « exactement les côtés libres » de la conjecture (C) reste ouverte. Le contre-audit n'a rien trouvé de faux ; il a relevé cinq imprécisions, reprises ; un de ses trois tirages n'a pas été enregistré. Antériorité presque pas cherchée : rien n'est revendiqué comme nouveau.
+
+**Ce qui est démontré [T, sous les faits admis].** T15 : la porte d'une paire de constituants liés est faite de parents de l'un des deux. T16, les trois quarts : si une boule x liée à p et à c ne chevauche pas leur porte, ν(x, w) ≥ (3/4) ν(c, w) pour toute boule w du secteur liée à p, avec égalité seulement si x est un constituant. T17, le cône : trois telles inégalités strictes forcent les trois contacts à être proches, ν < 16/3 deux à deux et de somme < 12. T18 : l'arithmétique des entiers d'Eisenstein ne laisse alors que des cas où x est un constituant. T19, qui est (G1) : toute boule hors de l'empilement, liée à un constituant et à trois de ses voisins, chevauche un parent de l'un des quatre. Conséquence, par T11 et T10 : dans tout tissu clos par plancher, toute place admissible est dans l'empilement ; c'est le cas du tissu de la règle à la lettre, à tout palier.
+
+**Ce qui est mesuré [M].** Les sept clauses scellées sont vraies. T15 : 8 010 paires liées au palier 5, aucune exception. T16 : 62 220 triplets au palier 3, aucune exception. Aucune des 190 200 boules hors de l'empilement du palier 3 n'a plus d'une porte libre. Modèle de Ford-Eisenstein indépendant du laboratoire : 20 000 cas tirés, jamais trois portes libres. Contre-auditeur, avec son propre code : 326 273 boules hors de l'empilement tirées plus profond, aucun contre-exemple.
+
+**Ce qui reste conjecturé [H].** Que la place admissible soit toujours le côté d'une cellule née (seconde moitié de (C)) : constaté sur 350 tissus, non démontré.
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

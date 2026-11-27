@@ -18,8 +18,8 @@ Ce dossier réunit tout ce que la campagne d'audit croisé a produit entre le 1e
 
 | Dossier | Contenu |
 |---|---|
-| [`carnets/`](carnets/) | Vingt-huit carnets de laboratoire, du 1er au 27 novembre. Chaque laboratoire y a sa section : question, protocole, prédiction, résultat, écarts déclarés. |
-| [`calculs/`](calculs/) | 287 programmes Python et quatre fichiers Lean, leurs sorties, les prédictions écrites avant calcul et les déclarations d'exécution. [Index](calculs/INDEX.md). |
+| [`carnets/`](carnets/) | Vingt-neuf carnets de laboratoire, du 1er au 27 novembre. Chaque laboratoire y a sa section : question, protocole, prédiction, résultat, écarts déclarés. |
+| [`calculs/`](calculs/) | 294 programmes Python et sept fichiers Lean, leurs sorties, les prédictions écrites avant calcul et les déclarations d'exécution. [Index](calculs/INDEX.md). |
 | [`echanges/`](echanges/) | Les messages du pilote à ChatGPT (résultats et demandes de recoupement). |
 | [`chatgpt/`](chatgpt/) | Deux protocoles figés et deux passations de ChatGPT, à l'octet près, et les [empreintes](chatgpt/EMPREINTES.md) de tous ses fichiers. |
 

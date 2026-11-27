@@ -1,0 +1,150 @@
+== outils
+Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+nanoda_bin 0.4.19
+== empreinte
+2db237505a27191ede3c4ec9f833ec9bbfc72286ef684cd6b0e399c48960c336  TroisQuartsEtCone.lean
+== 1. Lean compile les enonces et les preuves
+'X30bis.trois_quarts' depends on axioms: [propext, Classical.choice, Quot.sound]
+'X30bis.cone_paire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'X30bis.cone_triplet' depends on axioms: [propext, Classical.choice, Quot.sound]
+lean TroisQuartsEtCone : code 0
+== 2. mots interdits (attendu : 0 partout)
+sorry : 0
+native_decide : 0
+axiom : 0
+unsafe : 0
+implemented_by : 0
+extern : 0
+opaque : 0
+== 3. rejeu par les verificateurs de Lean
+leanchecker : code 0
+leanchecker-paranoid : code 0
+== 4. export des trois theoremes et de tout ce dont ils dependent, puis noyaux independants
+leanexport : code 0 ; 251966 lignes ; sha256 92bdf1c96b3897cf239a8223b46a57e70c7bd520e039be8b382d72219490d030
+theorem X30bis.trois_quarts :
+  forall {K : Type 0} [inst._@.TroisQuartsEtCone.2185615973._hygCtx._hyg.3 : Lean.Grind.CommRing K]
+    [inst._@.TroisQuartsEtCone.2185615973._hygCtx._hyg.6 : LE K]
+    [inst._@.TroisQuartsEtCone.2185615973._hygCtx._hyg.9 : LT K]
+    [inst._@.TroisQuartsEtCone.2185615973._hygCtx._hyg.12 : Std.LawfulOrderLT K]
+    [inst._@.TroisQuartsEtCone.2185615973._hygCtx._hyg.15 : Std.IsLinearOrder K]
+    [inst._@.TroisQuartsEtCone.2185615973._hygCtx._hyg.18 : Lean.Grind.OrderedRing K]
+    (xp xc x1 x2 x3 wp wc w1 w2 w3 : K),
+  Eq (HSub.hSub (HMul.hMul (OfNat.ofNat 2) xp) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd xp xc) x1) x2) x3))
+      (Neg.neg (OfNat.ofNat 1)) →
+  Eq (HSub.hSub (HMul.hMul (OfNat.ofNat 2) xc) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd xp xc) x1) x2) x3))
+      (Neg.neg (OfNat.ofNat 1)) →
+  LE.le (HSub.hSub (HMul.hMul (OfNat.ofNat 2) x1) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd xp xc) x1) x2) x3))
+      (Neg.neg (OfNat.ofNat 1)) →
+  LE.le (HSub.hSub (HMul.hMul (OfNat.ofNat 2) x2) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd xp xc) x1) x2) x3))
+      (Neg.neg (OfNat.ofNat 1)) →
+  LE.le (HSub.hSub (HMul.hMul (OfNat.ofNat 2) x3) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd xp xc) x1) x2) x3))
+      (Neg.neg (OfNat.ofNat 1)) →
+  Eq
+      (HSub.hSub
+        (HMul.hMul (OfNat.ofNat 2)
+          (HAdd.hAdd
+            (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HMul.hMul xp xp) (HMul.hMul xc xc)) (HMul.hMul x1 x1)) (HMul.hMul x2 x2))
+            (HMul.hMul x3 x3)))
+        (HMul.hMul (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd xp xc) x1) x2) x3)
+          (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd xp xc) x1) x2) x3))) (OfNat.ofNat 1) →
+  Eq (HSub.hSub (HMul.hMul (OfNat.ofNat 2) wp) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd wp wc) w1) w2) w3))
+      (Neg.neg (OfNat.ofNat 1)) →
+  Eq
+      (HSub.hSub
+        (HMul.hMul (OfNat.ofNat 2)
+          (HAdd.hAdd
+            (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HMul.hMul wp wp) (HMul.hMul wc wc)) (HMul.hMul w1 w1)) (HMul.hMul w2 w2))
+            (HMul.hMul w3 w3)))
+        (HMul.hMul (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd wp wc) w1) w2) w3)
+          (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd wp wc) w1) w2) w3))) (OfNat.ofNat 1) →
+  LE.le (OfNat.ofNat 0) w1 → LE.le (OfNat.ofNat 0) w2 → LE.le (OfNat.ofNat 0) w3 → LT.lt (OfNat.ofNat 0)
+      (HAdd.hAdd (HAdd.hAdd w1 w2) w3) →
+  LE.le
+    (HMul.hMul (OfNat.ofNat 4)
+      (HSub.hSub
+        (HMul.hMul (OfNat.ofNat 2)
+          (HAdd.hAdd
+            (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HMul.hMul xp wp) (HMul.hMul xc wc)) (HMul.hMul x1 w1)) (HMul.hMul x2 w2))
+            (HMul.hMul x3 w3)))
+        (HMul.hMul (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd xp xc) x1) x2) x3)
+          (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd wp wc) w1) w2) w3))))
+    (HAdd.hAdd (OfNat.ofNat 1)
+      (HMul.hMul (OfNat.ofNat 3)
+        (HSub.hSub (HMul.hMul (OfNat.ofNat 2) wc) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd wp wc) w1) w2) w3)))) :=
+  _
+
+theorem X30bis.cone_paire :
+  forall {K : Type 0} [inst._@.TroisQuartsEtCone.81152750._hygCtx._hyg.3 : Lean.Grind.CommRing K]
+    [inst._@.TroisQuartsEtCone.81152750._hygCtx._hyg.6 : LE K]
+    [inst._@.TroisQuartsEtCone.81152750._hygCtx._hyg.9 : LT K]
+    [inst._@.TroisQuartsEtCone.81152750._hygCtx._hyg.12 : Std.LawfulOrderLT K]
+    [inst._@.TroisQuartsEtCone.81152750._hygCtx._hyg.15 : Std.IsLinearOrder K]
+    [inst._@.TroisQuartsEtCone.81152750._hygCtx._hyg.18 : Lean.Grind.OrderedRing K]
+    (x1 x2 x3 x4 q1 q2 q3 q4 r1 r2 r3 r4 w1 w2 w3 w4 : K),
+  Eq (X30bis.nu4 x1 x2 x3 x4 x1 x2 x3 x4) (OfNat.ofNat 0) → Eq (X30bis.nu4 q1 q2 q3 q4 q1 q2 q3 q4)
+      (OfNat.ofNat 0) →
+  Eq (X30bis.nu4 r1 r2 r3 r4 r1 r2 r3 r4) (OfNat.ofNat 0) → Eq (X30bis.nu4 w1 w2 w3 w4 w1 w2 w3 w4)
+      (OfNat.ofNat 0) →
+  LT.lt (OfNat.ofNat 0) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd x1 x2) x3) x4) → LT.lt (OfNat.ofNat 0)
+      (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd w1 w2) w3) w4) →
+  Eq (X30bis.nu4 x1 x2 x3 x4 q1 q2 q3 q4) (OfNat.ofNat 1) → Eq (X30bis.nu4 x1 x2 x3 x4 r1 r2 r3 r4)
+      (OfNat.ofNat 1) →
+  LT.lt (HMul.hMul (OfNat.ofNat 3) (X30bis.nu4 q1 q2 q3 q4 w1 w2 w3 w4))
+      (HMul.hMul (OfNat.ofNat 4) (X30bis.nu4 x1 x2 x3 x4 w1 w2 w3 w4)) →
+  LT.lt (HMul.hMul (OfNat.ofNat 3) (X30bis.nu4 r1 r2 r3 r4 w1 w2 w3 w4))
+      (HMul.hMul (OfNat.ofNat 4) (X30bis.nu4 x1 x2 x3 x4 w1 w2 w3 w4)) →
+  LT.lt (HMul.hMul (OfNat.ofNat 3) (X30bis.nu4 q1 q2 q3 q4 r1 r2 r3 r4)) (OfNat.ofNat 16) :=
+  _
+
+theorem X30bis.cone_triplet :
+  forall {K : Type 0} [inst._@.TroisQuartsEtCone.1839706568._hygCtx._hyg.3 : Lean.Grind.CommRing K]
+    [inst._@.TroisQuartsEtCone.1839706568._hygCtx._hyg.6 : LE K]
+    [inst._@.TroisQuartsEtCone.1839706568._hygCtx._hyg.9 : LT K]
+    [inst._@.TroisQuartsEtCone.1839706568._hygCtx._hyg.12 : Std.LawfulOrderLT K]
+    [inst._@.TroisQuartsEtCone.1839706568._hygCtx._hyg.15 : Std.IsLinearOrder K]
+    [inst._@.TroisQuartsEtCone.1839706568._hygCtx._hyg.18 : Lean.Grind.OrderedRing K]
+    (x1 x2 x3 x4 q1 q2 q3 q4 r1 r2 r3 r4 s1 s2 s3 s4 w1 w2 w3 w4 : K),
+  Eq (X30bis.nu4 x1 x2 x3 x4 x1 x2 x3 x4) (OfNat.ofNat 0) → Eq (X30bis.nu4 q1 q2 q3 q4 q1 q2 q3 q4)
+      (OfNat.ofNat 0) →
+  Eq (X30bis.nu4 r1 r2 r3 r4 r1 r2 r3 r4) (OfNat.ofNat 0) → Eq (X30bis.nu4 s1 s2 s3 s4 s1 s2 s3 s4)
+      (OfNat.ofNat 0) →
+  Eq (X30bis.nu4 w1 w2 w3 w4 w1 w2 w3 w4) (OfNat.ofNat 0) → LT.lt (OfNat.ofNat 0)
+      (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd x1 x2) x3) x4) →
+  LT.lt (OfNat.ofNat 0) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd w1 w2) w3) w4) → Eq (X30bis.nu4 x1 x2 x3 x4 q1 q2 q3 q4)
+      (OfNat.ofNat 1) →
+  Eq (X30bis.nu4 x1 x2 x3 x4 r1 r2 r3 r4) (OfNat.ofNat 1) → Eq (X30bis.nu4 x1 x2 x3 x4 s1 s2 s3 s4)
+      (OfNat.ofNat 1) →
+  LT.lt (HMul.hMul (OfNat.ofNat 3) (X30bis.nu4 q1 q2 q3 q4 w1 w2 w3 w4))
+      (HMul.hMul (OfNat.ofNat 4) (X30bis.nu4 x1 x2 x3 x4 w1 w2 w3 w4)) →
+  LT.lt (HMul.hMul (OfNat.ofNat 3) (X30bis.nu4 r1 r2 r3 r4 w1 w2 w3 w4))
+      (HMul.hMul (OfNat.ofNat 4) (X30bis.nu4 x1 x2 x3 x4 w1 w2 w3 w4)) →
+  LT.lt (HMul.hMul (OfNat.ofNat 3) (X30bis.nu4 s1 s2 s3 s4 w1 w2 w3 w4))
+      (HMul.hMul (OfNat.ofNat 4) (X30bis.nu4 x1 x2 x3 x4 w1 w2 w3 w4)) →
+  LT.lt
+    (HAdd.hAdd (HAdd.hAdd (X30bis.nu4 q1 q2 q3 q4 r1 r2 r3 r4) (X30bis.nu4 q1 q2 q3 q4 s1 s2 s3 s4))
+      (X30bis.nu4 r1 r2 r3 r4 s1 s2 s3 s4)) (OfNat.ofNat 12) :=
+  _
+
+axiom Classical.choice.{u} {α : Sort u} : Nonempty α → α
+
+axiom propext {a b : Prop} : Iff a b → Eq a b
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Prop} {a b : α} : r a b → Eq (Quot.mk r a) (Quot.mk r b)
+
+Checked 3009 declarations with no errors
+nanoda : code 0
+con-ron: accepted 2701 declarations (--verified)
+con-ron : code 0
+con-leche: accepted 2701 declarations (--verified)
+con-leche : code 0
+== 5. enonces modifies : le script de preuve ne doit plus passer (code 1) ; l'enonce intact doit passer (code 0)
+M0_intact : code 0 ; 0 erreurs ; fichier modifie : non
+M1_T16_conclusion_plus_un : code 1 ; 1 erreurs ; fichier modifie : oui
+M2_T16_chevauchement_de_f3_permis : code 1 ; 1 erreurs ; fichier modifie : oui
+M3_T16_somme_nulle_permise : code 1 ; 1 erreurs ; fichier modifie : oui
+M4_T16_hors_du_secteur : code 1 ; 1 erreurs ; fichier modifie : oui
+M5_T16_rondeur_de_x_affaiblie : code 1 ; 1 erreurs ; fichier modifie : oui
+M6_T17_paire_15_au_lieu_de_16 : code 1 ; 1 erreurs ; fichier modifie : oui
+M7_T17_triplet_11_au_lieu_de_12 : code 1 ; 1 erreurs ; fichier modifie : oui
+M8_T17_w_pas_de_genre_lumiere : code 1 ; 1 erreurs ; fichier modifie : oui
+M9_T17_trois_quarts_remplace_par_deux_tiers : code 1 ; 2 erreurs ; fichier modifie : oui

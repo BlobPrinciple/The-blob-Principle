@@ -1,0 +1,5 @@
+{"partie": "V1", "palier": 5, "constituants": 1800, "tuiles_nees": 2616, "paires_liees": 8010, "exceptions": 0, "deux_dans_le_germe": 10, "T0_est_la_tuile_porte_de_l_un_seulement": 7180, "T0_tuile_porte_d_aucun_des_deux": 820, "cousins_conformes": 820, "T0_tuile_porte_des_deux_hors_germe": 0, "paires_sans_tuile_nee": 0, "T0_non_nee": 0, "exemples_d_exception": [], "exemples_de_cousins": [{"p": [-10, 8, 8, 17, 18], "q": [-10, 8, 8, 18, 17], "paliers": [5, 5], "T0": [[-10, 8, 8, 17, 18], [-10, 8, 8, 18, 17], [-2, 1, 2, 4, 4], [-2, 2, 1, 4, 4], [-1, 1, 1, 1, 1]]}, {"p": [-10, 8, 17, 8, 18], "q": [-10, 8, 18, 8, 17], "paliers": [5, 5], "T0": [[-10, 8, 17, 8, 18], [-10, 8, 18, 8, 17], [-2, 1, 4, 2, 4], [-2, 2, 4, 1, 4], [-1, 1, 1, 1, 1]]}], "duree_s": 0.4}
+
+real	0m0.568s
+user	0m0.482s
+sys	0m0.028s

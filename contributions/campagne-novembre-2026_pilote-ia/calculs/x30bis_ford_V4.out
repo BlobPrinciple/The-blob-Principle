@@ -1,0 +1,5 @@
+{"partie": "V4", "sommets": 187, "par_norme_du_denominateur": {"1": 37, "3": 60, "4": 90}, "types": {"(1, 1, 1)": {"triplets": 90, "sans_boule": 0, "boules": 180, "dans_l_empilement": 180, "hors": 0, "un_contact_lie_aux_deux_autres": 90}, "(1, 1, 3)": {"triplets": 246, "sans_boule": 0, "boules": 492, "dans_l_empilement": 492, "hors": 0, "un_contact_lie_aux_deux_autres": 246}, "(1, 1, 4)": {"triplets": 249, "sans_boule": 0, "boules": 249, "dans_l_empilement": 249, "hors": 0, "un_contact_lie_aux_deux_autres": 249}, "(1, 3, 4)": {"triplets": 480, "sans_boule": 0, "boules": 960, "dans_l_empilement": 960, "hors": 0, "un_contact_lie_aux_deux_autres": 0}, "(3, 3, 3)": {"triplets": 78, "sans_boule": 0, "boules": 156, "dans_l_empilement": 156, "hors": 0, "un_contact_lie_aux_deux_autres": 0}, "(4, 4, 4)": {"triplets": 162, "sans_boule": 0, "boules": 324, "dans_l_empilement": 162, "hors": 162, "un_contact_lie_aux_deux_autres": 0}}, "un_contact_lie_aux_deux_autres": {"triplets": 585, "boules": 921, "hors": 0}, "type_444_present": true, "violations": {"a": 0, "b": 0, "c": 0, "d": 0}, "exemples_de_violation": [], "duree_s": 0.1}
+
+real	0m0.141s
+user	0m0.126s
+sys	0m0.012s

@@ -1,0 +1,20 @@
+graine 2028, budget 100 s, temps 100.0 s
+  essais_p : 1135
+  triplets : 170250
+  degeneres : 0
+  sans_boule : 0
+  boules : 340500
+  dans : 328386
+  hors : 12114
+  hors_irr : 0
+  hors_sans_parent_chevauche : 0
+  portes_libres : {0: 10771, 1: 1343, 2: 0, 3: 0}
+  types_hors : {(4, 4, 4): 12114}
+  point2_test : 26741
+  point2_faux : 0
+  T15_test : 6810
+  T15_faux : 0
+  T16_test : 4733
+  T16_faux : 0
+  Lmax : 30
+contre-exemples a (G1) : 0

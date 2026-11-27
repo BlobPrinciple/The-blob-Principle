@@ -1231,3 +1231,34 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-30 (T13 et T12 sur données, énoncé (G1) aux paliers 3 et 4) | `x30_tout_3.out` | 672 |
 | X-30 (T13 et T12 sur données, énoncé (G1) aux paliers 3 et 4) | `x30_tout_4_sym.out` | 650 |
 | X-30, rapport du contre-audit indépendant (troisième passage), versé tel quel | `x30_contre_audit_rapport.md` | 3 486 |
+| X-30 bis ((G1) démontré : T15 à T19 ; prédiction scellée avant calcul) | `x30bis_demonstration_de_G1_prediction.txt` | 8 520 |
+| X-30 bis (T15 au palier 5, T16 et types au palier 3, (C6) au palier 6, sur les données du laboratoire) | `x30bis_G1.py` | 12 394 |
+| X-30 bis (T15 au palier 5, T16 et types au palier 3, (C6) au palier 6, sur les données du laboratoire) | `x30bis_V1_5.out` | 804 |
+| X-30 bis (T15 au palier 5, T16 et types au palier 3, (C6) au palier 6, sur les données du laboratoire) | `x30bis_V23_3.out` | 47 829 |
+| X-30 bis (T15 au palier 5, T16 et types au palier 3, (C6) au palier 6, sur les données du laboratoire) | `x30bis_V5_6.out` | 451 |
+| X-30 bis (modèle de Ford-Eisenstein indépendant du laboratoire : témoins, types, cas critique, tirage, ajout exhaustif non scellé) | `x30bis_ford.py` | 19 723 |
+| X-30 bis (modèle de Ford-Eisenstein indépendant du laboratoire : témoins, types, cas critique, tirage, ajout exhaustif non scellé) | `x30bis_ford_temoin.out` | 565 |
+| X-30 bis (modèle de Ford-Eisenstein indépendant du laboratoire : témoins, types, cas critique, tirage, ajout exhaustif non scellé) | `x30bis_ford_V4.out` | 1 175 |
+| X-30 bis (modèle de Ford-Eisenstein indépendant du laboratoire : témoins, types, cas critique, tirage, ajout exhaustif non scellé) | `x30bis_ford_V6_critique.out` | 417 |
+| X-30 bis (modèle de Ford-Eisenstein indépendant du laboratoire : témoins, types, cas critique, tirage, ajout exhaustif non scellé) | `x30bis_ford_V6_tirage.out` | 560 |
+| X-30 bis (modèle de Ford-Eisenstein indépendant du laboratoire : témoins, types, cas critique, tirage, ajout exhaustif non scellé) | `x30bis_ford_exhaustif_7_1.5_5.out` | 455 |
+| X-30 bis, T16 (les trois quarts) et T17 (le cône) devant Lean 4.35.0 : énoncés et preuves écrits à la main, contrôles, sortie | `lean_x30bis/TroisQuartsEtCone.lean` | 12 410 |
+| X-30 bis, T16 (les trois quarts) et T17 (le cône) devant Lean 4.35.0 : énoncés et preuves écrits à la main, contrôles, sortie | `lean_x30bis/controle.sh` | 3 587 |
+| X-30 bis, T16 (les trois quarts) et T17 (le cône) devant Lean 4.35.0 : énoncés et preuves écrits à la main, contrôles, sortie | `lean_x30bis/controle.out` | 8 626 |
+| X-30 bis, compléments non scellés devant Lean 4.35.0 : cas d'égalité de T16, T17 sans hypothèse de signe, arithmétique de T18 | `lean_x30bis/Complements.lean` | 19 180 |
+| X-30 bis, compléments non scellés devant Lean 4.35.0 : cas d'égalité de T16, T17 sans hypothèse de signe, arithmétique de T18 | `lean_x30bis/controle_complements.sh` | 3 775 |
+| X-30 bis, compléments non scellés devant Lean 4.35.0 : cas d'égalité de T16, T17 sans hypothèse de signe, arithmétique de T18 | `lean_x30bis/controle_complements.out` | 10 078 |
+| X-30 bis, rapport du contre-audit indépendant (quatrième passage), versé tel quel | `x30bis_contre_audit_rapport.md` | 6 247 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/noyau.py` | 6 236 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/a_paliers_T15.py` | 6 715 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/a_paliers_T15_4_8.out` | 595 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/a_paliers_T15_5_10.out` | 605 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/b_T16.py` | 3 992 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/b_T16.out` | 989 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/c_ford.py` | 6 647 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/c_ford.out` | 2 033 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/c_ford_rejeu.out` | 2 906 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/d_G1_profond.py` | 5 649 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/d_G1_profond_s13.out` | 888 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/d_G1_profond_s4.out` | 438 |
+| X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/Exemples.lean` | 1 480 |

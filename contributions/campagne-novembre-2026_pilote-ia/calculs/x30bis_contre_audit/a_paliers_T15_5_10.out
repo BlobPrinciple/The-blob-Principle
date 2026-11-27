@@ -1,0 +1,9 @@
+tailles des paliers S(0..5) : [5, 10, 30, 120, 450, 1800]  (0.4 s)
+tuiles de longueur <= 10 : 496536 (2.3 s)
+controle longueur (descente des sommes) = distance du parcours : 0 desaccords
+constituants de S(5) absents du parcours : 0
+portes non uniques : 0
+paires liees dans S(5) : 8010
+{'germe': 10, 'T0=T(p)': 1849, 'T0=T(q)': 5331, 'T0=T(p)=T(q)': 10, 'aucune, forme annoncee': 820, 'aucune, autre forme': 0, 'T15 faux': 0, 'paire absente': 0, 'T0 non unique': 0, 'glouton != parcours': 0}
+glouton du carnet vs parcours : portes 0 desaccords sur 5400 essais ; T0 0 desaccords sur 4000
+temps total 33.0 s

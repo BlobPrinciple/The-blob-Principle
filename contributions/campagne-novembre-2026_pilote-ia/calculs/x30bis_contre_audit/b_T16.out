@@ -1,0 +1,12 @@
+voisins de p trouves : 1256 ; dans le secteur (w constituants) : 265
+tirages x : 6000 (hors empilement : 4905) ; couples (x, w) : 359803 ; violations : 0 ; egalites : 10 dont x hors : 0
+plus petit rapport nu(x,w)/nu(c,w), x hors empilement, w constituant : 9883/11700 = 0.844701
+w = (2,-1,2,2,0) constituant : True  nu(c,w) = 4  coords >= 0 sur f : True
+retourne de f3 : True  rapport : 3/4
+  eps = 1/10 : x hors empilement : True ; rapport = 27/25 ~ 1.08000000 ; ecart a 3/4 = 3.300e-01
+  eps = 1/100 : x hors empilement : True ; rapport = 7803/10000 ~ 0.78030000 ; ecart a 3/4 = 3.030e-02
+  eps = 1/1000 : x hors empilement : True ; rapport = 753003/1000000 ~ 0.75300300 ; ecart a 3/4 = 3.003e-03
+  eps = 1/10000 : x hors empilement : True ; rapport = 75030003/100000000 ~ 0.75030003 ; ecart a 3/4 = 3.000e-04
+  eps = 1/1000000 : x hors empilement : True ; rapport = 750003000003/1000000000000 ~ 0.75000300 ; ecart a 3/4 = 3.000e-06
+flottants : 189540 couples, 0 violations
+temps 15.3 s

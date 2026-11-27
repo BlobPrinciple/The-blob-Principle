@@ -1,0 +1,14 @@
+sommets de denominateur de norme 1, 3, 4, 7 a distance <= 3 : 583 {1: 37, 3: 60, 4: 90, 7: 396}
+  reseau-reseau : nu = [1, 3, 4, 7, 9, 12, 13] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1', '3', '4', '7', '9']
+  reseau-centre : nu = [1, 4, 7, 13, 16, 19, 25] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1/3', '4/3', '7/3', '13/3', '16/3']
+  reseau-milieu : nu = [1, 3, 7, 9, 13, 19, 21] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1/4', '3/4', '7/4', '9/4', '13/4']
+  reseau-norme7 : nu = [1, 3, 4, 7, 9, 12, 13] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1/7', '3/7', '4/7', '1', '9/7']
+  centre-centre : nu = [3, 9, 12, 21, 27, 36, 39] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1/3', '1', '4/3', '7/3', '3']
+  centre-milieu : nu = [1, 7, 13, 19, 25, 31, 37] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1/12', '7/12', '13/12', '19/12', '25/12']
+  centre-norme7 : nu = [1, 4, 7, 13, 16, 19, 25] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1/21', '4/21', '1/3', '13/21', '16/21']
+  milieu-milieu : nu = [4, 12, 16, 28, 36, 48, 52] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1/4', '3/4', '1', '7/4', '9/4']
+  milieu-norme7 : nu = [1, 3, 7, 9, 13, 19, 21] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1/28', '3/28', '1/4', '9/28', '13/28']
+  norme7-norme7 : nu = [1, 3, 4, 7, 9, 12, 13] ... ; toutes des normes d'Eisenstein : True ; carres de distance : ['1/49', '3/49', '4/49', '1/7', '9/49']
+valeurs de nu < 16/3 entre deux voisins (tous types, normes <= 7) : ['1', '3', '4']
+  type (1, 1, 1), un lie aux deux autres : 72 triplets ; boules tangentes : 144 ; dont sur le reseau (constituants) : 144 ; triplets avec une boule hors reseau : 0
+  type (1, 1, 3), un lie aux deux autres : 180 triplets ; boules tangentes : 360 ; dont sur le reseau (constituants) : 360 ; triplets avec une boule hors reseau : 0
