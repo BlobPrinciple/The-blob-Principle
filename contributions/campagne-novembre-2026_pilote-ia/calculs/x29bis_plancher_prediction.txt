@@ -1,0 +1,55 @@
+X-29 bis -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 27 novembre 2026.
+Parole de l'auteur, 27 novembre, 7 h 08 : << Depose et pousse a l'extreme ensuite toutes les recherches. >>
+
+TOE 0/7. Aucun verrou ferme. Rien de ce qui suit ne peut en fermer un : geometrie de la lecture de contact, rang 3.
+
+CE QUI EST DEJA CONNU AU MOMENT DU SCELLEMENT (carnet X-29, pas encore depose)
+Les six clauses de X-29 sont vraies. En particulier : le tissu de la regle a la lettre est clos par pliage (paliers 0 a 6, tous les murs) ;
+117 tissus clos par pliage tires au hasard n'offrent aucune place hors de l'empilement ; mais les six tissus incomplets de X-28 et les 117
+tissus << ideal plus moitie des cotes libres >> ne sont PAS clos par pliage et n'en offrent pas non plus. Le pliage est donc trop fort.
+Aucun calcul sur les planchers ou les ancetres n'a ete fait, hors la formule de T7 (paliers 0 a 6).
+
+QUESTION
+Quelle est la condition la plus faible, et la plus naturelle, qui tient un tissu dans l'empilement ? Candidat : nul ne nait avant son plancher.
+
+VOCABULAIRE
+Plancher de u (X-29) : les quatre autres constituants de la tuile-porte de u. Ce sont les quatre spheres de l'interstice ou u est inscrit dans
+la construction classique de l'empilement : ses quatre << parents >> au sens d'Apollonius. Le germe n'a pas de plancher.
+Ancetres de u : son plancher, le plancher de son plancher, et ainsi de suite jusqu'au germe.
+Tissu clos par plancher : il contient le germe, et tout constituant ne a son plancher ne (donc tous ses ancetres).
+
+A. ENONCES QUE J'ANNONCE DEMONTRER
+T10. Un tissu clos par pliage est clos par plancher. Les tissus de la regle a la lettre, ceux des paliers incomplets (palier n plus une partie
+     quelconque des naissances du palier n+1), et un tissu clos par pliage augmente d'une partie quelconque de ses cotes libres, sont clos par plancher.
+T11. Les deux enonces suivants sont equivalents.
+     (C*) Dans tout tissu clos par plancher, toute place admissible est dans l'empilement.
+     (G)  Toute boule ronde hors de l'empilement, liee a un constituant p et a trois voisins q, r, s de p (les quatre independants), chevauche
+          un ancetre de p, q, r ou s.
+     (G) ne parle que de l'empilement : plus aucun tissu, plus aucune histoire.
+
+B. PREDICTIONS CHIFFREES (calcul exact : test de chevauchement exact de l'outil de X-27 ; chaque clause est jugee vraie ou fausse)
+R1. Le tissu du contre-exemple de X-27 (22 constituants) et celui du toit (31) ne sont PAS clos par plancher. (Confiance : 85 %.)
+    Pour la place hors de l'empilement (18, 18, 16, -6, -3)/7 : elle chevauche un ancetre de l'un de ses quatre contacts, et (2, 2, 2, -1, 0)
+    est l'un de ces ancetres. (Confiance : 75 %.)
+R2. (G) sur le palier 3 de la regle a la lettre (120 constituants) : pour tout parent p, tout triplet de voisins nes de p, et chacune des boules
+    liees aux quatre : si elle ne chevauche aucun ancetre des quatre, elle est dans l'empilement. Zero exception. (Confiance : 60 %.)
+    Le nombre de quadruples et de boules controles sera donne.
+R3. La meme chose sur le palier 4 (450 constituants), parents a symetrie pres, si le calcul tient dans le budget. (Confiance : 55 %.)
+R4. Tissus clos par plancher tires au hasard et qui ne sont pas clos par pliage : le germe plus les ancetres de 2 a 8 constituants tires au
+    hasard dans le palier 5 ; 150 tissus (graines 1 a 150). Toutes les places admissibles, tous les parents, par l'enumerateur de X-28.
+    (a) Zero place hors de l'empilement. (Confiance : 60 %.)
+    (b) Zero place sans cellule. (Confiance : 35 %. Dans un tissu aussi maigre je m'attends a des places de l'empilement dont aucune cellule
+        nee ne porte les contacts.)
+    Le nombre de tissus qui se trouvent etre clos par pliage sera donne.
+R5. Les six tissus incomplets de X-28 sont clos par plancher (consequence de T10 ; toute exception est une erreur de preuve).
+
+C. PROTOCOLE
+Programme : x29bis_plancher.py (nouveau) ; x29_pliage.py, x28_tissu_convexe.py, l'outil de X-27 et le tissu de X-25 importes tels quels.
+Tuile-porte : a partir d'une tuile contenant u, on retourne tant qu'il existe un constituant autre que u dont l'autre cote a une somme de
+coordonnees plus petite. Budget : 2 coeurs ; un calcul qui depasse 40 minutes est arrete et declare non fait.
+Ce qui serait un echec : toute clause R1 a R5 fausse. Une exception a R2 ou R3 donne un contre-exemple explicite a (C*) : un petit tissu clos par
+plancher offrant une place hors de l'empilement ; il sera donne en entier et la conjecture (C*) sera declaree fausse, la conjecture (C) de X-29
+(pliage) restant alors seule en lice.
+Ce qui n'est PAS predit : une preuve de (G).
+Contre-audit independant demande.
