@@ -1,0 +1,50 @@
+== outils
+Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)
+nanoda_bin 0.4.19
+== empreinte
+9f0b51ea1003238beb0f32bc45c17e19fd2d626ebdc3f61907f410057c0c4ddc  Fenetre.lean
+== 1. Lean compile l'enonce et la preuve
+'X30.fenetre' depends on axioms: [propext, Classical.choice, Quot.sound]
+lean Fenetre : code 0
+== 2. mots interdits (attendu : 0 partout)
+sorry : 0
+native_decide : 0
+axiom : 0
+unsafe : 0
+implemented_by : 0
+extern : 0
+opaque : 0
+== 3. rejeu par les verificateurs de Lean
+leanchecker : code 0
+leanchecker-paranoid : code 0
+== 4. export du theoreme et de tout ce dont il depend, puis trois noyaux independants
+leanexport : code 0 ; 195281 lignes ; sha256 5cd079d26ccb4a7741889ddf0688f05e420b92df28d4c9df2f52a115b50f9a1a
+theorem X30.fenetre (a1 a2 a3 a4 D : Int) (hD : LT.lt (OfNat.ofNat 0) D)
+  (h1 : LE.le a1 (HSub.hSub (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd a1 a2) a3) a4) D))
+  (h2 : LE.le a2 (HSub.hSub (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd a1 a2) a3) a4) D))
+  (h3 : LE.le a3 (HSub.hSub (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd a1 a2) a3) a4) D))
+  (h4 : LE.le a4 (HSub.hSub (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd a1 a2) a3) a4) D))
+  (hn :
+    Eq (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd (HMul.hMul a1 a1) (HMul.hMul a2 a2)) (HMul.hMul a3 a3)) (HMul.hMul a4 a4))
+      (HMul.hMul (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd a1 a2) a3) a4) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd a1 a2) a3) a4))) :
+  LE.le (HMul.hMul (OfNat.ofNat 2) D) (HAdd.hAdd (HAdd.hAdd (HAdd.hAdd a1 a2) a3) a4) :=
+  _
+
+axiom propext {a b : Prop} : Iff a b → Eq a b
+
+axiom Quot.sound.{u} {α : Sort u} {r : α → α → Prop} {a b : α} : r a b → Eq (Quot.mk r a) (Quot.mk r b)
+
+axiom Classical.choice.{u} {α : Sort u} : Nonempty α → α
+
+Checked 2648 declarations with no errors
+nanoda : code 0
+con-ron: accepted 2364 declarations (--verified)
+con-ron : code 0
+con-leche: accepted 2364 declarations (--verified)
+con-leche : code 0
+== 5. quatre enonces modifies : le script de preuve ne doit plus passer (code 1) ; l'enonce intact doit passer (code 0)
+M0_intact : code 0 ; 0 erreurs ; fichier modifie : non
+M1_conclusion_plus_un : code 1 ; 1 erreurs ; fichier modifie : oui
+M2_chevauchement_de_f4_permis : code 1 ; 1 erreurs ; fichier modifie : oui
+M3_denominateur_nul_permis : code 1 ; 1 erreurs ; fichier modifie : oui
+M4_rondeur_affaiblie : code 1 ; 1 erreurs ; fichier modifie : oui

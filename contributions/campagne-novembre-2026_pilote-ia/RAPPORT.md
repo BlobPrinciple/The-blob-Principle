@@ -594,7 +594,19 @@ Détail : [carnet X-24](carnets/2026-11-22_X-24_contact_lorentz_moteur.md). **TO
 
 **Ce qui est mesuré [M].** Les onze clauses sont vraies. Pliage : 203 925 contrôles au palier 6, aucune exception. Le contre-exemple de X-27 n'est clos ni par pliage ni par plancher : deux constituants y sont nés avant leur parent, et sa place hors de l'empilement chevauche précisément ces deux parents absents. 200 tissus clos par pliage et 150 tissus clos par plancher tirés au hasard : 212 551 places, aucune hors de l'empilement.
 
-**Ce qui est conjecturé [H].** (G) : toute boule hors de l'empilement, liée à un constituant et à trois de ses voisins, chevauche un ancêtre de l'un des quatre. Vérifié sur 973 778 boules aux paliers 3 et 4, et par le contre-auditeur sur 3 500 316 boules tirées plus profond. S'il est vrai, toute croissance où nul ne naît avant ses quatre parents reste dans l'empilement, la règle à la lettre en particulier.
+**Ce qui est conjecturé [H].** (G) : toute boule hors de l'empilement, liée à un constituant et à trois de ses voisins, chevauche un ancêtre de l'un des quatre. Vérifié sur 889 224 boules hors de l'empilement aux paliers 3 et 4, et par le contre-auditeur sur 3 500 316 boules tirées plus profond. S'il est vrai, toute croissance où nul ne naît avant ses quatre parents reste dans l'empilement, la règle à la lettre en particulier.
+
+## 8 vicies. Ajout du 27 novembre : X-30, première partie — la fenêtre et la descente
+
+**Aucun verrou ne bouge : TOE 0/7.** Carnet : [`carnets/2026-11-27_X-30_la_fenetre_et_la_descente.md`](carnets/2026-11-27_X-30_la_fenetre_et_la_descente.md), sections 312 à 321. Prédiction scellée et poussée avant calcul (commit b0ab500).
+
+**Ce qui est faux ou manque, d'abord.** La TOE n'est pas validée et ce carnet ne la valide pas ; les résultats de mathématiques obtenus ailleurs avec l'IA ne ferment aucun verrou du Blob. (G) n'est toujours pas démontré. Un chiffre de X-29 bis était mal dit : les boules hors de l'empilement contrôlées aux paliers 3 et 4 sont 889 224, non 973 778 (les autres sont des constituants). Le contre-audit de ce carnet est en cours au moment de ce versement.
+
+**Ce qui est démontré [T].** T13, la fenêtre : une boule liée à un constituant d'une tuile, qui ne chevauche aucun des quatre autres, est tout entière au-delà du mur opposé — accepté par Lean 4.35.0 et trois vérificateurs extérieurs, pour une boule rationnelle. T12, la descente : une boule liée à quatre constituants indépendants dont la descente s'achève est dans l'empilement ; la descente d'une place hors de l'empilement ne s'achève jamais.
+
+**Ce qui est mesuré [M].** Les quatre clauses sont vraies. Aux paliers 3 et 4, les 889 224 boules hors de l'empilement chevauchent toutes un parent de l'un de leurs quatre contacts, pas seulement un ancêtre.
+
+**Ce qui est conjecturé [H].** (G1) : toute boule hors de l'empilement, liée à un constituant et à trois de ses voisins, chevauche un parent de l'un des quatre. Il entraîne (G) et donne un critère local.
 
 ## 9. Les prochaines épreuves
 

@@ -1223,3 +1223,10 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-29 bis (nul ne naît avant son plancher ; prédiction scellée avant calcul) | `x29bis_plancher_prediction.txt` | 4 788 |
 | X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_x27.out` | 926 |
 | X-29 et X-29 bis, rapport du contre-audit indépendant (second passage), versé tel quel | `x29_contre_audit_rapport.md` | 6 064 |
+| X-30, le lemme de la fenêtre (T13) devant Lean 4.35.0 : énoncé et preuve écrits à la main, contrôles, sortie | `lean_x30/Fenetre.lean` | 2 177 |
+| X-30, le lemme de la fenêtre (T13) devant Lean 4.35.0 : énoncé et preuve écrits à la main, contrôles, sortie | `lean_x30/controle.out` | 2 386 |
+| X-30, le lemme de la fenêtre (T13) devant Lean 4.35.0 : énoncé et preuve écrits à la main, contrôles, sortie | `lean_x30/controle.sh` | 2 631 |
+| X-30 (T13 et T12 sur données, énoncé (G1) aux paliers 3 et 4) | `x30_fenetre_descente.py` | 6 814 |
+| X-30 (la fenêtre et la descente ; prédiction scellée avant calcul) | `x30_fenetre_prediction.txt` | 4 675 |
+| X-30 (T13 et T12 sur données, énoncé (G1) aux paliers 3 et 4) | `x30_tout_3.out` | 672 |
+| X-30 (T13 et T12 sur données, énoncé (G1) aux paliers 3 et 4) | `x30_tout_4_sym.out` | 650 |

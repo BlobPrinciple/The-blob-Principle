@@ -144,8 +144,8 @@ Dans l'autre sens : si une boule x hors de l'empilement, liée à p, q, r, s, ne
 | Clause | Prédit | Obtenu | Verdict |
 |---|---|---|---|
 | R1, tissus de X-27 | pas clos par plancher ; la place hors de l'empilement chevauche un ancêtre d'un de ses contacts, et (2, 2, 2, −1, 0) en est un | tissu de 22 : 5 constituants nés sans leur plancher complet ; tissu du toit : 8. La place chevauche 2 des 10 ancêtres de ses contacts : (2, 2, 2, −1, 0) et (2, 2, 2, 0, −1), aucun des deux né | vraie |
-| R2, (G) au palier 3, tous les parents | zéro exception | 148 320 quadruples, dont 27 180 sans boule ; 237 300 boules : 234 100 chevauchent un ancêtre ; les 3 200 autres sont dans l'empilement | vraie |
-| R3, (G) au palier 4, parents à symétrie près | zéro exception | 10 parents ; 478 159 quadruples, dont 106 551 sans boule ; 736 478 boules : 735 054 chevauchent un ancêtre ; les 1 424 autres sont dans l'empilement | vraie |
+| R2, (G) au palier 3, tous les parents | zéro exception | 148 320 quadruples, dont 27 180 sans boule ; 237 300 boules : 234 100 chevauchent un ancêtre ; les 3 200 autres sont dans l'empilement. Précision apportée par X-30 : 190 200 sont hors de l'empilement ; 43 900 sont elles-mêmes un ancêtre d'un contact, donc des constituants | vraie |
+| R3, (G) au palier 4, parents à symétrie près | zéro exception | 10 parents ; 478 159 quadruples, dont 106 551 sans boule ; 736 478 boules : 735 054 chevauchent un ancêtre ; les 1 424 autres sont dans l'empilement. Précision apportée par X-30 : 699 024 sont hors de l'empilement ; 36 030 sont elles-mêmes un ancêtre | vraie |
 | R4, 150 tissus clos par plancher tirés au hasard | (a) zéro place hors de l'empilement ; (b) zéro place sans cellule | 12 à 51 constituants, 29 en médiane ; aucun n'est clos par pliage ; 12 029 places ; (a) 0 ; (b) 0 ; places = côtés libres dans les 150 | vraies toutes deux |
 | R5, six tissus incomplets de X-28 | clos par plancher | les six le sont | vraie |
 
@@ -159,7 +159,7 @@ Le chevauchement est décidé par le test exact de l'outil de X-27 ; un filtre e
 
 Ce que (G) donnerait, par T11 puis T10 : toute croissance où nul ne naît avant ses quatre parents reste dans l'empilement ; en particulier la règle à la lettre, à tout palier ; en particulier aussi les paliers incomplets et la file d'attente de X-28, que le pliage n'expliquait pas.
 
-Ce qui l'appuie : 973 778 boules aux paliers 3 et 4, sans exception ; 3 500 316 boules tirées par le contre-auditeur dans des tuiles profondes, sans exception ; 150 tissus clos par plancher tirés au hasard ; les tissus clos par pliage, qui sont clos par plancher (T10) ; le contre-exemple de X-27, qui viole exactement cette condition. De (C), seule la moitié « aucune place hors de l'empilement » découlerait de (G) ; la moitié « exactement les côtés libres » n'en découle pas.
+Ce qui l'appuie : aux paliers 3 et 4, les 889 224 boules hors de l'empilement parmi les 973 778 liées à un quadruple, sans exception ; 3 500 316 boules tirées par le contre-auditeur dans des tuiles profondes, sans exception ; 150 tissus clos par plancher tirés au hasard ; les tissus clos par pliage, qui sont clos par plancher (T10) ; le contre-exemple de X-27, qui viole exactement cette condition. De (C), seule la moitié « aucune place hors de l'empilement » découlerait de (G) ; la moitié « exactement les côtés libres » n'en découle pas.
 
 Dans les données, plus fort : les places admissibles d'un tissu clos par plancher sont exactement les côtés non nés de ses cellules nées (350 tissus sur 350, sections 300, 301 et 306). Je ne l'érige pas en énoncé.
 
