@@ -1,0 +1,52 @@
+X-32 -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 27 novembre 2026.
+Parole de l'auteur, 27 novembre, 17 h 04, heure de Paris : << Continue et reste sur la ligne precise de la cosmogonie et rien d'autre ! >>
+
+TOE 0/7. Aucun verrou ferme. Rien de ce qui suit ne peut en fermer un : geometrie de la lecture de contact, rang 3.
+La ligne suivie : point 1 de la section 5 de VALIDATION_DE_LA_COSMOGONIE.md, << une seule realisation de la mitose >>. X-31 laisse la question :
+au rang 3, une realisation peut-elle tenir ensemble << le parent devient deux filles >>, N = 2^g, l'heritage des liens d'un parent unique et la
+naissance dans la cellule ? Sous la regle a la lettre, non : toutes les cellules enfantent, et le nombre est multiplie par 4 environ.
+
+CE QUI EST DEJA CONNU AU MOMENT DU SCELLEMENT
+X-30 bis et X-31 (ce dernier en cours de contre-audit) : dans un tissu clos par plancher, les places admissibles sont exactement les cotes non
+nes des cellules nees ; T15 (parent, enfant ou cousins). Aucun calcul n'a ete fait pour ce qui suit. Les raisonnements sont faits ; les preuves
+seront au carnet et soumises au contre-audit.
+
+VOCABULAIRE
+Tuile-porte T(q), plancher F(q), parents : ceux de X-29. Pour q hors du germe, T'(q) est la tuile voisine de T(q) a travers le plancher de q.
+Les quatre cellules de T(q) qui contiennent q ont chacune un cote dans T(q) (un parent de q) et un cote au-dela.
+Fille propre de q : un constituant x dont le plancher est une de ces quatre cellules (donc q est un parent de x, et T(x) est cette cellule plus x).
+
+ENONCES QUE J'ANNONCE DEMONTRER, sous les faits admis de X-30 bis (confiance : 80 %)
+T27 (les filles propres). Soit q hors du germe, de plancher {f1, f2, f3, f4}, et x_i le cote au-dela de la cellule de T(q) qui ne contient pas f_i.
+     Alors x_i est une fille propre de q si et seulement si le mur de T'(q) oppose a f_i ne separe pas T'(q) du germe ; sinon q et x_i sont
+     cousins. Le nombre de murs de T'(q) qui la separent du germe vaut 0 (si T'(q) est la tuile du germe), 1 ou 2 : q a 4, 3 ou 2 filles propres.
+     Tout constituant hors du germe et du palier 1 a une seule mere propre, ou aucune ; dans ce dernier cas il a deux parents cousins.
+T28 (le parent devient deux filles : une realisation qui tient). Regle. Generation 0 : le germe. A chaque generation, tout constituant ne p
+     donne une fille et une seule. Generation 1 : la fille d'un constituant u du germe est le cote au-dela d'une cellule du germe qui contient u,
+     les cinq filles etant distinctes. Ensuite : si p n'a pas encore de fille, sa fille est une de ses filles propres ; sinon c'est une fille
+     propre de sa derniere fille, dont le plancher contient p. Deux constituants ne prennent jamais la meme fille.
+     Alors : (i) la regle peut toujours etre suivie, a toute generation, et il y a plusieurs facons de la suivre ; (ii) N = 5 x 2^g, exactement ;
+     (iii) le tissu est clos par plancher a toute generation, donc dans l'empilement, sans chevauchement ; (iv) chaque naissance a lieu a une
+     place admissible, cote non ne d'une cellule nee, et la nouvelle-nee est liee a sa mere et a trois voisins de sa mere.
+Si un calcul ci-dessous contredit T27 ou T28, c'est une erreur de preuve : elle sera declaree en tete du carnet.
+
+CLAUSES CHIFFREES
+C1. T27 sur la regle a la lettre, tous les constituants hors du germe jusqu'au palier 5 (1 795), les cotes au-dela pris dans le palier 6 :
+    pour chacun et chacune de ses quatre cellules, << fille propre >> si et seulement si le mur ne separe pas ; sinon cousins. Aucune exception.
+C2. Nombre de filles propres : 4 pour les 5 constituants du palier 1 ; 3 pour les 20 du palier 2 ; au palier 3, 3 pour 60 constituants et 2 pour
+    30 ; jamais 0 ni 1 ; aux paliers 4 et 5 je ne predis pas les nombres.
+C3. La regle de T28, 20 tirages au hasard, 10 generations chacun (5 120 constituants) : la regle n'echoue jamais ; N = 5, 10, 20, 40, ..., 5 120 ;
+    tous les constituants nes sont distincts ; le tissu est clos par plancher a chaque generation ; a la generation 10, aucun chevauchement
+    (tous les produits de deux constituants distincts sont au plus -1).
+C4. Dans ces 20 tirages, chaque naissance : la nouvelle-nee est le cote non ne d'une cellule nee, liee a sa mere ; a chaque generation, a partir
+    de la deuxieme, chaque mere a au moins deux filles possibles.
+Mesures sans prediction : liens entre constituants de la meme generation ; nombre de voisins d'un constituant selon son age ; part des places
+admissibles laissees libres.
+
+CE QUE JE NE PROMETS PAS
+Que cette regle soit celle de l'auteur : elle laisse des choix, et rien ici ne dit lequel le Blob fait. Qu'elle porte les autres principes
+(temps, etirement, bain). Aucune formalisation Lean. Aucune relecture humaine. Aucun verrou.
+
+PROTOCOLE
+Deux coeurs, 30 minutes de calcul au plus. Echecs en tete du carnet. Contre-audit independant, avec son propre code. Jamais main.
