@@ -1,0 +1,70 @@
+X-29 -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 27 novembre 2026.
+Parole de l'auteur, 27 novembre, 7 h 08 : << Depose et pousse a l'extreme ensuite toutes les recherches. >>
+
+TOE 0/7. Aucun verrou ferme. Rien de ce qui suit ne peut en fermer un : geometrie de la lecture de contact, rang 3.
+
+CE QUI EST DEJA CONNU AU MOMENT DU SCELLEMENT (carnet X-28, pas encore depose)
+1. La voie que je proposais pour demontrer la regle a la lettre a tout palier est tombee : le << tissu comble >> (tissu plus ses places a
+   cinq contacts) est a tuiles convexes aux paliers 3, 4, 5 mais PAS au palier 6 (360 murs sur 38 070 ont un constituant au-dela).
+   Trouve par mon calcul et, independamment, par le contre-auditeur.
+2. La seconde file d'attente de la clause N7 de X-28 a ete tuee par le systeme a 400 naissances sur 445 (code 137) ; elle est relancee.
+3. Le pliage n'a ete controle dans X-28 que sur les murs de SURFACE (paliers 3 a 6 : 180, 720, 2 880, 16 200 constituants au-dela, toutes
+   les images nees). Aucun calcul sur les murs quelconques, ni sur des tissus tires au hasard, n'a ete fait.
+
+QUESTION
+Qu'est-ce qui, dans la regle a la lettre, tient le tissu dans l'empilement ? Candidat : le pliage. Le tissu de la regle a la lettre est clos
+par pliage vers le germe ; le contre-exemple de X-27 ne l'est pas. Un tissu clos par pliage peut-il offrir une place hors de l'empilement ?
+
+VOCABULAIRE (celui de X-27 et X-28, plus quatre mots)
+Mur de l'empilement : la sphere orthogonale aux quatre constituants d'une cellule de l'empilement P. Un mur ne coupe aucune tuile de P.
+Cote du germe d'un mur : celui ou se trouve la tuile du germe. Constituant au-dela d'un mur : strictement de l'autre cote.
+Pliage : un constituant au-dela d'un mur est remplace par son image dans ce mur ; les autres ne bougent pas.
+Tissu clos par pliage : tout constituant ne est dans une tuile nee (cinq constituants nes tous lies), et pour tout mur de P et tout
+constituant ne u au-dela de ce mur, l'image de u dans le mur est nee.
+Tuile-porte d'un constituant u de P : parmi les tuiles de P qui contiennent u, celle qu'aucun mur passant par u ne separe du germe
+(la plus proche du germe). Plancher de u : les quatre autres constituants de sa tuile-porte.
+Regle a la lettre (enonce mathematique retenu) : S(0) = le germe ; S(n+1) = S(n) plus tous les cotes non nes des cellules de S(n)
+(quatre constituants de S(n) tous lies). Palier de u : le premier n tel que u est dans S(n).
+
+A. ENONCES QUE J'ANNONCE DEMONTRER (raisonnement fait avant tout calcul ; preuves a ecrire au carnet et a faire contre-auditer)
+T6 (pliage, tous les murs). Sous la regle a la lettre, a tout palier, le tissu est clos par pliage ; l'image d'un constituant ne au-dela d'un
+   mur est nee a un palier inferieur ou egal. (X-28 ne l'enoncait que pour les murs de surface et sa preuve avait deux trous, releves par
+   le contre-audit ; ils sont a boucher.)
+T7 (le palier se lit sur le plancher). Sous la regle a la lettre, palier(u) = 1 + le plus grand palier des quatre constituants du plancher de u.
+   Le palier de naissance ne depend donc que de la place de u dans l'empilement, pas de l'histoire.
+T8 (ordre de Bruhat). Un tissu est clos par pliage si et seulement si ses tuiles nees forment une partie commencante (ideal inferieur) de
+   l'ordre de Bruhat du groupe d'Apollonius de rang 3, le germe etant l'element neutre. (Sous les faits classiques sur les groupes de Coxeter.)
+T9 (critere de la cellule). Dans un tissu clos par pliage, un constituant x de P qui n'est pas ne est le cote d'une cellule nee si et
+   seulement si son plancher est ne.
+Si un calcul ci-dessous contredit T6 ou T7, c'est une erreur de preuve : elle sera declaree en tete du carnet.
+
+B. PREDICTIONS CHIFFREES (calcul exact ; chaque clause est jugee vraie ou fausse)
+Q1. Regle a la lettre, paliers 0 a 6. (a) Clos par pliage pour TOUS les murs qui separent une tuile nee du germe : zero exception ; le nombre de
+    triplets (tuile nee, mur, constituant) controles sera donne. (b) La formule de T7 vaut pour chacun des 7 285 constituants hors germe du palier 6.
+Q2. Le tissu du contre-exemple de X-27 (22 constituants) et celui du toit (31 constituants) ne sont PAS clos par pliage. (Confiance : 90 %.)
+Q3. Tissus clos par pliage tires au hasard : reunion de 1 a 3 intervalles inferieurs de Bruhat [germe, w], w tire au hasard de longueur 3 a 12
+    (marche qui s'eloigne du germe), 200 tissus (graines 1 a 200), au plus 350 constituants (sinon le tirage est ecarte et compte).
+    Toutes les places admissibles, tous les parents, par l'enumerateur de X-28.
+    (a) Zero place hors de l'empilement. (Confiance : 65 %.) C'est la clause qui compte : si elle tombe, le pliage n'explique pas la regle a la lettre.
+    (b) Toute place admissible est le cote d'une cellule nee (zero place sans cellule). (Confiance : 50 %. Mon raisonnement n'exclut pas une place de
+        l'empilement dont les trois contacts, vus de la place et du parent, portent la meme couleur.)
+    (c) Les places admissibles sont exactement les cotes libres des cellules nees. (Confiance : 50 %.)
+Q4. Les memes tissus, auxquels on ajoute une moitie tiree au hasard de leurs cotes libres (ils ne sont alors plus clos par pliage en general) :
+    zero place hors de l'empilement. (Confiance : 55 %.)
+Q5. Cloture par pliage du tissu de 22 constituants de X-27 (le plus petit tissu clos par pliage qui le contient) : la place hors de l'empilement
+    (18, 18, 16, -6, -3)/7 n'y est plus admissible, et toutes ses places admissibles sont dans l'empilement. (Confiance : 65 %.) Sa taille sera mesuree.
+Q6. Les six tissus incomplets de la clause N7(b) de X-28 (palier 4 plus un quart, la moitie, trois quarts des naissances du palier 5, 2 tirages) :
+    aucun n'est clos par pliage. (Confiance : 85 %.) Ils n'offrent pourtant aucune place hors de l'empilement (X-28) : si Q6 est vraie, le pliage est
+    une condition suffisante candidate, pas une condition necessaire.
+
+C. PROTOCOLE
+Programme : x29_pliage.py (nouveau) ; x28_tissu_convexe.py, l'outil de X-27 et le tissu de X-25 importes tels quels.
+Murs separant une tuile du germe : ceux que traverse une descente de la tuile vers le germe (a chaque pas on retourne un constituant dont
+l'autre cote a une somme de coordonnees plus petite). Tirages : random.Random(graine) de Python.
+Budget : 2 coeurs ; un calcul qui depasse 40 minutes est arrete et declare non fait.
+Ce qui serait un echec : toute clause Q1 a Q6 fausse ; toute exception a T6 ou T7. Les echecs sont declares en premier.
+Ce qui n'est PAS predit et sera rendu comme mesure ou comme non fait : une preuve que tout tissu clos par pliage n'offre que des places de
+l'empilement (si Q3 (a) tient, c'est la conjecture a demontrer ; avec T6 elle donnerait la regle a la lettre a tout palier) ; le plus petit
+contre-exemple (toujours entre 9 et 17 naissances) ; un controle par Lean de T6 a T9.
+Contre-audit independant demande sur les preuves de T6 a T9 et sur le calcul.
