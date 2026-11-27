@@ -1,0 +1,7 @@
+tissus: 40 ; constituants min/max: 41 150
+modes: {'uniforme': 20, 'profond': 20}
+generation maximale atteinte (nombre de tissus): {7: 1, 8: 6, 9: 33}
+tissus clos par plancher: 40
+tissus ou places = cotes non nes: 40
+tissus avec au moins une place a plancher incomplet: 40
+tissus avec au moins une place creant plus de 4 cellules: 40

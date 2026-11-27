@@ -1,0 +1,1 @@
+{"partie": "reseau", "gmax": 60, "palier_different_de_l_etendue_moins_un": 0, "points_oublies": 0, "nombre_de_points_par_palier_cumule": [3, 6, 12, 21, 30, 42, 57, 72, 90, 111, 132, 156], "accord_avec_la_formule_jusqu_a_gmax": true, "duree_s": 1.4}

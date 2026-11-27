@@ -1,0 +1,25 @@
+reseau : points dates 993 jusqu'au tour 30 ; age != etendue - 1 : 0
+g=0: points d'etendue <= g+1 : 3 ; formule 3
+g=1: points d'etendue <= g+1 : 6 ; formule 6
+g=2: points d'etendue <= g+1 : 12 ; formule 12
+g=3: points d'etendue <= g+1 : 21 ; formule 21
+g=4: points d'etendue <= g+1 : 30 ; formule 30
+g=5: points d'etendue <= g+1 : 42 ; formule 42
+g=6: points d'etendue <= g+1 : 57 ; formule 57
+g=7: points d'etendue <= g+1 : 72 ; formule 72
+g=8: points d'etendue <= g+1 : 90 ; formule 90
+g=9: points d'etendue <= g+1 : 111 ; formule 111
+g = 0..300 : ecarts a la formule : []
+S(6) : cellules nees 38895 ; taille de S(7) : 29160  temps 239.0
+fil (e1,e2) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+fil (e1,e3) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+fil (e1,e4) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+fil (e1,e5) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+fil (e2,e3) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+fil (e2,e4) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+fil (e2,e5) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+fil (e3,e4) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+fil (e3,e5) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+fil (e4,e5) : voisins communs nes aux paliers 0..7 (cumules) [3, 6, 12, 21, 30, 42, 57, 72] ; palier != etendue-1 : 0
+voisins nes de e1 aux paliers 0..7 (cumules): [4, 8, 20, 56, 140, 368, 980, 2552]
+temps 239.0 s

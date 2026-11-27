@@ -620,6 +620,16 @@ Détail : [carnet X-24](carnets/2026-11-22_X-24_contact_lorentz_moteur.md). **TO
 
 **Ce qui reste conjecturé [H].** Que la place admissible soit toujours le côté d'une cellule née (seconde moitié de (C)) : constaté sur 350 tissus, non démontré.
 
+## 8 duovicies. Ajout du 27 novembre : X-31 — la place du nouveau-né est le côté d'une cellule née ; la division de l'arête, vue d'un fil
+
+**Aucun verrou ne bouge : TOE 0/7.** Carnet : [`carnets/2026-11-27_X-31_la_place_est_le_cote_d_une_cellule_nee_et_la_division_de_l_arete.md`](carnets/2026-11-27_X-31_la_place_est_le_cote_d_une_cellule_nee_et_la_division_de_l_arete.md), sections 334 à 344. Prédiction scellée et poussée avant calcul (commit 7f8c283). La ligne suivie est le point 1 de la section 5 du registre de la cosmogonie.
+
+**Ce qui est faux ou manque, d'abord.** Deux clauses scellées sont fausses : une formule de décompte que j'avais prolongée sans preuve (33, 48, 66 annoncés ; 30, 42, 57 obtenus), et un nombre de voisins lu de travers dans X-30 bis (979 au lieu de 980). Le contre-audit a trouvé quatre points faux ou troués dans la partie sur la division de l'arête, tous corrigés au carnet ; rien de faux dans la partie sur la cellule. Le lien avec la division de l'arête est entamé, pas clos. La condition « nul ne naît avant ses quatre parents » n'est pas automatique : dans 200 tissus tirés au hasard qui la respectent, 2 908 places admissibles sur 16 008 ont un parent qui n'est pas né. Tout repose sur des faits classiques admis ; rien n'est devant Lean ; aucun humain n'a lu la preuve.
+
+**Ce qui est démontré [T, sous les faits admis].** T20 : dans un tissu clos par plancher, tout constituant né lié à une place en est un parent ou un cousin. T21 : les places admissibles y sont exactement les côtés non nés des cellules nées ; c'est la conjecture (C) de X-29, pour une classe plus large. T22 : toute cellule née y a un côté né, celui du côté du germe. T23 : vue d'un fil de la cellule, la naissance dans la cellule donne les deux cellules filles de la division du fil opposé, mais le fil coupé demeure. T24 : au rang 2, vu du parent, chaque fil du pourtour se divise à chaque palier, 3 × 2^g voisins exactement. T25, corrigé : au rang 3, vus d'un fil du germe, les constituants croissent comme le carré du palier. T26 : au rang 3, deux constituants liés du même palier sont toujours des cousins.
+
+**Ce qui est mesuré [M].** Neuf clauses vraies sur onze. T20 : 1 544 868 paires sur 200 tissus tirés, aucune exception. Rang 2 : 13 124 disques, aucun écart au doublement. Contre-auditeur, avec son code : 40 tissus construits autrement, 10 533 places, toutes côtés non nés de cellules nées.
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

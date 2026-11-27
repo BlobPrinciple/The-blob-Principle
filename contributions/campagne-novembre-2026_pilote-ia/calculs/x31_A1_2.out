@@ -1,0 +1,1 @@
+{"partie": "A1", "n": 2, "nes": 30, "non_nes_examines": 420, "paires": 1260, "parent": 1260, "cousin": 0, "exception": 0, "tuile_cherchee_par_parcours": 0, "x_au_palier_suivant": {"parent": 360, "cousin": 0, "exception": 0}, "x_deux_paliers_plus_loin": {"parent": 900, "cousin": 0, "exception": 0}, "exemples_d_exception": [], "exemples_de_cousins": [], "duree_s": 0.1}

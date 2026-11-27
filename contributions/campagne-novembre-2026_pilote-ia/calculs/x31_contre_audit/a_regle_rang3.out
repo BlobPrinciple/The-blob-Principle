@@ -1,0 +1,45 @@
+BFS tuiles par profondeur: [1, 5, 20, 70, 240, 810, 2730, 9180]
+temoin critere de descente: controles 19380 desaccords 0 egalites de somme 0
+temoin tuile-porte: constituants 990 porte par descente != porte BFS: 0 portes non uniques: 0
+temoin tuile de paire: paires 4110 desaccords: 0
+S(0) : 5 constituants, chevauchements 0, cellules nees 5, sans cote ne 0, cote ne seul cote loin 0
+S(1) : 10 constituants, chevauchements 0, cellules nees 25, sans cote ne 0, cote ne seul cote loin 0
+S(2) : 30 constituants, chevauchements 0, cellules nees 135, sans cote ne 0, cote ne seul cote loin 0
+S(3) : 120 constituants, chevauchements 0, cellules nees 585, sans cote ne 0, cote ne seul cote loin 0
+S(4) : 450 constituants, chevauchements 0, cellules nees 2355, sans cote ne 0, cote ne seul cote loin 0
+S(5) : 1800 constituants, chevauchements 0, cellules nees 9645, sans cote ne 0, cote ne seul cote loin 0
+tailles S(0..6): [5, 10, 30, 120, 450, 1800, 7290]   temps 0.7
+constituants reconnus par reduction du germe: 7290 / 7290
+controle T7 (palier = 1 + max palier des parents) : ecarts 0 parents hors S(6): 0
+A1 n=2: {"paires": 1260, "parent": 1260, "cousin": 0, "exception": 0, "les_deux": 60, "sans_tuile": 0}
+A1 n=3: {"paires": 5160, "parent": 5100, "cousin": 60, "exception": 0, "les_deux": 240, "sans_tuile": 0}
+A1 n=4: {"paires": 20700, "parent": 20520, "cousin": 180, "exception": 0, "les_deux": 900, "sans_tuile": 0}
+T23 palier 1: nouveau-nes 5; voisins nes avant (min,max) = (4,4); nombre avec >4 : 0; voisins nes au meme palier (max) 0
+T23 palier 2: nouveau-nes 20; voisins nes avant (min,max) = (4,4); nombre avec >4 : 0; voisins nes au meme palier (max) 1
+T23 palier 3: nouveau-nes 90; voisins nes avant (min,max) = (4,4); nombre avec >4 : 0; voisins nes au meme palier (max) 1
+T23 palier 4: nouveau-nes 330; voisins nes avant (min,max) = (4,5); nombre avec >4 : 60; voisins nes au meme palier (max) 1
+T23 palier 5: nouveau-nes 1350; voisins nes avant (min,max) = (4,5); nombre avec >4 : 180; voisins nes au meme palier (max) 1
+T23 palier 6: nouveau-nes 5490; voisins nes avant (min,max) = (4,5); nombre avec >4 : 720; voisins nes au meme palier (max) 1
+T26 palier 1: paires liees de meme palier 0, cousines 0, autres 0
+T26 palier 2: paires liees de meme palier 10, cousines 10, autres 0
+T26 palier 3: paires liees de meme palier 30, cousines 30, autres 0
+T26 palier 4: paires liees de meme palier 90, cousines 90, autres 0
+T26 palier 5: paires liees de meme palier 450, cousines 450, autres 0
+T26 palier 6: paires liees de meme palier 1710, cousines 1710, autres 0
+(g) voisins nes de e1 aux paliers 0..6 (cumules): [4, 8, 20, 56, 140, 368, 980]
+(g) voisins nes de e2 aux paliers 0..6 (cumules): [4, 8, 20, 56, 140, 368, 980]
+(g) voisins nes de e3 aux paliers 0..6 (cumules): [4, 8, 20, 56, 140, 368, 980]
+(g) voisins nes de e4 aux paliers 0..6 (cumules): [4, 8, 20, 56, 140, 368, 980]
+(g) voisins nes de e5 aux paliers 0..6 (cumules): [4, 8, 20, 56, 140, 368, 980]
+T25 fil (e1,e2): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 fil (e1,e3): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 fil (e1,e4): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 fil (e1,e5): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 fil (e2,e3): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 fil (e2,e4): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 fil (e2,e5): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 fil (e3,e4): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 fil (e3,e5): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 fil (e4,e5): cumules paliers 0..6 [3, 6, 12, 21, 30, 42, 57]; triplet=coord. des 3 autres: somme!=1 0, palier!=etendue-1 0, liens mal decrits 0
+T25 tout conforme: True
+temps total 2.2 s

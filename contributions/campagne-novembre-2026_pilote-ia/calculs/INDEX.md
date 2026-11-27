@@ -1262,3 +1262,32 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/d_G1_profond_s13.out` | 888 |
 | X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/d_G1_profond_s4.out` | 438 |
 | X-30 bis, code et sorties du contre-auditeur, écrits à neuf par lui ; `c_ford_rejeu.out` est la relance du pilote | `x30bis_contre_audit/Exemples.lean` | 1 480 |
+| X-31 (la place est le côté d'une cellule née ; la division de l'arête vue d'un fil ; prédiction scellée avant calcul) | `x31_cellule_et_arete_prediction.txt` | 6 854 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_cellule.py` | 11 859 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_A1_2.out` | 370 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_A1_3.out` | 532 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_A1_4.out` | 539 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_A2_1_100.out` | 26 612 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_A2_101_200.out` | 26 724 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_A3_2.out` | 206 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_A3_3.out` | 209 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_A3_4.out` | 211 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_A3_5.out` | 213 |
+| X-31 (rang 3, sur les données du laboratoire : T20, T21, T22 ; fils du germe ; liens de même palier) | `x31_B_6.out` | 1 328 |
+| X-31 (rang 2 et réseau triangulaire, programme indépendant du laboratoire) | `x31_rang2.py` | 7 191 |
+| X-31 (rang 2 et réseau triangulaire, programme indépendant du laboratoire) | `x31_rang2_B1.out` | 503 |
+| X-31 (rang 2 et réseau triangulaire, programme indépendant du laboratoire) | `x31_reseau_60.out` | 249 |
+| X-31, rapport du contre-audit indépendant (cinquième passage), versé tel quel | `x31_contre_audit_rapport.md` | 4 379 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/a_regle_rang3.out` | 4 492 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/a_regle_rang3.py` | 9 567 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/b_tissus.py` | 9 171 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/b_tissus_1_40.out` | 28 440 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/c_temoin.out` | 1 159 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/c_temoin.py` | 2 393 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/d_rang2.out` | 1 131 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/d_rang2.py` | 4 186 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/e_reseau.out` | 1 915 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/e_reseau.py` | 3 453 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/f_resume.out` | 333 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/f_resume.py` | 927 |
+| X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/noyau.py` | 3 822 |

@@ -1,0 +1,16 @@
+S(0): 4 disques, chevauchements 0, cellules nees 4, sans cote ne 0
+S(1): 8 disques, chevauchements 0, cellules nees 16, sans cote ne 0
+S(2): 20 disques, chevauchements 0, cellules nees 52, sans cote ne 0
+S(3): 56 disques, chevauchements 0, cellules nees 160, sans cote ne 0
+S(4): 164 disques, chevauchements 0, cellules nees 484, sans cote ne 0
+S(5): 488 disques, chevauchements 0, cellules nees 1456, sans cote ne 0
+S(6): 1460 disques, chevauchements 0, cellules nees 4372, sans cote ne 0
+S(7): 4376 disques, chevauchements 0, cellules nees 13120, sans cote ne 0
+tailles S(0..8): [4, 8, 20, 56, 164, 488, 1460, 4376, 13124]  temps 0.7
+reconnus par reduction du germe: 13124 / 13124
+S(8): chevauchements entre disques distincts: 0 ; liens: 39366
+liens entre disques du meme palier, par palier: {0: 6}
+couples (disque, age) : 19700 ; ecarts a 3 x 2^g : 0 ; exemple : None
+naissances de voisins (p, x) : 39360 ; ne divisant pas exactement un fil du pourtour : 0 ; disques dont le pourtour ne double pas a chaque palier : 0
+paires de voisins d'un meme disque, liees, nees au meme palier : {'palier0': 108, 'palier>=1': 0}
+temps 3.4 s
