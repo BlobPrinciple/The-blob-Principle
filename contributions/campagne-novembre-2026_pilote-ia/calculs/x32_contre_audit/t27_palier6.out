@@ -1,0 +1,5 @@
+{"partie": "T27 (contre-audit)", "tailles_regle_a_la_lettre": [5, 10, 30, 120, 450, 1800, 7290], "cellules_nees_par_palier": [5, 25, 135, 585, 2355, 9645], "q_jusqu_au_palier": 5, "constituants": 1795, "cellules": 7180, "fille_propre": 4820, "cousin": 2360, "autre": 0, "desaccord_avec_le_mur": 0, "mur_du_plancher_separe": 0, "murs_de_T_prime_qui_separent": {"0": 5, "1": 1220, "2": 570}, "filles_propres_par_palier": {"1": {"4": 5}, "2": {"3": 20}, "3": {"2": 30, "3": 60}, "4": {"2": 90, "3": 240}, "5": {"2": 450, "3": 900}}, "meres_propres_paliers_2_et_plus": {"0": 570, "1": 1220}, "desaccord_mere_propre_et_murs": 0, "sans_mere_propre_et_sans_parents_cousins": 0, "duree_s": 1.3}
+
+real	0m1.372s
+user	0m1.323s
+sys	0m0.035s

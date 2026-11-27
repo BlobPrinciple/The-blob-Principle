@@ -630,6 +630,16 @@ Détail : [carnet X-24](carnets/2026-11-22_X-24_contact_lorentz_moteur.md). **TO
 
 **Ce qui est mesuré [M].** Neuf clauses vraies sur onze. T20 : 1 544 868 paires sur 200 tissus tirés, aucune exception. Rang 2 : 13 124 disques, aucun écart au doublement. Contre-auditeur, avec son code : 40 tissus construits autrement, 10 533 places, toutes côtés non nés de cellules nées.
 
+## 8 tervicies. Ajout du 27 novembre : X-32 — le parent devient deux filles, au rang 3
+
+**Aucun verrou ne bouge : TOE 0/7.** Carnet : [`carnets/2026-11-27_X-32_le_parent_devient_deux_filles_au_rang_3.md`](carnets/2026-11-27_X-32_le_parent_devient_deux_filles_au_rang_3.md), sections 345 à 355. Prédiction scellée et poussée avant calcul (commit 682fb1f). Même ligne : le point 1 de la section 5 du registre de la cosmogonie.
+
+**Ce qui est faux ou manque, d'abord.** La règle éprouvée laisse des choix que rien ne fixe : 44 départs, puis deux à quatre filles possibles à chaque naissance. Elle n'occupe qu'un tiers environ des places admissibles. Elle ne porte pas l'absence de lien entre porteurs du même âge. Elle ne dit rien du temps, de l'étirement, du bain, ni de la fermeture qui bloque la mitose. Elle est posée par le pilote, non dérivée de la cosmogonie. Le contre-audit a trouvé quatre trous dans la rédaction des preuves, réparés, dont une phrase fausse telle qu'écrite ; aucun ne renverse les énoncés. Faits classiques admis ; rien devant Lean ; aucune relecture humaine.
+
+**Ce qui est démontré [T, sous les faits admis].** T27 : tout constituant hors du germe a 4, 3 ou 2 filles propres, selon le nombre de murs qui séparent du germe la tuile voisine de sa tuile-porte ; les autres côtés sont des cousins. T28 : si chaque constituant donne une fille par génération, d'abord une de ses filles propres, puis une fille propre de sa dernière fille, alors la règle ne se bloque jamais, N = 5 × 2^g exactement, le tissu reste clos par plancher, donc dans l'empilement et sans chevauchement, et chaque nouvelle-née naît dans une cellule, liée à sa mère et à trois voisins de sa mère.
+
+**Ce qui est mesuré [M].** Les quatre clauses scellées sont vraies. 20 tirages de 10 générations : 5 120 constituants, aucun blocage, aucun chevauchement. Contre-auditeur, avec son code : 250 lancements, dont cinq façons de choisir faites pour mettre la règle en défaut ; aucun blocage.
+
 ## 9. Les prochaines épreuves
 
 1. **L'exclusion entre simplexes** : un porteur ne traverse pas une face. C'est la donnée de l'auteur, et le modèle ne la respecte pas encore.

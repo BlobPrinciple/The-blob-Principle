@@ -1291,3 +1291,28 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/f_resume.out` | 333 |
 | X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/f_resume.py` | 927 |
 | X-31, code et sorties du contre-auditeur, écrits à neuf par lui | `x31_contre_audit/noyau.py` | 3 822 |
+| X-32 (le parent devient deux filles, au rang 3 ; prédiction scellée avant calcul) | `x32_deux_filles_prediction.txt` | 5 002 |
+| X-32 (filles propres sur la règle à la lettre ; la règle des deux filles, 20 tirages ; places laissées libres) | `x32_deux_filles.py` | 10 348 |
+| X-32 (filles propres sur la règle à la lettre ; la règle des deux filles, 20 tirages ; places laissées libres) | `x32_T27_6.out` | 439 |
+| X-32 (filles propres sur la règle à la lettre ; la règle des deux filles, 20 tirages ; places laissées libres) | `x32_chaine_1_20.out` | 3 905 |
+| X-32 (filles propres sur la règle à la lettre ; la règle des deux filles, 20 tirages ; places laissées libres) | `x32_libres_1_3.out` | 1 950 |
+| X-32, rapport du contre-audit indépendant (sixième passage), versé tel quel | `x32_contre_audit_rapport.md` | 4 325 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/bilan.py` | 1 347 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/commun.py` | 3 878 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/libre.py` | 4 113 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/libre_adverse_1_5.out` | 12 592 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/libre_hasard_1_10.out` | 25 085 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/libre_resume.out` | 8 139 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/places.py` | 692 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/places_t28_1_3.out` | 3 360 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/sha_prediction.out` | 184 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t27.py` | 3 796 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t27_palier6.out` | 729 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28.py` | 7 179 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_adverse_44departs.out` | 37 084 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_bilan.out` | 5 229 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_dernier_44departs.out` | 37 049 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_hasard_1_30.out` | 25 468 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_premier_44departs.out` | 37 071 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_priver_fille_44departs.out` | 32 638 |
+| X-32, code et sorties du contre-auditeur, écrits à neuf par lui | `x32_contre_audit/t28_priver_mere_44departs.out` | 32 552 |

@@ -1,0 +1,21 @@
+{"graine": 1, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.7}
+{"graine": 2, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.6}
+{"graine": 3, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.6}
+{"graine": 4, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.7}
+{"graine": 5, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.7}
+{"graine": 6, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.6}
+{"graine": 7, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.6}
+{"graine": 8, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.8}
+{"graine": 9, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.8}
+{"graine": 10, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.7}
+{"graine": 11, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.7}
+{"graine": 12, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.8}
+{"graine": 13, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.7}
+{"graine": 14, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.7}
+{"graine": 15, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.6}
+{"graine": 16, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.8}
+{"graine": 17, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.8}
+{"graine": 18, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.8}
+{"graine": 19, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.8}
+{"graine": 20, "generations": 10, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "duree_s": 0.7}
+{"bilan": true, "partie": "chaine", "graines": [1, 20], "generations": 10, "tirages": 20, "echecs_de_la_regle": 0, "doublons": 0, "non_clos_par_plancher": 0, "naissance_non_liee_a_la_mere": 0, "chevauchements": 0, "moins_de_deux_filles_possibles": 0, "filles_propres_de_la_derniere_fille": {"3": 51000, "4": 100}, "tailles": [5, 10, 20, 40, 80, 160, 320, 640, 1280, 2560, 5120], "mesures_sans_prediction": {"liens_de_meme_generation_cumules_sur_les_tirages": [0, 0, 55, 48, 89, 189, 403, 712, 1456, 2923, 5898], "plus_grand_palier_par_generation": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "voisins_selon_l_age_a_la_derniere_generation": {"0": {"constituants": 51200, "voisins_en_moyenne": 4.23, "au_moins": 4, "au_plus": 5}, "1": {"constituants": 25600, "voisins_en_moyenne": 6.23, "au_moins": 6, "au_plus": 7}, "2": {"constituants": 12800, "voisins_en_moyenne": 10.23, "au_moins": 10, "au_plus": 11}, "3": {"constituants": 6400, "voisins_en_moyenne": 15.66, "au_moins": 14, "au_plus": 19}, "4": {"constituants": 3200, "voisins_en_moyenne": 22.91, "au_moins": 18, "au_plus": 32}, "5": {"constituants": 1600, "voisins_en_moyenne": 32.37, "au_moins": 22, "au_plus": 48}, "6": {"constituants": 800, "voisins_en_moyenne": 44.76, "au_moins": 28, "au_plus": 82}, "7": {"constituants": 400, "voisins_en_moyenne": 62.88, "au_moins": 33, "au_plus": 110}, "8": {"constituants": 200, "voisins_en_moyenne": 85.77, "au_moins": 44, "au_plus": 140}, "9": {"constituants": 100, "voisins_en_moyenne": 107.41, "au_moins": 51, "au_plus": 173}, "10": {"constituants": 100, "voisins_en_moyenne": 212.07, "au_moins": 100, "au_plus": 381}}}}
