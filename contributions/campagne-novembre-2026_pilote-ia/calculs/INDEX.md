@@ -1222,3 +1222,4 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_plancher.py` | 8 768 |
 | X-29 bis (nul ne naît avant son plancher ; prédiction scellée avant calcul) | `x29bis_plancher_prediction.txt` | 4 788 |
 | X-29 bis (planchers, ancêtres, énoncé (G) aux paliers 3 et 4, tissus clos par plancher tirés au hasard) | `x29bis_x27.out` | 926 |
+| X-29 et X-29 bis, rapport du contre-audit indépendant (second passage), versé tel quel | `x29_contre_audit_rapport.md` | 6 064 |

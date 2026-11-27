@@ -11,16 +11,18 @@ Deux prédictions scellées avant tout calcul. X-29 : `calculs/x29_pliage_predic
 ## 296. Ce qui est faux, manque ou reste ouvert, d'abord
 
 1. **Aucun verrou ne bouge.** Tout ce carnet est de la géométrie de la lecture de contact, rang 3.
-2. **La règle à la lettre n'est toujours pas démontrée à tout palier.** Ce carnet la ramène à un énoncé sur l'empilement seul, (G), section 307 : vérifié sur 973 778 boules, non démontré. La voie proposée dans X-28 était tombée au palier 6 ; celle-ci tient jusqu'ici, ce qui ne prouve rien.
-3. **Un énoncé annoncé était trop fort.** J'avais scellé T11 comme une équivalence entre (C*) et (G). Seul un sens est exact tel quel : (G) entraîne (C*). Dans l'autre sens il faut ajouter le germe aux ancêtres (section 305).
-4. **Le pliage était la mauvaise frontière.** La conjecture (C) de X-29 a tenu, mais des tissus qui ne sont pas clos par pliage restent aussi dans l'empilement (clauses Q4, Q6). D'où X-29 bis et une condition plus faible, le plancher.
-5. **Un programme a planté.** Le premier lancement de la clause R2 s'est arrêté sur une erreur d'indice (quadruple sans ancêtre), avant tout résultat. Corrigé, relancé.
-6. **Mes confiances étaient mal réglées.** J'avais donné 50 % aux clauses Q3 (b) et (c) et 35 % à R4 (b), en craignant une place de l'empilement sans cellule née. Elle ne s'est pas montrée une seule fois, sur 212 551 places. Je n'ai pas de preuve qu'elle ne peut pas exister.
-7. **L'épreuve scellée de Q3 portait sur de petits tissus** : la clause écartait les tirages de plus de 350 constituants, 83 sur 200. Je les ai calculés ensuite, hors scellé (section 301).
-8. **(G) n'est contrôlé que sur des quadruples nés avant le palier 5.** Rien n'est contrôlé pour des constituants profonds, sinon à travers les tissus tirés.
-9. **T8, T9 et T10 reposent sur des faits classiques que je n'ai pas redémontrés** (section 298). Aucun énoncé de ce carnet n'est contrôlé par Lean.
-10. **Non fait** : une preuve de (G) ; le plus petit contre-exemple à K20 (toujours entre 9 et 17 naissances) ; le palier 7.
-11. **Clauses chiffrées** : les six de X-29 et les cinq de X-29 bis sont vraies (sections 300 et 306). Aucune exception à T6, T7 ni T10 dans les données.
+2. **La règle à la lettre n'est toujours pas démontrée à tout palier.** Ce carnet la ramène à un énoncé sur l'empilement seul, (G), section 307 : vérifié, non démontré. La voie proposée dans X-28 était tombée au palier 6 ; celle-ci tient jusqu'ici, ce qui ne prouve rien.
+3. **Deux énoncés étaient mal écrits ; le contre-audit les a pris.** T8 était faux tel que je l'avais énoncé : il lui manquait l'hypothèse que tout constituant né est dans une tuile née (contre-exemple : le germe plus un constituant lointain). T11 était scellé comme une équivalence ; seul un sens est exact tel quel (section 305).
+4. **L'énoncé de la règle a changé entre X-28 et X-29.** Le programme ne fait naître que les côtés des cellules qui ont déjà un côté né ; l'énoncé de X-29, pour lequel T6 et T7 sont démontrés, ne l'exige pas. Leur accord n'est que mesuré, aux paliers 0 à 6 (section 301).
+5. **Trois phrases étaient trop fortes**, corrigées après le contre-audit : la rédaction de T10 ; « (C) est un cas particulier » de l'énoncé du plancher (une moitié seulement) ; le renvoi à la construction classique de l'empilement (non contrôlé).
+6. **Le pliage était la mauvaise frontière.** La conjecture (C) de X-29 a tenu, mais des tissus qui ne sont pas clos par pliage restent aussi dans l'empilement (clauses Q4, Q6). D'où X-29 bis et une condition plus faible, le plancher.
+7. **Un programme a planté.** Le premier lancement de la clause R2 s'est arrêté sur une erreur d'indice (quadruple sans ancêtre), avant tout résultat. Corrigé, relancé.
+8. **Mes confiances étaient mal réglées.** J'avais donné 50 % aux clauses Q3 (b) et (c) et 35 % à R4 (b), en craignant une place de l'empilement sans cellule née. Elle ne s'est pas montrée une seule fois, sur 212 551 places. Je n'ai pas de preuve qu'elle ne peut pas exister.
+9. **L'épreuve scellée de Q3 portait sur de petits tissus** : la clause écartait les tirages de plus de 350 constituants, 83 sur 200. Je les ai calculés ensuite, hors scellé (section 301).
+10. **Mon contrôle de (G) n'est exhaustif qu'aux paliers 3 et 4.** Plus profond, il n'y a que des tirages au hasard, les miens à travers des tissus, ceux du contre-auditeur sur des quadruples (tuiles de longueur jusqu'à 20). Aucune exception, et aucune preuve.
+11. **T8, T9 et T10 reposent sur des faits classiques que je n'ai pas redémontrés** (section 298). Aucun énoncé de ce carnet n'est contrôlé par Lean.
+12. **Non fait** : une preuve de (G) ; le plus petit contre-exemple à K20 (toujours entre 9 et 17 naissances) ; le palier 7.
+13. **Clauses chiffrées** : les six de X-29 et les cinq de X-29 bis sont vraies (sections 300 et 306). Aucune exception à T6, T7 ni T10 dans les données.
 
 ## 297. Vocabulaire
 
@@ -54,9 +56,9 @@ Preuve. Soit m le plus grand palier du plancher. Le plancher est une cellule de 
 
 Conséquence : le palier de naissance d'un constituant ne dépend que de sa place dans l'empilement. Il se calcule de proche en proche à partir du germe, sans dérouler l'histoire.
 
-**T8 (ordre de Bruhat). [T, sous C5]** Un tissu est clos par pliage si et seulement si ses tuiles nées forment une partie commençante de l'ordre de Bruhat : avec une tuile, toutes celles qui sont au-dessous d'elle.
+**T8 (ordre de Bruhat). [T, sous C5]** Soit un tissu où tout constituant né est dans une tuile née. Il est clos par pliage si et seulement si ses tuiles nées forment une partie commençante de l'ordre de Bruhat : avec une tuile, toutes celles qui sont au-dessous d'elle.
 
-Preuve. Si le tissu est clos et si un mur sépare une tuile née T du germe, chaque constituant de T est sur le mur ou au-delà, son image est née, donc l'image de T est une tuile née. Réciproquement, un constituant né u au-delà d'un mur est dans une tuile née, que ce mur sépare du germe ; l'image de cette tuile est née, donc celle de u. (C5) traduit.
+Preuve. Si le tissu est clos et si un mur sépare une tuile née T du germe, chaque constituant de T est sur le mur ou au-delà, son image est née, donc l'image de T est une tuile née. Réciproquement, un constituant né u au-delà d'un mur est dans une tuile née, que ce mur sépare du germe ; l'image de cette tuile est née, donc celle de u. (C5) traduit. Sans l'hypothèse, l'énoncé est faux : le germe plus un constituant lointain n'a qu'une tuile née, et n'est pas clos par pliage. Je l'avais omise ; le contre-audit l'a relevé. Ce dictionnaire est presque la définition de l'ordre de Bruhat : il n'a rien de profond.
 
 **T9 (critère de la cellule). [T]** Dans un tissu clos par pliage, un constituant x de l'empilement qui n'est pas né est le côté d'une cellule née si et seulement si son plancher est né.
 
@@ -94,7 +96,7 @@ Détail de Q3. Chaque tissu est la réunion de un à trois intervalles de Bruhat
 
 ## 301. Ajouts non scellés
 
-**Le programme suit l'énoncé. [M]** T6 et T7 portent sur l'énoncé mathématique de la règle ; les tissus calculés viennent du programme de X-25. Aux paliers 0 à 5, les naissances du palier suivant sont exactement les côtés non nés des cellules des tuiles nées : 5, 20, 90, 330, 1 350, 5 490, mêmes ensembles (`x29_regle_6.out`).
+**Le programme suit l'énoncé. [M]** T6 et T7 portent sur l'énoncé mathématique de la règle ; les tissus calculés viennent du programme de X-25. Aux paliers 0 à 5, les naissances du palier suivant sont exactement les côtés non nés des cellules des tuiles nées : 5, 20, 90, 330, 1 350, 5 490, mêmes ensembles (`x29_regle_6.out`). Aucune cellule née n'y est sans côté né (X-28, paliers 0 à 6) : c'est ce qui fait coïncider la règle du programme, qui exige un côté né, et l'énoncé de X-29, qui ne l'exige pas. Cet accord est mesuré, pas démontré.
 
 **Les tirages écartés. [M]** Les 83 tissus que Q3 écartait ont de 359 à 1 962 constituants, 702 en médiane. Ils offrent 164 988 places admissibles : aucune hors de l'empilement, aucune sans cellule, et dans les 83 les places sont exactement les côtés libres. Avec les 117 de Q3 : 200 tissus clos par pliage, 200 522 places, aucune hors de l'empilement.
 
@@ -118,11 +120,11 @@ La règle où toutes les cellules enfantent ensemble ne laisse jamais ce genre d
 
 ## 304. X-29 bis : nul ne naît avant son plancher
 
-Le plancher d'un constituant u, ce sont les quatre sphères de l'interstice où u est inscrit dans la construction classique de l'empilement : ses quatre parents au sens d'Apollonius. Les **ancêtres** de u sont son plancher, le plancher de son plancher, et ainsi de suite jusqu'au germe. Un tissu est **clos par plancher** s'il contient le germe et si tout constituant né a son plancher né.
+J'appelle **parents** d'un constituant u les quatre constituants de son plancher. Dans la construction classique de l'empilement, où chaque sphère est inscrite dans un interstice, je crois que ce sont les quatre sphères de cet interstice ; je ne l'ai pas contrôlé, et rien ici n'en dépend. Les **ancêtres** de u sont son plancher, le plancher de son plancher, et ainsi de suite jusqu'au germe. Un tissu est **clos par plancher** s'il contient le germe et si tout constituant né a son plancher né.
 
 ## 305. Ce qui est démontré (X-29 bis)
 
-**T10. [T]** Un tissu clos par pliage est clos par plancher. Le tissu de la règle à la lettre l'est à tout palier ; il le reste si l'on n'y ajoute qu'une partie des naissances du palier suivant ; un tissu clos par pliage le reste si on lui ajoute une partie quelconque de ses côtés libres.
+**T10. [T]** Un tissu clos par pliage est clos par plancher. Le tissu de la règle à la lettre est clos par plancher à tout palier, et encore si l'on n'y ajoute qu'une partie des naissances du palier suivant. Un tissu clos par pliage auquel on ajoute une partie quelconque de ses côtés libres est clos par plancher ; il n'est plus, en général, clos par pliage.
 
 Preuve. Dans un tissu clos par pliage, un constituant né u est dans une tuile née ; on va de cette tuile à la tuile-porte de u comme dans la preuve de T7, et les quatre autres constituants restent nés : le plancher est né. Pour la règle à la lettre, T7 suffit : le plancher de u est né avant u. Un côté libre d'une cellule née d'un tissu clos par pliage a son plancher né (T9).
 
@@ -157,7 +159,7 @@ Le chevauchement est décidé par le test exact de l'outil de X-27 ; un filtre e
 
 Ce que (G) donnerait, par T11 puis T10 : toute croissance où nul ne naît avant ses quatre parents reste dans l'empilement ; en particulier la règle à la lettre, à tout palier ; en particulier aussi les paliers incomplets et la file d'attente de X-28, que le pliage n'expliquait pas.
 
-Ce qui l'appuie : 973 778 boules aux paliers 3 et 4, sans exception ; 150 tissus clos par plancher tirés au hasard ; tout ce qui appuie (C), qui en est un cas particulier ; le contre-exemple de X-27, qui viole exactement cette condition.
+Ce qui l'appuie : 973 778 boules aux paliers 3 et 4, sans exception ; 3 500 316 boules tirées par le contre-auditeur dans des tuiles profondes, sans exception ; 150 tissus clos par plancher tirés au hasard ; les tissus clos par pliage, qui sont clos par plancher (T10) ; le contre-exemple de X-27, qui viole exactement cette condition. De (C), seule la moitié « aucune place hors de l'empilement » découlerait de (G) ; la moitié « exactement les côtés libres » n'en découle pas.
 
 Dans les données, plus fort : les places admissibles d'un tissu clos par plancher sont exactement les côtés non nés de ses cellules nées (350 tissus sur 350, sections 300, 301 et 306). Je ne l'érige pas en énoncé.
 
@@ -165,7 +167,23 @@ Ce que (G) ne dit pas. La condition est suffisante, si (G) est vraie ; rien ne d
 
 ## 308. Contre-audit indépendant
 
-**En cours au moment de ce versement.** Un sous-agent indépendant relit les preuves de T6 à T11, refait Q1, Q2, Q5, R1 et R2 avec son propre code, et cherche à casser (C) et (G) sur des cas plus profonds que les miens. Tant que son rapport n'est pas versé, aucun résultat de ce carnet n'a été contrôlé par un autre que moi.
+Le sous-agent indépendant de X-28 (Claude Opus) a fait un second passage sur ce carnet, avec son propre code. Son rapport est versé tel quel : `calculs/x29_contre_audit_rapport.md`.
+
+Ce qu'il a trouvé, et ce que j'en ai fait.
+
+1. T8 est faux tel qu'il était énoncé : il manquait l'hypothèse « tout constituant né est dans une tuile née ». Accepté : l'hypothèse est ajoutée (section 299).
+2. (C4), dans X-28 : deux affirmations non démontrées. Accepté : la preuve est complétée dans X-28.
+3. L'énoncé de la règle a changé entre X-28 et X-29 ; leur accord n'est que mesuré. Accepté : déclaré en tête et en section 301.
+4. T10 mal rédigé ; « (C) cas particulier » trop fort ; « construction classique » non contrôlée. Accepté : trois phrases corrigées (sections 304, 305, 307).
+
+Ce qu'il a confirmé : les preuves de T6, de T7 (y compris le pas dont je doutais), de T9, de T10, de T11 et de sa réserve sur le germe ; les passages réécrits de X-28 ; Q1 aux paliers 0 à 5, Q2, Q5, R1 et R2, chiffre pour chiffre.
+
+Ce qu'il a tenté de casser, sans y parvenir.
+
+- (C) : 288 tissus clos par pliage de plusieurs sortes (intervalles longs, tissus minces, galeries de tuiles puis clôture, tuiles lointaines éparpillées puis clôture, palier 2 plus une tuile lointaine), de 9 à 572 constituants ; 72 061 places, toutes côtés libres, aucune hors de l'empilement.
+- (G) : 3 968 700 quadruples pris dans des tuiles de longueur jusqu'à 20 ; 3 500 316 boules, dont 2 163 082 hors de l'empilement ; toutes celles-ci chevauchent un ancêtre, même sans compter le germe.
+
+Ce qu'il n'a pas contrôlé : le palier 6 ; le tissu du toit ; Q4, Q6, R3, R4, R5 ; les 83 tirages écartés ; la citation de Björner et Brenti ; le renvoi à la construction classique. Il rappelle que des tirages au hasard ne sont pas une preuve de (G).
 
 ## 309. Ce que cela donne, et ce que cela ne donne pas
 
@@ -173,7 +191,7 @@ Cela donne trois théorèmes sur la règle à la lettre : son tissu est clos par
 
 Cela ne donne ni l'espace-temps, ni la gravitation, ni rien de quantique. Cela ne démontre pas la règle à la lettre.
 
-Antériorité : non tranchée ; une recherche limitée est demandée au contre-auditeur. Le lien entre pliage et ordre de Bruhat (T8) est très probablement classique. Je ne dis d'aucun énoncé de ce carnet qu'il est nouveau.
+Antériorité : non tranchée. Le lien entre pliage et ordre de Bruhat (T8) se lit dans la définition de cet ordre : il n'est pas nouveau. Le contre-auditeur n'a rien trouvé qui décrive la croissance d'un empilement apollinien par des idéaux de Bruhat ou par la condition du plancher ; il signale un titre qu'il n'a pas lu (Mallows, « Growing Apollonian packings », Journal of Integer Sequences 12, 2009). Je ne dis d'aucun énoncé de ce carnet qu'il est nouveau.
 
 ## 310. Suite proposée
 
@@ -184,7 +202,7 @@ Antériorité : non tranchée ; une recherche limitée est demandée au contre-a
 - `calculs/x29_pliage_prediction.txt`, `calculs/x29bis_plancher_prediction.txt` : prédictions scellées.
 - `calculs/x29_pliage.py` : pliage, tuiles-portes, intervalles de Bruhat, clôture. Sorties : `x29_paliers_6.out` (Q1), `x29_x27.out` (Q2, Q5), `x29_hasard_1_100.out` et `x29_hasard_101_200.out` (Q3, Q4), `x29_partiel.out` (Q6), `x29_regle_6.out`, `x29_ecartes_1_100.out` et `x29_ecartes_101_200.out` (ajouts non scellés).
 - `calculs/x29bis_plancher.py` : planchers, ancêtres, énoncé (G). Sorties : `x29bis_x27.out` (R1), `x29bis_G_3.out` (R2), `x29bis_G_4_sym.out` (R3), `x29bis_hasard_1_75.out` et `x29bis_hasard_76_150.out` (R4), `x29bis_partiel.out` (R5).
-- `calculs/x29_contre_audit_rapport.md` : rapport du contre-audit, à verser tel quel dès réception.
+- `calculs/x29_contre_audit_rapport.md` : rapport du contre-audit, versé tel quel.
 
 Sources citées : Björner et Brenti, *Combinatorics of Coxeter groups* (Springer, 2005), de mémoire ; les sources de X-28.
 
