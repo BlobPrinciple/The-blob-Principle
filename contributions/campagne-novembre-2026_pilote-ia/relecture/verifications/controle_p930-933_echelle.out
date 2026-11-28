@@ -1,0 +1,9 @@
+graphe de départ (graine 1)                  N= 1000 degré= 6.6  d_s(0,3)=0.57  t_infl=1.23  max=2.61 à t=2.8
+Blob, moteur canonique (graine 1)            N= 1000 degré= 6.6  d_s(0,3)=0.56  t_infl=1.39  max=2.96 à t=4.7
+graphe de départ (graine 2)                  N= 1000 degré= 6.6  d_s(0,3)=0.57  t_infl=1.18  max=2.50 à t=2.7
+Blob, moteur canonique (graine 2)            N= 1000 degré= 6.6  d_s(0,3)=0.56  t_infl=1.39  max=2.95 à t=4.4
+réseau cubique 10^3                          N= 1000 degré= 5.4  d_s(0,3)=0.57  t_infl=1.56  max=3.20 à t=4.3
+graphe régulier aléatoire de degré 5 (sans géométrie) N= 1000 degré= 5.0  d_s(0,3)=0.56  t_infl=7.11  max=5.74 à t=11.5
+graphe régulier aléatoire de degré 6 (sans géométrie) N= 1000 degré= 6.0  d_s(0,3)=0.57  t_infl=5.99  max=6.10 à t=9.7
+graphe régulier aléatoire de degré 7 (sans géométrie) N= 1000 degré= 7.0  d_s(0,3)=0.57  t_infl=5.26  max=6.35 à t=8.7
+graphe régulier aléatoire de degré 9 (sans géométrie) N= 1000 degré= 9.0  d_s(0,3)=0.58  t_infl=4.51  max=6.77 à t=7.6

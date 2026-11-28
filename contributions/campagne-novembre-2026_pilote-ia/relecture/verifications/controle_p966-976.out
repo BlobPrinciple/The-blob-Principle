@@ -1,0 +1,13 @@
+A0. numéros aléatoires : P(parités d'insertion égales) = 72/120 = 0.60  ->  P(même chiralité) = 0.4 + 0.2 P(même côté)
+A. départ (graine 1)      paires liées par une face :   10060 ; P(même côté) = 0.507 ; P(même chiralité) = 0.4984 ; prédiction 0,4 + 0,2 p = 0.5014 ; apex reliés : 0.89 (même côté) contre 0.64 (côtés opposés)
+B. départ (graine 1)      degré moyen vides 3.7, nœuds 10.7 ; arêtes pures / tétraèdres : vides 1.155, nœuds 0.0142 ; contraste 81
+C. départ (graine 1)      tétraèdres   1901 ; amas de matière    1 ; plus petit b1 = 1844 ; b1 les plus fréquents : [(1844, 1)]
+A. Blob (graine 1)        paires liées par une face :  545428 ; P(même côté) = 0.523 ; P(même chiralité) = 0.5092 ; prédiction 0,4 + 0,2 p = 0.5047 ; apex reliés : 0.92 (même côté) contre 0.71 (côtés opposés)
+B. Blob (graine 1)        degré moyen vides 2.8, nœuds 13.1 ; arêtes pures / tétraèdres : vides 300.000, nœuds 0.0077 ; contraste 38820
+C. Blob (graine 1)        tétraèdres  18616 ; amas de matière    9 ; plus petit b1 = 3 ; b1 les plus fréquents : [(3, 3), (983, 1), (55, 1)]
+A. départ (graine 2)      paires liées par une face :   10518 ; P(même côté) = 0.494 ; P(même chiralité) = 0.4902 ; prédiction 0,4 + 0,2 p = 0.4989 ; apex reliés : 0.89 (même côté) contre 0.62 (côtés opposés)
+B. départ (graine 2)      degré moyen vides 3.6, nœuds 10.6 ; arêtes pures / tétraèdres : vides 0.904, nœuds 0.0109 ; contraste 83
+C. départ (graine 2)      tétraèdres   2002 ; amas de matière    1 ; plus petit b1 = 1844 ; b1 les plus fréquents : [(1844, 1)]
+A. Blob (graine 2)        paires liées par une face :  443417 ; P(même côté) = 0.534 ; P(même chiralité) = 0.5021 ; prédiction 0,4 + 0,2 p = 0.5067 ; apex reliés : 0.93 (même côté) contre 0.75 (côtés opposés)
+B. Blob (graine 2)        degré moyen vides 2.7, nœuds 12.8 ; arêtes pures / tétraèdres : vides 126.167, nœuds 0.0081 ; contraste 15631
+C. Blob (graine 2)        tétraèdres  16310 ; amas de matière    7 ; plus petit b1 = 3 ; b1 les plus fréquents : [(8, 2), (3, 2), (319, 1)]

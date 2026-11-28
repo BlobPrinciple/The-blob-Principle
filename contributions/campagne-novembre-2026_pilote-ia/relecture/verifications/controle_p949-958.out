@@ -1,0 +1,15 @@
+1a. tétraèdre isolé : 27 configurations sur 729 à quatre faces d'holonomie 2  (1/27 = 0.0370)
+1b. renumérotation (1, 0, 2, 3) : 0 des 27 tétraèdres « maximaux » le restent
+1b. renumérotation (0, 2, 1, 3) : 0 des 27 tétraèdres « maximaux » le restent
+1b. renumérotation (0, 1, 3, 2) : 0 des 27 tétraèdres « maximaux » le restent
+1b. renumérotation (3, 1, 2, 0) : 0 des 27 tétraèdres « maximaux » le restent
+1b. renumérotation (1, 2, 3, 0) : 27 des 27 tétraèdres « maximaux » le restent
+1c. deux tétraèdres partageant une face : P(second maximal | premier maximal) = 81/729 = 0.1111
+1c. deux tétraèdres partageant une arête : P(second maximal | premier maximal) = 243/6561 = 0.0370
+1c. deux tétraèdres partageant un sommet : P(second maximal | premier maximal) = 729/19683 = 0.0370
+2. amincissement d'un comptage de moyenne 5 000 et de Fano 25 (binomiale négative), 200 000 tirages
+   fraction gardée  1.0 : Fano mesuré  24.98 ; loi q·F + 1 - q =  25.00
+   fraction gardée  0.3 : Fano mesuré   8.17 ; loi q·F + 1 - q =   8.20
+   fraction gardée 0.15 : Fano mesuré   4.59 ; loi q·F + 1 - q =   4.60
+   fraction gardée 0.05 : Fano mesuré   2.20 ; loi q·F + 1 - q =   2.20
+   fraction gardée 0.02 : Fano mesuré   1.48 ; loi q·F + 1 - q =   1.48

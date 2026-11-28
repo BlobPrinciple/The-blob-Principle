@@ -1,0 +1,26 @@
+graine 1 : départ N = 100, rayon de Rips = 0.252
+  balayage  6 : N =   194 ; degré moyen  6.32 ; étendue du nuage (écart-type par axe) 0.30 ; rayon de Rips qu'aurait un nuage de N points à densité 6,6 : 0.201
+               longueur des arêtes : médiane 0.219, 90e centile 0.359, maximum 0.447 ; arêtes de plus de 0,20 : 59 %
+               arêtes pures : 9 % du total ; 12 % des longues, 5 % des courtes ; tétraèdres par sommet 0.4
+  balayage 12 : N =   380 ; degré moyen  6.26 ; étendue du nuage (écart-type par axe) 0.31 ; rayon de Rips qu'aurait un nuage de N points à densité 6,6 : 0.161
+               longueur des arêtes : médiane 0.209, 90e centile 0.318, maximum 0.450 ; arêtes de plus de 0,20 : 54 %
+               arêtes pures : 11 % du total ; 16 % des longues, 5 % des courtes ; tétraèdres par sommet 0.4
+  balayage 18 : N =   747 ; degré moyen  6.34 ; étendue du nuage (écart-type par axe) 0.32 ; rayon de Rips qu'aurait un nuage de N points à densité 6,6 : 0.128
+               longueur des arêtes : médiane 0.204, 90e centile 0.312, maximum 0.447 ; arêtes de plus de 0,20 : 52 %
+               arêtes pures : 12 % du total ; 19 % des longues, 6 % des courtes ; tétraèdres par sommet 0.3
+  balayage 24 : N =  1470 ; degré moyen  6.32 ; étendue du nuage (écart-type par axe) 0.33 ; rayon de Rips qu'aurait un nuage de N points à densité 6,6 : 0.102
+               longueur des arêtes : médiane 0.200, 90e centile 0.310, maximum 0.449 ; arêtes de plus de 0,20 : 50 %
+               arêtes pures : 14 % du total ; 22 % des longues, 7 % des courtes ; tétraèdres par sommet 0.3
+graine 2 : départ N = 100, rayon de Rips = 0.252
+  balayage  6 : N =   194 ; degré moyen  5.93 ; étendue du nuage (écart-type par axe) 0.30 ; rayon de Rips qu'aurait un nuage de N points à densité 6,6 : 0.201
+               longueur des arêtes : médiane 0.209, 90e centile 0.318, maximum 0.447 ; arêtes de plus de 0,20 : 55 %
+               arêtes pures : 10 % du total ; 15 % des longues, 5 % des courtes ; tétraèdres par sommet 0.3
+  balayage 12 : N =   380 ; degré moyen  6.26 ; étendue du nuage (écart-type par axe) 0.31 ; rayon de Rips qu'aurait un nuage de N points à densité 6,6 : 0.161
+               longueur des arêtes : médiane 0.204, 90e centile 0.314, maximum 0.450 ; arêtes de plus de 0,20 : 53 %
+               arêtes pures : 13 % du total ; 20 % des longues, 5 % des courtes ; tétraèdres par sommet 0.3
+  balayage 18 : N =   747 ; degré moyen  6.27 ; étendue du nuage (écart-type par axe) 0.32 ; rayon de Rips qu'aurait un nuage de N points à densité 6,6 : 0.128
+               longueur des arêtes : médiane 0.199, 90e centile 0.307, maximum 0.450 ; arêtes de plus de 0,20 : 50 %
+               arêtes pures : 13 % du total ; 20 % des longues, 6 % des courtes ; tétraèdres par sommet 0.3
+  balayage 24 : N =  1470 ; degré moyen  6.25 ; étendue du nuage (écart-type par axe) 0.33 ; rayon de Rips qu'aurait un nuage de N points à densité 6,6 : 0.102
+               longueur des arêtes : médiane 0.201, 90e centile 0.307, maximum 0.450 ; arêtes de plus de 0,20 : 50 %
+               arêtes pures : 15 % du total ; 23 % des longues, 7 % des courtes ; tétraèdres par sommet 0.3
