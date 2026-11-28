@@ -1,0 +1,29 @@
+repères t = [3, 5, 8, 12, 20, 30]
+N= 400 graine 1 depart tri= 1384 D=0.46  max=2.51 (t=2.7)  d_s(t)= 2.50  2.12  1.79  1.67  1.55  1.44  plateau=1.61 (t=10.6)
+N= 400 graine 1 blob   tri= 2336 D=0.92  max=2.80 (t=4.0)  d_s(t)= 2.74  2.77  2.61  2.44  2.17  1.97  plateau=2.78 (t=3.0)
+N= 400 graine 2 depart tri= 1222 D=0.42  max=2.65 (t=2.9)  d_s(t)= 2.65  2.32  1.96  1.78  1.61  1.48  plateau=1.59 (t=15.0)
+N= 400 graine 2 blob   tri= 1952 D=0.79  max=2.92 (t=3.8)  d_s(t)= 2.85  2.85  2.47  2.12  1.91  1.89  plateau=1.92 (t=15.0)
+N= 400 graine 3 depart tri= 1317 D=0.43  max=2.51 (t=2.7)  d_s(t)= 2.50  2.13  1.89  1.90  1.98  2.00  plateau=1.89 (t=7.2)
+N= 400 graine 3 blob   tri= 2144 D=0.92  max=2.81 (t=3.9)  d_s(t)= 2.75  2.77  2.57  2.42  2.25  2.03  plateau=2.78 (t=3.0)
+  -> N=400 : plateau départ 1.70 ± 0.14 ; Blob 2.49 ± 0.41 ; max départ 2.56 ; max Blob 2.85
+N= 600 graine 1 depart tri= 2084 D=0.49  max=2.53 (t=2.8)  d_s(t)= 2.52  2.16  1.84  1.71  1.61  1.52  plateau=1.63 (t=12.4)
+N= 600 graine 1 blob   tri= 3543 D=0.93  max=2.87 (t=4.1)  d_s(t)= 2.79  2.85  2.65  2.42  2.13  2.03  plateau=2.84 (t=3.0)
+N= 600 graine 2 depart tri= 1864 D=0.42  max=2.60 (t=2.8)  d_s(t)= 2.60  2.27  1.98  1.89  1.77  1.66  plateau=1.88 (t=8.8)
+N= 600 graine 2 blob   tri= 3117 D=0.81  max=2.87 (t=3.8)  d_s(t)= 2.81  2.82  2.55  2.33  2.14  2.01  plateau=2.83 (t=3.0)
+N= 600 graine 3 depart tri= 2020 D=0.43  max=2.57 (t=2.8)  d_s(t)= 2.57  2.19  1.90  1.84  1.89  1.96  plateau=1.85 (t=8.8)
+N= 600 graine 3 blob   tri= 2966 D=0.83  max=2.78 (t=3.7)  d_s(t)= 2.74  2.71  2.47  2.25  2.01  1.90  plateau=2.74 (t=3.0)
+  -> N=600 : plateau départ 1.79 ± 0.11 ; Blob 2.80 ± 0.05 ; max départ 2.57 ; max Blob 2.84
+N= 800 graine 1 depart tri= 2585 D=0.46  max=2.62 (t=2.9)  d_s(t)= 2.62  2.30  2.01  1.96  2.00  2.06  plateau=1.97 (t=8.9)
+N= 800 graine 1 blob   tri= 5109 D=1.00  max=2.87 (t=4.4)  d_s(t)= 2.77  2.86  2.75  2.62  2.45  2.25  plateau=2.85 (t=3.2)
+N= 800 graine 2 depart tri= 2679 D=0.43  max=2.56 (t=2.8)  d_s(t)= 2.56  2.21  1.91  1.83  1.79  1.74  plateau=1.80 (t=12.0)
+N= 800 graine 2 blob   tri= 4043 D=0.85  max=2.87 (t=3.9)  d_s(t)= 2.80  2.82  2.57  2.27  1.91  1.71  plateau=2.83 (t=3.0)
+N= 800 graine 3 depart tri= 2705 D=0.43  max=2.58 (t=2.8)  d_s(t)= 2.58  2.24  1.94  1.84  1.81  1.86  plateau=1.82 (t=12.6)
+N= 800 graine 3 blob   tri= 4248 D=0.85  max=2.90 (t=4.1)  d_s(t)= 2.82  2.88  2.69  2.45  2.13  1.94  plateau=2.87 (t=3.0)
+  -> N=800 : plateau départ 1.86 ± 0.08 ; Blob 2.85 ± 0.02 ; max départ 2.59 ; max Blob 2.88
+N=1000 graine 1 depart tri= 3311 D=0.45  max=2.61 (t=2.9)  d_s(t)= 2.61  2.27  1.94  1.81  1.72  1.67  plateau=1.72 (t=15.0)
+N=1000 graine 1 blob   tri= 6102 D=1.02  max=2.96 (t=4.7)  d_s(t)= 2.83  2.96  2.86  2.72  2.47  2.25  plateau=2.94 (t=3.5)
+N=1000 graine 2 depart tri= 3441 D=0.45  max=2.50 (t=2.7)  d_s(t)= 2.49  2.08  1.76  1.66  1.59  1.50  plateau=1.62 (t=11.1)
+N=1000 graine 2 blob   tri= 5790 D=0.94  max=2.95 (t=4.4)  d_s(t)= 2.83  2.94  2.80  2.63  2.40  2.18  plateau=2.92 (t=3.2)
+N=1000 graine 3 depart tri= 3283 D=0.43  max=2.55 (t=2.8)  d_s(t)= 2.55  2.21  1.93  1.83  1.75  1.69  plateau=1.76 (t=13.3)
+N=1000 graine 3 blob   tri= 5136 D=0.82  max=2.94 (t=4.1)  d_s(t)= 2.84  2.91  2.69  2.44  2.14  1.98  plateau=2.90 (t=3.0)
+  -> N=1000 : plateau départ 1.70 ± 0.06 ; Blob 2.92 ± 0.02 ; max départ 2.55 ; max Blob 2.95

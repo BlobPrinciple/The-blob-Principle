@@ -1,0 +1,36 @@
+1. Grammaire des possibles
+   4 sommets : triangles atteignables [0, 1, 2, 4] ; tétraèdres atteignables [0, 1]
+   5 sommets : triangles atteignables [0, 1, 2, 3, 4, 5, 7, 10] ; tétraèdres atteignables [0, 1, 2, 5]
+
+2. Lecture au plateau de d_s(t) sur des témoins ; repères t = [3, 5, 8, 12, 20, 30]
+réseau carré 20x20         N=  400 deg= 3.8  max=2.28  d_s(t)= 2.28  2.15  1.94  1.82  1.71  1.62   plateau=1.69 sur t=[15.0;29.9]
+réseau carré 32x32         N= 1024 deg= 3.9  max=2.34  d_s(t)= 2.33  2.22  2.03  1.92  1.83  1.76   plateau=1.82 sur t=[15.0;29.9]
+réseau cubique 7^3         N=  343 deg= 5.1  max=3.02  d_s(t)= 2.92  2.97  2.62  2.32  2.04  1.83   plateau=2.97 sur t=[3.0;6.0]
+réseau cubique 10^3        N= 1000 deg= 5.4  max=3.20  d_s(t)= 3.04  3.17  2.86  2.57  2.31  2.14   plateau=3.15 sur t=[3.1;6.1]
+réseau hypercubique 5^4    N=  625 deg= 6.4  max=3.73  d_s(t)= 3.39  3.73  3.41  2.96  2.46  1.97   plateau=3.67 sur t=[3.5;6.9]
+réseau hypercubique 6^4    N= 1296 deg= 6.7  max=3.90  d_s(t)= 3.48  3.90  3.63  3.19  2.73  2.42   plateau=3.84 sur t=[3.6;7.2]
+graphe géom. 2D k=6,6      N=  998 deg= 6.6  max=2.28  d_s(t)= 2.18  1.60  1.31  1.27  1.32  1.37   plateau=1.28 sur t=[8.6;17.2]
+graphe géom. 2D k=6,6      N=  985 deg= 6.7  max=2.30  d_s(t)= 2.19  1.60  1.28  1.22  1.25  1.31   plateau=1.23 sur t=[9.2;18.4]
+graphe géom. 2D k=6,6      N=  978 deg= 6.7  max=2.28  d_s(t)= 2.16  1.54  1.23  1.20  1.24  1.29   plateau=1.20 sur t=[8.5;17.0]
+graphe géom. 2D k=6,6      N=  988 deg= 6.7  max=2.29  d_s(t)= 2.19  1.62  1.33  1.28  1.30  1.33   plateau=1.29 sur t=[10.0;20.0]
+   -> graphe géom. 2D k=6,6, N=1000 : plateau moyen 1.25, écart-type 0.03 (4 tirages)
+graphe géom. 3D k=6,6      N=  389 deg= 6.8  max=2.42  d_s(t)= 2.39  1.95  1.70  1.69  1.75  1.77   plateau=1.70 sur t=[7.5;15.0]
+graphe géom. 3D k=6,6      N=  398 deg= 6.6  max=2.50  d_s(t)= 2.49  2.13  1.88  1.83  1.84  1.88   plateau=1.83 sur t=[10.1;20.2]
+graphe géom. 3D k=6,6      N=  400 deg= 6.6  max=2.49  d_s(t)= 2.47  2.07  1.80  1.75  1.75  1.72   plateau=1.75 sur t=[11.4;22.6]
+graphe géom. 3D k=6,6      N=  397 deg= 6.6  max=2.51  d_s(t)= 2.49  2.10  1.80  1.71  1.68  1.71   plateau=1.68 sur t=[13.2;26.3]
+   -> graphe géom. 3D k=6,6, N=400 : plateau moyen 1.74, écart-type 0.06 (4 tirages)
+graphe géom. 3D k=6,6      N=  983 deg= 6.7  max=2.46  d_s(t)= 2.44  2.02  1.75  1.72  1.77  1.81   plateau=1.73 sur t=[8.3;16.6]
+graphe géom. 3D k=6,6      N=  992 deg= 6.7  max=2.43  d_s(t)= 2.41  2.01  1.78  1.76  1.85  1.96   plateau=1.77 sur t=[7.5;15.0]
+graphe géom. 3D k=6,6      N=  999 deg= 6.6  max=2.48  d_s(t)= 2.46  2.08  1.85  1.83  1.92  2.00   plateau=1.84 sur t=[7.5;15.0]
+graphe géom. 3D k=6,6      N=  995 deg= 6.6  max=2.43  d_s(t)= 2.40  2.00  1.77  1.78  1.89  1.99   plateau=1.77 sur t=[7.1;14.1]
+   -> graphe géom. 3D k=6,6, N=1000 : plateau moyen 1.78, écart-type 0.04 (4 tirages)
+graphe géom. 3D k=4        N=  861 deg= 4.2  max=1.87  d_s(t)= 1.79  1.51  1.38  1.37  1.41  1.47   plateau=1.37 sur t=[7.7;15.3]
+graphe géom. 3D k=4        N=  879 deg= 4.3  max=1.84  d_s(t)= 1.74  1.43  1.31  1.31  1.33  1.34   plateau=1.31 sur t=[7.5;15.0]
+graphe géom. 3D k=4        N=  909 deg= 4.3  max=1.86  d_s(t)= 1.78  1.49  1.38  1.38  1.45  1.51   plateau=1.38 sur t=[6.8;13.5]
+graphe géom. 3D k=4        N=  883 deg= 4.3  max=1.88  d_s(t)= 1.79  1.49  1.35  1.33  1.32  1.32   plateau=1.32 sur t=[14.6;29.2]
+   -> graphe géom. 3D k=4, N=1000 : plateau moyen 1.35, écart-type 0.03 (4 tirages)
+graphe géom. 4D k=6,6      N=  989 deg= 6.7  max=2.68  d_s(t)= 2.66  2.44  2.26  2.28  2.43  2.58   plateau=2.27 sur t=[6.6;13.2]
+graphe géom. 4D k=6,6      N=  981 deg= 6.7  max=2.63  d_s(t)= 2.63  2.39  2.19  2.20  2.29  2.37   plateau=2.19 sur t=[6.9;13.8]
+graphe géom. 4D k=6,6      N=  988 deg= 6.7  max=2.65  d_s(t)= 2.58  2.32  2.14  2.17  2.31  2.46   plateau=2.16 sur t=[6.5;13.0]
+graphe géom. 4D k=6,6      N=  985 deg= 6.7  max=2.71  d_s(t)= 2.63  2.42  2.26  2.30  2.45  2.60   plateau=2.28 sur t=[6.3;12.6]
+   -> graphe géom. 4D k=6,6, N=1000 : plateau moyen 2.22, écart-type 0.05 (4 tirages)
