@@ -60,3 +60,5 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 | Édition 2026, PDF final illustré (septembre 2026) | 2 807 lignes ; 106 pages | complet | `NOTES_LIVRES.md` |
 | Édition 2026, texte Markdown du dépôt (autre état du livre) : tout ce qui n'est ni dans les livres 1 à 3 ni dans le PDF final, dont les 52 notes de rigueur | 6 300 mots en 143 passages | complet | `NOTES_LIVRES.md` |
 | Livre annexe « Démonstrations rigoureuses parallèles » (mai 2026) : tout ce qui n'est pas mot pour mot dans V346 | 19 250 mots en 632 passages | complet | `NOTES_LIVRES.md` |
+| Master V277 (17 juillet 2026, 1 188 pages), dossier de l'auteur : tout ce qui n'est pas dans V346 ni dans les textes déjà lus | 79 333 mots de prose (787 passages), 1 847 de formules, 1 320 de données | complet | `NOTES_MASTERS_HORS_DEPOT.md` |
+| Masters V281, V277 bis, V276, V275 (dossier de l'auteur) | aucun mot absent de V346 (V281, V277 bis) ou de V277 (V276, V275) | complet (par comparaison phrase à phrase) | `NOTES_MASTERS_HORS_DEPOT.md` |
