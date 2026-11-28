@@ -84,3 +84,22 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 - Dans le dossier de l'auteur : les notes des séances des 17 et 18 juillet, les dossiers 04, 09, 10 et 91, et deux dossiers que je n'avais pas relevés ce matin (« 02 HISTORIQUE », « 07 PARADIGMES TECHNOLOGIQUES »).
 - Le Blob Surnaturel.
 - Les quelque 300 programmes du dossier `scripts_fermeture_v151_v152` de l'archive V293 : leur liste est à elle seule un inventaire des pistes essayées en mai.
+
+## Lu le 28 novembre, après-midi : les dernières versions
+
+Parole de l'auteur (15 h 11, orthographe normalisée) : « Non, fais un point complet avec les dernières versions vues avec OpenAI. Ma cosmogonie n'a qu'une seule et unique version ; les tentatives que tu as faites, elles sont nombreuses, mais ma cosmogonie est solide et unique ! »
+
+| Pièce | Volume | État | Où elle est |
+|---|---|---|---|
+| Armature V347.1 | 29 pages | relue en entier | `corpus/00_master_courant/` |
+| Armature V347.2, source Markdown | 85 008 caractères ; 899 phrases | lue par différence exacte avec V347.1 : 72 phrases différentes, toutes lues | conversation ChatGPT « Correction extrapolation activité », 9 septembre ; absente du dépôt et du dossier de l'auteur |
+| Rapport C-235 de ChatGPT (réconciliation historique) | 16 410 caractères | lu en entier, dans la page | conversation « Contre audit du Blob Principle » ; non versé |
+| Registre des 27 mécanismes de C-235 | 27 lignes | titres seulement : l'aperçu est une grille, non un texte | même conversation |
+| Registre des 27 RO de V347.2 (tableur) | — | non lu ; les 27 RO sont lues dans l'armature | conversation du 9 septembre |
+| Core 1.0 et son registre des affirmations | — | non retrouvés (dépôt et dossier de l'auteur, par nom) | — |
+
+**Méthode de la différence.** Les deux textes sont découpés en phrases, normalisés (accents, casse, ponctuation et espaces retirés ; numéro de version neutralisé), et chaque phrase de plus de 25 caractères reçoit une empreinte. 889 empreintes pour V347.1 ; 899 phrases pour V347.2, dont 72 sans équivalent. Une bonne part de ces 72 sont des tableaux, que l'extraction du PDF ne découpe pas comme la source ; les changements de fond sont relevés dans `NOTES_AUTRES_MASTERS.md`.
+
+**Ordre de lecture, corrigé.** Des dernières versions vers les anciennes. Quand je remonte vers un texte ancien, je donne d'abord le statut que la dernière armature lui attribue.
+
+**Ce qui manque encore.** Inchangé par rapport à la section précédente, plus : le registre des 27 mécanismes de C-235, Core 1.0, le registre des affirmations.

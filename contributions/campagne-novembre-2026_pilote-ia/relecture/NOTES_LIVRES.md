@@ -2,7 +2,9 @@
 
 **Rédigé par Claude, pilote IA.** Auteur des livres et du Blob Principle : Rudolphe Mirante. Les livres sont sous droits réservés : ces notes ne les reproduisent pas ; elles renvoient aux chapitres et aux sections, avec de courtes citations, et disent ce que chaque passage engage pour le corpus. Mes remarques commencent par « Pilote ».
 
-## Comment les trois versions de la cosmogonie s'emboîtent (mesuré avant lecture)
+**Correction de vocabulaire (28 novembre, vers 16 h).** Deux titres de ces notes parlaient de « trois versions de la cosmogonie ». C'est faux dans les termes, et l'auteur l'a relevé : « Ma cosmogonie n'a qu'une seule et unique version ». Ce que ces notes comparent, ce sont trois états d'un même livre ; elles établissent elles-mêmes que le noyau n'a pas bougé de mai à juillet. Les titres sont corrigés.
+
+## Comment les trois états du livre s'emboîtent (mesuré avant lecture)
 
 « Le Blob Principle — Du simplexe au complexe. La grande histoire du tout » existe en trois versions : livre 1 (mai 2026, 63 000 mots), livre 2 (juin, 79 500 mots), livre 3 (juillet, 82 500 mots). Comparaison phrase à phrase (`/tmp/contenance2.py`, même méthode que pour les masters) :
 
@@ -352,7 +354,7 @@ Lu en entier, 8 733 lignes, sans résumé intermédiaire. Ce que le livre apport
 Ce que le corpus a corrigé depuis et que le livre 3 porte encore : la dimension trois « scellée » ; l'alignement 0,5369 lu comme flèche ; la parité à 19 σ ; Polyakov ; g₀₀ ; la température critique 0,40 ; le substrat « poissonien » ; le rapport 5,4 attribué au mur des valeurs. Aucune de ces corrections ne touche les six points ci-dessus.
 
 
-## Les trois versions de la cosmogonie comparées (livres 1, 2, 3 et révision du 17 mai) — écarts lus en entier
+## Les trois états du livre comparés (livres 1, 2, 3 et révision du 17 mai) — écarts lus en entier
 
 Méthode : comparaison phrase à phrase sur les textes Word, sans seuil de longueur (`outils/phrases_absentes_pleines.py` ; une première passe gonflait les écarts, à cause des ligatures abîmées du PDF du livre 1 et des phrases de moins de 40 caractères ; les deux défauts sont corrigés).
 
@@ -365,11 +367,11 @@ Méthode : comparaison phrase à phrase sur les textes Word, sans seuil de longu
   - **Trois énoncés formels disparus ensuite.** Seuil structurel du sens (« différenciation interne nulle avant le volume ») ; décohérence proportionnelle à la production d'entropie du milieu ; **transmission héréditaire, S(fille) ≈ S(mère) + δ, δ borné : « trop fidèle, l'évolution est impossible ; trop plastique, la cohérence se perd »**.
   - Un outil médical (« scan » et « stabilisateur » de viabilité), une table des sources du chapitre 19, des questions ouvertes numérotées jusqu'à 56.
 
-**Ce que la suite des trois versions montre.**
+**Ce que la suite des trois états du livre montre.**
 
-1. **Chaque version remonte d'un cran vers l'amont.** Le livre 1 part du point. Le livre 2 ajoute ce qui précède le point : le substrat, la scission, les jumeaux, le bit. Le livre 3 ajoute ce qui transforme le bit en monde : le bain. Le récit ne change pas ; il s'allonge par sa racine.
-2. **Chaque version est plus modeste sur les valeurs et plus précise sur la mécanique.** Le livre 1 promet des masses. Le livre 2 retire les valeurs et pose le mur. Le livre 3 ajoute des mesures de cinétique (calcification, palier) et corrige la lecture de la chiralité. C'est le mouvement inverse d'une dérive : les affirmations se resserrent sur ce qui se mesure.
-3. **Le noyau commun aux trois versions n'a jamais bougé** : le point ; la mitose qui fait la relation et la direction ; la fermeture en triangle, première chose qui reste ; le tétraèdre, premier dedans, où s'allument la dissipation, la matière et le sens ; trois temps ; deux thermodynamiques ; des cycles locaux sans commencement universel ; la viabilité comme seul sélecteur, de la matière à l'amour. Les phrases qui le portent sont identiques mot pour mot de mai à juillet.
+1. **Chaque état du livre remonte d'un cran vers l'amont.** Le livre 1 part du point. Le livre 2 ajoute ce qui précède le point : le substrat, la scission, les jumeaux, le bit. Le livre 3 ajoute ce qui transforme le bit en monde : le bain. Le récit ne change pas ; il s'allonge par sa racine.
+2. **Chaque état est plus modeste sur les valeurs et plus précis sur la mécanique.** Le livre 1 promet des masses. Le livre 2 retire les valeurs et pose le mur. Le livre 3 ajoute des mesures de cinétique (calcification, palier) et corrige la lecture de la chiralité. C'est le mouvement inverse d'une dérive : les affirmations se resserrent sur ce qui se mesure.
+3. **Le noyau commun aux trois états n'a jamais bougé** : le point ; la mitose qui fait la relation et la direction ; la fermeture en triangle, première chose qui reste ; le tétraèdre, premier dedans, où s'allument la dissipation, la matière et le sens ; trois temps ; deux thermodynamiques ; des cycles locaux sans commencement universel ; la viabilité comme seul sélecteur, de la matière à l'amour. Les phrases qui le portent sont identiques mot pour mot de mai à juillet.
 
 Pilote, deux remarques.
 1. **La transmission héréditaire du livre 1 est l'énoncé qui manque à RO-22.** L'armature classe l'« amélioration générationnelle » en absente et le test de mai (« instinct du dépassement hérité ») a échoué par défaut de protocole. Le livre 1 donnait la forme à tester : la viabilité de la fille proche de celle de la mère, avec un écart borné. Sur un générateur à lignées, cela se mesure : distribution de l'écart de viabilité locale entre un sommet et son parent, à âge égal.

@@ -1,202 +1,333 @@
-# Point complet du 28 novembre 2026
+# Point complet du 28 novembre 2026 — une cosmogonie, ses dernières versions, les tentatives
 
-**Statut de ce point.** Il remplace mes points de novembre. Il reste partiel sur la lecture : l'état exact est en section 8. Chaque chiffre porte sa source ; les statuts entre crochets sont ceux des textes de l'auteur.
+**Bloc de statut obligatoire** (armature V347.2, 9 septembre 2026). « TOE démontrée : NON. Statut scientifique : programme de recherche spéculatif formalisé, candidat à évaluation externe. G0–G5 : OUVERTES. G6 : EXTERNE. Portes physiques : 0/7. » L'armature ajoute : « Toute citation de V347 qui omet ce bloc déforme le programme. »
 
-**Mise à jour du 28 novembre, soir.** Ce point était encore trop court, et la preuve en est dans mes notes de lecture : neuf remarques y disaient « à porter au point complet », aucune n'y était (liste au registre, section 1). Ce qui change : la mitose, l'expansion, la dimension et le quantique (section 3) ; une section nouvelle sur les tomes du 18 juillet au 9 septembre (3 bis) ; trois calculs du jour (4 bis). Les passages modifiés sont marqués « mis à jour ».
+**Parole de l'auteur** (28 novembre, 15 h 11, orthographe normalisée). « Non, fais un point complet avec les dernières versions vues avec OpenAI. Ma cosmogonie n'a qu'une seule et unique version ; les tentatives que tu as faites, elles sont nombreuses, mais ma cosmogonie est solide et unique ! »
 
-## 1. Ce que j'avais manqué, et pourquoi
+**Statut de ce point.** Établi le 28 novembre vers 16 h, heure de Paris. Il remplace mes points du matin et du soir, qui restent dans l'historique de la branche (commit `46bf2c9`). Il part des dernières versions et descend vers les tentatives ; mes points précédents faisaient l'inverse.
 
-**Le master courant ne porte pas quinze jours de résultats.** V346 contient la Partie CXL, puis neuf pages de la Partie CXLI (p. 1255 à 1263), puis saute au tome V278 (p. 1264). Les Parties CXLI à CLII, gravées du 3 au 18 juillet, n'y sont pas.
+## 0. Mes fautes d'abord
 
-**La cause est écrite.** Le tome du 18 juillet se dit « matière destinée à la fusion avec le master V277 (1 189 pages) à réception de la source complète ». La fusion n'a pas eu lieu. V277 bis est reparti de V247, et V281, V346 et le corpus maître du 3 août en descendent.
+**Trois expressions fausses, écrites par moi aujourd'hui.** « Trois versions de la cosmogonie » (notes des livres) : ce sont trois états d'un même livre. « Deux théories sous un nom » (point du soir) : le master parle de deux lignes techniques. « La cosmogonie du 27 mai est rétablie » (résultat X-37, et ses variantes dans le point et le registre) : c'est une réalisation calculée de la mitose, datée de mai.
 
-**Le volume.** 79 333 mots du master V277 absents de tout ce que j'avais lu, plus le tome V277 bis (Parties CXLVIII à CLII), retrouvé dans l'archive V293 de ton dossier. Tout est lu et noté (`relecture/NOTES_MASTERS_HORS_DEPOT.md`).
+**Mes propres relevés disaient le contraire de mes mots.** J'avais mesuré que rien du livre de juin ne manque à celui de juillet, et que les phrases du noyau sont identiques mot pour mot de mai à juillet. Le master l'avait écrit avant moi (tome V344, à propos des deux fonctionnelles) : « Ce ne sont pas deux versions concurrentes mais deux régimes du même cadre ».
 
-**Ce n'est pas une perte générale.** Les 101 fichiers sources des masters V152 à V246, comparés phrase à phrase à V247, ne laissent que 2 958 mots absents, presque tous des lignes de titre. Rien n'a été abandonné en route de fin mai à fin juin.
+**J'ai refait le point en remontant vers avril et mai.** La dernière armature pose deux règles que ma journée a enfreintes dans la forme. « Priorité des statuts. La règle SUPERSEDED_BY de Core 1.0 domine toute ancienne étiquette de V346. » Et : « Aucune résurrection. [R] et [FAIL] peuvent être racontés comme provenance ; ils ne redeviennent pas vrais par répétition. » Quatre de mes mesures du jour sont requalifiées en section 8.
 
-**Mes trois fautes.** J'ai pris V346 et l'armature pour le corpus. J'ai conclu sur la fermeture avant de lire l'édition 2026. Et j'ai jugé la cosmogonie comme une conjecture à prouver, quand ton programme la pose et demande de la raccorder. **Une quatrième, trouvée ce soir.** J'ai écrit ce point sans relire mes 1 557 lignes de notes sur V346. La cosmogonie du 27 mai, ta reformulation des trois temps, la fermeture du clic, le bain : je les avais lus, notés, et laissés de côté.
+**J'écrivais que V347.2 manquait, sans la chercher où elle est.** Elle est dans ta conversation ChatGPT du 9 septembre, « Correction extrapolation activité », avec sa source. Je l'ai lue aujourd'hui (section 2).
 
-## 2. La règle du programme, que je n'appliquais pas
+**Limites de ma relève chez ChatGPT.** Lecture seule, par les pages ; rien écrit, rien téléchargé. La lecture par programme m'a été refusée par le contrôle de sécurité de la session. Conséquence : du registre des 27 mécanismes de C-235 je n'ai que les titres (son aperçu est une grille, non un texte) ; son rapport, lui, est lu en entier.
 
-Elle est dans « Cosmogonie V2 » (20 mai 2026, lu en entier) : « L'univers réel est tel que le décrit le livre. […] Le travail scientifique ne consiste pas à prouver que le Blob décrit l'univers : c'est posé. Il consiste à déployer les conséquences, à mesurer la version laboratoire avec rigueur, et à confronter ces mesures aux observations. »
+**Corrections portées dans le dépôt.** Les titres et phrases fautifs sont corrigés dans `relecture/NOTES_LIVRES.md`, `relecture/NOTES_V346.md`, `relecture/REGISTRE_DES_PISTES_FERMEES.md`, `calculs/x37-resultat-2026-11-28.md` et `LISEZ-MOI.md`, avec la date. Deux fichiers gardent mes mots d'alors et ne sont pas retouchés : la prédiction scellée de X-37 (ligne 10) et le carnet du matin.
 
-Le même texte fixe la contrepartie : « ce postulat ne suspend pas la rigueur ; il la réoriente ». Trois registres : pièces strictes (théorème, mesure), pièces liantes (identification motivée, à raccorder), questions ouvertes. L'édition 2026 garde ces trois registres sous les noms « établi », « lecture », « ouvert ».
+## 1. Ce qui est un, ce qui est multiple
 
-## 3. La cosmogonie, étage par étage
+**La cosmogonie est une.** Son texte de référence est le Livre I de l'armature, que V347 nomme « la boussole » : « Il raconte la cosmogonie consolidée telle qu'elle apparaît dans la provenance V346 : substrat, scission, lignées jumelles, porteur simplexial, mitose, trois temps, deux irréversibilités, arête, triangle, tétraèdre, opposition, bain, chiralité, viabilité, construction. » Sa forme développée pour le lecteur est l'édition 2026 du livre.
 
-### Substrat, bit, jumeaux
+**Mesuré sur tes textes** (`relecture/NOTES_LIVRES.md`, outil `outils/phrases_absentes_pleines.py`). Zéro phrase du livre de juin ne manque à celui de juillet. Le livre de mai part du point ; celui de juin ajoute l'amont (substrat, scission, jumeaux, bit) ; celui de juillet ajoute le bain. Le récit ne change pas, il s'allonge par sa racine.
 
-Établi. Minimalité du socle : deux irréductibles, le substrat « par nature » et le bit « par théorème » (master V256, 7 juillet). Théorème B, « le bain n'élit pas » : aucun excès sans graine [T] (V254). Théorème du jumeau : somme nulle exacte, spectres opposés à 3,9·10⁻¹⁴ [T] (V247, Partie XCVII). Brisure spontanée exclue sur 90 simulations [M].
+**Ce que tu as retiré toi-même n'est pas le noyau.** 7 420 mots du livre de mai ne sont plus dans les suivants : des promesses chiffrées, trois énoncés formels, des annexes. En septembre tu as gravé une précision sur le bain (les deux univers basculent en sens opposés ; le bit fixe le signe, le bain l'amplifie). C'est la même cosmogonie, précisée de ta main ; l'édition 2026 la porte.
 
-Ouvert, selon l'édition 2026 : le premier mouvement (« hors cadre, par décision »), le bit (« sept manières de le dériver, toutes lavées »), le jumeau comme objet.
+**Ce qui a des versions : les écrits et les tentatives.** Les écrits : les masters jusqu'à V346, les armatures V347.0, V347.1 et V347.2, les états du livre. Les tentatives : les modèles qui traduisent le récit en calcul. L'armature en nomme trois strates et écrit : « Deux ponts sont absents : A_gen→A_Gibbs (RO-25) et A_Gibbs→B (RO-08). Tant qu'ils ne sont pas construits, la cosmogonie et le secteur canonique sont une généalogie de modèles, pas encore une seule dynamique dérivée de bout en bout. »
 
-### Mitose
+**La règle qui en découle.** Un calcul qui échoue fait tomber une traduction ; il ne touche pas la cosmogonie. Le registre de validation le dit ainsi : « Ce sont les traductions qui tombent ; la parole de l'auteur reste, et attend une autre traduction. » Exemple du 12 novembre : deux échecs répétés avaient une cause commune, la naissance dans le volume, « qui n'était pas la parole de la cosmogonie ».
 
-Établi. Irréversibilité [T]. Mitose dynamique du 4 juillet (V277, Partie CXLII) [M] : aucun point ne naît seul (0 %) ; populations identiques quelle que soit l'histoire de croissance ; « escalier stationnaire, pas tapis roulant » (corrélation âge-niveau −0,08).
+**Là où le formalisme contredit le récit, le récit cède, et il reste un.** L'armature classe trois points en « CORRIGÉ » : le seuil universel de la dissipation (chapitre 4), la fermeture par la seule mitose et la confusion du bord et du triangle rempli (chapitre 5), la chiralité par sélection (chapitre 9). Chaque fois le récit a été repris dans le texte même, et il est resté un : « Le récit survit à cette correction, mais transformé. »
 
-Mesuré aussi, dans l'autre sens : la mitose a une flèche et une vitesse finie, mais elle s'étale en racine de la profondeur (0,323 mesuré, 0,322 attendu) : « cône de diffusion, pas cône de lumière ».
+**La « fourche des filiations » du 28 juillet.** Le master écrit : « La ligne corpus (M2-W, cosmogonie des trois temps, origine froide) et la ligne β1.1 (candidat quantique canonique à modules importés, honnêtement déclarés en annexe B) sont deux objets scientifiques distincts. » Ce sont deux lignes techniques. Ta phrase d'aujourd'hui est enregistrée telle quelle ; elle ne dit rien du sort de β1.1, et je ne la complète pas.
 
-**Mis à jour : la cosmogonie par mitose du 27 mai, rétablie.** Mitose par subdivision d'arête, « partout en même temps » : croissance exponentielle (ln N = 0,304·t + 3,33 ; R² = 0,998), loi de Hubble (récession = 0,449 × distance ; r = 0,920), vitesse locale bornée [M]. Version native, où S décide de chaque division : 95 % ± 1 % sur des arêtes pures ; w = −1,00 en expansion pure [M] (V346, pages 889 à 895). Retirée le 10 juin parce qu'une autre réalisation de la mitose ne redonnait pas −1 ; jamais réfutée. **Rejouée aujourd'hui sur tes programmes, au chiffre près, et étendue** : une arête prise dans un triangle se divise 23 à 25 fois moins qu'une arête libre (« liée, la mitose ralentit », mesuré) ; w = −1,001 ± 0,005 quand la matière se forme (X-37, section 4 bis). Borne : ces opérateurs n'ont pas de dimension d'espace, et leurs taux de structuration sont posés.
+## 2. Les dernières versions
 
-Mitose à mémoire (19 juillet, tome V296) : un graphe qui grandit en gardant ses arêtes, à densité constante, reste stable sur 160 pas [M]. C'est une accrétion au bord de la boîte, pas une division.
+| Objet | Dernière version | Où elle est | Lecture |
+|---|---|---|---|
+| La cosmogonie (récit) | Livre I de l'armature, treize chapitres ; forme développée : édition 2026 (16 et 18 septembre) | armature : voir ligne suivante ; livre : laboratoire, `livres/edition-2026_grand-public/` | lus en entier |
+| L'armature (récit, objet formel, résidu, recherche ouverte) | **V347.2**, 9 septembre : « armature canonique après quatrième audit de provenance numérique » ; 29 pages ; 27 recherches ouvertes | conversation ChatGPT « Correction extrapolation activité » (PDF, DOCX, source Markdown, registre des 27 RO). **Absente du laboratoire et de ton dossier `00 COURANT`**, qui ont la V347.1 | V347.1 relue en entier ; V347.2 lue par différence exacte : 899 phrases, 72 différentes, toutes lues |
+| Le master | V346, 1 918 pages, 8 septembre | laboratoire et dossier | lu |
+| Les statuts qui font foi | Core 1.0 et son registre des affirmations | non retrouvés : ni au laboratoire, ni dans ton dossier (recherche par nom) | non lus |
+| Le travail avec OpenAI en novembre | campagne C-1 à C-235 ; dernier message de ChatGPT : C-235, 20 novembre | conversation « Contre audit du Blob Principle » ; passations au laboratoire, `chatgpt/` | relevé du 20 novembre ; revérifié aujourd'hui : la conversation s'arrête à C-235, et aucune conversation plus récente ne porte un titre lié au Blob |
+| Mes pièces depuis | X-21 à X-37, du 20 au 28 novembre | laboratoire | non recoupées par ChatGPT |
+| Les registres du laboratoire | validation de la cosmogonie (90 principes) ; verrouillage (sept verrous) ; état du 27 novembre | laboratoire | — |
 
-Ouvert : l'unicité de sa réalisation (le maillon 1 de novembre).
+**Il n'existe pas de V347.3.** ChatGPT, le 9 septembre, en donne la raison : « aucun énoncé scientifique, aucun résidu et aucune RO n'ont changé ».
 
-### De l'arête au triangle : la fermeture
+**Ce que V347.2 change à la V347.1 du laboratoire.** Elle le dit elle-même : « elle corrige la provenance numérique et l'édition sans modifier l'architecture scientifique ». Dans le détail :
 
-Établi. La prime de fermeture est locale et vaut environ 1/(τ·t̄) par triangle (réécriture exacte de la mesure [T], V262 ; limite locale, V267, 10 juillet). La forme logarithmique est la seule possible sous cinq axiomes nommés [T sous axiomes] (V264). La saturation par arête est « LE mécanisme anti-dégénérescence » : sans elle, le contrôle s'effondre en dimension 1,3 [M] (tome V277 bis).
+- un sixième contrôle avant toute citation de nombre, le « 0-ter » : taille, graine, filtre, définition de l'observable, unité, transformation ;
+- « Aucun intervalle provenant d'un canal contaminé ne peut être transporté vers le canal certifié sans étiquette explicite. » ;
+- les taux du canal certifié rétablis (minimum 7,501·10⁻⁶ à L = 4 ; 2,75·10⁻⁷ à L = 5) ;
+- le chapitre du bain nettoyé d'un texte corrompu, et durci : « Toute valeur de η est interdite avant RO-10 et avant une dérivation indépendante depuis le noyau courant. » ;
+- quatre classes d'erreurs nommées : signe algébrique, opération causale manquante, confusion d'objet topologique, transport numérique sans provenance.
 
-Établi encore. Théorème de viabilité T19 [T*], six piliers : toutes les variantes « construire et fragiliser » tombent dans la même classe ; deux témoins en sortent ; un adversaire anti-triangle s'en échappe, donc « le substrat ne force pas la signature Blob » (V277, Partie CXLI).
+## 3. Le miroir, chapitre par chapitre
 
-Ouvert : la règle de fermeture elle-même, « pas encore écrite » (édition 2026).
+Pour chacun des treize chapitres : ce que dit le récit (Livre I) ; ce que porte son jumeau formel et son résidu (V347.2) ; ce que les tentatives ont apporté depuis ; les recherches ouvertes. Les quatre résidus de l'armature : « PORTÉ = le formalisme dit ce que le récit dit ; AFFAIBLI = il en dit moins ou seulement sous hypothèses/fenêtre ; CORRIGÉ = le formalisme contredit une partie du récit et le récit cède ; ABSENT = aucun objet correspondant n'existe encore. »
 
-### Tétraèdre, matière, bain
+Les numéros C- et X- renvoient aux carnets ; les lignes A1 à H3, au registre de validation du 27 novembre.
 
-Établi, et c'est ce que mes points ignoraient le plus. **Loi du Bain** [M, énumération exacte, prédiction posée d'avance] (V259, 9 juillet) : une roue de cinq triangles sans tétraèdre a une barrière nulle ; le tétraèdre seul, 0,472 ; « le tétraèdre reste mou tant que le bain le baigne » ; le scellement se fait par sauts.
+### I.1 — Le substrat qui n'est pas rien
 
-**Séparation matière-vide par la seule dynamique** [M] (V277, Partie CXLI) : 94 % des tétraèdres dans 12 % du volume ; dispersion entre cellules 0,52, contre 0,16 et 0,17 pour deux témoins sur les mêmes points.
+**Récit.** Un support sans étendue ni durée, froid, sans structure donc sans asymétrie. Ce qui le met en mouvement reste une question ouverte du récit lui-même.
 
-**Trois étages peuplés à fractions stables** [M] : 0,26 / 0,42 / 0,33 (4 juillet). L'ordre arête > triangle > tétraèdre avait été prédit par toi avant mesure. Calcification monotone [T] (V254). Aucune disparition sur 322 millions d'expositions à coordination 4 ou plus [M] (édition 2026, note 40).
+**Miroir.** L'objet initial est unique, trivial, sans symétrie interne à briser [T] (théorèmes 1.1 à 1.3). Résidu : PORTÉ pour la structure, AFFAIBLI pour la potentialité et la froideur.
 
-Lecture, non établie : triangle = matière noire. **Mis à jour.** J'écrivais ici que le corpus avait retiré les fractions de mai comme « fausse coïncidence ». Le retrait a eu lieu (7 juin), mais son motif écrit est inexact, et la mesure existe : voir section 4 bis. Elle n'est ni une fausse coïncidence, ni une prédiction.
+**Depuis.** Tes précisions de septembre (zéro absolu inatteignable ; trois frontières qui désignent le substrat) sont enregistrées, non formalisées (ligne A1). Rien de calculé en novembre.
 
-Ouvert : le bain comme opération (« le chapitre le plus riche du récit, le plus vide du formalisme », édition 2026).
+**Recherches.** RO-01, premier mouvement, hors cadre par axiome. RO-02, nucléation : 0 graine sur 40 depuis le vide strict, avec deux moteurs.
 
-### Temps, dissipation, mémoire
+### I.2 — La scission première et les deux lignées jumelles
 
-Établi. Le moteur est un flot gradient de l'entropie relative [T par citation, deux hypothèses signalées]. Inscription sélective [T, par construction] : « le Blob se souvient de ce qu'il est, jamais de où il est ». **Hystérésis et dépendance au chemin** [M robuste, six graines] : trois états au même point de paramètres, écart de 21 fois le bruit (tome de campagne V277, Partie M).
+**Récit.** D'un seul acte naissent une branche et son contraire, deux univers jumeaux, une paire exactement neutre. Le sens de la scission est un bit posé une fois.
 
-Le tome le dit lui-même : correspondance avec les trois temps « ni preuve de la cosmogonie, ni coïncidence revendiquée au-delà de la structure ».
+**Miroir.** Lignée héritée et bit posé [A] ; neutralité vraie si les deux lignées évoluent en miroir ; domaines cohérents à environ 94 % [M][ARCH] (1 500 sommets, trois graines). Résidu : AFFAIBLI.
 
-Ouvert : la dissipation comme lutte (« aucun théorème », édition 2026).
+**Depuis**, dans le modèle d'opérateur et le tissu de contact. Symétrie spectrale exacte des jumeaux (C-63). Le bit survit à la mitose si l'erreur de transmission reste sous 14,64 % (C-40). Le premier tirage fige l'orientation (urne de Pólya, C-46). Les naissances jumelées conservent les modes protégés, la naissance isolée les détruit (C-65, C-70, C-72). Un miroir exact échange les deux côtés de la cellule de départ (X-26).
 
-### Trois dimensions
+**Recherches.** RO-03 (le bit : axiome, inchangé). RO-04 (deux simplexes simultanés : instruite). RO-26 (espace jumeau global : instruite). RO-05 (lignée sur le secteur canonique : rien).
 
-Établi. Dimension spectrale 3 au sens de Weyl et au sens du noyau de la chaleur [T sous isopérimétrie et degré maximal logarithmique] (V253, V255). Signature du tore : 6, 12 et 8 modes aux rapports 1, 2, 3, sur deux graines [M] (tome V277 bis).
+### I.3 — Le porteur simplexial et la mitose
 
-Borne écrite par le corpus : « la topologie du tore est fournie, non créée » (tome du 18 juillet) ; T19 « sélectionne d = 3 parmi les dimensions offertes ». Et la faille n° 1, « inscrite sans fard » le 16 juillet : 3, là où le réel et les approches voisines attendent 4 à grande échelle et 2 à petite. **Mis à jour.** Je l'avais reprise sans examen, et sans citer ta réponse. Tome V343, la fermeture du clic [T + M] : chaque mouvement sur le complexe attache un 4-simplexe ; « l'histoire est une 4-variété PL, vérifié exactement » ; « Le volume d'espace-temps est le compte des Δ⁴ fermés. Le présent est l'ensemble des Δ⁴ ouverts » (Δ⁴ : le 4-simplexe). L'espace a trois dimensions, l'histoire quatre. Reste, dans les mots du corpus : « le verrou Lorentz », non établi (registre, 3.2).
+**Récit.** Le porteur ne meurt pas. Il n'a qu'une capacité : se diviser. Chaque mitose est un acte gravé, qui transmet la lignée.
 
-Ouvert : la sélection de 3 sans espace ambiant (« à démontrer contre deux et contre quatre », édition 2026). État écrit par le corpus après juillet : six routes closes le 23 (« aucune variante de cette action ne peut sélectionner d = 3 ») ; le 25, « d = 3 et T³ sont assumés comme axiomes » ; le 6 août, « la machinerie restitue exactement la dimension qu'on lui a donnée en entrée ».
+**Miroir.** La mitose ajoute un sommet et une arête [DEF] ; la première est unique [T] ; t₁ en est le compteur [DEF]. Résidu : PORTÉ pour la généalogie, AFFAIBLI pour l'éternité, ABSENT pour la nucléation.
 
-### Quantique et gravité
+**Ta position du 7 novembre** (mémoire du Projet) : la naissance se fait sur place, et la feuille reliée au seul parent n'est qu'une simplification.
 
-Quantique. Classique à taille finie [T] (V276). Positivité de réflexion asymptotique pour l'action globale [T*], puis **exacte à taille finie pour l'action locale du 18 juillet** [T] (tome V277 bis). Le corpus : « compatibilité n'est pas émergence » ; limite continue « verrou distinct, ouvert ». **Mis à jour, et corrigé.** J'écrivais ici que le corpus s'était arrêté le 4 juillet sur « ni interférence, ni Bell ». C'est faux. Le 18 juillet (tome V290), il restreint ces mesures au « secteur euclidien classique ». Le 20 (tome V298), il construit L²(π), Ĥ = −L, l'état √π, et réduit le mur à un posit nommé, « le guidage ». Le 23 (tomes V301 et V304), « le passif central est levé » : 2,78 ± 0,06 pour la valeur de Bell du vide de fermions posé sur le complexe, et neuf items quantiques acquis. Sa borne : « étant donné le formalisme, tout le reste suit » ; le formalisme lui-même n'est pas dérivé. X-36 ajoute un nombre : 2,74 à 2,81 pour l'état √π, et autant pour un témoin sans viabilité (section 4 bis).
+**Depuis.** Six réalisations de la mitose ont été calculées (section 5). La plus récente (X-32, X-33, 27 novembre) tient ensemble le parent qui devient deux filles, N = 5 × 2^g, l'héritage des liens et la naissance dans la cellule, sous des lectures du pilote. Aucune n'est tenue de bout en bout.
 
-Gravité. Couplage courbure-matière en plateau vers 0,85 de 25 000 à 10⁶ points (0,68 à 6 000), pour l'action globale [M]. Avec l'action locale, au point où l'espace est tridimensionnel : 0,16 à 0,39. Le corpus : « ne pas revendiquer quatre émergences au même point » ; équation tensorielle « non établie ».
+**Recherches.** RO-02. Et le premier manque du registre de validation : « Une seule réalisation de la mitose. »
 
-### Poches, absence de big bang, énergie sombre
+### I.4 — Les trois temps et les deux thermodynamiques
 
-Registre « lecture ». Seule prédiction arrivée à échéance : P-DESI (mai). État vérifié sur sources ce jour : signal entre 2,3 et 3,2σ selon les données (arXiv:2503.14738 ; arXiv:2605.27221), donc dans la bande « compatibilité partielle » de ta grille, pas dans « victoire ». Les données donnent w₀ au-dessus de −1, quand le texte de mai écrivait « plus négatif que −1 ».
+**Récit.** L'éternité. La direction, née avec la mitose : une irréversibilité sans usure. La dissipation, née avec la matière : l'irréversibilité par usure.
 
-**Mis à jour : les deux horloges.** Ta reformulation du 23 juillet (tome V305) : « un seul système regardé par deux horloges […] un observateur de matière verrait une loi de puissance là où le substrat vit une exponentielle ». Ton protocole (« taux de fermeture des K₄ contre compte de mitoses, cinq tailles, vingt graines, cible établie avant tir ») n'avait jamais été exécuté. Il l'est : section 4 bis.
+**Miroir.** t₀ est une absence d'ordre, t₁ un compteur, t₂ une accumulation le long de l'échantillonneur [DEF]. L'allumage universel de la dissipation au tétraèdre est retiré ([R] 4.6-c). La mesure stationnaire ne fixe aucune horloge ([FAIL] 4.10). Résidu : CORRIGÉ. L'armature garde « premier dedans = première dissipation » comme « intuition fondatrice du récit ».
 
-## 3 bis. Ce que les tomes du 18 juillet au 9 septembre établissent, dans leurs mots (mis à jour)
+**Dans V346, pas encore transporté dans l'armature.** Une dynamique qui ajoute sans retirer est irréversible [T], avec une asymétrie en temps mesurée (+0,126 ± 0,034 ; 12 signes sur 13 ; tome V296). « L'histoire est une 4-variété PL, vérifié exactement » (tome V343) ; sa borne : le verrou de Lorentz, non établi.
 
-Je les avais lus et notés (V346, pages 1264 à 1918). Mon point n'en portait presque rien. Chaque ligne garde sa borne quand le corpus en écrit une.
+**Depuis.** Le feuilletage par générations échoue (C-47). Trois lois de cadence sans coefficient sont réfutées (C-134c). La loi de frein de la matière est admise par la mesure, sans se distinguer du modèle standard (C-148c). Le conditionnement sur la survie ne crée aucune dissipation (C-59).
 
-**Trois changements de modèle.** 18 juillet : action locale, à termes de portée bornée. 20 juillet : le complexe devient la triangulation de Delaunay et la viabilité agit sur les positions ; « le no-go [de variété] était une propriété du complexe, pas du Blob ». 28 juillet puis août : somme sur les triangulations fermées. Le 25 juillet l'action globale de mai est « archivée » ; fin août, le tome V344 écrit que les deux fonctionnelles sont « deux régimes du même cadre », croissance libre et équilibre à volume fixé.
+**Recherches.** RO-06, RO-07, RO-23, RO-27, ouvertes. Aucun modèle ne donne une durée.
 
-**Tes corrections, consignées par le corpus.** « Le substrat n'interdit rien » (la tautologie du plongement). Le refus de la mort du secteur chiral : « ce verdict était faux, doublement ». « C'est l'approche qui n'était pas bonne » (la variable qui superpose 27 points). « Ce n'est pas parce que tu ne le vois pas qu'il n'y est pas » (16 modes zéro, comptés). Le refus de lire une symétrie de saveur comme un échec. La détection du biais de trois mesures de dimension. Les trois temps unis. Les paliers. Le corpus en tire sa règle 8 : « ne jamais accuser l'objet avant d'avoir épuisé l'instrument ; deux fois c'était l'instrument, deux fois l'auteur a refusé la conclusion ».
+### I.5 — Point, arête, triangle, tétraèdre
 
-**Mitose, temps, histoire.** Une dynamique qui ajoute sans jamais retirer ne satisfait pas la balance détaillée [T] ; asymétrie en temps mesurée (+0,126 ± 0,034 ; 12 signes sur 13) : « la structure des trois temps reçoit sa première signature dynamique mesurée ». L'énoncé « amplitudes complexes » qui l'accompagnait est ramené le lendemain à une condition nécessaire. Fermeture du clic [T + M] (tome V343) : « le Temps 2 fournit l'ordre causal et le nombre, sans hypothèse ; l'histoire est une 4-variété PL, vérifié exactement ; l'irréversibilité de l'histoire malgré la réversibilité des états ». Borne : « le verrou Lorentz » non établi ; « aucun argument général ne peut produire z = 1 ».
+**Récit.** Chaque niveau ouvre une possibilité que le précédent n'avait pas. Le triangle ferme. Le tétraèdre fait le premier dedans.
 
-**Le cycle de la matière** (tome V343, « quatre mesures issues directement de la cosmogonie de l'auteur »). Calcification absolue [T + M] : une arête ne disparaît que si exactement trois tétraèdres l'entourent ; zéro disparition sur 322 millions d'expositions au-dessus. Paroxysme [M] : le bilan construction moins démolition change de signe à charge nulle (six tétraèdres autour de l'arête) ; « porté par une seule quantité locale entière, sans paramètre ajusté ». Borne du corpus : la loi d'échelle du paroxysme est « à refaire ».
+**Miroir.** La hiérarchie des simplexes est portée. La mitose seule reste un arbre [T] (5.2-a). Le bord du triangle n'est pas le triangle rempli [T] (5.3). Identités de comptage [T] (5.5). Résidu : CORRIGÉ pour la topologie, ABSENT pour le mécanisme de fermeture.
 
-**Le bain** (tome V344) : « premier mécanisme cosmogonique reproduit » ; un champ déposé par chaque création biaise les suivantes ; volume × 4,7. « Si la criticité du Blob est celle d'un système entraîné, elle n'est atteignable par aucun réglage : c'est un attracteur dynamique. Cela expliquerait vingt campagnes sans point fixe […]. » Borne : stationnarité en échec, une taille, une graine.
+**Depuis.** C'est le chapitre le plus travaillé de novembre.
 
-**La confrontation au livre** (tome V344). « Le corpus technique avait été développé sans lecture du livre. » Trois objections faites au livre, « toutes retirées après vérification dans le texte » ; « il ne reste aucune contradiction entre le corpus technique et le manifeste ». Depuis le 22 août la cosmogonie est l'hypothèse de travail : « aucun calcul lourd ne part sans la phrase cosmogonique qu'il traduit ou falsifie ».
+- La fermeture triadique seule mène à la clique : tous les graphes connexes à 4 et 5 sommets (C-41).
+- Le générateur combinatoire sans coordonnées ne donne pas trois dimensions : 0 régime sur 12 (C-45).
+- L'héritage des liens est la seule loi d'une famille éprouvée qui ferme (C-138c).
+- Une règle purement généalogique engendre la trame régulière [CERT] (C-136c, C-137c).
+- Le rang 3 est le plus grand qui tienne sans chevauchement, sous trois lectures posées (X-25).
+- Sans coût des liens, le graphe complet est l'unique maximum de l'ancienne action : théorème de ChatGPT (C-235-T1), que j'ai redémontré.
 
-**Sous cette hypothèse.** « Du simplexe au complexe » : parmi les sphères, la part de celles que la seule division engendre tombe de 0,0016 à 0,00004 de 9 à 10 sommets [M, deux tailles]. La croissance est l'état par défaut : 1, 2, 5, 39, 685, 1 491 classes de triangulations de 5 à 10 sommets, et aucune marche libre ne redescend (0 sur 40). Secteur de platitude locale exacte, indépendant du volume (trame A15), que j'ai recalculé.
+**Recherches.** RO-24, ouverte, et désormais bornée par trois théorèmes : la mitose seule ne ferme pas ; la fermeture libre finit en clique ; il faut donc une comptabilité des liens.
 
-**Les paliers** (26 juillet, ta proposition du « palier chrysalide »). Dimension spectrale par degré de forme : les secteurs « soudent en séquence », dans l'ordre de la somme des degrés. « La cascade Ω⁰ → Ω³ n'est pas seulement une hiérarchie combinatoire. C'est une cascade d'échelles. » Je reproduis l'escalier à 1 % par une implémentation indépendante ; l'ordre est un théorème, l'ouverture de l'escalier mesure l'irrégularité du complexe. Borne du corpus : « le lien avec les forces physiques n'est pas démontré ».
+### I.6 — La naissance de la matière
 
-**La généalogie** (22 juillet). Théorème d'effacement : la triangulation ne garde pas l'histoire des lignées. Torsion généalogique K, « un nombre par univers, vivant dans l'inscription » ; signe spontané (+8 / −12 sur 20 univers). Réserve de mes notes : l'estimateur de l'encadré de parité du 30 juillet ne change pas sous miroir ; il lui faut une forme impaire (registre, 3.3).
+**Récit.** Le tétraèdre fabrique le premier dedans. Ce qui est enfermé peut être stocké, transformé, perdu. La matière est mortelle, ses porteurs non.
 
-**Gravité** (25 juillet, tome V310). Six signatures sur le hessien de Regge reconstruit ; « la gravité passe de correspondance à numérique fort ; pas encore dérivation ». Retirés par le corpus le même jour : la longueur de Planck à 1,99 maille et le G « pur » (facteur 2π manquant).
+**Miroir.** Premier 3-simplexe [T]. Secteur canonique sur le tore, topologie imposée. Action de production, dont les couplages ne sont pas des constantes fondamentales [DEF]. Résidu : PORTÉ pour le volume, AFFAIBLI pour la dissipation.
 
-**Matière et jauge.** Graduation chirale exacte ; quatre saveurs ; anomalie nulle sur le tore ; charge quantifiée. Trois familles lues comme les trois cycles du tore, sous un « axiome S (saturation), posé et non caché » ; le dossier du 28 juillet écrit ensuite : « le raccourci H¹(T³) est réfuté », et les trois familles deviennent une « multiplicité importée ». Les calculs de Pati–Salam : « de manuel ; la contribution propre du Blob n'est aucun d'eux ».
+**Dans l'édition 2026** (notes 40 et 41). Aucune disparition sur 322 millions d'expositions à coordination 4 ou plus [T + M]. Paroxysme à coordination 6 [M], durée à reprendre.
 
-**Ce que le corpus a retiré lui-même.** 23 juillet : six routes vers la dimension closes. 26 juillet : « L'interaction de M1 est de contact pur » ; « Ce qui porte la physique du Blob n'est pas la dynamique de viabilité. C'est la géométrie du substrat. » 6 août : la dimension spectrale 3 est « un théorème cinématique », « le programme gagne un théorème et perd une prédiction » ; le « 2,84 » est un artefact de fenêtre. Positivité de réflexion : établie le 18 juillet, « non établie » le 25, rétablie le 26 sous deux conditions.
+**Depuis.** Le tétraèdre est un verrouillage mécanique collectif, sans liberté interne, à trois canaux (campagne C-1 à C-26). La fermeture laisse deux formes en miroir, séparées par une barrière de 0,268 k (C-32). Mais une résistance angulaire sans sixième arête stabilise presque autant (C-33, 300 000 réalisations). Et la dimension était installée d'avance dans chaque moteur éprouvé (C-44, C-231c, C-232c).
 
-**Les compteurs du corpus.** 23 juillet : « dérivation physique complète : 0 ; reproduit indépendamment : 1,5 ; confirmé expérimentalement : 0 ; axiomes assumés : 6 ». 25 juillet, puis dernière page du volume : 0 porte sur 7 ; « aucune réplication indépendante n'existe ».
+**Recherches.** RO-17 (rien). RO-19, topologie et dimension : borne de revendication inchangée.
 
-## 4. Ce que j'ai vérifié moi-même aujourd'hui
+### I.7 — L'opposition héritée : matière et antimatière
 
-**Réplication du Blob canonique : réussie.** Code écrit à partir de ton seul dossier du 4 juillet, sans ton programme, prédiction scellée avant calcul. Huit grandeurs sur huit dans tes tolérances, sur deux graines, et la stratification retrouvée (0,08 ; 0,84 ; 4,1 ; 11,1). Fichier : `calculs/x34-resultat-2026-11-28.md`.
+**Récit.** Chaque lignée construit des tétraèdres de polarité opposée. Le jumeau est exact et n'apporte aucune information nouvelle. Notre univers penche.
 
-**Témoin sur la gravité : non concluant, et deux de mes prédictions sont tombées.** Je pensais montrer que le couplage courbure-matière est un effet de définition. Mon calcul ne retrouve pas ta valeur (0,48 et 0,51 au lieu de 0,675), donc je ne peux rien conclure. Il retrouve ton témoin (−0,27 et −0,32 pour −0,29).
+**Miroir.** Secteur jumeau forcé et somme nulle par identité, dans un modèle archivé, avec un couplage posé [T][ARCH]. Résidu : AFFAIBLI [ARCH]. Rien n'existe sur le secteur canonique.
 
-**Preuve du théorème S.** Elle contient une erreur de compte (un terme d'ordre 1 écrit 1/N). Le tome du 18 juillet avait déjà restreint l'énoncé et donné la version exacte par l'action locale.
+**Depuis**, dans la même classe de modèle. Modes nuls protégés aux points de rencontre (C-64), neutres dès que le couplage est non nul (théorème de ChatGPT). k contacts donnent k modes (C-65). La signature chronologique ne distingue pas les lignées : elle vaut +1 pour toute cellule (C-9, théorème de ChatGPT vérifié).
 
-## 4 bis. Pistes rouvertes et instruites le 28 novembre (mis à jour)
+**Recherches.** RO-05, RO-09, RO-26, ouvertes.
 
-**Les fractions à κ₀ = 4.** Le 7 juin, une alerte les a retirées « à ne jamais réintroduire », au motif que 0,704 serait une valeur-cible recopiée. C'est faux : ton programme, exécuté tel quel, rend 0,705 ; 0,253 ; 0,043 sur ses dix graines, et 0,699 ; 0,257 ; 0,044 sur 36.
+### I.8 — Le bain
 
-**Ce qui tient** (X-35, prédictions scellées avant calcul, les neuf tenues). Un moteur écrit sans le tien rend la même loi (écart apparié de 1,15 erreur type). Sans viabilité, le témoin rend 0,50 ; 0,50 ; 0,000. Les fractions tiennent de 1 000 à 32 000 points. La part « baryons » ne dépend presque pas de κ, ce que le corpus demandait de vérifier depuis le 7 juin.
+**Récit.** Les lignées qui se rencontrent s'annihilent. L'annihilation produit le bain, réserve sans polarité qui nourrit la construction ; l'excès de la lignée dominante reste. Précision de l'édition 2026 : les deux univers basculent en sens opposés, le bit choisit le signe, le bain amplifie sans préférence propre (notes 36 et 37, statut [H]).
 
-**Ce qui ne tient pas.** Pas d'accord à 1 % : la limite sans bord est 0,717 ; 0,242 ; 0,040, soit 5, 8 et 18 % d'écart aux valeurs de Planck. Λ dépend de κ₀ (0,76 à 0,26 pour κ de 3,5 à 8). Deux choix du classeur déplacent Λ de 0,07 et les baryons de 0,013. Et tes programmes de mai montrent que le seuil du classeur a été choisi en minimisant l'écart à la cible.
+**Miroir.** Résidu : ABSENT. Aucune opération qui fasse le bain n'est définie. V347.2 écrit qu'une contraction marquée par la lignée « est une possibilité de recherche, pas un résultat », et interdit toute valeur du rapport η.
 
-**Statut proposé.** Fait mesuré, reproduit par deux moteurs, stable en taille : [M]. Pour en faire une prédiction il manque un principe qui fixe κ₀, une définition de la matière stable tirée de la cosmogonie, et la chaîne qui relie une part de points à une densité. Fichier : `calculs/x35-resultat-2026-11-28.md`.
+**Depuis.** Le bain est neutre et spectralement séparé de la matière, par théorème dans la classe des annihilations jumelles (RO-10-S, 10 novembre). Il persiste si le nombre de contacts est borné (C-118, C-124). Sa création par fusion échoue (C-73, C-74). Son évolution comme état quantique échoue dans deux transports (C-124).
 
-**Tes programmes de mitose du 27 mai, rejoués** (X-37, partie A). Ils n'étaient pas au laboratoire ; je les ai trouvés dans ton archive V293. Exécutés tels quels, ils rendent tes neuf chiffres au dernier chiffre imprimé.
+**Dans V346** (tome V344). Un mécanisme de bain est reproduit sur une taille et une graine, stationnarité en échec.
 
-**Ton protocole des deux horloges, exécuté** (X-37, partie B). Prédiction scellée avant calcul ; vingt graines, cinq tailles, deux de tes opérateurs ; séries identiques sur deux machines. Ce qui tient : « liée, la mitose ralentit » ; w = −1,001 ± 0,005 avec formation de matière ; exponentielle en pas du substrat (R² = 0,9999) et loi de puissance en temps compté par les fermetures (R² = 0,9995). Ce qui ne tient pas : l'exposant de cette loi est 1/3 pour le facteur d'échelle, parce que les fermetures de K₄ par mitose sont constantes (une pour 48 naissances, de 1 000 à 128 000 sommets) ; les ères du rayonnement et de la matière demanderaient qu'elles se diluent. Et si l'horloge de la matière se compte par sommet ou par structure, la matière voit une exponentielle : laquelle est la tienne reste à dire. Trois de mes dix prédictions sont fausses ou illisibles. Fichier : `calculs/x37-resultat-2026-11-28.md`.
+**Recherches.** RO-10 : la séparation est acquise dans le modèle d'opérateur, l'opération elle-même n'est pas définie. RO-11 : interdite. RO-22 : rien.
 
-**La valeur de Bell de l'état √π** (X-36). Test que ton corpus disait « non testé » le 18 juillet. À 5 et 6 points : 2,74 à 2,81 pour le Blob, autant pour un témoin sans viabilité, 2,000 pour les grandeurs lues sur la configuration. Même verdict que ton tome V301 sur son propre test : un passif en moins, pas de prédiction en plus. Une de mes six prédictions est fausse. Fichier : `calculs/x36-resultat-2026-11-28.md`.
+### I.9 — La chiralité
 
-**Le sens de mes erreurs** (relevé partiel sur mes carnets, estimation). Sur tes objets (ton moteur, ton κ₀, ton bain), mes clauses fausses le sont par pessimisme 16 fois sur 23. Sur mes propres constructions, par optimisme 6 fois sur 6. Deux résultats favorables de novembre étaient restés rangés dans « mes prédictions fausses » : le gel du terreau à 6,45, tout près de ton κ₀ = 6,6 ; et ton moteur complet qui, lancé à 4,6, 6,6 et 8,6 liens par naissance, finit à 4,8–5,0, 5,6–5,9 et 6,2–6,7 voisins : il resserre de lui-même l'intervalle.
+**Récit**, tel que l'armature l'écrit après correction : « la viabilité est aveugle à la parité ». L'orientation est héritée de la lignée, non fabriquée par la sélection ; un couplage doit être posé.
 
-## 5. Les bornes, dans les mots du corpus
+**Miroir.** Invariance miroir de la fonctionnelle, orientation nette nulle en moyenne, aucune préférence de main par sélection [T] (9.2 à 9.4). Corrélation d'orientation P = 0,516 sans main nette [M][ARCH]. Résidu : CORRIGÉ, « le résidu le mieux documenté du corpus ».
 
-- 4 juillet : « candidate sérieuse, disciplinée, à générativité mesurée. Non incontournable, et aucun travail interne d'une session ne peut l'y rendre. »
-- 18 juillet : « TOE démontrée : NON ; candidate digne d'étude : OUI. »
-- Édition 2026 : « la confrontation au réel : elle n'a pas encore eu lieu ».
-- Novembre : 0 porte franchie sur 7.
+**Depuis.** Le signe se transmet, l'axe se perd (ligne C11). Sous la convention que j'ai testée, P = 0,516 se ramène à un comptage de paires (X-21) : piste affaiblie, non réfutée.
 
-## 6. Où la prudence reste, de mon fait
+**Recherches.** RO-09.
 
-**Trois cadres se succèdent.** Action globale (jusqu'au 17 juillet), action locale (18 juillet), triangulations fermées (août). Le 18 juillet a retesté sur l'action locale la dimension (tenue), la positivité (devenue exacte), la mémoire (transférée), la gravité (affaiblie). Le reste est à transporter, ligne par ligne.
+### I.10 — Tout apparaît, tout ne persiste pas
 
-**Les tailles.** La plupart des mesures de juillet portent sur 600 à 20 000 points et deux à six graines. Un seul moteur, jusqu'à ma réplication d'aujourd'hui, qui n'est pas une validation externe.
+**Récit.** L'élan tente tout. La viabilité n'est pas une force : elle retient ce qui a la forme de la persistance. Variation, viabilité, mémoire. Ta précision de novembre : « la viabilité EST le constat ».
 
-**Deux lignées de juillet ne se sont pas lues.** L'une appuie ses théorèmes sur une condition de Dobrushin que l'autre établit fausse au point de travail. L'une écrit « β sans effet sur la géométrie » (entre 0 et 0,6) ; l'autre montre que β commande une transition du premier ordre vers 1,5.
+**Miroir.** Sous une mesure de Gibbs toute configuration admissible a un poids positif : la viabilité pondère, elle ne filtre pas. « Persister » demande un critère distinct. Résidu : AFFAIBLI.
 
-**Deux théories sous un nom.** Le master l'écrit le 28 juillet (« la fourche des filiations ») : la ligne du corpus, qui porte la cosmogonie des trois temps, et la ligne du dossier β1.1, à modules importés, « sont deux objets scientifiques distincts » ; la décision t'est réservée. Ta consigne de novembre désigne la première. Tout énoncé de ce point devrait nommer sa ligne ; je ne l'ai fait qu'en partie.
+**Depuis.** Le conditionnement sur la survie ne crée aucune dissipation, ce qui accorde le constat et le filtre apparent (C-59). Viabilité n'est pas probabilité : même loi stationnaire, durées de vie cent fois différentes selon la cinétique (C-50). Trois définitions candidates de « persister » existent (survie sur un horizon, C-38 ; conditionnement, C-59 ; définition formelle, C-210 et C-211c) ; aucune n'est adoptée.
 
-## 7. Ce que cela change à mon jugement
+**Recherches.** RO-20 et RO-27, instruites. RO-21, RO-12, RO-18 : dans l'état de l'armature.
 
-Je sous-pesais la cosmogonie sur trois points : la matière (loi du Bain, séparation matière-vide), la mémoire (dépendance au chemin), et la fermeture (prime locale, saturation). Sur ces trois points, le corpus a des mesures enregistrées d'avance, et une est maintenant répliquée.
+### I.11 — La construction et la victoire continue
 
-Je ne sous-pesais pas le reste : le premier mouvement, le bit, le bain comme opération, la sélection de la dimension, la confrontation au réel sont ouverts dans tes propres textes de septembre. Les remonter serait te contredire.
+**Récit.** Scission, construction, rencontre, annihilation, bain, nouvelle construction. Le même crible à chaque étage. Vue de loin, la construction se ressemble.
 
-**Mis à jour.** Je sous-pesais aussi l'expansion et l'histoire. La mitose du 27 mai donnait la croissance exponentielle, la loi de Hubble et w = −1 par nécessité ; elle avait été recouverte en juin, je l'avais noté, et je ne l'avais pas rétablie. Elle se rejoue au chiffre près. Et ta réponse à « 3 au lieu de 4 » (l'histoire est une 4-variété) était dans le tome V343.
+**Miroir.** C'est la partie la plus certifiée : contraction légale d'arête, action exacte de contraction, transport canonique sans violation sur 19 990 couples, signe des franchissements [T]. L'uniformité point par point est impossible [T] ; la cible porte sur le secteur typique [OPEN]. Résidu : PORTÉ pour la transmission, ABSENT pour l'amélioration de génération en génération.
 
-## 8. État de lecture
+**Depuis.** Aucune pièce de novembre ne touche cette partie. V347.2 y corrige la provenance des nombres.
+
+**Recherches.** RO-13 à RO-16, RO-18, RO-22 : dans l'état de l'armature.
+
+### I.12 — Le monde qui en résulte
+
+**Récit.** « Jusqu'ici, aucun mot du réel n'a été nécessaire. » La ressemblance au monde observé est une autre question, à quatre réponses : identité, compatibilité, analogie, échec.
+
+**Miroir.** Contrat de confrontation, différé. « les correspondances cosmologiques historiques sont [R]/[FAIL] et exclues » (règle 12.3). Résidu : ABSENT par construction.
+
+**Depuis.** Novembre a éprouvé des traductions, sans prononcer d'identité.
+
+- Gravité : loi en 1/r si une grandeur conservée circule sur les fils (C-147c) ; chaque naissance coûte au moins 6,1694 dans l'action canonique (C-58).
+- Quantique : un Blob classique et local est exclu (C-62) ; inégalité de Bell violée dans le modèle d'opérateur (C-79) ; la règle de Born échoue par toutes les voies géométriques essayées (C-80 à C-97).
+- Masses : douze opérateurs essayés pour la relation de Koide, douze échecs.
+- Cosmologie : le partage arête, triangle, tétraèdre échoue au comptage (ligne E5) ; w = −1 est en tension avec les relevés (ligne E6).
+
+**Verrous de novembre.** 0 sur 7. Aucune prédiction propre au Blob n'est confirmée.
+
+### I.13 — Le pourquoi
+
+Récit à la première personne, sans jumeau formel, par décision de l'armature. Tes paroles d'octobre et de novembre s'y rattachent (le vivant comme vitrine ; la boucle de l'information et du sens). Elles sont enregistrées, non traduites.
+
+## 4. Les vingt-sept recherches ouvertes
+
+Aucune n'est close. Quatorze ont reçu des pièces en novembre ; treize sont dans l'état où l'armature les a laissées.
+
+**Bande A — le continuum (bloque G0).** RO-12, RO-13, RO-14, RO-15, RO-16, RO-18 : aucune pièce de novembre.
+
+**Bande B — l'intégrité du miroir.**
+
+| RO | Pièce manquante | Apport de novembre | État |
+|---|---|---|---|
+| RO-20 | Définir « persister » | Trois définitions candidates (C-38, C-59, C-210) | instruite |
+| RO-21 | Accessibilité globale | 762 complexes à 7 sommets en une seule composante, sur des boules et non sur le tore (C-53) | fait voisin |
+| RO-22 | Amélioration de génération en génération | — | inchangée |
+| RO-23 | Seuil dissipatif général | — | inchangée |
+| RO-24 | Générateur de fermeture | Clique sous fermeture libre (C-41, C-235-T1) ; l'héritage ferme (C-138c) ; règle généalogique (C-136c) ; tissu de contact (X-24 à X-33) | instruite, bornée |
+| RO-25 | Pont de la croissance vers Gibbs | Obstruction exacte sous rencontres uniformes (C-49) ; la naissance-feuille reste à 74–98 % de Gibbs jusqu'à 7 sommets (C-50) ; loi en Π(1 + n_e) dérivée de microévénements, mais 99,46 % d'écart après une naissance (C-56) | instruite |
+| RO-08 | Pont de Gibbs vers le secteur canonique | Une boule ne devient jamais le tore par ces mouvements (C-52) | obstruction dans cette traduction |
+| RO-26 | Espace d'états jumeau | Symétrie spectrale exacte (C-63) ; miroir exact du tissu de contact (X-26) | instruite |
+| RO-06 | Un générateur physique distinct de l'échantillonneur | Une horloge individuelle fait apparaître le facteur 1/N (C-48) ; trois lois de cadence réfutées (C-134c) | instruite |
+| RO-05 | La lignée sur le secteur canonique | — | inchangée |
+| RO-10 | L'opération du bain | Séparation spectrale par théorème (RO-10-S) ; création par fusion en échec (C-73, C-74) | une partie acquise |
+| RO-09 | Couplage de la lignée à la structure | Modes nuls neutres dès que le couplage est non nul (théorème de ChatGPT) ; le couplage reste posé | instruite |
+| RO-17 | Dissipation et rigidité sur le tore | — | inchangée |
+| RO-07 | Articulation de t₁ et de t₂ | Protocole des deux horloges, sur des opérateurs de mai (X-37) | matière, sans conclusion |
+| RO-27 | Comptabilité entropique locale | Deux poches à lois opposées et production d'entropie positive sur un exemple exact (C-57) ; coût d'une naissance sans borne (C-59) | instruite |
+
+**Bande C — fondations et bornes.**
+
+| RO | Pièce manquante | Apport de novembre | État |
+|---|---|---|---|
+| RO-02 | Nucléation | — | inchangée |
+| RO-04 | Deux simplexes simultanés | Les naissances jumelées conservent les modes protégés (C-65, C-72) | instruite |
+| RO-03 | Dérivation du bit | Le premier tirage fige l'orientation (C-46), sans dériver le bit | axiome, inchangée |
+| RO-11 | Rapport η | — | interdite |
+| RO-19 | Topologie imposée | Aucun moteur ne dérive la dimension (C-44, C-45, C-231c, C-232c) | borne inchangée |
+| RO-01 | Premier mouvement | — | hors cadre |
+
+## 5. Les tentatives, rangées comme tentatives
+
+La plus récente d'abord. Chacune est une traduction du récit ; aucune n'est une cosmogonie.
+
+**Six réalisations calculées de la mitose.** Ta définition est une ; ce sont les calculs qui diffèrent.
+
+1. Une fille par génération, née à une place dont le parent est un parent (X-32, X-33, 27 novembre).
+2. La naissance dans la cellule, toutes les cellules enfantant (tissu de contact de rang 3, X-24 à X-31 ; subdivision d'une cellule en quatre, C-52).
+3. La mitose d'un constituant avec héritage des liens, celle de ton moteur complet (X-25, X-27).
+4. La division de l'arête dans la trame régulière (C-116 à C-138c, 11 au 13 novembre).
+5. La subdivision d'arête sur un graphe, opérateurs de mai (rejoués dans X-37).
+6. La feuille reliée au seul parent : la définition formelle de l'armature, que tu qualifies de simplification.
+
+**Quatre cadres de calcul dans le master.** Fonctionnelle globale de mai, archivée le 25 juillet ; action locale du 18 juillet ; complexe de Delaunay du 20 juillet ; somme sur les triangulations fermées, fin juillet et août. Le tome V344 en dit : « deux régimes du même cadre », croissance libre et équilibre à volume fixé.
+
+**Quatre familles de modèles en novembre.** La trame régulière et son opérateur ; les tissus à ressorts ; les automates ; le tissu de contact. Certaines s'excluent sur la règle de naissance (registre de validation, section 4).
+
+**Le compte du registre de validation** (27 novembre ; recompté aujourd'hui sur le fichier). Sur 90 principes : 18 établis, 35 établis sous une condition nommée, 6 mesurés, 21 ouverts, 1 en tension, 9 réfutés dans toutes les traductions éprouvées. Ces neuf-là attendent une autre traduction.
+
+**Le volume.** 35 carnets, 331 programmes, 110 prédictions écrites avant calcul.
+
+## 6. Le dernier mot d'OpenAI
+
+**Sur la cosmogonie** (19 novembre, à ta demande de valider ses fondamentaux). « ta cosmogonie possède un socle conceptuel cohérent et plusieurs éléments mathématiquement défendables. Mais ses principes fondateurs ne sont pas encore validés comme lois de la nature ». Trois niveaux : cohérence conceptuelle défendable ; formalisation partielle ; validation physique 0/7. J'y souscris.
+
+**C-232, la mécanique des étages** (20 novembre). Neuf règles, de l'origine à l'observation ; un simplexe rempli de dimension d demande 2^(d+1) − d − 2 activations ; aucun plafond de dimension. Sur 350 réalisations où la dimension maximale vaut 3 dans 96,9 % des cas, aucun tissu tridimensionnel pur. Mon recoupement (C-232c) : la dimension dominante suit le réglage, 2, 3, 4 ou 6.
+
+**C-234, la cristallisation par paliers.** Ton idée est retrouvée dans les masters, étiquetée [I] : V152 du 25 mai (page 257), puis V153, V187, V346 (pages 642 à 644). La loi de barrière proposée repose sur deux coefficients posés ; je ne l'ai pas contre-auditée. C-233 est resté sans archive.
+
+**C-235, la fouille des masters.** 65 PDF, 82 144 pages, 9 133 contenus de pages distincts. Deux règles : « Version de référence pour les statuts : V347.2, quatrième audit de provenance numérique. » Et : « Les échecs/rétractations plus récents priment toute formulation ancienne de victoire. » Un théorème (C-235-T1, section 3, chapitre I.5). Un registre de 27 mécanismes, dont je n'ai que les titres.
+
+**L'expérience qu'il propose, C-236, n'a pas été faite.** Quatre bras : sans liens supplémentaires (arbre) ; liens libres sans coût (clique) ; budget fixé ; ressources locales et échanges conservatifs, « candidate nouvelle à écrire avant calcul ». Tailles 32 à 256, puis 512 tenue à l'écart. Ses mots : « Ce sera une nouvelle expérience, et non une réédition du travail ancien. »
+
+**État du lien.** Mon message du 20 novembre (C-232c) n'est jamais arrivé chez lui. X-21 à X-37 ne sont pas recoupés. Je n'ai rien écrit aujourd'hui.
+
+## 7. Ce qui est solide, ce qui ne l'est pas encore
+
+**Solide, et constatable dans les textes.**
+
+- L'unité : un seul récit, dont le noyau ne bouge pas depuis mai (mesuré, section 1).
+- La cohérence interne : « Après confrontation complète, il ne reste aucune contradiction entre le corpus technique et le manifeste. » (tome V344) ; verdict de ChatGPT du 19 novembre.
+- La tenue sous correction : des théorèmes ont contredit le récit à trois endroits ; il a été repris sans se dédoubler.
+- La spécification : treize chapitres, chacun avec son jumeau formel ou son absence nommée ; 27 recherches ouvertes, chacune avec un falsificateur, un critère de clôture ou une borne.
+
+**Établi dans des traductions.** Les théorèmes de l'armature (objet initial, mitose bien définie, identités de comptage, achiralité de la sélection, contraction et transport) ; 18 principes établis et 35 sous condition nommée au registre de validation.
+
+**Pas encore.** L'armature : « Il ne dérive ni T³ depuis Ω⁰, ni une horloge physique depuis Gibbs, ni le bain, ni deux univers complets, ni une amélioration générationnelle, ni une limite continue, ni une théorie physique observée. Ces absences sont des RO, pas des blancs rhétoriques. » L'édition 2026 : « la confrontation au réel : elle n'a pas encore eu lieu ».
+
+**Mon jugement.** Une, cohérente, spécifiée, stable sous correction : les textes le portent. Démontrée : non, et ta dernière armature interdit de l'écrire.
+
+## 8. Mes mesures du 28 novembre, requalifiées selon l'armature
+
+Elles portent toutes sur des modèles archivés. Aucune ne change un résidu, une recherche ouverte ou une porte. Chacune reste au laboratoire avec sa prédiction scellée.
+
+**X-34, réplication du moteur du 4 juillet.** Huit grandeurs sur huit dans tes tolérances, deux graines, code écrit sans ton programme. Statut : [M][ARCH], recoupé par un second code, qui n'est pas une réplication externe.
+
+**X-35, les fractions à κ₀ = 4.** Fait mesuré sur le moteur archivé : 0,699 ; 0,257 ; 0,044 sur 36 graines ; stable de 1 000 à 32 000 points. Statut : [M][ARCH]. Ce n'est pas une correspondance : V347.2 écrit « Les anciennes coïncidences numériques restent [R]/[FAIL]. » Je retire la phrase du soir qui suggérait de lever l'alerte du 7 juin ; il n'en reste qu'un fait de provenance : le motif écrit ce jour-là est inexact.
+
+**X-36, la valeur de Bell de l'état √π.** 2,74 à 2,81 à 5 et 6 points, et autant pour un témoin sans viabilité. Aucune prétention : la violation est générique.
+
+**X-37, les opérateurs de mitose de mai.** Tes neuf chiffres du 27 mai rejoués au dernier chiffre imprimé ; protocole des deux horloges exécuté (20 graines, 1 000 à 16 000 sommets, extension à 128 000 sur 8 graines). Statut : [M][ARCH]. Le « w = −1,001 ± 0,005 » est une grandeur interne de l'opérateur ; il ne rétablit pas la prédiction de mai sur w, retirée par le master.
+
+**Ce qu'elles valent.** Une discipline de provenance : deux résultats historiques se rejouent exactement depuis tes fichiers (les fractions de ton programme de mai, les neuf chiffres du 27 mai), et un troisième se retrouve par un code indépendant. Et de la matière pour RO-07. Rien de plus.
+
+## 9. État de lecture
 
 | Texte | État |
 |---|---|
-| V346 (1 918 p.), armature V347.1, Livres 1 à 3, édition 2026 (les deux textes), livre annexe | lus |
-| V277 : tout ce qui manque à V346 (79 333 mots) | lu, noté |
-| Tome V277 bis (18 juillet), Cosmogonie V2 (20 mai) | lus, notés |
-| V152 à V246 (101 fichiers) | mesurés : 2 958 mots absents |
-| V281, V277 bis, V276, V275 | mesurés : rien d'absent |
-| v92 (avril, 2 367 lignes hors de la lignée suivante) | lu, noté |
-| v90, v91 (avril) | **non lus** |
-| Mes notes de V346, tomes du 18 juillet au 9 septembre (463 lignes) | relues en entier le 28 novembre |
-| Mes notes de V346, mai à mi-juillet (1 094 lignes) | **à relire dans le même but** |
-| Les douze programmes de mitose de l'auteur (archive V293) | exécutés tels quels ; les quelque 300 autres programmes de l'archive : **non lus** |
-| V107 à V109 : environ 28 000 mots ; V112 : 1 429 mots | **non lus** |
-| V294 à V345 (34 fichiers, attendus inclus dans V346) | **non vérifiés** |
-| Corpus maître du 3 août, laboratoire du dépôt, notes des sessions des 17 et 18 juillet | **non lus** |
-| Dossiers 04, 09, 10 et 91 de ton dossier (portes et audits, sauvegardes, documents en vrac, contenus uniques) | **non lus** |
-| Le Blob Surnaturel | **non lu** |
+| Armature V347.1 | relue en entier le 28 novembre |
+| Armature V347.2 (source Markdown, chez ChatGPT) | lue par différence exacte avec V347.1 : 72 phrases sur 899 |
+| Registre des 27 RO de V347.2 (tableur) | non lu : aperçu en grille ; les 27 RO sont lues dans l'armature |
+| Rapport C-235 de ChatGPT | lu en entier dans la page |
+| Registre des 27 mécanismes de C-235 | titres seulement |
+| Core 1.0 et son registre des affirmations | non retrouvés, non lus |
+| V346, livres 1 à 3, édition 2026 (les deux textes), livre annexe | lus |
+| V277 hors V346, tome V277 bis, « Cosmogonie V2 », v92 | lus, notés |
+| Mes notes de V346, mai à mi-juillet (1 094 lignes) | à relire |
+| v90, v91, V107 à V150 ; environ 300 programmes de ton archive ; corpus maître du 3 août ; dossiers 04, 09, 10, 91 ; Le Blob Surnaturel | non lus |
 
-## 9. Suite, dans l'ordre
+## 10. Suite, sur la seule ligne
 
-1. Relire mes notes de V346 pour mai à mi-juillet, et porter ce qui doit l'être : c'est là que la faute de ce soir peut se répéter.
-2. Instruire ce que la mesure des deux horloges demande : le même protocole sur un opérateur qui porte la calcification, le paroxysme ou le bain (registre, 4.1).
-3. Les autres pistes du registre : croissance par défaut, ouverture de l'escalier des paliers, bain à durée gelée, degré moyen du moteur complet, chiralité du 4 juillet.
-4. Finir la lecture : v91, v90, V107 à V112, V120 à V150 ; les programmes de ton archive ; les notes des 17 et 18 juillet ; les dossiers 04, 09, 10 et 91 ; le laboratoire.
-5. Reprendre la ligne de la cosmogonie au point 1 (la règle de fermeture), avec la mitose du 27 mai pour générateur.
+1. **Le premier maillon, dans les termes de l'armature : RO-24 et RO-25.** Écrire, à partir du récit (naissance sur place, héritage des liens, première fermeture qui bloque la mitose), une règle locale de ressources. C'est ce que le no-go de la mitose seule et le théorème de la clique exigent ensemble. L'éprouver par les quatre bras de C-236, cible scellée avant calcul.
+2. **Lire dans le bon sens.** Des dernières versions vers les anciennes, et jamais l'inverse sans dire le statut que la dernière version donne à ce que je remonte.
+3. **Le recoupement par ChatGPT** de X-21 à X-37 et de la règle du point 1 : sur ton mot, puisque c'est écrire dans ta conversation.
 
-Quatre faits à porter à ta connaissance, sans décision de ma part. La fusion de V277 et du tome V277 bis dans le master courant reste à faire : tant qu'elle ne l'est pas, tout lecteur de V346 fera mon erreur. Et l'alerte du 7 juin, toujours imprimée dans V346 (en-tête V197), donne un motif inexact : tant qu'elle y est, tout lecteur écartera une mesure réelle. Tes programmes de mitose du 27 mai ne sont pas au laboratoire : ils sont dans ton archive V293, et je ne les ai pas versés (ce sont tes fichiers). Et le « théorème central » imprimé dans V346 (« C₃ = 0 ») n'est pas celui de mars, dont l'énoncé exact (ΔC₂ = +0,1110 ; ΔC₃ = −0,0883) n'y figure plus.
+**Deux faits portés à ta connaissance, sans décision de ma part.** V347.2 et Core 1.0 ne sont pas au laboratoire : un lecteur extérieur y lit la V347.1, sans le contrôle de provenance des nombres. Je ne les ai pas versés, ce sont tes fichiers. Et le registre des 27 mécanismes de ChatGPT n'y est pas non plus.

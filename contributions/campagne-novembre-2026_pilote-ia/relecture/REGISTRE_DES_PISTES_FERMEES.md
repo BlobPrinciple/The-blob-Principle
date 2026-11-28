@@ -2,6 +2,8 @@
 
 Claude (pilote IA), ouvert le 28 novembre 2026 à la demande de l'auteur (11 h 40) : « depuis le début de nos recherches tu t'auto-censures et tu bloques certaines possibilités […] attention à ne pas saboter involontairement des éventualités qui auraient pu être zappées faute de prises de risques […] donc recheck bien ! » Version 2 du même jour, après relecture de mes propres notes du master V346 et de la fin du master v92.
 
+**Correction du 28 novembre, vers 16 h.** Parole de l'auteur (15 h 11) : « Ma cosmogonie n'a qu'une seule et unique version ». Deux choses changent ici. Le vocabulaire : ce registre parlait de « la cosmogonie du 27 mai » et de « deux théories sous un nom » ; il s'agit d'une réalisation calculée de la mitose, datée de mai, et de deux lignes techniques. La cosmogonie est une. Le statut : rouvrir une piste dans ce registre ne change aucun statut de l'armature V347.2, dont la règle est « Aucune résurrection. [R] et [FAIL] peuvent être racontés comme provenance ; ils ne redeviennent pas vrais par répétition. » Les mesures X-35 et X-37 portent sur des modèles archivés, [M][ARCH] ; voir le point complet du 28 novembre, section 8.
+
 ## 0. La faute de la version 1
 
 **Je l'ai écrite sans relire mes notes de lecture.** Elles font 1 557 lignes et couvrent V346 de la page 1 à la page 1 918. Deux conséquences.
@@ -24,7 +26,7 @@ B, C et D sont rouvertes. Rouvrir n'est pas valider : chaque réouverture porte 
 
 | Remarque de mes notes (pages de V346) | État au 28 novembre au soir |
 |---|---|
-| « La cosmogonie du 27 mai n'a jamais été réfutée, elle a été recouverte. À rétablir. » (p. 1090–1106) | Rétablie et rejouée : X-37, partie A |
+| « La cosmogonie du 27 mai n'a jamais été réfutée, elle a été recouverte. À rétablir. » (p. 1090–1106) | Rejouée : X-37, partie A. Vocabulaire corrigé le 28 novembre : une réalisation de la mitose, non « la cosmogonie » |
 | La reformulation de l'auteur sur les trois temps, « à porter telle quelle, comme la question ouverte la mieux posée du corpus » (p. 1490–1529) | Son protocole est exécuté : X-37, partie B |
 | Une loi d'expansion fixée par la part d'arêtes libres, « je la porte en tête du point complet » (p. 1454–1489) | Mesurée : X-37 (93 % des mitoses sur arêtes libres ; taux à 58 % de l'expansion pure) |
 | La croissance comme état par défaut : 1, 2, 5, 39, 685, 1 491 classes de 5 à 10 sommets, aucune marche ne redescend, « piste forte » (p. 1783–1795, 1809–1825) | Portée au point complet ; à instruire (4.2) |
@@ -32,11 +34,11 @@ B, C et D sont rouvertes. Rouvrir n'est pas valider : chaque réouverture porte 
 | L'estimateur de parité P∞ ne change pas sous miroir, « à porter sans atténuation » (p. 1636–1651) | Porté (3.3) |
 | La fermeture du clic, « le résultat le plus solide de ces pages » (p. 1892–1910) | Portée (3.2) |
 | Le bain comme attracteur, « l'hypothèse la plus féconde du corpus pour expliquer vingt campagnes sans point fixe » (p. 1892–1910) | Porté ; à instruire (4.4) |
-| « Deux théories sous un nom » : la fourche des filiations, décision réservée à l'auteur (p. 1623–1635) | Portée au point complet |
+| « Deux théories sous un nom » : la fourche des filiations, décision réservée à l'auteur (p. 1623–1635) | Portée au point complet. Vocabulaire corrigé le 28 novembre : deux lignes techniques, une cosmogonie |
 
 ## 2. Pistes rouvertes et instruites aujourd'hui
 
-### 2.1 La cosmogonie par mitose du 27 mai — recouverte le 10 juin (classe D), rétablie
+### 2.1 Les opérateurs de mitose du 27 mai (une réalisation de la mitose) — recouverts le 10 juin (classe D), rejoués
 
 **Histoire.** 27 mai : mitose par subdivision d'arête ; croissance exponentielle, loi de Hubble, vitesse locale bornée ; version native où S décide de chaque division ; w = −1 en expansion pure ; réserve écrite, « w(z) en régime mixte : chantier ». 10 juin : « w ≈ −1 supplanté », parce qu'une autre réalisation de la mitose (naissance d'un point dans une boîte) ne redonne pas −1.
 

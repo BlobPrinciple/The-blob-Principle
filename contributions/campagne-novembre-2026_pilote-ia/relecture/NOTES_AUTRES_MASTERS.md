@@ -353,3 +353,27 @@ Pilote, quatre remarques.
 3. **La définition de D change d'un document à l'autre.** Écart-type sur moyenne dans l'article v30 et dans le moteur de juillet ; variance sur moyenne dans ce manifeste ; variance dans l'extrait de script de la section 14. Les valeurs de D d'avril à mai (0,33 ; 0,57 ; 1,16) ne sont donc pas comparables entre elles sans relire chaque script. Je ne citerai aucune de ces valeurs au point complet.
 4. **Le test de « l'instinct du dépassement hérité » a échoué dans sa première forme, et la reformulation demandée n'apparaît pas dans ce que j'ai lu depuis.** C'est le seul test direct de l'idée que le descendant dépasse l'ancêtre, qui est l'« amélioration générationnelle » de l'armature (RO-22, « absente »). Deux documents, quatre mois d'écart, le même manque.
 
+## Armature V347.2 (9 septembre 2026, 29 pages) — lue le 28 novembre par différence exacte avec V347.1
+
+**Où elle est.** Dans la conversation ChatGPT de l'auteur « Correction extrapolation activité » (9 septembre) : PDF, DOCX, source Markdown, registre des 27 RO. L'auteur y a soumis la première armature (« Qu'en penses-tu ? ») ; les fichiers de V347.1, puis ceux de V347.2, y sont attachés aux réponses de ChatGPT ; V347.2 corrige les cinq points de mon audit de V347.1 (conversation Claude de septembre). Elle n'est ni au dépôt ni dans le dossier `00 COURANT` de l'auteur, qui ont la V347.1. Empreintes annoncées par ChatGPT pour l'édition synchronisée, non recalculées par moi : PDF `7afe69018a44e86924d49cb5a15e74ce1f4cdf698706a9aac3f9fa4ef8a085e5` ; DOCX `4961b137c5b6b2a8a811b8ec95c8c8ad0e6261b56f6092a9ab363145c05c6560`.
+
+**Il n'existe pas de V347.3.** ChatGPT, dans la même conversation : « aucun énoncé scientifique, aucun résidu et aucune RO n'ont changé ».
+
+**Méthode.** Source Markdown lue dans l'aperçu de la page ; comparaison phrase à phrase avec V347.1 (voir `REGISTRE_DE_LECTURE.md`). 72 phrases sur 899 diffèrent ; je les ai toutes lues. Le reste est identique à V347.1, lue en entier plus haut.
+
+**Ce qui change, dans les mots de V347.2.**
+
+- **Sa propre description** : « elle corrige la provenance numérique et l'édition sans modifier l'architecture scientifique ».
+- **Règle de version** : « V347.1 : armature canonique après troisième audit causal. V347.2 : armature canonique après quatrième audit de provenance numérique. »
+- **10.2** : le diagnostic porte sur N₃, et non N₄ (une triangulation de 3-variété n'a pas de N₄).
+- **10.4, six contrôles au lieu de cinq.** Nouveau : « (0-ter) vérifier la provenance de chaque nombre cité — taille L, graine, filtre légal/contaminé, définition de l'observable, unité et transformation appliquée — et recalculer tout intervalle dérivé à partir du même canal ». Et : « Aucun intervalle provenant d'un canal contaminé ne peut être transporté vers le canal certifié sans étiquette explicite. »
+- **11.7** : sur le canal certifié, minima des taux 7,501·10⁻⁶ à L = 4 et 2,75·10⁻⁷ à L = 5 ; « L'ordre 10⁻⁸ appartenait au canal contaminé et ne doit plus être cité comme propriété du canal certifié. »
+- **11.8** : taux inverse et activité complète sont deux objets ; l'activité n'égale l'inverse du taux que si z·ρ_e = 1 ; « Aucun intervalle numérique pour u_e ne doit donc être donné sans préciser z et ρ_e. »
+- **11.15** : le diagnostic de budget (×10⁴ à ×10⁶) est « indicatif seulement », faute de norme commune.
+- **II.8, le bain** : texte corrompu de V347.1 retiré. Falsificateur de l'hypothèse 8.1 : « dans ce cas le « bain » ne possède pas de jumeau dynamique dans le formalisme actuel ». RO-10 : « Une contraction R-TRUE marquée par la lignée est une possibilité de recherche, pas un résultat. » RO-11 : « Toute valeur de η est interdite avant RO-10 et avant une dérivation indépendante depuis le noyau courant. Les anciennes coïncidences numériques restent [R]/[FAIL]. »
+- **Plan de dépouillement** : quatre classes d'erreurs transversales (« signe algébrique, opération causale manquante (μ incapable de fermer), confusion d'objet topologique (∂Δ²/Δ²), et transport numérique entre canaux sans provenance explicite ») ; « Le contrôle 0-ter de 10.4 est obligatoire pour toute valeur numérique transportée depuis V346. »
+
+Pilote, trois remarques.
+1. **L'architecture est celle de V347.1.** Livre I, les treize chapitres, les trois strates, les deux ponts absents, les 27 RO, les résidus : inchangés. Mes notes de V347.1 valent pour V347.2, aux points ci-dessus près.
+2. **Le contrôle 0-ter s'applique à mes points.** Plusieurs nombres de mes points de novembre sont cités sans taille ni graine. Le point complet du 28 novembre (16 h) les donne quand je les ai, et renvoie au registre sinon.
+3. **RO-11 tranche une de mes phrases du jour.** J'écrivais que l'alerte du 7 juin faisait écarter « une mesure réelle » (les fractions à κ₀ = 4). La dernière armature maintient ces coïncidences en [R]/[FAIL] : ma mesure X-35 reste un fait sur un moteur archivé, pas une correspondance.
