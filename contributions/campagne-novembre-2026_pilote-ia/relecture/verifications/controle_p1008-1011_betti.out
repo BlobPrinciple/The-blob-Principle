@@ -1,0 +1,4 @@
+N=600 graine 1 | départ : b1 =   191, b1/E = 0.096, triangles 2084 | Blob : b1 =   415, b1/E = 0.210, triangles 3543 | Erdős–Rényi : b1 =  1331, b1/E = 0.672, triangles 51
+N=600 graine 2 | départ : b1 =   199, b1/E = 0.101, triangles 1864 | Blob : b1 =   401, b1/E = 0.203, triangles 3117 | Erdős–Rényi : b1 =  1335, b1/E = 0.674, triangles 46
+N=1000 graine 1 | départ : b1 =   324, b1/E = 0.098, triangles 3311 | Blob : b1 =   776, b1/E = 0.235, triangles 6102 | Erdős–Rényi : b1 =  2256, b1/E = 0.684, triangles 46
+N=1000 graine 2 | départ : b1 =   266, b1/E = 0.081, triangles 3441 | Blob : b1 =   733, b1/E = 0.222, triangles 5790 | Erdős–Rényi : b1 =  2255, b1/E = 0.683, triangles 47
