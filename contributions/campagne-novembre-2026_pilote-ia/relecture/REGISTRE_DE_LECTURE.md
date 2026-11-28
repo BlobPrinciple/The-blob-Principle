@@ -57,3 +57,5 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 | Kit multi-IA du 11 juillet ; article v30 ; manifestes v93.5, v96, v99.1 ; addendum v102 | 4 p. ; 8 p. ; 413, 619, 1 268, 289 lignes | complet | `NOTES_AUTRES_MASTERS.md` |
 | Livre 3 de « Du simplexe au complexe » (juillet 2026) et carte des révisions V2 → V3 | 8 733 lignes ; 1 page | complet | `NOTES_LIVRES.md` |
 | Livres 1 et 2, révision du 17 mai : tout ce qui n'est pas dans le livre 3 (livre 2 : rien ; livre 1 : 7 420 mots ; révision : son en-tête) | écarts complets | complet | `NOTES_LIVRES.md` |
+| Édition 2026, PDF final illustré (septembre 2026) | 2 807 lignes ; 106 pages | complet | `NOTES_LIVRES.md` |
+| Édition 2026, texte Markdown du dépôt (autre état du livre) : tout ce qui n'est ni dans les livres 1 à 3 ni dans le PDF final, dont les 52 notes de rigueur | 6 300 mots en 143 passages | complet | `NOTES_LIVRES.md` |
