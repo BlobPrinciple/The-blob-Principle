@@ -1,0 +1,13 @@
+Balayage en kappa (tau = 0,50)
+  kappa =  4.0 : Blob +0.104 (graines +0.117, +0.090), 1.77 triangles par sommet ; graphe géométrique +0.181, 1.36 triangles par sommet
+  kappa =  5.0 : Blob +0.020 (graines +0.020, +0.020), 2.24 triangles par sommet ; graphe géométrique +0.150, 2.14 triangles par sommet
+  kappa =  6.6 : Blob -0.030 (graines -0.037, -0.024), 2.92 triangles par sommet ; graphe géométrique +0.141, 3.77 triangles par sommet
+  kappa =  8.0 : Blob -0.064 (graines -0.061, -0.067), 3.63 triangles par sommet ; graphe géométrique +0.120, 5.53 triangles par sommet
+  kappa = 10.0 : Blob -0.057 (graines -0.078, -0.036), 5.28 triangles par sommet ; graphe géométrique +0.122, 8.75 triangles par sommet
+  kappa = 12.0 : Blob -0.050 (graines -0.048, -0.053), 7.25 triangles par sommet ; graphe géométrique +0.123, 12.65 triangles par sommet
+Balayage en tau (kappa = 6,6)
+  tau = 0.15 : Blob +0.178 (graines +0.171, +0.185), 6.13 triangles par sommet
+  tau = 0.25 : Blob +0.066 (graines +0.039, +0.093), 4.46 triangles par sommet
+  tau =  0.5 : Blob -0.031 (graines -0.024, -0.038), 2.92 triangles par sommet
+  tau =  1.0 : Blob -0.097 (graines -0.094, -0.100), 2.16 triangles par sommet
+  tau =  2.0 : Blob -0.088 (graines -0.111, -0.065), 1.96 triangles par sommet

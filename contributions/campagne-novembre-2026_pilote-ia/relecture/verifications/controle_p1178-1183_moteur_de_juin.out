@@ -1,0 +1,20 @@
+rayon du réservoir / rayon de Rips = 1.375 (moteur de juin) ; 1,6 (moteur du 30 mai)
+graine 1 :
+   départ (aucun pas)       triangles/sommet 1.75 ; dispersion des degrés 0.439 ; P = 0.5273 sur 440 paires
+   graphe géométrique       triangles/sommet 3.69 ; dispersion des degrés 0.438 ; P = 0.5073 sur 19997 paires
+   Blob (80 N pas)          triangles/sommet 3.00 ; dispersion des degrés 0.571 ; P = 0.5340 sur 51878 paires ; <chi> = +0.0008
+   Blob vu dans un miroir   P = 0.5340 ; <chi> = -0.0008
+   faces du Blob : 23 % sans tétraèdre ; parmi les autres, médiane 3 tétraèdres par face, 46 % en portent deux au plus, maximum 19
+graine 2 :
+   départ (aucun pas)       triangles/sommet 1.69 ; dispersion des degrés 0.444 ; P = 0.5459 sur 370 paires
+   graphe géométrique       triangles/sommet 3.73 ; dispersion des degrés 0.445 ; P = 0.5087 sur 20878 paires
+   Blob (80 N pas)          triangles/sommet 3.01 ; dispersion des degrés 0.581 ; P = 0.5438 sur 55513 paires ; <chi> = -0.0105
+   Blob vu dans un miroir   P = 0.5438 ; <chi> = +0.0105
+   faces du Blob : 23 % sans tétraèdre ; parmi les autres, médiane 3 tétraèdres par face, 42 % en portent deux au plus, maximum 15
+graine 3 :
+   départ (aucun pas)       triangles/sommet 1.73 ; dispersion des degrés 0.423 ; P = 0.5175 sur 458 paires
+   graphe géométrique       triangles/sommet 3.70 ; dispersion des degrés 0.431 ; P = 0.4996 sur 18921 paires
+   Blob (80 N pas)          triangles/sommet 2.63 ; dispersion des degrés 0.512 ; P = 0.5396 sur 9497 paires ; <chi> = +0.0147
+   Blob vu dans un miroir   P = 0.5396 ; <chi> = -0.0147
+   faces du Blob : 29 % sans tétraèdre ; parmi les autres, médiane 2 tétraèdres par face, 62 % en portent deux au plus, maximum 10
+distance apex-apex, trois graines : même côté 0.0808 (63017 paires) ; côtés opposés 0.1092 (53871 paires) ; part du même côté 0.5391
