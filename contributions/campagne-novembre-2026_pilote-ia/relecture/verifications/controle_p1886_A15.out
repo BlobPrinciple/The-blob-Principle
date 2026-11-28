@@ -1,0 +1,19 @@
+m = 3 : N0 = 216, N1 = 1458, N2 = 2484, N3 = 1242, Euler = 0
+   N1 = N0 + N3 : True ; N2 = 2 N3 : True ; triangles dans exactement 2 tétraèdres : 2484/2484
+   points sur chaque sphère circonscrite (4 = non dégénéré) : {4: 1242} ; rayons de 0.349386 à 0.360844
+   degrés d'arêtes : {5: 1296, 6: 162} ; coordination moyenne = 46/9 = 5.111111
+   somme par sommet de (6 - degré) : {12: 216}
+   nombre de voisins par sommet : {12: 54, 14: 162}
+   tétraèdres par nombre d'arêtes de degré 6 : {(0, '-'): 432, (1, '-'): 648, (2, 'opposées'): 162}
+   E = 864, T = 648, E/T = 4/3, delta = 1/2 - (3/4) E/T = -1/2
+   X56 = somme c(c-1) avec c = 6 - degré : 0
+m = 4 : N0 = 512, N1 = 3456, N2 = 5888, N3 = 2944, Euler = 0
+   N1 = N0 + N3 : True ; N2 = 2 N3 : True ; triangles dans exactement 2 tétraèdres : 5888/5888
+   points sur chaque sphère circonscrite (4 = non dégénéré) : {4: 2944} ; rayons de 0.349386 à 0.360844
+   degrés d'arêtes : {5: 3072, 6: 384} ; coordination moyenne = 46/9 = 5.111111
+   somme par sommet de (6 - degré) : {12: 512}
+   nombre de voisins par sommet : {12: 128, 14: 384}
+   tétraèdres par nombre d'arêtes de degré 6 : {(0, '-'): 1024, (1, '-'): 1536, (2, 'opposées'): 384}
+   E = 2048, T = 1536, E/T = 4/3, delta = 1/2 - (3/4) E/T = -1/2
+   X56 = somme c(c-1) avec c = 6 - degré : 0
+cible plate d* = 2 pi / arccos(1/3) = 5.104299 ; A15 : 138/27 = 5.111111 ; écart relatif +0.1335%
