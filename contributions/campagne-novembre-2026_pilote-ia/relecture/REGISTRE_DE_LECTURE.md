@@ -49,4 +49,4 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 
 | Document | Pages | Lu | Notes |
 |---|---|---|---|
-| Master V346 complet | 1 918 | 1 à 1 453 | `NOTES_V346.md` |
+| Master V346 complet | 1 918 | 1 à 1 489 | `NOTES_V346.md` |
