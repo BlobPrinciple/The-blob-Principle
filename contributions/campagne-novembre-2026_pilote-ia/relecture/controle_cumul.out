@@ -1,0 +1,31 @@
+{
+ "V346": {
+  "lignes_de_texte": 47574,
+  "distinctes": 46413,
+  "repetees_a_l_identique": 1161
+ },
+ "V311": {
+  "lignes_de_texte": 38248,
+  "absentes_mot_pour_mot_de_V346": 0,
+  "mots_absents": 0
+ },
+ "V315": {
+  "lignes_de_texte": 38703,
+  "absentes_mot_pour_mot_de_V346": 0,
+  "mots_absents": 0
+ },
+ "V316": {
+  "lignes_de_texte": 39522,
+  "absentes_mot_pour_mot_de_V346": 0,
+  "mots_absents": 0
+ },
+ "V319": {
+  "lignes_de_texte": 40056,
+  "absentes_mot_pour_mot_de_V346": 0,
+  "mots_absents": 0
+ },
+ "V346_au_dela_de_V319": {
+  "lignes": 7509,
+  "mots": 102715
+ }
+}
