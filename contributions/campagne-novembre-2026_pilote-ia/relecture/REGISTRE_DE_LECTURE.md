@@ -54,3 +54,4 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 | 260 phrases des masters V111 à V230 absentes de V346 | 260 lignes | 1 à 260 (complet) | `NOTES_AUTRES_MASTERS.md` |
 | Armature canonique V347.1 (9 septembre) | 29 | 1 à 29 (complet) | `NOTES_AUTRES_MASTERS.md` |
 | « Master scientifique, version propre du 7 juillet » (Blob MASTER PROPRE LIVRE ; contient les Parties absentes de V346) | 4 833 lignes | 1 à 4 833 (complet) | `NOTES_AUTRES_MASTERS.md` |
+| Kit multi-IA du 11 juillet ; article v30 ; manifestes v93.5, v96, v99.1 ; addendum v102 | 4 p. ; 8 p. ; 413, 619, 1 268, 289 lignes | complet | `NOTES_AUTRES_MASTERS.md` |
