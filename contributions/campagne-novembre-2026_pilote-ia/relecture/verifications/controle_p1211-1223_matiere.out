@@ -1,0 +1,14 @@
+(1) Tétraèdres du Blob simulé
+moteur de juin, graine 1     triangles 4505, tétraèdres 3871, cliques à 5 sommets 4212 ; tétraèdres selon leurs faces libres (0,1,2,3,4) : [3471, 62, 162, 128, 48] ; part à 4 faces libres 1.2% ; part contenue dans une clique à 5 : 89.3%
+moteur de juin, graine 2     triangles 4515, tétraèdres 4077, cliques à 5 sommets 4659 ; tétraèdres selon leurs faces libres (0,1,2,3,4) : [3690, 67, 160, 118, 42] ; part à 4 faces libres 1.0% ; part contenue dans une clique à 5 : 90.4%
+moteur du 30 mai, départ, g. 1 triangles 2585, tétraèdres 1522, cliques à 5 sommets 667 ; tétraèdres selon leurs faces libres (0,1,2,3,4) : [1283, 20, 84, 107, 28] ; part à 4 faces libres 1.8% ; part contenue dans une clique à 5 : 84.2%
+moteur du 30 mai, Blob, g. 1 triangles 5109, tétraèdres 14676, cliques à 5 sommets 32502 ; tétraèdres selon leurs faces libres (0,1,2,3,4) : [14620, 13, 12, 17, 14] ; part à 4 faces libres 0.1% ; part contenue dans une clique à 5 : 99.6%
+moteur du 30 mai, départ, g. 2 triangles 2679, tétraèdres 1465, cliques à 5 sommets 501 ; tétraèdres selon leurs faces libres (0,1,2,3,4) : [1217, 27, 94, 102, 25] ; part à 4 faces libres 1.7% ; part contenue dans une clique à 5 : 83.0%
+moteur du 30 mai, Blob, g. 2 triangles 4043, tétraèdres 8753, cliques à 5 sommets 15003 ; tétraèdres selon leurs faces libres (0,1,2,3,4) : [8674, 5, 26, 34, 14] ; part à 4 faces libres 0.2% ; part contenue dans une clique à 5 : 99.1%
+(2) Groupe de symétrie du simplexe à n sommets (groupe symétrique S_n) : sous-groupes normaux
+  n = 3 (simplexe de dimension 2) : ordre 6 ; ordres des sous-groupes normaux engendrés par une classe de conjugaison : [3, 6]
+  n = 4 (simplexe de dimension 3) : ordre 24 ; ordres des sous-groupes normaux engendrés par une classe de conjugaison : [4, 12, 24]
+  n = 5 (simplexe de dimension 4) : ordre 120 ; ordres des sous-groupes normaux engendrés par une classe de conjugaison : [60, 120]
+  n = 6 (simplexe de dimension 5) : ordre 720 ; ordres des sous-groupes normaux engendrés par une classe de conjugaison : [360, 720]
+(3) Module de la moyenne de 729 phases Z3 aléatoires
+  moyenne 0.033 ; intervalle à 90 % [0.009 ; 0.065] ; avec 80 phases : 0.100
