@@ -1,0 +1,73 @@
+X-35 -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 28 novembre 2026.
+Parole de l'auteur, 28 novembre, 11 h 40, heure de Paris : << tu lis tout et tu fais bien attention a une chose importante ! depuis le debut
+de nos recherches tu t'auto-censures et tu bloques certaines possibilites [...] attention a ne pas saboter involontairement des eventualites
+qui auraient pu etre zappees faute de prises de risques [...] donc recheck bien ! >>
+
+TOE 0/7. Aucun verrou ferme. Ce controle ne peut en fermer aucun : il dit seulement si une mesure du corpus se reproduit, tient en taille,
+et de quels choix elle depend. Il ne dit pas que des fractions de sommets sont des densites d'energie.
+
+POURQUOI CETTE PISTE
+En relisant V346 sous l'angle demande, je trouve que la << voie cosmologique a kappa0 = 4 >> n'a pas ete fermee par une mesure negative.
+Releve (V346, numeros de ligne du texte extrait) :
+  - V122, l. 23383 : a kappa0 = 4, << 1 parametre justifie a priori comme dim espace-temps >>, classeur << 100 % intrinseque, sans calibration
+    Planck >>, valeurs asymptotiques 0,7042 +/- 0,0051 ; 0,2568 ; 0,0414 +/- 0,0017, avec les tensions ecrites (2,2 sigma et 4 sigma).
+  - XIII.3, l. 30240 : 13 graines, 0,690 ; 0,263 ; 0,047, << theta = (kappa0 - 2)/kappa0 = 0,5, derive, non ajustable >>.
+  - Section 22 (28 mai), l. 42519 a 42690 : 5 graines a N = 1000 (0,682 ; 0,279 ; 0,039) ; N = 1500 (0,690 ; 0,266 ; 0,044) ; N = 2000
+    (0,671 ; 0,285 ; 0,043) ; << kappa0 = 4 designe l'univers mur, kappa0 >= 6,6 l'univers jeune >> ; statut << [M] consolide >>.
+  - << Reparation V118, validation >> (28 mai), l. 42770 a 42960 : valide jusqu'a N = 3000 sous theta derive = 0,338, critere de refutation
+    ecrit pour un relecteur.
+  - En-tete V197 (7 juin), l. 5256 et 48913 : << AUCUN accord Planck a 1 % (fausse coincidence retractee, a ne jamais reintroduire) >>,
+    motif ecrit : << valeurs-cibles LambdaCDM inscrites a tort comme mesures du Blob >>, exemple donne : << Omega_Lambda = 0,704 vs 0,6847 >>.
+    Or 0,704 est, dans V122, une mesure du Blob, et 0,6847 la valeur de Planck. Le motif ecrit ne correspond pas a ce que je lis.
+  - CII.5 (7 juin), l. 49648 : la meme mesure refaite donne 0,679 +/- 0,019 ; 0,271 +/- 0,024 ; 0,050 +/- 0,011 a kappa = 4, et echoue a
+    kappa = 6,6. Conclusion ecrite : << croisement ajuste en kappa >>, << non reintroduite >>, << seul fait kappa-robuste digne d'un suivi
+    honnete : f_b = 0,049, a confirmer en N >>. Je ne trouve aucun suivi.
+  - 4 juillet (master V277) : << ce territoire est mort >>, << aucune comparaison aux valeurs de Planck >>.
+Donc : une mesure reproduite au moins quatre fois dans le corpus, retiree par une alerte dont le motif ecrit est inexact, puis tenue a l'ecart
+par consigne. Objections reelles deja ecrites par le corpus et que je garde : kappa0 est-il fixe avant ou apres ? (V122 dit avant) ; le classeur
+a ete reconstruit apres un echec (V107, [FAIL]) alors que la cible etait connue ; d'autres comptages donnent 0,07 ; 0,6 ; 2,13 pour le
+rapport matiere noire / baryons ; aucune chaine ne relie une fraction de sommets a une densite (V116, AC-10).
+
+CE QUI EST CONNU AU MOMENT DU SCELLEMENT
+Les nombres ci-dessus. Le programme de l'auteur, blob_v137_source.py (SHA-256 42f3191114287e4fe1810cbb475a826d6c46b65bb6f4335efd25179cf5c29df5),
+lu en entier. Aucun calcul de fractions n'a ete fait par moi. Le programme x35_fractions_kappa4.py est ecrit et depose avec ce fichier.
+
+PROTOCOLE (fige ici ; rien n'y sera change apres lecture d'un resultat)
+Valeurs de comparaison, celles du programme de l'auteur : 0,6847 ; 0,2645 ; 0,0490.
+Lecture principale : theta = 0,50 (valeur du programme). Lecture secondaire : theta = 0,338 (<< theta derive >> du 28 mai).
+A. Reference : le programme de l'auteur, non modifie, sa fonction demo_fractions (N = 1000, graines 0 a 9, kappa = 4).
+B. Mon moteur (ecrit sans importer le sien), dynamique de viabilite, kappa = 4, beta = 0,30, tau = 0,50, 130 N pas puis 30 N pas :
+   N = 1000 (graines 3500 a 3511) ; 2000 (3520 a 3527) ; 4000 (3530 a 3535) ; 8000 (3540 a 3543) ; 16000 (3550 a 3552) ; 32000 (3560, 3561).
+C. Temoin a budget egal : memes echanges, tous acceptes (aucune viabilite), memes nombres de pas : N = 1000 (3500 a 3505) ; N = 4000 (3530 a 3532).
+D. Balayage en kappa a N = 2000, graines 3570 a 3573 : kappa = 3,0 ; 3,5 ; 4,5 ; 5,0 ; 6,0 ; 6,6 ; 8,0.
+Conventions de rechange, calculees sur les memes etats : (i) coeurs stables sous le seuil ranges en matiere noire au lieu de Lambda ;
+(ii) seuil a la mediane au lieu de la moyenne ; (iii) theta = 0,338 ; 0,40 ; 0,45 ; 0,55 ; 0,60.
+Verification du classeur avant lecture : sur deux graphes identiques, mon classeur et celui de l'auteur doivent donner les memes trois fractions.
+Bandes de comparaison : 0,030 sur Lambda ; 0,030 sur la matiere noire ; 0,012 sur les baryons.
+Regle : si la reference A et mon moteur B different a N = 1000 de plus de deux erreurs types, mon moteur n'est pas fidele et toute comparaison
+est suspendue jusqu'a explication.
+
+PREDICTIONS (avec ma confiance)
+P1 (replication, N = 1000, 12 graines) : moyennes dans [0,66 ; 0,72], [0,24 ; 0,30], [0,035 ; 0,055]. Confiance 80 %.
+P2 (accord A et B) : mes moyennes a N = 1000 a moins de deux erreurs types de celles du programme de l'auteur. Confiance 75 %.
+P3 (temoin) : sans viabilite, f_b < 0,005 et f_Lambda < 0,60. Les fractions sont donc produites par la dynamique. Confiance 85 %.
+P4 (taille) : de N = 2000 a N = 32000, f_Lambda varie de moins de 0,05 et reste dans [0,62 ; 0,74] ; f_b reste dans [0,035 ; 0,060].
+   Confiance 65 %. Je ne sais pas predire le sens d'une derive : a N = 1000, les deux tiers du volume sont a moins d'un rayon de reserve d'une
+   face du cube, et cet effet de bord decroit lentement.
+P5 (tient-elle dans les bandes ?) : aux tailles N >= 4000, les trois fractions de la lecture principale sont dans leurs bandes. Confiance 45 %.
+   C'est la question, et je ne la connais pas.
+P6 (convention i) : coeurs sous le seuil ranges en matiere noire : f_Lambda dans [0,58 ; 0,65], donc hors bande. Confiance 80 %.
+P7 (convention ii) : seuil a la mediane : f_b dans [0,050 ; 0,075]. Confiance 80 %.
+P8 (convention iii) : a N = 1000, f_b bouge de moins de 0,012 quand theta va de 0,338 a 0,60. Confiance 70 %.
+P9 (kappa) : f_Lambda decroit de facon monotone de kappa = 3 a 8 ; f_b reste dans [0,03 ; 0,06] pour kappa de 4 a 6,6. Confiance 70 %.
+
+CE QUE CHAQUE ISSUE VOUDRA DIRE
+- P1, P2, P3 tenues et P5 tenue : la mesure est reproduite par un moteur independant et tient en taille. Elle redevient un fait [M] du corpus,
+  au statut du 28 mai, avec ses objections. L'alerte du 7 juin devra etre corrigee dans le master. Ce ne sera pas une confirmation de la cosmogonie :
+  il restera le choix du classeur et l'absence de chaine vers une densite.
+- P1 a P3 tenues et P5 fausse avec derive monotone : la mesure est reelle a petite taille et ne tient pas ; la voie est fermee, cette fois par
+  une mesure et non par une consigne.
+- P6 ou P7 tenues : l'accord depend d'un choix du classeur, a nommer comme tel. Ce n'est pas une refutation : c'est la reserve exacte.
+- Si P1 ou P2 tombent : je le dis en tete, et je cherche l'ecart avant toute autre lecture.
+Mon biais connu : je penche vers la prudence. Si la mesure tient, je l'ecris sans l'attenuer.
