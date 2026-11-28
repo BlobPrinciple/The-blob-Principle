@@ -1,0 +1,8 @@
+N=300 graine 1 départ cliques par taille [300, 990, 1048, 717, 380, 151, 44, 9, 1] ; plus grande clique 9 ; chi tronqué aux tétraèdres = -359 (-1.20 N) ; chi complet = -94 (-0.31 N)
+N=300 graine 1 Blob   cliques par taille [300, 990, 1649, 4264, 9057, 14443, 17576, 16526, 12073, 6834, 2956, 948, 213, 30, 2] ; plus grande clique 15 ; chi tronqué aux tétraèdres = -3305 (-11.02 N) ; chi complet = -209 (-0.70 N)
+N=300 graine 2 départ cliques par taille [300, 990, 916, 396, 83, 6] ; plus grande clique 6 ; chi tronqué aux tétraèdres = -170 (-0.57 N) ; chi complet = -93 (-0.31 N)
+N=300 graine 2 Blob   cliques par taille [300, 990, 1513, 2587, 3373, 3245, 2372, 1314, 531, 147, 25, 2] ; plus grande clique 12 ; chi tronqué aux tétraèdres = -1764 (-5.88 N) ; chi complet = -171 (-0.57 N)
+N=600 graine 1 départ cliques par taille [600, 1980, 2084, 1424, 785, 328, 90, 14, 1] ; plus grande clique 9 ; chi tronqué aux tétraèdres = -720 (-1.20 N) ; chi complet = -186 (-0.31 N)
+N=600 graine 1 Blob   cliques par taille [600, 1980, 3543, 9638, 21444, 36855, 49997, 54259, 47459, 33547, 19105, 8671, 3069, 816, 153, 18, 1] ; plus grande clique 17 ; chi tronqué aux tétraèdres = -7475 (-12.46 N) ; chi complet = -413 (-0.69 N)
+N=600 graine 2 départ cliques par taille [600, 1980, 1864, 890, 248, 33] ; plus grande clique 6 ; chi tronqué aux tétraèdres = -406 (-0.68 N) ; chi complet = -191 (-0.32 N)
+N=600 graine 2 Blob   cliques par taille [600, 1980, 3117, 6591, 10949, 13346, 12314, 8848, 5033, 2254, 767, 185, 28, 2] ; plus grande clique 14 ; chi tronqué aux tétraèdres = -4854 (-8.09 N) ; chi complet = -398 (-0.66 N)
