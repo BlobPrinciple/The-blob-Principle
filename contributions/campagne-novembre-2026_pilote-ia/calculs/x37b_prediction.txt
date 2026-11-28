@@ -1,0 +1,25 @@
+X-37 bis -- PREDICTION SCELLEE AVANT CALCUL (extension declaree apres lecture de X-37, hors du plan initial)
+Laboratoire du Principe du Blob. Claude (pilote IA), 28 novembre 2026. TOE 0/7.
+
+POURQUOI
+X-37 est lu. Deux choses restent a controler avant d'ecrire le resultat.
+1. Les fermetures de K4 par mitose sont constantes de 1 000 a 16 000 sommets (bras N). Le sont-elles encore plus loin ?
+2. Dans le bras C (mitose + age + dissipation), aux valeurs de l'auteur, 67,4 % des liens sont purs (0,9215 lien pur par sommet pour 1,3676 lien par
+   sommet). Ce nombre ressemble a une fraction cosmologique connue. Avant que quiconque le rapproche d'elle, il faut savoir s'il depend des trois taux
+   poses (mitose 0,3 ; structuration 0,12 ; dissipation 0,06). L'episode des fractions a kappa0 = 4 a montre ce que coute de ne pas le faire.
+
+PROTOCOLE (fige)
+E1. Programme scelle x37_deux_horloges.py, bras N, graines 0 a 7, jusqu'a 128 000 sommets. Lectures a 16 000, 32 000, 64 000, 128 000.
+E2. Programme x37b_sensibilite.py, operateur BlobCosmogonie de l'auteur sans retouche, 4 graines, lecture au premier pas ou N atteint 4 000, sept reglages :
+    la reference (0,3 ; 0,12 ; 0,06), puis structuration divisee et multipliee par deux, dissipation divisee et multipliee par deux, mitose divisee et
+    multipliee par deux.
+
+PREDICTIONS
+E1 : pente par graine de ln r(K4) contre ln N de valeur absolue inferieure a 0,05 sur 16 000 a 128 000 ; w = -1 a 0,01 pres entre 64 000 et 128 000.
+     Confiance 80 %.
+E2 : la part des liens purs sort de l'intervalle 0,674 +/- 0,05 pour au moins quatre des six reglages deplaces, et elle parcourt plus de 0,20 sur la
+     grille. Ce nombre est donc un effet des taux poses ; il ne peut etre rapproche d'aucune fraction observee. Confiance 90 %.
+
+CE QUE CHAQUE ISSUE VOUDRA DIRE
+E2 tenue : pas de coincidence a retenir ; la composition du regime mixte est une fonction des trois taux, et la question devient : qui fixe ces taux ?
+E2 fausse (la part resterait vers 0,67 quel que soit le reglage) : ce serait un invariant de l'operateur, a etudier comme tel. Mon pronostic est contre.
