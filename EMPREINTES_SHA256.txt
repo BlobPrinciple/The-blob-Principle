@@ -2365,7 +2365,7 @@ f322e39e512b17141060b4a0ea413a3bb4b39de18169906ac7dda2a441a0a073  ./contribution
 f48a57042434469e9f57d063d10364b0cc8a57d6c32f1cf0d82ab447073b9712  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x36_N6_E9.json
 43596e97480a1ec75e34e77210ffb1de3037f27958502f34c07ad1b5ff263361  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x36_bell_dans_H_blob.py
 2d2f1d2579602add370ffe94ebd53ddf608dd3af9c86a116aef9fea9e6986bf6  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x36_bell_dans_H_blob_prediction.txt
-011812174bcf7e759836f27434a65a693b6554e304387b1238ad5d763166f63e  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x37-resultat-2026-11-28.md
+1b4bea9b125cc31eac681a2def5f09c55bce3583f50c605875ade58666957f38  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x37-resultat-2026-11-28.md
 197bf05a076e26a11a57bfac46ee0577a7e781bc943d23149c18d2b92678babd  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x37_analyse.out
 2d8bf1d05b4b3b0ea55eb937420819d562fae0720a27e4856d5542065b228e8c  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x37_analyse.py
 f24284f0a057b5d7f9caa21ef3ccd9cc1a4b7196ee4ba29cafad346dad0431d2  ./contributions/campagne-novembre-2026_pilote-ia/calculs/x37_deux_horloges.py
