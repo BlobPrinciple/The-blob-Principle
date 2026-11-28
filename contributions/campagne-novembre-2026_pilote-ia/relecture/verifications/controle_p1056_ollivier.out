@@ -1,0 +1,6 @@
+départ (graine 1)    courbure moyenne +0.142 ; corr(courbure, triangles sur l'arête) = +0.64 ; corr(courbure, calcification des extrémités) = +0.22 ; corr(courbure, tétraèdres sur l'arête) = +0.43
+Blob (graine 1)      courbure moyenne -0.037 ; corr(courbure, triangles sur l'arête) = +0.84 ; corr(courbure, calcification des extrémités) = +0.73 ; corr(courbure, tétraèdres sur l'arête) = +0.75
+départ (graine 2)    courbure moyenne +0.062 ; corr(courbure, triangles sur l'arête) = +0.75 ; corr(courbure, calcification des extrémités) = +0.28 ; corr(courbure, tétraèdres sur l'arête) = +0.53
+Blob (graine 2)      courbure moyenne -0.023 ; corr(courbure, triangles sur l'arête) = +0.87 ; corr(courbure, calcification des extrémités) = +0.75 ; corr(courbure, tétraèdres sur l'arête) = +0.79
+départ (graine 3)    courbure moyenne +0.119 ; corr(courbure, triangles sur l'arête) = +0.73 ; corr(courbure, calcification des extrémités) = +0.32 ; corr(courbure, tétraèdres sur l'arête) = +0.56
+Blob (graine 3)      courbure moyenne -0.005 ; corr(courbure, triangles sur l'arête) = +0.86 ; corr(courbure, calcification des extrémités) = +0.74 ; corr(courbure, tétraèdres sur l'arête) = +0.78
