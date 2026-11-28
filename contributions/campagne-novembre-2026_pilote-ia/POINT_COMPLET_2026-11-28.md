@@ -124,11 +124,12 @@ Je ne sous-pesais pas le reste : le premier mouvement, le bit, le bain comme op�
 | V107 à V109 : environ 28 000 mots ; V112 : 1 429 mots | **non lus** |
 | V294 à V345 (34 fichiers, attendus inclus dans V346) | **non vérifiés** |
 | Corpus maître du 3 août, laboratoire du dépôt, notes des sessions des 17 et 18 juillet | **non lus** |
+| Dossiers 04, 09, 10 et 91 de ton dossier (portes et audits, sauvegardes, documents en vrac, contenus uniques) | **non lus** |
 | Le Blob Surnaturel | **non lu** |
 
 ## 9. Suite, dans l'ordre
 
-1. Lire v90 à v92 et V107 à V109 : c'est le seul bloc du corpus encore inconnu de moi.
+1. Lire v90 à v92 et V107 à V109 : c'est le plus gros bloc de masters encore inconnu de moi.
 2. Vérifier V294 à V345, puis le corpus maître et le laboratoire.
 3. Retrouver dans ton archive le script du 17 juillet pour trancher le témoin de gravité.
 4. Reprendre la ligne de la cosmogonie au point 1 (la règle de fermeture) avec ce que juillet avait déjà : prime locale, saturation, loi du Bain.
