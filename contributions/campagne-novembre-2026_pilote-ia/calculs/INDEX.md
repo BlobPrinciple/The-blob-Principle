@@ -1367,3 +1367,22 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-35 bis (les mêmes fractions en boîte périodique ; ajout non prévu au plan, prédiction écrite avant ce calcul) | `x35b_resultats.jsonl` | 17 028 |
 | X-35 bis (les mêmes fractions en boîte périodique ; ajout non prévu au plan, prédiction écrite avant ce calcul) | `x35b_tore.py` | 2 450 |
 | X-35 bis (les mêmes fractions en boîte périodique ; ajout non prévu au plan, prédiction écrite avant ce calcul) | `x35b_tore_prediction.txt` | 1 094 |
+| X-36 (valeur de Bell de l'état √π dans l'espace de Hilbert du Blob énuméré à 5 et 6 points ; prédiction scellée avant calcul, dont l'historique est corrigé par l'erratum du résultat) | `x36_bell_dans_H_blob_prediction.txt` | 3 723 |
+| X-36 (valeur de Bell de l'état √π dans l'espace de Hilbert du Blob énuméré à 5 et 6 points ; prédiction scellée avant calcul, dont l'historique est corrigé par l'erratum du résultat) | `x36_bell_dans_H_blob.py` | 6 836 |
+| X-36 (valeur de Bell de l'état √π dans l'espace de Hilbert du Blob énuméré à 5 et 6 points ; prédiction scellée avant calcul, dont l'historique est corrigé par l'erratum du résultat) | `x36_N5_E5.json` | 1 034 |
+| X-36 (valeur de Bell de l'état √π dans l'espace de Hilbert du Blob énuméré à 5 et 6 points ; prédiction scellée avant calcul, dont l'historique est corrigé par l'erratum du résultat) | `x36_N5_E6.json` | 1 054 |
+| X-36 (valeur de Bell de l'état √π dans l'espace de Hilbert du Blob énuméré à 5 et 6 points ; prédiction scellée avant calcul, dont l'historique est corrigé par l'erratum du résultat) | `x36_N6_E7.json` | 1 056 |
+| X-36 (valeur de Bell de l'état √π dans l'espace de Hilbert du Blob énuméré à 5 et 6 points ; prédiction scellée avant calcul, dont l'historique est corrigé par l'erratum du résultat) | `x36_N6_E9.json` | 1 085 |
+| X-36 (valeur de Bell de l'état √π dans l'espace de Hilbert du Blob énuméré à 5 et 6 points ; prédiction scellée avant calcul, dont l'historique est corrigé par l'erratum du résultat) | `x36-resultat-2026-11-28.md` | 5 701 |
+| X-37 (protocole des deux horloges de l'auteur, tome V305, sur ses opérateurs de mitose du 27 mai chargés sans modification ; prédiction scellée avant calcul ; 45 séries, identiques sur deux machines) | `x37_deux_horloges_prediction.txt` | 9 499 |
+| X-37 (protocole des deux horloges de l'auteur, tome V305, sur ses opérateurs de mitose du 27 mai chargés sans modification ; prédiction scellée avant calcul ; 45 séries, identiques sur deux machines) | `x37_deux_horloges.py` | 7 590 |
+| X-37 (protocole des deux horloges de l'auteur, tome V305, sur ses opérateurs de mitose du 27 mai chargés sans modification ; prédiction scellée avant calcul ; 45 séries, identiques sur deux machines) | `x37_series.jsonl` | 70 774 |
+| X-37 (protocole des deux horloges de l'auteur, tome V305, sur ses opérateurs de mitose du 27 mai chargés sans modification ; prédiction scellée avant calcul ; 45 séries, identiques sur deux machines) | `x37_analyse.py` | 8 573 |
+| X-37 (protocole des deux horloges de l'auteur, tome V305, sur ses opérateurs de mitose du 27 mai chargés sans modification ; prédiction scellée avant calcul ; 45 séries, identiques sur deux machines) | `x37_analyse.out` | 14 573 |
+| X-37 (protocole des deux horloges de l'auteur, tome V305, sur ses opérateurs de mitose du 27 mai chargés sans modification ; prédiction scellée avant calcul ; 45 séries, identiques sur deux machines) | `x37-resultat-2026-11-28.md` | 10 867 |
+| X-37, partie A (les douze programmes de mitose de l'auteur exécutés tels quels : dernières lignes des sorties et empreintes ; les programmes eux-mêmes ne sont pas versés) | `x37_partie_A_sorties.txt` | 8 335 |
+| X-37 bis (extension à 128 000 sommets et sensibilité de la composition aux taux posés ; prédiction scellée avant calcul) | `x37b_prediction.txt` | 2 117 |
+| X-37 bis (extension à 128 000 sommets et sensibilité de la composition aux taux posés ; prédiction scellée avant calcul) | `x37b_sensibilite.py` | 1 526 |
+| X-37 bis (extension à 128 000 sommets et sensibilité de la composition aux taux posés ; prédiction scellée avant calcul) | `x37b_sensibilite.jsonl` | 11 502 |
+| X-37 bis (extension à 128 000 sommets et sensibilité de la composition aux taux posés ; prédiction scellée avant calcul) | `x37b_extension.jsonl` | 20 485 |
+| X-37 bis (extension à 128 000 sommets et sensibilité de la composition aux taux posés ; prédiction scellée avant calcul) | `x37b_extension_analyse.out` | 4 504 |

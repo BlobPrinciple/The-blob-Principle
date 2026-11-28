@@ -56,3 +56,5 @@ Dans l'ordre du registre : T4 et le quantique (fermé le 4 juillet par une mesur
 ## 373. Fichiers
 
 `POINT_COMPLET_2026-11-28.md` ; `relecture/NOTES_MASTERS_HORS_DEPOT.md`, `relecture/REGISTRE_DES_PISTES_FERMEES.md`, `relecture/REGISTRE_DE_LECTURE.md` ; `calculs/x34_*`, `calculs/x34-*`, `calculs/x35_*`, `calculs/x35-*`, `calculs/x35b_*`. Rien n'a été modifié ni supprimé dans le dossier de l'auteur ; le programme `blob_v137_source.py` y a été exécuté sans modification, dans un espace de travail séparé.
+
+**Erratum du soir.** La section 372 dit le quantique « fermé le 4 juillet par une mesure qui ne pouvait rien voir ». Le corpus l'avait rouvert lui-même à six reprises ; voir le carnet « X-36 et X-37 », section 374, et le registre, version 2.

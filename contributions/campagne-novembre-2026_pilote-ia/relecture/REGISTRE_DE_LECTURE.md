@@ -69,9 +69,16 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 | V346, relu sous un angle précis : l'histoire des fractions à κ₀ = 4 (lignes 5120 à 5262, 21376 à 21412, 21960 à 22010, 23360 à 23445, 27690 à 27760, 28040 à 28145, 30232 à 30252, 42505 à 42962, 48690 à 48935, 49640 à 49700 du texte extrait) | passages cités | complet pour ces passages | `REGISTRE_DES_PISTES_FERMEES.md`, `calculs/x35-resultat-2026-11-28.md` |
 | Programmes de l'auteur lus : `blob_v137_source.py` (entier) ; `V116_combinaison_optimale.py`, `V118_grille_seuils.py`, `V118_principe_chi_mean.py`, `V118_principe_topologique.py` (commentaires et sorties) | 5 fichiers | complet pour le premier, partiel pour les quatre autres | `calculs/x35-resultat-2026-11-28.md` |
 
-## Ce qui manque encore, au 28 novembre après-midi
+## Lu ou relu le 28 novembre au soir
 
-- v90 à v92 (le reste), V107 à V112, et les masters antérieurs à V152 non encore extraits (V108, V109 première version, V127, V137-IV, V137 plus plus, V140, V141, V144, V145, V146).
+- Master v92 : les 2 367 lignes du texte hors lignée sont lues (notes : `NOTES_MASTERS_HORS_DEPOT.md`, tranches 1 à 5).
+- Mes notes de V346 pour les tomes du 18 juillet au 9 septembre (lignes 1 095 à 1 557 de `NOTES_V346.md`) : relues en entier, pour porter au point complet ce qui devait l'être. Neuf remarques ne l'avaient pas été (`REGISTRE_DES_PISTES_FERMEES.md`, section 1).
+- Les douze programmes de mitose de l'auteur du 27 mai (archive V293) : exécutés tels quels (`calculs/x37_partie_A_sorties.txt`).
+
+## Ce qui manque encore, au 28 novembre au soir
+
+- Mes notes de V346 pour mai à mi-juillet (lignes 1 à 1 094) : à relire dans le même but.
+- v90, v91, V107 à V112, et les masters antérieurs à V152 non encore extraits (V108, V109 première version, V127, V137-IV, V137 plus plus, V140, V141, V144, V145, V146).
 - V294 à V345 (34 fichiers), attendus inclus dans V346 : à vérifier par la même comparaison.
 - Le corpus maître du 3 août (≈ 63 000 mots hors V346) ; le laboratoire (`corpus/02` à `corpus/07`, contributions, documents de la racine).
 - Dans le dossier de l'auteur : les notes des séances des 17 et 18 juillet, les dossiers 04, 09, 10 et 91, et deux dossiers que je n'avais pas relevés ce matin (« 02 HISTORIQUE », « 07 PARADIGMES TECHNOLOGIQUES »).

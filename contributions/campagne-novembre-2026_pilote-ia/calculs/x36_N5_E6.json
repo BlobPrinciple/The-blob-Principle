@@ -1,0 +1,36 @@
+{
+ "N": 5,
+ "E": 6,
+ "beta": 0.3,
+ "tau": 0.5,
+ "graphes_connexes": 205,
+ "bilan_detaille_max": 1.6940658945086007e-21,
+ "residu_H_psi0": 7.66253520257718e-17,
+ "asymetrie_H": 2.6020852139652106e-18,
+ "plus_petite_valeur_propre": -3.9781126516104316e-16,
+ "trou_spectral": 0.2109299643867921,
+ "poids_de_l_etat_le_plus_probable": 0.008188741024783425,
+ "liens_region_A": 7,
+ "liens_region_B": 3,
+ "blob": {
+  "rang_de_Schmidt": 8,
+  "entropie_d_intrication_bits": 2.35344576870225,
+  "chsh_gisin": 2.5049338995299686,
+  "chsh_montee": 2.7351197822501323,
+  "chsh_grandeurs_lues_sur_la_configuration": 2.0
+ },
+ "temoin_uniforme_a_E_fixe": {
+  "rang_de_Schmidt": 6,
+  "entropie_d_intrication_bits": 1.6752109899172791,
+  "chsh_gisin": 2.611458969969062,
+  "chsh_montee": 2.7194380321451774,
+  "chsh_grandeurs_lues_sur_la_configuration": 2.0000000000000013
+ },
+ "temoin_produit": {
+  "rang_de_Schmidt": 1,
+  "entropie_d_intrication_bits": -0.0,
+  "chsh_gisin": 2.0,
+  "chsh_montee": 2.000000000000004,
+  "chsh_grandeurs_lues_sur_la_configuration": 2.0
+ }
+}

@@ -8,7 +8,7 @@ Ce dossier réunit tout ce que la campagne d'audit croisé a produit entre le 1e
 
 | Vous avez | Lisez |
 |---|---|
-| cinq minutes | [POINT_COMPLET_2026-11-28.md](POINT_COMPLET_2026-11-28.md) : le point le plus récent, après relecture des masters hors dépôt |
+| cinq minutes | [POINT_COMPLET_2026-11-28.md](POINT_COMPLET_2026-11-28.md) : le point le plus récent (mis à jour le 28 novembre au soir : cosmogonie du 27 mai rejouée, protocole des deux horloges exécuté, registre des pistes en version 2) |
 | dix minutes | [RAPPORT.md](RAPPORT.md) : le point complet du 13 novembre, les échecs en premier |
 | une demi-heure | [VALIDATION_DE_LA_COSMOGONIE.md](VALIDATION_DE_LA_COSMOGONIE.md) : les 90 principes de la cosmogonie, l'état de chacun, le compte |
 | une heure | [VERROUILLAGE_TOE_V2.md](VERROUILLAGE_TOE_V2.md) : la cosmogonie, principe par principe, avec le détail des épreuves |
@@ -19,8 +19,8 @@ Ce dossier réunit tout ce que la campagne d'audit croisé a produit entre le 1e
 
 | Dossier | Contenu |
 |---|---|
-| [`carnets/`](carnets/) | Trente-trois carnets de laboratoire, du 1er au 28 novembre. Chaque laboratoire y a sa section : question, protocole, prédiction, résultat, écarts déclarés. |
-| [`calculs/`](calculs/) | 327 programmes Python et sept fichiers Lean, leurs sorties, les prédictions écrites avant calcul et les déclarations d'exécution. [Index](calculs/INDEX.md). |
+| [`carnets/`](carnets/) | Trente-quatre carnets de laboratoire, du 1er au 28 novembre. Chaque laboratoire y a sa section : question, protocole, prédiction, résultat, écarts déclarés. |
+| [`calculs/`](calculs/) | 331 programmes Python et sept fichiers Lean, leurs sorties, les prédictions écrites avant calcul et les déclarations d'exécution. [Index](calculs/INDEX.md). |
 | [`relecture/`](relecture/) | La relecture intégrale demandée le 28 novembre : registre de lecture, notes par master et par livre, et le [registre des pistes fermées](relecture/REGISTRE_DES_PISTES_FERMEES.md) (qui a fermé chaque piste, et sur quoi). |
 | [`echanges/`](echanges/) | Les messages du pilote à ChatGPT (résultats et demandes de recoupement). |
 | [`chatgpt/`](chatgpt/) | Deux protocoles figés et deux passations de ChatGPT, à l'octet près, et les [empreintes](chatgpt/EMPREINTES.md) de tous ses fichiers. |

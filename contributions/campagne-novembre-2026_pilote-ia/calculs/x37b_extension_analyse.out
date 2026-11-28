@@ -1,0 +1,42 @@
+X-37, analyse. Series : 8 ; niveaux : (16000, 32000, 64000, 128000)
+
+===== BRAS N (mitose native, anneau de 40) : 8 graines =====
+niveau | N lu | pas | liens/N | purs/N (rho) | triangles/N | K4/N | degre max | K4 nes | K4 disparus | mitoses
+ 16000 |   19007 | 25.1 | 1.4045 | +0.5146 +/- 0.0021 (n=8) | 0.3667 | +0.01646 +/- 0.00040 (n=8) | 16.9 | 88.6 | 19.1 | 4034
+ 32000 |   37757 | 28.0 | 1.4022 | +0.5171 +/- 0.0018 (n=8) | 0.3628 | +0.01554 +/- 0.00037 (n=8) | 20.2 | 155.6 | 37.6 | 8021
+ 64000 |   68513 | 30.5 | 1.4014 | +0.5162 +/- 0.0011 (n=8) | 0.3620 | +0.01511 +/- 0.00020 (n=8) | 23.5 | 282.5 | 65.8 | 14494
+128000 |  139745 | 33.5 | 1.4026 | +0.5143 +/- 0.0006 (n=8) | 0.3634 | +0.01524 +/- 0.00019 (n=8) | 28.2 | 600.4 | 136.2 | 29467
+croissance, ln N contre le pas entre les niveaux 32000 et 128000 : pente +0.2380 +/- 0.0003 (n=8) ; R2 moyen 0.99999, minimum 0.99998
+densite d'aretes pures : pente locale d ln rho / d ln N, puis w = -pente - 1
+   16000 ->  32000 : pente +0.0066 +/- 0.0049 (n=8) ; w = -1.0066
+   32000 ->  64000 : pente -0.0022 +/- 0.0044 (n=8) ; w = -0.9978
+   64000 -> 128000 : pente -0.0050 +/- 0.0032 (n=8) ; w = -0.9950
+fermetures de K4 par mitose, r (rapport des sommes sur les graines, erreur type par reechantillonnage) :
+   16000 : r = 0.02197 +/- 0.00063 ; graines a zero fermeture : 0
+   32000 : r = 0.01940 +/- 0.00072 ; graines a zero fermeture : 0
+   64000 : r = 0.01949 +/- 0.00027 ; graines a zero fermeture : 0
+  128000 : r = 0.02037 +/- 0.00047 ; graines a zero fermeture : 0
+  pentes locales de ln r contre ln N (rapports des sommes ; erreur type par reechantillonnage des graines) :
+   16000 ->  32000 : pente -0.1810 +/- 0.0756   (g = +0.1810)
+   32000 ->  64000 : pente +0.0076 +/- 0.0730   (g = -0.0076)
+   64000 -> 128000 : pente +0.0622 +/- 0.0239   (g = -0.0622)
+  pente par graine sur les 4 niveaux (graines sans zero) : -0.0320 +/- 0.0200 (n=8)   donc g = +0.0320
+fermetures de triangles par mitose, r (rapport des sommes sur les graines, erreur type par reechantillonnage) :
+   16000 : r = 0.43167 +/- 0.00341 ; graines a zero fermeture : 0
+   32000 : r = 0.42605 +/- 0.00233 ; graines a zero fermeture : 0
+   64000 : r = 0.42724 +/- 0.00167 ; graines a zero fermeture : 0
+  128000 : r = 0.42995 +/- 0.00115 ; graines a zero fermeture : 0
+  pentes locales de ln r contre ln N (rapports des sommes ; erreur type par reechantillonnage des graines) :
+   16000 ->  32000 : pente -0.0191 +/- 0.0114   (g = +0.0191)
+   32000 ->  64000 : pente +0.0047 +/- 0.0063   (g = -0.0047)
+   64000 -> 128000 : pente +0.0089 +/- 0.0064   (g = -0.0089)
+  pente par graine sur les 4 niveaux (graines sans zero) : -0.0014 +/- 0.0047 (n=8)   donc g = +0.0014
+horloges de la matiere
+  H1, compte cumule T : d ln N / d ln temps = +1.0132 +/- 0.0105 (n=8) ; exposant de a = N^(1/3) : +0.3377 ; R2 loi de puissance 0.99953 ; R2 exponentielle 0.96132 ; pente locale au debut +1.067 +/- 0.024 (n=8), a la fin +0.979 +/- 0.026 (n=8)
+  H2, somme de K4 nes / N : d ln N / d ln temps = +6.9382 +/- 0.2282 (n=8) ; exposant de a = N^(1/3) : +2.3127 ; R2 loi de puissance 0.99945 ; R2 exponentielle 0.99959 ; pente locale au debut +6.676 +/- 0.274 (n=8), a la fin +7.227 +/- 0.229 (n=8)
+  H3, somme de K4 nes / K4 presents : d ln N / d ln temps = +7.1240 +/- 0.2034 (n=8) ; exposant de a = N^(1/3) : +2.3747 ; R2 loi de puissance 0.99956 ; R2 exponentielle 0.99965 ; pente locale au debut +6.903 +/- 0.242 (n=8), a la fin +7.459 +/- 0.223 (n=8)
+acceptation de la mitose selon le type de lien (rapport des sommes sur les graines) :
+   16000 : arete pure 0.9550 ; arete prise dans un triangle 0.0413 ; rapport 23.1 ; part des mitoses sur aretes pures 0.9323 ; taux de croissance du pas 0.2694 ; 0,5 x acceptation x rho = 0.2454 ; ecart relatif -0.0892 +/- 0.0044 (n=8)
+   32000 : arete pure 0.9543 ; arete prise dans un triangle 0.0415 ; rapport 23.0 ; part des mitoses sur aretes pures 0.9328 ; taux de croissance du pas 0.2699 ; 0,5 x acceptation x rho = 0.2471 ; ecart relatif -0.0843 +/- 0.0019 (n=8)
+   64000 : arete pure 0.9521 ; arete prise dans un triangle 0.0407 ; rapport 23.4 ; part des mitoses sur aretes pures 0.9336 ; taux de croissance du pas 0.2683 ; 0,5 x acceptation x rho = 0.2459 ; ecart relatif -0.0835 +/- 0.0011 (n=8)
+  128000 : arete pure 0.9529 ; arete prise dans un triangle 0.0404 ; rapport 23.6 ; part des mitoses sur aretes pures 0.9336 ; taux de croissance du pas 0.2672 ; 0,5 x acceptation x rho = 0.2450 ; ecart relatif -0.0829 +/- 0.0013 (n=8)

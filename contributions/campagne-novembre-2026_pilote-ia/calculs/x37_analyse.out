@@ -1,0 +1,146 @@
+X-37, analyse. Series : 45 ; niveaux : (1000, 2000, 4000, 8000, 16000)
+
+===== BRAS N (mitose native, anneau de 40) : 20 graines =====
+niveau | N lu | pas | liens/N | purs/N (rho) | triangles/N | K4/N | degre max | K4 nes | K4 disparus | mitoses
+  1000 |    1124 | 12.8 | 1.3931 | +0.4953 +/- 0.0049 (n=20) | 0.3656 | +0.01481 +/- 0.00081 (n=20) | 8.6 | 5.3 | 1.4 | 230
+  2000 |    2231 | 15.8 | 1.4006 | +0.5032 +/- 0.0034 (n=20) | 0.3671 | +0.01522 +/- 0.00067 (n=20) | 10.2 | 10.3 | 2.2 | 465
+  4000 |    4565 | 18.8 | 1.4021 | +0.5094 +/- 0.0029 (n=20) | 0.3675 | +0.01628 +/- 0.00057 (n=20) | 11.9 | 21.6 | 4.5 | 957
+  8000 |    9144 | 21.8 | 1.4019 | +0.5126 +/- 0.0018 (n=20) | 0.3645 | +0.01563 +/- 0.00047 (n=20) | 14.1 | 39.3 | 10.1 | 1915
+ 16000 |   18208 | 24.6 | 1.4033 | +0.5129 +/- 0.0012 (n=20) | 0.3653 | +0.01581 +/- 0.00034 (n=20) | 16.3 | 79.4 | 18.9 | 3845
+croissance, ln N contre le pas entre les niveaux 2000 et 16000 : pente +0.2358 +/- 0.0008 (n=20) ; R2 moyen 0.99993, minimum 0.99963
+densite d'aretes pures : pente locale d ln rho / d ln N, puis w = -pente - 1
+    1000 ->   2000 : pente +0.0251 +/- 0.0114 (n=20) ; w = -1.0251
+    2000 ->   4000 : pente +0.0171 +/- 0.0058 (n=20) ; w = -1.0171
+    4000 ->   8000 : pente +0.0100 +/- 0.0093 (n=20) ; w = -1.0100
+    8000 ->  16000 : pente +0.0013 +/- 0.0045 (n=20) ; w = -1.0013
+fermetures de K4 par mitose, r (rapport des sommes sur les graines, erreur type par reechantillonnage) :
+    1000 : r = 0.02299 +/- 0.00248 ; graines a zero fermeture : 1
+    2000 : r = 0.02213 +/- 0.00187 ; graines a zero fermeture : 0
+    4000 : r = 0.02263 +/- 0.00079 ; graines a zero fermeture : 0
+    8000 : r = 0.02052 +/- 0.00068 ; graines a zero fermeture : 0
+   16000 : r = 0.02065 +/- 0.00059 ; graines a zero fermeture : 0
+  pentes locales de ln r contre ln N (rapports des sommes ; erreur type par reechantillonnage des graines) :
+    1000 ->   2000 : pente -0.0556 +/- 0.2116   (g = +0.0556)
+    2000 ->   4000 : pente +0.0310 +/- 0.1191   (g = -0.0310)
+    4000 ->   8000 : pente -0.1408 +/- 0.0735   (g = +0.1408)
+    8000 ->  16000 : pente +0.0092 +/- 0.0607   (g = -0.0092)
+  pente par graine sur les 5 niveaux (graines sans zero) : -0.0323 +/- 0.0308 (n=19)   donc g = +0.0323
+fermetures de triangles par mitose, r (rapport des sommes sur les graines, erreur type par reechantillonnage) :
+    1000 : r = 0.44534 +/- 0.01001 ; graines a zero fermeture : 0
+    2000 : r = 0.44064 +/- 0.00890 ; graines a zero fermeture : 0
+    4000 : r = 0.43044 +/- 0.00552 ; graines a zero fermeture : 0
+    8000 : r = 0.42552 +/- 0.00363 ; graines a zero fermeture : 0
+   16000 : r = 0.43237 +/- 0.00225 ; graines a zero fermeture : 0
+  pentes locales de ln r contre ln N (rapports des sommes ; erreur type par reechantillonnage des graines) :
+    1000 ->   2000 : pente -0.0155 +/- 0.0335   (g = +0.0155)
+    2000 ->   4000 : pente -0.0327 +/- 0.0249   (g = +0.0327)
+    4000 ->   8000 : pente -0.0165 +/- 0.0249   (g = +0.0165)
+    8000 ->  16000 : pente +0.0232 +/- 0.0152   (g = -0.0232)
+  pente par graine sur les 5 niveaux (graines sans zero) : -0.0130 +/- 0.0082 (n=20)   donc g = +0.0130
+horloges de la matiere
+  H1, compte cumule T : d ln N / d ln temps = +0.9717 +/- 0.0158 (n=20) ; exposant de a = N^(1/3) : +0.3239 ; R2 loi de puissance 0.99560 ; R2 exponentielle 0.92186 ; pente locale au debut +1.033 +/- 0.106 (n=20), a la fin +1.015 +/- 0.036 (n=20)
+  H2, somme de K4 nes / N : d ln N / d ln temps = +3.7742 +/- 0.1740 (n=20) ; exposant de a = N^(1/3) : +1.2581 ; R2 loi de puissance 0.98672 ; R2 exponentielle 0.99600 ; pente locale au debut +3.266 +/- 0.386 (n=20), a la fin +4.966 +/- 0.259 (n=20)
+  H3, somme de K4 nes / K4 presents : d ln N / d ln temps = +4.4435 +/- 0.1558 (n=20) ; exposant de a = N^(1/3) : +1.4812 ; R2 loi de puissance 0.99048 ; R2 exponentielle 0.99701 ; pente locale au debut +3.869 +/- 0.398 (n=20), a la fin +5.599 +/- 0.219 (n=20)
+acceptation de la mitose selon le type de lien (rapport des sommes sur les graines) :
+    1000 : arete pure 0.9573 ; arete prise dans un triangle 0.0419 ; rapport 22.9 ; part des mitoses sur aretes pures 0.9299 ; taux de croissance du pas 0.2581 ; 0,5 x acceptation x rho = 0.2367 ; ecart relatif -0.0820 +/- 0.0085 (n=20)
+    2000 : arete pure 0.9572 ; arete prise dans un triangle 0.0380 ; rapport 25.2 ; part des mitoses sur aretes pures 0.9363 ; taux de croissance du pas 0.2635 ; 0,5 x acceptation x rho = 0.2413 ; ecart relatif -0.0833 +/- 0.0076 (n=20)
+    4000 : arete pure 0.9530 ; arete prise dans un triangle 0.0385 ; rapport 24.7 ; part des mitoses sur aretes pures 0.9354 ; taux de croissance du pas 0.2653 ; 0,5 x acceptation x rho = 0.2418 ; ecart relatif -0.0880 +/- 0.0044 (n=20)
+    8000 : arete pure 0.9516 ; arete prise dans un triangle 0.0401 ; rapport 23.7 ; part des mitoses sur aretes pures 0.9333 ; taux de croissance du pas 0.2649 ; 0,5 x acceptation x rho = 0.2428 ; ecart relatif -0.0832 +/- 0.0044 (n=20)
+   16000 : arete pure 0.9542 ; arete prise dans un triangle 0.0412 ; rapport 23.1 ; part des mitoses sur aretes pures 0.9321 ; taux de croissance du pas 0.2677 ; 0,5 x acceptation x rho = 0.2446 ; ecart relatif -0.0864 +/- 0.0028 (n=20)
+
+===== BRAS C (mitose + age + dissipation, anneau de 40) : 20 graines =====
+niveau | N lu | pas | liens/N | purs/N (rho) | triangles/N | K4/N | degre max | K4 nes | K4 disparus | mitoses
+  1000 |    1219 | 10.8 | 1.3684 | +0.9142 +/- 0.0048 (n=20) | 0.1639 | +0.00072 +/- 0.00022 (n=20) | 13.3 | 0.8 | 0.7 | 356
+  2000 |    2422 | 12.8 | 1.3677 | +0.9198 +/- 0.0030 (n=20) | 0.1621 | +0.00070 +/- 0.00013 (n=20) | 16.1 | 1.4 | 0.7 | 701
+  4000 |    4825 | 14.8 | 1.3671 | +0.9185 +/- 0.0024 (n=20) | 0.1618 | +0.00059 +/- 0.00008 (n=20) | 18.9 | 2.2 | 2.3 | 1407
+  8000 |    9763 | 16.9 | 1.3682 | +0.9201 +/- 0.0019 (n=20) | 0.1624 | +0.00067 +/- 0.00006 (n=20) | 22.8 | 6.0 | 3.2 | 2852
+ 16000 |   19781 | 18.9 | 1.3676 | +0.9215 +/- 0.0013 (n=20) | 0.1617 | +0.00072 +/- 0.00003 (n=20) | 27.6 | 12.7 | 8.7 | 5782
+croissance, ln N contre le pas entre les niveaux 2000 et 16000 : pente +0.3443 +/- 0.0006 (n=20) ; R2 moyen 0.99997, minimum 0.99986
+densite d'aretes pures : pente locale d ln rho / d ln N, puis w = -pente - 1
+    1000 ->   2000 : pente +0.0088 +/- 0.0105 (n=20) ; w = -1.0088
+    2000 ->   4000 : pente -0.0021 +/- 0.0052 (n=20) ; w = -0.9979
+    4000 ->   8000 : pente +0.0027 +/- 0.0054 (n=20) ; w = -1.0027
+    8000 ->  16000 : pente +0.0022 +/- 0.0041 (n=20) ; w = -1.0022
+fermetures de K4 par mitose, r (rapport des sommes sur les graines, erreur type par reechantillonnage) :
+    1000 : r = 0.00211 +/- 0.00072 ; graines a zero fermeture : 10
+    2000 : r = 0.00200 +/- 0.00038 ; graines a zero fermeture : 7
+    4000 : r = 0.00160 +/- 0.00024 ; graines a zero fermeture : 3
+    8000 : r = 0.00212 +/- 0.00022 ; graines a zero fermeture : 0
+   16000 : r = 0.00220 +/- 0.00009 ; graines a zero fermeture : 0
+  pentes locales de ln r contre ln N (rapports des sommes ; erreur type par reechantillonnage des graines) :
+    1000 ->   2000 : pente -0.0792 +/- 0.5651   (g = +0.0792)
+    2000 ->   4000 : pente -0.3227 +/- 0.3405   (g = +0.3227)
+    4000 ->   8000 : pente +0.4013 +/- 0.2897   (g = -0.4013)
+    8000 ->  16000 : pente +0.0491 +/- 0.1499   (g = -0.0491)
+  pente par graine sur les 5 niveaux (graines sans zero) : -0.2561 +/- 0.0828 (n=5)   donc g = +0.2561
+fermetures de triangles par mitose, r (rapport des sommes sur les graines, erreur type par reechantillonnage) :
+    1000 : r = 0.40377 +/- 0.00821 ; graines a zero fermeture : 0
+    2000 : r = 0.40067 +/- 0.00431 ; graines a zero fermeture : 0
+    4000 : r = 0.39980 +/- 0.00374 ; graines a zero fermeture : 0
+    8000 : r = 0.40115 +/- 0.00315 ; graines a zero fermeture : 0
+   16000 : r = 0.39869 +/- 0.00185 ; graines a zero fermeture : 0
+  pentes locales de ln r contre ln N (rapports des sommes ; erreur type par reechantillonnage des graines) :
+    1000 ->   2000 : pente -0.0112 +/- 0.0400   (g = +0.0112)
+    2000 ->   4000 : pente -0.0032 +/- 0.0142   (g = +0.0032)
+    4000 ->   8000 : pente +0.0048 +/- 0.0170   (g = -0.0048)
+    8000 ->  16000 : pente -0.0087 +/- 0.0137   (g = +0.0087)
+  pente par graine sur les 5 niveaux (graines sans zero) : -0.0032 +/- 0.0061 (n=20)   donc g = +0.0032
+horloges de la matiere
+  H1, compte cumule T : d ln N / d ln temps = +0.9716 +/- 0.0607 (n=20) ; exposant de a = N^(1/3) : +0.3239 ; R2 loi de puissance 0.96831 ; R2 exponentielle 0.88861 ; pente locale au debut +1.024 +/- 0.197 (n=19), a la fin +0.977 +/- 0.048 (n=20)
+  H2, somme de K4 nes / N : d ln N / d ln temps = +4.8689 +/- 0.8777 (n=20) ; exposant de a = N^(1/3) : +1.6230 ; R2 loi de puissance 0.95420 ; R2 exponentielle 0.97187 ; pente locale au debut +4.200 +/- 1.022 (n=19), a la fin +5.677 +/- 0.735 (n=20)
+  H3, somme de K4 nes / K4 presents : d ln N / d ln temps = +2.1131 +/- 0.1578 (n=20) ; exposant de a = N^(1/3) : +0.7044 ; R2 loi de puissance 0.96834 ; R2 exponentielle 0.99276 ; pente locale au debut +1.386 +/- 0.179 (n=19), a la fin +3.114 +/- 0.152 (n=20)
+
+===== CONTROLE (mitose native, anneau de 160) : 5 graines =====
+niveau | N lu | pas | liens/N | purs/N (rho) | triangles/N | K4/N | degre max | K4 nes | K4 disparus | mitoses
+  1000 |    1143 |  6.8 | 1.3466 | +0.5033 +/- 0.0053 (n=5) | 0.3281 | +0.00672 +/- 0.00112 (n=5) | 7.2 | 3.4 | 0.2 | 248
+  2000 |    2390 | 10.0 | 1.3822 | +0.4980 +/- 0.0047 (n=5) | 0.3577 | +0.01349 +/- 0.00075 (n=5) | 9.4 | 11.0 | 1.4 | 497
+  4000 |    4760 | 13.0 | 1.3949 | +0.5047 +/- 0.0053 (n=5) | 0.3645 | +0.01554 +/- 0.00073 (n=5) | 10.6 | 21.6 | 4.4 | 973
+  8000 |    9234 | 15.8 | 1.3963 | +0.5147 +/- 0.0026 (n=5) | 0.3623 | +0.01586 +/- 0.00072 (n=5) | 12.6 | 40.2 | 11.4 | 1941
+ 16000 |   17921 | 18.6 | 1.4002 | +0.5138 +/- 0.0013 (n=5) | 0.3642 | +0.01596 +/- 0.00035 (n=5) | 15.0 | 72.2 | 18.6 | 3792
+croissance, ln N contre le pas entre les niveaux 2000 et 16000 : pente +0.2343 +/- 0.0010 (n=5) ; R2 moyen 0.99993, minimum 0.99987
+densite d'aretes pures : pente locale d ln rho / d ln N, puis w = -pente - 1
+    1000 ->   2000 : pente -0.0144 +/- 0.0191 (n=5) ; w = -0.9856
+    2000 ->   4000 : pente +0.0193 +/- 0.0088 (n=5) ; w = -1.0193
+    4000 ->   8000 : pente +0.0265 +/- 0.0130 (n=5) ; w = -1.0265
+    8000 ->  16000 : pente -0.0037 +/- 0.0102 (n=5) ; w = -0.9963
+fermetures de K4 par mitose, r (rapport des sommes sur les graines, erreur type par reechantillonnage) :
+    1000 : r = 0.01372 +/- 0.00342 ; graines a zero fermeture : 1
+    2000 : r = 0.02215 +/- 0.00172 ; graines a zero fermeture : 0
+    4000 : r = 0.02220 +/- 0.00228 ; graines a zero fermeture : 0
+    8000 : r = 0.02071 +/- 0.00104 ; graines a zero fermeture : 0
+   16000 : r = 0.01904 +/- 0.00089 ; graines a zero fermeture : 0
+  pentes locales de ln r contre ln N (rapports des sommes ; erreur type par reechantillonnage des graines) :
+    1000 ->   2000 : pente +0.6492 +/- 0.4210   (g = -0.6492)
+    2000 ->   4000 : pente +0.0032 +/- 0.1529   (g = -0.0032)
+    4000 ->   8000 : pente -0.1050 +/- 0.1974   (g = +0.1050)
+    8000 ->  16000 : pente -0.1266 +/- 0.1065   (g = +0.1266)
+  pente par graine sur les 5 niveaux (graines sans zero) : +0.0550 +/- 0.0416 (n=4)   donc g = -0.0550
+fermetures de triangles par mitose, r (rapport des sommes sur les graines, erreur type par reechantillonnage) :
+    1000 : r = 0.43745 +/- 0.02570 ; graines a zero fermeture : 0
+    2000 : r = 0.44583 +/- 0.00783 ; graines a zero fermeture : 0
+    4000 : r = 0.43453 +/- 0.01230 ; graines a zero fermeture : 0
+    8000 : r = 0.42567 +/- 0.00315 ; graines a zero fermeture : 0
+   16000 : r = 0.42524 +/- 0.00400 ; graines a zero fermeture : 0
+  pentes locales de ln r contre ln N (rapports des sommes ; erreur type par reechantillonnage des graines) :
+    1000 ->   2000 : pente +0.0257 +/- 0.0992   (g = -0.0257)
+    2000 ->   4000 : pente -0.0373 +/- 0.0366   (g = +0.0373)
+    4000 ->   8000 : pente -0.0311 +/- 0.0422   (g = +0.0311)
+    8000 ->  16000 : pente -0.0015 +/- 0.0223   (g = +0.0015)
+  pente par graine sur les 5 niveaux (graines sans zero) : -0.0133 +/- 0.0144 (n=5)   donc g = +0.0133
+horloges de la matiere
+  H1, compte cumule T : d ln N / d ln temps = +0.8764 +/- 0.0144 (n=5) ; exposant de a = N^(1/3) : +0.2921 ; R2 loi de puissance 0.99427 ; R2 exponentielle 0.93233 ; pente locale au debut +0.689 +/- 0.040 (n=5), a la fin +1.084 +/- 0.066 (n=5)
+  H2, somme de K4 nes / N : d ln N / d ln temps = +2.2290 +/- 0.0465 (n=5) ; exposant de a = N^(1/3) : +0.7430 ; R2 loi de puissance 0.97736 ; R2 exponentielle 0.99655 ; pente locale au debut +1.379 +/- 0.085 (n=5), a la fin +3.737 +/- 0.210 (n=5)
+  H3, somme de K4 nes / K4 presents : d ln N / d ln temps = +3.8877 +/- 0.1148 (n=5) ; exposant de a = N^(1/3) : +1.2959 ; R2 loi de puissance 0.98743 ; R2 exponentielle 0.99711 ; pente locale au debut +2.605 +/- 0.157 (n=5), a la fin +5.631 +/- 0.388 (n=5)
+acceptation de la mitose selon le type de lien (rapport des sommes sur les graines) :
+    1000 : arete pure 0.9663 ; arete prise dans un triangle 0.0356 ; rapport 27.2 ; part des mitoses sur aretes pures 0.9475 ; taux de croissance du pas 0.2775 ; 0,5 x acceptation x rho = 0.2487 ; ecart relatif -0.1036 +/- 0.0065 (n=5)
+    2000 : arete pure 0.9616 ; arete prise dans un triangle 0.0382 ; rapport 25.1 ; part des mitoses sur aretes pures 0.9372 ; taux de croissance du pas 0.2620 ; 0,5 x acceptation x rho = 0.2403 ; ecart relatif -0.0816 +/- 0.0156 (n=5)
+    4000 : arete pure 0.9583 ; arete prise dans un triangle 0.0379 ; rapport 25.3 ; part des mitoses sur aretes pures 0.9350 ; taux de croissance du pas 0.2568 ; 0,5 x acceptation x rho = 0.2405 ; ecart relatif -0.0633 +/- 0.0069 (n=5)
+    8000 : arete pure 0.9542 ; arete prise dans un triangle 0.0398 ; rapport 24.0 ; part des mitoses sur aretes pures 0.9345 ; taux de croissance du pas 0.2663 ; 0,5 x acceptation x rho = 0.2453 ; ecart relatif -0.0786 +/- 0.0060 (n=5)
+   16000 : arete pure 0.9526 ; arete prise dans un triangle 0.0418 ; rapport 22.8 ; part des mitoses sur aretes pures 0.9312 ; taux de croissance du pas 0.2682 ; 0,5 x acceptation x rho = 0.2434 ; ecart relatif -0.0922 +/- 0.0069 (n=5)
+
+controle du depart : r(K4) au depart 160 moins r(K4) au depart 40, en erreurs types
+    1000 : 0.01372 contre 0.02299 ; ecart -2.19 erreur type
+    2000 : 0.02215 contre 0.02213 ; ecart +0.01 erreur type
+    4000 : 0.02220 contre 0.02263 ; ecart -0.18 erreur type
+    8000 : 0.02071 contre 0.02052 ; ecart +0.15 erreur type
+   16000 : 0.01904 contre 0.02065 ; ecart -1.52 erreur type

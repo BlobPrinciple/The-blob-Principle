@@ -1,0 +1,159 @@
+X-37, partie A. Les douze programmes de mitose de l'auteur (27 mai 2026), executes tels quels le 28 novembre 2026.
+Source : archive << BLOB MASTER V293 ARCHIVE TOTALE.zip >> du dossier de l'auteur, scripts_fermeture_v151_v152. Python 3.10.12, numpy 2.2.6.
+Pour chaque programme : empreinte SHA-256 du programme, empreinte de sa sortie complete, puis ses dernieres lignes non vides.
+
+=== mitose_0_operateur.py
+programme : 71322a815f585d05bd392b38bd51e40c84d122cbbb9b505af222c92ea5220de0
+sortie    : 9aae94b07854b03987718fc94610ad8452767d3853891288eb439b1231757c7c
+     1     25     29         11
+     2     30     38         12
+     3     38     52         13
+     4     48     66         14
+     5     64     87         16
+     6     91    121         19
+     7    130    170         25
+  → Si N croît, l'opérateur de mitose fonctionne. On mesurera ensuite la LOI de croissance.
+[0s]
+
+=== mitose_1_exponentielle.py
+programme : bc2c960227ba64973e7ba7907e2adabe304e795c15c6cd76018b2909a01d30ef
+sortie    : 994a0a20a8e14e72e4420aec8f23ca71796832ac71e38bc4f4ba4083032e562b
+     7        231    5.442     +0.372
+     8        327    5.791     +0.418
+     9        456    6.123     +0.394
+  Fit ln(N) = +0.304·t + 3.33
+  R² = 0.9981
+  Facteur de croissance par étape : ×1.355
+  ★ CROISSANCE EXPONENTIELLE confirmée (R²=0.998) : c'est le nénuphar.
+    Le taux relatif dN/N est ~constant (taux LOCAL constant) → effet GLOBAL exponentiel.
+[0s]
+
+=== mitose_2_homogene_hubble.py
+programme : 2138eef09cd006a56e8d2ff756947bfb61cbe771ac712dccdafecf4797a18599
+sortie    : 98ad122c17822c49e3b80ae8957113941f8a881d5d754e8b8cf52d2a324b181c
+  Récession (Δdistance) = 0.449·distance_initiale + 1.81
+  Corrélation récession ↔ distance : r=0.920
+  → 'Constante de Hubble' émergente H=0.449 (récession ∝ distance = loi de Hubble)
+  ★ LOI DE HUBBLE émergente : les points lointains s'éloignent plus vite (∝ distance).
+(3bis) CAUSALITÉ — vitesse de récession LOCALE (par saut) bornée ?
+  Récession par unité de distance : moyenne=0.593, max=1.333
+  → si borné et ~constant, aucun point ne dépasse la 'vitesse locale max' = causalité respectée.
+  (le taux local fini garantit qu'aucune balise ne voyage plus vite que c localement)
+[0s]
+
+=== mitose_3_homogeneite_propre.py
+programme : 42b531760c206450297a3bcaee9f8e864878f182db4bc2c7b3e2fab73ea3281f
+sortie    : 55ada49ebc5871f34919bb035005e0375c68940d70fedf63bea0ccc589086cfd
+(1) Taux de mitose PAR ARÊTE sur plusieurs étapes (doit ≈ p_mitose=0.3 constant) :
+  seed 0: 82 mitoses / 261 arêtes = taux 0.314 (attendu ~0.30)
+  seed 1: 74 mitoses / 285 arêtes = taux 0.260 (attendu ~0.30)
+  seed 2: 92 mitoses / 294 arêtes = taux 0.313 (attendu ~0.30)
+(2) Homogénéité entre RÉGIONS (4 régions par distance à un centre) :
+  CV du taux entre régions : 0.18
+  (par RÉGION, pas par sommet individuel : teste 'partout en même temps' à l'échelle spatiale)
+  ★ HOMOGÈNE entre régions (CV<0,3) : la mitose se produit uniformément partout, pas de centre.
+[0s]
+
+=== native_1_mitose_viabilite.py
+programme : c200317d3f453f1ceba5076231dc0d52067bafe68bb01ef6e19b413c95281ba7
+sortie    : cd1287abc7bedc9a7c9d4807818b07953d0e569e7c973b5f8d37d213cc57dd20
+     6        225
+     7        282
+  Croissance : ln(N)=+0.273·t+3.80, R²=0.992
+  Mitoses sur arêtes PURES (Ω¹) : 301
+  Mitoses sur arêtes MATIÈRE    : 13
+  Fraction de mitoses sur arêtes pures : 96%
+  PRÉDICTION : la mitose native préfère les arêtes pures (Ω¹ = énergie sombre).
+  ★ CONFIRMÉ : la viabilité dirige NATIVEMENT la mitose vers l'énergie sombre.
+[0s]
+
+=== native_2_robuste.py
+programme : d7081faed4619b12d372ca7dae53b8ccae99667f0bb2c79a3d44f4470fe82122
+sortie    : 13acc80982826f7b145d6b53109a130fef6d181f90e0486329b1a6ac952448f0
+  Fraction mitoses sur Ω¹ : 95% ± 1% (8 seeds)
+  R² exponentielle : 0.990 ± 0.004
+  Min fraction Ω¹ sur les 8 seeds : 93%
+  → ★ ROBUSTE : mitose native dirigée vers Ω¹ + croissance exponentielle, sur tous les seeds.
+  INTERPRÉTATION : la fonctionnelle de viabilité S dérive, à elle seule :
+  - que l'expansion (mitose) se produit sur l'énergie sombre (arêtes pures Ω¹)
+  - parce qu'étendre là est le seul mouvement qui ne détruit pas de structure (n_tri)
+  L'élan d'extension de l'énergie sombre (mesuré séparément) est une CONSÉQUENCE de S.
+[0s]
+
+=== native_3_wz.py
+programme : aec95ba18ed919d2d6049cd3927538895daedeb59d04e13e7c9362acb63f2a1c
+sortie    : 617ad197a2aeefb7a2ebf0725297c362aa3e81c07905f36feb38efbd08408250
+     4                   1.556      0.589      0.250
+     5                   1.710      0.552      0.273
+     6                   1.853      0.515      0.297
+     7                   2.000      0.513      0.312
+  Énergie sombre (Ω¹) : pente d(lnρ)/d(ln a) = -0.97 → w_Λ = -0.68
+  Matière (triangles) : pente d(lnρ)/d(ln a) = +12.54 → w_mat = -5.18
+  Attendu physique : w_Λ ≈ -1 (énergie sombre), w_mat ≈ 0 (matière, ρ∝a^-3).
+  ☆ w_Λ proche de l'énergie sombre (négatif).
+[0s]
+
+=== native_4_forme_desitter.py
+programme : 36c5a55f157fd8c405429472f5cc5bd24a68e268b95e8f6d77354710454ead37
+sortie    : f62cae281458ad51146668a7101a6957d52faa79d35c3fae24f33fd74d81292c
+     6    553                        1.0000
+     7    825                        1.0000
+     8   1236                        1.0000
+  Densité d'énergie sombre ρ_Λ : variation 0.0% sur N ×24.7
+  Pente d(lnρ_Λ)/d(lnN) = +0.000 → w_Λ = -1.00
+  Si ρ_Λ CONSTANTE (variation ~0%) sous expansion → w=-1 (constante cosmologique, de Sitter).
+  ★ w_Λ ≈ -1 CONFIRMÉ : en expansion pure, l'énergie sombre ne se dilue pas.
+    La forme de Sitter (expansion exponentielle + densité constante) donne w=-1.
+[1s]
+
+=== native_5_robuste_w.py
+programme : 123d9f30d76d17cd5b67018c576519d4864cf979f3ed116eb9908015c4b036cf
+sortie    : bd2408f6d7f383879d3e19ccce5122cc85d56df66aaeb3fb8fdca3a3f45d49a1
+ROBUSTESSE w=-1 — sur 8 seeds + vérification que la matière a bien w≈0
+  w_Λ en expansion pure (8 seeds) :
+  Variation de ρ_Λ : 0.00% ± 0.00% → w_Λ = -1.00
+  Max variation sur les 8 seeds : 0.00%
+  → ★ w=-1 ROBUSTE (densité strictement invariante sur tous les seeds)
+  Pourquoi exactement constante : chaque subdivision d'arête pure → 2 arêtes pures.
+  La mitose double localement à taux constant → ρ_Λ invariante, étendue exponentielle.
+  = unification de Gabriel (infini sans changer) + élan d'extension + w=-1 + expansion exp.
+[1s]
+
+=== cosmo_1_age_densite.py
+programme : 1cf2b4aa68e545e2afb992f902cbd100083af8be90278195f6ac9dd3f097249c
+sortie    : 0e3d6051fc96ad7b60d695b36419926d0977870d934cbef55b410cb1c97f1b64
+(1) Corrélation âge local ↔ densité locale (5 seeds) :
+  Corrélation âge↔densité : +0.032 ± 0.056 (5 seeds)
+  ✗ Pas de lien net âge-densité.
+(2) Hétérogénéité de la densité locale (poches denses + vides) :
+  seed 0: densité moy=0.61, CV=0.94, % quasi-vide=50%, étendue=[0.0,2.9]
+  seed 1: densité moy=0.57, CV=0.71, % quasi-vide=38%, étendue=[0.0,1.9]
+  seed 2: densité moy=0.55, CV=0.93, % quasi-vide=48%, étendue=[0.0,3.6]
+  → CV élevé + coexistence vide/dense = hétérogénéité (univers clairsemé, 'chaotique')
+[0s]
+
+=== cosmo_2_cycle_vie.py
+programme : 3e6059fb817ee97f91983e8520a17e4193ff17c35bab44ed2b2a227efb2a4710
+sortie    : 2deb4e7579dbaebaa3bddf04ce6ac931a902cd6f78fa2be63c93c3a27f53d27c
+    9       0.52  ███████
+   10       0.57  ████████
+   11       0.71  ██████████
+  Pic de densité à t=11 (sur 12 étapes).
+  Motif monotone (pas de cycle net sur cette fenêtre).
+  Corrélation âge RÉGIONAL ↔ densité (âge moyen de la boule, 5 seeds) :
+  Corrélation âge_régional ↔ densité : +0.148 ± 0.078
+  ✗ Pas de lien même au niveau régional.
+[0s]
+
+=== mitose_cycle.py
+programme : ef696e8e79ef403a7d3cc6b2177654d1a921dfd17f5af089f0bcf72590e8e029
+sortie    : 0cbf24bd689689e669b169bc93fe3ffe2760da55f4bfa142fe90230f52f2b86b
+  3     83    106      15      1.9
+  4    107    140      19      2.3
+  5    152    197      23      2.3
+  6    216    289      44      2.3
+  7    308    422      60      2.3
+  8    431    588      76      2.4
+  9    603    829      97      2.4
+  Opérateur OK si N croît ET triangles se forment ET dissipation active.
+[0s]
