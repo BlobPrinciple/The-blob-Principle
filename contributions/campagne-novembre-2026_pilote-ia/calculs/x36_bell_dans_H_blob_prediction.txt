@@ -1,0 +1,39 @@
+X-36 -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 28 novembre 2026.
+Parole de l'auteur, 28 novembre, 11 h 40 : << attention a ne pas saboter involontairement des eventualites qui auraient pu etre zappees
+faute de prises de risques [...] donc recheck bien ! >> 12 h 03 : << Fais le necessaire, mets a jour et poste dans le labo. >>
+
+TOE 0/7. Aucun verrou ferme. Ce calcul ne derive pas la mecanique quantique : il dit ce que le test du 4 juillet pouvait et ne pouvait pas voir.
+
+POURQUOI
+Master v90 (30 mars 2026), lu aujourd'hui : T4, << psi = sqrt(pi_N) satisfait Schrodinger (residu 8,8e-17) >> ; appendice A, << H_Blob := L2(Omega, pi_N) >>,
+hamiltonien H = tau_ref (I - D_pi^{-1/2} P D_pi^{1/2}), spectre reel positif, << rotation de Wick formelle [H] >> ; et, au tableau des applications,
+<< Cryptographie : non-clonage dans H_Blob (T4, T5) [H], test Bell simulation >>. Le 4 juillet (master V277, erratum 2 du livre), le corpus conclut
+<< le Blob classique ne recupere PAS la mecanique quantique (ni interference, ni Bell) >> sur une mesure : correlations plafonnees a 2. Cette mesure
+portait sur des grandeurs lues sur la configuration. Pour de telles grandeurs, 2 est un theoreme (Bell). Le test annonce en mars, dans H_Blob, n'a
+donc pas ete fait.
+
+PROTOCOLE (fige)
+Petit Blob enumere exactement : N points, toutes les paires sont des liens possibles, E liens, graphes connexes. S = log(1 + triangles) - 0,30 x
+(ecart-type / moyenne des degres) ; pi proportionnelle a exp(S x N / 0,50). Chaine : echange d'un lien present contre un lien absent, Metropolis.
+H = I - D^{1/2} P D^{-1/2}, psi0 = sqrt(pi). Coupure des liens possibles en deux regions : A, les liens qui touchent les points 0 ou 1 ; B, les autres.
+Valeur de Bell (CHSH) maximale pour des grandeurs a valeurs +1 ou -1 propres a chaque region : borne de Gisin sur les deux plus grands coefficients de
+Schmidt ; montee alternee depuis 40 departs. Plafond des grandeurs lues sur la configuration : meme montee, restreinte aux matrices diagonales.
+Temoins : mesure uniforme a E fixe (aucune viabilite) ; mesure produit (liens independants).
+Cas : (N, E) = (5, 5), (5, 6), (6, 7), (6, 9).
+
+PREDICTIONS
+Q1 (c'est T4) : bilan detaille exact, H symetrique, H psi0 = 0 a mieux que 1e-12, plus petite valeur propre nulle. Confiance 99 %.
+Q2 : pour le Blob, dans les quatre cas, la valeur de Bell dans H_Blob depasse 2 (montee alternee > 2,05). Confiance 90 %.
+Q3 : les grandeurs lues sur la configuration ne depassent jamais 2 (a 1e-9 pres), pour le Blob comme pour les temoins. Confiance 99 % (theoreme).
+Q4 : le temoin produit donne exactement 2. Confiance 99 %.
+Q5 : le temoin uniforme a E fixe depasse lui aussi 2. La violation ne vient donc pas de la viabilite seule : la contrainte << E liens >> intrique deja
+     les deux regions. Confiance 85 %.
+Q6 : valeur du Blob superieure a celle du temoin uniforme dans au moins trois cas sur quatre. Confiance 55 % : je ne sais pas.
+
+CE QUE CHAQUE ISSUE VOUDRA DIRE
+Q2 et Q3 tenues : la mesure du 4 juillet (plafond a 2) et l'enonce de mars (T4) sont vrais tous les deux et ne parlent pas de la meme chose. Le << mur
+quantique >> du 4 juillet n'est pas un resultat sur le Blob : c'est le theoreme de Bell pour des grandeurs qui commutent. La piste T4 redevient ouverte.
+Q5 tenue : cette structure n'est pas propre au Blob (toute mesure de Gibbs en a une). Ce n'est donc pas une derivation. Ce qui manque est ecrit en mars :
+<< identification formelle C_k -> |k> >>, c'est-a-dire le sens physique des grandeurs qui ne commutent pas (deplacer un lien, et non le compter).
+Si Q2 tombe : la piste est fermee, cette fois avec le bon instrument.
