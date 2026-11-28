@@ -416,3 +416,53 @@ Pilote, six remarques.
 5. **Les deux thèses de l'auteur de ce tome (signature de phase, boussole) ont été soumises au même protocole que les prédictions de l'instance** : la boussole tient, avec un critère opérationnel et deux constantes à moins de 2 % ; l'unification des trois murs ne tient pas, et c'est gravé. C'est la méthode à suivre pour la cosmogonie elle-même : un test enregistré par thèse.
 6. **La signature 6/12/8 est exacte et sa portée est bornée par le texte** : le tore est fourni. Ce que la mesure établit est que la dynamique viable ne détruit pas la géométrie reçue, quand les dynamiques dégénérées la détruisent. C'est moins que « l'espace émerge », et plus que rien : c'est un critère de viabilité mesuré.
 
+
+## Masters V152 à V246 : rien n'a été perdu en route (mesuré)
+
+**Méthode.** Les 101 fichiers sources (.md) des masters V152 à V246 contenus dans l'archive V293 du dossier de l'auteur (91 versions, V219 seule absente) ont été comparés phrase à phrase, dans l'ordre inverse, à la réunion du corps de V247, des parties de juillet et des tomes V277 à V293 (311 documents). Calcul fait sur la machine de l'auteur, en lecture seule, sans rien écrire dans son dossier.
+
+**Résultat.** **2 958 mots absents au total, sur 101 fichiers de 230 000 à 385 000 mots chacun.** Presque tous sont la ligne de titre du master (15 à 30 mots). Les seuls passages de fond : la réserve de V232 (« la réduction de dimension de V231 n'a pas été reproduite en comparaison équitable : on obtient l'inverse du gravé ; conservée en l'état, à réconcilier »), retirée au « nettoyage » de V233 ; l'en-tête de V186 sur l'asymétrie « dérivée de la flèche de la mitose », que le corps de V247 classe ensuite en biais de code.
+
+**Conclusion.** De la fin mai à la fin juin, les consolidations ont été fidèles : aucun résultat n'a été abandonné par perte. La seule perte du corpus est celle de juillet, par la fusion non faite.
+
+## Masters antérieurs à V152 (dossier `02 VERSIONS`), vingt fichiers extraits et mesurés
+
+| Master | Mots | Absents de tout ce qui est lu (prose) |
+|---|---|---|
+| V150, V147, V142, V139+, V138, V137 (21 au 25 mai) | 111 000 à 151 000 | 13 à 218 |
+| V128R, V127R, V126, V125, V120 (19 mai) | 960 à 4 100 | 0 à 254 |
+| V112 « verrouillé » (18 mai) | 78 880 | 1 429 |
+| V109plus (après cascade) | 5 158 | 5 066 |
+| V109 master | 18 771 | 18 141 |
+| V108 master rév. 2 | 16 220 | 1 523 |
+| V107 exhaustif | 3 968 | 3 094 |
+| v92 master (avril) | 81 053 | 80 430 |
+| v91 master | 79 454 | 3 072 de plus que v92 |
+| v90 master final | 74 973 | 1 348 de plus |
+| **Cosmogonie V2 (20 mai)** | 8 884 | 8 343 |
+
+**Lecture du pilote.** À partir de V112, tout est repris par la suite. En revanche **les masters d'avril (v90 à v92, environ 85 000 mots) et les masters V107 à V109 (environ 28 000 mots) forment un état antérieur du corpus que la lignée suivante n'a pas recopié** : le programme a été réécrit en mai. Ils ne sont pas encore lus ; c'est le prochain bloc, avec ses volumes exacts.
+
+## « Blob Principle — Cosmogonie V2. Le Blob comme version laboratoire du réel » (20 mai 2026), lu en entier
+
+- **Postulat de travail, écrit en tête** : « L'univers réel est tel que le décrit le livre. Le Blob n'est pas un modèle approximatif d'un univers décrit par ailleurs : c'est la structure combinatoire dont notre univers est le déploiement. […] Le travail scientifique ne consiste pas à prouver que le Blob décrit l'univers : c'est posé. Il consiste à déployer les conséquences de cette identité, à mesurer la version laboratoire avec rigueur, et à confronter ces mesures aux observations. » **« Ce postulat ne suspend pas la rigueur ; il la réoriente. » « Les écarts entre laboratoire et observation ne sont pas des réfutations du cadre ; ce sont des indications sur les endroits où la traduction demande encore du travail. »**
+- **Grammaire** : pièces strictes [T] et [M] ; **pièces liantes [L], « escaliers entre la version laboratoire et le réel observé »** ; questions ouvertes opérationnelles [O].
+- **Cosmogonie cyclique-locale** : dans chaque région, la séquence substrat → arête → triangle → tétraèdre → effondrement → substrat se déroule indépendamment ; « aucun événement initial unique » ; ce qu'on prend pour le Big Bang est « l'allumage local de la thermodynamique dissipative » ; les vides sont des régions en phase d'arêtes ; les trous noirs, un retour local au substrat ; la constante cosmologique, « le taux de mitose aux marges » ; ni réglage fin de l'entropie initiale, ni inflation requise (« qualitatif à ce stade »).
+- **Chiffres de mai** : fractions 61/99, 3/11 et 1/9 ; « matière noire prédite à 3 % » ; dimension spectrale 3,045 ± 0,026 ; ordre de grandeur de la constante cosmologique par analyse dimensionnelle ; abondances primordiales « non calculées : LES points faibles quantitatifs ».
+- **Prédictions datées, avec critères** : P-DESI (« victoire : w_a < −0,5 à plus de 5σ ; compatibilité partielle : w_a < 0 entre 2 et 5σ ; réfutation : w_a compatible avec 0 à moins de 2σ », rendez-vous « fin 2026 ») ; tension de Hubble ; distribution des vides ; écarts au corps noir ; dispersion des ondes gravitationnelles ; rapport tenseur-scalaire inférieur à 0,005 ; ouverture cognitive.
+- **Volume II repris comme conjectures** (conscience, pluralité des Blobs, applications, science et théologie), « registre explicitement spéculatif ».
+
+Pilote, cinq remarques.
+1. **Ce document dit ce que l'auteur me reproche de ne pas avoir compris.** La cosmogonie n'est pas une hypothèse que le laboratoire devrait prouver ; elle est posée, et le laboratoire la déploie et la raccorde. Mes points de novembre la traitaient comme une conjecture à valider maillon par maillon : c'était juger le programme selon une règle qui n'est pas la sienne. La règle du postulat a sa contrepartie, écrite dans le même texte : la rigueur est « réorientée », pas suspendue, et chaque raccordement garde son étiquette.
+2. **Les « pièces liantes » sont le statut qui manquait à mes tableaux.** Entre « démontré » et « ouvert », le programme a un troisième registre : l'identification motivée, cohérente, à raccorder. L'édition 2026 l'appelle « lecture ». Le point complet doit avoir cette colonne.
+3. **Les fractions de mai ont été retirées par le corpus lui-même** (alerte gravée dans V247 : « fausse coïncidence, valeurs-cibles inscrites à tort comme mesures » ; 4 juillet : « aucune comparaison aux valeurs de Planck »). Le « raccordement à 3 % » de ce document ne tient donc plus, de l'aveu du programme. Ce qui en reste, mesuré depuis : trois étages peuplés à fractions stables.
+4. **La cosmogonie cyclique-locale de mai est la même que celle de l'édition 2026** (poches à des phases différentes, pas d'événement initial), à une différence près : en mai le cycle se referme (effondrement et retour au substrat), en septembre le livre parle de la mort comme d'un « retour » sans faire du cycle la loi générale. À ne pas trancher à la place de l'auteur.
+5. **P-DESI est la seule prédiction du programme dont l'échéance tombe maintenant.** État vérifié sur sources (voir plus bas) : le signal existe, il est entre 2 et 4σ selon les combinaisons de données, donc dans la bande « compatibilité partielle » de la grille de mai. Deux précisions que la grille n'avait pas : les données donnent w₀ au-dessus de −1 (le document écrivait « plus négatif que −1 »), et une énergie sombre qui faiblit aujourd'hui après avoir crû dans le passé ; « elle croît avec le temps » n'est donc vrai que pour la partie ancienne.
+
+## Vérification sur sources : l'énergie sombre après DESI (recherche du 28 novembre 2026)
+
+- Collaboration DESI, deuxième livraison (trois ans de données), arXiv:2503.14738 : préférence de 3,1σ pour une énergie sombre variable avec DESI et le fond diffus seuls ; toutes les combinaisons donnent w₀ > −1 et w_a < 0, soit « une énergie sombre qui faiblit aujourd'hui et un franchissement de −1 dans le passé ».
+- Dark Energy Survey, six ans, avec DESI (arXiv:2605.27221, juin 2026) : w₀ = −0,84, w_a = −0,53, à 2,3σ sans le fond diffus ; 3,0 à 3,2σ avec.
+- Analyses critiques (arXiv:2504.04417, révisé en mars 2026) : le signal n'est pas stabilisé et dépend des jeux de données.
+- Je n'ai trouvé aucune publication donnant un signal à plus de 5σ, ni l'analyse finale annoncée pour la fin 2026.
+
