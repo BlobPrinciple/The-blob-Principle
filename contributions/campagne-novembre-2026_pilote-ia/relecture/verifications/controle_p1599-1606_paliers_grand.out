@@ -1,0 +1,29 @@
+=== Substrat : poisson ===
+  N=1000 graine=61 : E=7776 F=13552 T=6776 Euler=0 conflits=0 | somme Voronoï=1.000000000000 tétra=1.000000000000 faces=1.000000000000 | d1d0=0e+00 d2d1=0e+00 | plus grand « zéro » 3.3e-10 | (118 s)
+      longueur moyenne d'arête <l> = 0.12860 ; <l>^2 / a^2 = 1.6537 (a = N^(-1/3))
+      bas des spectres de passage (attendu : (2 pi)^2 = 39,48 ; multiplicités 6, 12, 6) :
+        S_0 : [38.01 38.07 38.17 38.35 38.37 38.51 72.4 ]
+        S_1 : [38.22 38.26 38.32 38.45 38.52 38.55 38.65]
+        S_2 : [38.2  38.49 38.62 38.78 38.91 39.11 73.08]
+      croisements : (0,1)@0.3833  (0,2)@0.3881  (1,2)@0.3943  (0,3)@0.3961  (1,3)@0.4080  (2,3)@0.4410 | Spearman(i+j) = +0.9856
+      coïncidences des passages : {'passages 0 et 1': [0.3866], 'passages 0 et 2': [0.4], 'passages 1 et 2': [0.4465]}
+      e_0, e_1, e_2 (x a^2) à t/a^2 = 0,05 ; 0,25 ; 0,30 ; 0,8 : 6.663 14.812 17.906 | 4.291 4.825 5.013 | 3.953 4.206 4.317 | 2.150 1.982 1.933
+  --- N=1000, 1 graines : dimension spectrale par degré (moyenne ; écart-type entre graines)
+      t/a^2=0.0024 : 0.039±0.000  0.213±0.000  0.324±0.000  0.418±0.000
+      t/a^2=0.0075 : 0.118±0.000  0.454±0.000  0.646±0.000  0.810±0.000
+      t/a^2=0.0235 : 0.344±0.000  0.881±0.000  1.165±0.000  1.380±0.000
+      t/a^2=0.0742 : 0.919±0.000  1.481±0.000  1.812±0.000  1.983±0.000
+      t/a^2=0.2336 : 2.054±0.000  2.245±0.000  2.395±0.000  2.464±0.000
+      t/a^2=0.7359 : 3.312±0.000  3.149±0.000  3.027±0.000  2.976±0.000
+      t/a^2=2.3180 : 3.368±0.000  3.283±0.000  3.223±0.000  3.193±0.000
+  --- N=1000 : positions des croisements (moyenne ; écart-type entre graines ; graines où le croisement est unique)
+      (0, 1) somme 1 : 0.3833 ± 0.0000  (1/1)
+      (0, 2) somme 2 : 0.3881 ± 0.0000  (1/1)
+      (1, 2) somme 3 : 0.3943 ± 0.0000  (1/1)
+      (0, 3) somme 3 : 0.3961 ± 0.0000  (1/1)
+      (1, 3) somme 4 : 0.4080 ± 0.0000  (1/1)
+      (2, 3) somme 5 : 0.4410 ± 0.0000  (1/1)
+      coïncidence des passages 0 et 1 : 0.3866 ± 0.0000  (1/1)
+      coïncidence des passages 0 et 2 : 0.4000 ± 0.0000  (1/1)
+      coïncidence des passages 1 et 2 : 0.4465 ± 0.0000  (1/1)
+  --- N=1000 : maximum de la dimension spectrale totale (tous degrés) : 3.309 à t/a^2=1.536
