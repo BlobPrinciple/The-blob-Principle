@@ -1,0 +1,47 @@
+Extrait du script de l'auteur corpus/03_scripts/simulations/blob total V286 colab.py (lignes 34 à 38, 78 à 79, 122 à 131, 357 à 381),
+relevé par le pilote pour la page 1376 du master V346 (« Mitose v3 : STABLE »). Aucune ligne modifiée.
+Lecture : à chaque étape, build(n2, graine nouvelle) tire un nouveau nuage de points et un nouveau tirage d'arêtes ;
+la ligne « adj,d,n,L,cand = adj2,d2,n2,L2,cand2 » remplace l'état précédent en entier. Rien ne passe d'une étape à la suivante.
+-----
+#  E. MITOSE v3 — CROISSANCE À DENSITÉ CONSTANTE (v1 et v2 invalidées)
+#     v2 a échoué car croître à volume fixe = densifier (92→200). v3 : la boîte grandit
+#     avec N (densité fixe), candidats recalculés par vague, germe équilibré.
+#     GRILLE : d_s ∈ [2,7;3,3] à CHAQUE étape ET CV(⟨C⟩) < 8% → la cosmogonie de
+#     croissance éternelle est compatible avec la physique mesurée.
+DENS, KAP, RC, TAU = 200.0, 10.0, 1.6, 0.5
+ALPHA, BETAL, DBAR = 0.62, 0.15, 6.6
+    return adj, d, T
+
+def viable(N, seed, beta=3.0, deg=10, sw=28, dens=DENS):
+    pts, cand, L, rc, rng = build(N, seed, dens)
+    E = min(int(deg*N/2), len(cand))
+    adj = defaultdict(set)
+    for k in rng.choice(len(cand), size=E, replace=False):
+        a,b = cand[k]; adj[a].add(b); adj[b].add(a)
+    d = np.zeros(N, dtype=np.int64)
+    for u in adj: d[u] = len(adj[u])
+    # ══ E ══ mitose v3 (densité constante)
+    print("\n─── E : MITOSE v3 — croissance à DENSITÉ CONSTANTE ───")
+    R["E"]=[]
+    try:
+        n=CFG["E_N0"]; step=0
+        pts,cand,L,rc,adj,d,T = viable(n,55000,3.0,10,34)
+        while True:
+            ds=ds_heat(adj,n,55100+step); C=clustering(adj,55200+step)
+            R["E"].append({"N":n,"d_s":ds,"C":C,"L":L}); save()
+            print(f"  N={n:>6} L={L:.2f} densité={n/L**3:.0f}: d_s={ds:.3f} ⟨C⟩={C:.4f}  {el()}",flush=True)
+            if n>=CFG["E_max"]: break
+            n2=min(int(n*1.5),CFG["E_max"])
+            pts2,cand2,L2,rc2,rng2 = build(n2,55000+step+1)   # boîte plus grande, densité identique
+            adj2=defaultdict(set)
+            keep=min(int(10*n2/2),len(cand2))
+            for k in rng2.choice(len(cand2),size=keep,replace=False):
+                a,b=cand2[k]; adj2[a].add(b); adj2[b].add(a)
+            d2=np.zeros(n2,dtype=np.int64)
+            for u in adj2: d2[u]=len(adj2[u])
+            adj2,d2,_=relax_global(adj2,d2,cand2,3.0,n2,55300+step,10)  # relaxation COURTE (croissance)
+            adj,d,n,L,cand = adj2,d2,n2,L2,cand2; step+=1
+        dss=[x["d_s"] for x in R["E"]]; Cs=[x["C"] for x in R["E"]]
+        okd=all(2.7<=x<=3.3 for x in dss if not math.isnan(x)); cv=float(np.std(Cs)/np.mean(Cs))
+        print(f"  → d_s {['%.2f'%x for x in dss]} {'✓' if okd else '✗'} | CV(⟨C⟩)={cv*100:.1f}% {'✓' if cv<0.08 else '✗'}")
+        print(f"  ★ {'MITOSE-STABLE : la croissance préserve les invariants' if (okd and cv<0.08) else 'non stable — gravé tel quel'}")

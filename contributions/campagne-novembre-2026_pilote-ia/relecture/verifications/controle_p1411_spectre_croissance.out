@@ -1,0 +1,6 @@
+200 générateurs de croissance (non symétriques : écart maximal entre L et sa transposée 2.90 en moyenne)
+plus grande partie imaginaire d'une valeur propre, sur les 200 tirages : 0.00e+00
+corrélateur antisymétrique D(k), k = 1 à 5, sur 4 000 trajectoires de croissance :
+   moyenne      : [0.0018 0.0039 0.007  0.0101 0.0135]
+   erreur type  : [0.0003 0.0003 0.0003 0.0003 0.0003]
+   moyenne / erreur : [ 6.8 14.3 23.2 31.7 39.8]
