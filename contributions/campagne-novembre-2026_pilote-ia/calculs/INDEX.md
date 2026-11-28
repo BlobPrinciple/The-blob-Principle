@@ -1347,3 +1347,23 @@ Tous les fichiers sont ceux du répertoire de travail, sous leur nom d'origine. 
 | X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/synthese.py` | 1 531 |
 | X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/v0_criterion.out` | 293 |
 | X-33, code et sorties du contre-auditeur, écrits à neuf par lui | `x33_contre_audit/v0_criterion.py` | 1 547 |
+| X-34 (réplication du Blob canonique d'après le dossier du 4 juillet, 8 grandeurs sur 8 ; témoin de définition pour le couplage courbure-matière, non concluant ; prédiction scellée avant calcul) | `x34-prediction-scellee-2026-11-28.md` | 4 431 |
+| X-34 (réplication du Blob canonique d'après le dossier du 4 juillet, 8 grandeurs sur 8 ; témoin de définition pour le couplage courbure-matière, non concluant ; prédiction scellée avant calcul) | `x34-resultat-2026-11-28.md` | 3 766 |
+| X-34 (réplication du Blob canonique d'après le dossier du 4 juillet, 8 grandeurs sur 8 ; témoin de définition pour le couplage courbure-matière, non concluant ; prédiction scellée avant calcul) | `x34_R1_3401.json` | 902 |
+| X-34 (réplication du Blob canonique d'après le dossier du 4 juillet, 8 grandeurs sur 8 ; témoin de définition pour le couplage courbure-matière, non concluant ; prédiction scellée avant calcul) | `x34_R1_3402.json` | 897 |
+| X-34 (réplication du Blob canonique d'après le dossier du 4 juillet, 8 grandeurs sur 8 ; témoin de définition pour le couplage courbure-matière, non concluant ; prédiction scellée avant calcul) | `x34_R2_3411.json` | 1 066 |
+| X-34 (réplication du Blob canonique d'après le dossier du 4 juillet, 8 grandeurs sur 8 ; témoin de définition pour le couplage courbure-matière, non concluant ; prédiction scellée avant calcul) | `x34_R2_3412.json` | 1 071 |
+| X-34 (réplication du Blob canonique d'après le dossier du 4 juillet, 8 grandeurs sur 8 ; témoin de définition pour le couplage courbure-matière, non concluant ; prédiction scellée avant calcul) | `x34_replication_blob_canonique.py` | 8 604 |
+| X-35 (fractions de phase à κ₀ = 4 : programme de l'auteur rejoué, moteur indépendant, tenue en taille, témoin, conventions du classeur ; prédiction scellée avant calcul, neuf clauses tenues) | `x35-resultat-2026-11-28.md` | 9 788 |
+| X-35 (fractions de phase à κ₀ = 4 : programme de l'auteur rejoué, moteur indépendant, tenue en taille, témoin, conventions du classeur ; prédiction scellée avant calcul, neuf clauses tenues) | `x35_analyse.py` | 2 811 |
+| X-35 (fractions de phase à κ₀ = 4 : programme de l'auteur rejoué, moteur indépendant, tenue en taille, témoin, conventions du classeur ; prédiction scellée avant calcul, neuf clauses tenues) | `x35_equivalence_classeur.py` | 1 933 |
+| X-35 (fractions de phase à κ₀ = 4 : programme de l'auteur rejoué, moteur indépendant, tenue en taille, témoin, conventions du classeur ; prédiction scellée avant calcul, neuf clauses tenues) | `x35_fractions_kappa4.py` | 7 818 |
+| X-35 (fractions de phase à κ₀ = 4 : programme de l'auteur rejoué, moteur indépendant, tenue en taille, témoin, conventions du classeur ; prédiction scellée avant calcul, neuf clauses tenues) | `x35_fractions_kappa4_prediction.txt` | 7 387 |
+| X-35 (fractions de phase à κ₀ = 4 : programme de l'auteur rejoué, moteur indépendant, tenue en taille, témoin, conventions du classeur ; prédiction scellée avant calcul, neuf clauses tenues) | `x35_lance.py` | 1 169 |
+| X-35 (fractions de phase à κ₀ = 4 : programme de l'auteur rejoué, moteur indépendant, tenue en taille, témoin, conventions du classeur ; prédiction scellée avant calcul, neuf clauses tenues) | `x35_paires_graines_auteur.jsonl` | 64 842 |
+| X-35 (fractions de phase à κ₀ = 4 : programme de l'auteur rejoué, moteur indépendant, tenue en taille, témoin, conventions du classeur ; prédiction scellée avant calcul, neuf clauses tenues) | `x35_reference_auteur.json` | 1 918 |
+| X-35 (fractions de phase à κ₀ = 4 : programme de l'auteur rejoué, moteur indépendant, tenue en taille, témoin, conventions du classeur ; prédiction scellée avant calcul, neuf clauses tenues) | `x35_resultats.jsonl` | 120 387 |
+| X-35 bis (les mêmes fractions en boîte périodique ; ajout non prévu au plan, prédiction écrite avant ce calcul) | `x35b_lance.py` | 505 |
+| X-35 bis (les mêmes fractions en boîte périodique ; ajout non prévu au plan, prédiction écrite avant ce calcul) | `x35b_resultats.jsonl` | 17 028 |
+| X-35 bis (les mêmes fractions en boîte périodique ; ajout non prévu au plan, prédiction écrite avant ce calcul) | `x35b_tore.py` | 2 450 |
+| X-35 bis (les mêmes fractions en boîte périodique ; ajout non prévu au plan, prédiction écrite avant ce calcul) | `x35b_tore_prediction.txt` | 1 094 |

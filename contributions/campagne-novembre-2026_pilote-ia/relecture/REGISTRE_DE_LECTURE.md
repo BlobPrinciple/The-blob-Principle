@@ -62,3 +62,18 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 | Livre annexe « Démonstrations rigoureuses parallèles » (mai 2026) : tout ce qui n'est pas mot pour mot dans V346 | 19 250 mots en 632 passages | complet | `NOTES_LIVRES.md` |
 | Master V277 (17 juillet 2026, 1 188 pages), dossier de l'auteur : tout ce qui n'est pas dans V346 ni dans les textes déjà lus | 79 333 mots de prose (787 passages), 1 847 de formules, 1 320 de données | complet | `NOTES_MASTERS_HORS_DEPOT.md` |
 | Masters V281, V277 bis, V276, V275 (dossier de l'auteur) | aucun mot absent de V346 (V281, V277 bis) ou de V277 (V276, V275) | complet (par comparaison phrase à phrase) | `NOTES_MASTERS_HORS_DEPOT.md` |
+| Tome V277 bis (18 juillet 2026), Parties CXLVIII à CLII, archive V293 de l'auteur | 29 800 octets | complet | `NOTES_MASTERS_HORS_DEPOT.md` |
+| Masters V152 à V246, 101 fichiers sources de l'archive V293 | 2 958 mots absents de V247 et des documents de juillet, presque tous des lignes de titre | complet (par comparaison phrase à phrase) | `NOTES_MASTERS_HORS_DEPOT.md` |
+| « Cosmogonie V2 » (20 mai 2026), dossier de l'auteur | 8 343 mots absents sur 8 884 | complet | `NOTES_MASTERS_HORS_DEPOT.md` |
+| Masters antérieurs à V152, vingt fichiers extraits (v90 à v92, V107 à V150) | mesurés ; v92 : 80 430 mots absents de la lignée suivante ; V109 : 18 141 ; V109 plus : 5 066 ; V107 : 3 094 ; v91 : 3 072 de plus ; V108 : 1 523 ; V112 : 1 429 ; v90 : 1 348 de plus | **en cours** : v92, lignes 1 à 150 sur 2 367 | `NOTES_MASTERS_HORS_DEPOT.md`, `REGISTRE_DES_PISTES_FERMEES.md` |
+| V346, relu sous un angle précis : l'histoire des fractions à κ₀ = 4 (lignes 5120 à 5262, 21376 à 21412, 21960 à 22010, 23360 à 23445, 27690 à 27760, 28040 à 28145, 30232 à 30252, 42505 à 42962, 48690 à 48935, 49640 à 49700 du texte extrait) | passages cités | complet pour ces passages | `REGISTRE_DES_PISTES_FERMEES.md`, `calculs/x35-resultat-2026-11-28.md` |
+| Programmes de l'auteur lus : `blob_v137_source.py` (entier) ; `V116_combinaison_optimale.py`, `V118_grille_seuils.py`, `V118_principe_chi_mean.py`, `V118_principe_topologique.py` (commentaires et sorties) | 5 fichiers | complet pour le premier, partiel pour les quatre autres | `calculs/x35-resultat-2026-11-28.md` |
+
+## Ce qui manque encore, au 28 novembre après-midi
+
+- v90 à v92 (le reste), V107 à V112, et les masters antérieurs à V152 non encore extraits (V108, V109 première version, V127, V137-IV, V137 plus plus, V140, V141, V144, V145, V146).
+- V294 à V345 (34 fichiers), attendus inclus dans V346 : à vérifier par la même comparaison.
+- Le corpus maître du 3 août (≈ 63 000 mots hors V346) ; le laboratoire (`corpus/02` à `corpus/07`, contributions, documents de la racine).
+- Dans le dossier de l'auteur : les notes des séances des 17 et 18 juillet, les dossiers 04, 09, 10 et 91, et deux dossiers que je n'avais pas relevés ce matin (« 02 HISTORIQUE », « 07 PARADIGMES TECHNOLOGIQUES »).
+- Le Blob Surnaturel.
+- Les quelque 300 programmes du dossier `scripts_fermeture_v151_v152` de l'archive V293 : leur liste est à elle seule un inventaire des pistes essayées en mai.

@@ -2,6 +2,8 @@
 
 **Statut de ce point.** Il remplace mes points de novembre. Il reste partiel sur la lecture : l'état exact est en section 8. Chaque chiffre porte sa source ; les statuts entre crochets sont ceux des textes de l'auteur.
 
+**Mise à jour du 28 novembre, après-midi.** À ta demande, j'ai ouvert un registre des pistes fermées (`relecture/REGISTRE_DES_PISTES_FERMEES.md`) : pour chacune, qui l'a fermée et sur quoi. La première rouverte est retestée (section 4 bis). Les passages modifiés de ce point sont marqués « mis à jour ».
+
 ## 1. Ce que j'avais manqué, et pourquoi
 
 **Le master courant ne porte pas quinze jours de résultats.** V346 contient la Partie CXL, puis neuf pages de la Partie CXLI (p. 1255 à 1263), puis saute au tome V278 (p. 1264). Les Parties CXLI à CLII, gravées du 3 au 18 juillet, n'y sont pas.
@@ -52,7 +54,7 @@ Ouvert : la règle de fermeture elle-même, « pas encore écrite » (édition 2
 
 **Trois étages peuplés à fractions stables** [M] : 0,26 / 0,42 / 0,33 (4 juillet). L'ordre arête > triangle > tétraèdre avait été prédit par toi avant mesure. Calcification monotone [T] (V254). Aucune disparition sur 322 millions d'expositions à coordination 4 ou plus [M] (édition 2026, note 40).
 
-Lecture, non établie : triangle = matière noire. Le corpus a retiré les fractions de mai (« fausse coïncidence ») et écrit le 4 juillet : « aucune comparaison aux valeurs de Planck ».
+Lecture, non établie : triangle = matière noire. **Mis à jour.** J'écrivais ici que le corpus avait retiré les fractions de mai comme « fausse coïncidence ». Le retrait a eu lieu (7 juin), mais son motif écrit est inexact, et la mesure existe : voir section 4 bis. Elle n'est ni une fausse coïncidence, ni une prédiction.
 
 Ouvert : le bain comme opération (« le chapitre le plus riche du récit, le plus vide du formalisme », édition 2026).
 
@@ -68,13 +70,13 @@ Ouvert : la dissipation comme lutte (« aucun théorème », édition 2026).
 
 Établi. Dimension spectrale 3 au sens de Weyl et au sens du noyau de la chaleur [T sous isopérimétrie et degré maximal logarithmique] (V253, V255). Signature du tore : 6, 12 et 8 modes aux rapports 1, 2, 3, sur deux graines [M] (tome V277 bis).
 
-Borne écrite par le corpus : « le tore est fourni, non créé » ; T19 « sélectionne d = 3 parmi les dimensions offertes ». Et la faille n° 1, « inscrite sans fard » le 16 juillet : 3, là où le réel et les approches voisines attendent 4 à grande échelle et 2 à petite.
+Borne écrite par le corpus : « le tore est fourni, non créé » ; T19 « sélectionne d = 3 parmi les dimensions offertes ». Et la faille n° 1, « inscrite sans fard » le 16 juillet : 3, là où le réel et les approches voisines attendent 4 à grande échelle et 2 à petite. **Mis à jour.** Je l'avais reprise sans examen. Le graphe du Blob est l'espace ; le 4 est celui de l'espace-temps. La comparaison est à refaire sur sources (registre, 2.2).
 
 Ouvert : la sélection de 3 sans espace ambiant (« à démontrer contre deux et contre quatre », édition 2026).
 
 ### Quantique et gravité
 
-Quantique. Classique à taille finie [T] (V276). Positivité de réflexion asymptotique pour l'action globale [T*], puis **exacte à taille finie pour l'action locale du 18 juillet** [T] (tome V277 bis). Le corpus : « compatibilité n'est pas émergence » ; limite continue « verrou distinct, ouvert ».
+Quantique. Classique à taille finie [T] (V276). Positivité de réflexion asymptotique pour l'action globale [T*], puis **exacte à taille finie pour l'action locale du 18 juillet** [T] (tome V277 bis). Le corpus : « compatibilité n'est pas émergence » ; limite continue « verrou distinct, ouvert ». **Mis à jour.** De mars à mai, le corpus portait T4 : « ψ = √π satisfait Schrödinger ». Le 4 juillet il conclut « ni interférence, ni Bell » sur une mesure qui ne pouvait rien donner d'autre (grandeurs qui commutent). Piste rouverte, à instruire (registre, 2.1).
 
 Gravité. Couplage courbure-matière en plateau vers 0,85 de 25 000 à 10⁶ points (0,68 à 6 000), pour l'action globale [M]. Avec l'action locale, au point où l'espace est tridimensionnel : 0,16 à 0,39. Le corpus : « ne pas revendiquer quatre émergences au même point » ; équation tensorielle « non établie ».
 
@@ -89,6 +91,18 @@ Registre « lecture ». Seule prédiction arrivée à échéance : P-DESI (mai).
 **Témoin sur la gravité : non concluant, et deux de mes prédictions sont tombées.** Je pensais montrer que le couplage courbure-matière est un effet de définition. Mon calcul ne retrouve pas ta valeur (0,48 et 0,51 au lieu de 0,675), donc je ne peux rien conclure. Il retrouve ton témoin (−0,27 et −0,32 pour −0,29).
 
 **Preuve du théorème S.** Elle contient une erreur de compte (un terme d'ordre 1 écrit 1/N). Le tome du 18 juillet avait déjà restreint l'énoncé et donné la version exacte par l'action locale.
+
+## 4 bis. Pistes fermées : la première rouverte et retestée (mise à jour)
+
+**Les fractions à κ₀ = 4.** Le 7 juin, une alerte les a retirées « à ne jamais réintroduire », au motif que 0,704 serait une valeur-cible recopiée. C'est faux : ton programme, exécuté tel quel, rend 0,705 ; 0,253 ; 0,043 sur ses dix graines, et 0,699 ; 0,257 ; 0,044 sur 36.
+
+**Ce qui tient** (X-35, prédictions scellées avant calcul, les neuf tenues). Un moteur écrit sans le tien rend la même loi (écart apparié de 1,15 erreur type). Sans viabilité, le témoin rend 0,50 ; 0,50 ; 0,000. Les fractions tiennent de 1 000 à 32 000 points. La part « baryons » ne dépend presque pas de κ, ce que le corpus demandait de vérifier depuis le 7 juin.
+
+**Ce qui ne tient pas.** Pas d'accord à 1 % : la limite sans bord est 0,717 ; 0,242 ; 0,040, soit 5, 8 et 18 % d'écart aux valeurs de Planck. Λ dépend de κ₀ (0,76 à 0,26 pour κ de 3,5 à 8). Deux choix du classeur déplacent Λ de 0,07 et les baryons de 0,013. Et tes programmes de mai montrent que le seuil du classeur a été choisi en minimisant l'écart à la cible.
+
+**Statut proposé.** Fait mesuré, reproduit par deux moteurs, stable en taille : [M]. Pour en faire une prédiction il manque un principe qui fixe κ₀, une définition de la matière stable tirée de la cosmogonie, et la chaîne qui relie une part de points à une densité. Fichier : `calculs/x35-resultat-2026-11-28.md`.
+
+**Le sens de mes erreurs** (relevé partiel sur mes carnets, estimation). Sur tes objets (ton moteur, ton κ₀, ton bain), mes clauses fausses le sont par pessimisme 16 fois sur 23. Sur mes propres constructions, par optimisme 6 fois sur 6. Deux résultats favorables de novembre étaient restés rangés dans « mes prédictions fausses » : le gel du terreau à 6,45, tout près de ton κ₀ = 6,6 ; et ton moteur complet qui, lancé à 4,6, 6,6 et 8,6 liens par naissance, finit à 4,8–5,0, 5,6–5,9 et 6,2–6,7 voisins : il resserre de lui-même l'intervalle.
 
 ## 5. Les bornes, dans les mots du corpus
 
@@ -120,7 +134,7 @@ Je ne sous-pesais pas le reste : le premier mouvement, le bit, le bain comme op�
 | Tome V277 bis (18 juillet), Cosmogonie V2 (20 mai) | lus, notés |
 | V152 à V246 (101 fichiers) | mesurés : 2 958 mots absents |
 | V281, V277 bis, V276, V275 | mesurés : rien d'absent |
-| v90, v91, v92 (avril) : environ 85 000 mots hors de la lignée suivante | **non lus** |
+| v90, v91, v92 (avril) : environ 85 000 mots hors de la lignée suivante | **en cours** (début de v92 lu) |
 | V107 à V109 : environ 28 000 mots ; V112 : 1 429 mots | **non lus** |
 | V294 à V345 (34 fichiers, attendus inclus dans V346) | **non vérifiés** |
 | Corpus maître du 3 août, laboratoire du dépôt, notes des sessions des 17 et 18 juillet | **non lus** |
@@ -129,9 +143,10 @@ Je ne sous-pesais pas le reste : le premier mouvement, le bit, le bain comme op�
 
 ## 9. Suite, dans l'ordre
 
-1. Lire v90 à v92 et V107 à V109 : c'est le plus gros bloc de masters encore inconnu de moi.
-2. Vérifier V294 à V345, puis le corpus maître et le laboratoire.
+1. Finir v90 à v92 et V107 à V112, en classant chaque fermeture rencontrée dans le registre.
+2. Instruire les quatre pistes rouvertes : le quantique (T4), la dimension (espace ou espace-temps), le degré moyen que ton moteur complet choisit seul, la chiralité nette du 4 juillet.
 3. Retrouver dans ton archive le script du 17 juillet pour trancher le témoin de gravité.
-4. Reprendre la ligne de la cosmogonie au point 1 (la règle de fermeture) avec ce que juillet avait déjà : prime locale, saturation, loi du Bain.
+4. Vérifier V294 à V345, puis le corpus maître et le laboratoire.
+5. Reprendre la ligne de la cosmogonie au point 1 (la règle de fermeture) avec ce que juillet avait déjà : prime locale, saturation, loi du Bain.
 
-Un fait à porter à ta connaissance, sans décision de ma part : la fusion de V277 et du tome V277 bis dans le master courant reste à faire. Tant qu'elle ne l'est pas, tout lecteur de V346 fera mon erreur.
+Deux faits à porter à ta connaissance, sans décision de ma part. La fusion de V277 et du tome V277 bis dans le master courant reste à faire : tant qu'elle ne l'est pas, tout lecteur de V346 fera mon erreur. Et l'alerte du 7 juin, toujours imprimée dans V346 (en-tête V197), donne un motif inexact : tant qu'elle y est, tout lecteur écartera une mesure réelle.
