@@ -1,0 +1,42 @@
+N = 1000, graine 1 : E0 = 3300 arêtes, réservoir 10834 paires (degré de réservoir 21.7), grille 5^3 = 125 cellules ; boucle instrumentée identique à celle de l'auteur : True ; 18 s
+   graphe géométrique nu              K4 =   1625 ; triangles =   2844 ; top 10 % des cellules : 49% des K4, 33% des triangles ; 45 % les moins denses : 6.0% des K4 ; cellules sans K4 : 21% ; corrélation densité-K4 : +0.62 ; dispersion des cellules : 0.32
+   départ (aucun pas)                 K4 =   1901 ; triangles =   3311 ; top 10 % des cellules : 48% des K4, 32% des triangles ; 45 % les moins denses : 7.0% des K4 ; cellules sans K4 : 16% ; corrélation densité-K4 : +0.60 ; dispersion des cellules : 0.30
+   E0 arêtes au hasard du réservoir   K4 =    101 ; triangles =   1273 ; top 10 % des cellules : 43% des K4, 31% des triangles ; 45 % les moins denses : 5.9% des K4 ; cellules sans K4 : 70% ; corrélation densité-K4 : +0.51 ; dispersion des cellules : 0.28
+   Blob (130 N pas)                   K4 =  18616 ; triangles =   6102 ; top 10 % des cellules : 100% des K4, 91% des triangles ; 45 % les moins denses : 0.0% des K4 ; cellules sans K4 : 77% ; corrélation densité-K4 : +0.77 ; dispersion des cellules : 0.77
+   B. étages du Blob : dans un K4 0.20 ; triangle seulement 0.47 ; arêtes seulement 0.33      (graphe nu : 0.70/0.21/0.09)
+   C. K4 du Blob / K4 du graphe nu = 18616 / 1625 = 11.5
+   D. retrait d'une arête, par nombre de triangles portés (propositions, taux d'acceptation, variation moyenne de S des échanges acceptés en unités de tau/N) :
+        charge 0   :  23291 propositions ; taux 0.9851 ; variation moyenne de S +0.247
+        charge 1   :  18376 propositions ; taux 0.8506 ; variation moyenne de S -0.026
+        charge 2   :   8169 propositions ; taux 0.6691 ; variation moyenne de S -0.263
+        charge 3-4 :   5076 propositions ; taux 0.4819 ; variation moyenne de S -0.579
+        charge 5+  :  23551 propositions ; taux 0.0566 ; variation moyenne de S -1.772
+        arêtes dans un K4 : taux 0.1695 (30305 propositions) ; hors K4 : taux 0.8863 (48158) ; rapport hors/dans = 5.23
+N = 1000, graine 2 : E0 = 3300 arêtes, réservoir 10959 paires (degré de réservoir 21.9), grille 5^3 = 125 cellules ; boucle instrumentée identique à celle de l'auteur : True ; 18 s
+   graphe géométrique nu              K4 =   1828 ; triangles =   3086 ; top 10 % des cellules : 46% des K4, 32% des triangles ; 45 % les moins denses : 9.5% des K4 ; cellules sans K4 : 16% ; corrélation densité-K4 : +0.72 ; dispersion des cellules : 0.30
+   départ (aucun pas)                 K4 =   2002 ; triangles =   3441 ; top 10 % des cellules : 45% des K4, 31% des triangles ; 45 % les moins denses : 9.0% des K4 ; cellules sans K4 : 16% ; corrélation densité-K4 : +0.70 ; dispersion des cellules : 0.29
+   E0 arêtes au hasard du réservoir   K4 =     73 ; triangles =   1202 ; top 10 % des cellules : 36% des K4, 25% des triangles ; 45 % les moins denses : 16.4% des K4 ; cellules sans K4 : 70% ; corrélation densité-K4 : +0.42 ; dispersion des cellules : 0.30
+   Blob (130 N pas)                   K4 =  16310 ; triangles =   5790 ; top 10 % des cellules : 98% des K4, 87% des triangles ; 45 % les moins denses : 0.0% des K4 ; cellules sans K4 : 70% ; corrélation densité-K4 : +0.80 ; dispersion des cellules : 0.72
+   B. étages du Blob : dans un K4 0.20 ; triangle seulement 0.51 ; arêtes seulement 0.29      (graphe nu : 0.72/0.22/0.06)
+   C. K4 du Blob / K4 du graphe nu = 16310 / 1828 = 8.9
+   D. retrait d'une arête, par nombre de triangles portés (propositions, taux d'acceptation, variation moyenne de S des échanges acceptés en unités de tau/N) :
+        charge 0   :  23360 propositions ; taux 0.9833 ; variation moyenne de S +0.248
+        charge 1   :  17310 propositions ; taux 0.8495 ; variation moyenne de S -0.022
+        charge 2   :   7622 propositions ; taux 0.6766 ; variation moyenne de S -0.266
+        charge 3-4 :   4700 propositions ; taux 0.4949 ; variation moyenne de S -0.563
+        charge 5+  :  25344 propositions ; taux 0.0602 ; variation moyenne de S -1.737
+        arêtes dans un K4 : taux 0.1639 (31692 propositions) ; hors K4 : taux 0.8895 (46644) ; rapport hors/dans = 5.43
+N = 2000, graine 1 : E0 = 6600 arêtes, réservoir 22550 paires (degré de réservoir 22.6), grille 6^3 = 216 cellules ; boucle instrumentée identique à celle de l'auteur : True ; 62 s
+   graphe géométrique nu              K4 =   3200 ; triangles =   5806 ; top 10 % des cellules : 46% des K4, 32% des triangles ; 45 % les moins denses : 8.8% des K4 ; cellules sans K4 : 10% ; corrélation densité-K4 : +0.73 ; dispersion des cellules : 0.29
+   départ (aucun pas)                 K4 =   3731 ; triangles =   6645 ; top 10 % des cellules : 45% des K4, 31% des triangles ; 45 % les moins denses : 9.0% des K4 ; cellules sans K4 : 10% ; corrélation densité-K4 : +0.71 ; dispersion des cellules : 0.28
+   E0 arêtes au hasard du réservoir   K4 =    114 ; triangles =   2175 ; top 10 % des cellules : 30% des K4, 24% des triangles ; 45 % les moins denses : 21.9% des K4 ; cellules sans K4 : 72% ; corrélation densité-K4 : +0.35 ; dispersion des cellules : 0.24
+   Blob (130 N pas)                   K4 =  26314 ; triangles =  10615 ; top 10 % des cellules : 98% des K4, 85% des triangles ; 45 % les moins denses : 0.1% des K4 ; cellules sans K4 : 64% ; corrélation densité-K4 : +0.82 ; dispersion des cellules : 0.68
+   B. étages du Blob : dans un K4 0.23 ; triangle seulement 0.47 ; arêtes seulement 0.30      (graphe nu : 0.72/0.21/0.07)
+   C. K4 du Blob / K4 du graphe nu = 26314 / 3200 = 8.2
+   D. retrait d'une arête, par nombre de triangles portés (propositions, taux d'acceptation, variation moyenne de S des échanges acceptés en unités de tau/N) :
+        charge 0   :  46740 propositions ; taux 0.9794 ; variation moyenne de S +0.259
+        charge 1   :  35387 propositions ; taux 0.8282 ; variation moyenne de S -0.033
+        charge 2   :  16154 propositions ; taux 0.6443 ; variation moyenne de S -0.309
+        charge 3-4 :  10411 propositions ; taux 0.4394 ; variation moyenne de S -0.666
+        charge 5+  :  48370 propositions ; taux 0.0491 ; variation moyenne de S -1.896
+        arêtes dans un K4 : taux 0.1584 (62656 propositions) ; hors K4 : taux 0.8741 (94406) ; rapport hors/dans = 5.52

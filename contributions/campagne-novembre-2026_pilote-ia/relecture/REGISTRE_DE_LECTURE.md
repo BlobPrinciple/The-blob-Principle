@@ -35,7 +35,8 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 
 1. Les masters hors du dépôt (index : 220 ; dépôt : 13 et 4 manifestes). La demande d'accès au dossier du Mac de l'auteur a été refusée par le garde-fou de la session ; je ne la contourne pas. Sur Zenodo ne figurent que les versions du dépôt.
 2. Les sources que le master cite et que je n'ai trouvées dans aucun fichier du dépôt à ce stade : v91, v92 et v105 (« Paper A ») ; l'archive « BlobPrinciple_V138_archive_complete.zip ». Conséquence : les démonstrations de T7.3 (T28) et T7.4 (T29), dites « reproduites en annexe A1 », ne sont pas dans l'annexe A1 du master. À rechercher dans le livre annexe et les manifestes pendant leur lecture.
-3. Une lecture n'est déclarée faite que page par page, ci-dessous. Rien n'est conclu d'un document tant que sa ligne n'est pas complète.
+3. **Les tomes V257 à V277 (du 8 au 17 juillet).** Ils ne sont ni dans V346 (aucune date du 8 au 17 juillet, aucune mention de V249 à V277), ni dans le master propre du 7 juillet (qui s'arrête à V256). Seule trace au dépôt : le « Kit Brainstorm Multi-IA » du 11 juillet (« Blob après V272 »).
+4. Une lecture n'est déclarée faite que page par page, ci-dessous. Rien n'est conclu d'un document tant que sa ligne n'est pas complète.
 
 ## Ordre de lecture
 
@@ -52,3 +53,4 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 | Master V346 complet | 1 918 | 1 à 1 918 (complet) | `NOTES_V346.md` |
 | 260 phrases des masters V111 à V230 absentes de V346 | 260 lignes | 1 à 260 (complet) | `NOTES_AUTRES_MASTERS.md` |
 | Armature canonique V347.1 (9 septembre) | 29 | 1 à 29 (complet) | `NOTES_AUTRES_MASTERS.md` |
+| « Master scientifique, version propre du 7 juillet » (Blob MASTER PROPRE LIVRE ; contient les Parties absentes de V346) | 4 833 lignes | 1 à 4 833 (complet) | `NOTES_AUTRES_MASTERS.md` |
