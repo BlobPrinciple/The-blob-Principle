@@ -1,0 +1,88 @@
+X-37 -- PREDICTION SCELLEE AVANT TOUT CALCUL
+Laboratoire du Principe du Blob, campagne de novembre 2026. Claude (pilote IA), 28 novembre 2026.
+Parole de l'auteur, 28 novembre, 11 h 40 : << attention a ne pas saboter involontairement des eventualites qui auraient pu etre zappees
+faute de prises de risques et de recherches qui a priori paraissaient trop excentriques mais qui au final etaient la bonne piste ! donc recheck bien ! >>
+
+TOE 0/7. Aucun verrou ferme. Ce calcul execute un protocole ecrit par l'auteur le 23 juillet et jamais execute.
+
+D'ABORD, MES FAUTES
+1. En relisant aujourd'hui mes propres notes du master V346, j'y trouve, ecrit de ma main : << Ici, quelque chose a ete abandonne trop tot. [...] la
+   cosmogonie du 27 mai n'a jamais ete refutee, elle a ete recouverte. A retablir dans le point complet. >> Je ne l'ai pas retablie. Meme chose pour la
+   reformulation de l'auteur sur les trois temps (<< a porter tel quel dans le point complet, comme la question ouverte la mieux posee du corpus >>) :
+   absente de mon point complet du 28 novembre.
+2. Mon registre des pistes fermees de ce matin a ete ecrit sans relire ces notes. Il presente comme abandonnees des pistes que le corpus avait rouvertes
+   lui-meme (quantique : Partie CXCIV, tomes V290, V297, V298, V301, V304 ; dimension : tome V343). Correction dans la version 2 du registre.
+
+LES TEXTES DE L'AUTEUR
+(a) 27 mai 2026 (master V346, pages 889 a 895) : mitose par subdivision d'une arete. << L'univers ne s'etend pas plus vite, il grossit toujours plus
+    partout en meme temps. >> Croissance exponentielle (ln N = 0,304 t + 3,33 ; R2 = 0,998) ; loi de Hubble (recession = 0,449 x distance + 1,81 ;
+    r = 0,920). Version << native >> : chaque subdivision est acceptee selon Delta S ; 95 % +/- 1 % des mitoses sur des aretes pures ; en expansion pure,
+    densite d'aretes pures constante a 0,00 % pour N x 24,7, soit w = -1,00. Reserve ecrite : << w(z) en regime mixte et metrique de de Sitter : chantiers >>.
+    Le 10 juin ce resultat est dit << supplante >> parce qu'une autre realisation de la mitose (naissance d'un point, moteur vivant) ne redonne pas -1.
+(b) 23 juillet 2026 (tome V305, EH.3) : << Correction de l'auteur, gravee : les trois temps sont unis. Le Temps 2 donne une ORIENTATION, un sens, non une
+    duree. La duree appartient au Temps 1 [...]. Le Temps 3 est une etape pour la MATIERE, dissipation par fermeture et ralentissement de la mitose, non
+    pour le simplexe. [...] un seul systeme regarde par deux horloges. L'expansion n'a pas a etre ralentie : c'est l'horloge de la matiere qui ralentit, et
+    un observateur de matiere verrait une loi de puissance la ou le substrat vit une exponentielle. [...] Protocole requis : taux de fermeture des K4 contre
+    compte de mitoses, cinq tailles, vingt graines, cible etablie avant tir. >>
+    Recherche dans V346 apres cette page (lignes 69 442 a 89 475) : << deux horloges >>, << horloge de la matiere >>, << rapport de deux horloges >> : une seule
+    occurrence, sans rapport (un theoreme sur des horloges reversibles). Recherche dans ma contribution de novembre : rien hors de mes notes de lecture.
+    Le protocole n'a pas ete execute.
+(c) Fin aout (tome V343) : << Le volume d'espace-temps est le compte des 4-simplexes fermes. Le present est l'ensemble des 4-simplexes ouverts. >>
+
+LES PROGRAMMES DE L'AUTEUR
+Ils ne sont pas au depot. Trouves aujourd'hui dans son dossier, archive << BLOB MASTER V293 ARCHIVE TOTALE.zip >>, scripts_fermeture_v151_v152 :
+native_1_mitose_viabilite.py (SHA-256 c200317d3f453f1ceba5076231dc0d52067bafe68bb01ef6e19b413c95281ba7), mitose_cycle.py (ef696e8e79ef403a7d3cc6b2177654d1
+a921dfd17f5af089f0bcf72590e8e029), et dix autres (mitose_0 a 3, native_2 a 5, cosmo_1, cosmo_2). Je ne les modifie pas.
+
+PROTOCOLE (fige)
+Partie A, replication. Les douze scripts de l'auteur executes tels quels, sorties conservees.
+Partie B, les deux horloges. Programme x37_deux_horloges.py.
+  Bras N : BlobNatif, step_natif aux valeurs de l'auteur (essai de mitose 0,5 par arete ; structuration 0,12 par sommet ; tau = 0,50 ; beta = 0,30), anneau
+           de depart de 40 sommets. Compteurs passifs ajoutes par copie mot pour mot ; identite des trajectoires verifiee a chaque lancement.
+  Bras C : BlobCosmogonie (mitose + age + dissipation), step aux valeurs de l'auteur (0,3 ; 0,12 ; 0,06 ; age 3), anneau de 40 sommets, sans aucune retouche.
+  Vingt graines (0 a 19) par bras. Cinq tailles : lecture au premier pas ou N atteint 1 000, 2 000, 4 000, 8 000, 16 000.
+  Bras de controle : bras N, anneau de 160 sommets, graines 0 a 4 (les lectures a taille egale dependent-elles du depart ?).
+  A chaque pas : N, liens, liens purs (definition de l'auteur : aucun voisin commun), triangles, K4, K4 nes et disparus dans le pas (difference des
+  ensembles), mitoses du pas ; bras N : essais et acceptations de mitose selon que l'arete est pure ou prise dans un triangle.
+  Grandeur du protocole : r = K4 nes dans le pas / mitoses du pas, lue aux cinq tailles. Exposant g defini par r proportionnel a N^(-g) : pente de ln r
+  contre ln N sur les cinq tailles, par graine, puis moyenne et erreur type sur les graines ; pentes locales entre tailles voisines.
+  Meme lecture pour les triangles. Densite d'aretes pures rho = liens purs / N et w = -(d ln rho / d ln N) - 1 (formule de l'auteur, native_4).
+  Gardes : 80 pas, 3 millions de K4. Si une taille est hors de portee du calcul, je le dis et je n'en change pas la definition apres lecture.
+  Essai de fumee du programme apres scellement : bras N, graine 999, N <= 300, hors plan.
+
+TROIS LECTURES DE << L'HORLOGE DE LA MATIERE >> (je ne choisis pas ; la clause appartient a l'auteur)
+  H1, le compte : le temps de la matiere est le nombre de fermetures accumulees T (texte c pris globalement). Alors N proportionnel a T^(1/(1-g)).
+      Facteur d'echelle a = N^(1/3) proportionnel a T^p, p = 1/(3(1-g)). Reperes : g = 0 donne p = 1/3 ; g = 1/3 donne 1/2 (ere du rayonnement) ;
+      g = 1/2 donne 2/3 (ere de la matiere) ; g = 1 donne l'exponentielle. C'est mon assemblage des textes (a), (b), (c), pas un enonce de l'auteur.
+  H2, par sommet : volume d'espace-temps = somme de (volume d'espace x duree), donc duree du pas = K4 nes / N.
+  H3, par structure : duree du pas = K4 nes / K4 presents.
+
+PREDICTIONS
+P1 (partie A) : au moins sept des neuf chiffres suivants reproduits au dernier chiffre imprime : 0,304 ; 3,33 ; 0,998 ; 0,449 ; 0,920 ; 95 % ; 0,990 ;
+     variation 0,0 % ; w = -1,00. Confiance 70 % (les scripts de l'archive peuvent ne pas etre la version qui a produit le texte).
+P2 (<< liee, la mitose ralentit >>) : bras N, aux cinq tailles, un essai de mitose est accepte au moins cinq fois moins souvent sur une arete prise dans un
+     triangle que sur une arete pure. Confiance 85 %.
+P3 : bras N, le taux de croissance par pas vaut 0,5 x (acceptation sur arete pure) x rho a 5 % pres aux cinq tailles : l'expansion est portee par les
+     aretes libres. Confiance 80 %.
+P4 : bras N, en regime mixte la croissance reste exponentielle en pas (R2 >= 0,995 pour ln N contre t entre les tailles 2 000 et 16 000), a un taux plus
+     bas qu'en expansion pure. Confiance 80 %.
+P5 : bras N, rho tend vers une constante : |d ln rho / d ln N| < 0,05 entre 8 000 et 16 000, donc w = -1 a 0,05 pres en regime mixte. Confiance 70 %.
+P6 (triangles) : fermetures de triangles par mitose constantes : pente locale de valeur absolue < 0,05 a partir de 2 000. Confiance 75 %.
+P7 (le protocole de l'auteur, bras N) : les fermetures de K4 par mitose ne se diluent pas : pente locale de ln r contre ln N superieure a -0,2 a toutes
+     les tailles, positive aux petites tailles et decroissante. Donc g <= 0,2 : ni g = 1/3 ni g = 1/2. Confiance 75 %.
+     Raison : la regle est locale et le taux de naissance constant ; la pyramide des ages se fige, et toute grandeur par sommet tend vers une constante.
+P8 (consequence) : sous H1 la matiere voit une loi de puissance, comme l'ecrit l'auteur, mais d'exposant p <= 0,42 pour a ; sous H2 et H3 elle voit une
+     exponentielle. Confiance 70 %.
+P9 (bras C) : avec la dissipation, memes conclusions : pente locale de ln r de valeur absolue < 0,2 a partir de 2 000. Confiance 55 % : je ne sais pas ce que
+     donne la dissipation sur les K4 ; ils peuvent etre trop rares pour etre lus.
+P10 (controle) : a taille egale, r du depart a 160 sommets egale r du depart a 40 a deux erreurs types pres, des 4 000. Confiance 65 %.
+
+CE QUE CHAQUE ISSUE VOUDRA DIRE
+Si P7 tombe par le bas, c'est-a-dire si g vaut 1/3 ou 1/2 sur au moins trois tailles consecutives, dans les deux bras, a deux erreurs types : la cosmogonie
+du 27 mai, lue avec les deux horloges du 23 juillet, donne une ere de rayonnement ou de matiere sans rien ajouter. Ce serait le premier contact chiffre avec
+l'histoire de l'expansion, et je l'aurais ecarte par prudence : mon pronostic est contre.
+Si P7 tient : la phrase de l'auteur est vraie dans son operateur sous la lecture H1 seulement, avec un exposant qui n'est pas celui du ciel. Le protocole est
+alors execute et son resultat ecrit ; reste a l'auteur de dire quelle horloge est celle de la matiere, et au calcul de dire ce qui ferait varier g
+(la dissipation, le bain, la calcification).
+Dans tous les cas : aucun de ces operateurs n'a de dimension d'espace (un anneau subdivise reste de dimension 1 a grande echelle, mes notes de V346) ;
+a = N^(1/3) est une convention de l'auteur (native_3_wz), pas une mesure.
