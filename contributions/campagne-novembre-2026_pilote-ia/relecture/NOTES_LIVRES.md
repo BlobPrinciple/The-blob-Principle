@@ -349,3 +349,27 @@ Lu en entier, 8 733 lignes, sans résumé intermédiaire. Ce que le livre apport
 
 Ce que le corpus a corrigé depuis et que le livre 3 porte encore : la dimension trois « scellée » ; l'alignement 0,5369 lu comme flèche ; la parité à 19 σ ; Polyakov ; g₀₀ ; la température critique 0,40 ; le substrat « poissonien » ; le rapport 5,4 attribué au mur des valeurs. Aucune de ces corrections ne touche les six points ci-dessus.
 
+
+## Les trois versions de la cosmogonie comparées (livres 1, 2, 3 et révision du 17 mai) — écarts lus en entier
+
+Méthode : comparaison phrase à phrase sur les textes Word, sans seuil de longueur (`outils/phrases_absentes_pleines.py` ; une première passe gonflait les écarts, à cause des ligatures abîmées du PDF du livre 1 et des phrases de moins de 40 caractères ; les deux défauts sont corrigés).
+
+- **Livre 2 dans livre 3 : aucun écart.** Zéro phrase du livre 2 ne manque au livre 3. Le livre 3 est le livre 2 plus ses ajouts (environ 3 700 mots : le bain, la calcification mesurée, le palier de bascule, le comptage, l'état des liants, le socle actualisé, la précision sur la chiralité).
+- **Révision du 17 mai : le livre 1 à deux corrections près**, que son en-tête déclare : « une centaine de versions » devient « plus de cent versions (V107 au 12 mai 2026) », et la référence au manuscrit est précisée. « Aucune autre transformation du contenu. »
+- **Livre 1 hors livres 2 et 3 : 7 420 mots, lus.** Ce qu'ils contiennent :
+  - **Pas de chapitre 0.** Le livre 1 commence au point. « Avant le commencement : avant même qu'il y ait un avant ! Il y a quelque chose qui n'est pas encore quelque chose. » Ω⁰, U₀ et « l'éternité » y sont **« trois noms du même réel »**. La question « d'où vient-il ? » est posée et suspendue : « lui chercher une origine, c'est déjà être hors de lui ». La première mitose est « la première rupture de l'éternité ».
+  - **Ni jumeaux, ni bit, ni bain.** Ils entrent au livre 2 (jumeaux et bit) et au livre 3 (bain).
+  - **Des promesses chiffrées que le livre 2 retire.** Rapport matière noire sur matière ordinaire donné pour « approximativement » retrouvé (« environ 5 à 6 pour 1 ») ; masses des bosons, des leptons et des quarks à dériver « sans aucun paramètre ajustable » ; constante de Planck à dériver. Le livre 2 remplace tout cela par « des rapports sans dimension » après le mur des valeurs.
+  - **Trois énoncés formels disparus ensuite.** Seuil structurel du sens (« différenciation interne nulle avant le volume ») ; décohérence proportionnelle à la production d'entropie du milieu ; **transmission héréditaire, S(fille) ≈ S(mère) + δ, δ borné : « trop fidèle, l'évolution est impossible ; trop plastique, la cohérence se perd »**.
+  - Un outil médical (« scan » et « stabilisateur » de viabilité), une table des sources du chapitre 19, des questions ouvertes numérotées jusqu'à 56.
+
+**Ce que la suite des trois versions montre.**
+
+1. **Chaque version remonte d'un cran vers l'amont.** Le livre 1 part du point. Le livre 2 ajoute ce qui précède le point : le substrat, la scission, les jumeaux, le bit. Le livre 3 ajoute ce qui transforme le bit en monde : le bain. Le récit ne change pas ; il s'allonge par sa racine.
+2. **Chaque version est plus modeste sur les valeurs et plus précise sur la mécanique.** Le livre 1 promet des masses. Le livre 2 retire les valeurs et pose le mur. Le livre 3 ajoute des mesures de cinétique (calcification, palier) et corrige la lecture de la chiralité. C'est le mouvement inverse d'une dérive : les affirmations se resserrent sur ce qui se mesure.
+3. **Le noyau commun aux trois versions n'a jamais bougé** : le point ; la mitose qui fait la relation et la direction ; la fermeture en triangle, première chose qui reste ; le tétraèdre, premier dedans, où s'allument la dissipation, la matière et le sens ; trois temps ; deux thermodynamiques ; des cycles locaux sans commencement universel ; la viabilité comme seul sélecteur, de la matière à l'amour. Les phrases qui le portent sont identiques mot pour mot de mai à juillet.
+
+Pilote, deux remarques.
+1. **La transmission héréditaire du livre 1 est l'énoncé qui manque à RO-22.** L'armature classe l'« amélioration générationnelle » en absente et le test de mai (« instinct du dépassement hérité ») a échoué par défaut de protocole. Le livre 1 donnait la forme à tester : la viabilité de la fille proche de celle de la mère, avec un écart borné. Sur un générateur à lignées, cela se mesure : distribution de l'écart de viabilité locale entre un sommet et son parent, à âge égal.
+2. **La distinction entre U₀ et Ω⁰ date du livre 2.** Dans le livre 1 l'origine est une ; dans les livres 2 et 3 elle est en deux temps (le substrat, puis le premier point de notre côté). L'armature de septembre suit le livre 2. Toute citation du livre 1 sur « l'éternité » doit donc être lue avec « trois noms du même réel », et non projetée sur le vocabulaire ultérieur.
+
