@@ -59,3 +59,4 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 | Livres 1 et 2, révision du 17 mai : tout ce qui n'est pas dans le livre 3 (livre 2 : rien ; livre 1 : 7 420 mots ; révision : son en-tête) | écarts complets | complet | `NOTES_LIVRES.md` |
 | Édition 2026, PDF final illustré (septembre 2026) | 2 807 lignes ; 106 pages | complet | `NOTES_LIVRES.md` |
 | Édition 2026, texte Markdown du dépôt (autre état du livre) : tout ce qui n'est ni dans les livres 1 à 3 ni dans le PDF final, dont les 52 notes de rigueur | 6 300 mots en 143 passages | complet | `NOTES_LIVRES.md` |
+| Livre annexe « Démonstrations rigoureuses parallèles » (mai 2026) : tout ce qui n'est pas mot pour mot dans V346 | 19 250 mots en 632 passages | complet | `NOTES_LIVRES.md` |
