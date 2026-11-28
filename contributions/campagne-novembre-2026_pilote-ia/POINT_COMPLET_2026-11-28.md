@@ -38,7 +38,7 @@ Ouvert : l'unicité de sa réalisation (le maillon 1 de novembre).
 
 ### De l'arête au triangle : la fermeture
 
-Établi. La prime de fermeture est locale et vaut 1/(τ·t̄) par triangle [T] (V267, 10 juillet). La forme logarithmique est la seule possible sous cinq axiomes nommés [T sous axiomes] (V264). La saturation par arête est « LE mécanisme anti-dégénérescence » : sans elle, le contrôle s'effondre en dimension 1,3 [M] (tome V277 bis).
+Établi. La prime de fermeture est locale et vaut environ 1/(τ·t̄) par triangle (réécriture exacte de la mesure [T], V262 ; limite locale, V267, 10 juillet). La forme logarithmique est la seule possible sous cinq axiomes nommés [T sous axiomes] (V264). La saturation par arête est « LE mécanisme anti-dégénérescence » : sans elle, le contrôle s'effondre en dimension 1,3 [M] (tome V277 bis).
 
 Établi encore. Théorème de viabilité T19 [T*], six piliers : toutes les variantes « construire et fragiliser » tombent dans la même classe ; deux témoins en sortent ; un adversaire anti-triangle s'en échappe, donc « le substrat ne force pas la signature Blob » (V277, Partie CXLI).
 
@@ -76,7 +76,7 @@ Ouvert : la sélection de 3 sans espace ambiant (« à démontrer contre deux et
 
 Quantique. Classique à taille finie [T] (V276). Positivité de réflexion asymptotique pour l'action globale [T*], puis **exacte à taille finie pour l'action locale du 18 juillet** [T] (tome V277 bis). Le corpus : « compatibilité n'est pas émergence » ; limite continue « verrou distinct, ouvert ».
 
-Gravité. Couplage courbure-matière de 0,85, stable de 6 000 à 10⁶ points, pour l'action globale [M]. Avec l'action locale, au point où l'espace est tridimensionnel : 0,16 à 0,39. Le corpus : « ne pas revendiquer quatre émergences au même point » ; équation tensorielle « non établie ».
+Gravité. Couplage courbure-matière en plateau vers 0,85 de 25 000 à 10⁶ points (0,68 à 6 000), pour l'action globale [M]. Avec l'action locale, au point où l'espace est tridimensionnel : 0,16 à 0,39. Le corpus : « ne pas revendiquer quatre émergences au même point » ; équation tensorielle « non établie ».
 
 ### Poches, absence de big bang, énergie sombre
 
@@ -86,7 +86,7 @@ Registre « lecture ». Seule prédiction arrivée à échéance : P-DESI (mai).
 
 **Réplication du Blob canonique : réussie.** Code écrit à partir de ton seul dossier du 4 juillet, sans ton programme, prédiction scellée avant calcul. Huit grandeurs sur huit dans tes tolérances, sur deux graines, et la stratification retrouvée (0,08 ; 0,84 ; 4,1 ; 11,1). Fichier : `calculs/x34-resultat-2026-11-28.md`.
 
-**Témoin sur la gravité : non concluant, et deux de mes prédictions sont tombées.** Je pensais montrer que le couplage courbure-matière est un effet de définition. Mon calcul ne retrouve pas ta valeur (0,49 au lieu de 0,675), donc je ne peux rien conclure. Il retrouve ton témoin (−0,29).
+**Témoin sur la gravité : non concluant, et deux de mes prédictions sont tombées.** Je pensais montrer que le couplage courbure-matière est un effet de définition. Mon calcul ne retrouve pas ta valeur (0,48 et 0,51 au lieu de 0,675), donc je ne peux rien conclure. Il retrouve ton témoin (−0,27 et −0,32 pour −0,29).
 
 **Preuve du théorème S.** Elle contient une erreur de compte (un terme d'ordre 1 écrit 1/N). Le tome du 18 juillet avait déjà restreint l'énoncé et donné la version exacte par l'action locale.
 
