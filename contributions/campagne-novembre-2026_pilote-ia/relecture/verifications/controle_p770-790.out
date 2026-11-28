@@ -1,0 +1,6 @@
+somme signée non nulle : 0 / 729
+classes (somme non signée, étiquettes croissantes) : [243, 243, 243]
+tétraèdres à 4 faces triviales : 27 répartis par classe : [27, 0, 0]
+configurations dont la classe change selon la numérotation des sommets : 702 / 729 ; parmi les cohérentes : 0
+corr(L x, x) pour un bruit blanc sur graphe aléatoire de degré moyen 6 : 0.865  (attendu ~ 0.926)
+<psi|[X,L]|psi> (psi réel positif) : 1.14e-14
