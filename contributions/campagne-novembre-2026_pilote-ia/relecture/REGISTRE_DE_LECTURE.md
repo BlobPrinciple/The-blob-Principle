@@ -14,4 +14,4 @@ Parole de l'auteur (28 novembre, 6 h 29) : « Tu vas relire chaque master, les 3
 
 | Document | Pages | Lu | Notes |
 |---|---|---|---|
-| Master V346 complet | 1 918 | 1 à 475 | `NOTES_V346.md` |
+| Master V346 complet | 1 918 | 1 à 641 | `NOTES_V346.md` |
