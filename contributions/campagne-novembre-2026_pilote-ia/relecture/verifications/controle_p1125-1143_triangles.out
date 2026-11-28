@@ -1,0 +1,6 @@
+(1) Graphe géométrique 3D périodique, N = 20 000, trois graines
+  kappa visé 6.6 ; degré moyen mesuré 6.600 ; triangles par sommet 3.413 ± 0.034 ; kappa²·(15/32)/6 = 3.403 ; kappa²·(15/32)/2 = 10.209
+  kappa visé 8.0 ; degré moyen mesuré 8.012 ; triangles par sommet 5.028 ± 0.037 ; kappa²·(15/32)/6 = 5.000 ; kappa²·(15/32)/2 = 15.000
+(2) Chiffres du master
+  tri/arête 1,549 (p. 1111) × kappa/2 = 3,3  ->  5.112 triangles par sommet ; × 3 = 15.34 triangles incidents par sommet (le master écrit 15,33)
+  « tri/sommet » de la page 1139, mesuré dans le conteneur : 5,09 ; rapport 15,33 / 5,09 = 3.01

@@ -1,0 +1,9 @@
+N=800 graine 1 départ arêtes dans un tétraèdre : 1697, diagonale moyenne 6.04 ; arêtes dans des triangles seulement : 677, diagonale moyenne 3.32 ; arêtes pures : 266
+N=800 graine 1 Blob   arêtes dans un tétraèdre : 1125, diagonale moyenne 14.93 ; arêtes dans des triangles seulement : 636, diagonale moyenne 3.23 ; arêtes pures : 879
+   rapport Blob / départ sur les arêtes de tétraèdre : 2.47
+N=800 graine 2 départ arêtes dans un tétraèdre : 1827, diagonale moyenne 5.97 ; arêtes dans des triangles seulement : 598, diagonale moyenne 3.31 ; arêtes pures : 215
+N=800 graine 2 Blob   arêtes dans un tétraèdre : 1114, diagonale moyenne 11.93 ; arêtes dans des triangles seulement : 803, diagonale moyenne 3.33 ; arêtes pures : 723
+   rapport Blob / départ sur les arêtes de tétraèdre : 2.00
+N=2000 graine 1 départ arêtes dans un tétraèdre : 4583, diagonale moyenne 5.93 ; arêtes dans des triangles seulement : 1465, diagonale moyenne 3.31 ; arêtes pures : 552
+N=2000 graine 1 Blob   arêtes dans un tétraèdre : 2576, diagonale moyenne 13.35 ; arêtes dans des triangles seulement : 2007, diagonale moyenne 3.30 ; arêtes pures : 2017
+   rapport Blob / départ sur les arêtes de tétraèdre : 2.25
