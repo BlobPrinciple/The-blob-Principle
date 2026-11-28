@@ -1,0 +1,21 @@
+(1) Les six tétraèdres de Kuhn du cube unité
+    chemin (0, 1, 2) -> circumcentre [0.5 0.5 0.5]
+    chemin (0, 2, 1) -> circumcentre [0.5 0.5 0.5]
+    chemin (1, 0, 2) -> circumcentre [0.5 0.5 0.5]
+    chemin (1, 2, 0) -> circumcentre [0.5 0.5 0.5]
+    chemin (2, 0, 1) -> circumcentre [0.5 0.5 0.5]
+    chemin (2, 1, 0) -> circumcentre [0.5 0.5 0.5]
+    écart maximal entre les six circumcentres : 0.0
+    arêtes du cube triangulé : 12 d'axe, 6 diagonales de face, 1 diagonale de corps
+    triangles : 6 internes (deux tétraèdres du même cube), 12 sur les faces du cube
+    Conséquence : arête duale d'un triangle interne = distance entre deux circumcentres confondus = 0 ;
+    face duale d'une diagonale = polygone dont les sommets occupent au plus deux positions = aire 0 ;
+    seules les arêtes d'axe (carré dual d'aire a^2) et les triangles des faces (segment dual a) ont une étoile non nulle.
+
+(2) Laplacien scalaire du réseau cubique infini : dimension spectrale exacte
+    t/a^2    d_s exact   « régulier » du master   « Blob » du master
+    0.0063      0.075          0.095                0.700
+    0.0310      0.360          0.428                1.400
+    0.1021      1.101          1.051                2.040
+    0.3367      2.752          1.127                2.848
+    maximum : d_s = 3.653 à t/a^2 = 0.851 ; d_s(10) = 3.040 ; d_s(100) = 3.004 ; limite 3
