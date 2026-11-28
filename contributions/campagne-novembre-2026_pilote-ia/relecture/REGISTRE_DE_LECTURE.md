@@ -50,3 +50,5 @@ Le dépôt contient donc **13 masters et 4 manifestes**, non 7. L'index du corpu
 | Document | Pages | Lu | Notes |
 |---|---|---|---|
 | Master V346 complet | 1 918 | 1 à 1 918 (complet) | `NOTES_V346.md` |
+| 260 phrases des masters V111 à V230 absentes de V346 | 260 lignes | 1 à 260 (complet) | `NOTES_AUTRES_MASTERS.md` |
+| Armature canonique V347.1 (9 septembre) | 29 | 1 à 29 (complet) | `NOTES_AUTRES_MASTERS.md` |
